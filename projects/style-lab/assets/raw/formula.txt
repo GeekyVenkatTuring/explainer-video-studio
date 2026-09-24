@@ -1,0 +1,5 @@
+file '/Users/appuram/Developer/explainer-forge/projects/style-lab/assets/raw/formula_0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/style-lab/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/style-lab/assets/raw/formula_1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/style-lab/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/style-lab/assets/raw/formula_2.wav'

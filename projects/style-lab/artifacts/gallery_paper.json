@@ -1,0 +1,257 @@
+{
+ "pack": "paper",
+ "beats": [
+  {
+   "id": "g0",
+   "kind": "title",
+   "dur": 6.0,
+   "props": {
+    "kicker": "Personal finance \u00b7 explained",
+    "title": "The Magic of\nCompounding",
+    "subtitle": "why time beats timing"
+   }
+  },
+  {
+   "id": "g1",
+   "kind": "divider",
+   "dur": 6.0,
+   "props": {
+    "n": 2,
+    "total": 4,
+    "title": "How it grows",
+    "sub": "interest on interest"
+   }
+  },
+  {
+   "id": "g2",
+   "kind": "statement",
+   "dur": 6.0,
+   "props": {
+    "kicker": "The key idea",
+    "lines": [
+     "You earn returns",
+     "on your returns."
+    ],
+    "accent": 1,
+    "big": "\u20b91 \u2192 \u20b99.65",
+    "tex": "(1.12)^{20} \\approx 9.65",
+    "sub": "\u20b91 at 12% a year, left alone for 20 years (computed)"
+   }
+  },
+  {
+   "id": "g3",
+   "kind": "list",
+   "dur": 6.0,
+   "props": {
+    "kicker": "Three levers you control",
+    "title": "What makes it work",
+    "items": [
+     {
+      "h": "Start early",
+      "d": "time does the heavy lifting"
+     },
+     {
+      "h": "Stay invested",
+      "d": "every exit resets the clock"
+     },
+     {
+      "h": "Reinvest",
+      "d": "let the returns earn returns"
+     },
+     {
+      "h": "Keep costs low",
+      "d": "fees compound too"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g4",
+   "kind": "flow",
+   "dur": 6.0,
+   "props": {
+    "kicker": "One cycle, repeated",
+    "title": "How a SIP compounds",
+    "steps": [
+     {
+      "h": "Invest",
+      "d": "a fixed amount each month"
+     },
+     {
+      "h": "Earn",
+      "d": "returns on the whole pot"
+     },
+     {
+      "h": "Reinvest",
+      "d": "returns join the principal"
+     },
+     {
+      "h": "Grow",
+      "d": "a bigger base next month"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g5",
+   "kind": "chart",
+   "dur": 6.0,
+   "props": {
+    "kicker": "\u20b91 at 12% a year",
+    "title": "The curve bends upward",
+    "type": "line",
+    "unit": "",
+    "points": [
+     {
+      "x": 0,
+      "y": 1.0
+     },
+     {
+      "x": 1,
+      "y": 1.12
+     },
+     {
+      "x": 2,
+      "y": 1.25
+     },
+     {
+      "x": 3,
+      "y": 1.4
+     },
+     {
+      "x": 4,
+      "y": 1.57
+     },
+     {
+      "x": 5,
+      "y": 1.76
+     },
+     {
+      "x": 6,
+      "y": 1.97
+     },
+     {
+      "x": 7,
+      "y": 2.21
+     },
+     {
+      "x": 8,
+      "y": 2.48
+     },
+     {
+      "x": 9,
+      "y": 2.77
+     },
+     {
+      "x": 10,
+      "y": 3.11
+     },
+     {
+      "x": 11,
+      "y": 3.48
+     },
+     {
+      "x": 12,
+      "y": 3.9
+     },
+     {
+      "x": 13,
+      "y": 4.36
+     },
+     {
+      "x": 14,
+      "y": 4.89
+     },
+     {
+      "x": 15,
+      "y": 5.47
+     },
+     {
+      "x": 16,
+      "y": 6.13
+     },
+     {
+      "x": 17,
+      "y": 6.87
+     },
+     {
+      "x": 18,
+      "y": 7.69
+     },
+     {
+      "x": 19,
+      "y": 8.61
+     },
+     {
+      "x": 20,
+      "y": 9.65
+     }
+    ],
+    "note": "value of \u20b91, computed as 1.12^t",
+    "marks": [
+     {
+      "x": 6,
+      "label": "\u00d71.97"
+     },
+     {
+      "x": 12,
+      "label": "\u00d73.9"
+     },
+     {
+      "x": 18,
+      "label": "\u00d77.69"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g6",
+   "kind": "versus",
+   "dur": 6.0,
+   "props": {
+    "kicker": "\u20b91 lakh \u00b7 12% \u00b7 20 years",
+    "title": "Simple vs compound",
+    "winner": "right",
+    "left": {
+     "h": "Simple",
+     "items": [
+      "interest on principal only",
+      "ends at \u20b93.4 lakh",
+      "a straight line"
+     ]
+    },
+    "right": {
+     "h": "Compound",
+     "items": [
+      "interest on interest",
+      "ends at \u20b99.65 lakh",
+      "a curve that bends up"
+     ]
+    }
+   }
+  },
+  {
+   "id": "g7",
+   "kind": "recap",
+   "dur": 6.0,
+   "props": {
+    "title": "Compounding in one breath",
+    "items": [
+     "Returns earn returns",
+     "Time matters more than timing",
+     "Stay invested, reinvest, keep fees low",
+     "\u20b91 \u2192 \u20b99.65 in 20 years at 12%"
+    ],
+    "closer": "Start early. Then wait."
+   }
+  }
+ ],
+ "captions": [],
+ "label": true,
+ "meta": {
+  "brand": "The Money Edit",
+  "project": "Compounding",
+  "issue": "No. 12 \u00b7 September 2026",
+  "code": "EF-012"
+ }
+}

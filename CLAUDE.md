@@ -27,6 +27,9 @@ research — it is the source directory + data-validation protocol (exact 2-deci
 figures, triangulation on conflicts, benchmark naming, dateline checks, disclaimer).
 A wrong number in a finance video misleads real investors and is the worst defect
 this repo can ship; the pre-render numbers checklist in that skill is a hard gate.**
+**Also read `skills/14-style-packs.md` BEFORE designing — pick a style pack
+(editorial / blueprint / kinetic …) that matches the content instead of defaulting to the
+old dark primitives look; the monotony of one look for every video is a known problem.**
 If you have not read a skill, do not perform its step.
 
 ## Hard rules (violations = defects, all verified at QA)

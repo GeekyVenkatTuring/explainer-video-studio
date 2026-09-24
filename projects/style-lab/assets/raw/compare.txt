@@ -1,0 +1,5 @@
+file '/Users/appuram/Developer/explainer-forge/projects/style-lab/assets/raw/compare_0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/style-lab/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/style-lab/assets/raw/compare_1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/style-lab/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/style-lab/assets/raw/compare_2.wav'
