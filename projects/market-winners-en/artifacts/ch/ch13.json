@@ -1,0 +1,234 @@
+{
+ "cuts": [
+  {
+   "id": "d13",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 13.752,
+   "props": {
+    "n": 13,
+    "title": "Spot the Fake \u2014 Part 1",
+    "sub": "The finfluencer machine SEBI is dismantling",
+    "color": "#FB7185",
+    "total": 14,
+    "dur": 14.252
+   }
+  },
+  {
+   "id": "k13a",
+   "type": "mw_case",
+   "in_seconds": 14.252,
+   "out_seconds": 47.333,
+   "props": {
+    "name": "Avadhut Sathe",
+    "alias": "Sathe Trading Academy (ASTA)",
+    "order": "4 Dec 2025",
+    "amount": "Rs 546.16 cr",
+    "amountLabel": "Disgorge",
+    "charge": "Collected ~Rs 601 cr from over 3.37 lakh people under the cover of 'education' \u2014 SEBI called it unregistered advisory built on selective profit-showcasing, and ordered Rs 546.16 cr disgorged.",
+    "lesson": "\"Education\" that shows you only the winning trades is not education.",
+    "dur": 33.581
+   }
+  },
+  {
+   "id": "k13b",
+   "type": "mw_case",
+   "in_seconds": 47.833,
+   "out_seconds": 75.062,
+   "props": {
+    "name": "Asmita Patel",
+    "alias": "The She-Wolf of the stock market",
+    "order": "6 Feb 2025",
+    "amount": "Rs 53.67 cr",
+    "amountLabel": "Impounded",
+    "charge": "Marketed 'courses' that were really unregistered buy/sell advisory; of ~Rs 104 cr earned, SEBI impounded Rs 53.67 cr and barred her and five entities.",
+    "lesson": "A glamorous nickname is a marketing budget, not a track record.",
+    "dur": 27.729
+   }
+  },
+  {
+   "id": "k13c",
+   "type": "mw_case",
+   "in_seconds": 75.562,
+   "out_seconds": 103.313,
+   "props": {
+    "name": "Md Nasiruddin Ansari",
+    "alias": "Baap of Chart",
+    "order": "Oct 2023",
+    "amount": "Rs 17.2 cr",
+    "amountLabel": "Disgorge",
+    "charge": "Built a massive following as a chart 'guru', then sold unregistered advisory; SEBI barred him and ordered Rs 17.2 cr disgorged.",
+    "lesson": "A catchy handle and a big following prove reach \u2014 never returns.",
+    "dur": 28.251
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.809,
+   "Chapter thirteen. Now the other half of the story"
+  ],
+  [
+   3.809,
+   5.079,
+   "\u2014 the fakes."
+  ],
+  [
+   5.71,
+   9.52,
+   "Because while real investors were quietly\ncompounding, an entire"
+  ],
+  [
+   9.52,
+   13.329,
+   "industry was manufacturing fake success. And the\nregulator has"
+  ],
+  [
+   13.329,
+   13.752,
+   "receipts."
+  ],
+  [
+   14.252,
+   15.819,
+   "Start with the biggest."
+  ],
+  [
+   16.45,
+   19.976,
+   "In December twenty twenty-five, SEBI came down on\nAvadhut"
+  ],
+  [
+   19.976,
+   21.935,
+   "Sathe and his trading academy."
+  ],
+  [
+   22.566,
+   26.092,
+   "Over eight years, they had collected around six\nhundred"
+  ],
+  [
+   26.092,
+   29.617,
+   "and one crore rupees from more than three lakh"
+  ],
+  [
+   29.617,
+   32.359,
+   "people \u2014 under the banner of 'education'."
+  ],
+  [
+   32.991,
+   36.517,
+   "SEBI found it was really unregistered investment\nadvice, built"
+  ],
+  [
+   36.517,
+   40.042,
+   "on showing off selective wins \u2014 and ordered five"
+  ],
+  [
+   40.042,
+   42.001,
+   "hundred and forty-six crore disgorged."
+  ],
+  [
+   42.632,
+   46.158,
+   "Read that number again. That is the size of"
+  ],
+  [
+   46.158,
+   47.333,
+   "the fake-success industry."
+  ],
+  [
+   47.833,
+   51.452,
+   "Then there's Asmita Patel, who branded herself the\nshe-wolf"
+  ],
+  [
+   51.452,
+   54.669,
+   "of the stock market and the options queen."
+  ],
+  [
+   55.301,
+   58.116,
+   "SEBI barred her in February twenty twenty-five."
+  ],
+  [
+   58.747,
+   62.366,
+   "Her 'courses', the regulator said, were really\nunregistered buy-and-sell"
+  ],
+  [
+   62.366,
+   65.986,
+   "advice \u2014 and of roughly one hundred and four"
+  ],
+  [
+   65.986,
+   69.605,
+   "crore rupees earned, more than fifty-three crore was\nimpounded."
+  ],
+  [
+   70.236,
+   73.856,
+   "The glamorous nickname wasn't a track record. It was"
+  ],
+  [
+   73.856,
+   75.062,
+   "a marketing budget."
+  ],
+  [
+   75.562,
+   79.315,
+   "And the one that named the whole genre \u2014"
+  ],
+  [
+   79.315,
+   82.652,
+   "'Baap of Chart', the self-styled father of charts."
+  ],
+  [
+   83.283,
+   87.037,
+   "A huge following, a confident persona, and, SEBI\nfound,"
+  ],
+  [
+   87.037,
+   90.79,
+   "unregistered advisory underneath \u2014 with seventeen\ncrore rupees ordered"
+  ],
+  [
+   90.79,
+   92.875,
+   "disgorged back in twenty twenty-three."
+  ],
+  [
+   93.507,
+   95.175,
+   "Three names, one template."
+  ],
+  [
+   95.806,
+   99.56,
+   "Build an audience, promise the dream, sell the\ncourse."
+  ],
+  [
+   99.56,
+   103.313,
+   "The trading profits were never the business. You\nwere."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch13.wav",
+   "volume": 1.0
+  }
+ }
+}

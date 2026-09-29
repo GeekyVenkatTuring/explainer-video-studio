@@ -1,0 +1,3616 @@
+{
+  "cuts": [
+    {
+      "id": "title",
+      "type": "aae_title",
+      "in_seconds": 0.0,
+      "out_seconds": 20.574,
+      "props": {
+        "dur": 21.074
+      }
+    },
+    {
+      "id": "part1",
+      "type": "aae_divider",
+      "in_seconds": 21.074,
+      "out_seconds": 27.194,
+      "props": {
+        "part": 1,
+        "title": "Foundations",
+        "focus": "Orient the discipline, runtime, security, and visibility.",
+        "dur": 6.62
+      }
+    },
+    {
+      "id": "ch01_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 27.694,
+      "out_seconds": 74.986,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "foundation",
+        "dur": 47.792
+      }
+    },
+    {
+      "id": "ch01_system",
+      "type": "aae_chapter",
+      "in_seconds": 75.486,
+      "out_seconds": 115.174,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "system",
+        "dur": 40.188
+      }
+    },
+    {
+      "id": "ch01_practice",
+      "type": "aae_chapter",
+      "in_seconds": 115.674,
+      "out_seconds": 161.659,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "practice",
+        "dur": 46.485
+      }
+    },
+    {
+      "id": "ch01_failure",
+      "type": "aae_chapter",
+      "in_seconds": 162.159,
+      "out_seconds": 200.504,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "failure",
+        "dur": 38.845
+      }
+    },
+    {
+      "id": "ch01_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 201.004,
+      "out_seconds": 245.034,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "evaluation",
+        "dur": 44.529
+      }
+    },
+    {
+      "id": "ch01_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 245.534,
+      "out_seconds": 283.09,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "handoff",
+        "dur": 38.056
+      }
+    },
+    {
+      "id": "ch01_application",
+      "type": "aae_chapter",
+      "in_seconds": 283.59,
+      "out_seconds": 333.342,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "application",
+        "dur": 50.252
+      }
+    },
+    {
+      "id": "ch02_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 333.842,
+      "out_seconds": 379.424,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "foundation",
+        "dur": 46.082
+      }
+    },
+    {
+      "id": "ch02_system",
+      "type": "aae_chapter",
+      "in_seconds": 379.924,
+      "out_seconds": 417.48,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "system",
+        "dur": 38.056
+      }
+    },
+    {
+      "id": "ch02_practice",
+      "type": "aae_chapter",
+      "in_seconds": 417.98,
+      "out_seconds": 463.623,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "practice",
+        "dur": 46.144
+      }
+    },
+    {
+      "id": "ch02_failure",
+      "type": "aae_chapter",
+      "in_seconds": 464.123,
+      "out_seconds": 503.495,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "failure",
+        "dur": 39.872
+      }
+    },
+    {
+      "id": "ch02_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 503.995,
+      "out_seconds": 546.499,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "evaluation",
+        "dur": 43.003
+      }
+    },
+    {
+      "id": "ch02_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 546.999,
+      "out_seconds": 583.554,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "handoff",
+        "dur": 37.056
+      }
+    },
+    {
+      "id": "ch02_application",
+      "type": "aae_chapter",
+      "in_seconds": 584.054,
+      "out_seconds": 632.386,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "application",
+        "dur": 48.831
+      }
+    },
+    {
+      "id": "ch03_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 632.886,
+      "out_seconds": 678.889,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "foundation",
+        "dur": 46.503
+      }
+    },
+    {
+      "id": "ch03_system",
+      "type": "aae_chapter",
+      "in_seconds": 679.389,
+      "out_seconds": 717.787,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "system",
+        "dur": 38.898
+      }
+    },
+    {
+      "id": "ch03_practice",
+      "type": "aae_chapter",
+      "in_seconds": 718.287,
+      "out_seconds": 764.3,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "practice",
+        "dur": 46.513
+      }
+    },
+    {
+      "id": "ch03_failure",
+      "type": "aae_chapter",
+      "in_seconds": 764.8,
+      "out_seconds": 803.539,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "failure",
+        "dur": 39.24
+      }
+    },
+    {
+      "id": "ch03_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 804.039,
+      "out_seconds": 846.885,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "evaluation",
+        "dur": 43.346
+      }
+    },
+    {
+      "id": "ch03_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 847.385,
+      "out_seconds": 884.756,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "handoff",
+        "dur": 37.871
+      }
+    },
+    {
+      "id": "ch03_application",
+      "type": "aae_chapter",
+      "in_seconds": 885.256,
+      "out_seconds": 934.114,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "application",
+        "dur": 49.358
+      }
+    },
+    {
+      "id": "ch04_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 934.614,
+      "out_seconds": 980.327,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "foundation",
+        "dur": 46.213
+      }
+    },
+    {
+      "id": "ch04_system",
+      "type": "aae_chapter",
+      "in_seconds": 980.827,
+      "out_seconds": 1019.358,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "system",
+        "dur": 39.03
+      }
+    },
+    {
+      "id": "ch04_practice",
+      "type": "aae_chapter",
+      "in_seconds": 1019.858,
+      "out_seconds": 1066.057,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "practice",
+        "dur": 46.699
+      }
+    },
+    {
+      "id": "ch04_failure",
+      "type": "aae_chapter",
+      "in_seconds": 1066.557,
+      "out_seconds": 1105.429,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "failure",
+        "dur": 39.372
+      }
+    },
+    {
+      "id": "ch04_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 1105.929,
+      "out_seconds": 1148.906,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "evaluation",
+        "dur": 43.477
+      }
+    },
+    {
+      "id": "ch04_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 1149.406,
+      "out_seconds": 1186.725,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "handoff",
+        "dur": 37.819
+      }
+    },
+    {
+      "id": "ch04_application",
+      "type": "aae_chapter",
+      "in_seconds": 1187.225,
+      "out_seconds": 1235.635,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "application",
+        "dur": 48.91
+      }
+    },
+    {
+      "id": "part2",
+      "type": "aae_divider",
+      "in_seconds": 1236.135,
+      "out_seconds": 1241.574,
+      "props": {
+        "part": 2,
+        "title": "Control Planes",
+        "focus": "Protocols, governance, knowledge, and context.",
+        "dur": 5.939
+      }
+    },
+    {
+      "id": "ch05_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 1242.074,
+      "out_seconds": 1287.682,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "foundation",
+        "dur": 46.108
+      }
+    },
+    {
+      "id": "ch05_system",
+      "type": "aae_chapter",
+      "in_seconds": 1288.182,
+      "out_seconds": 1326.37,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "system",
+        "dur": 38.688
+      }
+    },
+    {
+      "id": "ch05_practice",
+      "type": "aae_chapter",
+      "in_seconds": 1326.87,
+      "out_seconds": 1373.844,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "practice",
+        "dur": 47.474
+      }
+    },
+    {
+      "id": "ch05_failure",
+      "type": "aae_chapter",
+      "in_seconds": 1374.344,
+      "out_seconds": 1413.558,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "failure",
+        "dur": 39.714
+      }
+    },
+    {
+      "id": "ch05_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 1414.058,
+      "out_seconds": 1457.904,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "evaluation",
+        "dur": 44.346
+      }
+    },
+    {
+      "id": "ch05_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 1458.404,
+      "out_seconds": 1495.513,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "handoff",
+        "dur": 37.609
+      }
+    },
+    {
+      "id": "ch05_application",
+      "type": "aae_chapter",
+      "in_seconds": 1496.013,
+      "out_seconds": 1545.29,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "application",
+        "dur": 49.777
+      }
+    },
+    {
+      "id": "ch06_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 1545.79,
+      "out_seconds": 1591.425,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "foundation",
+        "dur": 46.135
+      }
+    },
+    {
+      "id": "ch06_system",
+      "type": "aae_chapter",
+      "in_seconds": 1591.925,
+      "out_seconds": 1630.245,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "system",
+        "dur": 38.819
+      }
+    },
+    {
+      "id": "ch06_practice",
+      "type": "aae_chapter",
+      "in_seconds": 1630.745,
+      "out_seconds": 1676.969,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "practice",
+        "dur": 46.724
+      }
+    },
+    {
+      "id": "ch06_failure",
+      "type": "aae_chapter",
+      "in_seconds": 1677.469,
+      "out_seconds": 1716.525,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "failure",
+        "dur": 39.556
+      }
+    },
+    {
+      "id": "ch06_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 1717.025,
+      "out_seconds": 1760.633,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "evaluation",
+        "dur": 44.109
+      }
+    },
+    {
+      "id": "ch06_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 1761.133,
+      "out_seconds": 1798.057,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "handoff",
+        "dur": 37.424
+      }
+    },
+    {
+      "id": "ch06_application",
+      "type": "aae_chapter",
+      "in_seconds": 1798.557,
+      "out_seconds": 1846.918,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "application",
+        "dur": 48.86
+      }
+    },
+    {
+      "id": "ch07_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 1847.418,
+      "out_seconds": 1891.737,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "foundation",
+        "dur": 44.819
+      }
+    },
+    {
+      "id": "ch07_system",
+      "type": "aae_chapter",
+      "in_seconds": 1892.237,
+      "out_seconds": 1929.292,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "system",
+        "dur": 37.555
+      }
+    },
+    {
+      "id": "ch07_practice",
+      "type": "aae_chapter",
+      "in_seconds": 1929.792,
+      "out_seconds": 1976.04,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "practice",
+        "dur": 46.748
+      }
+    },
+    {
+      "id": "ch07_failure",
+      "type": "aae_chapter",
+      "in_seconds": 1976.54,
+      "out_seconds": 2015.938,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "failure",
+        "dur": 39.898
+      }
+    },
+    {
+      "id": "ch07_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 2016.438,
+      "out_seconds": 2059.204,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "evaluation",
+        "dur": 43.266
+      }
+    },
+    {
+      "id": "ch07_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 2059.704,
+      "out_seconds": 2096.155,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "handoff",
+        "dur": 36.951
+      }
+    },
+    {
+      "id": "ch07_application",
+      "type": "aae_chapter",
+      "in_seconds": 2096.655,
+      "out_seconds": 2143.723,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "application",
+        "dur": 47.568
+      }
+    },
+    {
+      "id": "ch08_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 2144.223,
+      "out_seconds": 2187.647,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "foundation",
+        "dur": 43.924
+      }
+    },
+    {
+      "id": "ch08_system",
+      "type": "aae_chapter",
+      "in_seconds": 2188.147,
+      "out_seconds": 2225.387,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "system",
+        "dur": 37.74
+      }
+    },
+    {
+      "id": "ch08_practice",
+      "type": "aae_chapter",
+      "in_seconds": 2225.887,
+      "out_seconds": 2272.32,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "practice",
+        "dur": 46.933
+      }
+    },
+    {
+      "id": "ch08_failure",
+      "type": "aae_chapter",
+      "in_seconds": 2272.82,
+      "out_seconds": 2310.507,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "failure",
+        "dur": 38.187
+      }
+    },
+    {
+      "id": "ch08_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 2311.007,
+      "out_seconds": 2354.01,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "evaluation",
+        "dur": 43.503
+      }
+    },
+    {
+      "id": "ch08_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 2354.51,
+      "out_seconds": 2391.356,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "handoff",
+        "dur": 37.346
+      }
+    },
+    {
+      "id": "ch08_application",
+      "type": "aae_chapter",
+      "in_seconds": 2391.856,
+      "out_seconds": 2438.815,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "application",
+        "dur": 47.459
+      }
+    },
+    {
+      "id": "part3",
+      "type": "aae_divider",
+      "in_seconds": 2439.315,
+      "out_seconds": 2445.513,
+      "props": {
+        "part": 3,
+        "title": "Cognitive Systems",
+        "focus": "Memory, reasoning, models, orchestration, and design.",
+        "dur": 6.698
+      }
+    },
+    {
+      "id": "ch09_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 2446.013,
+      "out_seconds": 2490.175,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "foundation",
+        "dur": 44.662
+      }
+    },
+    {
+      "id": "ch09_system",
+      "type": "aae_chapter",
+      "in_seconds": 2490.675,
+      "out_seconds": 2528.205,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "system",
+        "dur": 38.03
+      }
+    },
+    {
+      "id": "ch09_practice",
+      "type": "aae_chapter",
+      "in_seconds": 2528.705,
+      "out_seconds": 2575.272,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "practice",
+        "dur": 47.067
+      }
+    },
+    {
+      "id": "ch09_failure",
+      "type": "aae_chapter",
+      "in_seconds": 2575.772,
+      "out_seconds": 2614.722,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "failure",
+        "dur": 39.45
+      }
+    },
+    {
+      "id": "ch09_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 2615.222,
+      "out_seconds": 2658.515,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "evaluation",
+        "dur": 43.793
+      }
+    },
+    {
+      "id": "ch09_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 2659.015,
+      "out_seconds": 2695.808,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "handoff",
+        "dur": 37.293
+      }
+    },
+    {
+      "id": "ch09_application",
+      "type": "aae_chapter",
+      "in_seconds": 2696.308,
+      "out_seconds": 2743.85,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "application",
+        "dur": 48.043
+      }
+    },
+    {
+      "id": "ch10_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 2744.35,
+      "out_seconds": 2790.354,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "foundation",
+        "dur": 46.503
+      }
+    },
+    {
+      "id": "ch10_system",
+      "type": "aae_chapter",
+      "in_seconds": 2790.854,
+      "out_seconds": 2828.936,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "system",
+        "dur": 38.583
+      }
+    },
+    {
+      "id": "ch10_practice",
+      "type": "aae_chapter",
+      "in_seconds": 2829.436,
+      "out_seconds": 2876.637,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "practice",
+        "dur": 47.701
+      }
+    },
+    {
+      "id": "ch10_failure",
+      "type": "aae_chapter",
+      "in_seconds": 2877.137,
+      "out_seconds": 2915.799,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "failure",
+        "dur": 39.161
+      }
+    },
+    {
+      "id": "ch10_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 2916.299,
+      "out_seconds": 2960.539,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "evaluation",
+        "dur": 44.74
+      }
+    },
+    {
+      "id": "ch10_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 2961.039,
+      "out_seconds": 2997.779,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "handoff",
+        "dur": 37.24
+      }
+    },
+    {
+      "id": "ch10_application",
+      "type": "aae_chapter",
+      "in_seconds": 2998.279,
+      "out_seconds": 3047.793,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "application",
+        "dur": 50.014
+      }
+    },
+    {
+      "id": "ch11_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 3048.293,
+      "out_seconds": 3093.165,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "foundation",
+        "dur": 45.372
+      }
+    },
+    {
+      "id": "ch11_system",
+      "type": "aae_chapter",
+      "in_seconds": 3093.665,
+      "out_seconds": 3131.8,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "system",
+        "dur": 38.635
+      }
+    },
+    {
+      "id": "ch11_practice",
+      "type": "aae_chapter",
+      "in_seconds": 3132.3,
+      "out_seconds": 3179.181,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "practice",
+        "dur": 47.381
+      }
+    },
+    {
+      "id": "ch11_failure",
+      "type": "aae_chapter",
+      "in_seconds": 3179.681,
+      "out_seconds": 3218.842,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "failure",
+        "dur": 39.661
+      }
+    },
+    {
+      "id": "ch11_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 3219.342,
+      "out_seconds": 3262.634,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "evaluation",
+        "dur": 43.793
+      }
+    },
+    {
+      "id": "ch11_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 3263.134,
+      "out_seconds": 3300.559,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "handoff",
+        "dur": 37.925
+      }
+    },
+    {
+      "id": "ch11_application",
+      "type": "aae_chapter",
+      "in_seconds": 3301.059,
+      "out_seconds": 3349.522,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "application",
+        "dur": 48.963
+      }
+    },
+    {
+      "id": "ch12_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 3350.022,
+      "out_seconds": 3395.026,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "foundation",
+        "dur": 45.503
+      }
+    },
+    {
+      "id": "ch12_system",
+      "type": "aae_chapter",
+      "in_seconds": 3395.526,
+      "out_seconds": 3433.187,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "system",
+        "dur": 38.161
+      }
+    },
+    {
+      "id": "ch12_practice",
+      "type": "aae_chapter",
+      "in_seconds": 3433.687,
+      "out_seconds": 3480.128,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "practice",
+        "dur": 46.941
+      }
+    },
+    {
+      "id": "ch12_failure",
+      "type": "aae_chapter",
+      "in_seconds": 3480.628,
+      "out_seconds": 3519.185,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "failure",
+        "dur": 39.056
+      }
+    },
+    {
+      "id": "ch12_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 3519.685,
+      "out_seconds": 3562.793,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "evaluation",
+        "dur": 43.608
+      }
+    },
+    {
+      "id": "ch12_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 3563.293,
+      "out_seconds": 3600.481,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "handoff",
+        "dur": 37.688
+      }
+    },
+    {
+      "id": "ch12_application",
+      "type": "aae_chapter",
+      "in_seconds": 3600.981,
+      "out_seconds": 3649.049,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "application",
+        "dur": 48.568
+      }
+    },
+    {
+      "id": "ch13_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 3649.549,
+      "out_seconds": 3694.957,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "foundation",
+        "dur": 45.908
+      }
+    },
+    {
+      "id": "ch13_system",
+      "type": "aae_chapter",
+      "in_seconds": 3695.457,
+      "out_seconds": 3733.249,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "system",
+        "dur": 38.293
+      }
+    },
+    {
+      "id": "ch13_practice",
+      "type": "aae_chapter",
+      "in_seconds": 3733.749,
+      "out_seconds": 3779.353,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "practice",
+        "dur": 46.104
+      }
+    },
+    {
+      "id": "ch13_failure",
+      "type": "aae_chapter",
+      "in_seconds": 3779.853,
+      "out_seconds": 3818.54,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "failure",
+        "dur": 39.188
+      }
+    },
+    {
+      "id": "ch13_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 3819.04,
+      "out_seconds": 3861.833,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "evaluation",
+        "dur": 43.292
+      }
+    },
+    {
+      "id": "ch13_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 3862.333,
+      "out_seconds": 3899.151,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "handoff",
+        "dur": 37.319
+      }
+    },
+    {
+      "id": "ch13_application",
+      "type": "aae_chapter",
+      "in_seconds": 3899.651,
+      "out_seconds": 3947.72,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "application",
+        "dur": 48.568
+      }
+    },
+    {
+      "id": "part4",
+      "type": "aae_divider",
+      "in_seconds": 3948.22,
+      "out_seconds": 3955.024,
+      "props": {
+        "part": 4,
+        "title": "Trust in Use",
+        "focus": "UX, integration, cognition, trust, operations, and quality.",
+        "dur": 7.304
+      }
+    },
+    {
+      "id": "ch14_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 3955.524,
+      "out_seconds": 4000.895,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "foundation",
+        "dur": 45.871
+      }
+    },
+    {
+      "id": "ch14_system",
+      "type": "aae_chapter",
+      "in_seconds": 4001.395,
+      "out_seconds": 4039.346,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "system",
+        "dur": 38.45
+      }
+    },
+    {
+      "id": "ch14_practice",
+      "type": "aae_chapter",
+      "in_seconds": 4039.846,
+      "out_seconds": 4085.581,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "practice",
+        "dur": 46.235
+      }
+    },
+    {
+      "id": "ch14_failure",
+      "type": "aae_chapter",
+      "in_seconds": 4086.081,
+      "out_seconds": 4124.637,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "failure",
+        "dur": 39.056
+      }
+    },
+    {
+      "id": "ch14_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 4125.137,
+      "out_seconds": 4167.667,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "evaluation",
+        "dur": 43.03
+      }
+    },
+    {
+      "id": "ch14_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 4168.167,
+      "out_seconds": 4205.144,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "handoff",
+        "dur": 37.477
+      }
+    },
+    {
+      "id": "ch14_application",
+      "type": "aae_chapter",
+      "in_seconds": 4205.644,
+      "out_seconds": 4253.607,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "application",
+        "dur": 48.463
+      }
+    },
+    {
+      "id": "ch15_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 4254.107,
+      "out_seconds": 4300.584,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "foundation",
+        "dur": 46.977
+      }
+    },
+    {
+      "id": "ch15_system",
+      "type": "aae_chapter",
+      "in_seconds": 4301.084,
+      "out_seconds": 4338.982,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "system",
+        "dur": 38.398
+      }
+    },
+    {
+      "id": "ch15_practice",
+      "type": "aae_chapter",
+      "in_seconds": 4339.482,
+      "out_seconds": 4385.282,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "practice",
+        "dur": 46.3
+      }
+    },
+    {
+      "id": "ch15_failure",
+      "type": "aae_chapter",
+      "in_seconds": 4385.782,
+      "out_seconds": 4424.891,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "failure",
+        "dur": 39.609
+      }
+    },
+    {
+      "id": "ch15_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 4425.391,
+      "out_seconds": 4467.71,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "evaluation",
+        "dur": 42.819
+      }
+    },
+    {
+      "id": "ch15_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 4468.21,
+      "out_seconds": 4505.581,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "handoff",
+        "dur": 37.871
+      }
+    },
+    {
+      "id": "ch15_application",
+      "type": "aae_chapter",
+      "in_seconds": 4506.081,
+      "out_seconds": 4554.708,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "application",
+        "dur": 49.127
+      }
+    },
+    {
+      "id": "ch16_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 4555.208,
+      "out_seconds": 4599.527,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "foundation",
+        "dur": 44.819
+      }
+    },
+    {
+      "id": "ch16_system",
+      "type": "aae_chapter",
+      "in_seconds": 4600.027,
+      "out_seconds": 4637.321,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "system",
+        "dur": 37.793
+      }
+    },
+    {
+      "id": "ch16_practice",
+      "type": "aae_chapter",
+      "in_seconds": 4637.821,
+      "out_seconds": 4684.253,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "practice",
+        "dur": 46.932
+      }
+    },
+    {
+      "id": "ch16_failure",
+      "type": "aae_chapter",
+      "in_seconds": 4684.753,
+      "out_seconds": 4723.783,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "failure",
+        "dur": 39.53
+      }
+    },
+    {
+      "id": "ch16_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 4724.283,
+      "out_seconds": 4766.812,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "evaluation",
+        "dur": 43.03
+      }
+    },
+    {
+      "id": "ch16_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 4767.312,
+      "out_seconds": 4804.5,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "handoff",
+        "dur": 37.688
+      }
+    },
+    {
+      "id": "ch16_application",
+      "type": "aae_chapter",
+      "in_seconds": 4805.0,
+      "out_seconds": 4852.225,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "application",
+        "dur": 47.725
+      }
+    },
+    {
+      "id": "ch17_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 4852.725,
+      "out_seconds": 4898.176,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "foundation",
+        "dur": 45.951
+      }
+    },
+    {
+      "id": "ch17_system",
+      "type": "aae_chapter",
+      "in_seconds": 4898.676,
+      "out_seconds": 4936.258,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "system",
+        "dur": 38.082
+      }
+    },
+    {
+      "id": "ch17_practice",
+      "type": "aae_chapter",
+      "in_seconds": 4936.758,
+      "out_seconds": 4983.085,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "practice",
+        "dur": 46.827
+      }
+    },
+    {
+      "id": "ch17_failure",
+      "type": "aae_chapter",
+      "in_seconds": 4983.585,
+      "out_seconds": 5021.851,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "failure",
+        "dur": 38.766
+      }
+    },
+    {
+      "id": "ch17_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 5022.351,
+      "out_seconds": 5065.687,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "evaluation",
+        "dur": 43.837
+      }
+    },
+    {
+      "id": "ch17_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 5066.187,
+      "out_seconds": 5102.849,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "handoff",
+        "dur": 37.161
+      }
+    },
+    {
+      "id": "ch17_application",
+      "type": "aae_chapter",
+      "in_seconds": 5103.349,
+      "out_seconds": 5152.049,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "application",
+        "dur": 49.2
+      }
+    },
+    {
+      "id": "ch18_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 5152.549,
+      "out_seconds": 5197.763,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "foundation",
+        "dur": 45.714
+      }
+    },
+    {
+      "id": "ch18_system",
+      "type": "aae_chapter",
+      "in_seconds": 5198.263,
+      "out_seconds": 5236.292,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "system",
+        "dur": 38.529
+      }
+    },
+    {
+      "id": "ch18_practice",
+      "type": "aae_chapter",
+      "in_seconds": 5236.792,
+      "out_seconds": 5282.018,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "practice",
+        "dur": 45.726
+      }
+    },
+    {
+      "id": "ch18_failure",
+      "type": "aae_chapter",
+      "in_seconds": 5282.518,
+      "out_seconds": 5320.732,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "failure",
+        "dur": 38.714
+      }
+    },
+    {
+      "id": "ch18_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 5321.232,
+      "out_seconds": 5363.551,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "evaluation",
+        "dur": 42.819
+      }
+    },
+    {
+      "id": "ch18_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 5364.051,
+      "out_seconds": 5400.844,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "handoff",
+        "dur": 37.293
+      }
+    },
+    {
+      "id": "ch18_application",
+      "type": "aae_chapter",
+      "in_seconds": 5401.344,
+      "out_seconds": 5449.121,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "application",
+        "dur": 48.278
+      }
+    },
+    {
+      "id": "ch19_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 5449.621,
+      "out_seconds": 5495.625,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "foundation",
+        "dur": 46.503
+      }
+    },
+    {
+      "id": "ch19_system",
+      "type": "aae_chapter",
+      "in_seconds": 5496.125,
+      "out_seconds": 5534.075,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "system",
+        "dur": 38.45
+      }
+    },
+    {
+      "id": "ch19_practice",
+      "type": "aae_chapter",
+      "in_seconds": 5534.575,
+      "out_seconds": 5580.534,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "practice",
+        "dur": 46.459
+      }
+    },
+    {
+      "id": "ch19_failure",
+      "type": "aae_chapter",
+      "in_seconds": 5581.034,
+      "out_seconds": 5619.642,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "failure",
+        "dur": 39.108
+      }
+    },
+    {
+      "id": "ch19_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 5620.142,
+      "out_seconds": 5662.961,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "evaluation",
+        "dur": 43.319
+      }
+    },
+    {
+      "id": "ch19_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 5663.461,
+      "out_seconds": 5700.359,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "handoff",
+        "dur": 37.398
+      }
+    },
+    {
+      "id": "ch19_application",
+      "type": "aae_chapter",
+      "in_seconds": 5700.859,
+      "out_seconds": 5749.562,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "application",
+        "dur": 49.203
+      }
+    },
+    {
+      "id": "part5",
+      "type": "aae_divider",
+      "in_seconds": 5750.062,
+      "out_seconds": 5756.839,
+      "props": {
+        "part": 5,
+        "title": "Organizational Scale",
+        "focus": "Lifecycle, product, teams, maturity, and transformation.",
+        "dur": 7.277
+      }
+    },
+    {
+      "id": "ch20_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 5757.339,
+      "out_seconds": 5803.499,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "foundation",
+        "dur": 46.661
+      }
+    },
+    {
+      "id": "ch20_system",
+      "type": "aae_chapter",
+      "in_seconds": 5803.999,
+      "out_seconds": 5842.977,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "system",
+        "dur": 39.477
+      }
+    },
+    {
+      "id": "ch20_practice",
+      "type": "aae_chapter",
+      "in_seconds": 5843.477,
+      "out_seconds": 5890.13,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "practice",
+        "dur": 47.153
+      }
+    },
+    {
+      "id": "ch20_failure",
+      "type": "aae_chapter",
+      "in_seconds": 5890.63,
+      "out_seconds": 5930.554,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "failure",
+        "dur": 40.424
+      }
+    },
+    {
+      "id": "ch20_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 5931.054,
+      "out_seconds": 5975.32,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "evaluation",
+        "dur": 44.766
+      }
+    },
+    {
+      "id": "ch20_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 5975.82,
+      "out_seconds": 6013.06,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "handoff",
+        "dur": 37.74
+      }
+    },
+    {
+      "id": "ch20_application",
+      "type": "aae_chapter",
+      "in_seconds": 6013.56,
+      "out_seconds": 6062.711,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "application",
+        "dur": 49.651
+      }
+    },
+    {
+      "id": "ch21_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 6063.211,
+      "out_seconds": 6108.583,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "foundation",
+        "dur": 45.871
+      }
+    },
+    {
+      "id": "ch21_system",
+      "type": "aae_chapter",
+      "in_seconds": 6109.083,
+      "out_seconds": 6146.533,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "system",
+        "dur": 37.951
+      }
+    },
+    {
+      "id": "ch21_practice",
+      "type": "aae_chapter",
+      "in_seconds": 6147.033,
+      "out_seconds": 6193.229,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "practice",
+        "dur": 46.696
+      }
+    },
+    {
+      "id": "ch21_failure",
+      "type": "aae_chapter",
+      "in_seconds": 6193.729,
+      "out_seconds": 6233.206,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "failure",
+        "dur": 39.977
+      }
+    },
+    {
+      "id": "ch21_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 6233.706,
+      "out_seconds": 6276.683,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "evaluation",
+        "dur": 43.477
+      }
+    },
+    {
+      "id": "ch21_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 6277.183,
+      "out_seconds": 6313.739,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "handoff",
+        "dur": 37.056
+      }
+    },
+    {
+      "id": "ch21_application",
+      "type": "aae_chapter",
+      "in_seconds": 6314.239,
+      "out_seconds": 6362.494,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "application",
+        "dur": 48.755
+      }
+    },
+    {
+      "id": "ch22_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 6362.994,
+      "out_seconds": 6409.787,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "foundation",
+        "dur": 47.293
+      }
+    },
+    {
+      "id": "ch22_system",
+      "type": "aae_chapter",
+      "in_seconds": 6410.287,
+      "out_seconds": 6449.685,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "system",
+        "dur": 39.898
+      }
+    },
+    {
+      "id": "ch22_practice",
+      "type": "aae_chapter",
+      "in_seconds": 6450.185,
+      "out_seconds": 6497.024,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "practice",
+        "dur": 47.339
+      }
+    },
+    {
+      "id": "ch22_failure",
+      "type": "aae_chapter",
+      "in_seconds": 6497.524,
+      "out_seconds": 6538.185,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "failure",
+        "dur": 41.161
+      }
+    },
+    {
+      "id": "ch22_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 6538.685,
+      "out_seconds": 6582.95,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "evaluation",
+        "dur": 44.766
+      }
+    },
+    {
+      "id": "ch22_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 6583.45,
+      "out_seconds": 6620.77,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "handoff",
+        "dur": 37.819
+      }
+    },
+    {
+      "id": "ch22_application",
+      "type": "aae_chapter",
+      "in_seconds": 6621.27,
+      "out_seconds": 6671.048,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "application",
+        "dur": 50.278
+      }
+    },
+    {
+      "id": "ch23_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 6671.548,
+      "out_seconds": 6718.972,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "foundation",
+        "dur": 47.924
+      }
+    },
+    {
+      "id": "ch23_system",
+      "type": "aae_chapter",
+      "in_seconds": 6719.472,
+      "out_seconds": 6759.054,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "system",
+        "dur": 40.082
+      }
+    },
+    {
+      "id": "ch23_practice",
+      "type": "aae_chapter",
+      "in_seconds": 6759.554,
+      "out_seconds": 6806.549,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "practice",
+        "dur": 47.495
+      }
+    },
+    {
+      "id": "ch23_failure",
+      "type": "aae_chapter",
+      "in_seconds": 6807.049,
+      "out_seconds": 6846.868,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "failure",
+        "dur": 40.319
+      }
+    },
+    {
+      "id": "ch23_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 6847.368,
+      "out_seconds": 6891.24,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "evaluation",
+        "dur": 44.372
+      }
+    },
+    {
+      "id": "ch23_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 6891.74,
+      "out_seconds": 6930.217,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "handoff",
+        "dur": 38.977
+      }
+    },
+    {
+      "id": "ch23_application",
+      "type": "aae_chapter",
+      "in_seconds": 6930.717,
+      "out_seconds": 6980.63,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "application",
+        "dur": 50.414
+      }
+    },
+    {
+      "id": "ch24_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 6981.13,
+      "out_seconds": 7027.633,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "foundation",
+        "dur": 47.003
+      }
+    },
+    {
+      "id": "ch24_system",
+      "type": "aae_chapter",
+      "in_seconds": 7028.133,
+      "out_seconds": 7066.242,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "system",
+        "dur": 38.609
+      }
+    },
+    {
+      "id": "ch24_practice",
+      "type": "aae_chapter",
+      "in_seconds": 7066.742,
+      "out_seconds": 7113.363,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "practice",
+        "dur": 47.121
+      }
+    },
+    {
+      "id": "ch24_failure",
+      "type": "aae_chapter",
+      "in_seconds": 7113.863,
+      "out_seconds": 7152.183,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "failure",
+        "dur": 38.819
+      }
+    },
+    {
+      "id": "ch24_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 7152.683,
+      "out_seconds": 7195.95,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "evaluation",
+        "dur": 43.767
+      }
+    },
+    {
+      "id": "ch24_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 7196.45,
+      "out_seconds": 7233.427,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "handoff",
+        "dur": 37.477
+      }
+    },
+    {
+      "id": "ch24_application",
+      "type": "aae_chapter",
+      "in_seconds": 7233.927,
+      "out_seconds": 7283.631,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "application",
+        "dur": 50.204
+      }
+    },
+    {
+      "id": "recap",
+      "type": "aae_recap",
+      "in_seconds": 7284.131,
+      "out_seconds": 7301.043,
+      "props": {
+        "dur": 17.413
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/narration.wav",
+      "volume": 1
+    }
+  }
+}

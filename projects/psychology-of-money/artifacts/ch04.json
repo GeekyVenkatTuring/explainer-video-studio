@@ -1,0 +1,569 @@
+{
+ "cuts": [
+  {
+   "id": "ch04_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 14.093,
+   "props": {
+    "n": 4,
+    "total": 20,
+    "title": "Compounding",
+    "lines": [
+     "Buffett's secret is time, not a magic annual rate.",
+     "Linear intuition cannot feel an exponential. That is why compounding confounds."
+    ],
+    "color": "#E8B86D",
+    "dur": 14.593
+   }
+  },
+  {
+   "id": "ch04_buffett",
+   "type": "pm_sheet",
+   "in_seconds": 14.593,
+   "out_seconds": 56.584,
+   "props": {
+    "kicker": "AS THE BOOK PRINTS IT (2020)",
+    "title": "Warren Buffett's pile arrived late",
+    "rows": [
+     {
+      "k": "Net worth",
+      "v": "As Housel wrote: $84.5 billion.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "After 50",
+      "v": "$84.2 billion of that was accumulated after his 50th birthday.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "After 65",
+      "v": "$81.5 billion came after he qualified for Social Security, in his mid-60s.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Start",
+      "v": "Serious investing from age 10. By 30: $1 million then, about $9.3 million inflation-adjusted.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Rate cited",
+      "v": "Rough lifetime compounding cited: about 22% a year. Skill is investing. Secret is time.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Books",
+      "v": "More than 2,000 books try to explain Buffett. Few stress the calendar.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#E8B86D",
+    "note": "Book-dated fortune, not a live Forbes quote.",
+    "dur": 42.491
+   }
+  },
+  {
+   "id": "ch04_if",
+   "type": "pm_compound",
+   "in_seconds": 57.084,
+   "out_seconds": 83.572,
+   "props": {
+    "kicker": "THE BOOK'S THOUGHT EXPERIMENT",
+    "title": "Same 22%, far less time",
+    "color": "#E8B86D",
+    "series": [
+     {
+      "label": "$25,000 at 22% for 30 years",
+      "start": 25000,
+      "rate": 0.22,
+      "years": 30,
+      "c": "#FBBF24",
+      "endLabel": "~$11.9 million"
+     }
+    ],
+    "facts": [
+     {
+      "k": "Setup",
+      "v": "$25,000 at age 30, still 22% a year, stop at 60.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Ending pile",
+      "v": "About $11.9 million \u2014 not $84.5 billion.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Gap",
+      "v": "99.9% less than the actual book net worth.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Why",
+      "v": "The exponential does almost nothing for years, then stands up.",
+      "c": "#A78BFA"
+     }
+    ],
+    "note": "Counterfactual from the book. The on-screen curve is 22% for 30 years from $25,000.",
+    "dur": 26.988
+   }
+  },
+  {
+   "id": "ch04_simons",
+   "type": "pm_dual",
+   "in_seconds": 84.072,
+   "out_seconds": 129.483,
+   "props": {
+    "kicker": "HIGHER RATE, LESS TIME",
+    "title": "Jim Simons versus Buffett, in the book",
+    "left": {
+     "name": "Buffett",
+     "tag": "~22% / year",
+     "c": "#E8B86D",
+     "lines": [
+      "Started as a child; roughly 75 years of compounding.",
+      "Book net worth: $84.5 billion."
+     ]
+    },
+    "right": {
+     "name": "Jim Simons",
+     "tag": "~66% since 1988",
+     "c": "#38BDF8",
+     "lines": [
+      "Renaissance Technologies: about 66% a year since 1988 \u2014 roughly 3\u00d7 Buffett's cited rate.",
+      "Found his stride near age 50. Book net worth: about $21 billion \u2014 roughly 75% less rich.",
+      "If 66% ran for Buffett's 70-year span, the book says the pile becomes tens of quintillions \u2014 a joke about time, not a target rate."
+     ]
+    },
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 45.911
+   }
+  },
+  {
+   "id": "ch04_compound-rules",
+   "type": "pm_list",
+   "in_seconds": 129.983,
+   "out_seconds": 159.37,
+   "props": {
+    "kicker": "WHAT COMPOUNDING DEMANDS",
+    "title": "Printed lessons, not a rate chase",
+    "items": [
+     "Most of an exponential's visible work happens in the last years. Stopping early throws away the pile.",
+     "A good rate for a long time beats a spectacular rate for a short time \u2014 Simons versus Buffett in the book.",
+     "You cannot feel compounding with linear intuition. That is why people quit in year eight.",
+     "The practical move is staying invested and unbroken \u2014 not hunting a 66% personal rate."
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 29.887
+   }
+  },
+  {
+   "id": "ch04_compound-close",
+   "type": "pm_list",
+   "in_seconds": 159.87,
+   "out_seconds": 188.387,
+   "props": {
+    "kicker": "CHAPTER 4 \u00b7 CLOSE",
+    "title": "Protect the calendar",
+    "items": [
+     "Most of Buffett's pile arrived after fifty because the years stacked, not because year sixty invented a new trick.",
+     "The book's twenty-two percent thought experiment at age thirty still ends near twelve million, not eighty-four billion.",
+     "Simons's sixty-six percent is real and rare. Do not treat it as a personal template.",
+     "The practical compounding skill is staying unbroken long enough for the curve to bend."
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 29.017
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.116,
+   "Chapter 4."
+  ],
+  [
+   1.116,
+   1.673,
+   "Compounding."
+  ],
+  [
+   2.305,
+   4.536,
+   "Buffett's secret is time,"
+  ],
+  [
+   4.536,
+   7.325,
+   "not a magic annual rate."
+  ],
+  [
+   7.957,
+   11.304,
+   "Linear intuition cannot feel an\nexponential."
+  ],
+  [
+   11.304,
+   14.093,
+   "That is why compounding confounds."
+  ],
+  [
+   14.593,
+   15.917,
+   "As Housel wrote,"
+  ],
+  [
+   15.917,
+   19.447,
+   "Buffett's net worth was eighty-four point\nfive billion"
+  ],
+  [
+   19.447,
+   19.888,
+   "dollars."
+  ],
+  [
+   20.52,
+   24.05,
+   "Eighty-four point two billion of that was\naccumulated"
+  ],
+  [
+   24.05,
+   25.815,
+   "after his fiftieth birthday."
+  ],
+  [
+   26.447,
+   29.977,
+   "Eighty-one point five billion came after\nhe qualified"
+  ],
+  [
+   29.977,
+   31.301,
+   "for Social Security,"
+  ],
+  [
+   31.301,
+   32.625,
+   "in his mid-sixties."
+  ],
+  [
+   33.257,
+   36.346,
+   "He began serious investing at age ten."
+  ],
+  [
+   36.346,
+   39.435,
+   "By thirty he had one million dollars,"
+  ],
+  [
+   39.435,
+   42.082,
+   "about nine point three million\ninflation-adjusted."
+  ],
+  [
+   42.714,
+   44.479,
+   "Rough lifetime compounding cited:"
+  ],
+  [
+   44.479,
+   46.685,
+   "about twenty-two percent a year."
+  ],
+  [
+   46.685,
+   48.451,
+   "His skill is investing."
+  ],
+  [
+   48.451,
+   50.216,
+   "His secret is time."
+  ],
+  [
+   50.847,
+   54.378,
+   "More than two thousand books try to\nexplain"
+  ],
+  [
+   54.378,
+   54.819,
+   "Buffett."
+  ],
+  [
+   54.819,
+   56.584,
+   "Few stress the calendar."
+  ],
+  [
+   57.084,
+   57.508,
+   "Setup:"
+  ],
+  [
+   57.508,
+   60.052,
+   "twenty-five thousand dollars at age\nthirty,"
+  ],
+  [
+   60.052,
+   62.172,
+   "still twenty-two percent a year,"
+  ],
+  [
+   62.172,
+   63.444,
+   "stop at sixty."
+  ],
+  [
+   64.076,
+   67.468,
+   "The ending pile is about eleven point nine"
+  ],
+  [
+   67.468,
+   68.316,
+   "million dollars,"
+  ],
+  [
+   68.316,
+   70.436,
+   "not eighty-four point five billion."
+  ],
+  [
+   71.068,
+   74.46,
+   "That is ninety-nine point nine percent\nless than"
+  ],
+  [
+   74.46,
+   76.58,
+   "the actual book net worth."
+  ],
+  [
+   77.212,
+   80.18,
+   "The exponential does almost nothing for\nyears,"
+  ],
+  [
+   80.18,
+   81.452,
+   "then stands up."
+  ],
+  [
+   81.452,
+   83.572,
+   "That is why compounding confounds."
+  ],
+  [
+   84.072,
+   84.534,
+   "Buffett."
+  ],
+  [
+   84.534,
+   85.922,
+   "~22% / year"
+  ],
+  [
+   86.553,
+   88.866,
+   "Buffett started as a child,"
+  ],
+  [
+   88.866,
+   91.641,
+   "with roughly seventy-five years of\ncompounding."
+  ],
+  [
+   92.272,
+   93.659,
+   "Book net worth:"
+  ],
+  [
+   93.659,
+   95.972,
+   "eighty-four point five billion dollars."
+  ],
+  [
+   96.603,
+   97.528,
+   "Jim Simons."
+  ],
+  [
+   97.528,
+   98.916,
+   "~66% since 1988"
+  ],
+  [
+   99.547,
+   103.247,
+   "Jim Simons compounded about sixty-six\npercent a year"
+  ],
+  [
+   103.247,
+   104.634,
+   "since nineteen eighty-eight,"
+  ],
+  [
+   104.634,
+   107.409,
+   "roughly three times Buffett's cited rate."
+  ],
+  [
+   108.041,
+   111.278,
+   "He found his stride near age fifty."
+  ],
+  [
+   111.278,
+   112.665,
+   "Book net worth:"
+  ],
+  [
+   112.665,
+   114.053,
+   "about twenty-one billion,"
+  ],
+  [
+   114.053,
+   116.365,
+   "roughly seventy-five percent less rich."
+  ],
+  [
+   116.997,
+   120.696,
+   "If sixty-six percent ran for Buffett's\nseventy-year span,"
+  ],
+  [
+   120.696,
+   124.396,
+   "the book says the pile becomes tens of"
+  ],
+  [
+   124.396,
+   124.858,
+   "quintillions."
+  ],
+  [
+   124.858,
+   127.633,
+   "That is a joke about time,"
+  ],
+  [
+   127.633,
+   129.483,
+   "not a target rate."
+  ],
+  [
+   129.983,
+   133.125,
+   "Most of an exponential's visible work\nhappens in"
+  ],
+  [
+   133.125,
+   134.303,
+   "the last years."
+  ],
+  [
+   134.303,
+   136.66,
+   "Stopping early throws away the pile."
+  ],
+  [
+   137.291,
+   140.433,
+   "A good rate for a long time beats"
+  ],
+  [
+   140.433,
+   143.182,
+   "a spectacular rate for a short time."
+  ],
+  [
+   143.182,
+   146.324,
+   "That is Simons versus Buffett in the book."
+  ],
+  [
+   146.956,
+   149.705,
+   "You cannot feel compounding with linear\nintuition."
+  ],
+  [
+   149.705,
+   152.847,
+   "That is why people quit in year eight."
+  ],
+  [
+   153.479,
+   156.621,
+   "The practical move is staying invested and\nunbroken,"
+  ],
+  [
+   156.621,
+   159.37,
+   "not hunting a sixty-six percent personal\nrate."
+  ],
+  [
+   159.87,
+   163.147,
+   "Most of Buffett's pile arrived after fifty\nbecause"
+  ],
+  [
+   163.147,
+   164.375,
+   "the years stacked,"
+  ],
+  [
+   164.375,
+   167.652,
+   "not because year sixty invented a new\ntrick."
+  ],
+  [
+   168.283,
+   171.56,
+   "The book's twenty-two percent thought\nexperiment at age"
+  ],
+  [
+   171.56,
+   174.017,
+   "thirty still ends near twelve million,"
+  ],
+  [
+   174.017,
+   175.246,
+   "not eighty-four billion."
+  ],
+  [
+   175.878,
+   178.745,
+   "Simons's sixty-six percent is real and\nrare."
+  ],
+  [
+   178.745,
+   182.021,
+   "Do not treat it as a personal template."
+  ],
+  [
+   182.653,
+   185.93,
+   "The practical compounding skill is staying\nunbroken long"
+  ],
+  [
+   185.93,
+   188.387,
+   "enough for the curve to bend."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch04.wav",
+   "volume": 1.0
+  }
+ }
+}

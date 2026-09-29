@@ -1,0 +1,247 @@
+{
+ "cuts": [
+  {
+   "id": "d02",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 13.447,
+   "props": {
+    "n": 2,
+    "title": "The Retail King",
+    "sub": "Radhakishan Damani \u2014 the man who owns one stock",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 13.947
+   }
+  },
+  {
+   "id": "w02",
+   "type": "mw_investor",
+   "in_seconds": 13.947,
+   "out_seconds": 67.444,
+   "props": {
+    "idx": 1,
+    "total": 8,
+    "color": "#FBBF24",
+    "name": "Radhakishan Damani",
+    "tag": "THE RETAIL KING",
+    "worth": 198328,
+    "worthUnit": "cr",
+    "stocks": 13,
+    "asOf": "Apr 2026",
+    "holdings": [
+     {
+      "nm": "Avenue Supermarts (DMart)",
+      "pct": "67.2%"
+     },
+     {
+      "nm": "VST Industries",
+      "pct": "29.1%"
+     },
+     {
+      "nm": "3M India",
+      "pct": "1.5%"
+     },
+     {
+      "nm": "United Breweries",
+      "pct": "1.2%"
+     },
+     {
+      "nm": "India Cements / others",
+      "pct": ""
+     }
+    ],
+    "strategy": "Extreme concentration in one quality compounder he controls \u2014 and near-total silence.",
+    "playbook": [
+     "~99% of the disclosed book is a single business he built: DMart",
+     "Owns companies, not tickers \u2014 decade-plus holding periods",
+     "No course, no channel, no calls \u2014 just patience"
+    ],
+    "move": "DMart parent Avenue Supermarts anchors a ~1.98 lakh-crore disclosed book",
+    "steep": 1.7,
+    "foot": "Disclosed shareholding (BSE/NSE filings, aggregator) \u00b7 as of Apr-2026 \u00b7 not investment advice",
+    "dur": 53.997
+   }
+  },
+  {
+   "id": "c22",
+   "type": "mw_statement",
+   "in_seconds": 67.944,
+   "out_seconds": 90.709,
+   "props": {
+    "kicker": "THE LESSON",
+    "color": "#FBBF24",
+    "lines": [
+     "He got rich slowly,",
+     "in one thing,",
+     "in silence."
+    ],
+    "sub": "As a rule: the more someone posts their trades, the less you should trust the returns.",
+    "dur": 23.265
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.741,
+   "Chapter two. The Retail King."
+  ],
+  [
+   2.372,
+   5.505,
+   "Our first verified winner made his fortune by doing"
+  ],
+  [
+   5.505,
+   8.29,
+   "the opposite of everything the internet tells you."
+  ],
+  [
+   8.922,
+   12.055,
+   "He owns, essentially, one stock \u2014 and he almost"
+  ],
+  [
+   12.055,
+   13.447,
+   "never talks about it."
+  ],
+  [
+   13.947,
+   15.1,
+   "Meet Radhakishan Damani."
+  ],
+  [
+   15.732,
+   19.192,
+   "By public filings, his disclosed equity is worth\naround"
+  ],
+  [
+   19.192,
+   22.653,
+   "one point nine eight lakh crore rupees \u2014 nearly"
+  ],
+  [
+   22.653,
+   23.422,
+   "two trillion."
+  ],
+  [
+   24.053,
+   27.513,
+   "And here's the astonishing part: almost all of it"
+  ],
+  [
+   27.513,
+   30.974,
+   "sits in a single company he founded and still"
+  ],
+  [
+   30.974,
+   34.05,
+   "controls \u2014 Avenue Supermarts, the parent of DMart."
+  ],
+  [
+   34.681,
+   36.219,
+   "Sixty-seven percent of it."
+  ],
+  [
+   36.851,
+   40.311,
+   "The rest \u2014 VST Industries, a slice of three-M"
+  ],
+  [
+   40.311,
+   43.771,
+   "India, a little United Breweries \u2014 barely moves the"
+  ],
+  [
+   43.771,
+   44.156,
+   "needle."
+  ],
+  [
+   44.787,
+   48.248,
+   "Damani didn't spread himself across a hundred tips.\nHe"
+  ],
+  [
+   48.248,
+   51.708,
+   "built one great business, and refused to sell it."
+  ],
+  [
+   52.34,
+   55.415,
+   "No interviews. No course. No channel. No calls."
+  ],
+  [
+   56.047,
+   59.507,
+   "Just decades of owning something excellent, and the\npatience"
+  ],
+  [
+   59.507,
+   61.045,
+   "to let it compound."
+  ],
+  [
+   61.677,
+   65.137,
+   "That patience is the entire strategy \u2014 and it's"
+  ],
+  [
+   65.137,
+   67.444,
+   "the rarest thing on your feed."
+  ],
+  [
+   67.944,
+   69.082,
+   "Sit with that."
+  ],
+  [
+   69.714,
+   73.129,
+   "The richest retail investor in the country got there"
+  ],
+  [
+   73.129,
+   75.785,
+   "slowly, in one business, in near-total silence."
+  ],
+  [
+   76.417,
+   79.832,
+   "The loudest voices online, meanwhile, are usually\nselling access"
+  ],
+  [
+   79.832,
+   82.109,
+   "to a secret they don't have."
+  ],
+  [
+   82.74,
+   86.155,
+   "Here's a rule of thumb worth keeping: the more"
+  ],
+  [
+   86.155,
+   89.571,
+   "someone posts about their trades, the less you\nshould"
+  ],
+  [
+   89.571,
+   90.709,
+   "trust their returns."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch02.wav",
+   "volume": 1.0
+  }
+ }
+}

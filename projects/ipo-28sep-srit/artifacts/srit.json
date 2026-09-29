@@ -1,0 +1,657 @@
+{
+ "cuts": [
+  {
+   "id": "srit_title",
+   "type": "sm_ptitle",
+   "in_seconds": 0.0,
+   "out_seconds": 26.356,
+   "props": {
+    "title": "SRIT India IPO",
+    "sub": "Digital platforms for government & enterprise · ₹218.40 Cr · 28–30 Sep 2026",
+    "kicker": "IPO ANALYSIS · MAINBOARD · 100% FRESH",
+    "dur": 26.856
+   }
+  },
+  {
+   "id": "srit_biz",
+   "type": "sm_iconcards",
+   "in_seconds": 26.856,
+   "out_seconds": 51.055,
+   "props": {
+    "kicker": "WHAT THE COMPANY DOES",
+    "title": "Business Model",
+    "color": "#22D3EE",
+    "items": [
+     {
+      "emoji": "🏛️",
+      "k": "Government digital platforms",
+      "v": "Designs, builds and runs platforms for governments and enterprises: healthcare, e-governance, telecom.",
+      "chip": "GOVTECH"
+     },
+     {
+      "emoji": "🧠",
+      "k": "Products + integration",
+      "v": "Software products with system integration and managed services; AI video analytics and conversational AI.",
+      "chip": "STACK"
+     },
+     {
+      "emoji": "⏳",
+      "k": "26-year track record",
+      "v": "Operating for twenty-six years, in India and select overseas markets.",
+      "chip": "TRACK"
+     }
+    ],
+    "dur": 24.699
+   }
+  },
+  {
+   "id": "srit_fin",
+   "type": "sm_stats",
+   "in_seconds": 51.555,
+   "out_seconds": 90.44,
+   "props": {
+    "kicker": "FINANCIAL QUALITY · RESTATED (RHP)",
+    "title": "FY26 Financials",
+    "stats": [
+     {
+      "label": "Revenue from operations",
+      "to": 449.999,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "FY25: ₹389.35 Cr · +15.58%"
+     },
+     {
+      "label": "Profit after tax",
+      "to": 43.289,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "FY25: ₹33.60 Cr"
+     },
+     {
+      "label": "PAT margin (computed)",
+      "to": 9.619799155109234,
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 2,
+      "color": "#FBBF24",
+      "sub": "FY25: 8.63%"
+     }
+    ],
+    "note": "Revenue +15.58% to ₹450.00 Cr; PAT +28.82% to ₹43.29 Cr. Debt-to-equity 0.23; return on equity 29.98%.",
+    "dur": 39.385
+   }
+  },
+  {
+   "id": "srit_issue",
+   "type": "sm_stats",
+   "in_seconds": 90.94,
+   "out_seconds": 105.008,
+   "props": {
+    "kicker": "OFFER STRUCTURE · COMPUTED AT CAP",
+    "title": "Fresh Issue vs Offer for Sale",
+    "stats": [
+     {
+      "label": "Total offer (at cap)",
+      "to": 218.4,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#22D3EE",
+      "sub": "band ₹123–₹130"
+     },
+     {
+      "label": "Fresh issue → company",
+      "to": 218.4,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "new capital"
+     },
+     {
+      "label": "Offer for sale → sellers",
+      "to": 0.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "none: 100% fresh"
+     }
+    ],
+    "note": "100% fresh issue: every rupee raised goes to the company.",
+    "dur": 14.568
+   }
+  },
+  {
+   "id": "srit_proceeds",
+   "type": "sm_iconcards",
+   "in_seconds": 105.508,
+   "out_seconds": 135.488,
+   "props": {
+    "kicker": "USE OF PROCEEDS · RHP OBJECTS",
+    "title": "Where The Money Goes",
+    "color": "#22D3EE",
+    "items": [
+     {
+      "emoji": "💼",
+      "k": "₹124.00 Cr working capital",
+      "v": "The largest use: government projects tie up working capital.",
+      "chip": "WC"
+     },
+     {
+      "emoji": "🛠️",
+      "k": "₹12.86 Cr capex",
+      "v": "Modernising and redeveloping existing products.",
+      "chip": "CAPEX"
+     },
+     {
+      "emoji": "🧩",
+      "k": "Acquisitions + GCP",
+      "v": "The balance funds unidentified acquisitions and general corporate purposes.",
+      "chip": "GROWTH"
+     }
+    ],
+    "dur": 30.48
+   }
+  },
+  {
+   "id": "srit_peers",
+   "type": "sm_peers",
+   "in_seconds": 135.988,
+   "out_seconds": 166.544,
+   "props": {
+    "kicker": "VALUATION · P/E AT CAP vs LISTED PEERS",
+    "title": "Peer Comparison",
+    "color": "#22D3EE",
+    "rows": [
+     {
+      "name": "SRIT India",
+      "pe": 13.73,
+      "note": "₹130 cap ÷ FY26 EPS ₹9.47",
+      "hi": true,
+      "display": "13.73x"
+     },
+     {
+      "name": "Mastek",
+      "pe": 12.59,
+      "note": "IT services",
+      "hi": false,
+      "display": "12.59x"
+     },
+     {
+      "name": "Allied Digital",
+      "pe": 15.52,
+      "note": "IT infra services",
+      "hi": false,
+      "display": "15.52x"
+     },
+     {
+      "name": "Protean eGov",
+      "pe": 19.8,
+      "note": "e-governance",
+      "hi": false,
+      "display": "19.80x"
+     },
+     {
+      "name": "RailTel",
+      "pe": 24.03,
+      "note": "govt telecom & IT",
+      "hi": false,
+      "display": "24.03x"
+     }
+    ],
+    "verdict": "At 13.73x FY26 EPS, SRIT is priced at the lower end of its listed peers.",
+    "dur": 31.056
+   }
+  },
+  {
+   "id": "srit_verdict",
+   "type": "sm_myths",
+   "in_seconds": 167.044,
+   "out_seconds": 200.715,
+   "props": {
+    "kicker": "BALANCED ANALYSIS",
+    "title": "Strengths vs Watch-outs",
+    "mythLabel": "⚠️ WATCH-OUTS",
+    "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+    "pairs": [
+     {
+      "m": "Working-capital heavy government contracts",
+      "f": "PAT up 28.82% to ₹43.29 Cr"
+     },
+     {
+      "m": "₹124.00 Cr of proceeds go to working capital",
+      "f": "Low debt: D/E 0.23"
+     },
+     {
+      "m": "Acquisition funds not yet identified",
+      "f": "13.73x P/E, lower end of peers"
+     }
+    ],
+    "dur": 34.171
+   }
+  },
+  {
+   "id": "srit_apply",
+   "type": "sm_iconcards",
+   "in_seconds": 201.215,
+   "out_seconds": 225.392,
+   "props": {
+    "kicker": "HOW TO APPLY",
+    "title": "Check Terms Before You Bid",
+    "color": "#22D3EE",
+    "items": [
+     {
+      "emoji": "🧑",
+      "k": "Retail: up to ₹2 lakh",
+      "v": "Individual bids up to ₹2,00,000; lottery allotment if oversubscribed.",
+      "chip": "RETAIL"
+     },
+     {
+      "emoji": "💰",
+      "k": "Minimum bid",
+      "v": "115 shares × ₹130 = ₹14,950",
+      "chip": "1 LOT"
+     },
+     {
+      "emoji": "📅",
+      "k": "Bidding window",
+      "v": "28–30 Sep 2026 · UPI mandate by 5 PM on the last day.",
+      "chip": "DATES"
+     },
+     {
+      "emoji": "🔎",
+      "k": "Verify live",
+      "v": "Live subscription on NSE/BSE; the final RHP for everything else.",
+      "chip": "SOURCES"
+     }
+    ],
+    "dur": 24.677
+   }
+  },
+  {
+   "id": "srit_recap",
+   "type": "sm_recap",
+   "in_seconds": 225.892,
+   "out_seconds": 267.276,
+   "props": {
+    "title": "SRIT India IPO — Recap",
+    "items": [
+     "FY26: revenue ₹450.00 Cr · PAT ₹43.29 Cr (9.62% margin)",
+     "Offer ₹218.40 Cr · 100% fresh",
+     "Valuation: 13.73x FY26 EPS at the ₹130 cap",
+     "Minimum: ₹14,950 · 28–30 Sep 2026"
+    ],
+    "closer": "Education, not advice: read the RHP, decide for yourself.",
+    "dur": 41.884
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.333,
+   "This is the SRIT India I P O, a mainboard offer,"
+  ],
+  [
+   3.333,
+   7.36,
+   "open from the twenty-eighth to the thirtieth of September."
+  ],
+  [
+   7.86,
+   10.8,
+   "The price band is ₹123 to ₹130."
+  ],
+  [
+   10.8,
+   16.586,
+   "Every figure here comes from the final red herring prospectus"
+  ],
+  [
+   16.586,
+   18.578,
+   "and exchange notices;"
+  ],
+  [
+   18.578,
+   22.277,
+   "the final price is fixed after bidding,"
+  ],
+  [
+   22.277,
+   26.356,
+   "so valuations are computed at the ₹130 cap."
+  ],
+  [
+   26.856,
+   28.093,
+   "First, the business."
+  ],
+  [
+   28.593,
+   34.007,
+   "SRIT India builds and runs digital platforms for governments and enterprises,"
+  ],
+  [
+   34.007,
+   37.873,
+   "in healthcare, e-governance, and telecom and broadband."
+  ],
+  [
+   38.373,
+   42.79,
+   "It combines its own software products with system integration"
+  ],
+  [
+   42.79,
+   44.311,
+   "and managed services,"
+  ],
+  [
+   44.311,
+   48.293,
+   "and has added AI video analytics and conversational AI."
+  ],
+  [
+   48.793,
+   51.055,
+   "It has a twenty-six-year track record."
+  ],
+  [
+   51.555,
+   53.155,
+   "The financial checkpoint."
+  ],
+  [
+   53.655,
+   64.008,
+   "FY26 revenue was ₹450.00 Cr, against ₹389.35 Cr in FY25,"
+  ],
+  [
+   64.008,
+   67.521,
+   "a change of 15.58%."
+  ],
+  [
+   68.021,
+   75.275,
+   "Profit after tax was ₹43.29 Cr, a margin of 9.62%."
+  ],
+  [
+   75.775,
+   80.086,
+   "Profit grew faster than revenue:"
+  ],
+  [
+   80.086,
+   83.049,
+   "28.82% against 15.58%."
+  ],
+  [
+   83.549,
+   90.44,
+   "Debt to equity fell to 0.23, and return on equity was 29.98%."
+  ],
+  [
+   90.94,
+   95.907,
+   "The offer size at the cap is ₹218.40 Cr,"
+  ],
+  [
+   95.907,
+   99.26,
+   "and it is 100% fresh issue."
+  ],
+  [
+   99.76,
+   102.145,
+   "All of that money goes into the company;"
+  ],
+  [
+   102.145,
+   105.008,
+   "no existing shareholder is selling in this deal."
+  ],
+  [
+   105.508,
+   106.831,
+   "Where does the money go?"
+  ],
+  [
+   107.331,
+   113.307,
+   "It is a 100% fresh issue of 1,68,00,000 shares,"
+  ],
+  [
+   113.307,
+   116.867,
+   "about ₹218.40 Cr at the cap."
+  ],
+  [
+   117.367,
+   121.164,
+   "₹124.00 Cr funds working capital,"
+  ],
+  [
+   121.164,
+   125.537,
+   "and ₹12.86 Cr modernises its products."
+  ],
+  [
+   126.037,
+   130.415,
+   "The rest can go to acquisitions and general corporate purposes."
+  ],
+  [
+   130.415,
+   135.488,
+   "The working-capital need shows how much cash government contracts tie up."
+  ],
+  [
+   135.988,
+   136.991,
+   "Valuation."
+  ],
+  [
+   137.491,
+   140.007,
+   "At the ₹130 cap,"
+  ],
+  [
+   140.007,
+   148.029,
+   "the price is 13.73x FY26 earnings of ₹9.47 a share."
+  ],
+  [
+   148.529,
+   157.511,
+   "Peers range from Mastek at 12.59x and Allied Digital at 15.52x"
+  ],
+  [
+   157.511,
+   163.74,
+   "to Protean at 19.80x and RailTel at 24.03x."
+  ],
+  [
+   164.24,
+   166.544,
+   "So it is at the lower end of the range."
+  ],
+  [
+   167.044,
+   168.537,
+   "Now balance the evidence."
+  ],
+  [
+   169.037,
+   170.301,
+   "Watch-out:"
+  ],
+  [
+   170.301,
+   175.732,
+   "Working-capital heavy government contracts."
+  ],
+  [
+   175.732,
+   176.869,
+   "Strength:"
+  ],
+  [
+   176.869,
+   180.28,
+   "PAT up 28.82% to ₹43.29 Cr."
+  ],
+  [
+   180.78,
+   182.008,
+   "Watch-out:"
+  ],
+  [
+   182.008,
+   187.534,
+   "₹124.00 Cr of proceeds go to working capital."
+  ],
+  [
+   187.534,
+   188.639,
+   "Strength:"
+  ],
+  [
+   188.639,
+   189.744,
+   "Low debt:"
+  ],
+  [
+   189.744,
+   190.849,
+   "D/E 0.23."
+  ],
+  [
+   191.349,
+   192.426,
+   "Watch-out:"
+  ],
+  [
+   192.426,
+   196.409,
+   "Acquisition funds not yet identified."
+  ],
+  [
+   196.409,
+   197.378,
+   "Strength:"
+  ],
+  [
+   197.378,
+   200.715,
+   "13.73x P/E, lower end of peers."
+  ],
+  [
+   201.215,
+   202.345,
+   "How to apply."
+  ],
+  [
+   202.845,
+   207.574,
+   "The minimum bid is one lot of 115 shares,"
+  ],
+  [
+   207.574,
+   210.803,
+   "which is ₹14,950 at the cap."
+  ],
+  [
+   211.303,
+   214.778,
+   "Retail investors can bid up to two lakh rupees,"
+  ],
+  [
+   214.778,
+   218.919,
+   "and allotment is by lottery if retail is oversubscribed."
+  ],
+  [
+   219.419,
+   223.962,
+   "Check live subscription on the N S E or B S E website,"
+  ],
+  [
+   223.962,
+   225.392,
+   "not social media."
+  ],
+  [
+   225.892,
+   226.852,
+   "Let's recap."
+  ],
+  [
+   227.352,
+   233.394,
+   "FY26 revenue ₹450.00 Cr, profit ₹43.29 Cr."
+  ],
+  [
+   233.394,
+   236.846,
+   "The offer is 100% fresh."
+  ],
+  [
+   236.846,
+   242.6,
+   "Valuation is 13.73x earnings at the cap."
+  ],
+  [
+   242.6,
+   247.491,
+   "The minimum investment is ₹14,950."
+  ],
+  [
+   247.991,
+   252.164,
+   "This video is public-source education from the red herring"
+  ],
+  [
+   252.164,
+   254.467,
+   "prospectus and exchange notices."
+  ],
+  [
+   254.467,
+   258.425,
+   "It is not investment advice and not a buy or sell call."
+  ],
+  [
+   258.425,
+   260.224,
+   "Read the final documents,"
+  ],
+  [
+   260.224,
+   263.102,
+   "check live subscription on the exchange,"
+  ],
+  [
+   263.102,
+   265.837,
+   "and consult a SEBI-registered adviser."
+  ],
+  [
+   265.837,
+   267.276,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "ipo28/srit.wav",
+   "volume": 1.0
+  }
+ }
+}

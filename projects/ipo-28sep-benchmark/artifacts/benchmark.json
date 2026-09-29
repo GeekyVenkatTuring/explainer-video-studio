@@ -1,0 +1,665 @@
+{
+ "cuts": [
+  {
+   "id": "benchmark_title",
+   "type": "sm_ptitle",
+   "in_seconds": 0.0,
+   "out_seconds": 28.681,
+   "props": {
+    "title": "Bench Mark Infotech IPO",
+    "sub": "IT & digital infrastructure, Kolkata · ₹42.44 Cr · 25–29 Sep 2026",
+    "kicker": "IPO ANALYSIS · SME · NSE EMERGE",
+    "dur": 29.181
+   }
+  },
+  {
+   "id": "benchmark_biz",
+   "type": "sm_iconcards",
+   "in_seconds": 29.181,
+   "out_seconds": 53.328,
+   "props": {
+    "kicker": "WHAT THE COMPANY DOES",
+    "title": "Business Model",
+    "color": "#38BDF8",
+    "items": [
+     {
+      "emoji": "🌐",
+      "k": "IT & digital infrastructure",
+      "v": "Networks, wireless, surveillance, audio-visual and smart classrooms.",
+      "chip": "INFRA"
+     },
+     {
+      "emoji": "🏛️",
+      "k": "Government-heavy clients",
+      "v": "Government departments, PSUs, institutions and private clients across India.",
+      "chip": "CLIENTS"
+     },
+     {
+      "emoji": "🧾",
+      "k": "19 years, Kolkata",
+      "v": "Incorporated in Kolkata in 2007; a single-window design-to-maintain partner.",
+      "chip": "TRACK"
+     }
+    ],
+    "dur": 24.647
+   }
+  },
+  {
+   "id": "benchmark_fin",
+   "type": "sm_stats",
+   "in_seconds": 53.828,
+   "out_seconds": 92.457,
+   "props": {
+    "kicker": "FINANCIAL QUALITY · RESTATED (RHP)",
+    "title": "FY26 Financials",
+    "stats": [
+     {
+      "label": "Revenue from operations",
+      "to": 60.5276,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "FY25: ₹50.04 Cr · +20.96%"
+     },
+     {
+      "label": "Profit after tax",
+      "to": 10.218,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "FY25: ₹5.83 Cr"
+     },
+     {
+      "label": "PAT margin (computed)",
+      "to": 16.88155486092295,
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 2,
+      "color": "#FBBF24",
+      "sub": "FY25: 11.65%"
+     }
+    ],
+    "note": "Revenue +20.96% to ₹60.53 Cr; PAT ₹10.22 Cr vs ₹5.83 Cr. FY24 was a ₹1.48 Cr loss.",
+    "dur": 39.129
+   }
+  },
+  {
+   "id": "benchmark_issue",
+   "type": "sm_stats",
+   "in_seconds": 92.957,
+   "out_seconds": 119.856,
+   "props": {
+    "kicker": "OFFER STRUCTURE · COMPUTED AT CAP",
+    "title": "Fresh Issue vs Offer for Sale",
+    "stats": [
+     {
+      "label": "Total offer (at cap)",
+      "to": 42.44,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "band ₹104–₹110"
+     },
+     {
+      "label": "Fresh issue → company",
+      "to": 37.4,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "new capital"
+     },
+     {
+      "label": "Offer for sale → sellers",
+      "to": 5.04,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "shareholder exit"
+     }
+    ],
+    "note": "88.12% fresh capital · 11.88% offer for sale (computed at the cap)",
+    "dur": 27.399
+   }
+  },
+  {
+   "id": "benchmark_proceeds",
+   "type": "sm_iconcards",
+   "in_seconds": 120.356,
+   "out_seconds": 140.343,
+   "props": {
+    "kicker": "USE OF PROCEEDS · RHP OBJECTS",
+    "title": "Where The Money Goes",
+    "color": "#38BDF8",
+    "items": [
+     {
+      "emoji": "💼",
+      "k": "₹30.00 Cr working capital",
+      "v": "Funding receivables and project working capital.",
+      "chip": "WC"
+     },
+     {
+      "emoji": "🧰",
+      "k": "General corporate purposes",
+      "v": "The balance of the ₹37.40 Cr fresh issue.",
+      "chip": "GCP"
+     },
+     {
+      "emoji": "👥",
+      "k": "₹5.04 Cr offer for sale",
+      "v": "A promoter sells 4,58,000 shares.",
+      "chip": "OFS"
+     }
+    ],
+    "dur": 20.487
+   }
+  },
+  {
+   "id": "benchmark_peers",
+   "type": "sm_peers",
+   "in_seconds": 140.843,
+   "out_seconds": 171.889,
+   "props": {
+    "kicker": "VALUATION · P/E AT CAP vs LISTED PEERS",
+    "title": "Peer Comparison",
+    "color": "#38BDF8",
+    "rows": [
+     {
+      "name": "Bench Mark Infotech",
+      "pe": 11.7,
+      "note": "₹110 cap ÷ FY26 EPS ₹9.40",
+      "hi": true,
+      "display": "11.70x"
+     },
+     {
+      "name": "Esconet Technologies",
+      "pe": 15.66,
+      "note": "IT infra peer",
+      "hi": false,
+      "display": "15.66x"
+     },
+     {
+      "name": "Dynacons Systems",
+      "pe": 26.55,
+      "note": "IT infra peer",
+      "hi": false,
+      "display": "26.55x"
+     },
+     {
+      "name": "Xtranet Technologies",
+      "pe": 50.87,
+      "note": "IT infra peer",
+      "hi": false,
+      "display": "50.87x"
+     }
+    ],
+    "verdict": "At 11.70x FY26 EPS, Bench Mark is priced below its three listed IT-infrastructure peers.",
+    "dur": 31.547
+   }
+  },
+  {
+   "id": "benchmark_verdict",
+   "type": "sm_myths",
+   "in_seconds": 172.389,
+   "out_seconds": 208.961,
+   "props": {
+    "kicker": "BALANCED ANALYSIS",
+    "title": "Strengths vs Watch-outs",
+    "mythLabel": "⚠️ WATCH-OUTS",
+    "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+    "pairs": [
+     {
+      "m": "Recent turnaround: FY24 was a loss",
+      "f": "PAT up to ₹10.22 Cr, a 16.88% margin"
+     },
+     {
+      "m": "Government receivables need working capital",
+      "f": "11.70x P/E, below listed peers"
+     },
+     {
+      "m": "SME: ₹2,64,000 minimum, thin liquidity",
+      "f": "88.12% of the offer is fresh capital"
+     }
+    ],
+    "dur": 37.072
+   }
+  },
+  {
+   "id": "benchmark_apply",
+   "type": "sm_iconcards",
+   "in_seconds": 209.461,
+   "out_seconds": 235.4,
+   "props": {
+    "kicker": "HOW TO APPLY",
+    "title": "Check Terms Before You Bid",
+    "color": "#38BDF8",
+    "items": [
+     {
+      "emoji": "🏢",
+      "k": "Lists on NSE Emerge",
+      "v": "A separate small-company platform, not the mainboard.",
+      "chip": "SME"
+     },
+     {
+      "emoji": "💰",
+      "k": "Minimum application",
+      "v": "2 lots = 2,400 shares × ₹110 = ₹2,64,000",
+      "chip": "MIN"
+     },
+     {
+      "emoji": "📅",
+      "k": "Bidding window",
+      "v": "25–29 Sep 2026",
+      "chip": "DATES"
+     },
+     {
+      "emoji": "⚠️",
+      "k": "Thin liquidity",
+      "v": "SME stocks trade thinly; invest only money you can lock up.",
+      "chip": "RISK"
+     }
+    ],
+    "dur": 26.439
+   }
+  },
+  {
+   "id": "benchmark_recap",
+   "type": "sm_recap",
+   "in_seconds": 235.9,
+   "out_seconds": 281.913,
+   "props": {
+    "title": "Bench Mark Infotech IPO — Recap",
+    "items": [
+     "FY26: revenue ₹60.53 Cr · PAT ₹10.22 Cr (16.88% margin)",
+     "Offer ₹42.44 Cr · fresh ₹37.40 Cr · OFS ₹5.04 Cr",
+     "Valuation: 11.70x FY26 EPS at the ₹110 cap",
+     "Minimum: ₹2,64,000 · 25–29 Sep 2026"
+    ],
+    "closer": "Education, not advice: read the RHP, decide for yourself.",
+    "dur": 46.513
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.942,
+   "This is the Bench Mark Infotech I P O,"
+  ],
+  [
+   2.942,
+   5.574,
+   "a S M E issue on NSE Emerge offer,"
+  ],
+  [
+   5.574,
+   10.219,
+   "open from the twenty-fifth to the twenty-ninth of September."
+  ],
+  [
+   10.719,
+   13.574,
+   "The price band is ₹104 to ₹110."
+  ],
+  [
+   13.574,
+   19.193,
+   "Every figure here comes from the final red herring prospectus"
+  ],
+  [
+   19.193,
+   21.128,
+   "and exchange notices;"
+  ],
+  [
+   21.128,
+   24.72,
+   "the final price is fixed after bidding,"
+  ],
+  [
+   24.72,
+   28.681,
+   "so valuations are computed at the ₹110 cap."
+  ],
+  [
+   29.181,
+   30.419,
+   "First, the business."
+  ],
+  [
+   30.919,
+   34.393,
+   "Bench Mark Infotech, from Kolkata, designs,"
+  ],
+  [
+   34.393,
+   38.676,
+   "installs and maintains IT and digital infrastructure:"
+  ],
+  [
+   38.676,
+   41.989,
+   "networks, wireless systems, surveillance,"
+  ],
+  [
+   41.989,
+   45.383,
+   "audio-visual set-ups and smart classrooms."
+  ],
+  [
+   45.883,
+   49.045,
+   "Its customers are mostly government departments,"
+  ],
+  [
+   49.045,
+   51.944,
+   "public-sector undertakings and institutions,"
+  ],
+  [
+   51.944,
+   53.328,
+   "plus private clients."
+  ],
+  [
+   53.828,
+   55.428,
+   "The financial checkpoint."
+  ],
+  [
+   55.928,
+   65.712,
+   "FY26 revenue was ₹60.53 Cr, against ₹50.04 Cr in FY25,"
+  ],
+  [
+   65.712,
+   69.155,
+   "a change of 20.96%."
+  ],
+  [
+   69.655,
+   76.695,
+   "Profit after tax was ₹10.22 Cr, a margin of 16.88%."
+  ],
+  [
+   77.195,
+   78.859,
+   "The turnaround is recent."
+  ],
+  [
+   79.359,
+   84.557,
+   "FY24 was a ₹1.48 Cr loss;"
+  ],
+  [
+   84.557,
+   92.457,
+   "FY25 made ₹5.83 Cr and FY26 ₹10.22 Cr."
+  ],
+  [
+   92.957,
+   97.523,
+   "The offer size at the cap is ₹42.44 Cr."
+  ],
+  [
+   98.023,
+   103.551,
+   "₹37.40 Cr is fresh issue that goes into the company,"
+  ],
+  [
+   103.551,
+   110.78,
+   "and ₹5.04 Cr is an offer for sale that goes to selling shareholders."
+  ],
+  [
+   111.28,
+   115.246,
+   "So 88.12% of the deal is new capital,"
+  ],
+  [
+   115.246,
+   119.856,
+   "and 11.88% is an exit for existing holders."
+  ],
+  [
+   120.356,
+   121.679,
+   "Where does the money go?"
+  ],
+  [
+   122.179,
+   128.208,
+   "Of the ₹37.40 Cr fresh issue, ₹30.00 Cr funds working capital,"
+  ],
+  [
+   128.208,
+   132.099,
+   "and the rest general corporate purposes."
+  ],
+  [
+   132.599,
+   137.197,
+   "A promoter also sells 4,58,000 shares,"
+  ],
+  [
+   137.197,
+   140.343,
+   "about ₹5.04 Cr at the cap."
+  ],
+  [
+   140.843,
+   141.845,
+   "Valuation."
+  ],
+  [
+   142.345,
+   144.908,
+   "At the ₹110 cap,"
+  ],
+  [
+   144.908,
+   153.076,
+   "the price is 11.70x FY26 earnings of ₹9.40 a share."
+  ],
+  [
+   153.576,
+   157.452,
+   "Listed peers trade higher:"
+  ],
+  [
+   157.452,
+   165.501,
+   "Esconet at 15.66x, Dynacons 26.55x and Xtranet 50.87x."
+  ],
+  [
+   166.001,
+   168.831,
+   "Small S M E stocks also trade thinly,"
+  ],
+  [
+   168.831,
+   171.889,
+   "which a P E comparison does not capture."
+  ],
+  [
+   172.389,
+   173.883,
+   "Now balance the evidence."
+  ],
+  [
+   174.383,
+   175.753,
+   "Watch-out:"
+  ],
+  [
+   175.753,
+   178.219,
+   "Recent turnaround:"
+  ],
+  [
+   178.219,
+   180.411,
+   "FY24 was a loss."
+  ],
+  [
+   180.411,
+   181.644,
+   "Strength:"
+  ],
+  [
+   181.644,
+   186.713,
+   "PAT up to ₹10.22 Cr, a 16.88% margin."
+  ],
+  [
+   187.213,
+   188.241,
+   "Watch-out:"
+  ],
+  [
+   188.241,
+   192.765,
+   "Government receivables need working capital."
+  ],
+  [
+   192.765,
+   193.69,
+   "Strength:"
+  ],
+  [
+   193.69,
+   196.877,
+   "11.70x P/E, below listed peers."
+  ],
+  [
+   197.377,
+   198.61,
+   "Watch-out:"
+  ],
+  [
+   198.61,
+   199.103,
+   "SME:"
+  ],
+  [
+   199.103,
+   203.293,
+   "₹2,64,000 minimum, thin liquidity."
+  ],
+  [
+   203.293,
+   204.402,
+   "Strength:"
+  ],
+  [
+   204.402,
+   208.961,
+   "88.12% of the offer is fresh capital."
+  ],
+  [
+   209.461,
+   210.592,
+   "How to apply."
+  ],
+  [
+   211.092,
+   215.095,
+   "This is an S M E issue on NSE Emerge."
+  ],
+  [
+   215.095,
+   217.584,
+   "One lot is 1200 shares,"
+  ],
+  [
+   217.584,
+   223.643,
+   "and the minimum application for individuals is two lots,"
+  ],
+  [
+   223.643,
+   227.647,
+   "2400 shares, or ₹2,64,000 at the cap."
+  ],
+  [
+   228.147,
+   232.243,
+   "S M E shares trade thinly after listing, with a market maker,"
+  ],
+  [
+   232.243,
+   235.4,
+   "so exiting can be harder than on the mainboard."
+  ],
+  [
+   235.9,
+   236.86,
+   "Let's recap."
+  ],
+  [
+   237.36,
+   243.097,
+   "FY26 revenue ₹60.53 Cr, profit ₹10.22 Cr."
+  ],
+  [
+   243.097,
+   251.493,
+   "The offer is ₹42.44 Cr, of which ₹5.04 Cr is offer for sale."
+  ],
+  [
+   251.493,
+   257.09,
+   "Valuation is 11.70x earnings at the cap."
+  ],
+  [
+   257.09,
+   262.128,
+   "The minimum investment is ₹2,64,000."
+  ],
+  [
+   262.628,
+   266.802,
+   "This video is public-source education from the red herring"
+  ],
+  [
+   266.802,
+   269.104,
+   "prospectus and exchange notices."
+  ],
+  [
+   269.104,
+   273.062,
+   "It is not investment advice and not a buy or sell call."
+  ],
+  [
+   273.062,
+   274.861,
+   "Read the final documents,"
+  ],
+  [
+   274.861,
+   277.74,
+   "check live subscription on the exchange,"
+  ],
+  [
+   277.74,
+   280.474,
+   "and consult a SEBI-registered adviser."
+  ],
+  [
+   280.474,
+   281.913,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "ipo28/benchmark.wav",
+   "volume": 1.0
+  }
+ }
+}

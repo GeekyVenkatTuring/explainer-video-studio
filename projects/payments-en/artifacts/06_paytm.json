@@ -1,0 +1,643 @@
+{
+ "cuts": [
+  {
+   "id": "06_paytm_title",
+   "type": "pg_title",
+   "in_seconds": 0.0,
+   "out_seconds": 20.163,
+   "props": {
+    "gateway": "Paytm",
+    "tagline": "0% UPI + RuPay \u2014 the cost edge",
+    "accent": "#00BAF2",
+    "kicker": "PAYMENT GATEWAYS \u00b7 DEVELOPER GUIDE",
+    "dur": 20.663
+   }
+  },
+  {
+   "id": "06_paytm_docs",
+   "type": "pg_docs",
+   "in_seconds": 20.663,
+   "out_seconds": 50.257,
+   "props": {
+    "gateway": "Paytm",
+    "accent": "#00BAF2",
+    "url": "business.paytm.com/payment-gateway",
+    "docsUrl": "business.paytm.com/docs",
+    "signupUrl": "business.paytm.com",
+    "sandbox": true,
+    "kyc": [
+     "Business & signatory PAN",
+     "Bank proof",
+     "Business-registration / GST",
+     "Address proof"
+    ],
+    "methods": [
+     "Cards",
+     "UPI",
+     "Netbanking",
+     "Wallets",
+     "EMI"
+    ],
+    "dur": 30.094
+   }
+  },
+  {
+   "id": "06_paytm_support",
+   "type": "pg_support",
+   "in_seconds": 50.757,
+   "out_seconds": 74.757,
+   "props": {
+    "gateway": "Paytm",
+    "accent": "#00BAF2",
+    "channels": [
+     {
+      "icon": "\u260e",
+      "label": "Business phone",
+      "value": "+91 120 4890600",
+      "live": true
+     },
+     {
+      "icon": "\ud83d\udcac",
+      "label": "Support",
+      "value": "business.paytm.com/support",
+      "live": true
+     },
+     {
+      "icon": "\ud83d\udcda",
+      "label": "Docs",
+      "value": "business.paytm.com/docs",
+      "live": true
+     }
+    ],
+    "dur": 24.5
+   }
+  },
+  {
+   "id": "06_paytm_metrics",
+   "type": "pg_metrics",
+   "in_seconds": 75.257,
+   "out_seconds": 93.396,
+   "props": {
+    "gateway": "Paytm",
+    "accent": "#00BAF2",
+    "settleDay": 1,
+    "settleNote": "next-day default (same-day/on-demand available)",
+    "instant": true,
+    "successNote": "No official figure published",
+    "complexity": 3,
+    "complexityLabel": "Medium",
+    "complexityWhy": "All-in-One SDK + checksum signing",
+    "dur": 18.639
+   }
+  },
+  {
+   "id": "06_paytm_pricing",
+   "type": "pg_pricing",
+   "in_seconds": 93.896,
+   "out_seconds": 122.543,
+   "props": {
+    "gateway": "Paytm",
+    "accent": "#00BAF2",
+    "rows": [
+     {
+      "icon": "\ud83d\udfe3",
+      "label": "UPI",
+      "rate": "0%",
+      "feePct": 0.0
+     },
+     {
+      "icon": "\ud83d\udcb3",
+      "label": "RuPay cards",
+      "rate": "0%",
+      "feePct": 0.0
+     },
+     {
+      "icon": "\ud83d\udcb3",
+      "label": "Credit / debit cards",
+      "rate": "~1.8%",
+      "feePct": 1.8,
+      "note": "varies by source"
+     },
+     {
+      "icon": "\ud83c\udfe6",
+      "label": "Net banking",
+      "rate": "~1.8%",
+      "feePct": 1.8,
+      "note": "varies by source"
+     },
+     {
+      "icon": "\ud83d\udc5b",
+      "label": "Wallets",
+      "rate": "~1.8%",
+      "feePct": 1.8,
+      "note": "varies by source"
+     }
+    ],
+    "foot": "No setup/AMC \u00b7 GST applicable \u00b7 0% UPI + RuPay is the edge",
+    "dur": 29.147
+   }
+  },
+  {
+   "id": "06_paytm_flow",
+   "type": "pg_flow",
+   "in_seconds": 123.043,
+   "out_seconds": 147.045,
+   "props": {
+    "gateway": "Paytm",
+    "accent": "#00BAF2",
+    "steps": [
+     {
+      "emoji": "\ud83d\udd10",
+      "label": "Initiate transaction",
+      "sub": "server \u00b7 checksum"
+     },
+     {
+      "emoji": "\ud83c\udf9f\ufe0f",
+      "label": "Get txnToken",
+      "sub": "server response"
+     },
+     {
+      "emoji": "\ud83d\uded2",
+      "label": "All-in-One Checkout",
+      "sub": "client"
+     },
+     {
+      "emoji": "\u2705",
+      "label": "Status + webhook",
+      "sub": "server verifies"
+     },
+     {
+      "emoji": "\ud83c\udfe6",
+      "label": "Settlement",
+      "sub": "T+1 / on-demand"
+     }
+    ],
+    "dur": 24.502
+   }
+  },
+  {
+   "id": "06_paytm_code",
+   "type": "pg_code",
+   "in_seconds": 147.545,
+   "out_seconds": 170.538,
+   "props": {
+    "gateway": "Paytm",
+    "accent": "#00BAF2",
+    "lang": "node",
+    "file": "initiate-transaction.js",
+    "lines": [
+     "const { generateSignature } = require(\"paytmchecksum\");",
+     "const body = { requestType: \"Payment\", mid: MID, orderId: \"o11\",",
+     "  txnAmount: { value: \"500.00\", currency: \"INR\" } };",
+     "const signature = await generateSignature(JSON.stringify(body), MERCHANT_KEY);",
+     "// POST { body, head: { signature } }",
+     "// to initiateTransaction."
+    ],
+    "docUrl": "business.paytm.com/docs",
+    "caption": "Generate the checksum on the server before initiating checkout.",
+    "dur": 23.493
+   }
+  },
+  {
+   "id": "06_paytm_recap",
+   "type": "pg_recap",
+   "in_seconds": 171.038,
+   "out_seconds": 197.961,
+   "props": {
+    "title": "Paytm in one breath",
+    "items": [
+     "0% UPI and RuPay are the cost edge",
+     "~1.8% elsewhere, but source-dependent",
+     "T+1 default \u00b7 same-day/on-demand available",
+     "All-in-One SDK + checksum",
+     "Published business contact, not a 24/7 tech hotline"
+    ],
+    "closer": "A clear option when UPI and RuPay economics matter most.",
+    "dur": 27.423
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.112,
+   "Let's look at Paytm from a developer's point"
+  ],
+  [
+   3.112,
+   3.89,
+   "of view."
+  ],
+  [
+   4.44,
+   7.553,
+   "0% UPI + RuPay \u2014 the cost edge."
+  ],
+  [
+   8.103,
+   10.437,
+   "We'll walk its docs and KYC,"
+  ],
+  [
+   10.437,
+   11.604,
+   "its support channels,"
+  ],
+  [
+   11.604,
+   11.993,
+   "settlement,"
+  ],
+  [
+   11.993,
+   13.16,
+   "success and effort,"
+  ],
+  [
+   13.16,
+   15.495,
+   "exact pricing for every payment method,"
+  ],
+  [
+   15.495,
+   18.607,
+   "and a real integration call \u2014 everything you"
+  ],
+  [
+   18.607,
+   20.163,
+   "want before you commit."
+  ],
+  [
+   20.663,
+   22.558,
+   "Everything starts at business.paytm.com/docs."
+  ],
+  [
+   23.108,
+   24.055,
+   "For access,"
+  ],
+  [
+   24.055,
+   27.844,
+   "you get test-mode keys the moment you sign"
+  ],
+  [
+   27.844,
+   28.317,
+   "up,"
+  ],
+  [
+   28.317,
+   30.212,
+   "before any paperwork clears."
+  ],
+  [
+   30.762,
+   34.551,
+   "To go live you complete KYC \u2014 Business"
+  ],
+  [
+   34.551,
+   35.972,
+   "& signatory PAN,"
+  ],
+  [
+   35.972,
+   36.919,
+   "Bank proof,"
+  ],
+  [
+   36.919,
+   38.34,
+   "Business-registration / GST,"
+  ],
+  [
+   38.34,
+   42.129,
+   "and more \u2014 and it's worth confirming the"
+  ],
+  [
+   42.129,
+   44.971,
+   "exact list in the live dashboard."
+  ],
+  [
+   45.521,
+   47.889,
+   "The methods you can accept:"
+  ],
+  [
+   47.889,
+   48.362,
+   "Cards,"
+  ],
+  [
+   48.362,
+   48.836,
+   "UPI,"
+  ],
+  [
+   48.836,
+   49.31,
+   "Netbanking,"
+  ],
+  [
+   49.31,
+   49.783,
+   "Wallets,"
+  ],
+  [
+   49.783,
+   50.257,
+   "EMI."
+  ],
+  [
+   50.757,
+   51.773,
+   "Now support,"
+  ],
+  [
+   51.773,
+   54.313,
+   "shown honestly as published routes,"
+  ],
+  [
+   54.313,
+   56.344,
+   "not promised service levels."
+  ],
+  [
+   56.895,
+   59.942,
+   "Your live channels are business phone,"
+  ],
+  [
+   59.942,
+   60.45,
+   "support,"
+  ],
+  [
+   60.45,
+   60.958,
+   "docs."
+  ],
+  [
+   61.508,
+   64.048,
+   "And unlike most peers here,"
+  ],
+  [
+   64.048,
+   67.096,
+   "a business line is actually published:"
+  ],
+  [
+   67.096,
+   68.62,
+   "+91 120 4890600."
+  ],
+  [
+   69.169,
+   73.233,
+   "A grey item means the provider simply doesn't"
+  ],
+  [
+   73.233,
+   74.757,
+   "publish that route."
+  ],
+  [
+   75.257,
+   76.67,
+   "Three operational checks."
+  ],
+  [
+   77.22,
+   80.518,
+   "On settlement \u2014 next-day default (same-day/on-demand\navailable)."
+  ],
+  [
+   81.068,
+   84.837,
+   "On success rate \u2014 No official figure published;"
+  ],
+  [
+   84.837,
+   87.664,
+   "we won't quote a made-up percentage."
+  ],
+  [
+   88.214,
+   91.983,
+   "And integration effort is Medium \u2014 All-in-One SDK"
+  ],
+  [
+   91.983,
+   93.396,
+   "+ checksum signing."
+  ],
+  [
+   93.896,
+   97.496,
+   "Now pricing \u2014 the part you actually budget"
+  ],
+  [
+   97.496,
+   97.946,
+   "for."
+  ],
+  [
+   98.496,
+   100.745,
+   "Paytm lists upi at 0%;"
+  ],
+  [
+   100.745,
+   102.545,
+   "rupay cards at 0%;"
+  ],
+  [
+   102.545,
+   105.245,
+   "credit / debit cards at ~1.8%."
+  ],
+  [
+   105.795,
+   108.045,
+   "Where a row says custom,"
+  ],
+  [
+   108.045,
+   108.495,
+   "varies,"
+  ],
+  [
+   108.495,
+   109.844,
+   "or contact sales,"
+  ],
+  [
+   109.844,
+   113.444,
+   "keep it exactly that vague in your model"
+  ],
+  [
+   113.444,
+   116.144,
+   "\u2014 don't invent a precise number."
+  ],
+  [
+   116.694,
+   120.293,
+   "No setup/AMC \u00b7 GST applicable \u00b7 0% UPI"
+  ],
+  [
+   120.293,
+   122.543,
+   "+ RuPay is the edge."
+  ],
+  [
+   123.043,
+   124.505,
+   "The integration runs:"
+  ],
+  [
+   124.505,
+   128.403,
+   "Initiate transaction \u2192 Get txnToken \u2192 All-in-One\nCheckout"
+  ],
+  [
+   128.403,
+   131.327,
+   "\u2192 Status + webhook \u2192 Settlement."
+  ],
+  [
+   131.877,
+   134.8,
+   "Create the intent on your server,"
+  ],
+  [
+   134.8,
+   138.211,
+   "hand the client only what checkout needs,"
+  ],
+  [
+   138.211,
+   142.11,
+   "then confirm status and signatures server-side\nbefore you"
+  ],
+  [
+   142.11,
+   142.597,
+   "fulfil."
+  ],
+  [
+   143.147,
+   147.045,
+   "A browser redirect is never proof of payment."
+  ],
+  [
+   147.545,
+   150.673,
+   "Here's the representative call \u2014\ninitiate-transaction.js."
+  ],
+  [
+   151.223,
+   155.393,
+   "Generate the checksum on the server before\ninitiating"
+  ],
+  [
+   155.393,
+   155.914,
+   "checkout."
+  ],
+  [
+   156.464,
+   159.07,
+   "Treat it as a shape,"
+  ],
+  [
+   159.07,
+   160.634,
+   "not copy-and-forget code:"
+  ],
+  [
+   160.634,
+   163.762,
+   "read the current reference at\nbusiness.paytm.com/docs,"
+  ],
+  [
+   163.762,
+   166.889,
+   "keep your secrets in server-side config,"
+  ],
+  [
+   166.889,
+   170.538,
+   "and validate the final callback or webhook."
+  ],
+  [
+   171.038,
+   171.575,
+   "So,"
+  ],
+  [
+   171.575,
+   173.722,
+   "Paytm in one breath."
+  ],
+  [
+   174.272,
+   178.568,
+   "0% UPI and RuPay are the cost edge"
+  ],
+  [
+   179.118,
+   180.191,
+   "~1.8% elsewhere,"
+  ],
+  [
+   180.191,
+   181.265,
+   "but source-dependent"
+  ],
+  [
+   181.815,
+   184.5,
+   "T+1 default \u00b7 same-day/on-demand available"
+  ],
+  [
+   185.05,
+   187.197,
+   "All-in-One SDK + checksum"
+  ],
+  [
+   187.747,
+   189.358,
+   "Published business contact,"
+  ],
+  [
+   189.358,
+   192.042,
+   "not a 24/7 tech hotline."
+  ],
+  [
+   192.592,
+   196.887,
+   "A clear option when UPI and RuPay economics"
+  ],
+  [
+   196.887,
+   197.961,
+   "matter most."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pg/06_paytm.wav",
+   "volume": 1.0
+  }
+ }
+}

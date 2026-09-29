@@ -1,0 +1,2 @@
+file '/Users/appuram/Developer/explainer-forge/projects/lean-lang-en/assets/b21.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/lean-lang-en/assets/raw/_g.wav'

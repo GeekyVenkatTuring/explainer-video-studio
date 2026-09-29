@@ -1,0 +1,283 @@
+{
+ "cuts": [
+  {
+   "id": "b01",
+   "type": "dta_title",
+   "in_seconds": 0,
+   "out_seconds": 23.721,
+   "props": {
+    "dur": 24.221
+   }
+  },
+  {
+   "id": "b02",
+   "type": "dta_hook",
+   "in_seconds": 24.221,
+   "out_seconds": 63.012,
+   "props": {
+    "dur": 39.291
+   }
+  },
+  {
+   "id": "b03",
+   "type": "dta_divider",
+   "in_seconds": 63.512,
+   "out_seconds": 81.655,
+   "props": {
+    "n": 1,
+    "title": "The Anatomy",
+    "sub": "What a rule actually does",
+    "color": "#38BDF8",
+    "pips": 4,
+    "dur": 18.643
+   }
+  },
+  {
+   "id": "b04",
+   "type": "dta_anatomy",
+   "in_seconds": 82.155,
+   "out_seconds": 126.462,
+   "props": {
+    "dur": 44.807
+   }
+  }
+ ],
+ "captions": [
+  [
+   0,
+   1.068,
+   "Daily trading algorithms."
+  ],
+  [
+   1.699,
+   4.191,
+   "How machines trade, and the India reality."
+  ],
+  [
+   4.822,
+   8.026,
+   "This is an educational map of rules, execution,\nrisk,"
+  ],
+  [
+   8.026,
+   8.737,
+   "and limits."
+  ],
+  [
+   9.369,
+   11.86,
+   "It is not a promise of profit."
+  ],
+  [
+   12.492,
+   15.695,
+   "We will separate a useful tool from a seductive"
+  ],
+  [
+   15.695,
+   16.051,
+   "story."
+  ],
+  [
+   16.683,
+   19.886,
+   "The goal is not to find a magic bot."
+  ],
+  [
+   20.518,
+   23.721,
+   "The goal is to understand the complete decision\nchain."
+  ],
+  [
+   24.221,
+   25.982,
+   "An order reaches an exchange."
+  ],
+  [
+   26.614,
+   29.079,
+   "Was it a person clicking a button?"
+  ],
+  [
+   29.711,
+   32.88,
+   "Or a rule that a computer followed without emotion?"
+  ],
+  [
+   33.512,
+   36.682,
+   "By financial year twenty twenty-four, twelve point\neight percent"
+  ],
+  [
+   36.682,
+   39.852,
+   "of N S E cash-market gross turnover was classified"
+  ],
+  [
+   39.852,
+   40.556,
+   "as algo."
+  ],
+  [
+   41.188,
+   44.357,
+   "That is not a claim about all Indian trading."
+  ],
+  [
+   44.989,
+   47.102,
+   "It is one scoped exchange measure."
+  ],
+  [
+   47.734,
+   50.903,
+   "In this video, we unpack what the machines actually"
+  ],
+  [
+   50.903,
+   51.256,
+   "do."
+  ],
+  [
+   51.887,
+   54.705,
+   "A human can use the same rule manually."
+  ],
+  [
+   55.336,
+   57.097,
+   "Automation changes repeatability and speed."
+  ],
+  [
+   57.729,
+   60.899,
+   "It does not change what the rule knows, or"
+  ],
+  [
+   60.899,
+   63.012,
+   "what the market can do next."
+  ],
+  [
+   63.512,
+   64.939,
+   "Part one. The anatomy."
+  ],
+  [
+   65.571,
+   68.068,
+   "An algorithm is not a magic prediction."
+  ],
+  [
+   68.7,
+   71.197,
+   "It is a repeatable chain of decisions."
+  ],
+  [
+   71.829,
+   74.683,
+   "Keep this map in mind through every strategy."
+  ],
+  [
+   75.315,
+   78.526,
+   "If one link is missing, the system is incomplete."
+  ],
+  [
+   79.157,
+   81.655,
+   "A signal alone is only an opinion."
+  ],
+  [
+   82.155,
+   84.427,
+   "A daily algo begins with data."
+  ],
+  [
+   85.058,
+   87.33,
+   "It turns data into a signal."
+  ],
+  [
+   87.962,
+   91.37,
+   "Then risk checks decide whether the signal deserves\nan"
+  ],
+  [
+   91.37,
+   91.748,
+   "order."
+  ],
+  [
+   92.38,
+   94.273,
+   "The broker routes the order."
+  ],
+  [
+   94.905,
+   96.419,
+   "The exchange matches it."
+  ],
+  [
+   97.051,
+   98.944,
+   "Fills return to the system."
+  ],
+  [
+   99.576,
+   102.983,
+   "So the loop is data, signal, risk, order, fill."
+  ],
+  [
+   103.615,
+   107.023,
+   "Every serious system also watches the loop, because\na"
+  ],
+  [
+   107.023,
+   110.43,
+   "correct idea can still fail through bad data, a"
+  ],
+  [
+   110.43,
+   112.702,
+   "rejected order, or a runaway process."
+  ],
+  [
+   113.334,
+   116.742,
+   "This chain also explains why daily algos are more"
+  ],
+  [
+   116.742,
+   118.256,
+   "than a chart indicator."
+  ],
+  [
+   118.888,
+   120.402,
+   "A chart can suggest."
+  ],
+  [
+   121.034,
+   121.791,
+   "Risk decides."
+  ],
+  [
+   122.423,
+   123.18,
+   "Routing executes."
+  ],
+  [
+   123.812,
+   126.462,
+   "Monitoring checks that reality matches the plan."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "dta/ch01.wav",
+   "volume": 1.0
+  }
+ }
+}

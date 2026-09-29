@@ -1,0 +1,67 @@
+=== german: rendering (301.8s)
+german 0%
+german 10%
+german 20%
+german 30%
+german 40%
+german 50%
+german 60%
+german 70%
+german 80%
+german 90%
+german 100%
+RENDERED german
+DELIVERED /Users/appuram/Downloads/generated_videos/german-green-steel-ipo.mp4 (5.03 min, 41.6 MB); deleted /Users/appuram/Developer/explainer-forge/projects/ipo-28sep-german/renders/german.mp4
+=== shah: rendering (256.9s)
+shah 0%
+shah 10%
+shah 20%
+shah 30%
+shah 40%
+shah 50%
+shah 60%
+shah 70%
+shah 80%
+shah 90%
+shah 100%
+RENDERED shah
+DELIVERED /Users/appuram/Downloads/generated_videos/shah-investors-home-ipo.mp4 (4.28 min, 34.8 MB); deleted /Users/appuram/Developer/explainer-forge/projects/ipo-28sep-shah/renders/shah.mp4
+=== srit: rendering (268.3s)
+srit 0%
+ProtocolError: Protocol error (Page.bringToFront): Target closed. https://www.remotion.dev/docs/target-closed
+    at CDPSession._onClosed (/Users/appuram/Developer/explainer-forge/composer/node_modules/@remotion/renderer/dist/browser/Connection.js:224:42)
+    at #onClose (/Users/appuram/Developer/explainer-forge/composer/node_modules/@remotion/renderer/dist/browser/Connection.js:131:21)
+    at WebSocket.<anonymous> (/Users/appuram/Developer/explainer-forge/composer/node_modules/@remotion/renderer/dist/browser/NodeWebSocketTransport.js:63:30)
+    at callListener (/Users/appuram/Developer/explainer-forge/composer/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onClose (/Users/appuram/Developer/explainer-forge/composer/node_modules/ws/lib/event-target.js:220:9)
+    at WebSocket.emit (node:events:519:28)
+    at WebSocket.emitClose (/Users/appuram/Developer/explainer-forge/composer/node_modules/ws/lib/websocket.js:279:10)
+    at Receiver.receiverOnFinish (/Users/appuram/Developer/explainer-forge/composer/node_modules/ws/lib/websocket.js:1228:20)
+    at Receiver.emit (node:events:519:28)
+    at finish (node:internal/streams/writable:955:10) {
+  code: undefined,
+  originalMessage: ''
+}
+The browser crashed while rendering frame 1046, retrying 1 more times. Learn more about this error under https://www.remotion.dev/docs/target-closed
+The browser crashed while rendering frame 1045, retrying 1 more times. Learn more about this error under https://www.remotion.dev/docs/target-closed
+Killed previous browser and making new one
+The browser crashed while rendering frame 1047, retrying 1 more times. Learn more about this error under https://www.remotion.dev/docs/target-closed
+The browser crashed while rendering frame 1048, retrying 1 more times. Learn more about this error under https://www.remotion.dev/docs/target-closed
+Made new browser
+srit 10%
+srit 20%
+
+💡 Get help for this issue at https://remotion.dev/docs/troubleshooting/timed-out-page-function
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+Error: Timed out evaluating page function "(f, c, a) => {
+            window.remotion_setFrame(f, c, a);
+        }"
+    at Timeout._onTimeout (/Users/appuram/Developer/explainer-forge/composer/node_modules/@remotion/renderer/dist/puppeteer-evaluate.js:34:24)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+
+Node.js v22.22.3
+RENDER FAILED srit

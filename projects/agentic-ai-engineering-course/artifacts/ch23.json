@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch23_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 47.424,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "foundation",
+        "dur": 47.924
+      }
+    },
+    {
+      "id": "ch23_system",
+      "type": "aae_chapter",
+      "in_seconds": 47.924,
+      "out_seconds": 87.506,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "system",
+        "dur": 40.082
+      }
+    },
+    {
+      "id": "ch23_practice",
+      "type": "aae_chapter",
+      "in_seconds": 88.006,
+      "out_seconds": 135.001,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "practice",
+        "dur": 47.495
+      }
+    },
+    {
+      "id": "ch23_failure",
+      "type": "aae_chapter",
+      "in_seconds": 135.501,
+      "out_seconds": 175.32,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "failure",
+        "dur": 40.319
+      }
+    },
+    {
+      "id": "ch23_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 175.82,
+      "out_seconds": 219.692,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "evaluation",
+        "dur": 44.372
+      }
+    },
+    {
+      "id": "ch23_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 220.192,
+      "out_seconds": 258.669,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "handoff",
+        "dur": 38.977
+      }
+    },
+    {
+      "id": "ch23_application",
+      "type": "aae_chapter",
+      "in_seconds": 259.169,
+      "out_seconds": 309.082,
+      "props": {
+        "chapter": 23,
+        "title": "Agentic AI Maturity and Operating System",
+        "focus": "assessing capability honestly and building the controls required for the next level",
+        "concepts": [
+          "maturity criteria",
+          "operating cadence",
+          "evidence-based progression"
+        ],
+        "example": "a staged path from supervised pilot to governed production",
+        "trap": "calling a prototype enterprise-ready",
+        "takeaway": "Assessing capability honestly and building the controls required for the next level.",
+        "beat": "application",
+        "dur": 50.414
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch23.wav",
+      "volume": 1
+    }
+  }
+}

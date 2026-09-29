@@ -1,0 +1,513 @@
+{
+ "pack": "ledger",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "data-harness",
+  "issue": "part 1 · harness",
+  "code": "DH · P1"
+ },
+ "beats": [
+  {
+   "id": "b04",
+   "kind": "divider",
+   "dur": 6.861,
+   "props": {
+    "n": 1,
+    "total": 6,
+    "title": "The harness",
+    "sub": "the model is the engine; the harness is the car"
+   }
+  },
+  {
+   "id": "b05",
+   "kind": "list",
+   "dur": 40.233,
+   "props": {
+    "kicker": "What coding-agent harnesses taught us",
+    "title": "Six parts around one model",
+    "items": [
+     {
+      "h": "Context builder",
+      "d": "decides exactly what the model sees each turn"
+     },
+     {
+      "h": "Tools",
+      "d": "validated, sandboxed actions with compact results"
+     },
+     {
+      "h": "The loop",
+      "d": "call the model, run tools, feed results back"
+     },
+     {
+      "h": "Memory",
+      "d": "transcripts now, durable learnings later"
+     },
+     {
+      "h": "Guardrails",
+      "d": "budgets, approvals, and a verifier"
+     },
+     {
+      "h": "Traces and evals",
+      "d": "every step logged, every change scored"
+     }
+    ],
+    "ats": [
+     0.322,
+     0.402,
+     0.464,
+     0.554,
+     0.634,
+     0.724
+    ]
+   }
+  },
+  {
+   "id": "b06",
+   "kind": "x_diagram",
+   "dur": 40.835,
+   "props": {
+    "kicker": "Architecture",
+    "title": "The whole system on one sheet",
+    "groups": [
+     {
+      "h": "OFFLINE · DATA PLANE",
+      "x": 120,
+      "y": 280,
+      "w": 760,
+      "hh": 580,
+      "c": "faint",
+      "at": 0.03
+     },
+     {
+      "h": "ONLINE · THE HARNESS",
+      "x": 950,
+      "y": 280,
+      "w": 860,
+      "hh": 580,
+      "c": "llm",
+      "at": 0.03
+     }
+    ],
+    "nodes": [
+     {
+      "id": "pdf",
+      "h": "PDFs",
+      "d": "results, reports",
+      "x": 150,
+      "y": 320,
+      "w": 220,
+      "c": "pdf"
+     },
+     {
+      "id": "xls",
+      "h": "Excel sheets",
+      "d": "exports, models",
+      "x": 150,
+      "y": 505,
+      "w": 220,
+      "c": "xls"
+     },
+     {
+      "id": "sql",
+      "h": "SQL databases",
+      "d": "prices, trades",
+      "x": 150,
+      "y": 690,
+      "w": 220,
+      "c": "sql"
+     },
+     {
+      "id": "ing",
+      "h": "Ingest",
+      "d": "parse, normalise, validate",
+      "x": 420,
+      "y": 320,
+      "w": 190,
+      "hh": 480
+     },
+     {
+      "id": "facts",
+      "h": "Facts table",
+      "d": "DuckDB",
+      "x": 650,
+      "y": 320,
+      "w": 200
+     },
+     {
+      "id": "idx",
+      "h": "Doc index",
+      "d": "text chunks",
+      "x": 650,
+      "y": 505,
+      "w": 200
+     },
+     {
+      "id": "cat",
+      "h": "Catalog",
+      "d": "what exists",
+      "x": 650,
+      "y": 690,
+      "w": 200
+     },
+     {
+      "id": "sem",
+      "h": "Semantic layer",
+      "d": "metric formulas",
+      "x": 990,
+      "y": 320,
+      "w": 250,
+      "c": "llm"
+     },
+     {
+      "id": "tools",
+      "h": "Tools",
+      "d": "seven, read-only",
+      "x": 990,
+      "y": 505,
+      "w": 250,
+      "c": "llm"
+     },
+     {
+      "id": "loop",
+      "h": "Agent loop",
+      "d": "context → model → tools",
+      "x": 1290,
+      "y": 505,
+      "w": 240,
+      "c": "llm"
+     },
+     {
+      "id": "mem",
+      "h": "Memory",
+      "d": "learnings",
+      "x": 1290,
+      "y": 690,
+      "w": 240,
+      "c": "pdf"
+     },
+     {
+      "id": "ver",
+      "h": "Verifier",
+      "d": "numbers ⊆ evidence",
+      "x": 1580,
+      "y": 505,
+      "w": 205,
+      "c": "xls"
+     },
+     {
+      "id": "ans",
+      "h": "Cited answer",
+      "d": "with as-of date",
+      "x": 1580,
+      "y": 320,
+      "w": 205
+     }
+    ],
+    "edges": [
+     [
+      "pdf",
+      "ing"
+     ],
+     [
+      "xls",
+      "ing"
+     ],
+     [
+      "sql",
+      "ing"
+     ],
+     [
+      "ing",
+      "facts"
+     ],
+     [
+      "ing",
+      "idx"
+     ],
+     [
+      "ing",
+      "cat"
+     ],
+     [
+      "facts",
+      "sem"
+     ],
+     [
+      "idx",
+      "tools"
+     ],
+     [
+      "sem",
+      "tools"
+     ],
+     [
+      "tools",
+      "loop"
+     ],
+     [
+      "loop",
+      "mem"
+     ],
+     [
+      "loop",
+      "ver"
+     ],
+     [
+      "ver",
+      "ans"
+     ]
+    ],
+    "ats": [
+     0.128,
+     0.138,
+     0.166,
+     0.214,
+     0.343,
+     0.4,
+     0.467,
+     0.606,
+     0.663,
+     0.745,
+     0.793,
+     0.875,
+     0.932
+    ]
+   }
+  },
+  {
+   "id": "b07",
+   "kind": "statement",
+   "dur": 29.041,
+   "props": {
+    "kicker": "The key design decision",
+    "lines": [
+     "Do the heavy lifting",
+     "before the question.",
+     "Numbers become rows.",
+     "Prose becomes chunks."
+    ],
+    "accent": 1,
+    "sub": "Parse once, validate once, query many times.",
+    "ats": [
+     0.159,
+     0.187,
+     0.578,
+     0.662
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.348,
+   "Part one. The harness."
+  ],
+  [
+   1.98,
+   4.676,
+   "What surrounds the model, and why it matters"
+  ],
+  [
+   4.676,
+   6.361,
+   "more than the model itself."
+  ],
+  [
+   6.861,
+   9.058,
+   "Coding agents made one idea famous."
+  ],
+  [
+   9.69,
+   12.619,
+   "The model is the engine. The harness is"
+  ],
+  [
+   12.619,
+   13.351,
+   "the car."
+  ],
+  [
+   13.982,
+   16.911,
+   "Small open projects, like Sebastian Raschka's mini coding"
+  ],
+  [
+   16.911,
+   19.84,
+   "agent, show the same parts again and again."
+  ],
+  [
+   20.472,
+   23.401,
+   "A context builder decides what the model sees."
+  ],
+  [
+   24.032,
+   25.497,
+   "Tools are its hands."
+  ],
+  [
+   26.128,
+   29.057,
+   "The loop runs model, then tools, then model"
+  ],
+  [
+   29.057,
+   29.423,
+   "again."
+  ],
+  [
+   30.055,
+   32.618,
+   "Memory carries things across turns and sessions."
+  ],
+  [
+   33.249,
+   35.812,
+   "Guardrails set budgets and check the output."
+  ],
+  [
+   36.444,
+   39.373,
+   "And traces plus evals tell you if a"
+  ],
+  [
+   39.373,
+   40.837,
+   "change made things better."
+  ],
+  [
+   41.469,
+   44.398,
+   "A data harness keeps this skeleton. We just"
+  ],
+  [
+   44.398,
+   46.594,
+   "swap code tools for data tools."
+  ],
+  [
+   47.094,
+   49.777,
+   "Here's the whole system on one sheet."
+  ],
+  [
+   50.409,
+   53.475,
+   "On the left is the offline data plane."
+  ],
+  [
+   53.475,
+   56.541,
+   "PDFs, Excel sheets, and SQL databases flow into"
+  ],
+  [
+   56.541,
+   59.607,
+   "an ingest step, which parses, normalises, and validates."
+  ],
+  [
+   60.239,
+   63.305,
+   "Out come three things. A facts table for"
+  ],
+  [
+   63.305,
+   66.371,
+   "the numbers. A doc index for the text."
+  ],
+  [
+   66.371,
+   69.054,
+   "And a catalog that records what exists."
+  ],
+  [
+   69.686,
+   72.752,
+   "On the right is the online harness. A"
+  ],
+  [
+   72.752,
+   75.818,
+   "semantic layer holds the metric formulas. Tools sit"
+  ],
+  [
+   75.818,
+   77.351,
+   "on top of it."
+  ],
+  [
+   77.983,
+   81.049,
+   "The agent loop calls those tools. Memory stores"
+  ],
+  [
+   81.049,
+   82.199,
+   "what it learns."
+  ],
+  [
+   82.831,
+   85.897,
+   "And a verifier checks every number before a"
+  ],
+  [
+   85.897,
+   87.43,
+   "cited answer goes out."
+  ],
+  [
+   87.93,
+   91.103,
+   "If you remember one design decision, make it"
+  ],
+  [
+   91.103,
+   91.896,
+   "this one."
+  ],
+  [
+   92.528,
+   95.304,
+   "Do the heavy lifting before the question."
+  ],
+  [
+   95.935,
+   99.108,
+   "A two hundred page annual report should not"
+  ],
+  [
+   99.108,
+   102.281,
+   "be parsed while a user waits. That's slow,"
+  ],
+  [
+   102.281,
+   104.264,
+   "costly, and different every run."
+  ],
+  [
+   104.896,
+   108.069,
+   "Instead, numbers become rows in a table. Prose"
+  ],
+  [
+   108.069,
+   109.259,
+   "becomes searchable chunks."
+  ],
+  [
+   109.89,
+   113.063,
+   "At question time, the agent queries clean data."
+  ],
+  [
+   113.695,
+   116.471,
+   "Parse once. Validate once. Query many times."
+  ]
+ ],
+ "audio": "dh/ch01.wav"
+}

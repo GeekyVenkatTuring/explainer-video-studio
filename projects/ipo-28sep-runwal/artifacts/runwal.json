@@ -1,0 +1,684 @@
+{
+ "cuts": [
+  {
+   "id": "runwal_title",
+   "type": "sm_ptitle",
+   "in_seconds": 0.0,
+   "out_seconds": 26.975,
+   "props": {
+    "title": "Runwal Enterprises IPO",
+    "sub": "Mumbai residential real estate · ₹500.00 Cr · 25–29 Sep 2026",
+    "kicker": "IPO ANALYSIS · MAINBOARD · 100% FRESH",
+    "dur": 27.475
+   }
+  },
+  {
+   "id": "runwal_biz",
+   "type": "sm_iconcards",
+   "in_seconds": 27.475,
+   "out_seconds": 62.437,
+   "props": {
+    "kicker": "WHAT THE COMPANY DOES",
+    "title": "Business Model",
+    "color": "#34D399",
+    "items": [
+     {
+      "emoji": "🏙️",
+      "k": "Mumbai residential developer",
+      "v": "A prominent Mumbai residential brand with ongoing and upcoming projects.",
+      "chip": "REALTY"
+     },
+     {
+      "emoji": "🏘️",
+      "k": "Township specialist",
+      "v": "Large townships with schools, malls and retail built in.",
+      "chip": "TOWNSHIPS"
+     },
+     {
+      "emoji": "📉",
+      "k": "Lumpy revenue",
+      "v": "FY24 revenue ₹2,408.87 Cr, FY25 ₹1,007.77 Cr, FY26 ₹1,798.95 Cr: recognition follows project completion.",
+      "chip": "CYCLE"
+     }
+    ],
+    "dur": 35.463
+   }
+  },
+  {
+   "id": "runwal_fin",
+   "type": "sm_stats",
+   "in_seconds": 62.937,
+   "out_seconds": 109.311,
+   "props": {
+    "kicker": "FINANCIAL QUALITY · RESTATED (RHP)",
+    "title": "FY26 Financials",
+    "stats": [
+     {
+      "label": "Revenue from operations",
+      "to": 1798.949,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "FY25: ₹1,007.77 Cr · +78.51%"
+     },
+     {
+      "label": "Profit after tax",
+      "to": 185.763,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "FY25: ₹55.65 Cr"
+     },
+     {
+      "label": "PAT margin (computed)",
+      "to": 10.326196017785941,
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 2,
+      "color": "#FBBF24",
+      "sub": "FY25: 5.52%"
+     }
+    ],
+    "note": "FY26 PAT ₹185.76 Cr vs ₹55.65 Cr. Net debt ₹2,778.11 Cr against equity of ₹844.82 Cr at March 2026.",
+    "dur": 46.873
+   }
+  },
+  {
+   "id": "runwal_issue",
+   "type": "sm_stats",
+   "in_seconds": 109.811,
+   "out_seconds": 122.044,
+   "props": {
+    "kicker": "OFFER STRUCTURE · COMPUTED AT CAP",
+    "title": "Fresh Issue vs Offer for Sale",
+    "stats": [
+     {
+      "label": "Total offer (at cap)",
+      "to": 500.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "band ₹290–₹305"
+     },
+     {
+      "label": "Fresh issue → company",
+      "to": 500.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "new capital"
+     },
+     {
+      "label": "Offer for sale → sellers",
+      "to": 0.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "none: 100% fresh"
+     }
+    ],
+    "note": "100% fresh issue: every rupee raised goes to the company.",
+    "dur": 12.733
+   }
+  },
+  {
+   "id": "runwal_proceeds",
+   "type": "sm_iconcards",
+   "in_seconds": 122.544,
+   "out_seconds": 148.193,
+   "props": {
+    "kicker": "USE OF PROCEEDS · RHP OBJECTS",
+    "title": "Where The Money Goes",
+    "color": "#34D399",
+    "items": [
+     {
+      "emoji": "🏦",
+      "k": "₹100.00 Cr own debt",
+      "v": "Repaying the company's own borrowings.",
+      "chip": "DEBT"
+     },
+     {
+      "emoji": "🏢",
+      "k": "₹225.00 Cr subsidiary debt",
+      "v": "Investment in Evie Real Estate and Runwal Residency to repay their loans.",
+      "chip": "DEBT"
+     },
+     {
+      "emoji": "🗺️",
+      "k": "Future land + GCP",
+      "v": "The balance funds acquisitions of future projects and general corporate purposes.",
+      "chip": "GROWTH"
+     }
+    ],
+    "dur": 26.149
+   }
+  },
+  {
+   "id": "runwal_peers",
+   "type": "sm_peers",
+   "in_seconds": 148.693,
+   "out_seconds": 185.841,
+   "props": {
+    "kicker": "VALUATION · P/E AT CAP vs LISTED PEERS",
+    "title": "Peer Comparison",
+    "color": "#34D399",
+    "rows": [
+     {
+      "name": "Runwal Enterprises",
+      "pe": 18.22,
+      "note": "₹305 cap ÷ FY26 EPS ₹16.74",
+      "hi": true,
+      "display": "18.22x"
+     },
+     {
+      "name": "Sunteck Realty",
+      "pe": 21.09,
+      "note": "Mumbai developer",
+      "hi": false,
+      "display": "21.09x"
+     },
+     {
+      "name": "Oberoi Realty",
+      "pe": 25.88,
+      "note": "Mumbai developer",
+      "hi": false,
+      "display": "25.88x"
+     },
+     {
+      "name": "Godrej Properties",
+      "pe": 27.53,
+      "note": "national developer",
+      "hi": false,
+      "display": "27.53x"
+     },
+     {
+      "name": "Lodha Developers",
+      "pe": 33.42,
+      "note": "Mumbai developer",
+      "hi": false,
+      "display": "33.42x"
+     },
+     {
+      "name": "Prestige Estates",
+      "pe": 51.7,
+      "note": "national developer",
+      "hi": false,
+      "display": "51.70x"
+     }
+    ],
+    "verdict": "At 18.22x FY26 EPS, Runwal is priced below every listed peer in its RHP.",
+    "dur": 37.648
+   }
+  },
+  {
+   "id": "runwal_verdict",
+   "type": "sm_myths",
+   "in_seconds": 186.341,
+   "out_seconds": 225.004,
+   "props": {
+    "kicker": "BALANCED ANALYSIS",
+    "title": "Strengths vs Watch-outs",
+    "mythLabel": "⚠️ WATCH-OUTS",
+    "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+    "pairs": [
+     {
+      "m": "Net debt ~3.29x equity",
+      "f": "100% fresh: no promoter selling"
+     },
+     {
+      "m": "Lumpy revenue: FY25 fell to ₹1,007.77 Cr",
+      "f": "FY26 PAT up to ₹185.76 Cr"
+     },
+     {
+      "m": "₹325.00 Cr of proceeds only repays debt",
+      "f": "18.22x P/E, below listed Mumbai peers"
+     }
+    ],
+    "dur": 39.163
+   }
+  },
+  {
+   "id": "runwal_apply",
+   "type": "sm_iconcards",
+   "in_seconds": 225.504,
+   "out_seconds": 249.404,
+   "props": {
+    "kicker": "HOW TO APPLY",
+    "title": "Check Terms Before You Bid",
+    "color": "#34D399",
+    "items": [
+     {
+      "emoji": "🧑",
+      "k": "Retail: up to ₹2 lakh",
+      "v": "Individual bids up to ₹2,00,000; lottery allotment if oversubscribed.",
+      "chip": "RETAIL"
+     },
+     {
+      "emoji": "💰",
+      "k": "Minimum bid",
+      "v": "49 shares × ₹305 = ₹14,945",
+      "chip": "1 LOT"
+     },
+     {
+      "emoji": "📅",
+      "k": "Bidding window",
+      "v": "25–29 Sep 2026 · UPI mandate by 5 PM on the last day.",
+      "chip": "DATES"
+     },
+     {
+      "emoji": "🔎",
+      "k": "Verify live",
+      "v": "Live subscription on NSE/BSE; the final RHP for everything else.",
+      "chip": "SOURCES"
+     }
+    ],
+    "dur": 24.4
+   }
+  },
+  {
+   "id": "runwal_recap",
+   "type": "sm_recap",
+   "in_seconds": 249.904,
+   "out_seconds": 293.997,
+   "props": {
+    "title": "Runwal Enterprises IPO — Recap",
+    "items": [
+     "FY26: revenue ₹1,798.95 Cr · PAT ₹185.76 Cr (10.33% margin)",
+     "Offer ₹500.00 Cr · 100% fresh",
+     "Valuation: 18.22x FY26 EPS at the ₹305 cap",
+     "Minimum: ₹14,945 · 25–29 Sep 2026"
+    ],
+    "closer": "Education, not advice: read the RHP, decide for yourself.",
+    "dur": 44.593
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.914,
+   "This is the Runwal Enterprises I P O, a mainboard offer,"
+  ],
+  [
+   3.914,
+   8.107,
+   "open from the twenty-fifth to the twenty-ninth of September."
+  ],
+  [
+   8.607,
+   11.527,
+   "The price band is ₹290 to ₹305."
+  ],
+  [
+   11.527,
+   17.273,
+   "Every figure here comes from the final red herring prospectus"
+  ],
+  [
+   17.273,
+   19.251,
+   "and exchange notices;"
+  ],
+  [
+   19.251,
+   22.924,
+   "the final price is fixed after bidding,"
+  ],
+  [
+   22.924,
+   26.975,
+   "so valuations are computed at the ₹305 cap."
+  ],
+  [
+   27.475,
+   28.712,
+   "First, the business."
+  ],
+  [
+   29.212,
+   33.005,
+   "Runwal is a Mumbai residential real-estate developer,"
+  ],
+  [
+   33.005,
+   36.368,
+   "known for large townships that include schools,"
+  ],
+  [
+   36.368,
+   38.3,
+   "malls and shopping arcades."
+  ],
+  [
+   38.8,
+   43.463,
+   "Real-estate revenue is lumpy:"
+  ],
+  [
+   43.463,
+   50.377,
+   "₹2,408.87 Cr in FY24, ₹1,007.77 Cr in FY25,"
+  ],
+  [
+   50.377,
+   54.397,
+   "and ₹1,798.95 Cr in FY26,"
+  ],
+  [
+   54.397,
+   62.437,
+   "because sales are recognised as projects complete."
+  ],
+  [
+   62.937,
+   64.537,
+   "The financial checkpoint."
+  ],
+  [
+   65.037,
+   77.416,
+   "FY26 revenue was ₹1,798.95 Cr, against ₹1,007.77 Cr in FY25,"
+  ],
+  [
+   77.416,
+   81.336,
+   "a change of 78.51%."
+  ],
+  [
+   81.836,
+   89.9,
+   "Profit after tax was ₹185.76 Cr, a margin of 10.33%."
+  ],
+  [
+   90.4,
+   92.384,
+   "The balance sheet is the key lens."
+  ],
+  [
+   92.884,
+   98.912,
+   "Net debt was ₹2,778.11 Cr at March 2026,"
+  ],
+  [
+   98.912,
+   104.187,
+   "against total equity of ₹844.82 Cr,"
+  ],
+  [
+   104.187,
+   109.311,
+   "so net debt is about 3.29x equity."
+  ],
+  [
+   109.811,
+   113.683,
+   "The offer size at the cap is ₹500.00 Cr,"
+  ],
+  [
+   113.683,
+   116.296,
+   "and it is 100% fresh issue."
+  ],
+  [
+   116.796,
+   119.181,
+   "All of that money goes into the company;"
+  ],
+  [
+   119.181,
+   122.044,
+   "no existing shareholder is selling in this deal."
+  ],
+  [
+   122.544,
+   123.867,
+   "Where does the money go?"
+  ],
+  [
+   124.367,
+   127.231,
+   "The whole ₹500.00 Cr is fresh money;"
+  ],
+  [
+   127.231,
+   129.38,
+   "there is no offer for sale."
+  ],
+  [
+   129.88,
+   133.645,
+   "₹100.00 Cr repays the company's own debt,"
+  ],
+  [
+   133.645,
+   137.502,
+   "and ₹225.00 Cr goes into two subsidiaries,"
+  ],
+  [
+   137.502,
+   142.552,
+   "Evie Real Estate and Runwal Residency, to repay theirs."
+  ],
+  [
+   143.052,
+   148.193,
+   "The balance can fund future project acquisitions and general corporate purposes."
+  ],
+  [
+   148.693,
+   149.696,
+   "Valuation."
+  ],
+  [
+   150.196,
+   152.716,
+   "At the ₹305 cap,"
+  ],
+  [
+   152.716,
+   160.905,
+   "the price is 18.22x FY26 earnings of ₹16.74 a share."
+  ],
+  [
+   161.405,
+   166.708,
+   "That is below all its listed peers:"
+  ],
+  [
+   166.708,
+   175.648,
+   "Sunteck at 21.09x, Oberoi 25.88x, Godrej Properties 27.53x,"
+  ],
+  [
+   175.648,
+   180.648,
+   "Lodha 33.42x and Prestige 51.70x."
+  ],
+  [
+   181.148,
+   185.841,
+   "The discount partly reflects much higher leverage and lumpy profits."
+  ],
+  [
+   186.341,
+   187.835,
+   "Now balance the evidence."
+  ],
+  [
+   188.335,
+   189.559,
+   "Watch-out:"
+  ],
+  [
+   189.559,
+   192.375,
+   "Net debt ~3.29x equity."
+  ],
+  [
+   192.375,
+   193.477,
+   "Strength:"
+  ],
+  [
+   193.477,
+   194.824,
+   "100% fresh:"
+  ],
+  [
+   194.824,
+   197.273,
+   "no promoter selling."
+  ],
+  [
+   197.773,
+   199.538,
+   "Watch-out:"
+  ],
+  [
+   199.538,
+   202.008,
+   "Lumpy revenue:"
+  ],
+  [
+   202.008,
+   206.595,
+   "FY25 fell to ₹1,007.77 Cr."
+  ],
+  [
+   206.595,
+   208.183,
+   "Strength:"
+  ],
+  [
+   208.183,
+   212.771,
+   "FY26 PAT up to ₹185.76 Cr."
+  ],
+  [
+   213.271,
+   214.48,
+   "Watch-out:"
+  ],
+  [
+   214.48,
+   219.319,
+   "₹325.00 Cr of proceeds only repays debt."
+  ],
+  [
+   219.319,
+   220.407,
+   "Strength:"
+  ],
+  [
+   220.407,
+   225.004,
+   "18.22x P/E, below listed Mumbai peers."
+  ],
+  [
+   225.504,
+   226.635,
+   "How to apply."
+  ],
+  [
+   227.135,
+   231.652,
+   "The minimum bid is one lot of 49 shares,"
+  ],
+  [
+   231.652,
+   234.815,
+   "which is ₹14,945 at the cap."
+  ],
+  [
+   235.315,
+   238.79,
+   "Retail investors can bid up to two lakh rupees,"
+  ],
+  [
+   238.79,
+   242.931,
+   "and allotment is by lottery if retail is oversubscribed."
+  ],
+  [
+   243.431,
+   247.974,
+   "Check live subscription on the N S E or B S E website,"
+  ],
+  [
+   247.974,
+   249.404,
+   "not social media."
+  ],
+  [
+   249.904,
+   250.864,
+   "Let's recap."
+  ],
+  [
+   251.364,
+   258.554,
+   "FY26 revenue ₹1,798.95 Cr, profit ₹185.76 Cr."
+  ],
+  [
+   258.554,
+   262.389,
+   "The offer is 100% fresh."
+  ],
+  [
+   262.389,
+   268.78,
+   "Valuation is 18.22x earnings at the cap."
+  ],
+  [
+   268.78,
+   274.212,
+   "The minimum investment is ₹14,945."
+  ],
+  [
+   274.712,
+   278.886,
+   "This video is public-source education from the red herring"
+  ],
+  [
+   278.886,
+   281.188,
+   "prospectus and exchange notices."
+  ],
+  [
+   281.188,
+   285.146,
+   "It is not investment advice and not a buy or sell call."
+  ],
+  [
+   285.146,
+   286.945,
+   "Read the final documents,"
+  ],
+  [
+   286.945,
+   289.824,
+   "check live subscription on the exchange,"
+  ],
+  [
+   289.824,
+   292.558,
+   "and consult a SEBI-registered adviser."
+  ],
+  [
+   292.558,
+   293.997,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "ipo28/runwal.wav",
+   "volume": 1.0
+  }
+ }
+}

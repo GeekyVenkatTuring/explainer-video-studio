@@ -1,0 +1,322 @@
+{
+  "cuts": [
+    {
+      "id": "ch03_divider",
+      "type": "fa_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 7.621,
+      "props": {
+        "n": 3,
+        "total": 11,
+        "title": "Business quality",
+        "sub": "Start with economic quality before chasing growth.",
+        "color": "#34D399",
+        "dur": 8.121
+      }
+    },
+    {
+      "id": "ch03_roe",
+      "type": "fa_gauge",
+      "in_seconds": 8.121,
+      "out_seconds": 34.572,
+      "props": {
+        "kicker": "RETURN ON EQUITY",
+        "title": "High ROE can signal that a business converts owners' capital into profit efficiently.",
+        "value": 20,
+        "unit": "%",
+        "zones": [
+          {
+            "to": 10,
+            "c": "#F87171",
+            "label": "weak"
+          },
+          {
+            "to": 20,
+            "c": "#FBBF24",
+            "label": "watch"
+          },
+          {
+            "to": 40,
+            "c": "#34D399",
+            "label": "strong"
+          }
+        ],
+        "caption": "Use several years and compare with the business model.",
+        "note": "ROE must be read beside debt; leverage can artificially lift it.",
+        "color": "#34D399",
+        "dur": 26.951
+      }
+    },
+    {
+      "id": "ch03_moat",
+      "type": "fa_compare",
+      "in_seconds": 35.072,
+      "out_seconds": 61.929,
+      "props": {
+        "kicker": "ECONOMIC MOAT",
+        "title": "Ask why customers choose this business over alternatives",
+        "cos": [
+          {
+            "name": "Durable edge",
+            "c": "#34D399",
+            "tag": "look for",
+            "stats": [
+              {
+                "k": "Source",
+                "v": "brand / cost / network"
+              },
+              {
+                "k": "Customer",
+                "v": "returns again"
+              },
+              {
+                "k": "Economics",
+                "v": "pricing power"
+              },
+              {
+                "k": "Evidence",
+                "v": "sustained returns",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Commodity trap",
+            "c": "#F87171",
+            "tag": "be careful",
+            "stats": [
+              {
+                "k": "Source",
+                "v": "no clear difference"
+              },
+              {
+                "k": "Customer",
+                "v": "buys cheapest"
+              },
+              {
+                "k": "Economics",
+                "v": "thin margins"
+              },
+              {
+                "k": "Evidence",
+                "v": "cyclical profits",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "A moat is an economic explanation, not a fashionable label.",
+        "color": "#34D399",
+        "dur": 27.357
+      }
+    },
+    {
+      "id": "ch03_debt",
+      "type": "fa_ledger",
+      "in_seconds": 62.429,
+      "out_seconds": 90.602,
+      "props": {
+        "kicker": "DEBT CHECK",
+        "title": "Debt can magnify a good business \u2014 and accelerate a bad outcome",
+        "rows": [
+          {
+            "label": "Debt to equity",
+            "val": "How much borrowing?",
+            "c": "#FBBF24",
+            "bold": true
+          },
+          {
+            "label": "Interest coverage",
+            "val": "Can operating profit pay interest?",
+            "c": "#34D399"
+          },
+          {
+            "label": "Current ratio",
+            "val": "Can near-term bills be paid?",
+            "c": "#38BDF8"
+          },
+          {
+            "label": "Cash flow",
+            "val": "Does cash support reported profit?",
+            "c": "#2DD4BF"
+          }
+        ],
+        "caption": "Read a multi-year trend; one ratio alone never tells the whole story.",
+        "color": "#FBBF24",
+        "dur": 28.673
+      }
+    },
+    {
+      "id": "ch03_detail_start",
+      "type": "fa_keyidea",
+      "in_seconds": 91.102,
+      "out_seconds": 119.895,
+      "props": {
+        "kicker": "WHERE TO START",
+        "big": "Do not begin with sales or profit growth alone; reported growth can be weak quality, debt-fuelled, or disconnected from cash.",
+        "sub": "Start by asking whether the business earns strong, repeatable returns on the capital it employs.",
+        "color": "#34D399",
+        "dur": 29.293
+      }
+    },
+    {
+      "id": "ch03_detail_roe_math",
+      "type": "fa_ledger",
+      "in_seconds": 120.395,
+      "out_seconds": 154.824,
+      "props": {
+        "kicker": "ROE: WHAT TO READ",
+        "title": "ROE: components and multi-year trend",
+        "rows": [
+          {
+            "label": "Numerator",
+            "val": "profit attributable to owners",
+            "c": "#34D399",
+            "bold": true
+          },
+          {
+            "label": "Denominator",
+            "val": "shareholders' equity",
+            "c": "#38BDF8"
+          },
+          {
+            "label": "Trend",
+            "val": "several years, not one",
+            "c": "#2DD4BF"
+          },
+          {
+            "label": "Cross-check",
+            "val": "ROCE, cash flow, debt",
+            "c": "#FBBF24"
+          }
+        ],
+        "caption": "A high ratio can be genuine strength or debt-driven distortion.",
+        "color": "#34D399",
+        "dur": 34.929
+      }
+    },
+    {
+      "id": "ch03_detail_moat_types",
+      "type": "fa_compare",
+      "in_seconds": 155.324,
+      "out_seconds": 188.937,
+      "props": {
+        "kicker": "WHAT MAKES A MOAT?",
+        "title": "A competitive advantage should explain why returns can stay high",
+        "cos": [
+          {
+            "name": "Cost advantage",
+            "c": "#34D399",
+            "tag": "economics",
+            "stats": [
+              {
+                "k": "Source",
+                "v": "scale / process"
+              },
+              {
+                "k": "Benefit",
+                "v": "lower unit cost"
+              },
+              {
+                "k": "Test",
+                "v": "margin resilience"
+              },
+              {
+                "k": "Risk",
+                "v": "technology shift",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Customer advantage",
+            "c": "#A78BFA",
+            "tag": "demand",
+            "stats": [
+              {
+                "k": "Source",
+                "v": "brand / switching"
+              },
+              {
+                "k": "Benefit",
+                "v": "repeat demand"
+              },
+              {
+                "k": "Test",
+                "v": "pricing power"
+              },
+              {
+                "k": "Risk",
+                "v": "preference change",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "A moat is not permanent by default; investigate how it can weaken.",
+        "color": "#34D399",
+        "dur": 34.113
+      }
+    },
+    {
+      "id": "ch03_detail_debt_ratios",
+      "type": "fa_ledger",
+      "in_seconds": 189.437,
+      "out_seconds": 226.862,
+      "props": {
+        "kicker": "DEBT: FIVE LENSES",
+        "title": "Debt: leverage, liquidity, and cash",
+        "rows": [
+          {
+            "label": "Debt / equity",
+            "val": "balance-sheet leverage",
+            "c": "#FBBF24",
+            "bold": true
+          },
+          {
+            "label": "Interest coverage",
+            "val": "profit versus interest",
+            "c": "#34D399"
+          },
+          {
+            "label": "Current ratio",
+            "val": "near-term liquidity",
+            "c": "#38BDF8"
+          },
+          {
+            "label": "Quick ratio",
+            "val": "liquidity without inventory",
+            "c": "#2DD4BF"
+          },
+          {
+            "label": "Debt / owner funds",
+            "val": "capital structure trend",
+            "c": "#F87171"
+          }
+        ],
+        "caption": "The book lists these as screening tools, not substitute for cash-flow analysis.",
+        "color": "#FBBF24",
+        "dur": 37.925
+      }
+    },
+    {
+      "id": "ch03_detail_next",
+      "type": "fa_keyidea",
+      "in_seconds": 227.362,
+      "out_seconds": 256.306,
+      "props": {
+        "kicker": "MOVE TO THE NEXT PARAMETERS",
+        "big": "After return, moat, and debt, continue into management quality and valuation; no single ratio can complete a stock decision.",
+        "sub": "The order matters: first quality, then price, then portfolio fit.",
+        "color": "#2DD4BF",
+        "dur": 29.444
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch03.wav",
+      "volume": 1.0
+    }
+  }
+}

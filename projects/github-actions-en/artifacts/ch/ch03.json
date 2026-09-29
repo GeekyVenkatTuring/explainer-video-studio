@@ -1,0 +1,328 @@
+{
+ "cuts": [
+  {
+   "id": "d03",
+   "type": "gha_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 7.215,
+   "props": {
+    "n": 3,
+    "title": "Triggers & Events",
+    "sub": "when does a workflow run?",
+    "color": "#F2A93B",
+    "total": 10,
+    "dur": 7.215
+   }
+  },
+  {
+   "id": "e03",
+   "type": "gha_events",
+   "in_seconds": 7.215,
+   "out_seconds": 42.402,
+   "props": {
+    "dur": 35.187
+   }
+  },
+  {
+   "id": "e03b",
+   "type": "gha_filter",
+   "in_seconds": 42.402,
+   "out_seconds": 83.527,
+   "props": {
+    "dur": 41.125
+   }
+  },
+  {
+   "id": "e03c",
+   "type": "gha_cron",
+   "in_seconds": 83.527,
+   "out_seconds": 124.649,
+   "props": {
+    "expr": "30 2 * * 1-5",
+    "dur": 41.122
+   }
+  },
+  {
+   "id": "e03d",
+   "type": "gha_dispatch",
+   "in_seconds": 124.649,
+   "out_seconds": 159.075,
+   "props": {
+    "dur": 34.426
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.074,
+   "Part three. Triggers."
+  ],
+  [
+   1.705,
+   4.926,
+   "A workflow does nothing until an event wakes it"
+  ],
+  [
+   4.926,
+   6.715,
+   "up. Let's meet the events."
+  ],
+  [
+   7.215,
+   10.428,
+   "The on key accepts dozens of events. Here are"
+  ],
+  [
+   10.428,
+   12.214,
+   "the ones you'll use most."
+  ],
+  [
+   12.845,
+   16.059,
+   "push and pull request \u2014 the heart of CI."
+  ],
+  [
+   16.69,
+   19.189,
+   "workflow dispatch \u2014 a manual Run button."
+  ],
+  [
+   19.821,
+   21.963,
+   "schedule \u2014 run on a timer."
+  ],
+  [
+   22.595,
+   25.094,
+   "release \u2014 when you publish a version."
+  ],
+  [
+   25.726,
+   28.939,
+   "issues and issue comment \u2014 to automate project\nmanagement."
+  ],
+  [
+   29.571,
+   32.784,
+   "workflow run \u2014 start one workflow after another\nfinishes."
+  ],
+  [
+   33.416,
+   36.629,
+   "And repository dispatch \u2014 let an outside system\ntrigger"
+  ],
+  [
+   36.629,
+   38.057,
+   "you through the API."
+  ],
+  [
+   38.689,
+   41.902,
+   "One workflow can listen to several events at once."
+  ],
+  [
+   42.402,
+   45.892,
+   "Usually you don't want every push to trigger\neverything."
+  ],
+  [
+   45.892,
+   47.443,
+   "So events take filters."
+  ],
+  [
+   48.074,
+   51.564,
+   "branches limits runs to certain branches. tags does\nthe"
+  ],
+  [
+   51.564,
+   52.727,
+   "same for tags."
+  ],
+  [
+   53.359,
+   56.848,
+   "paths is the powerful one. It says: only run"
+  ],
+  [
+   56.848,
+   58.399,
+   "if these files changed."
+  ],
+  [
+   59.031,
+   62.521,
+   "Watch. This push changed a readme and a doc."
+  ],
+  [
+   62.521,
+   66.01,
+   "Neither matches src slash star star, or package dot"
+  ],
+  [
+   66.01,
+   68.725,
+   "json \u2014 so the workflow is skipped."
+  ],
+  [
+   69.356,
+   72.846,
+   "The next push touched a source file. Match \u2014"
+  ],
+  [
+   72.846,
+   74.009,
+   "the workflow runs."
+  ],
+  [
+   74.641,
+   78.13,
+   "For pull requests, types narrows it further: opened,\nsynchronize,"
+  ],
+  [
+   78.13,
+   79.681,
+   "labeled, and so on."
+  ],
+  [
+   80.313,
+   83.027,
+   "Good filters save minutes, money and noise."
+  ],
+  [
+   83.527,
+   87.114,
+   "The schedule trigger uses cron syntax. Five fields:\nminute,"
+  ],
+  [
+   87.114,
+   90.701,
+   "hour, day of month, month, and day of week."
+  ],
+  [
+   91.333,
+   94.92,
+   "Thirty, two, star, star, one to five means: at"
+  ],
+  [
+   94.92,
+   96.912,
+   "two thirty, Monday to Friday."
+  ],
+  [
+   97.544,
+   101.131,
+   "One catch \u2014 the time is always UTC. In"
+  ],
+  [
+   101.131,
+   104.319,
+   "India, two thirty UTC is eight AM IST."
+  ],
+  [
+   104.951,
+   108.538,
+   "Scheduled runs use the default branch, can start a"
+  ],
+  [
+   108.538,
+   112.125,
+   "few minutes late when GitHub is busy, and can't"
+  ],
+  [
+   112.125,
+   114.915,
+   "run more often than every five minutes."
+  ],
+  [
+   115.546,
+   119.133,
+   "In public repos, schedules pause after sixty days\nwithout"
+  ],
+  [
+   119.133,
+   119.532,
+   "activity."
+  ],
+  [
+   120.163,
+   123.75,
+   "Use them for nightly builds, dependency checks,\nreports and"
+  ],
+  [
+   123.75,
+   124.149,
+   "cleanup."
+  ],
+  [
+   124.649,
+   128.095,
+   "workflow dispatch adds a Run workflow button to the"
+  ],
+  [
+   128.095,
+   128.861,
+   "Actions tab."
+  ],
+  [
+   129.493,
+   132.939,
+   "Better still, it takes inputs. Here we ask for"
+  ],
+  [
+   132.939,
+   136.385,
+   "an environment \u2014 staging or production \u2014 and a"
+  ],
+  [
+   136.385,
+   137.534,
+   "dry run checkbox."
+  ],
+  [
+   138.166,
+   141.612,
+   "GitHub renders them as a small form. You pick"
+  ],
+  [
+   141.612,
+   145.058,
+   "values, click Run, and the workflow reads them from"
+  ],
+  [
+   145.058,
+   146.207,
+   "the inputs context."
+  ],
+  [
+   146.839,
+   150.285,
+   "It's perfect for one-click deploys, database\nmigrations, and anything"
+  ],
+  [
+   150.285,
+   152.582,
+   "a human should start on purpose."
+  ],
+  [
+   153.214,
+   156.66,
+   "You can trigger the same thing from a terminal,"
+  ],
+  [
+   156.66,
+   158.575,
+   "too, with gh workflow run."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch03.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,534 @@
+{
+  "cuts": [
+    {
+      "id": "tempsens_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 18.788,
+      "props": {
+        "title": "Tempsens Instruments IPO",
+        "sub": "Thermal engineering · about ₹650 Cr · terms pending final RHP",
+        "kicker": "IPO ANALYSIS · MAINBOARD · PROVISIONAL TERMS",
+        "dur": 19.288
+      }
+    },
+    {
+      "id": "tempsens_biz",
+      "type": "sm_iconcards",
+      "in_seconds": 19.288,
+      "out_seconds": 55.906,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "Business Model",
+        "color": "#38BDF8",
+        "items": [
+          {
+            "emoji": "🌡️",
+            "k": "Thermal engineering",
+            "v": "Makes temperature sensors, calibration equipment, electrical heating and specialised cable solutions.",
+            "chip": "INSTRUMENTATION"
+          },
+          {
+            "emoji": "🏭",
+            "k": "Projects and OEMs",
+            "v": "About 69% of FY25 revenue came from projects/OEM work; the rest from MRO business.",
+            "chip": "B2B"
+          },
+          {
+            "emoji": "🌍",
+            "k": "Industrial end markets",
+            "v": "Serves metals, power, chemicals and other process industries where temperature control matters.",
+            "chip": "INDUSTRIAL"
+          }
+        ],
+        "dur": 37.118
+      }
+    },
+    {
+      "id": "tempsens_fin",
+      "type": "sm_stats",
+      "in_seconds": 56.406,
+      "out_seconds": 88.588,
+      "props": {
+        "kicker": "FINANCIAL QUALITY",
+        "title": "FY Financials",
+        "stats": [
+          {
+            "label": "Revenue",
+            "to": 378.53,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#34D399",
+            "sub": "filing evidence"
+          },
+          {
+            "label": "Profit after tax",
+            "to": 62.56,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#34D399",
+            "sub": "16.36% PAT margin"
+          },
+          {
+            "label": "Borrowings",
+            "to": 71.83,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "₹71.83 Cr"
+          }
+        ],
+        "note": "DRHP FY25: revenue ₹378.53 Cr, PAT ₹62.56 Cr and borrowings ₹71.83 Cr. Asterisks mean terms need final-RHP confirmation.",
+        "dur": 32.682
+      }
+    },
+    {
+      "id": "tempsens_issue",
+      "type": "sm_stats",
+      "in_seconds": 89.088,
+      "out_seconds": 108.91,
+      "props": {
+        "kicker": "OFFER STRUCTURE",
+        "title": "Fresh Issue vs OFS",
+        "stats": [
+          {
+            "label": "Total offer",
+            "to": 650.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#38BDF8",
+            "sub": "offer terms"
+          },
+          {
+            "label": "Fresh — company receives",
+            "to": 95.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#34D399",
+            "sub": "new capital"
+          },
+          {
+            "label": "OFS — sellers receive",
+            "to": 555.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#FB7185",
+            "sub": "shareholder exit"
+          }
+        ],
+        "note": "Fresh funds enter the company. OFS proceeds go to selling shareholders.",
+        "dur": 20.322
+      }
+    },
+    {
+      "id": "tempsens_proceeds",
+      "type": "sm_iconcards",
+      "in_seconds": 109.41,
+      "out_seconds": 146.916,
+      "props": {
+        "kicker": "USE OF PROCEEDS",
+        "title": "What Fresh Capital Funds",
+        "color": "#38BDF8",
+        "items": [
+          {
+            "emoji": "🏦",
+            "k": "Debt repayment",
+            "v": "DRHP earmarks ₹55 Cr of the original ₹118 Cr fresh issue for borrowing repayment.",
+            "chip": "DRHP"
+          },
+          {
+            "emoji": "⚙️",
+            "k": "₹35.38 Cr capex",
+            "v": "Electrical-heating and specialised-cable capacity are named expansion uses.",
+            "chip": "DRHP"
+          },
+          {
+            "emoji": "⚠️",
+            "k": "Terms changed after DRHP",
+            "v": "Fresh/OFS values and price band in this chapter are provisional until a final RHP is published.",
+            "chip": "VERIFY"
+          }
+        ],
+        "dur": 38.006
+      }
+    },
+    {
+      "id": "tempsens_peers",
+      "type": "sm_peers",
+      "in_seconds": 147.416,
+      "out_seconds": 161.07,
+      "props": {
+        "kicker": "COMPETITORS · VALUATION",
+        "title": "Peer Comparison",
+        "color": "#38BDF8",
+        "rows": [
+          {
+            "name": "Tempsens IPO",
+            "pe": null,
+            "note": "No final price / peer P/E",
+            "hi": true
+          },
+          {
+            "name": "No exact listed peer",
+            "pe": null,
+            "note": "DRHP disclosure",
+            "hi": false
+          }
+        ],
+        "verdict": "The DRHP says there is no exact comparable listed peer; final valuation must wait for the final RHP and price band.",
+        "dur": 14.154
+      }
+    },
+    {
+      "id": "tempsens_verdict",
+      "type": "sm_myths",
+      "in_seconds": 161.57,
+      "out_seconds": 201.164,
+      "props": {
+        "kicker": "CONSOLIDATED ANALYSIS",
+        "title": "Strengths vs Watch-outs",
+        "mythLabel": "⚠️ WATCH-OUTS",
+        "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+        "pairs": [
+          {
+            "m": "Most of the quoted final issue is expected to be OFS",
+            "f": "Profitable DRHP business: 16.36% FY25 PAT margin"
+          },
+          {
+            "m": "Final offer terms are not in the available RHP",
+            "f": "Fresh proceeds are directed to debt reduction and capex"
+          },
+          {
+            "m": "Project/OEM mix carries industrial-cycle exposure",
+            "f": "Specialised thermal-engineering products"
+          }
+        ],
+        "dur": 40.094
+      }
+    },
+    {
+      "id": "tempsens_retail",
+      "type": "sm_iconcards",
+      "in_seconds": 201.664,
+      "out_seconds": 226.164,
+      "props": {
+        "kicker": "HOW TO APPLY · RETAIL VS HNI",
+        "title": "Check Terms Before You Bid",
+        "color": "#38BDF8",
+        "items": [
+          {
+            "emoji": "🧑",
+            "k": "Retail cap",
+            "v": "Up to ₹2 lakh; allocation can be lottery-based when oversubscribed.",
+            "chip": "RII"
+          },
+          {
+            "emoji": "💼",
+            "k": "HNI",
+            "v": "Above ₹2 lakh; allocation is proportionate.",
+            "chip": "NII"
+          },
+          {
+            "emoji": "💰",
+            "k": "Minimum bid",
+            "v": "₹15,000* (50 shares × ₹300)",
+            "chip": "MIN BID"
+          },
+          {
+            "emoji": "🔎",
+            "k": "Verify live",
+            "v": "Read the final RHP and the NSE/BSE subscription data.",
+            "chip": "SOURCES"
+          }
+        ],
+        "dur": 25.0
+      }
+    },
+    {
+      "id": "tempsens_recap",
+      "type": "sm_recap",
+      "in_seconds": 226.664,
+      "out_seconds": 299.47,
+      "props": {
+        "title": "Tempsens Instruments IPO — Evidence Recap",
+        "items": [
+          "FY data: revenue ₹378.53 Cr · PAT ₹62.56 Cr · 16.36% PAT margin",
+          "Offer: ~₹650 Cr* · fresh ~₹95 Cr* · OFS ~₹555 Cr*",
+          "Competitor lens: The DRHP says there is no exact comparable listed peer; final valuation must wait for the final RHP and price band.",
+          "Evidence: DRHP dated 29 Sep 2025 (NSE archive): FY25 financials, objects and peer disclosure. *Offer terms require final-RHP verification."
+        ],
+        "closer": "Read the final RHP. Decide for yourself.",
+        "dur": 73.306
+      }
+    }
+  ],
+  "captions": [
+    [
+      0.0,
+      3.116,
+      "This is Tempsens Instruments IPO."
+    ],
+    [
+      3.116,
+      9.064,
+      "We will use the IPOAgents filing evidence to test the business,"
+    ],
+    [
+      9.064,
+      12.84,
+      "financial quality, where the money goes,"
+    ],
+    [
+      12.84,
+      14.917,
+      "competitors and risks."
+    ],
+    [
+      14.917,
+      18.788,
+      "This is education, not investment advice."
+    ],
+    [
+      19.288,
+      21.339,
+      "First, the business."
+    ],
+    [
+      21.339,
+      23.391,
+      "Thermal engineering."
+    ],
+    [
+      23.391,
+      28.417,
+      "Makes temperature sensors, calibration equipment,"
+    ],
+    [
+      28.417,
+      33.648,
+      "electrical heating and specialised cable solutions."
+    ],
+    [
+      33.648,
+      35.494,
+      "Projects and OEMs."
+    ],
+    [
+      35.494,
+      43.905,
+      "About 69% of FY25 revenue came from projects/OEM work; the rest from MRO business."
+    ],
+    [
+      43.905,
+      46.264,
+      "Industrial end markets."
+    ],
+    [
+      46.264,
+      48.418,
+      "Serves metals, power,"
+    ],
+    [
+      48.418,
+      55.906,
+      "chemicals and other process industries where temperature control matters."
+    ],
+    [
+      56.406,
+      63.441,
+      "The financial checkpoint is revenue ₹378.53 Cr,"
+    ],
+    [
+      63.441,
+      70.925,
+      "profit after tax ₹62.56 Cr, and 16.36% PAT margin."
+    ],
+    [
+      70.925,
+      75.416,
+      "DRHP FY25: revenue ₹378.53 Cr,"
+    ],
+    [
+      75.416,
+      81.253,
+      "PAT ₹62.56 Cr and borrowings ₹71.83 Cr."
+    ],
+    [
+      81.253,
+      88.588,
+      "Asterisks mean terms need final-RHP confirmation."
+    ],
+    [
+      89.088,
+      98.937,
+      "The offer is ~₹650 Cr*: ~₹95 Cr* is fresh money and ~₹555 Cr* is offer for sale."
+    ],
+    [
+      98.937,
+      102.754,
+      "Fresh money enters the company."
+    ],
+    [
+      102.754,
+      108.91,
+      "Offer-for-sale money goes to selling shareholders."
+    ],
+    [
+      109.41,
+      112.338,
+      "Where does fresh money go?"
+    ],
+    [
+      112.338,
+      114.028,
+      "Debt repayment."
+    ],
+    [
+      114.028,
+      123.151,
+      "DRHP earmarks ₹55 Cr of the original ₹118 Cr fresh issue for borrowing repayment."
+    ],
+    [
+      123.151,
+      124.953,
+      "₹35.38 Cr capex."
+    ],
+    [
+      124.953,
+      133.4,
+      "Electrical-heating and specialised-cable capacity are named expansion uses."
+    ],
+    [
+      133.4,
+      136.216,
+      "Terms changed after DRHP."
+    ],
+    [
+      136.216,
+      146.916,
+      "Fresh/OFS values and price band in this chapter are provisional until a final RHP is published."
+    ],
+    [
+      147.416,
+      150.241,
+      "Now competitors and valuation."
+    ],
+    [
+      150.241,
+      161.07,
+      "The DRHP says there is no exact comparable listed peer; final valuation must wait for the final RHP and price band."
+    ],
+    [
+      161.57,
+      163.758,
+      "Balance the evidence."
+    ],
+    [
+      163.758,
+      170.427,
+      "Watch-out: Most of the quoted final issue is expected to be OFS."
+    ],
+    [
+      170.427,
+      176.574,
+      "Strength: Profitable DRHP business: 16.36% FY25 PAT margin."
+    ],
+    [
+      176.574,
+      182.617,
+      "Watch-out: Final offer terms are not in the available RHP."
+    ],
+    [
+      182.617,
+      189.494,
+      "Strength: Fresh proceeds are directed to debt reduction and capex."
+    ],
+    [
+      189.494,
+      195.85,
+      "Watch-out: Project/OEM mix carries industrial-cycle exposure."
+    ],
+    [
+      195.85,
+      201.164,
+      "Strength: Specialised thermal-engineering products."
+    ],
+    [
+      201.664,
+      203.79,
+      "For retail investors,"
+    ],
+    [
+      203.79,
+      208.852,
+      "the stated minimum is ₹15,000* (50 shares × ₹300)."
+    ],
+    [
+      208.852,
+      219.482,
+      "Retail bids are capped at two lakh rupees and allotment can be a lottery when an offer is oversubscribed."
+    ],
+    [
+      219.482,
+      226.164,
+      "Check the exchange pages and final RHP before making any decision."
+    ],
+    [
+      226.664,
+      228.191,
+      "Let's recap."
+    ],
+    [
+      228.191,
+      259.503,
+      "FY data: revenue ₹378.53 Cr · PAT ₹62.56 Cr · 16.36% PAT margin Offer: ~₹650 Cr* · fresh ~₹95 Cr* · OFS ~₹555 Cr* Competitor lens: The DRHP says there is no exact comparable listed peer; final valuation must wait for the final RHP and price band."
+    ],
+    [
+      259.503,
+      267.649,
+      "Evidence: DRHP dated 29 Sep 2025 (NSE archive): FY25 financials,"
+    ],
+    [
+      267.649,
+      271.213,
+      "objects and peer disclosure."
+    ],
+    [
+      271.213,
+      276.814,
+      "*Offer terms require final-RHP verification."
+    ],
+    [
+      276.814,
+      280.887,
+      "This is public-source education,"
+    ],
+    [
+      280.887,
+      286.487,
+      "not investment advice or a buy or sell call."
+    ],
+    [
+      286.487,
+      288.905,
+      "Read the final RHP,"
+    ],
+    [
+      288.905,
+      296.924,
+      "verify live subscription and consult a SEBI-registered advisor."
+    ],
+    [
+      296.924,
+      299.47,
+      "Thanks for watching."
+    ]
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/tempsens.wav",
+      "volume": 1.0
+    }
+  }
+}

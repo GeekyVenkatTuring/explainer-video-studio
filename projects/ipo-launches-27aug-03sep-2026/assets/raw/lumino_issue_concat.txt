@@ -1,0 +1,3 @@
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-launches-27aug-03sep-2026/assets/raw/lumino_issue_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-launches-27aug-03sep-2026/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-launches-27aug-03sep-2026/assets/raw/lumino_issue_c1.wav'

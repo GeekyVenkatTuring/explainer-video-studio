@@ -1,0 +1,68 @@
+{
+ "idx": 12,
+ "variant": "xa_roster",
+ "props": {
+  "rank": 2,
+  "total": 5,
+  "ch": 2,
+  "chname": "SKILLS & MCP",
+  "title": "Top 50 Claude Skills & GitHub Repos for AI \u2014 The Only List You Need.",
+  "handle": "@zodchiii",
+  "likes": "10.1K",
+  "thesis": "A discovery catalogue in three layers: skills supply procedure, MCP supplies access, and repositories supply the execution engine.",
+  "take": "Pick by the layer you are missing \u2014 then run the security review yourself.",
+  "count": 50,
+  "countLabel": "skills and repos listed",
+  "items": [
+   {
+    "name": "Superpowers",
+    "note": "TDD, debugging and planning workflows in one bundle"
+   },
+   {
+    "name": "Systematic Debugging",
+    "note": "Find the cause before you change any code"
+   },
+   {
+    "name": "Skill Creator",
+    "note": "Turns a described workflow into a SKILL.md file"
+   },
+   {
+    "name": "File Search",
+    "note": "ripgrep and ast-grep, combined"
+   },
+   {
+    "name": "Context Optimization",
+    "note": "Token spend and KV-cache techniques"
+   },
+   {
+    "name": "Tavily",
+    "note": "Search, extract, crawl and map, over MCP"
+   },
+   {
+    "name": "Context7",
+    "note": "Current library documentation, pulled in on request"
+   },
+   {
+    "name": "Task Master AI",
+    "note": "Turns a PRD into dependency-linked tasks"
+   },
+   {
+    "name": "LangGraph",
+    "note": "Agents expressed as graphs"
+   },
+   {
+    "name": "CrewAI",
+    "note": "Agents organised by role and goal"
+   },
+   {
+    "name": "Ollama",
+    "note": "Local model runner, pairs with Open WebUI"
+   },
+   {
+    "name": "promptfoo",
+    "note": "Security and prompt testing before you ship"
+   }
+  ]
+ },
+ "narration": "This is a catalogue, not a comparison. Worth knowing before you read it. [pause] The author sorts fifty tools into three layers. Skills supply procedure. M C P supplies access. Repositories supply the engine that runs things. [pause] In the skills layer, Superpowers bundles test-driven development, debugging and planning. Systematic Debugging insists you find the cause before changing code. Skill Creator turns a workflow you describe into a skill file. File Search combines ripgrep and a s t-grep. Context Optimization is about token spend and cache behaviour. [pause] In the access layer, three picks. Tavily does search, extract, crawl and map. Context7 pulls in current library documentation on request. Task Master turns a product document into dependency-linked tasks. [pause] In the engine layer, LangGraph expresses agents as graphs. CrewAI organises them by role and goal. Ollama runs models locally. And promptfoo tests prompts and security before you ship. [pause] The repository watchlist goes further. Parallel coding with cmux and claude-squad. Persistent memory. Test-first enforcement through T D D Guard. And tracing for agent runs. [pause] Installing is just copying a skill folder into your Claude skills directory, then restarting. [pause] One honest note. The author explicitly asks you to run your own security check. Treat this as a shortlist, not an endorsement."
+}

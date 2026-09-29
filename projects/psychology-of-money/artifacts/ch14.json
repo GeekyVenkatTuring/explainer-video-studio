@@ -1,0 +1,385 @@
+{
+ "cuts": [
+  {
+   "id": "ch14_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 13.782,
+   "props": {
+    "n": 14,
+    "total": 20,
+    "title": "You'll Change",
+    "lines": [
+     "Long-term planning is hard because your future self is a stranger.",
+     "Avoid extreme plans that only work if you never change your mind."
+    ],
+    "color": "#A78BFA",
+    "dur": 14.282
+   }
+  },
+  {
+   "id": "ch14_change",
+   "type": "pm_list",
+   "in_seconds": 14.282,
+   "out_seconds": 42.535,
+   "props": {
+    "kicker": "THE END OF HISTORY ILLUSION",
+    "title": "You will not want the same life",
+    "items": [
+     "People are very good at guessing how much they have changed \u2014 and very bad at guessing they will keep changing.",
+     "27% of college graduates work in a job related to their major. Compound that over a career.",
+     "Sunk costs of identity: 'I am a person who holds this stock' is a trap when the thesis died.",
+     "Prefer balanced plans you can revisit every few years over a 40-year vow made at 22."
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 28.753
+   }
+  },
+  {
+   "id": "ch14_change-more",
+   "type": "pm_sheet",
+   "in_seconds": 43.035,
+   "out_seconds": 72.553,
+   "props": {
+    "kicker": "YOU WILL NOT STAY THIS PERSON",
+    "title": "The end-of-history illusion",
+    "rows": [
+     {
+      "k": "Major",
+      "v": "Only 27% of college graduates work in a job related to their major. Identity is not a 40-year contract.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Sunk identity",
+      "v": "'I am a person who holds this stock' is how people refuse to sell a dead thesis.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Age 22 vows",
+      "v": "A 40-year financial vow made at 22 assumes a stranger will thank you. Maybe they will not.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Review",
+      "v": "Revisit goals every few years. Moderate plans survive personality drift better than extremes.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 30.018
+   }
+  },
+  {
+   "id": "ch14_change-do",
+   "type": "pm_list",
+   "in_seconds": 73.053,
+   "out_seconds": 84.62,
+   "props": {
+    "kicker": "YOU'LL CHANGE \u00b7 RULES",
+    "title": "Leave yourself an exit that is not failure",
+    "items": [
+     "Avoid careers, houses, and portfolios that only work if you never change your mind.",
+     "Changing a goal is not weakness. Pretending you are finished evolving is."
+    ],
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 12.067
+   }
+  },
+  {
+   "id": "ch14_sunk",
+   "type": "pm_sheet",
+   "in_seconds": 85.12,
+   "out_seconds": 119.032,
+   "props": {
+    "kicker": "DO NOT MARRY A PAST GOAL",
+    "title": "Identity is a sunk cost too",
+    "rows": [
+     {
+      "k": "Illusion",
+      "v": "The end-of-history illusion: you see past change clearly and assume the future you is finished.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Major",
+      "v": "Only twenty-seven percent of graduates work in a job related to their major. Careers drift.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Stock story",
+      "v": "I am a person who holds this stock is how a dead thesis gets a second decade.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Vows",
+      "v": "A forty-year financial vow at twenty-two is a letter to a stranger. Leave a stamp for revisions.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Moderate",
+      "v": "Moderate plans survive personality drift. Extreme plans require you never to grow.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 34.412
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.927,
+   "Chapter 14."
+  ],
+  [
+   0.927,
+   1.855,
+   "You'll Change."
+  ],
+  [
+   2.486,
+   6.196,
+   "Long-term planning is hard because your\nfuture self"
+  ],
+  [
+   6.196,
+   7.586,
+   "is a stranger."
+  ],
+  [
+   8.218,
+   11.927,
+   "Avoid extreme plans that only work if you"
+  ],
+  [
+   11.927,
+   13.782,
+   "never change your mind."
+  ],
+  [
+   14.282,
+   17.171,
+   "People are very good at guessing how much"
+  ],
+  [
+   17.171,
+   18.254,
+   "they have changed,"
+  ],
+  [
+   18.254,
+   21.142,
+   "and very bad at guessing they will keep"
+  ],
+  [
+   21.142,
+   21.503,
+   "changing."
+  ],
+  [
+   22.135,
+   25.024,
+   "Twenty-seven percent of college graduates\nwork in a"
+  ],
+  [
+   25.024,
+   26.829,
+   "job related to their major."
+  ],
+  [
+   26.829,
+   28.634,
+   "Compound that over a career."
+  ],
+  [
+   29.266,
+   30.71,
+   "Sunk costs of identity:"
+  ],
+  [
+   30.71,
+   33.599,
+   "I am a person who holds this stock"
+  ],
+  [
+   33.599,
+   36.126,
+   "is a trap when the thesis died."
+  ],
+  [
+   36.758,
+   39.646,
+   "Prefer balanced plans you can revisit\nevery few"
+  ],
+  [
+   39.646,
+   42.535,
+   "years over a forty-year vow made at\ntwenty-two."
+  ],
+  [
+   43.035,
+   46.333,
+   "Only twenty-seven percent of college\ngraduates work in"
+  ],
+  [
+   46.333,
+   48.807,
+   "a job related to their major."
+  ],
+  [
+   48.807,
+   51.281,
+   "Identity is not a forty-year contract."
+  ],
+  [
+   51.912,
+   55.211,
+   "I am a person who holds this stock"
+  ],
+  [
+   55.211,
+   58.509,
+   "is how people refuse to sell a dead"
+  ],
+  [
+   58.509,
+   58.921,
+   "thesis."
+  ],
+  [
+   59.553,
+   62.851,
+   "A forty-year financial vow made at\ntwenty-two assumes"
+  ],
+  [
+   62.851,
+   64.913,
+   "a stranger will thank you."
+  ],
+  [
+   64.913,
+   66.562,
+   "Maybe they will not."
+  ],
+  [
+   67.193,
+   69.255,
+   "Revisit goals every few years."
+  ],
+  [
+   69.255,
+   72.553,
+   "Moderate plans survive personality drift\nbetter than extremes."
+  ],
+  [
+   73.053,
+   73.894,
+   "Avoid careers,"
+  ],
+  [
+   73.894,
+   74.315,
+   "houses,"
+  ],
+  [
+   74.315,
+   77.68,
+   "and portfolios that only work if you never"
+  ],
+  [
+   77.68,
+   78.941,
+   "change your mind."
+  ],
+  [
+   79.573,
+   82.096,
+   "Changing a goal is not weakness."
+  ],
+  [
+   82.096,
+   84.62,
+   "Pretending you are finished evolving is."
+  ],
+  [
+   85.12,
+   86.359,
+   "The end-of-history illusion:"
+  ],
+  [
+   86.359,
+   89.663,
+   "you see past change clearly and assume the"
+  ],
+  [
+   89.663,
+   91.315,
+   "future you is finished."
+  ],
+  [
+   91.946,
+   95.25,
+   "Only twenty-seven percent of graduates\nwork in a"
+  ],
+  [
+   95.25,
+   97.315,
+   "job related to their major."
+  ],
+  [
+   97.315,
+   98.141,
+   "Careers drift."
+  ],
+  [
+   98.772,
+   102.076,
+   "I am a person who holds this stock"
+  ],
+  [
+   102.076,
+   105.38,
+   "is how a dead thesis gets a second"
+  ],
+  [
+   105.38,
+   105.793,
+   "decade."
+  ],
+  [
+   106.424,
+   109.728,
+   "A forty-year financial vow at twenty-two\nis a"
+  ],
+  [
+   109.728,
+   111.38,
+   "letter to a stranger."
+  ],
+  [
+   111.38,
+   113.445,
+   "Leave a stamp for revisions."
+  ],
+  [
+   114.076,
+   116.141,
+   "Moderate plans survive personality drift."
+  ],
+  [
+   116.141,
+   119.032,
+   "Extreme plans require you never to grow."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch14.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/b24_0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/b24_1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/b24_2.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/b24_3.wav'

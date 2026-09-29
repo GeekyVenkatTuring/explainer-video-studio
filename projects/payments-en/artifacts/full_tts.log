@@ -1,0 +1,82 @@
+    00_intro_title                27.33s
+    00_intro_flow                 30.82s
+    00_intro_divider              30.00s
+    00_intro_disclaimer           32.81s
+  00_intro:  2.04 min  4 scenes    282 words  138 wpm
+    01_razorpay_title             22.15s
+    01_razorpay_docs              35.34s
+    01_razorpay_support           23.86s
+    01_razorpay_metrics           35.14s
+    01_razorpay_pricing           34.47s
+    01_razorpay_flow              29.38s
+    01_razorpay_code              29.18s
+    01_razorpay_recap             25.02s
+  01_razorpay:  3.97 min  8 scenes    571 words  144 wpm
+    02_cashfree_title             20.79s
+    02_cashfree_docs              29.08s
+    02_cashfree_support           20.52s
+    02_cashfree_metrics           15.94s
+    02_cashfree_pricing           35.45s
+    02_cashfree_flow              22.90s
+    02_cashfree_code              23.09s
+    02_cashfree_recap             24.84s
+  02_cashfree:  3.27 min  8 scenes    381 words  117 wpm
+    03_payu_title                 20.95s
+    03_payu_docs                  29.17s
+    03_payu_support               18.50s
+    03_payu_metrics               18.95s
+    03_payu_pricing               23.62s
+    03_payu_flow                  22.43s
+    03_payu_code                  21.04s
+    03_payu_recap                 25.44s
+  03_payu:  3.06 min  8 scenes    373 words  122 wpm
+    04_juspay_title               26.36s
+    04_juspay_docs                25.04s
+    04_juspay_support             20.40s
+    04_juspay_metrics             23.21s
+    04_juspay_pricing             29.35s
+    04_juspay_flow                23.42s
+    04_juspay_code                23.55s
+    04_juspay_recap               25.92s
+  04_juspay:  3.35 min  8 scenes    402 words  120 wpm
+    05_phonepe_title              21.70s
+    05_phonepe_docs               28.99s
+    05_phonepe_support            21.68s
+    05_phonepe_metrics            21.04s
+    05_phonepe_pricing            26.04s
+    05_phonepe_flow               22.45s
+    05_phonepe_code               20.77s
+    05_phonepe_recap              22.93s
+  05_phonepe:  3.15 min  8 scenes    376 words  119 wpm
+    06_paytm_title                20.16s
+    06_paytm_docs                 29.59s
+    06_paytm_support              24.00s
+    06_paytm_metrics              18.14s
+    06_paytm_pricing              28.65s
+    06_paytm_flow                 24.00s
+    06_paytm_code                 22.99s
+    06_paytm_recap                26.92s
+  06_paytm:  3.30 min  8 scenes    380 words  115 wpm
+    07_ccavenue_title             21.24s
+    07_ccavenue_docs              27.68s
+    07_ccavenue_support           20.86s
+    07_ccavenue_metrics           19.67s
+    07_ccavenue_pricing           33.12s
+    07_ccavenue_flow              23.45s
+    07_ccavenue_code              23.52s
+    07_ccavenue_recap             26.86s
+  07_ccavenue:  3.33 min  8 scenes    384 words  115 wpm
+    08_instamojo_title            20.90s
+    08_instamojo_docs             26.14s
+    08_instamojo_support          19.88s
+    08_instamojo_metrics          20.12s
+    08_instamojo_pricing          39.41s
+    08_instamojo_flow             23.62s
+    08_instamojo_code             23.47s
+    08_instamojo_recap            23.96s
+  08_instamojo:  3.35 min  8 scenes    407 words  121 wpm
+    09_compare_title              26.13s
+    09_compare_compare            29.39s
+    09_compare_decision           31.89s
+    09_compare_recap              34.97s
+  09_compare:  2.06 min  4 scenes    269 words  130 wpm

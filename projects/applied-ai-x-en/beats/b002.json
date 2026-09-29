@@ -1,0 +1,46 @@
+{
+  "idx": 2,
+  "variant": "xa_roadmap",
+  "props": {
+    "rank": 2,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "how to master AI in 30 days (the exact roadmap)",
+    "handle": "@EXM7777",
+    "likes": "9.8K",
+    "thesis": "Machina proposes a month of practice, moving from fundamentals to connected workflows. Reusable knowledge environments matter more than collecting prompts.",
+    "take": "Build one task-specific Claude Project with relevant documents and clear instructions.",
+    "phases": [
+      {
+        "label": "Model basics",
+        "line": "Compare settings and verify claims before trusting fluent answers."
+      },
+      {
+        "label": "Tool choices",
+        "line": "Machina favors Claude, Gemini 3 Pro, and Grok for different tasks."
+      },
+      {
+        "label": "Context design",
+        "line": "Set instructions; write, select, compress, and isolate reference material."
+      },
+      {
+        "label": "Creative direction",
+        "line": "Specify scenes clearly; budget repeated attempts for short video shots."
+      },
+      {
+        "label": "Build and automate",
+        "line": "Connect Claude Code, n8n, and external tools."
+      },
+      {
+        "label": "Grounded answers",
+        "line": "Use NotebookLM or retrieve relevant passages; errors remain possible."
+      },
+      {
+        "label": "Careful integration",
+        "line": "Test models through OpenRouter; Clawdbot still needs technical setup."
+      }
+    ]
+  },
+  "narration": "Can thirty days build practical AI skills? Machina proposes two to three hours daily, prioritizing reusable workflows over prompt collections. [pause] Model basics come first: compare settings and verify claims rather than trusting confident language. Tool choices follow the author's preferences, not independently established rankings. Claude handles coding, Gemini 3 Pro supports research, and Grok tracks X activity. Context design means arranging information the model can use. [pause] Set behavioral instructions, then write references, select relevant material, compress inputs, and isolate unrelated work. Keep Claude Projects focused on individual tasks rather than every document. Creative direction requires explicit scenes for Nano Banana Pro, not decorative quality words. Machina favors VEO 3.1 for audio and Kling 2.6 for realism. Budget three to ten attempts per usable video, favoring five to ten second shots. [pause] Build and automate connects Claude Code with n8n workflows. Model Context Protocol supplies connections to external tools. Grounded answers begin with NotebookLM and its source links. Custom retrieval supplies relevant document passages alongside questions, but cannot guarantee accuracy. [pause] Careful integration starts by testing open models through OpenRouter. Clawdbot illustrates connected agents with memory, but setup remains technical. [pause] Start with one recurring task in Claude Projects before expanding automation. Add relevant documents and explicit instructions for how it should behave."
+}

@@ -1,0 +1,655 @@
+{
+ "cuts": [
+  {
+   "id": "07_ccavenue_title",
+   "type": "pg_title",
+   "in_seconds": 0.0,
+   "out_seconds": 21.242,
+   "props": {
+    "gateway": "CCAvenue",
+    "tagline": "The traditional heavyweight \u2014 broadest reach, real fees",
+    "accent": "#EF4444",
+    "kicker": "PAYMENT GATEWAYS \u00b7 DEVELOPER GUIDE",
+    "dur": 21.742
+   }
+  },
+  {
+   "id": "07_ccavenue_docs",
+   "type": "pg_docs",
+   "in_seconds": 21.742,
+   "out_seconds": 49.425,
+   "props": {
+    "gateway": "CCAvenue",
+    "accent": "#EF4444",
+    "url": "ccavenue.com",
+    "docsUrl": "ccavenue.com (dashboard kit)",
+    "signupUrl": "dashboard.ccavenue.com",
+    "sandbox": true,
+    "kyc": [
+     "Business PAN",
+     "Bank proof",
+     "Business-registration",
+     "Address proof",
+     "Website with policies"
+    ],
+    "methods": [
+     "Cards",
+     "Net banking",
+     "Cash cards",
+     "UPI",
+     "Multi-currency"
+    ],
+    "dur": 28.183
+   }
+  },
+  {
+   "id": "07_ccavenue_support",
+   "type": "pg_support",
+   "in_seconds": 49.925,
+   "out_seconds": 70.788,
+   "props": {
+    "gateway": "CCAvenue",
+    "accent": "#EF4444",
+    "channels": [
+     {
+      "icon": "\u2709\ufe0f",
+      "label": "Email",
+      "value": "contact@ccavenue.com",
+      "live": true
+     },
+     {
+      "icon": "\ud83c\udf10",
+      "label": "Contact page",
+      "value": "ccavenue.com/contactUs.jsp",
+      "live": true
+     },
+     {
+      "icon": "\ud83e\udd1d",
+      "label": "Relationship manager",
+      "value": "Privilege",
+      "live": true
+     },
+     {
+      "icon": "\u260e",
+      "label": "Phone",
+      "value": "verify on contact page",
+      "live": false
+     }
+    ],
+    "dur": 21.363
+   }
+  },
+  {
+   "id": "07_ccavenue_metrics",
+   "type": "pg_metrics",
+   "in_seconds": 71.288,
+   "out_seconds": 90.954,
+   "props": {
+    "gateway": "CCAvenue",
+    "accent": "#EF4444",
+    "settleDay": 0,
+    "settleNote": "~T+2 to T+4, scheme-dependent",
+    "instant": false,
+    "settleUnknown": true,
+    "successNote": "No official figure published",
+    "complexity": 3,
+    "complexityLabel": "Medium\u2013Hard",
+    "complexityWhy": "AES-encrypted request/response, older DX",
+    "dur": 20.166
+   }
+  },
+  {
+   "id": "07_ccavenue_pricing",
+   "type": "pg_pricing",
+   "in_seconds": 91.454,
+   "out_seconds": 124.576,
+   "props": {
+    "gateway": "CCAvenue",
+    "accent": "#EF4444",
+    "rows": [
+     {
+      "icon": "\ud83d\udcb3",
+      "label": "Cards / net banking / cash cards",
+      "rate": "3.75%+tax",
+      "feePct": 3.75
+     },
+     {
+      "icon": "\ud83d\udcb3",
+      "label": "American Express",
+      "rate": "5%",
+      "feePct": 5.0
+     },
+     {
+      "icon": "\ud83d\udfe3",
+      "label": "UPI",
+      "rate": "debit-card rate"
+     }
+    ],
+    "foot": "Privilege scheme: \u20b940,000 setup + monthly ASUC \u2014 the fee-heavy traditional option; schemes vary",
+    "dur": 33.622
+   }
+  },
+  {
+   "id": "07_ccavenue_flow",
+   "type": "pg_flow",
+   "in_seconds": 125.076,
+   "out_seconds": 148.524,
+   "props": {
+    "gateway": "CCAvenue",
+    "accent": "#EF4444",
+    "steps": [
+     {
+      "emoji": "\ud83e\uddfe",
+      "label": "Build order params",
+      "sub": "server"
+     },
+     {
+      "emoji": "\ud83d\udd10",
+      "label": "Encrypt request",
+      "sub": "AES encRequest"
+     },
+     {
+      "emoji": "\ud83d\uded2",
+      "label": "Billing page",
+      "sub": "customer pays"
+     },
+     {
+      "emoji": "\ud83d\udd13",
+      "label": "Decrypt response",
+      "sub": "server verifies"
+     },
+     {
+      "emoji": "\ud83c\udfe6",
+      "label": "Settlement",
+      "sub": "scheme-dependent"
+     }
+    ],
+    "dur": 23.948
+   }
+  },
+  {
+   "id": "07_ccavenue_code",
+   "type": "pg_code",
+   "in_seconds": 149.024,
+   "out_seconds": 172.545,
+   "props": {
+    "gateway": "CCAvenue",
+    "accent": "#EF4444",
+    "lang": "node",
+    "file": "encrypt-request.js",
+    "lines": [
+     "const crypto = require(\"crypto\");",
+     "const key = crypto.createHash(\"md5\").update(WORKING_KEY).digest();",
+     "const c = crypto.createCipheriv(\"aes-128-cbc\", key, iv);",
+     "const encRequest = c.update(plainOrderString, \"utf8\", \"hex\")",
+     "  + c.final(\"hex\");",
+     "// POST encRequest and access_code to CCAvenue."
+    ],
+    "docUrl": "ccavenue.com (dashboard kit)",
+    "caption": "Encrypt before redirecting, then decrypt and verify the response server-side.",
+    "dur": 24.021
+   }
+  },
+  {
+   "id": "07_ccavenue_recap",
+   "type": "pg_recap",
+   "in_seconds": 173.045,
+   "out_seconds": 199.903,
+   "props": {
+    "title": "CCAvenue in one breath",
+    "items": [
+     "Traditional breadth and multi-currency reach",
+     "3.75%+tax baseline; Amex 5%",
+     "\u20b940,000 Privilege setup plus ASUC",
+     "AES request/response integration",
+     "Settlement and scheme terms require verification"
+    ],
+    "closer": "Choose for reach and a relationship model, with eyes open on cost.",
+    "dur": 27.358
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.288,
+   "Let's look at CCAvenue from a developer's point"
+  ],
+  [
+   3.288,
+   4.111,
+   "of view."
+  ],
+  [
+   4.661,
+   7.127,
+   "The traditional heavyweight \u2014 broadest reach,"
+  ],
+  [
+   7.127,
+   7.949,
+   "real fees."
+  ],
+  [
+   8.499,
+   10.965,
+   "We'll walk its docs and KYC,"
+  ],
+  [
+   10.965,
+   12.199,
+   "its support channels,"
+  ],
+  [
+   12.199,
+   12.61,
+   "settlement,"
+  ],
+  [
+   12.61,
+   13.843,
+   "success and effort,"
+  ],
+  [
+   13.843,
+   16.309,
+   "exact pricing for every payment method,"
+  ],
+  [
+   16.309,
+   19.598,
+   "and a real integration call \u2014 everything you"
+  ],
+  [
+   19.598,
+   21.242,
+   "want before you commit."
+  ],
+  [
+   21.742,
+   24.389,
+   "Everything starts at ccavenue.com (dashboard kit)."
+  ],
+  [
+   24.939,
+   25.822,
+   "For access,"
+  ],
+  [
+   25.822,
+   29.352,
+   "you get test-mode keys the moment you sign"
+  ],
+  [
+   29.352,
+   29.793,
+   "up,"
+  ],
+  [
+   29.793,
+   31.558,
+   "before any paperwork clears."
+  ],
+  [
+   32.108,
+   35.638,
+   "To go live you complete KYC \u2014 Business"
+  ],
+  [
+   35.638,
+   36.079,
+   "PAN,"
+  ],
+  [
+   36.079,
+   36.962,
+   "Bank proof,"
+  ],
+  [
+   36.962,
+   37.403,
+   "Business-registration,"
+  ],
+  [
+   37.403,
+   40.933,
+   "and more \u2014 and it's worth confirming the"
+  ],
+  [
+   40.933,
+   43.58,
+   "exact list in the live dashboard."
+  ],
+  [
+   44.13,
+   46.336,
+   "The methods you can accept:"
+  ],
+  [
+   46.336,
+   46.778,
+   "Cards,"
+  ],
+  [
+   46.778,
+   47.66,
+   "Net banking,"
+  ],
+  [
+   47.66,
+   48.543,
+   "Cash cards,"
+  ],
+  [
+   48.543,
+   48.984,
+   "UPI,"
+  ],
+  [
+   48.984,
+   49.425,
+   "Multi-currency."
+  ],
+  [
+   49.925,
+   50.779,
+   "Now support,"
+  ],
+  [
+   50.779,
+   52.914,
+   "shown honestly as published routes,"
+  ],
+  [
+   52.914,
+   54.622,
+   "not promised service levels."
+  ],
+  [
+   55.172,
+   57.306,
+   "Your live channels are email,"
+  ],
+  [
+   57.306,
+   58.16,
+   "contact page,"
+  ],
+  [
+   58.16,
+   59.014,
+   "relationship manager."
+  ],
+  [
+   59.564,
+   62.98,
+   "There's no published phone number \u2014 this is"
+  ],
+  [
+   62.98,
+   63.834,
+   "a dashboard,"
+  ],
+  [
+   63.834,
+   65.541,
+   "ticket and docs-first setup."
+  ],
+  [
+   66.091,
+   69.507,
+   "A grey item means the provider simply doesn't"
+  ],
+  [
+   69.507,
+   70.788,
+   "publish that route."
+  ],
+  [
+   71.288,
+   72.878,
+   "Three operational checks."
+  ],
+  [
+   73.428,
+   76.607,
+   "On settlement \u2014 ~T+2 to T+4,"
+  ],
+  [
+   76.607,
+   77.137,
+   "scheme-dependent."
+  ],
+  [
+   77.687,
+   81.926,
+   "On success rate \u2014 No official figure published;"
+  ],
+  [
+   81.926,
+   85.105,
+   "we won't quote a made-up percentage."
+  ],
+  [
+   85.655,
+   89.894,
+   "And integration effort is Medium\u2013Hard \u2014\nAES-encrypted request/response,"
+  ],
+  [
+   89.894,
+   90.954,
+   "older DX."
+  ],
+  [
+   91.454,
+   95.327,
+   "Now pricing \u2014 the part you actually budget"
+  ],
+  [
+   95.327,
+   95.812,
+   "for."
+  ],
+  [
+   96.362,
+   100.235,
+   "CCAvenue lists cards / net banking / cash"
+  ],
+  [
+   100.235,
+   101.688,
+   "cards at 3.75%+tax;"
+  ],
+  [
+   101.688,
+   103.624,
+   "american express at 5%;"
+  ],
+  [
+   103.624,
+   105.561,
+   "upi at debit-card rate."
+  ],
+  [
+   106.111,
+   108.532,
+   "Where a row says custom,"
+  ],
+  [
+   108.532,
+   109.016,
+   "varies,"
+  ],
+  [
+   109.016,
+   110.469,
+   "or contact sales,"
+  ],
+  [
+   110.469,
+   114.342,
+   "keep it exactly that vague in your model"
+  ],
+  [
+   114.342,
+   117.247,
+   "\u2014 don't invent a precise number."
+  ],
+  [
+   117.797,
+   118.766,
+   "Privilege scheme:"
+  ],
+  [
+   118.766,
+   122.639,
+   "\u20b940,000 setup + monthly ASUC \u2014 the fee-heavy"
+  ],
+  [
+   122.639,
+   123.608,
+   "traditional option;"
+  ],
+  [
+   123.608,
+   124.576,
+   "schemes vary."
+  ],
+  [
+   125.076,
+   126.502,
+   "The integration runs:"
+  ],
+  [
+   126.502,
+   130.306,
+   "Build order params \u2192 Encrypt request \u2192 Billing"
+  ],
+  [
+   130.306,
+   133.159,
+   "page \u2192 Decrypt response \u2192 Settlement."
+  ],
+  [
+   133.709,
+   136.562,
+   "Create the intent on your server,"
+  ],
+  [
+   136.562,
+   139.891,
+   "hand the client only what checkout needs,"
+  ],
+  [
+   139.891,
+   143.695,
+   "then confirm status and signatures server-side\nbefore you"
+  ],
+  [
+   143.695,
+   144.17,
+   "fulfil."
+  ],
+  [
+   144.72,
+   148.524,
+   "A browser redirect is never proof of payment."
+  ],
+  [
+   149.024,
+   152.013,
+   "Here's the representative call \u2014 encrypt-request.js."
+  ],
+  [
+   152.563,
+   154.058,
+   "Encrypt before redirecting,"
+  ],
+  [
+   154.058,
+   157.546,
+   "then decrypt and verify the response server-side."
+  ],
+  [
+   158.096,
+   160.587,
+   "Treat it as a shape,"
+  ],
+  [
+   160.587,
+   162.082,
+   "not copy-and-forget code:"
+  ],
+  [
+   162.082,
+   166.068,
+   "read the current reference at ccavenue.com\n(dashboard kit),"
+  ],
+  [
+   166.068,
+   169.057,
+   "keep your secrets in server-side config,"
+  ],
+  [
+   169.057,
+   172.545,
+   "and validate the final callback or webhook."
+  ],
+  [
+   173.045,
+   173.634,
+   "So,"
+  ],
+  [
+   173.634,
+   175.99,
+   "CCAvenue in one breath."
+  ],
+  [
+   176.54,
+   179.484,
+   "Traditional breadth and multi-currency reach"
+  ],
+  [
+   180.034,
+   181.212,
+   "3.75%+tax baseline;"
+  ],
+  [
+   181.212,
+   182.39,
+   "Amex 5%"
+  ],
+  [
+   182.94,
+   185.885,
+   "\u20b940,000 Privilege setup plus ASUC"
+  ],
+  [
+   186.435,
+   188.202,
+   "AES request/response integration"
+  ],
+  [
+   188.752,
+   192.286,
+   "Settlement and scheme terms require verification."
+  ],
+  [
+   192.836,
+   196.958,
+   "Choose for reach and a relationship model,"
+  ],
+  [
+   196.958,
+   199.903,
+   "with eyes open on cost."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pg/07_ccavenue.wav",
+   "volume": 1.0
+  }
+ }
+}

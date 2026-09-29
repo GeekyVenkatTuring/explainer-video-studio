@@ -1,0 +1,665 @@
+{
+ "cuts": [
+  {
+   "id": "aonesteel_title",
+   "type": "sm_ptitle",
+   "in_seconds": 0.0,
+   "out_seconds": 28.639,
+   "props": {
+    "title": "A-One Steels India IPO",
+    "sub": "Integrated steel, south India · ₹405.00 Cr · 24–28 Sep 2026",
+    "kicker": "IPO ANALYSIS · MAINBOARD · STEEL",
+    "dur": 29.139
+   }
+  },
+  {
+   "id": "aonesteel_biz",
+   "type": "sm_iconcards",
+   "in_seconds": 29.139,
+   "out_seconds": 54.959,
+   "props": {
+    "kicker": "WHAT THE COMPANY DOES",
+    "title": "Business Model",
+    "color": "#F59E0B",
+    "items": [
+     {
+      "emoji": "🏗️",
+      "k": "Backward-integrated steel",
+      "v": "A south-India steel maker (Karnataka) with a diversified steel-product portfolio.",
+      "chip": "STEEL"
+     },
+     {
+      "emoji": "♻️",
+      "k": "Green-energy use",
+      "v": "The RHP highlights green power use and a certified green product range.",
+      "chip": "ESG"
+     },
+     {
+      "emoji": "📈",
+      "k": "Margins recovered in FY26",
+      "v": "EBITDA margin rose to 7.29% from 4.91%, lifting profit sharply.",
+      "chip": "CYCLE"
+     }
+    ],
+    "dur": 26.32
+   }
+  },
+  {
+   "id": "aonesteel_fin",
+   "type": "sm_stats",
+   "in_seconds": 55.459,
+   "out_seconds": 108.519,
+   "props": {
+    "kicker": "FINANCIAL QUALITY · RESTATED (RHP)",
+    "title": "FY26 Financials",
+    "stats": [
+     {
+      "label": "Revenue from operations",
+      "to": 4167.3258,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "FY25: ₹3,544.37 Cr · +17.58%"
+     },
+     {
+      "label": "Profit after tax",
+      "to": 127.4082,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "FY25: ₹7.71 Cr"
+     },
+     {
+      "label": "PAT margin (computed)",
+      "to": 3.0573131575169863,
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 2,
+      "color": "#FBBF24",
+      "sub": "FY25: 0.22%"
+     }
+    ],
+    "note": "FY25 PAT was just ₹7.71 Cr; FY26 jumped to ₹127.41 Cr. Net debt ₹985.37 Cr; debt-to-equity 1.17.",
+    "dur": 53.56
+   }
+  },
+  {
+   "id": "aonesteel_issue",
+   "type": "sm_stats",
+   "in_seconds": 109.019,
+   "out_seconds": 133.699,
+   "props": {
+    "kicker": "OFFER STRUCTURE · COMPUTED AT CAP",
+    "title": "Fresh Issue vs Offer for Sale",
+    "stats": [
+     {
+      "label": "Total offer (at cap)",
+      "to": 405.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#F59E0B",
+      "sub": "band ₹385–₹405"
+     },
+     {
+      "label": "Fresh issue → company",
+      "to": 355.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "new capital"
+     },
+     {
+      "label": "Offer for sale → sellers",
+      "to": 50.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "shareholder exit"
+     }
+    ],
+    "note": "87.65% fresh capital · 12.35% offer for sale (computed at the cap)",
+    "dur": 25.18
+   }
+  },
+  {
+   "id": "aonesteel_proceeds",
+   "type": "sm_iconcards",
+   "in_seconds": 134.199,
+   "out_seconds": 158.995,
+   "props": {
+    "kicker": "USE OF PROCEEDS · RHP OBJECTS",
+    "title": "Where The Money Goes",
+    "color": "#F59E0B",
+    "items": [
+     {
+      "emoji": "🏦",
+      "k": "₹250.00 Cr debt prepayment",
+      "v": "Most of the fresh money prepays borrowings from its lenders.",
+      "chip": "DEBT"
+     },
+     {
+      "emoji": "🧰",
+      "k": "General corporate purposes",
+      "v": "The balance of the ₹355.00 Cr fresh issue, capped at 25% of gross proceeds.",
+      "chip": "GCP"
+     },
+     {
+      "emoji": "👥",
+      "k": "₹50.00 Cr offer for sale",
+      "v": "Promoter selling shareholders receive this part, not the company.",
+      "chip": "OFS"
+     }
+    ],
+    "dur": 25.296
+   }
+  },
+  {
+   "id": "aonesteel_peers",
+   "type": "sm_peers",
+   "in_seconds": 159.495,
+   "out_seconds": 192.589,
+   "props": {
+    "kicker": "VALUATION · P/E AT CAP vs LISTED PEERS",
+    "title": "Peer Comparison",
+    "color": "#F59E0B",
+    "rows": [
+     {
+      "name": "A-One Steels India",
+      "pe": 21.93,
+      "note": "₹405 cap ÷ FY26 EPS ₹18.47",
+      "hi": true,
+      "display": "21.93x"
+     },
+     {
+      "name": "Shyam Metalics",
+      "pe": 28.31,
+      "note": "integrated steel",
+      "hi": false,
+      "display": "28.31x"
+     },
+     {
+      "name": "Jai Balaji Industries",
+      "pe": 45.76,
+      "note": "steel & ferro alloys",
+      "hi": false,
+      "display": "45.76x"
+     },
+     {
+      "name": "MSP Steel & Power",
+      "pe": 61.52,
+      "note": "steel & power",
+      "hi": false,
+      "display": "61.52x"
+     }
+    ],
+    "verdict": "At 21.93x FY26 EPS, A-One is priced below all three listed steel peers in its RHP.",
+    "dur": 33.595
+   }
+  },
+  {
+   "id": "aonesteel_verdict",
+   "type": "sm_myths",
+   "in_seconds": 193.089,
+   "out_seconds": 240.627,
+   "props": {
+    "kicker": "BALANCED ANALYSIS",
+    "title": "Strengths vs Watch-outs",
+    "mythLabel": "⚠️ WATCH-OUTS",
+    "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+    "pairs": [
+     {
+      "m": "FY25 PAT was only ₹7.71 Cr: earnings are cyclical",
+      "f": "FY26 PAT ₹127.41 Cr on ₹4,167.33 Cr revenue"
+     },
+     {
+      "m": "Net debt ₹985.37 Cr, D/E 1.17",
+      "f": "₹250.00 Cr of fresh money prepays debt"
+     },
+     {
+      "m": "Thin 3.06% PAT margin",
+      "f": "21.93x P/E, below listed steel peers"
+     }
+    ],
+    "dur": 48.037
+   }
+  },
+  {
+   "id": "aonesteel_apply",
+   "type": "sm_iconcards",
+   "in_seconds": 241.127,
+   "out_seconds": 265.219,
+   "props": {
+    "kicker": "HOW TO APPLY",
+    "title": "Check Terms Before You Bid",
+    "color": "#F59E0B",
+    "items": [
+     {
+      "emoji": "🧑",
+      "k": "Retail: up to ₹2 lakh",
+      "v": "Individual bids up to ₹2,00,000; lottery allotment if oversubscribed.",
+      "chip": "RETAIL"
+     },
+     {
+      "emoji": "💰",
+      "k": "Minimum bid",
+      "v": "37 shares × ₹405 = ₹14,985",
+      "chip": "1 LOT"
+     },
+     {
+      "emoji": "📅",
+      "k": "Bidding window",
+      "v": "24–28 Sep 2026 · UPI mandate by 5 PM on the last day.",
+      "chip": "DATES"
+     },
+     {
+      "emoji": "🔎",
+      "k": "Verify live",
+      "v": "Live subscription on NSE/BSE; the final RHP for everything else.",
+      "chip": "SOURCES"
+     }
+    ],
+    "dur": 24.592
+   }
+  },
+  {
+   "id": "aonesteel_recap",
+   "type": "sm_recap",
+   "in_seconds": 265.719,
+   "out_seconds": 312.073,
+   "props": {
+    "title": "A-One Steels India IPO — Recap",
+    "items": [
+     "FY26: revenue ₹4,167.33 Cr · PAT ₹127.41 Cr (3.06% margin)",
+     "Offer ₹405.00 Cr · fresh ₹355.00 Cr · OFS ₹50.00 Cr",
+     "Valuation: 21.93x FY26 EPS at the ₹405 cap",
+     "Minimum: ₹14,985 · 24–28 Sep 2026"
+    ],
+    "closer": "Education, not advice: read the RHP, decide for yourself.",
+    "dur": 46.855
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   4.055,
+   "This is the A-One Steels India I P O, a mainboard offer,"
+  ],
+  [
+   4.055,
+   8.544,
+   "open from the twenty-fourth to the twenty-eighth of September,"
+  ],
+  [
+   8.544,
+   9.557,
+   "closing today."
+  ],
+  [
+   10.057,
+   13.011,
+   "The price band is ₹385 to ₹405."
+  ],
+  [
+   13.011,
+   18.824,
+   "Every figure here comes from the final red herring prospectus"
+  ],
+  [
+   18.824,
+   20.825,
+   "and exchange notices;"
+  ],
+  [
+   20.825,
+   24.541,
+   "the final price is fixed after bidding,"
+  ],
+  [
+   24.541,
+   28.639,
+   "so valuations are computed at the ₹405 cap."
+  ],
+  [
+   29.139,
+   30.376,
+   "First, the business."
+  ],
+  [
+   30.876,
+   35.57,
+   "A-One Steels is a backward-integrated steel maker based in Karnataka,"
+  ],
+  [
+   35.57,
+   39.175,
+   "selling a range of steel products across south India."
+  ],
+  [
+   39.675,
+   45.157,
+   "The RHP highlights green-energy use and a certified green product portfolio."
+  ],
+  [
+   45.657,
+   49.077,
+   "FY26 was a recovery year:"
+  ],
+  [
+   49.077,
+   54.959,
+   "the EBITDA margin rose to 7.29% from 4.91%."
+  ],
+  [
+   55.459,
+   57.059,
+   "The financial checkpoint."
+  ],
+  [
+   57.559,
+   70.715,
+   "FY26 revenue was ₹4,167.33 Cr, against ₹3,544.37 Cr in FY25,"
+  ],
+  [
+   70.715,
+   74.881,
+   "a change of 17.58%."
+  ],
+  [
+   75.381,
+   83.424,
+   "Profit after tax was ₹127.41 Cr, a margin of 3.06%."
+  ],
+  [
+   83.924,
+   85.183,
+   "Context matters."
+  ],
+  [
+   85.683,
+   89.638,
+   "FY25 profit was only ₹7.71 Cr,"
+  ],
+  [
+   89.638,
+   98.077,
+   "so the jump to ₹127.41 Cr shows how cyclical steel earnings are."
+  ],
+  [
+   98.577,
+   104.301,
+   "Net debt was ₹985.37 Cr at March 2026,"
+  ],
+  [
+   104.301,
+   108.519,
+   "with debt to equity of 1.17."
+  ],
+  [
+   109.019,
+   113.008,
+   "The offer size at the cap is ₹405.00 Cr."
+  ],
+  [
+   113.508,
+   118.123,
+   "₹355.00 Cr is fresh issue that goes into the company,"
+  ],
+  [
+   118.123,
+   124.132,
+   "and ₹50.00 Cr is an offer for sale that goes to selling shareholders."
+  ],
+  [
+   124.632,
+   128.825,
+   "So 87.65% of the deal is new capital,"
+  ],
+  [
+   128.825,
+   133.699,
+   "and 12.35% is an exit for existing holders."
+  ],
+  [
+   134.199,
+   135.521,
+   "Where does the money go?"
+  ],
+  [
+   136.021,
+   141.462,
+   "Of the ₹355.00 Cr fresh issue, ₹250.00 Cr prepays debt,"
+  ],
+  [
+   141.462,
+   146.112,
+   "and the rest is for general corporate purposes."
+  ],
+  [
+   146.612,
+   151.625,
+   "The ₹50.00 Cr offer for sale goes to promoter selling shareholders."
+  ],
+  [
+   152.125,
+   158.995,
+   "Eligible employees get a ₹38 discount in a small ₹2 Cr reserved portion."
+  ],
+  [
+   159.495,
+   160.497,
+   "Valuation."
+  ],
+  [
+   160.997,
+   163.577,
+   "At the ₹405 cap,"
+  ],
+  [
+   163.577,
+   171.963,
+   "the price is 21.93x FY26 earnings of ₹18.47 a share."
+  ],
+  [
+   172.463,
+   176.761,
+   "The RHP's peers trade higher:"
+  ],
+  [
+   176.761,
+   180.466,
+   "Shyam Metalics at 28.31x,"
+  ],
+  [
+   180.466,
+   186.543,
+   "Jai Balaji 45.76x and M S P Steel 61.52x."
+  ],
+  [
+   187.043,
+   191.014,
+   "But a single strong year after a weak one makes any P E on"
+  ],
+  [
+   191.014,
+   192.589,
+   "steel earnings fragile."
+  ],
+  [
+   193.089,
+   194.583,
+   "Now balance the evidence."
+  ],
+  [
+   195.083,
+   196.894,
+   "Watch-out:"
+  ],
+  [
+   196.894,
+   201.785,
+   "FY25 PAT was only ₹7.71 Cr:"
+  ],
+  [
+   201.785,
+   205.77,
+   "earnings are cyclical."
+  ],
+  [
+   205.77,
+   207.4,
+   "Strength:"
+  ],
+  [
+   207.4,
+   215.371,
+   "FY26 PAT ₹127.41 Cr on ₹4,167.33 Cr revenue."
+  ],
+  [
+   215.871,
+   217.369,
+   "Watch-out:"
+  ],
+  [
+   217.369,
+   221.863,
+   "Net debt ₹985.37 Cr, D/E 1.17."
+  ],
+  [
+   221.863,
+   223.212,
+   "Strength:"
+  ],
+  [
+   223.212,
+   229.055,
+   "₹250.00 Cr of fresh money prepays debt."
+  ],
+  [
+   229.555,
+   230.974,
+   "Watch-out:"
+  ],
+  [
+   230.974,
+   234.097,
+   "Thin 3.06% PAT margin."
+  ],
+  [
+   234.097,
+   235.375,
+   "Strength:"
+  ],
+  [
+   235.375,
+   240.627,
+   "21.93x P/E, below listed steel peers."
+  ],
+  [
+   241.127,
+   242.257,
+   "How to apply."
+  ],
+  [
+   242.757,
+   247.388,
+   "The minimum bid is one lot of 37 shares,"
+  ],
+  [
+   247.388,
+   250.629,
+   "which is ₹14,985 at the cap."
+  ],
+  [
+   251.129,
+   254.605,
+   "Retail investors can bid up to two lakh rupees,"
+  ],
+  [
+   254.605,
+   258.745,
+   "and allotment is by lottery if retail is oversubscribed."
+  ],
+  [
+   259.245,
+   263.788,
+   "Check live subscription on the N S E or B S E website,"
+  ],
+  [
+   263.788,
+   265.219,
+   "not social media."
+  ],
+  [
+   265.719,
+   266.679,
+   "Let's recap."
+  ],
+  [
+   267.179,
+   273.421,
+   "FY26 revenue ₹4,167.33 Cr, profit ₹127.41 Cr."
+  ],
+  [
+   273.421,
+   282.022,
+   "The offer is ₹405.00 Cr, of which ₹50.00 Cr is offer for sale."
+  ],
+  [
+   282.022,
+   287.571,
+   "Valuation is 21.93x earnings at the cap."
+  ],
+  [
+   287.571,
+   292.288,
+   "The minimum investment is ₹14,985."
+  ],
+  [
+   292.788,
+   296.962,
+   "This video is public-source education from the red herring"
+  ],
+  [
+   296.962,
+   299.264,
+   "prospectus and exchange notices."
+  ],
+  [
+   299.264,
+   303.222,
+   "It is not investment advice and not a buy or sell call."
+  ],
+  [
+   303.222,
+   305.021,
+   "Read the final documents,"
+  ],
+  [
+   305.021,
+   307.9,
+   "check live subscription on the exchange,"
+  ],
+  [
+   307.9,
+   310.634,
+   "and consult a SEBI-registered adviser."
+  ],
+  [
+   310.634,
+   312.073,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "ipo28/aonesteel.wav",
+   "volume": 1.0
+  }
+ }
+}

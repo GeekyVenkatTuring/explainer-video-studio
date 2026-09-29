@@ -1,0 +1,358 @@
+{
+ "cuts": [
+  {
+   "id": "b14",
+   "type": "dta_divider",
+   "in_seconds": 0,
+   "out_seconds": 19.629,
+   "props": {
+    "n": 3,
+    "title": "The India Reality",
+    "sub": "Retail API rules and costs",
+    "color": "#FBBF24",
+    "pips": 4,
+    "dur": 20.129
+   }
+  },
+  {
+   "id": "b15",
+   "type": "dta_sebi",
+   "in_seconds": 20.129,
+   "out_seconds": 79.024,
+   "props": {
+    "dur": 59.395
+   }
+  },
+  {
+   "id": "b16",
+   "type": "dta_costs",
+   "in_seconds": 79.524,
+   "out_seconds": 138.513,
+   "props": {
+    "dur": 59.489
+   }
+  },
+  {
+   "id": "b17",
+   "type": "dta_reality",
+   "in_seconds": 139.013,
+   "out_seconds": 203.434,
+   "props": {
+    "dur": 64.921
+   }
+  }
+ ],
+ "captions": [
+  [
+   0,
+   2.274,
+   "Part three. The India reality."
+  ],
+  [
+   2.905,
+   6.998,
+   "An API bot operates inside a broker and exchange"
+  ],
+  [
+   6.998,
+   7.452,
+   "rulebook."
+  ],
+  [
+   8.084,
+   10.812,
+   "India-first means the operating details matter."
+  ],
+  [
+   11.444,
+   15.536,
+   "A rule that works in a notebook still has"
+  ],
+  [
+   15.536,
+   19.629,
+   "to pass broker, identity, authentication, tagging,\nand monitoring requirements."
+  ],
+  [
+   20.129,
+   23.899,
+   "S E B I issued the retail algo framework"
+  ],
+  [
+   23.899,
+   25.994,
+   "on four February twenty twenty-five."
+  ],
+  [
+   26.626,
+   30.396,
+   "Under its glide path, the framework applies to all"
+  ],
+  [
+   30.396,
+   32.91,
+   "stockbrokers from one April twenty twenty-six."
+  ],
+  [
+   33.541,
+   37.312,
+   "N S E's documented threshold is ten orders per"
+  ],
+  [
+   37.312,
+   39.406,
+   "second per exchange and segment."
+  ],
+  [
+   40.038,
+   43.808,
+   "At or below that threshold, an API algo gets"
+  ],
+  [
+   43.808,
+   45.903,
+   "a generic Algo I D."
+  ],
+  [
+   46.534,
+   49.048,
+   "Above it, the algo must register."
+  ],
+  [
+   49.68,
+   53.45,
+   "Access needs a unique key, broker-whitelisted static\nI P,"
+  ],
+  [
+   53.45,
+   55.964,
+   "OAuth, two-factor authentication, and daily logout."
+  ],
+  [
+   56.595,
+   59.109,
+   "Broker is principal. Provider is agent."
+  ],
+  [
+   59.74,
+   63.092,
+   "Audit trail is kept at least five years."
+  ],
+  [
+   63.723,
+   66.656,
+   "These are safeguards for traceability and\naccountability."
+  ],
+  [
+   67.288,
+   70.639,
+   "They are not a scorecard for a strategy."
+  ],
+  [
+   71.271,
+   75.041,
+   "Registration or an identifier does not certify a\nreturn."
+  ],
+  [
+   75.673,
+   79.024,
+   "It makes orders easier to identify and supervise."
+  ],
+  [
+   79.524,
+   82.25,
+   "Costs decide whether a fast strategy survives."
+  ],
+  [
+   82.882,
+   86.387,
+   "From one April twenty twenty-six, sell-side\nsecurities futures S"
+  ],
+  [
+   86.387,
+   89.503,
+   "T T is zero point zero five percent."
+  ],
+  [
+   90.134,
+   93.64,
+   "Option-sale S T T is zero point one five"
+  ],
+  [
+   93.64,
+   94.808,
+   "percent of premium."
+  ],
+  [
+   95.44,
+   98.945,
+   "A Zerodha example lists futures brokerage at zero\npoint"
+  ],
+  [
+   98.945,
+   102.45,
+   "zero three percent or twenty rupees per order,\nwhichever"
+  ],
+  [
+   102.45,
+   103.229,
+   "is lower."
+  ],
+  [
+   103.861,
+   106.587,
+   "Options are twenty rupees per executed order."
+  ],
+  [
+   107.219,
+   110.334,
+   "That is one broker example, not all brokers."
+  ],
+  [
+   110.966,
+   114.471,
+   "N S E transaction charges and G S T"
+  ],
+  [
+   114.471,
+   115.25,
+   "add more."
+  ],
+  [
+   115.882,
+   119.387,
+   "Spread, impact, delay, and missed fills are implicit\ncosts."
+  ],
+  [
+   120.018,
+   122.355,
+   "Gross return is not net return."
+  ],
+  [
+   122.987,
+   125.713,
+   "A robust test asks a tougher question."
+  ],
+  [
+   126.345,
+   129.46,
+   "What happens if fills are worse than expected?"
+  ],
+  [
+   130.092,
+   132.818,
+   "What happens if the spread is wider?"
+  ],
+  [
+   133.45,
+   136.955,
+   "What happens if a small gross edge disappears after"
+  ],
+  [
+   136.955,
+   138.513,
+   "the complete cost stack?"
+  ],
+  [
+   139.013,
+   141.512,
+   "Here is the uncomfortable scope-labelled evidence."
+  ],
+  [
+   142.143,
+   145.892,
+   "S E B I said ninety-three percent of over"
+  ],
+  [
+   145.892,
+   149.64,
+   "one crore individual equity futures and options\ntraders lost"
+  ],
+  [
+   149.64,
+   153.388,
+   "money between financial year twenty twenty-two and\ntwenty twenty-four."
+  ],
+  [
+   154.02,
+   157.768,
+   "Aggregate losses exceeded one point eight lakh crore\nrupees."
+  ],
+  [
+   158.4,
+   162.148,
+   "Only one percent made more than one lakh rupees"
+  ],
+  [
+   162.148,
+   162.981,
+   "after costs."
+  ],
+  [
+   163.613,
+   167.361,
+   "The financial year twenty twenty-four average\ntransaction cost was"
+  ],
+  [
+   167.361,
+   169.86,
+   "twenty-six thousand rupees per individual trader."
+  ],
+  [
+   170.491,
+   174.24,
+   "This is an individual F and O study, not"
+  ],
+  [
+   174.24,
+   175.905,
+   "an algo-user profitability study."
+  ],
+  [
+   176.537,
+   178.619,
+   "Automation does not create edge."
+  ],
+  [
+   179.251,
+   181.75,
+   "Backtest does not equal live trading."
+  ],
+  [
+   182.381,
+   185.713,
+   "Retail API does not equal H F T."
+  ],
+  [
+   186.345,
+   190.093,
+   "The lesson is not that every trader will lose."
+  ],
+  [
+   190.725,
+   194.473,
+   "The lesson is that broad retail F and O"
+  ],
+  [
+   194.473,
+   198.221,
+   "outcomes are harsh, and a claim of automation does"
+  ],
+  [
+   198.221,
+   199.887,
+   "not change that evidence."
+  ],
+  [
+   200.519,
+   203.434,
+   "Treat every profit promise with special caution."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "dta/ch06.wav",
+   "volume": 1.0
+  }
+ }
+}

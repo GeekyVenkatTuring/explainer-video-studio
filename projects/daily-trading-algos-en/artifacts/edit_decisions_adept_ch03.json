@@ -1,0 +1,269 @@
+{
+ "cuts": [
+  {
+   "id": "s11_pairs",
+   "type": "da_pairs",
+   "in_seconds": 0.0,
+   "out_seconds": 44.966,
+   "props": {
+    "dur": 45.566
+   }
+  },
+  {
+   "id": "s12_making",
+   "type": "da_making",
+   "in_seconds": 45.566,
+   "out_seconds": 88.711,
+   "props": {
+    "dur": 43.745
+   }
+  },
+  {
+   "id": "s13_arb",
+   "type": "da_arb",
+   "in_seconds": 89.311,
+   "out_seconds": 134.344,
+   "props": {
+    "dur": 45.633
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.661,
+   "Here's a cleverer cousin of mean reversion."
+  ],
+  [
+   3.367,
+   6.788,
+   "Think of two dancers who almost always move\ntogether;"
+  ],
+  [
+   6.788,
+   10.21,
+   "you stop watching each one, and just watch the"
+  ],
+  [
+   10.21,
+   11.35,
+   "gap between them."
+  ],
+  [
+   12.056,
+   15.478,
+   "On the chart, we track the spread between two"
+  ],
+  [
+   15.478,
+   18.899,
+   "related stocks, and turn it into a z-score \u2014"
+  ],
+  [
+   18.899,
+   22.32,
+   "a number that says how unusual today's gap is."
+  ],
+  [
+   23.026,
+   26.447,
+   "For example, when that z-score stretches past two,\nthe"
+  ],
+  [
+   26.447,
+   29.869,
+   "rule buys the cheap leg and shorts the expensive"
+  ],
+  [
+   29.869,
+   31.769,
+   "leg, betting the gap closes."
+  ],
+  [
+   32.476,
+   35.897,
+   "In plain words, you're trading the relationship, not\nthe"
+  ],
+  [
+   35.897,
+   36.657,
+   "market direction."
+  ],
+  [
+   37.364,
+   40.785,
+   "The technical name is statistical arbitrage, or\npairs trading"
+  ],
+  [
+   40.785,
+   44.206,
+   "\u2014 and its real danger is a relationship that"
+  ],
+  [
+   44.206,
+   44.966,
+   "simply breaks."
+  ],
+  [
+   45.566,
+   48.639,
+   "Now, who is on the other side of all"
+  ],
+  [
+   48.639,
+   49.322,
+   "these trades?"
+  ],
+  [
+   50.029,
+   53.102,
+   "Often a market maker \u2014 think of a shopkeeper"
+  ],
+  [
+   53.102,
+   56.176,
+   "who'll always buy from you at one price and"
+  ],
+  [
+   56.176,
+   58.225,
+   "sell at a slightly higher one."
+  ],
+  [
+   58.931,
+   62.004,
+   "The picture: the maker posts a bid and an"
+  ],
+  [
+   62.004,
+   65.078,
+   "ask around fair value, on both sides at once."
+  ],
+  [
+   65.784,
+   68.858,
+   "For example, if both a buyer and a seller"
+  ],
+  [
+   68.858,
+   71.931,
+   "trade with those quotes, the maker keeps the little"
+  ],
+  [
+   71.931,
+   75.004,
+   "gap between them \u2014 the spread \u2014 while carefully"
+  ],
+  [
+   75.004,
+   76.029,
+   "managing leftover inventory."
+  ],
+  [
+   76.735,
+   79.809,
+   "In plain words, they get paid to provide liquidity,"
+  ],
+  [
+   79.809,
+   81.175,
+   "not to predict direction."
+  ],
+  [
+   81.881,
+   84.955,
+   "The technical risk is adverse selection \u2014 being\npicked"
+  ],
+  [
+   84.955,
+   88.028,
+   "off by someone who knows the price is about"
+  ],
+  [
+   88.028,
+   88.711,
+   "to move."
+  ],
+  [
+   89.311,
+   92.738,
+   "The last strategy is the closest thing to a"
+  ],
+  [
+   92.738,
+   95.403,
+   "free lunch \u2014 and it usually isn't."
+  ],
+  [
+   96.109,
+   99.536,
+   "Arbitrage is like buying mangoes cheaper in one\nbazaar"
+  ],
+  [
+   99.536,
+   102.963,
+   "to sell them dearer in another, at the same"
+  ],
+  [
+   102.963,
+   103.343,
+   "moment."
+  ],
+  [
+   104.05,
+   107.476,
+   "The picture: compare two prices for the same\nunderlying"
+  ],
+  [
+   107.476,
+   110.903,
+   "value \u2014 say a stock's cash price against its"
+  ],
+  [
+   110.903,
+   111.665,
+   "futures price."
+  ],
+  [
+   112.371,
+   115.798,
+   "For example, buy the cheaper leg and sell the"
+  ],
+  [
+   115.798,
+   119.224,
+   "dearer leg, and lock the gap \u2014 but only"
+  ],
+  [
+   119.224,
+   122.27,
+   "if it beats funding, borrowing, taxes, and fees."
+  ],
+  [
+   122.977,
+   126.403,
+   "In plain words, these are tiny, locked gaps, chased"
+  ],
+  [
+   126.403,
+   128.307,
+   "instantly by very fast competitors."
+  ],
+  [
+   129.014,
+   132.44,
+   "The technical name is cash-futures arbitrage, and\nits risks"
+  ],
+  [
+   132.44,
+   134.344,
+   "are basis, legging, and funding."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "da/ch03.wav",
+   "volume": 1.0
+  }
+ }
+}

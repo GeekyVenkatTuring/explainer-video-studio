@@ -1,0 +1,229 @@
+{
+ "cuts": [
+  {
+   "id": "d12",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 10.543,
+   "props": {
+    "n": 12,
+    "title": "The Boring Winners",
+    "sub": "The SIP investor who quietly beat the experts",
+    "color": "#34D399",
+    "total": 14,
+    "dur": 11.043
+   }
+  },
+  {
+   "id": "s12a",
+   "type": "mw_statement",
+   "in_seconds": 11.043,
+   "out_seconds": 32.169,
+   "props": {
+    "kicker": "THE INVISIBLE MAJORITY",
+    "color": "#34D399",
+    "lines": [
+     "No screenshots.",
+     "No stock tips.",
+     "No timing.",
+     "Just a monthly SIP."
+    ],
+    "sub": "The most boring plan in India quietly won.",
+    "dur": 21.626
+   }
+  },
+  {
+   "id": "s12b",
+   "type": "mw_statement",
+   "in_seconds": 32.669,
+   "out_seconds": 62.621,
+   "props": {
+    "kicker": "AMFI DATA \u00b7 MAR 2026",
+    "color": "#34D399",
+    "lines": [
+     "\u20b932,087 crore.",
+     "In a single month.",
+     "Bought automatically \u2014",
+     "right into the crash."
+    ],
+    "sub": "A record monthly SIP flow; five straight months above \u20b931,000 crore.",
+    "dur": 30.452
+   }
+  },
+  {
+   "id": "s12c",
+   "type": "mw_statement",
+   "in_seconds": 63.121,
+   "out_seconds": 87.547,
+   "props": {
+    "kicker": "THE QUIET VICTORY",
+    "color": "#34D399",
+    "lines": [
+     "The dip you feared",
+     "was the SIP's",
+     "best friend."
+    ],
+    "sub": "Rupee-cost averaging turns volatility from an enemy into an ally.",
+    "dur": 24.926
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.709,
+   "Chapter twelve. The boring winners."
+  ],
+  [
+   2.34,
+   5.416,
+   "This is the most important chapter for most of"
+  ],
+  [
+   5.416,
+   8.492,
+   "you \u2014 because it's the one strategy on this"
+  ],
+  [
+   8.492,
+   10.543,
+   "list that anyone can actually copy."
+  ],
+  [
+   11.043,
+   14.505,
+   "There's a winner these six months who posted\nnothing,"
+  ],
+  [
+   14.505,
+   16.428,
+   "tipped nothing, and timed nothing."
+  ],
+  [
+   17.059,
+   20.521,
+   "The ordinary investor with a simple monthly S-I-P \u2014"
+  ],
+  [
+   20.521,
+   23.213,
+   "a systematic investment plan into mutual funds."
+  ],
+  [
+   23.845,
+   26.153,
+   "The most boring strategy in India."
+  ],
+  [
+   26.784,
+   30.246,
+   "And when the market crashed in April, it did"
+  ],
+  [
+   30.246,
+   32.169,
+   "something the panicking traders couldn't."
+  ],
+  [
+   32.669,
+   36.466,
+   "In March, Indians poured a record thirty-two\nthousand and"
+  ],
+  [
+   36.466,
+   40.264,
+   "eighty-seven crore rupees into SIPs \u2014 in a single"
+  ],
+  [
+   40.264,
+   40.686,
+   "month."
+  ],
+  [
+   41.317,
+   45.115,
+   "More than thirty-one thousand crore, every month,\nfor five"
+  ],
+  [
+   45.115,
+   45.959,
+   "straight months."
+  ],
+  [
+   46.59,
+   50.388,
+   "Here's the magic: those SIP instalments kept buying\nautomatically,"
+  ],
+  [
+   50.388,
+   53.341,
+   "on schedule, right through the April low."
+  ],
+  [
+   53.973,
+   56.082,
+   "No courage required. No forecast."
+  ],
+  [
+   56.714,
+   60.511,
+   "The plan bought the exact bottom that the\ntip-chasers"
+  ],
+  [
+   60.511,
+   62.621,
+   "were too scared to touch."
+  ],
+  [
+   63.121,
+   65.585,
+   "That's the whole trick of a SIP."
+  ],
+  [
+   66.217,
+   69.385,
+   "When prices fall, your fixed rupees simply buy more"
+  ],
+  [
+   69.385,
+   72.554,
+   "units \u2014 so a crash lowers your average cost"
+  ],
+  [
+   72.554,
+   73.962,
+   "instead of your resolve."
+  ],
+  [
+   74.594,
+   77.762,
+   "The volatility that terrified everyone else quietly\nworked in"
+  ],
+  [
+   77.762,
+   79.17,
+   "the SIP investor's favour."
+  ],
+  [
+   79.802,
+   82.97,
+   "They didn't beat the market with genius. They beat"
+  ],
+  [
+   82.97,
+   86.139,
+   "it with a standing instruction \u2014 and the discipline"
+  ],
+  [
+   86.139,
+   87.547,
+   "to leave it alone."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch12.wav",
+   "volume": 1.0
+  }
+ }
+}

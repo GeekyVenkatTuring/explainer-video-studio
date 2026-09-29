@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/tempsens_verdict_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/tempsens_verdict_c1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/tempsens_verdict_c2.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/tempsens_verdict_c3.wav'

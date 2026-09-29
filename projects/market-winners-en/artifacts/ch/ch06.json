@@ -1,0 +1,170 @@
+{
+ "cuts": [
+  {
+   "id": "d06",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 10.499,
+   "props": {
+    "n": 6,
+    "title": "The Diversifier",
+    "sub": "Mukul Agrawal \u2014 breadth as a strategy",
+    "color": "#A78BFA",
+    "total": 14,
+    "dur": 10.999
+   }
+  },
+  {
+   "id": "w06",
+   "type": "mw_investor",
+   "in_seconds": 10.999,
+   "out_seconds": 62.626,
+   "props": {
+    "idx": 5,
+    "total": 8,
+    "color": "#A78BFA",
+    "name": "Mukul Agrawal",
+    "tag": "THE DIVERSIFIER",
+    "worth": 6425,
+    "worthUnit": "cr",
+    "stocks": 73,
+    "asOf": "Dec 2025",
+    "holdings": [
+     {
+      "nm": "Neuland Laboratories",
+      "v": "\u20b9497 cr"
+     },
+     {
+      "nm": "Radico Khaitan",
+      "v": "\u20b9379 cr"
+     },
+     {
+      "nm": "ASM Technologies",
+      "v": "\u20b9339 cr"
+     },
+     {
+      "nm": "Nuvama Wealth",
+      "v": "\u20b9295 cr"
+     },
+     {
+      "nm": "Zota Health Care",
+      "v": "\u20b9292 cr"
+     }
+    ],
+    "strategy": "One of India's widest star-books \u2014 dozens of positions blending momentum with fundamentals.",
+    "playbook": [
+     "~73 disclosed stocks worth ~\u20b96,425 cr \u2014 breadth as risk control",
+     "High hit-rate on multibaggers across pharma, spirits, tech",
+     "Kept buying in 2026: added Sudeep Pharma, HCC, Sirca Paints"
+    ],
+    "move": "Added Sudeep Pharma, HCC & Sirca Paints in 2026; trimmed the froth",
+    "steep": 1.8,
+    "foot": "Disclosed shareholding (BSE/NSE filings, aggregator) \u00b7 as of Dec-2025 filing \u00b7 not investment advice",
+    "dur": 52.127
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.518,
+   "Chapter six. The diversifier."
+  ],
+  [
+   2.15,
+   5.565,
+   "If Kacholia casts a wide net, our next winner"
+  ],
+  [
+   5.565,
+   8.981,
+   "casts the widest of all \u2014 and turns sheer"
+  ],
+  [
+   8.981,
+   10.499,
+   "breadth into a strategy."
+  ],
+  [
+   10.999,
+   14.776,
+   "Mukul Agrawal runs one of the broadest star\nportfolios"
+  ],
+  [
+   14.776,
+   18.553,
+   "in India \u2014 around seventy-three disclosed companies,\nworth roughly"
+  ],
+  [
+   18.553,
+   21.071,
+   "six thousand four hundred crore rupees."
+  ],
+  [
+   21.703,
+   25.479,
+   "Where a beginner sees chaos, he sees risk control:"
+  ],
+  [
+   25.479,
+   29.256,
+   "no single bet can wreck him, so he can"
+  ],
+  [
+   29.256,
+   31.774,
+   "hold high-growth names through gut-wrenching\nvolatility."
+  ],
+  [
+   32.406,
+   36.183,
+   "His top positions read like a tour of new"
+  ],
+  [
+   36.183,
+   39.96,
+   "India \u2014 Neuland Laboratories in pharma, Radico\nKhaitan in"
+  ],
+  [
+   39.96,
+   42.478,
+   "premium spirits, Nuvama in wealth management."
+  ],
+  [
+   43.11,
+   46.887,
+   "And crucially, he kept buying through this year's\nturmoil"
+  ],
+  [
+   46.887,
+   50.663,
+   "\u2014 adding Sudeep Pharma, Hindustan Construction, and\nSirca Paints"
+  ],
+  [
+   50.663,
+   51.922,
+   "while others panicked."
+  ],
+  [
+   52.554,
+   56.331,
+   "Breadth, plus the nerve to keep deploying into\nweakness."
+  ],
+  [
+   56.331,
+   60.108,
+   "That combination is why his hit-rate on multibaggers\nis"
+  ],
+  [
+   60.108,
+   62.626,
+   "among the best in the business."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch06.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,5 @@
+file '/Users/appuram/Developer/explainer-forge/projects/avoid-loss-stock-market/assets/raw/ch06_sell-0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/avoid-loss-stock-market/assets/raw/pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/avoid-loss-stock-market/assets/raw/ch06_sell-1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/avoid-loss-stock-market/assets/raw/pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/avoid-loss-stock-market/assets/raw/ch06_sell-2.wav'

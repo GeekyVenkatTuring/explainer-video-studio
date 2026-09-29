@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch22_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 46.793,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "foundation",
+        "dur": 47.293
+      }
+    },
+    {
+      "id": "ch22_system",
+      "type": "aae_chapter",
+      "in_seconds": 47.293,
+      "out_seconds": 86.691,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "system",
+        "dur": 39.898
+      }
+    },
+    {
+      "id": "ch22_practice",
+      "type": "aae_chapter",
+      "in_seconds": 87.191,
+      "out_seconds": 134.03,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "practice",
+        "dur": 47.339
+      }
+    },
+    {
+      "id": "ch22_failure",
+      "type": "aae_chapter",
+      "in_seconds": 134.53,
+      "out_seconds": 175.191,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "failure",
+        "dur": 41.161
+      }
+    },
+    {
+      "id": "ch22_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 175.691,
+      "out_seconds": 219.956,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "evaluation",
+        "dur": 44.766
+      }
+    },
+    {
+      "id": "ch22_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 220.456,
+      "out_seconds": 257.776,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "handoff",
+        "dur": 37.819
+      }
+    },
+    {
+      "id": "ch22_application",
+      "type": "aae_chapter",
+      "in_seconds": 258.276,
+      "out_seconds": 308.054,
+      "props": {
+        "chapter": 22,
+        "title": "Agentic Team and Organization Design",
+        "focus": "assigning ownership, expertise, and decision rights across humans and agents",
+        "concepts": [
+          "clear accountability",
+          "cross-functional operating model",
+          "skill development"
+        ],
+        "example": "a product squad with model, security, operations, and domain owners",
+        "trap": "creating an agent team without an accountable human team",
+        "takeaway": "Assigning ownership, expertise, and decision rights across humans and agents.",
+        "beat": "application",
+        "dur": 50.278
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch22.wav",
+      "volume": 1
+    }
+  }
+}

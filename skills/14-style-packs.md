@@ -28,7 +28,11 @@ rnd() determinism, no CSS filter, QA stills) stays exactly the same.
 | `iso` | isometric diagrams in pure SVG: shaded iso blocks, platforms + pipes with cube packets, column "skyline" charts, Manrope — cheap to render | cloud/infra, data pipelines, logistics, business processes (3D feel without 3D Studio's cost) |
 | `ledger` | light spreadsheet worksheet: column letters/row numbers, live formula bar, sheet tabs + progress bar, violet **cell-cursor** motif, yellow highlighter = verified, provenance chips; IBM Plex Sans/Mono; semantic PDF=orange · Excel=green · SQL=blue · agent=violet · error=crimson | data engineering, agents-over-data, analytics/BI, finance workflows, spreadsheets |
 | legacy `primitives` dark look | the pre-2026 style | dev tools / terminal topics only — no longer the default |
-Don't use the same pack for two consecutive videos in a series unless it is a deliberate series identity.
+**Decision rule (mandatory):** classify the brief (topic, audience, tone, data-heavy vs conceptual vs
+how-to vs market), pick the row whose "Use for" fits best, and write the pick + one-line reason in the
+beat list. The content decides — not habit, not "what I used last time". Reusing a pack is fine when it
+is genuinely the best fit (e.g. a deliberate series identity); say so. If two fit, prefer the one whose
+scene archetypes match the video's main scene types. Nothing fits → closest pack + note the gap.
 
 ## Libraries now installed (composer/, pinned to the core Remotion version — keep them equal!)
 `@remotion/transitions` (fade, slide, wipe, flip, clock-wipe) · `@remotion/three` + `three` + `@react-three/fiber@8` (React 18) · `katex` (MathML output only — no CSS/web fonts) · `@remotion/paths` (evolvePath draw-on, getLength)

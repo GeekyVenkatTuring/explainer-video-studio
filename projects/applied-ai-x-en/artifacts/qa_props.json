@@ -1,0 +1,545 @@
+{
+ "cuts": [
+  {
+   "id": "xa_title",
+   "type": "xa_title",
+   "in_seconds": 0.0,
+   "out_seconds": 30.0,
+   "props": {
+    "kicker": "X / APPLIED AI \u00b7 COMPILED 12 SEP 2026",
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_divider",
+   "type": "xa_divider",
+   "in_seconds": 30.0,
+   "out_seconds": 60.0,
+   "props": {
+    "n": 5,
+    "title": "Agent Harness,\nLoops & Orchestration",
+    "sub": "Twenty-two articles on the layer around the model",
+    "color": "#A78BFA",
+    "pips": 8,
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_chintro",
+   "type": "xa_chintro",
+   "in_seconds": 60.0,
+   "out_seconds": 90.0,
+   "props": {
+    "ch": 5,
+    "chname": "AGENT HARNESS",
+    "headline": "Twenty-two articles, ranked by reach",
+    "color": "#A78BFA",
+    "items": [
+     {
+      "n": 1,
+      "title": "Become an AI engineer in six months"
+     },
+     {
+      "n": 2,
+      "title": "Master AI in thirty days"
+     },
+     {
+      "n": 3,
+      "title": "Twenty AI concepts for 2026"
+     },
+     {
+      "n": 4,
+      "title": "Zero to hireable in four months"
+     },
+     {
+      "n": 5,
+      "title": "Agentic engineer in six weeks, part one"
+     },
+     {
+      "n": 6,
+      "title": "Graph architect from zero"
+     },
+     {
+      "n": 7,
+      "title": "The fourteen-step graph roadmap"
+     },
+     {
+      "n": 8,
+      "title": "AI agents: the complete course"
+     },
+     {
+      "n": 9,
+      "title": "Agentic engineer in six weeks, part two"
+     },
+     {
+      "n": 10,
+      "title": "The twenty-five concepts you need"
+     },
+     {
+      "n": 11,
+      "title": "The AI engineering skills map"
+     },
+     {
+      "n": 12,
+      "title": "Top fifty Claude skills and repos"
+     },
+     {
+      "n": 13,
+      "title": "Skills map: building and deploying"
+     },
+     {
+      "n": 14,
+      "title": "Sixty-seven skills, one subscription"
+     },
+     {
+      "n": 15,
+      "title": "Skills map: using coding agents"
+     },
+     {
+      "n": 16,
+      "title": "The MCP gateway iceberg"
+     },
+     {
+      "n": 17,
+      "title": "Agent plugins are the future"
+     },
+     {
+      "n": 18,
+      "title": "Fifty MCP servers worth trying"
+     },
+     {
+      "n": 19,
+      "title": "Sixty-nine open-source AI repos"
+     },
+     {
+      "n": 20,
+      "title": "MCP versus CLI was the wrong debate"
+     },
+     {
+      "n": 21,
+      "title": "Seventeen skills for a fresh setup"
+     },
+     {
+      "n": 22,
+      "title": "The ultimate skill playbook"
+     }
+    ],
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_article",
+   "type": "xa_article",
+   "in_seconds": 90.0,
+   "out_seconds": 120.0,
+   "props": {
+    "rank": 12,
+    "total": 15,
+    "ch": 5,
+    "chname": "AGENT HARNESS",
+    "title": "Why Multi-Agent Pipelines Fail for Complex Analytics, and the Control Plane Pattern That Replaces Them Entirely In Production Systems Today",
+    "handle": "@eng_khairallah1",
+    "likes": "24.1K",
+    "thesis": "Most agent stacks fail not because the model is weak but because the harness around it never decides what the model should see, when it should stop, and who owns the retry path here.",
+    "take": "Start with the harness, not the model \u2014 decide context, stopping rules and retries first.",
+    "color": "#A78BFA",
+    "points": [
+     {
+      "label": "Context is the real budget",
+      "line": "Keep the system prompt under two thousand tokens and move worked examples into a retrieved skill file loaded only when the task matches."
+     },
+     {
+      "label": "Stopping rules beat prompts",
+      "line": "Keep the system prompt under two thousand tokens and move worked examples into a retrieved skill file loaded only when the task matches."
+     },
+     {
+      "label": "Retries need an owner",
+      "line": "Keep the system prompt under two thousand tokens and move worked examples into a retrieved skill file loaded only when the task matches."
+     },
+     {
+      "label": "Tools are the interface",
+      "line": "Keep the system prompt under two thousand tokens and move worked examples into a retrieved skill file loaded only when the task matches."
+     },
+     {
+      "label": "State lives outside the model",
+      "line": "Keep the system prompt under two thousand tokens and move worked examples into a retrieved skill file loaded only when the task matches."
+     },
+     {
+      "label": "Observability is not optional",
+      "line": "Keep the system prompt under two thousand tokens and move worked examples into a retrieved skill file loaded only when the task matches."
+     }
+    ],
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_roadmap",
+   "type": "xa_roadmap",
+   "in_seconds": 120.0,
+   "out_seconds": 150.0,
+   "props": {
+    "rank": 12,
+    "total": 15,
+    "ch": 5,
+    "chname": "AGENT HARNESS",
+    "title": "Why Multi-Agent Pipelines Fail for Complex Analytics, and the Control Plane Pattern That Replaces Them Entirely In Production Systems Today",
+    "handle": "@eng_khairallah1",
+    "likes": "24.1K",
+    "thesis": "Most agent stacks fail not because the model is weak but because the harness around it never decides what the model should see, when it should stop, and who owns the retry path here.",
+    "take": "Start with the harness, not the model \u2014 decide context, stopping rules and retries first.",
+    "color": "#7DD3FC",
+    "phases": [
+     {
+      "label": "Phase 1 long label",
+      "line": "Ninety characters of supporting detail that has to wrap cleanly"
+     },
+     {
+      "label": "Phase 2 long label",
+      "line": "Ninety characters of supporting detail that has to wrap cleanly"
+     },
+     {
+      "label": "Phase 3 long label",
+      "line": "Ninety characters of supporting detail that has to wrap cleanly"
+     },
+     {
+      "label": "Phase 4 long label",
+      "line": "Ninety characters of supporting detail that has to wrap cleanly"
+     },
+     {
+      "label": "Phase 5 long label",
+      "line": "Ninety characters of supporting detail that has to wrap cleanly"
+     },
+     {
+      "label": "Phase 6 long label",
+      "line": "Ninety characters of supporting detail that has to wrap cleanly"
+     },
+     {
+      "label": "Phase 7 long label",
+      "line": "Ninety characters of supporting detail that has to wrap cleanly"
+     },
+     {
+      "label": "Phase 8 long label",
+      "line": "Ninety characters of supporting detail that has to wrap cleanly"
+     }
+    ],
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_stack",
+   "type": "xa_stack",
+   "in_seconds": 150.0,
+   "out_seconds": 180.0,
+   "props": {
+    "rank": 12,
+    "total": 15,
+    "ch": 5,
+    "chname": "AGENT HARNESS",
+    "title": "Why Multi-Agent Pipelines Fail for Complex Analytics, and the Control Plane Pattern That Replaces Them Entirely In Production Systems Today",
+    "handle": "@eng_khairallah1",
+    "likes": "24.1K",
+    "thesis": "Most agent stacks fail not because the model is weak but because the harness around it never decides what the model should see, when it should stop, and who owns the retry path here.",
+    "take": "Start with the harness, not the model \u2014 decide context, stopping rules and retries first.",
+    "color": "#A78BFA",
+    "topLabel": "closest to the user",
+    "botLabel": "closest to metal",
+    "layers": [
+     {
+      "label": "Layer name goes here",
+      "line": "Eighty-four characters of explanation that fits on exactly one line"
+     },
+     {
+      "label": "Layer name goes here",
+      "line": "Eighty-four characters of explanation that fits on exactly one line"
+     },
+     {
+      "label": "Layer name goes here",
+      "line": "Eighty-four characters of explanation that fits on exactly one line"
+     },
+     {
+      "label": "Layer name goes here",
+      "line": "Eighty-four characters of explanation that fits on exactly one line"
+     },
+     {
+      "label": "Layer name goes here",
+      "line": "Eighty-four characters of explanation that fits on exactly one line"
+     }
+    ],
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_flow",
+   "type": "xa_flow",
+   "in_seconds": 180.0,
+   "out_seconds": 210.0,
+   "props": {
+    "rank": 12,
+    "total": 15,
+    "ch": 5,
+    "chname": "AGENT HARNESS",
+    "title": "Why Multi-Agent Pipelines Fail for Complex Analytics, and the Control Plane Pattern That Replaces Them Entirely In Production Systems Today",
+    "handle": "@eng_khairallah1",
+    "likes": "24.1K",
+    "thesis": "Most agent stacks fail not because the model is weak but because the harness around it never decides what the model should see, when it should stop, and who owns the retry path here.",
+    "take": "Start with the harness, not the model \u2014 decide context, stopping rules and retries first.",
+    "color": "#7DD3FC",
+    "note": "A hundred and thirty characters of caveat text sitting under the pipeline, explaining where this breaks down.",
+    "nodes": [
+     {
+      "label": "Retrieve chunks",
+      "sub": "Seventy characters of supporting detail for this node",
+      "emoji": "\ud83d\udd0e"
+     },
+     {
+      "label": "Rerank results",
+      "sub": "Seventy characters of supporting detail for this node",
+      "emoji": "\ud83d\udcca"
+     },
+     {
+      "label": "Compose context",
+      "sub": "Seventy characters of supporting detail for this node",
+      "emoji": "\ud83e\udde9"
+     },
+     {
+      "label": "Call the model",
+      "sub": "Seventy characters of supporting detail for this node",
+      "emoji": "\ud83e\udd16"
+     },
+     {
+      "label": "Verify output",
+      "sub": "Seventy characters of supporting detail for this node",
+      "emoji": "\u2705"
+     }
+    ],
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_compare",
+   "type": "xa_compare",
+   "in_seconds": 210.0,
+   "out_seconds": 240.0,
+   "props": {
+    "rank": 12,
+    "total": 15,
+    "ch": 5,
+    "chname": "AGENT HARNESS",
+    "title": "Why Multi-Agent Pipelines Fail for Complex Analytics, and the Control Plane Pattern That Replaces Them Entirely In Production Systems Today",
+    "handle": "@eng_khairallah1",
+    "likes": "24.1K",
+    "thesis": "Most agent stacks fail not because the model is weak but because the harness around it never decides what the model should see, when it should stop, and who owns the retry path here.",
+    "take": "Start with the harness, not the model \u2014 decide context, stopping rules and retries first.",
+    "color": "#FBBF24",
+    "verdict": "Neither wins outright \u2014 the gateway matters more than the protocol you argue about.",
+    "cols": [
+     {
+      "title": "MCP servers, the long version",
+      "c": "#7DD3FC",
+      "items": [
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines"
+      ]
+     },
+     {
+      "title": "Plain CLI tools, the long one",
+      "c": "#34D399",
+      "items": [
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines"
+      ]
+     },
+     {
+      "title": "A gateway in front of both",
+      "c": "#A78BFA",
+      "items": [
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines",
+       "Eighty characters of a comparison bullet that has to wrap to two lines"
+      ]
+     }
+    ],
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_roster",
+   "type": "xa_roster",
+   "in_seconds": 240.0,
+   "out_seconds": 270.0,
+   "props": {
+    "rank": 12,
+    "total": 15,
+    "ch": 5,
+    "chname": "AGENT HARNESS",
+    "title": "Why Multi-Agent Pipelines Fail for Complex Analytics, and the Control Plane Pattern That Replaces Them Entirely In Production Systems Today",
+    "handle": "@eng_khairallah1",
+    "likes": "24.1K",
+    "thesis": "Most agent stacks fail not because the model is weak but because the harness around it never decides what the model should see, when it should stop, and who owns the retry path here.",
+    "take": "Start with the harness, not the model \u2014 decide context, stopping rules and retries first.",
+    "color": "#34D399",
+    "count": 67,
+    "countLabel": "skills catalogued",
+    "items": [
+     {
+      "name": "tool-name-00",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-01",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-02",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-03",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-04",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-05",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-06",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-07",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-08",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-09",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-10",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-11",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-12",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-13",
+      "note": "Sixty-four characters of note text here"
+     },
+     {
+      "name": "tool-name-14",
+      "note": "Sixty-four characters of note text here"
+     }
+    ],
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_metric",
+   "type": "xa_metric",
+   "in_seconds": 270.0,
+   "out_seconds": 300.0,
+   "props": {
+    "rank": 12,
+    "total": 15,
+    "ch": 5,
+    "chname": "AGENT HARNESS",
+    "title": "Why Multi-Agent Pipelines Fail for Complex Analytics, and the Control Plane Pattern That Replaces Them Entirely In Production Systems Today",
+    "handle": "@eng_khairallah1",
+    "likes": "24.1K",
+    "thesis": "Most agent stacks fail not because the model is weak but because the harness around it never decides what the model should see, when it should stop, and who owns the retry path here.",
+    "take": "Start with the harness, not the model \u2014 decide context, stopping rules and retries first.",
+    "color": "#FBBF24",
+    "note": "A hundred and thirty characters of chart caveat explaining what these numbers do and do not measure here.",
+    "bars": [
+     {
+      "label": "vLLM continuous",
+      "v": 24.0,
+      "show": "24.0x"
+     },
+     {
+      "label": "Baseline HF",
+      "v": 1.0,
+      "show": "1.0x"
+     },
+     {
+      "label": "TensorRT-LLM",
+      "v": 18.5,
+      "show": "18.5x"
+     },
+     {
+      "label": "llama.cpp Metal",
+      "v": 6.2,
+      "show": "6.2x"
+     },
+     {
+      "label": "SGLang",
+      "v": 21.3,
+      "show": "21.3x"
+     }
+    ],
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_recap",
+   "type": "xa_recap",
+   "in_seconds": 300.0,
+   "out_seconds": 330.0,
+   "props": {
+    "n": 1,
+    "chname": "LEARNING PATHS",
+    "heading": "What all ten roadmaps agree on",
+    "color": "#7DD3FC",
+    "items": [
+     "Ninety-three characters of a recap line that must fit on exactly one single line here ok",
+     "Ninety-three characters of a recap line that must fit on exactly one single line here ok",
+     "Ninety-three characters of a recap line that must fit on exactly one single line here ok",
+     "Ninety-three characters of a recap line that must fit on exactly one single line here ok",
+     "Ninety-three characters of a recap line that must fit on exactly one single line here ok",
+     "Ninety-three characters of a recap line that must fit on exactly one single line here ok"
+    ],
+    "closer": "The timelines are marketing. The syllabus underneath is remarkably consistent.",
+    "dur": 30
+   }
+  },
+  {
+   "id": "xa_end",
+   "type": "xa_end",
+   "in_seconds": 330.0,
+   "out_seconds": 360.0,
+   "props": {
+    "items": [
+     "Ninety characters of an end-card line that has to sit on one line without wrapping",
+     "Ninety characters of an end-card line that has to sit on one line without wrapping",
+     "Ninety characters of an end-card line that has to sit on one line without wrapping",
+     "Ninety characters of an end-card line that has to sit on one line without wrapping",
+     "Ninety characters of an end-card line that has to sit on one line without wrapping",
+     "Ninety characters of an end-card line that has to sit on one line without wrapping",
+     "Ninety characters of an end-card line that has to sit on one line without wrapping"
+    ],
+    "closer": "The roadmaps get you started. The tool layer is where the work actually happens.",
+    "dur": 30
+   }
+  }
+ ]
+}

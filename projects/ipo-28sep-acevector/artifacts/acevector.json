@@ -1,0 +1,675 @@
+{
+ "cuts": [
+  {
+   "id": "acevector_title",
+   "type": "sm_ptitle",
+   "in_seconds": 0.0,
+   "out_seconds": 25.631,
+   "props": {
+    "title": "AceVector (Snapdeal) IPO",
+    "sub": "Snapdeal · Unicommerce · Stellaro · ₹420.00 Cr · 25–29 Sep 2026",
+    "kicker": "IPO ANALYSIS · MAINBOARD · LOSS-MAKING",
+    "dur": 26.131
+   }
+  },
+  {
+   "id": "acevector_biz",
+   "type": "sm_iconcards",
+   "in_seconds": 26.131,
+   "out_seconds": 52.219,
+   "props": {
+    "kicker": "WHAT THE COMPANY DOES",
+    "title": "Business Model",
+    "color": "#FB7185",
+    "items": [
+     {
+      "emoji": "🛒",
+      "k": "Snapdeal marketplace",
+      "v": "A value-focused lifestyle e-commerce marketplace; 12.16 million customers served in FY26.",
+      "chip": "VALUE"
+     },
+     {
+      "emoji": "🧩",
+      "k": "Unicommerce SaaS",
+      "v": "E-commerce enablement software for sellers and brands.",
+      "chip": "SAAS"
+     },
+     {
+      "emoji": "🏷️",
+      "k": "Stellaro brands",
+      "v": "Its own consumer brands, the third leg of the group.",
+      "chip": "BRANDS"
+     }
+    ],
+    "dur": 26.588
+   }
+  },
+  {
+   "id": "acevector_fin",
+   "type": "sm_stats",
+   "in_seconds": 52.719,
+   "out_seconds": 90.293,
+   "props": {
+    "kicker": "FINANCIAL QUALITY · RESTATED (RHP)",
+    "title": "FY26 Financials",
+    "stats": [
+     {
+      "label": "Revenue from operations",
+      "to": 510.381,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "FY25: ₹395.02 Cr · +29.20%"
+     },
+     {
+      "label": "Net loss",
+      "to": 45.506,
+      "prefix": "−₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "FY25: loss ₹126.31 Cr"
+     },
+     {
+      "label": "PAT margin (computed)",
+      "to": 8.916084258622481,
+      "prefix": "−",
+      "suffix": "%",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "FY25: -31.97%"
+     }
+    ],
+    "note": "Still loss-making: FY26 net loss ₹45.51 Cr, narrowed from ₹126.31 Cr. Revenue grew 29.20% to ₹510.38 Cr.",
+    "dur": 38.075
+   }
+  },
+  {
+   "id": "acevector_issue",
+   "type": "sm_stats",
+   "in_seconds": 90.793,
+   "out_seconds": 116.711,
+   "props": {
+    "kicker": "OFFER STRUCTURE · COMPUTED AT CAP",
+    "title": "Fresh Issue vs Offer for Sale",
+    "stats": [
+     {
+      "label": "Total offer (at cap)",
+      "to": 420.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "band ₹30–₹32"
+     },
+     {
+      "label": "Fresh issue → company",
+      "to": 287.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "new capital"
+     },
+     {
+      "label": "Offer for sale → sellers",
+      "to": 133.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "shareholder exit"
+     }
+    ],
+    "note": "68.33% fresh capital · 31.67% offer for sale (computed at the cap)",
+    "dur": 26.417
+   }
+  },
+  {
+   "id": "acevector_proceeds",
+   "type": "sm_iconcards",
+   "in_seconds": 117.211,
+   "out_seconds": 146.657,
+   "props": {
+    "kicker": "USE OF PROCEEDS · RHP OBJECTS",
+    "title": "Where The Money Goes",
+    "color": "#FB7185",
+    "items": [
+     {
+      "emoji": "📣",
+      "k": "₹132.00 Cr marketing",
+      "v": "Marketing and business promotion for the Snapdeal marketplace.",
+      "chip": "GROWTH"
+     },
+     {
+      "emoji": "🖥️",
+      "k": "₹50.00 Cr technology",
+      "v": "Technology infrastructure costs of the marketplace.",
+      "chip": "TECH"
+     },
+     {
+      "emoji": "👥",
+      "k": "₹133.00 Cr offer for sale",
+      "v": "Existing shareholders sell 4,15,62,500 shares.",
+      "chip": "OFS"
+     }
+    ],
+    "dur": 29.947
+   }
+  },
+  {
+   "id": "acevector_peers",
+   "type": "sm_peers",
+   "in_seconds": 147.157,
+   "out_seconds": 169.415,
+   "props": {
+    "kicker": "VALUATION · P/E AT CAP vs LISTED PEERS",
+    "title": "Peer Comparison",
+    "color": "#FB7185",
+    "rows": [
+     {
+      "name": "AceVector",
+      "pe": null,
+      "note": "loss-making",
+      "hi": true,
+      "display": null
+     },
+     {
+      "name": "FSN E-Commerce (Nykaa)",
+      "pe": 462.5,
+      "note": "only profitable peer",
+      "hi": false,
+      "display": "462.50x"
+     },
+     {
+      "name": "Brainbees (FirstCry)",
+      "pe": null,
+      "note": "loss-making",
+      "hi": false,
+      "display": null
+     },
+     {
+      "name": "Meesho",
+      "pe": null,
+      "note": "loss-making",
+      "hi": false,
+      "display": null
+     }
+    ],
+    "verdict": "No P/E: AceVector and two of three listed peers are loss-making; Nykaa trades at 462.50x.",
+    "dur": 22.757
+   }
+  },
+  {
+   "id": "acevector_verdict",
+   "type": "sm_myths",
+   "in_seconds": 169.915,
+   "out_seconds": 208.94,
+   "props": {
+    "kicker": "BALANCED ANALYSIS",
+    "title": "Strengths vs Watch-outs",
+    "mythLabel": "⚠️ WATCH-OUTS",
+    "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+    "pairs": [
+     {
+      "m": "Still loss-making: ₹45.51 Cr FY26 loss",
+      "f": "Loss narrowed from ₹126.31 Cr"
+     },
+     {
+      "m": "Proceeds mostly fund marketing spend",
+      "f": "Revenue up 29.20% to ₹510.38 Cr"
+     },
+     {
+      "m": "Negative return on net worth: -59.54%",
+      "f": "Diversified: marketplace, SaaS and brands"
+     }
+    ],
+    "dur": 39.525
+   }
+  },
+  {
+   "id": "acevector_apply",
+   "type": "sm_iconcards",
+   "in_seconds": 209.44,
+   "out_seconds": 234.001,
+   "props": {
+    "kicker": "HOW TO APPLY",
+    "title": "Check Terms Before You Bid",
+    "color": "#FB7185",
+    "items": [
+     {
+      "emoji": "🧑",
+      "k": "Retail: up to ₹2 lakh",
+      "v": "Individual bids up to ₹2,00,000; lottery allotment if oversubscribed.",
+      "chip": "RETAIL"
+     },
+     {
+      "emoji": "💰",
+      "k": "Minimum bid",
+      "v": "468 shares × ₹32 = ₹14,976",
+      "chip": "1 LOT"
+     },
+     {
+      "emoji": "📅",
+      "k": "Bidding window",
+      "v": "25–29 Sep 2026 · UPI mandate by 5 PM on the last day.",
+      "chip": "DATES"
+     },
+     {
+      "emoji": "🔎",
+      "k": "Verify live",
+      "v": "Live subscription on NSE/BSE; the final RHP for everything else.",
+      "chip": "SOURCES"
+     }
+    ],
+    "dur": 25.061
+   }
+  },
+  {
+   "id": "acevector_recap",
+   "type": "sm_recap",
+   "in_seconds": 234.501,
+   "out_seconds": 279.917,
+   "props": {
+    "title": "AceVector (Snapdeal) IPO — Recap",
+    "items": [
+     "FY26: revenue ₹510.38 Cr · net loss ₹45.51 Cr",
+     "Offer ₹420.00 Cr · fresh ₹287.00 Cr · OFS ₹133.00 Cr",
+     "Valuation: loss-making, no P/E",
+     "Minimum: ₹14,976 · 25–29 Sep 2026"
+    ],
+    "closer": "Education, not advice: read the RHP, decide for yourself.",
+    "dur": 45.916
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   4.131,
+   "This is the AceVector (Snapdeal) I P O, a mainboard offer,"
+  ],
+  [
+   4.131,
+   8.405,
+   "open from the twenty-fifth to the twenty-ninth of September."
+  ],
+  [
+   8.905,
+   11.432,
+   "The price band is ₹30 to ₹32."
+  ],
+  [
+   11.432,
+   16.745,
+   "Every figure here comes from the final red herring prospectus"
+  ],
+  [
+   16.745,
+   18.575,
+   "and exchange notices;"
+  ],
+  [
+   18.575,
+   21.972,
+   "the final price is fixed after bidding,"
+  ],
+  [
+   21.972,
+   25.631,
+   "so valuations are computed at the ₹32 cap."
+  ],
+  [
+   26.131,
+   27.368,
+   "First, the business."
+  ],
+  [
+   27.868,
+   31.51,
+   "AceVector is the parent of Snapdeal,"
+  ],
+  [
+   31.51,
+   37.883,
+   "a value-focused lifestyle marketplace that served 12.16 million"
+  ],
+  [
+   37.883,
+   39.703,
+   "customers in FY26,"
+  ],
+  [
+   39.703,
+   43.143,
+   "with 69.65% of them repeat buyers."
+  ],
+  [
+   43.643,
+   45.475,
+   "It also owns Unicommerce,"
+  ],
+  [
+   45.475,
+   49.433,
+   "which sells e-commerce software to sellers and brands,"
+  ],
+  [
+   49.433,
+   52.219,
+   "and Stellaro, its consumer-brands arm."
+  ],
+  [
+   52.719,
+   54.319,
+   "The financial checkpoint."
+  ],
+  [
+   54.819,
+   63.229,
+   "FY26 revenue was ₹510.38 Cr, up from ₹395.02 Cr."
+  ],
+  [
+   63.229,
+   70.413,
+   "The company made a net loss of ₹45.51 Cr."
+  ],
+  [
+   70.913,
+   72.535,
+   "The trend is improving."
+  ],
+  [
+   73.035,
+   81.089,
+   "The loss narrowed from ₹126.31 Cr to ₹45.51 Cr as revenue grew 29.20%."
+  ],
+  [
+   81.089,
+   84.54,
+   "But until it reports a profit,"
+  ],
+  [
+   84.54,
+   90.293,
+   "there is no earnings multiple to anchor the price."
+  ],
+  [
+   90.793,
+   94.868,
+   "The offer size at the cap is ₹420.00 Cr."
+  ],
+  [
+   95.368,
+   100.405,
+   "₹287.00 Cr is fresh issue that goes into the company,"
+  ],
+  [
+   100.405,
+   107.059,
+   "and ₹133.00 Cr is an offer for sale that goes to selling shareholders."
+  ],
+  [
+   107.559,
+   111.791,
+   "So 68.33% of the deal is new capital,"
+  ],
+  [
+   111.791,
+   116.711,
+   "and 31.67% is an exit for existing holders."
+  ],
+  [
+   117.211,
+   118.533,
+   "Where does the money go?"
+  ],
+  [
+   119.033,
+   122.042,
+   "Of the ₹287.00 Cr fresh issue,"
+  ],
+  [
+   122.042,
+   127.659,
+   "₹132.00 Cr goes to marketing and ₹50.00 Cr to technology"
+  ],
+  [
+   127.659,
+   130.468,
+   "infrastructure for Snapdeal."
+  ],
+  [
+   130.968,
+   134.936,
+   "The rest can fund acquisitions and general corporate purposes."
+  ],
+  [
+   135.436,
+   140.757,
+   "Existing shareholders sell 4,15,62,500 shares,"
+  ],
+  [
+   140.757,
+   146.657,
+   "worth ₹133.00 Cr at the cap, in the offer for sale."
+  ],
+  [
+   147.157,
+   148.16,
+   "Valuation."
+  ],
+  [
+   148.66,
+   151.583,
+   "AceVector made a loss, so it has no P E."
+  ],
+  [
+   152.083,
+   153.784,
+   "Of its RHP peers,"
+  ],
+  [
+   153.784,
+   158.787,
+   "FirstCry's parent and Meesho are also loss-making,"
+  ],
+  [
+   158.787,
+   163.389,
+   "and Nykaa's parent trades at 462.50x earnings."
+  ],
+  [
+   163.889,
+   168.171,
+   "So judge this one on the path to profit and on revenue growth,"
+  ],
+  [
+   168.171,
+   169.415,
+   "not on a multiple."
+  ],
+  [
+   169.915,
+   171.408,
+   "Now balance the evidence."
+  ],
+  [
+   171.908,
+   173.418,
+   "Watch-out:"
+  ],
+  [
+   173.418,
+   176.137,
+   "Still loss-making:"
+  ],
+  [
+   176.137,
+   179.158,
+   "₹45.51 Cr FY26 loss."
+  ],
+  [
+   179.158,
+   180.518,
+   "Strength:"
+  ],
+  [
+   180.518,
+   185.049,
+   "Loss narrowed from ₹126.31 Cr."
+  ],
+  [
+   185.549,
+   186.9,
+   "Watch-out:"
+  ],
+  [
+   186.9,
+   191.896,
+   "Proceeds mostly fund marketing spend."
+  ],
+  [
+   191.896,
+   193.111,
+   "Strength:"
+  ],
+  [
+   193.111,
+   197.432,
+   "Revenue up 29.20% to ₹510.38 Cr."
+  ],
+  [
+   197.932,
+   199.067,
+   "Watch-out:"
+  ],
+  [
+   199.067,
+   202.358,
+   "Negative return on net worth:"
+  ],
+  [
+   202.358,
+   203.266,
+   "-59.54%."
+  ],
+  [
+   203.266,
+   204.287,
+   "Strength:"
+  ],
+  [
+   204.287,
+   205.649,
+   "Diversified:"
+  ],
+  [
+   205.649,
+   208.94,
+   "marketplace, SaaS and brands."
+  ],
+  [
+   209.44,
+   210.571,
+   "How to apply."
+  ],
+  [
+   211.071,
+   216.027,
+   "The minimum bid is one lot of 468 shares,"
+  ],
+  [
+   216.027,
+   219.412,
+   "which is ₹14,976 at the cap."
+  ],
+  [
+   219.912,
+   223.387,
+   "Retail investors can bid up to two lakh rupees,"
+  ],
+  [
+   223.387,
+   227.528,
+   "and allotment is by lottery if retail is oversubscribed."
+  ],
+  [
+   228.028,
+   232.571,
+   "Check live subscription on the N S E or B S E website,"
+  ],
+  [
+   232.571,
+   234.001,
+   "not social media."
+  ],
+  [
+   234.501,
+   235.461,
+   "Let's recap."
+  ],
+  [
+   235.961,
+   243.017,
+   "FY26 revenue ₹510.38 Cr, with a net loss of ₹45.51 Cr."
+  ],
+  [
+   243.017,
+   251.248,
+   "The offer is ₹420.00 Cr, of which ₹133.00 Cr is offer for sale."
+  ],
+  [
+   251.248,
+   255.69,
+   "There is no P/E because of losses."
+  ],
+  [
+   255.69,
+   260.132,
+   "The minimum investment is ₹14,976."
+  ],
+  [
+   260.632,
+   264.806,
+   "This video is public-source education from the red herring"
+  ],
+  [
+   264.806,
+   267.108,
+   "prospectus and exchange notices."
+  ],
+  [
+   267.108,
+   271.066,
+   "It is not investment advice and not a buy or sell call."
+  ],
+  [
+   271.066,
+   272.865,
+   "Read the final documents,"
+  ],
+  [
+   272.865,
+   275.744,
+   "check live subscription on the exchange,"
+  ],
+  [
+   275.744,
+   278.478,
+   "and consult a SEBI-registered adviser."
+  ],
+  [
+   278.478,
+   279.917,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "ipo28/acevector.wav",
+   "volume": 1.0
+  }
+ }
+}

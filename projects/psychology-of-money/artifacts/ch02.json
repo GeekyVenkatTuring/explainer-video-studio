@@ -1,0 +1,565 @@
+{
+ "cuts": [
+  {
+   "id": "ch02_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 15.252,
+   "props": {
+    "n": 2,
+    "total": 20,
+    "title": "Luck and Risk",
+    "lines": [
+     "Luck and risk are the same coin. We see the winner and ignore the roommate who died.",
+     "Judge processes, not one outcome. Nothing is as good or as bad as it looks."
+    ],
+    "color": "#38BDF8",
+    "dur": 15.752
+   }
+  },
+  {
+   "id": "ch02_lakeside",
+   "type": "pm_dual",
+   "in_seconds": 15.752,
+   "out_seconds": 62.981,
+   "props": {
+    "kicker": "LAKESIDE SCHOOL",
+    "title": "Bill Gates, Paul Allen, Kent Evans",
+    "left": {
+     "name": "The lucky room",
+     "tag": "1968 funnel",
+     "c": "#34D399",
+     "lines": [
+      "Lakeside had a computer when almost no high school did \u2014 Gates and Allen used it.",
+      "1968: roughly 303 million high-school-age people in the world; about 18 million in the U.S.",
+      "Start with 303 million, end with a few hundred in that building. That is luck."
+     ]
+    },
+    "right": {
+     "name": "The missing partner",
+     "tag": "risk",
+     "c": "#F87171",
+     "lines": [
+      "Kent Evans was Gates's best friend and classmate in that same room.",
+      "He died in a mountaineering accident as a teenager.",
+      "Same unusual environment: one path to Microsoft, one funeral. Luck and risk arrived together."
+     ]
+    },
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 47.729
+   }
+  },
+  {
+   "id": "ch02_yahoo",
+   "type": "pm_sheet",
+   "in_seconds": 63.481,
+   "out_seconds": 89.735,
+   "props": {
+    "kicker": "HINDSIGHT ON BOLDNESS",
+    "title": "Yahoo's 2006 offer for Facebook",
+    "rows": [
+     {
+      "k": "2006",
+      "v": "Yahoo offered about $1 billion to buy Facebook. Mark Zuckerberg said no.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "If it won",
+      "v": "Because Facebook later became enormous, the refusal is taught as genius.",
+      "c": "#34D399"
+     },
+     {
+      "k": "If it lost",
+      "v": "If Facebook had stalled, the same no would be taught as arrogance.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Rule",
+      "v": "Risk is what remains after you subtract luck from a good outcome. Do not copy leverage from a winner's highlight reel.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 26.754
+   }
+  },
+  {
+   "id": "ch02_do",
+   "type": "pm_list",
+   "in_seconds": 90.235,
+   "out_seconds": 113.828,
+   "props": {
+    "kicker": "WHAT TO DO WITH LUCK AND RISK",
+    "title": "The chapter's working rules",
+    "items": [
+     "Do not assume a rich person is purely skilled, or a broke person is purely foolish.",
+     "Look at decisions under their control, then at timing, health, and one-off breaks.",
+     "The book's line: nothing is as good or as bad as it looks.",
+     "That humility stops you cloning someone else's debt, and quitting a good process after one bad year."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 24.093
+   }
+  },
+  {
+   "id": "ch02_bill-paul",
+   "type": "pm_sheet",
+   "in_seconds": 114.328,
+   "out_seconds": 141.896,
+   "props": {
+    "kicker": "LUCK IS NOT A FOOTNOTE",
+    "title": "The same table, different exits",
+    "rows": [
+     {
+      "k": "Microsoft",
+      "v": "Gates and Allen turned a rare high-school computer into a company. That is skill plus a door that almost nobody else had.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Kent",
+      "v": "Kent Evans sat at the same table and never got the second act. Risk is luck's twin, not its opposite.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Praise",
+      "v": "Be slower to praise winners as geniuses and slower to damn losers as fools.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Copying",
+      "v": "Copying a winner's leverage copies their unseen risk, not just their return.",
+      "c": "#FBBF24"
+     }
+    ],
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 28.068
+   }
+  },
+  {
+   "id": "ch02_luck-close",
+   "type": "pm_list",
+   "in_seconds": 142.396,
+   "out_seconds": 167.175,
+   "props": {
+    "kicker": "CHAPTER 2 \u00b7 CLOSE",
+    "title": "Hold skill loosely",
+    "items": [
+     "Bill Gates got a computer. Kent Evans sat at the same table and did not get a second act.",
+     "Yahoo's Facebook offer is genius or arrogance depending on a future nobody knew in two thousand six.",
+     "When you copy a winner, you may be copying an unseen accident, not a method.",
+     "The book's line again: nothing is as good or as bad as it looks."
+    ],
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 25.279
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.756,
+   "Chapter 2."
+  ],
+  [
+   0.756,
+   1.89,
+   "Luck and Risk."
+  ],
+  [
+   2.522,
+   5.169,
+   "Luck and risk are the same coin."
+  ],
+  [
+   5.169,
+   8.193,
+   "We see the winner and ignore the roommate"
+  ],
+  [
+   8.193,
+   8.949,
+   "who died."
+  ],
+  [
+   9.581,
+   10.337,
+   "Judge processes,"
+  ],
+  [
+   10.337,
+   11.471,
+   "not one outcome."
+  ],
+  [
+   11.471,
+   14.496,
+   "Nothing is as good or as bad as"
+  ],
+  [
+   14.496,
+   15.252,
+   "it looks."
+  ],
+  [
+   15.752,
+   17.036,
+   "The lucky room."
+  ],
+  [
+   17.036,
+   17.892,
+   "1968 funnel"
+  ],
+  [
+   18.524,
+   21.949,
+   "Lakeside had a computer when almost no\nhigh"
+  ],
+  [
+   21.949,
+   22.805,
+   "school did."
+  ],
+  [
+   22.805,
+   25.801,
+   "Bill Gates and Paul Allen used it."
+  ],
+  [
+   26.433,
+   29.858,
+   "In nineteen sixty-eight there were roughly\nthree hundred"
+  ],
+  [
+   29.858,
+   32.854,
+   "three million high-school-age people in\nthe world,"
+  ],
+  [
+   32.854,
+   35.851,
+   "about eighteen million in the United\nStates."
+  ],
+  [
+   36.482,
+   39.051,
+   "Start with three hundred three million,"
+  ],
+  [
+   39.051,
+   42.475,
+   "end with a few hundred in that building."
+  ],
+  [
+   42.475,
+   43.76,
+   "That is luck."
+  ],
+  [
+   44.391,
+   45.675,
+   "The missing partner."
+  ],
+  [
+   45.675,
+   46.103,
+   "risk"
+  ],
+  [
+   46.735,
+   50.16,
+   "Kent Evans was Gates's best friend and\nclassmate"
+  ],
+  [
+   50.16,
+   51.872,
+   "in that same room."
+  ],
+  [
+   52.504,
+   55.928,
+   "He died in a mountaineering accident as a"
+  ],
+  [
+   55.928,
+   56.356,
+   "teenager."
+  ],
+  [
+   56.988,
+   58.272,
+   "Same unusual environment:"
+  ],
+  [
+   58.272,
+   59.984,
+   "one path to Microsoft,"
+  ],
+  [
+   59.984,
+   60.841,
+   "one funeral."
+  ],
+  [
+   60.841,
+   62.981,
+   "Luck and risk arrived together."
+  ],
+  [
+   63.481,
+   65.078,
+   "In two thousand six,"
+  ],
+  [
+   65.078,
+   68.273,
+   "Yahoo offered about one billion dollars to\nbuy"
+  ],
+  [
+   68.273,
+   68.672,
+   "Facebook."
+  ],
+  [
+   68.672,
+   70.27,
+   "Mark Zuckerberg said no."
+  ],
+  [
+   70.901,
+   72.898,
+   "Because Facebook later became enormous,"
+  ],
+  [
+   72.898,
+   75.294,
+   "the refusal is taught as genius."
+  ],
+  [
+   75.925,
+   77.523,
+   "If Facebook had stalled,"
+  ],
+  [
+   77.523,
+   80.717,
+   "the same no would be taught as arrogance."
+  ],
+  [
+   81.349,
+   84.544,
+   "Risk is what remains after you subtract\nluck"
+  ],
+  [
+   84.544,
+   86.141,
+   "from a good outcome."
+  ],
+  [
+   86.141,
+   89.336,
+   "Do not copy leverage from a winner's\nhighlight"
+  ],
+  [
+   89.336,
+   89.735,
+   "reel."
+  ],
+  [
+   90.235,
+   93.177,
+   "Do not assume a rich person is purely"
+  ],
+  [
+   93.177,
+   93.545,
+   "skilled,"
+  ],
+  [
+   93.545,
+   96.119,
+   "or a broke person is purely foolish."
+  ],
+  [
+   96.751,
+   98.957,
+   "Look at decisions under their control,"
+  ],
+  [
+   98.957,
+   100.061,
+   "then at timing,"
+  ],
+  [
+   100.061,
+   100.429,
+   "health,"
+  ],
+  [
+   100.429,
+   101.532,
+   "and one-off breaks."
+  ],
+  [
+   102.163,
+   103.267,
+   "The book's line:"
+  ],
+  [
+   103.267,
+   106.209,
+   "nothing is as good or as bad as"
+  ],
+  [
+   106.209,
+   106.944,
+   "it looks."
+  ],
+  [
+   107.576,
+   110.518,
+   "That humility stops you cloning someone\nelse's debt,"
+  ],
+  [
+   110.518,
+   113.46,
+   "and quitting a good process after one bad"
+  ],
+  [
+   113.46,
+   113.828,
+   "year."
+  ],
+  [
+   114.328,
+   117.348,
+   "Gates and Allen turned a rare high-school\ncomputer"
+  ],
+  [
+   117.348,
+   118.481,
+   "into a company."
+  ],
+  [
+   118.481,
+   121.501,
+   "That is skill plus a door that almost"
+  ],
+  [
+   121.501,
+   122.634,
+   "nobody else had."
+  ],
+  [
+   123.266,
+   126.286,
+   "Kent Evans sat at the same table and"
+  ],
+  [
+   126.286,
+   128.174,
+   "never got the second act."
+  ],
+  [
+   128.174,
+   129.684,
+   "Risk is luck's twin,"
+  ],
+  [
+   129.684,
+   130.817,
+   "not its opposite."
+  ],
+  [
+   131.448,
+   134.469,
+   "Be slower to praise winners as geniuses\nand"
+  ],
+  [
+   134.469,
+   136.734,
+   "slower to damn losers as fools."
+  ],
+  [
+   137.365,
+   140.386,
+   "Copying a winner's leverage copies their\nunseen risk,"
+  ],
+  [
+   140.386,
+   141.896,
+   "not just their return."
+  ],
+  [
+   142.396,
+   144.156,
+   "Bill Gates got a computer."
+  ],
+  [
+   144.156,
+   146.973,
+   "Kent Evans sat at the same table and"
+  ],
+  [
+   146.973,
+   149.085,
+   "did not get a second act."
+  ],
+  [
+   149.717,
+   152.533,
+   "Yahoo's Facebook offer is genius or\narrogance depending"
+  ],
+  [
+   152.533,
+   155.35,
+   "on a future nobody knew in two thousand"
+  ],
+  [
+   155.35,
+   155.702,
+   "six."
+  ],
+  [
+   156.334,
+   158.094,
+   "When you copy a winner,"
+  ],
+  [
+   158.094,
+   160.558,
+   "you may be copying an unseen accident,"
+  ],
+  [
+   160.558,
+   161.615,
+   "not a method."
+  ],
+  [
+   162.246,
+   163.654,
+   "The book's line again:"
+  ],
+  [
+   163.654,
+   166.471,
+   "nothing is as good or as bad as"
+  ],
+  [
+   166.471,
+   167.175,
+   "it looks."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch02.wav",
+   "volume": 1.0
+  }
+ }
+}

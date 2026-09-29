@@ -1,0 +1,157 @@
+{
+ "pack": "chalk",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Lean language",
+  "issue": "September 2026",
+  "code": "LEAN-4"
+ },
+ "beats": [
+  {
+   "id": "b15",
+   "kind": "divider",
+   "dur": 6.981,
+   "props": {
+    "n": 3,
+    "total": 3,
+    "title": "Prove an Agent",
+    "sub": "a tiny model of tool calls"
+   }
+  },
+  {
+   "id": "b16",
+   "kind": "statement",
+   "dur": 26.004,
+   "props": {
+    "kicker": "The story going around",
+    "lines": [
+     "Model the SDK.",
+     "State what must hold."
+    ],
+    "accent": 1,
+    "sub": "the kernel, not the chat, is the judge",
+    "ats": [
+     0.189,
+     0.258
+    ]
+   }
+  },
+  {
+   "id": "b17",
+   "kind": "flow",
+   "dur": 23.226,
+   "props": {
+    "kicker": "The loop we will model",
+    "title": "Message, call, result",
+    "steps": [
+     {
+      "h": "Message",
+      "d": "user asks"
+     },
+     {
+      "h": "Call",
+      "d": "id sits pending"
+     },
+     {
+      "h": "Result",
+      "d": "must match that id"
+     }
+    ],
+    "ats": [
+     0.115,
+     0.259,
+     0.592
+    ]
+   }
+  },
+  {
+   "id": "b18",
+   "kind": "list",
+   "dur": 24.82,
+   "props": {
+    "kicker": "What we ask Lean to prove",
+    "title": "Four invariants",
+    "items": [
+     {
+      "h": "Match",
+      "d": "every result has a pending call"
+     },
+     {
+      "h": "No ghosts",
+      "d": "no result for a never-called tool"
+     },
+     {
+      "h": "Drain",
+      "d": "pending empties before user text"
+     },
+     {
+      "h": "Shape",
+      "d": "roles and blocks stay legal"
+     }
+    ],
+    "ats": [
+     0.08,
+     0.261,
+     0.469,
+     0.649
+    ]
+   }
+  },
+  {
+   "id": "b19",
+   "kind": "flow",
+   "dur": 27.225,
+   "props": {
+    "kicker": "How you would write it",
+    "title": "Model, then prove",
+    "steps": [
+     {
+      "h": "State",
+      "d": "messages, pending"
+     },
+     {
+      "h": "Step",
+      "d": "call, result, reply"
+     },
+     {
+      "h": "Check",
+      "d": "kernel yes or no"
+     }
+    ],
+    "ats": [
+     0.084,
+     0.225,
+     0.505
+    ]
+   }
+  },
+  {
+   "id": "b20",
+   "kind": "versus",
+   "dur": 23.81,
+   "props": {
+    "kicker": "What this is not",
+    "title": "Tests still matter",
+    "winner": "right",
+    "left": {
+     "h": "Only tests",
+     "items": [
+      "fast, and local",
+      "miss odd sequences",
+      "silent on 'always'"
+     ]
+    },
+    "right": {
+     "h": "Model in Lean",
+     "items": [
+      "slow to write",
+      "covers every path",
+      "always, and means it"
+     ]
+    }
+   }
+  }
+ ],
+ "captions": [],
+ "audio": "ln4/ch03.wav"
+}

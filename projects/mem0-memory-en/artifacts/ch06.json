@@ -1,0 +1,501 @@
+{
+ "pack": "blueprint",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Mem0 memory",
+  "issue": "September 2026",
+  "code": "MEM-0"
+ },
+ "beats": [
+  {
+   "id": "b28",
+   "kind": "divider",
+   "dur": 8.035,
+   "props": {
+    "n": 6,
+    "total": 9,
+    "title": "Graph Memory",
+    "sub": "Mem0g: entities, relations, conflicts"
+   }
+  },
+  {
+   "id": "b29",
+   "kind": "x_graph",
+   "dur": 51.251,
+   "props": {
+    "kicker": "Mem0g",
+    "title": "Memory as a directed, labeled graph",
+    "nodes": [
+     {
+      "id": "riya",
+      "label": "Riya",
+      "type": "Person",
+      "x": 760,
+      "y": 520
+     },
+     {
+      "id": "pune",
+      "label": "Pune",
+      "type": "City",
+      "x": 330,
+      "y": 330
+     },
+     {
+      "id": "blr",
+      "label": "Bengaluru",
+      "type": "City",
+      "x": 1300,
+      "y": 330
+     },
+     {
+      "id": "cricket",
+      "label": "Cricket",
+      "type": "Sport",
+      "x": 330,
+      "y": 760
+     },
+     {
+      "id": "job",
+      "label": "Fintech startup",
+      "type": "Organization",
+      "x": 1300,
+      "y": 760
+     }
+    ],
+    "edges": [
+     {
+      "a": "riya",
+      "b": "pune",
+      "r": "lives_in",
+      "at": 0.3,
+      "invalid": 0.8
+     },
+     {
+      "a": "riya",
+      "b": "cricket",
+      "r": "loves",
+      "at": 0.34
+     },
+     {
+      "a": "riya",
+      "b": "job",
+      "r": "works_at",
+      "at": 0.55
+     },
+     {
+      "a": "riya",
+      "b": "blr",
+      "r": "lives_in",
+      "at": 0.68
+     }
+    ]
+   }
+  },
+  {
+   "id": "b30",
+   "kind": "x_diagram",
+   "dur": 30.857,
+   "props": {
+    "kicker": "Graph update",
+    "title": "Entity resolution for each new triplet",
+    "nodes": [
+     {
+      "id": "t",
+      "h": "New triplet",
+      "d": "(Riya, lives_in, Bengaluru)",
+      "x": 110,
+      "y": 440,
+      "w": 360
+     },
+     {
+      "id": "e",
+      "h": "Embed both ends",
+      "d": "source + destination",
+      "x": 540,
+      "y": 440,
+      "w": 320
+     },
+     {
+      "id": "s",
+      "h": "Similarity > t?",
+      "d": "search existing nodes",
+      "x": 930,
+      "y": 440,
+      "w": 320
+     },
+     {
+      "id": "r",
+      "h": "Reuse node",
+      "d": "already known",
+      "x": 1330,
+      "y": 280,
+      "w": 280
+     },
+     {
+      "id": "c",
+      "h": "Create node",
+      "d": "0, 1 or 2 new nodes",
+      "x": 1330,
+      "y": 600,
+      "w": 280
+     },
+     {
+      "id": "a",
+      "h": "Add edge",
+      "d": "with metadata",
+      "x": 1640,
+      "y": 440,
+      "w": 200
+     }
+    ],
+    "edges": [
+     [
+      "t",
+      "e"
+     ],
+     [
+      "e",
+      "s"
+     ],
+     [
+      "s",
+      "r"
+     ],
+     [
+      "s",
+      "c"
+     ],
+     [
+      "r",
+      "a"
+     ],
+     [
+      "c",
+      "a"
+     ]
+    ],
+    "ats": [
+     0.009,
+     0.094,
+     0.249,
+     0.425,
+     0.515,
+     0.717
+    ]
+   }
+  },
+  {
+   "id": "b31",
+   "kind": "versus",
+   "dur": 34.724,
+   "props": {
+    "kicker": "Graph retrieval",
+    "title": "Two strategies, run together",
+    "left": {
+     "h": "Entity-centric",
+     "items": [
+      "find entities in the query",
+      "match them to anchor nodes",
+      "walk incoming + outgoing edges",
+      "return the subgraph"
+     ]
+    },
+    "right": {
+     "h": "Semantic triplet",
+     "items": [
+      "embed the whole query",
+      "score every triplet's text",
+      "keep scores above a threshold",
+      "rank by similarity"
+     ]
+    }
+   }
+  },
+  {
+   "id": "b32",
+   "kind": "flow",
+   "dur": 30.663,
+   "props": {
+    "kicker": "Entity-centric retrieval, step by step",
+    "title": "Where does Riya work?",
+    "steps": [
+     {
+      "h": "Find entities",
+      "d": "\u201cRiya\u201d in the question"
+     },
+     {
+      "h": "Match node",
+      "d": "embedding similarity \u2192 Riya"
+     },
+     {
+      "h": "Walk edges",
+      "d": "lives_in, loves, works_at"
+     },
+     {
+      "h": "Filter",
+      "d": "skip invalidated edges"
+     },
+     {
+      "h": "Answer",
+      "d": "works_at \u2192 Fintech startup"
+     }
+    ],
+    "ats": [
+     0.153,
+     0.248,
+     0.381,
+     0.501,
+     0.688
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   4.019,
+   "Part six. The graph variant, Mem0g. Flat facts"
+  ],
+  [
+   4.019,
+   7.535,
+   "can't express how things relate. Graphs can."
+  ],
+  [
+   8.035,
+   11.627,
+   "Mem0g stores memory as a directed, labeled graph."
+  ],
+  [
+   12.259,
+   15.851,
+   "Nodes are entities: people, places, objects, events, each"
+  ],
+  [
+   15.851,
+   19.443,
+   "with a type, an embedding, and a creation"
+  ],
+  [
+   19.443,
+   19.892,
+   "time."
+  ],
+  [
+   20.523,
+   24.115,
+   "Edges are relationships, stored as triplets: source, relation,"
+  ],
+  [
+   24.115,
+   27.707,
+   "destination. Riya, lives in, Pune. Riya, loves, cricket."
+  ],
+  [
+   28.339,
+   31.931,
+   "Extraction happens in two LLM stages. An entity"
+  ],
+  [
+   31.931,
+   35.523,
+   "extractor finds the entities and their types. Then"
+  ],
+  [
+   35.523,
+   39.114,
+   "a relationship generator decides which pairs are connected,"
+  ],
+  [
+   39.114,
+   40.91,
+   "and labels the edge."
+  ],
+  [
+   41.542,
+   45.134,
+   "When Riya moves to Bengaluru, a conflict detector"
+  ],
+  [
+   45.134,
+   47.828,
+   "notices the old lives in edge."
+  ],
+  [
+   48.46,
+   52.051,
+   "It isn't deleted. It's marked invalid. So the"
+  ],
+  [
+   52.051,
+   55.643,
+   "graph still knows where she used to live,"
+  ],
+  [
+   55.643,
+   58.786,
+   "which is exactly what temporal questions need."
+  ],
+  [
+   59.286,
+   62.03,
+   "Integrating a new triplet is careful work."
+  ],
+  [
+   62.662,
+   65.798,
+   "Mem0g embeds the source and destination entities, and"
+  ],
+  [
+   65.798,
+   68.933,
+   "searches for existing nodes whose similarity is above"
+  ],
+  [
+   68.933,
+   70.109,
+   "a threshold t."
+  ],
+  [
+   70.741,
+   73.877,
+   "If a node already exists, it's reused. If"
+  ],
+  [
+   73.877,
+   77.013,
+   "not, a new node is created. That can"
+  ],
+  [
+   77.013,
+   79.756,
+   "mean zero, one, or two new nodes."
+  ],
+  [
+   80.388,
+   83.132,
+   "Then the edge is added, with metadata."
+  ],
+  [
+   83.763,
+   86.899,
+   "This is entity resolution: Bengaluru and Bangalore should"
+  ],
+  [
+   86.899,
+   89.643,
+   "end up as one node, not two."
+  ],
+  [
+   90.143,
+   92.613,
+   "Retrieval uses two strategies at once."
+  ],
+  [
+   93.245,
+   96.538,
+   "Entity-centric search finds the entities mentioned in the"
+  ],
+  [
+   96.538,
+   99.831,
+   "question, matches them to nodes, and walks their"
+  ],
+  [
+   99.831,
+   103.124,
+   "incoming and outgoing edges to build a small"
+  ],
+  [
+   103.124,
+   103.536,
+   "subgraph."
+  ],
+  [
+   104.168,
+   107.461,
+   "Semantic triplet search embeds the whole question, scores"
+  ],
+  [
+   107.461,
+   110.754,
+   "it against a text encoding of every triplet,"
+  ],
+  [
+   110.754,
+   113.636,
+   "and keeps those above a relevance threshold."
+  ],
+  [
+   114.267,
+   117.56,
+   "The first is precise for questions about a"
+  ],
+  [
+   117.56,
+   120.442,
+   "specific thing. The second catches broader questions."
+  ],
+  [
+   121.073,
+   124.367,
+   "In the paper, the graph lives in Neo4j."
+  ],
+  [
+   124.867,
+   127.867,
+   "Let's walk one question through the entity-centric path."
+  ],
+  [
+   127.867,
+   129.368,
+   "Where does Riya work?"
+  ],
+  [
+   129.999,
+   132.625,
+   "First, find entities in the question: Riya."
+  ],
+  [
+   133.256,
+   136.257,
+   "Match that name to a node, using embedding"
+  ],
+  [
+   136.257,
+   136.632,
+   "similarity."
+  ],
+  [
+   137.264,
+   140.264,
+   "Walk its edges: lives in, loves, works at."
+  ],
+  [
+   140.896,
+   143.896,
+   "Filter out edges that have been invalidated, so"
+  ],
+  [
+   143.896,
+   146.897,
+   "the old Pune address doesn't confuse the answer."
+  ],
+  [
+   147.528,
+   150.529,
+   "The works at edge leads to the fintech"
+  ],
+  [
+   150.529,
+   153.53,
+   "startup, and that small subgraph goes to the"
+  ],
+  [
+   153.53,
+   155.03,
+   "answering model as context."
+  ]
+ ],
+ "audio": "m0/ch06.wav"
+}

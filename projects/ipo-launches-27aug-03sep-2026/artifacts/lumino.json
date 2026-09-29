@@ -1,0 +1,289 @@
+{
+  "cuts": [
+    {
+      "id": "lumino_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 20.06,
+      "props": {
+        "title": "Lumino Industries IPO",
+        "sub": "Power T&D conductors & EPC · ₹700 Cr · 27–31 Aug 2026",
+        "kicker": "IPO ANALYSIS · MAINBOARD",
+        "dur": 20.56
+      }
+    },
+    {
+      "id": "lumino_biz",
+      "type": "sm_iconcards",
+      "in_seconds": 20.56,
+      "out_seconds": 59.962,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "Business Model",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "⚡",
+            "k": "Power T&D platform",
+            "v": "Manufactures conductors, power cables and electrical wires for transmission and distribution.",
+            "chip": "ENERGY"
+          },
+          {
+            "emoji": "🏗️",
+            "k": "EPC execution",
+            "v": "Also executes transmission lines, substations, rail electrification, solar and water projects.",
+            "chip": "EPC"
+          },
+          {
+            "emoji": "💹",
+            "k": "Strong value for the sector",
+            "v": "FY26 revenue ₹2,089 Cr with ₹160 Cr profit; priced around 12 times earnings, below its listed peers.",
+            "chip": "VALUE"
+          }
+        ],
+        "dur": 39.902
+      }
+    },
+    {
+      "id": "lumino_fin",
+      "type": "sm_stats",
+      "in_seconds": 60.462,
+      "out_seconds": 99.578,
+      "props": {
+        "kicker": "FINANCIAL QUALITY",
+        "title": "FY26 Financials",
+        "stats": [
+          {
+            "label": "Revenue",
+            "to": 2089.31,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "FY26 filing"
+          },
+          {
+            "label": "Profit after tax",
+            "to": 160.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "filing evidence"
+          },
+          {
+            "label": "PAT margin",
+            "to": 7.658030641695106,
+            "prefix": "",
+            "suffix": "%",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "reported FY26 margin"
+          }
+        ],
+        "note": "FY26 revenue ₹2,089.31 Cr (FY25 ₹1,946.68), PAT ₹160.00 Cr (FY25 ₹124.59); priced about 12 times FY26 earnings at the ₹82 cap.",
+        "dur": 39.616
+      }
+    },
+    {
+      "id": "lumino_issue",
+      "type": "sm_stats",
+      "in_seconds": 100.078,
+      "out_seconds": 120.452,
+      "props": {
+        "kicker": "OFFER STRUCTURE",
+        "title": "Fresh Issue vs OFS",
+        "stats": [
+          {
+            "label": "Total offer",
+            "to": 700.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "offer size"
+          },
+          {
+            "label": "Fresh — company receives",
+            "to": 500.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "new capital"
+          },
+          {
+            "label": "OFS — sellers receive",
+            "to": 200.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FB7185",
+            "sub": "shareholder exit"
+          }
+        ],
+        "note": "Fresh funds enter the company. Offer-for-sale proceeds go to selling shareholders.",
+        "dur": 20.874
+      }
+    },
+    {
+      "id": "lumino_proceeds",
+      "type": "sm_iconcards",
+      "in_seconds": 120.952,
+      "out_seconds": 151.522,
+      "props": {
+        "kicker": "USE OF PROCEEDS",
+        "title": "What The Capital Funds",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "🏦",
+            "k": "₹337 Cr debt repayment",
+            "v": "The largest fresh-issue use is repaying outstanding borrowings.",
+            "chip": "RHP"
+          },
+          {
+            "emoji": "⚙️",
+            "k": "₹15.01 Cr capex",
+            "v": "Equipment and machinery to add capacity.",
+            "chip": "RHP"
+          },
+          {
+            "emoji": "👥",
+            "k": "₹200 Cr offer for sale",
+            "v": "Almost a third of the deal goes to selling shareholders, not the company.",
+            "chip": "OFS"
+          }
+        ],
+        "dur": 31.07
+      }
+    },
+    {
+      "id": "lumino_peers",
+      "type": "sm_peers",
+      "in_seconds": 152.022,
+      "out_seconds": 166.876,
+      "props": {
+        "kicker": "COMPETITORS · VALUATION",
+        "title": "Peer Comparison",
+        "color": "#FBBF24",
+        "rows": [
+          {
+            "name": "Lumino IPO",
+            "pe": 12.1,
+            "note": "₹82 cap / FY26 earnings",
+            "hi": true
+          },
+          {
+            "name": "KEC International",
+            "pe": 19.81,
+            "note": "T&D EPC peer",
+            "hi": false
+          },
+          {
+            "name": "KEI Industries",
+            "pe": 58.79,
+            "note": "cables peer",
+            "hi": false
+          },
+          {
+            "name": "Apar Industries",
+            "pe": 68.98,
+            "note": "conductors peer",
+            "hi": false
+          }
+        ],
+        "verdict": "At about 12 times earnings, Lumino is priced well below its listed transmission and cable peers — but those peers are larger and more diversified.",
+        "dur": 15.354
+      }
+    },
+    {
+      "id": "lumino_verdict",
+      "type": "sm_myths",
+      "in_seconds": 167.376,
+      "out_seconds": 208.17,
+      "props": {
+        "kicker": "CONSOLIDATED ANALYSIS",
+        "title": "Strengths vs Watch-outs",
+        "mythLabel": "⚠️ WATCH-OUTS",
+        "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+        "pairs": [
+          {
+            "m": "The sector is competitive and capital-intensive",
+            "f": "Priced about 12x, below listed T&D and cable peers"
+          },
+          {
+            "m": "₹200 Cr of the deal is an offer for sale",
+            "f": "FY26 revenue ₹2,089 Cr and PAT ₹160 Cr, growing"
+          },
+          {
+            "m": "Order-book quality needs RHP confirmation",
+            "f": "₹337 Cr of fresh money reduces debt"
+          }
+        ],
+        "dur": 41.294
+      }
+    },
+    {
+      "id": "lumino_retail",
+      "type": "sm_iconcards",
+      "in_seconds": 208.67,
+      "out_seconds": 239.936,
+      "props": {
+        "kicker": "HOW TO APPLY",
+        "title": "Check Terms Before You Bid",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "🧑",
+            "k": "Retail cap",
+            "v": "Retail bids up to ₹2 lakh; allocation can be lottery-based when oversubscribed.",
+            "chip": "RII"
+          },
+          {
+            "emoji": "💰",
+            "k": "Minimum bid",
+            "v": "₹14,924 (182 shares × ₹82)",
+            "chip": "MIN BID"
+          },
+          {
+            "emoji": "📌",
+            "k": "MAINBOARD",
+            "v": "Mainboard retail bids run up to two lakh rupees; allotment can be a lottery when oversubscribed.",
+            "chip": "MAINBOARD"
+          },
+          {
+            "emoji": "🔎",
+            "k": "Verify live",
+            "v": "Read the final RHP and the NSE or BSE subscription data before bidding.",
+            "chip": "SOURCES"
+          }
+        ],
+        "dur": 31.766
+      }
+    },
+    {
+      "id": "lumino_recap",
+      "type": "sm_recap",
+      "in_seconds": 240.436,
+      "out_seconds": 303.066,
+      "props": {
+        "title": "Lumino Industries IPO — Evidence Recap",
+        "items": [
+          "FY26: revenue ₹2,089 Cr · PAT ₹160.00 Cr",
+          "Offer: ₹700.00 Cr · fresh ₹500.00 Cr · OFS ₹200.00 Cr",
+          "Competitor lens: At about 12 times earnings, Lumino is priced well below its listed transmission and cable peers — but those peers are larger and more diversified.",
+          "Evidence: RHP-based reporting: IPOWatch, Business Standard, Chittorgarh, IPOJi (FY26 financials, peer set, objects)."
+        ],
+        "closer": "Read the final RHP. Decide for yourself.",
+        "dur": 63.13
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/lumino.wav",
+      "volume": 1.0
+    }
+  }
+}

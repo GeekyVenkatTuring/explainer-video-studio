@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch12_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 45.004,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "foundation",
+        "dur": 45.503
+      }
+    },
+    {
+      "id": "ch12_system",
+      "type": "aae_chapter",
+      "in_seconds": 45.504,
+      "out_seconds": 83.165,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "system",
+        "dur": 38.161
+      }
+    },
+    {
+      "id": "ch12_practice",
+      "type": "aae_chapter",
+      "in_seconds": 83.665,
+      "out_seconds": 130.106,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "practice",
+        "dur": 46.941
+      }
+    },
+    {
+      "id": "ch12_failure",
+      "type": "aae_chapter",
+      "in_seconds": 130.606,
+      "out_seconds": 169.163,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "failure",
+        "dur": 39.056
+      }
+    },
+    {
+      "id": "ch12_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 169.663,
+      "out_seconds": 212.771,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "evaluation",
+        "dur": 43.608
+      }
+    },
+    {
+      "id": "ch12_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 213.271,
+      "out_seconds": 250.459,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "handoff",
+        "dur": 37.688
+      }
+    },
+    {
+      "id": "ch12_application",
+      "type": "aae_chapter",
+      "in_seconds": 250.959,
+      "out_seconds": 299.027,
+      "props": {
+        "chapter": 12,
+        "title": "Agentic Orchestration Engineering",
+        "focus": "coordinating specialist steps while preserving handoffs, state, and control",
+        "concepts": [
+          "workflow graph",
+          "specialist roles",
+          "recovery paths"
+        ],
+        "example": "a planner delegating research and synthesis with a final verifier",
+        "trap": "a swarm without ownership",
+        "takeaway": "Coordinating specialist steps while preserving handoffs, state, and control.",
+        "beat": "application",
+        "dur": 48.568
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch12.wav",
+      "volume": 1
+    }
+  }
+}

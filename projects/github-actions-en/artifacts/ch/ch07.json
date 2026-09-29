@@ -1,0 +1,484 @@
+{
+ "cuts": [
+  {
+   "id": "d07",
+   "type": "gha_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 8.221,
+   "props": {
+    "n": 7,
+    "title": "Deploying with Actions",
+    "sub": "from green check to production",
+    "color": "#3FB950",
+    "total": 10,
+    "dur": 8.221
+   }
+  },
+  {
+   "id": "p07",
+   "type": "gha_pipeline",
+   "in_seconds": 8.221,
+   "out_seconds": 45.28,
+   "props": {
+    "dur": 37.059
+   }
+  },
+  {
+   "id": "p07b",
+   "type": "gha_concurrency",
+   "in_seconds": 45.28,
+   "out_seconds": 77.819,
+   "props": {
+    "dur": 32.539
+   }
+  },
+  {
+   "id": "p07c",
+   "type": "gha_oidc",
+   "in_seconds": 77.819,
+   "out_seconds": 118.496,
+   "props": {
+    "dur": 40.677
+   }
+  },
+  {
+   "id": "p07e",
+   "type": "gha_yaml",
+   "in_seconds": 118.496,
+   "out_seconds": 160.002,
+   "props": {
+    "kicker": "PUTTING IT TOGETHER",
+    "title": "One file: test, approve, deploy",
+    "file": ".github/workflows/deliver.yml",
+    "lines": [
+     "on:",
+     "  push: { branches: [main] }",
+     "permissions: { contents: read, id-token: write }",
+     "concurrency: { group: production }",
+     "jobs:",
+     "  test:",
+     "    uses: ./.github/workflows/ci.yml",
+     "  deploy:",
+     "    needs: test",
+     "    runs-on: ubuntu-latest",
+     "    environment: production",
+     "    steps:",
+     "      - uses: actions/checkout@v4",
+     "      - uses: aws-actions/configure-aws-credentials@v4",
+     "        with: { role-to-assume: ${{ vars.DEPLOY_ROLE }} }",
+     "      - run: ./deploy.sh"
+    ],
+    "notes": [
+     {
+      "a": 0,
+      "b": 1,
+      "at": 0.1,
+      "c": "#F2A93B",
+      "t": "trigger: every push to main"
+     },
+     {
+      "a": 2,
+      "b": 3,
+      "at": 0.2,
+      "c": "#F85149",
+      "t": "read-only + OIDC \u00b7 one production deploy at a time"
+     },
+     {
+      "a": 5,
+      "b": 6,
+      "at": 0.4,
+      "c": "#BC8CFF",
+      "t": "test = our reusable CI workflow"
+     },
+     {
+      "a": 7,
+      "b": 10,
+      "at": 0.5,
+      "c": "#3FB950",
+      "t": "deploy waits for test \u00b7 protected environment \u2192 reviewers"
+     },
+     {
+      "a": 11,
+      "b": 15,
+      "at": 0.66,
+      "c": "#58A6FF",
+      "t": "OIDC login to AWS \u2014 no stored keys \u2014 then ship"
+     }
+    ],
+    "dur": 41.506
+   }
+  },
+  {
+   "id": "p07d",
+   "type": "gha_bullets",
+   "in_seconds": 160.002,
+   "out_seconds": 192.21,
+   "props": {
+    "kicker": "SHIP MORE THAN SERVERS",
+    "title": "What else a workflow can publish",
+    "color": "#3FB950",
+    "items": [
+     {
+      "i": "\ud83c\udff7\ufe0f",
+      "k": "GitHub Releases",
+      "d": "Push a tag \u2192 release notes + binaries attached"
+     },
+     {
+      "i": "\ud83d\udce6",
+      "k": "Container images",
+      "d": "Build & push to GitHub Container Registry (GHCR)"
+     },
+     {
+      "i": "\ud83e\udde9",
+      "k": "Packages",
+      "d": "Publish to npm, PyPI, Maven \u2014 or GitHub Packages"
+     },
+     {
+      "i": "\ud83c\udf10",
+      "k": "GitHub Pages",
+      "d": "Build a docs site and deploy it on every merge"
+     },
+     {
+      "i": "\ud83d\udd0f",
+      "k": "Attestations",
+      "d": "Signed proof of which workflow + commit built this file"
+     }
+    ],
+    "dur": 32.208
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.182,
+   "Part seven. Deployment."
+  ],
+  [
+   1.813,
+   5.358,
+   "CI proves the code works. CD puts it in"
+  ],
+  [
+   5.358,
+   7.721,
+   "front of users. Let's ship safely."
+  ],
+  [
+   8.221,
+   11.8,
+   "Here's a classic pipeline. Build, test, deploy to\nstaging,"
+  ],
+  [
+   11.8,
+   12.595,
+   "then production."
+  ],
+  [
+   13.227,
+   16.805,
+   "Each deploy job targets an environment. Environments\nare named"
+  ],
+  [
+   16.805,
+   20.384,
+   "targets, with their own secrets and their own rules."
+  ],
+  [
+   21.015,
+   24.594,
+   "Production has required reviewers. The run pauses\nhere, and"
+  ],
+  [
+   24.594,
+   26.98,
+   "waits for a human to approve."
+  ],
+  [
+   27.612,
+   31.19,
+   "You can also add a wait timer, and restrict"
+  ],
+  [
+   31.19,
+   32.781,
+   "which branches may deploy."
+  ],
+  [
+   33.412,
+   36.991,
+   "Once approved, the job continues, and GitHub records\nthe"
+  ],
+  [
+   36.991,
+   40.172,
+   "deployment, with a link to the live site."
+  ],
+  [
+   40.804,
+   44.382,
+   "Automation does the work. A human keeps the final"
+  ],
+  [
+   44.382,
+   44.78,
+   "say."
+  ],
+  [
+   45.28,
+   48.642,
+   "What if two pushes land a minute apart? Two"
+  ],
+  [
+   48.642,
+   50.51,
+   "deploys could race each other."
+  ],
+  [
+   51.142,
+   54.504,
+   "The concurrency key fixes this. Runs that share a"
+  ],
+  [
+   54.504,
+   57.493,
+   "group name never run at the same time."
+  ],
+  [
+   58.124,
+   61.486,
+   "Add cancel in progress, and a newer run cancels"
+  ],
+  [
+   61.486,
+   62.607,
+   "the older one."
+  ],
+  [
+   63.239,
+   66.601,
+   "Watch: four pushes arrive. Without concurrency, four\ndeploys overlap."
+  ],
+  [
+   66.601,
+   69.216,
+   "With it, only the latest one finishes."
+  ],
+  [
+   69.847,
+   73.21,
+   "For pull requests, use the branch name as the"
+  ],
+  [
+   73.21,
+   76.572,
+   "group. Every new push cancels the stale run, and"
+  ],
+  [
+   76.572,
+   77.319,
+   "saves minutes."
+  ],
+  [
+   77.819,
+   81.219,
+   "To deploy to a cloud, your workflow needs\ncredentials."
+  ],
+  [
+   81.219,
+   84.618,
+   "The old way was to paste a long-lived cloud"
+  ],
+  [
+   84.618,
+   85.752,
+   "key into secrets."
+  ],
+  [
+   86.383,
+   89.783,
+   "If that key leaks, it works for anyone, for"
+  ],
+  [
+   89.783,
+   90.161,
+   "months."
+  ],
+  [
+   90.792,
+   93.814,
+   "The modern way is OpenID Connect, or OIDC."
+  ],
+  [
+   94.446,
+   97.846,
+   "The job asks GitHub for a signed token that"
+  ],
+  [
+   97.846,
+   101.245,
+   "says: I am this repo, on this branch, in"
+  ],
+  [
+   101.245,
+   102.001,
+   "this environment."
+  ],
+  [
+   102.632,
+   106.032,
+   "AWS, Azure or Google Cloud checks that token against"
+  ],
+  [
+   106.032,
+   109.432,
+   "a trust policy you wrote, and hands back credentials"
+  ],
+  [
+   109.432,
+   111.32,
+   "that expire within the hour."
+  ],
+  [
+   111.952,
+   115.352,
+   "No stored cloud keys at all. To allow it,"
+  ],
+  [
+   115.352,
+   117.996,
+   "give the job the id-token write permission."
+  ],
+  [
+   118.496,
+   122.059,
+   "Let's put the last few chapters together in one"
+  ],
+  [
+   122.059,
+   122.455,
+   "file."
+  ],
+  [
+   123.087,
+   125.858,
+   "It triggers on every push to main."
+  ],
+  [
+   126.49,
+   130.053,
+   "Permissions are read-only, plus id-token write for\nOIDC. And"
+  ],
+  [
+   130.053,
+   133.616,
+   "the concurrency group means only one production\ndeploy runs"
+  ],
+  [
+   133.616,
+   134.804,
+   "at a time."
+  ],
+  [
+   135.436,
+   138.999,
+   "The test job simply calls our reusable CI workflow."
+  ],
+  [
+   139.631,
+   143.194,
+   "Deploy needs test, and targets the production\nenvironment \u2014"
+  ],
+  [
+   143.194,
+   145.569,
+   "so the required reviewers must approve."
+  ],
+  [
+   146.201,
+   149.764,
+   "Then it checks out the code, logs in to"
+  ],
+  [
+   149.764,
+   153.328,
+   "AWS through OIDC with no stored keys, and runs"
+  ],
+  [
+   153.328,
+   154.515,
+   "the deploy script."
+  ],
+  [
+   155.147,
+   158.71,
+   "Sixteen lines, and nearly every idea so far is"
+  ],
+  [
+   158.71,
+   159.502,
+   "in there."
+  ],
+  [
+   160.002,
+   161.525,
+   "Deployment isn't just servers."
+  ],
+  [
+   162.156,
+   165.582,
+   "Actions can publish a GitHub release, with notes and"
+  ],
+  [
+   165.582,
+   167.866,
+   "binaries, whenever you push a tag."
+  ],
+  [
+   168.498,
+   171.924,
+   "It can build container images and push them to"
+  ],
+  [
+   171.924,
+   173.447,
+   "the GitHub Container Registry."
+  ],
+  [
+   174.078,
+   177.504,
+   "It can publish packages to npm, PyPI or Maven."
+  ],
+  [
+   178.136,
+   181.562,
+   "It can build a docs site and deploy it"
+  ],
+  [
+   181.562,
+   182.704,
+   "to GitHub Pages."
+  ],
+  [
+   183.335,
+   186.761,
+   "And it can sign what it builds with artifact"
+  ],
+  [
+   186.761,
+   190.187,
+   "attestations \u2014 proof of exactly which workflow, from\nwhich"
+  ],
+  [
+   190.187,
+   191.71,
+   "commit, produced this file."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch07.wav",
+   "volume": 1.0
+  }
+ }
+}

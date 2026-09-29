@@ -1,0 +1,8 @@
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/b13.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/_g.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/b14.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/_g.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/b15.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/_g.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/b16.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/mem0-memory-en/assets/raw/_g.wav'

@@ -1,0 +1,210 @@
+{
+ "cuts": [
+  {
+   "id": "b12",
+   "type": "dta_vwap",
+   "in_seconds": 0,
+   "out_seconds": 52.564,
+   "props": {
+    "dur": 53.064
+   }
+  },
+  {
+   "id": "b13",
+   "type": "dta_making",
+   "in_seconds": 53.064,
+   "out_seconds": 101.43,
+   "props": {
+    "dur": 48.866
+   }
+  }
+ ],
+ "captions": [
+  [
+   0,
+   3.288,
+   "V W A P means volume-weighted average price."
+  ],
+  [
+   3.919,
+   7.618,
+   "It is an execution benchmark, not automatically a\ndirectional"
+  ],
+  [
+   7.618,
+   8.029,
+   "bet."
+  ],
+  [
+   8.66,
+   12.359,
+   "A large parent order can be divided into child"
+  ],
+  [
+   12.359,
+   12.77,
+   "orders."
+  ],
+  [
+   13.402,
+   17.1,
+   "T W A P spaces those slices through time."
+  ],
+  [
+   17.732,
+   21.431,
+   "A V W A P schedule responds to traded"
+  ],
+  [
+   21.431,
+   21.841,
+   "volume."
+  ],
+  [
+   22.473,
+   26.172,
+   "The goal is to reduce impact and compare fills"
+  ],
+  [
+   26.172,
+   26.583,
+   "fairly."
+  ],
+  [
+   27.214,
+   29.68,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   30.312,
+   34.01,
+   "Poor volume forecasts, information leakage, missed\nfills, and market"
+  ],
+  [
+   34.01,
+   36.476,
+   "impact can still make execution expensive."
+  ],
+  [
+   37.108,
+   38.34,
+   "This distinction matters."
+  ],
+  [
+   38.972,
+   42.671,
+   "A V W A P algorithm can help execute"
+  ],
+  [
+   42.671,
+   43.904,
+   "an investment decision."
+  ],
+  [
+   44.535,
+   48.234,
+   "It does not answer whether the investment decision\nwas"
+  ],
+  [
+   48.234,
+   48.645,
+   "good."
+  ],
+  [
+   49.276,
+   52.564,
+   "Execution quality and market direction are different\nproblems."
+  ],
+  [
+   53.064,
+   56.238,
+   "Market makers quote a bid and an ask."
+  ],
+  [
+   56.869,
+   60.439,
+   "They can earn spread when both sides trade, while"
+  ],
+  [
+   60.439,
+   61.233,
+   "controlling inventory."
+  ],
+  [
+   61.864,
+   65.435,
+   "Their danger is adverse selection: informed flow can\ntrade"
+  ],
+  [
+   65.435,
+   67.022,
+   "against a stale quote."
+  ],
+  [
+   67.653,
+   71.223,
+   "Arbitrage instead compares related prices, such as\ncash and"
+  ],
+  [
+   71.223,
+   71.62,
+   "futures."
+  ],
+  [
+   72.252,
+   75.822,
+   "It buys one and sells the other only if"
+  ],
+  [
+   75.822,
+   78.599,
+   "the spread survives every cost and constraint."
+  ],
+  [
+   79.231,
+   82.801,
+   "Legging, funding, limits, taxes, and execution can\nerase an"
+  ],
+  [
+   82.801,
+   83.594,
+   "apparent spread."
+  ],
+  [
+   84.226,
+   86.606,
+   "Small theoretical profits attract fast competition."
+  ],
+  [
+   87.238,
+   90.014,
+   "Both families sound mechanical because they are."
+  ],
+  [
+   90.646,
+   92.63,
+   "But neither removes market risk."
+  ],
+  [
+   93.261,
+   96.038,
+   "A spread is only useful after costs."
+  ],
+  [
+   96.67,
+   100.24,
+   "A quote is only useful while information has not"
+  ],
+  [
+   100.24,
+   101.43,
+   "moved past it."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "dta/ch05.wav",
+   "volume": 1.0
+  }
+ }
+}

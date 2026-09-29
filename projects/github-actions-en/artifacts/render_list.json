@@ -1,0 +1,68 @@
+[
+ {
+  "ch": 0,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch00.json",
+  "seconds": 130.41,
+  "title": "Intro"
+ },
+ {
+  "ch": 1,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch01.json",
+  "seconds": 118.16,
+  "title": "The Big Picture"
+ },
+ {
+  "ch": 2,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch02.json",
+  "seconds": 160.04,
+  "title": "Anatomy of a Workflow"
+ },
+ {
+  "ch": 3,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch03.json",
+  "seconds": 158.57,
+  "title": "Triggers & Events"
+ },
+ {
+  "ch": 4,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch04.json",
+  "seconds": 228.82,
+  "title": "Runners & Jobs"
+ },
+ {
+  "ch": 5,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch05.json",
+  "seconds": 150.02,
+  "title": "Actions: Building Blocks"
+ },
+ {
+  "ch": 6,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch06.json",
+  "seconds": 213.5,
+  "title": "Data, Secrets & Caching"
+ },
+ {
+  "ch": 7,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch07.json",
+  "seconds": 191.71,
+  "title": "Deploying with Actions"
+ },
+ {
+  "ch": 8,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch08.json",
+  "seconds": 163.8,
+  "title": "Security"
+ },
+ {
+  "ch": 9,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch09.json",
+  "seconds": 204.23,
+  "title": "Cost, Speed & Debugging"
+ },
+ {
+  "ch": 10,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/github-actions-en/artifacts/ch/ch10.json",
+  "seconds": 324.83,
+  "title": "Beyond Actions: The Rest of GitHub"
+ }
+]

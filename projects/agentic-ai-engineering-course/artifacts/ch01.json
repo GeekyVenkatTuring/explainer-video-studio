@@ -1,0 +1,169 @@
+{
+  "cuts": [
+    {
+      "id": "part1",
+      "type": "aae_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 6.12,
+      "props": {
+        "part": 1,
+        "title": "Foundations",
+        "focus": "Orient the discipline, runtime, security, and visibility.",
+        "dur": 6.62
+      }
+    },
+    {
+      "id": "ch01_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 6.62,
+      "out_seconds": 53.912,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "foundation",
+        "dur": 47.792
+      }
+    },
+    {
+      "id": "ch01_system",
+      "type": "aae_chapter",
+      "in_seconds": 54.412,
+      "out_seconds": 94.1,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "system",
+        "dur": 40.188
+      }
+    },
+    {
+      "id": "ch01_practice",
+      "type": "aae_chapter",
+      "in_seconds": 94.6,
+      "out_seconds": 140.585,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "practice",
+        "dur": 46.485
+      }
+    },
+    {
+      "id": "ch01_failure",
+      "type": "aae_chapter",
+      "in_seconds": 141.085,
+      "out_seconds": 179.43,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "failure",
+        "dur": 38.845
+      }
+    },
+    {
+      "id": "ch01_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 179.93,
+      "out_seconds": 223.96,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "evaluation",
+        "dur": 44.529
+      }
+    },
+    {
+      "id": "ch01_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 224.46,
+      "out_seconds": 262.016,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "handoff",
+        "dur": 38.056
+      }
+    },
+    {
+      "id": "ch01_application",
+      "type": "aae_chapter",
+      "in_seconds": 262.516,
+      "out_seconds": 312.268,
+      "props": {
+        "chapter": 1,
+        "title": "Agentic Engineering Orientation",
+        "focus": "why an agent is a probabilistic system with consequences, not a chatbot",
+        "concepts": [
+          "define an accountable outcome",
+          "separate capability from authority",
+          "make failure visible"
+        ],
+        "example": "a claims agent that may draft but not submit a payment",
+        "trap": "demo-first thinking",
+        "takeaway": "Why an agent is a probabilistic system with consequences, not a chatbot.",
+        "beat": "application",
+        "dur": 50.252
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch01.wav",
+      "volume": 1
+    }
+  }
+}

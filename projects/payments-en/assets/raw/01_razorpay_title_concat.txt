@@ -1,0 +1,3 @@
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/01_razorpay_title_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/01_razorpay_title_c1.wav'

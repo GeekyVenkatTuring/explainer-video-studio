@@ -1,0 +1,257 @@
+{
+ "cuts": [
+  {
+   "id": "d05",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 11.757,
+   "props": {
+    "n": 5,
+    "title": "The Small-Cap Hunter",
+    "sub": "Ashish Kacholia \u2014 fifty tiny bets",
+    "color": "#38BDF8",
+    "total": 14,
+    "dur": 12.257
+   }
+  },
+  {
+   "id": "w05",
+   "type": "mw_investor",
+   "in_seconds": 12.257,
+   "out_seconds": 77.747,
+   "props": {
+    "idx": 4,
+    "total": 8,
+    "color": "#38BDF8",
+    "name": "Ashish Kacholia",
+    "tag": "THE SMALL-CAP HUNTER",
+    "worth": 3274,
+    "worthUnit": "cr",
+    "stocks": 48,
+    "asOf": "Jun 2026",
+    "holdings": [
+     {
+      "nm": "Shaily Engineering",
+      "v": "\u20b9709 cr"
+     },
+     {
+      "nm": "Beta Drugs",
+      "v": "\u20b9278 cr"
+     },
+     {
+      "nm": "Knowledge Marine Engg",
+      "v": "\u20b9165 cr"
+     },
+     {
+      "nm": "Safa Systems",
+      "v": ""
+     },
+     {
+      "nm": "MAN Industries",
+      "v": ""
+     }
+    ],
+    "strategy": "Cast a wide net of small-cap bets, do brutal homework, and let two or three winners carry the pack.",
+    "playbook": [
+     "~48 disclosed small-caps \u2014 diversified, VC-style position sizing",
+     "Book jumped ~47% Q/Q: \u20b92,229 cr (Mar) \u2192 \u20b93,274 cr (Jun-2026)",
+     "Early, not loud \u2014 names most people have never heard of"
+    ],
+    "move": "\u20b92,229 cr (Mar) \u2192 \u20b93,274 cr (Jun-2026) disclosed \u00b7 +~47%",
+    "steep": 2.1,
+    "foot": "Disclosed shareholding (BSE/NSE filings, aggregator) \u00b7 Jun-2026; below-1% stakes not captured \u00b7 not advice",
+    "dur": 65.99
+   }
+  },
+  {
+   "id": "c52",
+   "type": "mw_statement",
+   "in_seconds": 78.247,
+   "out_seconds": 102.142,
+   "props": {
+    "kicker": "CONCENTRATE OR DIVERSIFY?",
+    "color": "#38BDF8",
+    "lines": [
+     "Damani owns one stock.",
+     "Kacholia owns fifty.",
+     "Both are right."
+    ],
+    "sub": "The common factor isn't the count \u2014 it's the discipline behind each pick.",
+    "dur": 24.395
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.06,
+   "Chapter five. The small-cap hunter."
+  ],
+  [
+   2.692,
+   6.4,
+   "Not every winner concentrates. Our next investor\ndoes the"
+  ],
+  [
+   6.4,
+   10.109,
+   "opposite \u2014 dozens of small, careful bets, letting\nthe"
+  ],
+  [
+   10.109,
+   11.757,
+   "winners carry the pack."
+  ],
+  [
+   12.257,
+   15.897,
+   "Ashish Kacholia is one of India's most respected\nsmall-cap"
+  ],
+  [
+   15.897,
+   16.301,
+   "specialists."
+  ],
+  [
+   16.933,
+   20.573,
+   "His disclosed portfolio spans roughly forty-eight\ncompanies \u2014 a"
+  ],
+  [
+   20.573,
+   24.213,
+   "deliberately wide net across engineering, pharma,\nand niche manufacturing."
+  ],
+  [
+   24.844,
+   28.484,
+   "And it worked, hard, this year: his disclosed book"
+  ],
+  [
+   28.484,
+   32.124,
+   "jumped about forty-seven percent in a single quarter\n\u2014"
+  ],
+  [
+   32.124,
+   35.764,
+   "from around two thousand two hundred crore in March"
+  ],
+  [
+   35.764,
+   39.404,
+   "to over three thousand two hundred crore by June."
+  ],
+  [
+   40.035,
+   43.675,
+   "His largest bet, Shaily Engineering Plastics, is\nworth over"
+  ],
+  [
+   43.675,
+   44.888,
+   "seven hundred crore."
+  ],
+  [
+   45.52,
+   49.16,
+   "The philosophy is simple to say and brutally hard"
+  ],
+  [
+   49.16,
+   49.969,
+   "to do."
+  ],
+  [
+   50.6,
+   54.24,
+   "Find small companies before the crowd. Do the\nhomework"
+  ],
+  [
+   54.24,
+   57.88,
+   "nobody else will. Size each position so a single"
+  ],
+  [
+   57.88,
+   59.498,
+   "mistake can't sink you."
+  ],
+  [
+   60.129,
+   63.769,
+   "Then let the two or three that truly work"
+  ],
+  [
+   63.769,
+   66.6,
+   "compound into the bulk of your returns."
+  ],
+  [
+   67.232,
+   70.872,
+   "It's the venture-capital mindset, applied to listed\nsmall-caps \u2014"
+  ],
+  [
+   70.872,
+   74.512,
+   "and you've never heard of most of his names."
+  ],
+  [
+   74.512,
+   77.747,
+   "That's exactly the point. He's early, not loud."
+  ],
+  [
+   78.247,
+   79.504,
+   "Here's something important."
+  ],
+  [
+   80.136,
+   83.907,
+   "Damani won by owning essentially one stock. Kacholia\nwon"
+  ],
+  [
+   83.907,
+   85.582,
+   "by owning nearly fifty."
+  ],
+  [
+   86.214,
+   87.89,
+   "So which is correct?"
+  ],
+  [
+   88.522,
+   88.941,
+   "Both."
+  ],
+  [
+   89.572,
+   93.343,
+   "Concentration and diversification are just two\nhonest answers to"
+  ],
+  [
+   93.343,
+   97.114,
+   "risk. What they share is the discipline behind every"
+  ],
+  [
+   97.114,
+   100.885,
+   "single position \u2014 and the patience to hold it."
+  ],
+  [
+   100.885,
+   102.142,
+   "That's the constant."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch05.wav",
+   "volume": 1.0
+  }
+ }
+}

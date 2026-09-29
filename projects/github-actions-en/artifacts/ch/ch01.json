@@ -1,0 +1,277 @@
+{
+ "cuts": [
+  {
+   "id": "d01",
+   "type": "gha_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 6.869,
+   "props": {
+    "n": 1,
+    "title": "The Big Picture",
+    "sub": "CI/CD \u2014 and where Actions fits",
+    "color": "#58A6FF",
+    "total": 10,
+    "dur": 6.869
+   }
+  },
+  {
+   "id": "c01",
+   "type": "gha_cicd",
+   "in_seconds": 6.869,
+   "out_seconds": 46.8,
+   "props": {
+    "dur": 39.931
+   }
+  },
+  {
+   "id": "c01b",
+   "type": "gha_compare",
+   "in_seconds": 46.8,
+   "out_seconds": 81.832,
+   "props": {
+    "kicker": "WHY ACTIONS?",
+    "title": "A separate CI server vs. Actions",
+    "left": {
+     "h": "Traditional CI server",
+     "icon": "\ud83d\udda5\ufe0f",
+     "c": "#F85149",
+     "items": [
+      "A server you host, patch and back up",
+      "Webhooks wired to each repo",
+      "Mostly reacts to code pushes",
+      "Plugins installed server-side"
+     ]
+    },
+    "right": {
+     "h": "GitHub Actions",
+     "icon": "\u26a1",
+     "c": "#3FB950",
+     "items": [
+      "Lives inside GitHub, next to your code",
+      "Built in \u2014 nothing to wire up",
+      "Reacts to dozens of GitHub events",
+      "Thousands of reusable actions"
+     ]
+    },
+    "dur": 35.032
+   }
+  },
+  {
+   "id": "c01c",
+   "type": "gha_hierarchy",
+   "in_seconds": 81.832,
+   "out_seconds": 118.656,
+   "props": {
+    "dur": 36.824
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.049,
+   "Part one. The big picture."
+  ],
+  [
+   2.681,
+   6.369,
+   "Before any YAML, let's understand the problem\nActions solves."
+  ],
+  [
+   6.869,
+   9.092,
+   "Two ideas sit underneath everything."
+  ],
+  [
+   9.724,
+   13.725,
+   "First, continuous integration, or CI. Everyone\nmerges small changes"
+  ],
+  [
+   13.725,
+   17.727,
+   "often, and every merge is automatically built and\ntested."
+  ],
+  [
+   17.727,
+   20.395,
+   "Problems surface in minutes, not weeks."
+  ],
+  [
+   21.027,
+   25.028,
+   "Second, continuous delivery, or CD. Once a change\npasses,"
+  ],
+  [
+   25.028,
+   29.03,
+   "it's automatically packaged and shipped \u2014 to\nstaging, then"
+  ],
+  [
+   29.03,
+   29.919,
+   "to production."
+  ],
+  [
+   30.551,
+   34.553,
+   "Together they form a loop. Code, build, test,\nrelease,"
+  ],
+  [
+   34.553,
+   37.665,
+   "deploy, monitor \u2014 and back to code."
+  ],
+  [
+   38.297,
+   42.298,
+   "The faster that loop spins, the faster a team"
+  ],
+  [
+   42.298,
+   46.3,
+   "learns. GitHub Actions is the engine that spins it."
+  ],
+  [
+   46.8,
+   50.229,
+   "There are other tools for this \u2014 Jenkins, CircleCI,"
+  ],
+  [
+   50.229,
+   52.134,
+   "GitLab CI. So why Actions?"
+  ],
+  [
+   52.766,
+   56.195,
+   "The big difference is where it lives. Actions runs"
+  ],
+  [
+   56.195,
+   59.624,
+   "inside GitHub, right next to your code, your pull"
+  ],
+  [
+   59.624,
+   61.148,
+   "requests and your issues."
+  ],
+  [
+   61.78,
+   65.209,
+   "No separate server to patch. No webhooks to wire"
+  ],
+  [
+   65.209,
+   65.59,
+   "up."
+  ],
+  [
+   66.222,
+   69.651,
+   "And it's not just for CI. Actions reacts to"
+  ],
+  [
+   69.651,
+   73.08,
+   "almost any event on GitHub \u2014 a new issue,"
+  ],
+  [
+   73.08,
+   75.366,
+   "a comment, a release, a schedule."
+  ],
+  [
+   75.998,
+   79.427,
+   "So it's really a general automation platform that\nhappens"
+  ],
+  [
+   79.427,
+   81.332,
+   "to be great at CI/CD."
+  ],
+  [
+   81.832,
+   84.947,
+   "Now the mental model. Five words, and everything\nelse"
+  ],
+  [
+   84.947,
+   85.985,
+   "hangs off them."
+  ],
+  [
+   86.617,
+   89.732,
+   "An event is something that happens \u2014 like a"
+  ],
+  [
+   89.732,
+   90.078,
+   "push."
+  ],
+  [
+   90.71,
+   93.825,
+   "The event triggers a workflow: a YAML file in"
+  ],
+  [
+   93.825,
+   94.517,
+   "your repository."
+  ],
+  [
+   95.148,
+   97.571,
+   "A workflow contains one or more jobs."
+  ],
+  [
+   98.203,
+   101.318,
+   "Each job runs on a runner \u2014 a fresh"
+  ],
+  [
+   101.318,
+   102.01,
+   "virtual machine."
+  ],
+  [
+   102.642,
+   105.757,
+   "And each job is a list of steps, run"
+  ],
+  [
+   105.757,
+   108.872,
+   "in order. A step either runs a shell command,"
+  ],
+  [
+   108.872,
+   110.602,
+   "or uses a prebuilt action."
+  ],
+  [
+   111.234,
+   114.349,
+   "Event, workflow, job, runner, step. Hold on to that"
+  ],
+  [
+   114.349,
+   117.464,
+   "chain. Every chapter from here zooms into one link"
+  ],
+  [
+   117.464,
+   118.156,
+   "of it."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch01.wav",
+   "volume": 1.0
+  }
+ }
+}

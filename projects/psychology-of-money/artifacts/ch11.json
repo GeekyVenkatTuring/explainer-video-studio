@@ -1,0 +1,442 @@
+{
+ "cuts": [
+  {
+   "id": "ch11_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 14.437,
+   "props": {
+    "n": 11,
+    "total": 20,
+    "title": "Reasonable",
+    "lines": [
+     "Aim to be reasonable, not coldly rational. You have to stick with the plan.",
+     "A technically perfect strategy you abandon is worse than a good one you love."
+    ],
+    "color": "#A78BFA",
+    "dur": 14.937
+   }
+  },
+  {
+   "id": "ch11_odds",
+   "type": "pm_sheet",
+   "in_seconds": 14.937,
+   "out_seconds": 44.006,
+   "props": {
+    "kicker": "STAYING IN THE GAME",
+    "title": "U.S. market odds as the book prints them",
+    "rows": [
+     {
+      "k": "One day",
+      "v": "Historical odds of making money in U.S. markets: about 50/50 over one-day periods.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "One year",
+      "v": "About 68% in one-year periods.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Ten years",
+      "v": "About 88% in ten-year periods.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Twenty years",
+      "v": "So far, 100% in twenty-year periods \u2014 anything that keeps you invested has a quantifiable edge.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Love the plan",
+      "v": "Do what you love is not a fortune cookie here. It is endurance through lean years.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 29.569
+   }
+  },
+  {
+   "id": "ch11_reasonable-more",
+   "type": "pm_sheet",
+   "in_seconds": 44.506,
+   "out_seconds": 73.967,
+   "props": {
+    "kicker": "WHY REASONABLE WINS",
+    "title": "A plan you will not abandon",
+    "rows": [
+     {
+      "k": "50/50 days",
+      "v": "One-day U.S. market odds about 50/50. A rational robot still has to live through the red days.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "68 / 88 / 100",
+      "v": "About 68% of one-year periods, 88% of ten-year, 100% of twenty-year so far \u2014 if you stayed.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Love",
+      "v": "Loving a slightly imperfect strategy is how you capture those long-horizon odds.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Cold rational",
+      "v": "A spreadsheet-perfect mix you dump at minus 30% is not rational. It is unused.",
+      "c": "#F87171"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 29.961
+   }
+  },
+  {
+   "id": "ch11_reasonable-do",
+   "type": "pm_list",
+   "in_seconds": 74.467,
+   "out_seconds": 91.38,
+   "props": {
+    "kicker": "REASONABLE \u00b7 RULES",
+    "title": "Optimise for sleep and stickiness",
+    "items": [
+     "Pick an asset mix you can explain to yourself on a bad Tuesday.",
+     "Home bias, a paid-off house, extra cash \u2014 if they keep you invested, they can be reasonable.",
+     "The edge is not brilliance. The edge is still being there in year twenty."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 17.413
+   }
+  },
+  {
+   "id": "ch11_sleep",
+   "type": "pm_sheet",
+   "in_seconds": 91.88,
+   "out_seconds": 123.71,
+   "props": {
+    "kicker": "REASONABLE CASH IS NOT A BUG",
+    "title": "A plan you will not dump",
+    "rows": [
+     {
+      "k": "Perfect mix",
+      "v": "A spreadsheet can tell you to stay fully invested. A human has to sleep through minus thirty percent.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Cash drag",
+      "v": "Extra cash looks irrational until it is the reason you did not sell the rest.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "House",
+      "v": "A paid-off house can be a drag on paper and still be the reasonable glue for a family.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Home bias",
+      "v": "Owning more of what you understand can be reasonable if it keeps you from panic.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Score",
+      "v": "The score is still being there in year twenty, not winning year one's efficiency contest.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 32.33
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.85,
+   "Chapter 11."
+  ],
+  [
+   0.85,
+   1.275,
+   "Reasonable."
+  ],
+  [
+   1.906,
+   3.606,
+   "Aim to be reasonable,"
+  ],
+  [
+   3.606,
+   4.881,
+   "not coldly rational."
+  ],
+  [
+   4.881,
+   7.856,
+   "You have to stick with the plan."
+  ],
+  [
+   8.488,
+   11.887,
+   "A technically perfect strategy you abandon\nis worse"
+  ],
+  [
+   11.887,
+   14.437,
+   "than a good one you love."
+  ],
+  [
+   14.937,
+   18.14,
+   "Historical odds of making money in U.S."
+  ],
+  [
+   18.14,
+   18.598,
+   "markets:"
+  ],
+  [
+   18.598,
+   20.886,
+   "about fifty-fifty over one-day periods."
+  ],
+  [
+   21.518,
+   24.264,
+   "About sixty-eight percent in one-year\nperiods."
+  ],
+  [
+   24.895,
+   27.641,
+   "About eighty-eight percent in ten-year\nperiods."
+  ],
+  [
+   28.273,
+   29.188,
+   "So far,"
+  ],
+  [
+   29.188,
+   31.934,
+   "one hundred percent in twenty-year\nperiods."
+  ],
+  [
+   31.934,
+   35.595,
+   "Anything that keeps you invested has a\nquantifiable"
+  ],
+  [
+   35.595,
+   36.052,
+   "edge."
+  ],
+  [
+   36.684,
+   40.345,
+   "Do what you love is not a fortune"
+  ],
+  [
+   40.345,
+   41.26,
+   "cookie here."
+  ],
+  [
+   41.26,
+   44.006,
+   "It is endurance through lean years."
+  ],
+  [
+   44.506,
+   45.354,
+   "One-day U.S."
+  ],
+  [
+   45.354,
+   47.475,
+   "market odds are about fifty-fifty."
+  ],
+  [
+   47.475,
+   50.867,
+   "A rational robot still has to live through"
+  ],
+  [
+   50.867,
+   52.14,
+   "the red days."
+  ],
+  [
+   52.771,
+   55.316,
+   "About sixty-eight percent of one-year\nperiods,"
+  ],
+  [
+   55.316,
+   57.012,
+   "eighty-eight percent of ten-year,"
+  ],
+  [
+   57.012,
+   59.981,
+   "one hundred percent of twenty-year so far,"
+  ],
+  [
+   59.981,
+   61.253,
+   "if you stayed."
+  ],
+  [
+   61.885,
+   65.278,
+   "Loving a slightly imperfect strategy is\nhow you"
+  ],
+  [
+   65.278,
+   66.974,
+   "capture those long-horizon odds."
+  ],
+  [
+   67.606,
+   70.998,
+   "A spreadsheet-perfect mix you dump at\nminus thirty"
+  ],
+  [
+   70.998,
+   72.695,
+   "percent is not rational."
+  ],
+  [
+   72.695,
+   73.967,
+   "It is unused."
+  ],
+  [
+   74.467,
+   77.379,
+   "Pick an asset mix you can explain to"
+  ],
+  [
+   77.379,
+   79.198,
+   "yourself on a bad Tuesday."
+  ],
+  [
+   79.83,
+   80.558,
+   "Home bias,"
+  ],
+  [
+   80.558,
+   81.65,
+   "a paid-off house,"
+  ],
+  [
+   81.65,
+   82.378,
+   "extra cash:"
+  ],
+  [
+   82.378,
+   84.197,
+   "if they keep you invested,"
+  ],
+  [
+   84.197,
+   85.653,
+   "they can be reasonable."
+  ],
+  [
+   86.285,
+   88.104,
+   "The edge is not brilliance."
+  ],
+  [
+   88.104,
+   91.016,
+   "The edge is still being there in year"
+  ],
+  [
+   91.016,
+   91.38,
+   "twenty."
+  ],
+  [
+   91.88,
+   94.774,
+   "A spreadsheet can tell you to stay fully"
+  ],
+  [
+   94.774,
+   95.136,
+   "invested."
+  ],
+  [
+   95.136,
+   98.03,
+   "A human has to sleep through minus thirty"
+  ],
+  [
+   98.03,
+   98.392,
+   "percent."
+  ],
+  [
+   99.024,
+   101.918,
+   "Extra cash looks irrational until it is\nthe"
+  ],
+  [
+   101.918,
+   104.45,
+   "reason you did not sell the rest."
+  ],
+  [
+   105.082,
+   107.976,
+   "A paid-off house can be a drag on"
+  ],
+  [
+   107.976,
+   110.87,
+   "paper and still be the reasonable glue for"
+  ],
+  [
+   110.87,
+   111.594,
+   "a family."
+  ],
+  [
+   112.225,
+   115.119,
+   "Owning more of what you understand can be"
+  ],
+  [
+   115.119,
+   117.652,
+   "reasonable if it keeps you from panic."
+  ],
+  [
+   118.283,
+   121.178,
+   "The score is still being there in year"
+  ],
+  [
+   121.178,
+   121.539,
+   "twenty,"
+  ],
+  [
+   121.539,
+   123.71,
+   "not winning year one's efficiency contest."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch11.wav",
+   "volume": 1.0
+  }
+ }
+}

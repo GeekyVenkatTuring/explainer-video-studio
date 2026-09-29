@@ -1,0 +1,3 @@
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets_adept/raw/s03_div1_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets_adept/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets_adept/raw/s03_div1_c1.wav'

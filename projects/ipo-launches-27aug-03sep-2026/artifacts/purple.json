@@ -1,0 +1,277 @@
+{
+  "cuts": [
+    {
+      "id": "purple_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 19.94,
+      "props": {
+        "title": "Purple Style Labs IPO",
+        "sub": "Luxury-fashion platform · ₹680 Cr · 31 Aug–2 Sep 2026",
+        "kicker": "IPO ANALYSIS · MAINBOARD · LOSS-MAKING",
+        "dur": 20.44
+      }
+    },
+    {
+      "id": "purple_biz",
+      "type": "sm_iconcards",
+      "in_seconds": 20.44,
+      "out_seconds": 61.138,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "Business Model",
+        "color": "#A78BFA",
+        "items": [
+          {
+            "emoji": "🛍️",
+            "k": "Luxury-fashion platform",
+            "v": "Owns Pernia's Pop-Up Shop and related luxury and designer retail across online and offline.",
+            "chip": "LUXURY"
+          },
+          {
+            "emoji": "📊",
+            "k": "Growth with losses",
+            "v": "FY26 revenue ₹557.8 Cr grew about 14%, but the net loss widened to ₹285.3 Cr.",
+            "chip": "BURN"
+          },
+          {
+            "emoji": "⚠️",
+            "k": "Unit-economics test",
+            "v": "At a ₹4,603 Cr valuation on loss-making sales, the path to profit in the filing is the key read.",
+            "chip": "KEY LENS"
+          }
+        ],
+        "dur": 41.198
+      }
+    },
+    {
+      "id": "purple_fin",
+      "type": "sm_stats",
+      "in_seconds": 61.638,
+      "out_seconds": 97.778,
+      "props": {
+        "kicker": "FINANCIAL QUALITY",
+        "title": "FY26 Financials",
+        "stats": [
+          {
+            "label": "Revenue",
+            "to": 557.8,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "FY26 filing"
+          },
+          {
+            "label": "Net loss",
+            "to": 285.3,
+            "prefix": "−₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FB7185",
+            "sub": "filing evidence"
+          },
+          {
+            "label": "PAT margin",
+            "to": 51.14736464682682,
+            "prefix": "−",
+            "suffix": "%",
+            "decimals": 2,
+            "color": "#FB7185",
+            "sub": "net loss FY26"
+          }
+        ],
+        "note": "FY26 revenue ₹557.8 Cr (up about 14%), but the net loss WIDENED to ₹285.3 Cr from ₹188.3 Cr; EBITDA was ₹30.37 Cr.",
+        "dur": 36.64
+      }
+    },
+    {
+      "id": "purple_issue",
+      "type": "sm_stats",
+      "in_seconds": 98.278,
+      "out_seconds": 112.58,
+      "props": {
+        "kicker": "OFFER STRUCTURE",
+        "title": "Fresh Issue vs OFS",
+        "stats": [
+          {
+            "label": "Total offer",
+            "to": 680.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#A78BFA",
+            "sub": "offer size"
+          },
+          {
+            "label": "Fresh — company receives",
+            "to": 680.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "new capital"
+          },
+          {
+            "label": "OFS — sellers receive",
+            "to": 0.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FB7185",
+            "sub": "none — 100% fresh"
+          }
+        ],
+        "note": "Fresh funds enter the company. Offer-for-sale proceeds go to selling shareholders.",
+        "dur": 14.802
+      }
+    },
+    {
+      "id": "purple_proceeds",
+      "type": "sm_iconcards",
+      "in_seconds": 113.08,
+      "out_seconds": 142.858,
+      "props": {
+        "kicker": "USE OF PROCEEDS",
+        "title": "What The Capital Funds",
+        "color": "#A78BFA",
+        "items": [
+          {
+            "emoji": "🛒",
+            "k": "Working capital & inventory",
+            "v": "Fresh proceeds fund inventory, technology and store and marketplace growth.",
+            "chip": "GROWTH"
+          },
+          {
+            "emoji": "🧰",
+            "k": "General corporate purposes",
+            "v": "The balance is for general corporate purposes per the RHP.",
+            "chip": "GCP"
+          },
+          {
+            "emoji": "⚠️",
+            "k": "Funding the losses",
+            "v": "With losses widening, watch how long fresh capital sustains the current burn.",
+            "chip": "KEY LENS"
+          }
+        ],
+        "dur": 30.278
+      }
+    },
+    {
+      "id": "purple_peers",
+      "type": "sm_peers",
+      "in_seconds": 143.358,
+      "out_seconds": 162.676,
+      "props": {
+        "kicker": "COMPETITORS · VALUATION",
+        "title": "Peer Comparison",
+        "color": "#A78BFA",
+        "rows": [
+          {
+            "name": "Purple Style Labs IPO",
+            "pe": null,
+            "note": "loss-making; about 8.3x FY26 sales",
+            "hi": true
+          },
+          {
+            "name": "No clean listed peer",
+            "pe": null,
+            "note": "judge on price-to-sales, not P/E",
+            "hi": false
+          }
+        ],
+        "verdict": "With no profit there is no P/E: at a ₹4,603 Cr valuation on ₹557.8 Cr of sales it is priced around 8.3 times sales while losses widened.",
+        "dur": 19.818
+      }
+    },
+    {
+      "id": "purple_verdict",
+      "type": "sm_myths",
+      "in_seconds": 163.176,
+      "out_seconds": 204.954,
+      "props": {
+        "kicker": "CONSOLIDATED ANALYSIS",
+        "title": "Strengths vs Watch-outs",
+        "mythLabel": "⚠️ WATCH-OUTS",
+        "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+        "pairs": [
+          {
+            "m": "The net loss WIDENED to ₹285 Cr in FY26",
+            "f": "Revenue grew about 14% to ₹557.8 Cr"
+          },
+          {
+            "m": "A ₹4,603 Cr valuation on loss-making sales",
+            "f": "A distinctive luxury-fashion positioning"
+          },
+          {
+            "m": "No profit means no P/E, only about 8.3x sales",
+            "f": "100% fresh capital, no promoter exit"
+          }
+        ],
+        "dur": 42.278
+      }
+    },
+    {
+      "id": "purple_retail",
+      "type": "sm_iconcards",
+      "in_seconds": 205.454,
+      "out_seconds": 236.72,
+      "props": {
+        "kicker": "HOW TO APPLY",
+        "title": "Check Terms Before You Bid",
+        "color": "#A78BFA",
+        "items": [
+          {
+            "emoji": "🧑",
+            "k": "Retail cap",
+            "v": "Retail bids up to ₹2 lakh; allocation can be lottery-based when oversubscribed.",
+            "chip": "RII"
+          },
+          {
+            "emoji": "💰",
+            "k": "Minimum bid",
+            "v": "₹14,950 (26 shares × ₹575)",
+            "chip": "MIN BID"
+          },
+          {
+            "emoji": "📌",
+            "k": "MAINBOARD",
+            "v": "Mainboard retail bids run up to two lakh rupees; allotment can be a lottery when oversubscribed.",
+            "chip": "MAINBOARD"
+          },
+          {
+            "emoji": "🔎",
+            "k": "Verify live",
+            "v": "Read the final RHP and the NSE or BSE subscription data before bidding.",
+            "chip": "SOURCES"
+          }
+        ],
+        "dur": 31.766
+      }
+    },
+    {
+      "id": "purple_recap",
+      "type": "sm_recap",
+      "in_seconds": 237.22,
+      "out_seconds": 305.442,
+      "props": {
+        "title": "Purple Style Labs IPO — Evidence Recap",
+        "items": [
+          "FY26: revenue ₹557.80 Cr · net loss ₹285.30 Cr",
+          "Offer: ₹680.00 Cr · 100% fresh",
+          "Competitor lens: With no profit there is no P/E: at a ₹4,603 Cr valuation on ₹557.8 Cr of sales it is priced around 8.3 times sales while losses widened.",
+          "Evidence: RHP/DRHP-based reporting: Business Standard, BusinessToday, Free Press Journal, Kotak Neo (FY26 financials, valuation, terms)."
+        ],
+        "closer": "Read the final RHP. Decide for yourself.",
+        "dur": 68.722
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/purple.wav",
+      "volume": 1.0
+    }
+  }
+}

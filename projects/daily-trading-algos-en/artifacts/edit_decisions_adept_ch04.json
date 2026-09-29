@@ -1,0 +1,243 @@
+{
+ "cuts": [
+  {
+   "id": "s12_div3",
+   "type": "da_div",
+   "in_seconds": 0.0,
+   "out_seconds": 8.934,
+   "props": {
+    "n": 3,
+    "title": "The India Reality",
+    "sub": "The rulebook, and the honest numbers",
+    "color": "#FBBF24",
+    "dur": 9.534
+   }
+  },
+  {
+   "id": "s13_sebi",
+   "type": "da_sebi",
+   "in_seconds": 9.534,
+   "out_seconds": 61.49,
+   "props": {
+    "dur": 52.556
+   }
+  },
+  {
+   "id": "s14_costs",
+   "type": "da_costs",
+   "in_seconds": 62.09,
+   "out_seconds": 123.271,
+   "props": {
+    "dur": 61.781
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.684,
+   "Part three."
+  ],
+  [
+   1.39,
+   2.416,
+   "The India reality."
+  ],
+  [
+   3.122,
+   6.199,
+   "A bot doesn't run in a vacuum \u2014 it"
+  ],
+  [
+   6.199,
+   8.934,
+   "runs inside a broker and an exchange rulebook."
+  ],
+  [
+   9.534,
+   12.993,
+   "Think of a driving licence and a number plate"
+  ],
+  [
+   12.993,
+   14.53,
+   "\u2014 for your bot."
+  ],
+  [
+   15.237,
+   18.695,
+   "The rulebook has dates, a speed cap, an identity,"
+  ],
+  [
+   18.695,
+   19.464,
+   "and controls."
+  ],
+  [
+   20.171,
+   23.629,
+   "Here are the pieces. S E B I issued"
+  ],
+  [
+   23.629,
+   27.088,
+   "the framework on the fourth of February twenty\ntwenty-five,"
+  ],
+  [
+   27.088,
+   30.547,
+   "and it applies to all brokers from the first"
+  ],
+  [
+   30.547,
+   32.084,
+   "of April twenty twenty-six."
+  ],
+  [
+   32.791,
+   36.25,
+   "The example threshold: at or below ten orders per"
+  ],
+  [
+   36.25,
+   39.708,
+   "second, an A P I algo gets a generic"
+  ],
+  [
+   39.708,
+   43.167,
+   "Algo I D; above it, the algo must be"
+  ],
+  [
+   43.167,
+   46.626,
+   "registered. Access needs a static I P and two-factor"
+  ],
+  [
+   46.626,
+   47.01,
+   "login."
+  ],
+  [
+   47.717,
+   51.176,
+   "Plainly, every bot must be identified, rate-limited,\nand supervised"
+  ],
+  [
+   51.176,
+   53.482,
+   "\u2014 the broker is the principal."
+  ],
+  [
+   54.188,
+   57.647,
+   "Technically, that's the S E B I retail-algo\nframework,"
+  ],
+  [
+   57.647,
+   61.106,
+   "with an exchange kill switch and a five-year audit"
+  ],
+  [
+   61.106,
+   61.49,
+   "trail."
+  ],
+  [
+   62.09,
+   65.194,
+   "Now the part that decides everything: costs."
+  ],
+  [
+   65.901,
+   69.892,
+   "Every trade leaks a little, like a slightly leaky"
+  ],
+  [
+   69.892,
+   70.335,
+   "bucket."
+  ],
+  [
+   71.042,
+   75.033,
+   "On the chart, gross returns fall into smaller net"
+  ],
+  [
+   75.033,
+   77.25,
+   "returns as trading picks up."
+  ],
+  [
+   77.956,
+   81.948,
+   "For example: securities-transaction tax of zero\npoint zero five"
+  ],
+  [
+   81.948,
+   85.939,
+   "percent on futures, zero point one five percent on"
+  ],
+  [
+   85.939,
+   89.93,
+   "options, plus about twenty rupees a broker order and"
+  ],
+  [
+   89.93,
+   93.921,
+   "eighteen percent G S T \u2014 that's a Zerodha"
+  ],
+  [
+   93.921,
+   95.694,
+   "example, not every broker."
+  ],
+  [
+   96.401,
+   100.392,
+   "Plainly, automation is not an edge; costs decide\nwhether"
+  ],
+  [
+   100.392,
+   102.166,
+   "high turnover can survive."
+  ],
+  [
+   102.872,
+   106.863,
+   "The sobering technical fact: a S E B I"
+  ],
+  [
+   106.863,
+   110.854,
+   "study found ninety-three percent of over one crore\nindividual"
+  ],
+  [
+   110.854,
+   114.845,
+   "futures-and-options traders lost money across\nfinancial years twenty twenty-two"
+  ],
+  [
+   114.845,
+   118.837,
+   "to twenty-four \u2014 losses above one point eight lakh"
+  ],
+  [
+   118.837,
+   122.828,
+   "crore rupees. That's F and O traders, not algo"
+  ],
+  [
+   122.828,
+   123.271,
+   "users."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "da/ch04.wav",
+   "volume": 1.0
+  }
+ }
+}

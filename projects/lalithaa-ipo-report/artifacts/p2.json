@@ -1,0 +1,135 @@
+{
+  "cuts": [
+    {
+      "id": "s12_div3",
+      "type": "lj_div",
+      "in_seconds": 0.0,
+      "out_seconds": 7.039,
+      "props": {
+        "n": 3,
+        "title": "The offer",
+        "sub": "Fresh vs OFS \u00b7 proceeds \u00b7 then the price arrived",
+        "color": "#38BDF8",
+        "dur": 7.539
+      }
+    },
+    {
+      "id": "s13_ofs",
+      "type": "lj_ofs",
+      "in_seconds": 7.539,
+      "out_seconds": 37.267,
+      "props": {
+        "dur": 30.228
+      }
+    },
+    {
+      "id": "s14_proceeds",
+      "type": "lj_proceeds",
+      "in_seconds": 37.767,
+      "out_seconds": 69.674,
+      "props": {
+        "dur": 32.407
+      }
+    },
+    {
+      "id": "s15_priced",
+      "type": "lj_priced",
+      "in_seconds": 70.174,
+      "out_seconds": 110.233,
+      "props": {
+        "dur": 40.559
+      }
+    },
+    {
+      "id": "s16_div4",
+      "type": "lj_div",
+      "in_seconds": 110.733,
+      "out_seconds": 117.771,
+      "props": {
+        "n": 4,
+        "title": "Risks",
+        "sub": "Control \u00b7 GST \u00b7 gold and competition",
+        "color": "#F87171",
+        "dur": 7.538
+      }
+    },
+    {
+      "id": "s17_gov",
+      "type": "lj_gov",
+      "in_seconds": 118.271,
+      "out_seconds": 149.822,
+      "props": {
+        "dur": 32.051
+      }
+    },
+    {
+      "id": "s18_gst",
+      "type": "lj_gst",
+      "in_seconds": 150.322,
+      "out_seconds": 179.52,
+      "props": {
+        "dur": 29.698
+      }
+    },
+    {
+      "id": "s19_sector",
+      "type": "lj_sector",
+      "in_seconds": 180.02,
+      "out_seconds": 209.826,
+      "props": {
+        "dur": 30.306
+      }
+    },
+    {
+      "id": "s20_live",
+      "type": "lj_live",
+      "in_seconds": 210.326,
+      "out_seconds": 258.472,
+      "props": {
+        "dur": 48.646
+      }
+    },
+    {
+      "id": "s21_score",
+      "type": "lj_score",
+      "in_seconds": 258.972,
+      "out_seconds": 290.542,
+      "props": {
+        "dur": 32.07
+      }
+    },
+    {
+      "id": "s22_decide",
+      "type": "lj_decide",
+      "in_seconds": 291.042,
+      "out_seconds": 326.558,
+      "props": {
+        "dur": 36.016
+      }
+    },
+    {
+      "id": "s23_recap",
+      "type": "lj_recap",
+      "in_seconds": 327.058,
+      "out_seconds": 364.022,
+      "props": {
+        "items": [
+          "DRHP numbers in the report check out against the filing",
+          "Wait meant: no price band, so no valuation \u2014 not a forever avoid",
+          "Growth 43.62% CAGR; PAT margin only 2.14%; FY24 OCF was negative",
+          "Fresh \u20b91,200 Cr vs OFS \u20b9500 Cr; live band \u20b9190\u2013201, post P/E 11.14\u00d7",
+          "Promoter 97.72%; GST demand \u20b91,066.38 mn pending; GMP unofficial",
+          "Demand is live and provisional \u2014 re-check NSE; this is not advice"
+        ],
+        "closer": "A scaled southern jeweller, now priced \u2014 with cash, debt and legal caveats still on the table.",
+        "dur": 37.464
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "lj/narration_p2.wav",
+      "volume": 1.0
+    }
+  }
+}

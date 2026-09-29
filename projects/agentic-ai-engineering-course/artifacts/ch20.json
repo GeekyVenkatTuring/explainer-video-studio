@@ -1,0 +1,169 @@
+{
+  "cuts": [
+    {
+      "id": "part5",
+      "type": "aae_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 6.777,
+      "props": {
+        "part": 5,
+        "title": "Organizational Scale",
+        "focus": "Lifecycle, product, teams, maturity, and transformation.",
+        "dur": 7.277
+      }
+    },
+    {
+      "id": "ch20_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 7.277,
+      "out_seconds": 53.437,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "foundation",
+        "dur": 46.661
+      }
+    },
+    {
+      "id": "ch20_system",
+      "type": "aae_chapter",
+      "in_seconds": 53.937,
+      "out_seconds": 92.915,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "system",
+        "dur": 39.477
+      }
+    },
+    {
+      "id": "ch20_practice",
+      "type": "aae_chapter",
+      "in_seconds": 93.415,
+      "out_seconds": 140.068,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "practice",
+        "dur": 47.153
+      }
+    },
+    {
+      "id": "ch20_failure",
+      "type": "aae_chapter",
+      "in_seconds": 140.568,
+      "out_seconds": 180.492,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "failure",
+        "dur": 40.424
+      }
+    },
+    {
+      "id": "ch20_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 180.992,
+      "out_seconds": 225.258,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "evaluation",
+        "dur": 44.766
+      }
+    },
+    {
+      "id": "ch20_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 225.758,
+      "out_seconds": 262.998,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "handoff",
+        "dur": 37.74
+      }
+    },
+    {
+      "id": "ch20_application",
+      "type": "aae_chapter",
+      "in_seconds": 263.498,
+      "out_seconds": 312.649,
+      "props": {
+        "chapter": 20,
+        "title": "Agentic System Development Lifecycle",
+        "focus": "extending product delivery from requirements through operations and retirement",
+        "concepts": [
+          "risk-aware discovery",
+          "continuous evaluation",
+          "change governance"
+        ],
+        "example": "a lifecycle that versions prompts, tools, tests, and policies together",
+        "trap": "treating prompts as unversioned configuration",
+        "takeaway": "Extending product delivery from requirements through operations and retirement.",
+        "beat": "application",
+        "dur": 49.651
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch20.wav",
+      "volume": 1
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+ "cuts": [
+  {
+   "id": "d04",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 18.156,
+   "props": {
+    "n": 4,
+    "title": "The Big Bull's Legacy",
+    "sub": "Rekha Jhunjhunwala \u2014 carrying Rakesh's book",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 18.656
+   }
+  },
+  {
+   "id": "w04",
+   "type": "mw_investor",
+   "in_seconds": 18.656,
+   "out_seconds": 83.786,
+   "props": {
+    "idx": 3,
+    "total": 8,
+    "color": "#FBBF24",
+    "name": "Rekha Jhunjhunwala",
+    "tag": "THE BIG BULL'S LEGACY",
+    "worth": 46982,
+    "worthUnit": "cr",
+    "stocks": 26,
+    "asOf": "21 Jul 2026",
+    "holdings": [
+     {
+      "nm": "Titan Company",
+      "pct": "5.3%"
+     },
+     {
+      "nm": "Tata Motors",
+      "pct": ""
+     },
+     {
+      "nm": "Indian Hotels (Taj)",
+      "pct": ""
+     },
+     {
+      "nm": "Metro Brands",
+      "pct": ""
+     },
+     {
+      "nm": "Canara Bank / others",
+      "pct": ""
+     }
+    ],
+    "strategy": "Carry a concentrated, high-conviction book for decades \u2014 and prune ruthlessly when a thesis breaks.",
+    "playbook": [
+     "Book rose ~\u20b97,756 cr in the Jun-2026 quarter \u2014 beating a flat market",
+     "Titan is still the engine: a 5.3% stake worth ~\u20b922,100 cr",
+     "Cut a loser hard: Star Health slashed from 15.6% to 3.0%"
+    ],
+    "move": "\u20b939,226 cr (31 Mar) \u2192 \u20b946,982 cr (21 Jul 2026) \u00b7 +~\u20b97,756 cr",
+    "steep": 1.5,
+    "foot": "Portfolio value per Business Standard / disclosed filings \u00b7 21-Jul-2026 \u00b7 not investment advice",
+    "dur": 65.63
+   }
+  },
+  {
+   "id": "c42",
+   "type": "mw_statement",
+   "in_seconds": 84.286,
+   "out_seconds": 101.078,
+   "props": {
+    "kicker": "THE PATTERN SO FAR",
+    "color": "#FBBF24",
+    "lines": [
+     "Three winners.",
+     "Three fortunes.",
+     "Zero day-trading."
+    ],
+    "sub": "Every one of them owns businesses \u2014 and waits.",
+    "dur": 17.292
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.534,
+   "Chapter four. The Big Bull's legacy."
+  ],
+  [
+   3.166,
+   6.966,
+   "India's most famous investor, Rakesh Jhunjhunwala,\npassed away in"
+  ],
+  [
+   6.966,
+   7.811,
+   "twenty twenty-two."
+  ],
+  [
+   8.443,
+   12.244,
+   "But his portfolio didn't die with him \u2014 his"
+  ],
+  [
+   12.244,
+   16.044,
+   "wife, Rekha, now stewards it. And over these six"
+  ],
+  [
+   16.044,
+   18.156,
+   "months, it did something remarkable."
+  ],
+  [
+   18.656,
+   22.158,
+   "Rekha Jhunjhunwala's disclosed portfolio was worth\nabout forty-six thousand"
+  ],
+  [
+   22.158,
+   25.661,
+   "nine hundred and eighty-two crore rupees on the\ntwenty-first"
+  ],
+  [
+   25.661,
+   26.439,
+   "of July."
+  ],
+  [
+   27.071,
+   30.573,
+   "That's up nearly seven thousand seven hundred and\nfifty"
+  ],
+  [
+   30.573,
+   34.076,
+   "crore from thirty-nine thousand two hundred crore at\nthe"
+  ],
+  [
+   34.076,
+   35.243,
+   "end of March."
+  ],
+  [
+   35.875,
+   38.599,
+   "Now hold that against our earlier chart."
+  ],
+  [
+   39.23,
+   42.733,
+   "While the index was still clawing back from its"
+  ],
+  [
+   42.733,
+   46.235,
+   "April low, her book jumped almost twenty percent.\nShe"
+  ],
+  [
+   46.235,
+   49.349,
+   "didn't just recover \u2014 she beat the market."
+  ],
+  [
+   49.98,
+   53.483,
+   "The engine, as ever, is Titan \u2014 a five-point-three"
+  ],
+  [
+   53.483,
+   56.985,
+   "percent stake worth around twenty-two thousand\ncrore. Titan alone"
+  ],
+  [
+   56.985,
+   60.487,
+   "made her richer by roughly three and a half"
+  ],
+  [
+   60.487,
+   62.044,
+   "thousand crore since April."
+  ],
+  [
+   62.676,
+   66.178,
+   "The rest is classic Jhunjhunwala \u2014 Tata Motors,\nIndian"
+  ],
+  [
+   66.178,
+   67.346,
+   "Hotels, private banks."
+  ],
+  [
+   67.977,
+   71.48,
+   "And notice what she also did: she cut a"
+  ],
+  [
+   71.48,
+   74.982,
+   "losing bet, slashing Star Health from about sixteen\npercent"
+  ],
+  [
+   74.982,
+   76.15,
+   "down to three."
+  ],
+  [
+   76.781,
+   80.284,
+   "Concentrated conviction, held for years, pruned when\na thesis"
+  ],
+  [
+   80.284,
+   83.786,
+   "breaks. That is how you beat a flat market."
+  ],
+  [
+   84.286,
+   85.979,
+   "Stop and notice the pattern."
+  ],
+  [
+   86.61,
+   89.658,
+   "Three winners in, and not one of them made"
+  ],
+  [
+   89.658,
+   92.705,
+   "their money day-trading, or chasing tips, or timing\nthe"
+  ],
+  [
+   92.705,
+   93.043,
+   "market."
+  ],
+  [
+   93.675,
+   95.368,
+   "They own businesses. They wait."
+  ],
+  [
+   95.999,
+   99.047,
+   "Keep that in mind as the names get smaller"
+  ],
+  [
+   99.047,
+   101.078,
+   "\u2014 because the method doesn't change."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch04.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "pack": "chalk",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Lean language",
+  "issue": "September 2026",
+  "code": "LEAN-4"
+ },
+ "beats": [
+  {
+   "id": "b00",
+   "kind": "title",
+   "dur": 12.977,
+   "props": {
+    "kicker": "A language that proves",
+    "title": "Lean,\nExplained",
+    "subtitle": "what it is \u00b7 how to use it \u00b7 an agent loop you can prove"
+   }
+  },
+  {
+   "id": "b01",
+   "kind": "statement",
+   "dur": 22.638,
+   "props": {
+    "kicker": "The puzzle",
+    "lines": [
+     "Tests check some runs.",
+     "Proofs check every run."
+    ],
+    "accent": 1,
+    "sub": "Lean is built for the second claim",
+    "ats": [
+     0.053,
+     0.286
+    ]
+   }
+  },
+  {
+   "id": "b02",
+   "kind": "list",
+   "dur": 21.87,
+   "props": {
+    "kicker": "The plan",
+    "title": "Three questions",
+    "items": [
+     {
+      "h": "What is Lean",
+      "d": "language and theorem prover"
+     },
+     {
+      "h": "How you use it",
+      "d": "project, tactics, kernel"
+     },
+     {
+      "h": "An agent loop",
+      "d": "prove tool results match calls"
+     }
+    ],
+    "ats": [
+     0.064,
+     0.238,
+     0.508
+    ]
+   }
+  }
+ ],
+ "captions": [],
+ "audio": "ln4/ch00.wav"
+}

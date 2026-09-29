@@ -1,0 +1,5 @@
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-rhp-vs-now-en/assets/raw/targets_2_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-rhp-vs-now-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-rhp-vs-now-en/assets/raw/targets_2_c1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-rhp-vs-now-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-rhp-vs-now-en/assets/raw/targets_2_c2.wav'

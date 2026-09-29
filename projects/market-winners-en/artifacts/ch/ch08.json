@@ -1,0 +1,170 @@
+{
+ "cuts": [
+  {
+   "id": "d08",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 10.478,
+   "props": {
+    "n": 8,
+    "title": "The Professional",
+    "sub": "Sunil Singhania \u2014 process over hunches",
+    "color": "#38BDF8",
+    "total": 14,
+    "dur": 10.978
+   }
+  },
+  {
+   "id": "w08",
+   "type": "mw_investor",
+   "in_seconds": 10.978,
+   "out_seconds": 65.211,
+   "props": {
+    "idx": 7,
+    "total": 8,
+    "color": "#38BDF8",
+    "name": "Sunil Singhania",
+    "tag": "THE PROFESSIONAL",
+    "worth": 2290,
+    "worthUnit": "cr",
+    "stocks": 24,
+    "asOf": "Dec 2025",
+    "holdings": [
+     {
+      "nm": "Himatsingka Seide",
+      "pct": "6.8%"
+     },
+     {
+      "nm": "All Time Plastics",
+      "pct": "6.2%"
+     },
+     {
+      "nm": "Carysil",
+      "pct": "5.3%"
+     },
+     {
+      "nm": "Hindware Home Innovation",
+      "pct": "4.6%"
+     },
+     {
+      "nm": "Sarda Energy / others",
+      "pct": ""
+     }
+    ],
+    "strategy": "A CFA-charterholder's institutional value framework \u2014 earnings, valuation and management, applied with discipline.",
+    "playbook": [
+     "Founder of Abakkus Asset Management (est. 2018); ~\u20b92,290 cr personal book",
+     "Value across capital goods, consumer durables, manufacturing",
+     "Process over hunches \u2014 the professional's edge is repeatability"
+    ],
+    "move": "Runs money for others too; the personal book is only the visible part",
+    "steep": 1.7,
+    "foot": "Disclosed personal shareholding (BSE/NSE filings, aggregator) \u00b7 as of Dec-2025 \u00b7 not investment advice",
+    "dur": 54.733
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.712,
+   "Chapter eight. The professional."
+  ],
+  [
+   2.344,
+   6.197,
+   "So far, individuals. Now the institutional mind \u2014 a"
+  ],
+  [
+   6.197,
+   10.05,
+   "man who turned a repeatable process into a fund"
+  ],
+  [
+   10.05,
+   10.478,
+   "empire."
+  ],
+  [
+   10.978,
+   14.874,
+   "Sunil Singhania is a chartered financial analyst who\nfounded"
+  ],
+  [
+   14.874,
+   17.471,
+   "Abakkus Asset Management in twenty eighteen."
+  ],
+  [
+   18.102,
+   21.998,
+   "His personal disclosed book \u2014 around twenty-four\nstocks, worth"
+  ],
+  [
+   21.998,
+   25.893,
+   "roughly two thousand three hundred crore \u2014 is only"
+  ],
+  [
+   25.893,
+   29.789,
+   "the visible tip; he manages far more for others."
+  ],
+  [
+   30.42,
+   34.316,
+   "What sets him apart isn't a hot tip. It's"
+  ],
+  [
+   34.316,
+   38.212,
+   "a framework: durable earnings, sane valuations,\ntrustworthy management \u2014"
+  ],
+  [
+   38.212,
+   42.107,
+   "applied the same way, every time, across capital\ngoods,"
+  ],
+  [
+   42.107,
+   43.838,
+   "consumer durables, and manufacturing."
+  ],
+  [
+   44.47,
+   46.634,
+   "Names like Carysil and Hindware."
+  ],
+  [
+   47.266,
+   51.161,
+   "The amateur chases the next big thing. The\nprofessional"
+  ],
+  [
+   51.161,
+   55.057,
+   "builds a process that survives being wrong \u2014 because"
+  ],
+  [
+   55.057,
+   57.654,
+   "over enough decisions, repeatability beats\nbrilliance."
+  ],
+  [
+   58.286,
+   62.181,
+   "That's the quiet superpower the finfluencers can\nnever sell"
+  ],
+  [
+   62.181,
+   65.211,
+   "you, because you can't fake a process."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch08.wav",
+   "volume": 1.0
+  }
+ }
+}

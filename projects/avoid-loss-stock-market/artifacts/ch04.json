@@ -1,0 +1,224 @@
+{
+  "cuts": [
+    {
+      "id": "ch04_divider",
+      "type": "fa_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 7.804,
+      "props": {
+        "n": 4,
+        "total": 11,
+        "title": "Management quality",
+        "sub": "Use public evidence, not charisma or access.",
+        "color": "#2DD4BF",
+        "dur": 8.304
+      }
+    },
+    {
+      "id": "ch04_evidence",
+      "type": "fa_compare",
+      "in_seconds": 8.304,
+      "out_seconds": 37.906,
+      "props": {
+        "kicker": "EVIDENCE OVER PROMISES",
+        "title": "Retail investors can evaluate incentives without private meetings",
+        "cos": [
+          {
+            "name": "What leaders say",
+            "c": "#FBBF24",
+            "tag": "starting point",
+            "stats": [
+              {
+                "k": "Source",
+                "v": "interviews / calls"
+              },
+              {
+                "k": "Risk",
+                "v": "selective story"
+              },
+              {
+                "k": "Use",
+                "v": "form questions"
+              },
+              {
+                "k": "Never use",
+                "v": "as proof",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "What records show",
+            "c": "#34D399",
+            "tag": "stronger",
+            "stats": [
+              {
+                "k": "Source",
+                "v": "filings / actions"
+              },
+              {
+                "k": "Signals",
+                "v": "ownership, capital use"
+              },
+              {
+                "k": "Use",
+                "v": "test consistency"
+              },
+              {
+                "k": "Best evidence",
+                "v": "multi-year record",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "Conference calls and annual reports can be more useful than an impression from a meeting.",
+        "color": "#2DD4BF",
+        "dur": 30.102
+      }
+    },
+    {
+      "id": "ch04_ownership",
+      "type": "fa_ledger",
+      "in_seconds": 38.406,
+      "out_seconds": 68.713,
+      "props": {
+        "kicker": "SHAREHOLDING PATTERN",
+        "title": "Ownership changes can reveal incentives \u2014 but require context",
+        "rows": [
+          {
+            "label": "Promoter holding",
+            "val": "alignment and control",
+            "c": "#2DD4BF",
+            "bold": true
+          },
+          {
+            "label": "Promoter pledge",
+            "val": "financing risk to inspect",
+            "c": "#F87171"
+          },
+          {
+            "label": "Buybacks / dilution",
+            "val": "capital allocation clues",
+            "c": "#A78BFA"
+          },
+          {
+            "label": "Related-party deals",
+            "val": "governance clue",
+            "c": "#FBBF24"
+          }
+        ],
+        "caption": "No single item proves quality. Look for patterns and explanations across time.",
+        "color": "#2DD4BF",
+        "dur": 30.807
+      }
+    },
+    {
+      "id": "ch04_capital_allocation",
+      "type": "fa_keyidea",
+      "in_seconds": 69.213,
+      "out_seconds": 98.848,
+      "props": {
+        "kicker": "CAPITAL ALLOCATION",
+        "big": "Judge management by what it does with each rupee: reinvest, repay debt, acquire, dividend, or dilute.",
+        "sub": "A strong record turns retained earnings into more durable owner value.",
+        "color": "#34D399",
+        "dur": 30.135
+      }
+    },
+    {
+      "id": "ch04_detail_agm",
+      "type": "fa_keyidea",
+      "in_seconds": 99.348,
+      "out_seconds": 134.626,
+      "props": {
+        "kicker": "HOW TO ASSESS MANAGEMENT",
+        "big": "Use annual reports, conference calls, AGMs, and repeated disclosures to ask better questions than a private impression can answer.",
+        "sub": "Management access is limited for most retail investors; evidence must be scalable.",
+        "color": "#2DD4BF",
+        "dur": 35.778
+      }
+    },
+    {
+      "id": "ch04_detail_pattern",
+      "type": "fa_ledger",
+      "in_seconds": 135.126,
+      "out_seconds": 169.871,
+      "props": {
+        "kicker": "SHAREHOLDING PATTERN",
+        "title": "Ownership: patterns and pledge risk",
+        "rows": [
+          {
+            "label": "Promoter group",
+            "val": "control and alignment",
+            "c": "#2DD4BF",
+            "bold": true
+          },
+          {
+            "label": "Public holders",
+            "val": "outside ownership",
+            "c": "#38BDF8"
+          },
+          {
+            "label": "Pledged shares",
+            "val": "collateral risk",
+            "c": "#F87171"
+          },
+          {
+            "label": "Change over time",
+            "val": "context for action",
+            "c": "#FBBF24"
+          }
+        ],
+        "caption": "A pledge or sale requires investigation; it is not automatic proof of wrongdoing.",
+        "color": "#2DD4BF",
+        "dur": 35.245
+      }
+    },
+    {
+      "id": "ch04_detail_buyback",
+      "type": "fa_keyidea",
+      "in_seconds": 170.371,
+      "out_seconds": 208.555,
+      "props": {
+        "kicker": "BUYBACKS, DIVIDENDS, AND TAX",
+        "big": "Capital-return decisions are clues about management's priorities, cash needs, and view of valuation.",
+        "sub": "The book describes buybacks as possible uses of surplus cash; current tax treatment and rules must be verified separately.",
+        "color": "#A78BFA",
+        "dur": 38.684
+      }
+    },
+    {
+      "id": "ch04_detail_roe_management",
+      "type": "fa_keyidea",
+      "in_seconds": 209.055,
+      "out_seconds": 240.595,
+      "props": {
+        "kicker": "ROE AS A MANAGEMENT SCORECARD",
+        "big": "A persistently strong return on equity can reflect disciplined capital allocation \u2014 after adjusting for debt and accounting effects.",
+        "sub": "Look for a multi-year record, not a single impressive ratio.",
+        "color": "#34D399",
+        "dur": 32.04
+      }
+    },
+    {
+      "id": "ch04_detail_management_conclusion",
+      "type": "fa_keyidea",
+      "in_seconds": 241.095,
+      "out_seconds": 272.514,
+      "props": {
+        "kicker": "MANAGEMENT CHECKLIST",
+        "big": "Trust should be earned from alignment, transparency, conservative accounting, and a long record of rational capital decisions.",
+        "sub": "Good governance cannot turn a poor industry into a great investment, but weak governance can destroy a good business.",
+        "color": "#34D399",
+        "dur": 31.919
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch04.wav",
+      "volume": 1.0
+    }
+  }
+}

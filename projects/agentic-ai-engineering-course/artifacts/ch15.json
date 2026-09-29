@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch15_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 46.477,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "foundation",
+        "dur": 46.977
+      }
+    },
+    {
+      "id": "ch15_system",
+      "type": "aae_chapter",
+      "in_seconds": 46.977,
+      "out_seconds": 84.875,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "system",
+        "dur": 38.398
+      }
+    },
+    {
+      "id": "ch15_practice",
+      "type": "aae_chapter",
+      "in_seconds": 85.375,
+      "out_seconds": 131.175,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "practice",
+        "dur": 46.3
+      }
+    },
+    {
+      "id": "ch15_failure",
+      "type": "aae_chapter",
+      "in_seconds": 131.675,
+      "out_seconds": 170.784,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "failure",
+        "dur": 39.609
+      }
+    },
+    {
+      "id": "ch15_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 171.284,
+      "out_seconds": 213.603,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "evaluation",
+        "dur": 42.819
+      }
+    },
+    {
+      "id": "ch15_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 214.103,
+      "out_seconds": 251.474,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "handoff",
+        "dur": 37.871
+      }
+    },
+    {
+      "id": "ch15_application",
+      "type": "aae_chapter",
+      "in_seconds": 251.974,
+      "out_seconds": 300.601,
+      "props": {
+        "chapter": 15,
+        "title": "Agentic Integration Engineering",
+        "focus": "connecting agents to real systems through stable interfaces and reliable side effects",
+        "concepts": [
+          "idempotency",
+          "data contracts",
+          "compensation actions"
+        ],
+        "example": "an order agent safely retrying a shipment update",
+        "trap": "assuming a tool call succeeds once",
+        "takeaway": "Connecting agents to real systems through stable interfaces and reliable side effects.",
+        "beat": "application",
+        "dur": 49.127
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch15.wav",
+      "volume": 1
+    }
+  }
+}

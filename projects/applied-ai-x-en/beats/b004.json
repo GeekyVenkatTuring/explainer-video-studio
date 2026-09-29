@@ -1,0 +1,46 @@
+{
+  "idx": 4,
+  "variant": "xa_roadmap",
+  "props": {
+    "rank": 4,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "You can go from zero to hireable AI engineer in 4 months. Here's the",
+    "handle": "@free_ai_guides",
+    "likes": "975",
+    "thesis": "AI Guides proposes four months of project-led preparation using existing models. The plan assumes fifteen to twenty hours weekly and does not guarantee employment.",
+    "take": "Publish a Python project, then advance through working milestones instead of tutorials.",
+    "phases": [
+      {
+        "label": "Practice first",
+        "line": "Build independently for thirty minutes per study hour; publish your work."
+      },
+      {
+        "label": "Foundations",
+        "line": "Learn Python and supporting skills; build a utility handling files and errors."
+      },
+      {
+        "label": "Integration",
+        "line": "Compare five prompts; build an invoice parser with enforced output structure."
+      },
+      {
+        "label": "Resilience",
+        "line": "Manage history, streamed responses, costs, retries, and tool permissions."
+      },
+      {
+        "label": "Retrieval",
+        "line": "Build cited answers from documents; inspect retrieved passages before changing models."
+      },
+      {
+        "label": "Agent judgment",
+        "line": "Build a three-tool loop before LangGraph; test twenty to thirty representative inputs."
+      },
+      {
+        "label": "Portfolio",
+        "line": "Deploy three projects with Docker, spending caps, and Langfuse traces."
+      }
+    ]
+  },
+  "narration": "Four months to career readiness is AI Guides’ ambitious proposal. The author prioritizes building applications with existing models over research mathematics. Expect fifteen to twenty hours weekly, without any hiring guarantee. [pause] Practice first means thirty minutes building independently per study hour, publishing immediately. Foundations starts with CS50P, GitHub Skills, MDN, requests, and SQLBolt. Build a Python utility handling files, JSON data, and errors. Integration compares five prompts before building an invoice parser with Pydantic and Instructor. Their schemas enforce output structure, rather than merely requesting JSON. [pause] For tool calling, the model requests functions; your application executes them and returns results. Resilience means managing conversation history, assembling streamed responses, and estimating costs. Use Tenacity for retries with increasing waits, validate outputs, and restrict tool permissions. Retrieval finds relevant passages for answers grounded in your documents. [pause] Start with RecursiveCharacterTextSplitter, using five hundred characters and fifty characters of overlap. Connect Chroma and LlamaIndex, require citations, and inspect retrieved passages before changing models. Agent judgment starts with a three-tool loop before adopting LangGraph. Prefer simpler workflows unless execution must adapt dynamically. Test twenty to thirty representative inputs with DeepEval or Ragas. Portfolio means three deployed projects using Docker, spending caps, and Langfuse traces. [pause] Publish your Python project first, then advance through working milestones."
+}

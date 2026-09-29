@@ -1,0 +1,457 @@
+{
+ "cuts": [
+  {
+   "id": "09_compare_title",
+   "type": "pg_title",
+   "in_seconds": 0.0,
+   "out_seconds": 26.13,
+   "props": {
+    "gateway": "Head to Head",
+    "tagline": "Eight gateways on one screen",
+    "kicker": "COMPARE \u00b7 DECIDE",
+    "accent": "#64748B",
+    "dur": 26.63
+   }
+  },
+  {
+   "id": "09_compare_compare",
+   "type": "pg_compare",
+   "in_seconds": 26.63,
+   "out_seconds": 56.024,
+   "props": {
+    "title": "Eight gateways, side by side",
+    "cols": [
+     "Cards",
+     "UPI",
+     "Settle",
+     "Setup",
+     "Effort"
+    ],
+    "rows": [
+     {
+      "gateway": "Razorpay",
+      "accent": "#3B82F6",
+      "cells": [
+       "2%",
+       "2%",
+       "T+1",
+       "\u20b90",
+       "Easy"
+      ]
+     },
+     {
+      "gateway": "Cashfree",
+      "accent": "#14B8A6",
+      "cells": [
+       "1.95%",
+       "1.95%",
+       "T+1",
+       "\u20b90",
+       "Easy"
+      ]
+     },
+     {
+      "gateway": "PayU",
+      "accent": "#8B5CF6",
+      "cells": [
+       "2%",
+       "custom",
+       "T+2",
+       "\u20b90",
+       "Med"
+      ]
+     },
+     {
+      "gateway": "Juspay",
+      "accent": "#F59E0B",
+      "cells": [
+       "orch.",
+       "orch.",
+       "via PG",
+       "custom",
+       "Ent."
+      ]
+     },
+     {
+      "gateway": "PhonePe",
+      "accent": "#5F259F",
+      "cells": [
+       "1.99%*",
+       "\u2014",
+       "n/d",
+       "\u20b90",
+       "Easy"
+      ]
+     },
+     {
+      "gateway": "Paytm",
+      "accent": "#00BAF2",
+      "cells": [
+       "~1.8%",
+       "0%",
+       "T+1",
+       "\u20b90",
+       "Med"
+      ]
+     },
+     {
+      "gateway": "CCAvenue",
+      "accent": "#EF4444",
+      "cells": [
+       "3.75%",
+       "deb.",
+       "~T+2",
+       "\u20b940k",
+       "Med+"
+      ]
+     },
+     {
+      "gateway": "Instamojo",
+      "accent": "#EC4899",
+      "cells": [
+       "2%+\u20b93",
+       "2%+\u20b93",
+       "T+3",
+       "plan",
+       "Easy"
+      ]
+     }
+    ],
+    "foot": "Rates as published Aug 2026 \u2014 promos & negotiated slabs vary. Verify on each official site.",
+    "dur": 29.894
+   }
+  },
+  {
+   "id": "09_compare_decision",
+   "type": "pg_decision",
+   "in_seconds": 56.524,
+   "out_seconds": 88.418,
+   "props": {
+    "title": "Which one should you pick?",
+    "branches": [
+     {
+      "q": "Fastest, cleanest DX",
+      "pick": "Razorpay / Cashfree",
+      "why": "hosted checkout, SDKs, \u20b90 fees",
+      "accent": "#3B82F6"
+     },
+     {
+      "q": "UPI-heavy, cost-sensitive",
+      "pick": "Paytm PG",
+      "why": "0% UPI + RuPay",
+      "accent": "#00BAF2"
+     },
+     {
+      "q": "Many PGs, big scale",
+      "pick": "Juspay",
+      "why": "orchestrate + least-cost routing",
+      "accent": "#F59E0B"
+     },
+     {
+      "q": "No website, just a link",
+      "pick": "Instamojo",
+      "why": "collect with zero site",
+      "accent": "#EC4899"
+     }
+    ],
+    "dur": 32.394
+   }
+  },
+  {
+   "id": "09_compare_recap",
+   "type": "pg_recap",
+   "in_seconds": 88.918,
+   "out_seconds": 123.888,
+   "props": {
+    "title": "The whole map in one breath",
+    "items": [
+     "A gateway = checkout \u2192 verify on server \u2192 webhook \u2192 settlement.",
+     "Razorpay/Cashfree: \u20b90-fee, ~2%, easiest DX.",
+     "Paytm's edge is 0% UPI; CCAvenue is the fee-heavy traditional option.",
+     "Juspay isn't a PG \u2014 it routes across many for scale.",
+     "Always verify server-side and confirm live pricing."
+    ],
+    "closer": "Pick for your payment mix and your scale \u2014 not for the logo.",
+    "dur": 35.47
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.21,
+   "Now put the eight options on one screen."
+  ],
+  [
+   3.76,
+   5.767,
+   "This is not a leaderboard,"
+  ],
+  [
+   5.767,
+   8.978,
+   "because a low headline fee can be less"
+  ],
+  [
+   8.978,
+   10.181,
+   "important than support,"
+  ],
+  [
+   10.181,
+   10.583,
+   "routing,"
+  ],
+  [
+   10.583,
+   10.984,
+   "settlement,"
+  ],
+  [
+   10.984,
+   14.195,
+   "or the payment methods your customers actually use."
+  ],
+  [
+   14.745,
+   17.152,
+   "Read this as a shortlisting map."
+  ],
+  [
+   17.702,
+   20.913,
+   "Then verify current terms directly with the\nproviders"
+  ],
+  [
+   20.913,
+   22.518,
+   "that match your product,"
+  ],
+  [
+   22.518,
+   22.92,
+   "volume,"
+  ],
+  [
+   22.92,
+   26.13,
+   "and operational constraints before you sign or\nintegrate."
+  ],
+  [
+   26.63,
+   28.734,
+   "Here is the compact comparison."
+  ],
+  [
+   29.284,
+   32.23,
+   "Notice the difference between a published rate,"
+  ],
+  [
+   32.23,
+   33.493,
+   "a custom rate,"
+  ],
+  [
+   33.493,
+   35.597,
+   "and a missing public disclosure."
+  ],
+  [
+   36.147,
+   37.41,
+   "Juspay is orchestration,"
+  ],
+  [
+   37.41,
+   40.777,
+   "so its card and UPI cells point back"
+  ],
+  [
+   40.777,
+   42.46,
+   "to the routed gateway."
+  ],
+  [
+   43.01,
+   45.536,
+   "PhonePe's per-method breakdown is not public."
+  ],
+  [
+   46.086,
+   47.769,
+   "CCAvenue's row is scheme-specific."
+  ],
+  [
+   48.319,
+   50.424,
+   "Those caveats are useful information,"
+  ],
+  [
+   50.424,
+   51.686,
+   "not missing polish."
+  ],
+  [
+   52.236,
+   55.603,
+   "They tell you where a sales conversation is"
+  ],
+  [
+   55.603,
+   56.024,
+   "required."
+  ],
+  [
+   56.524,
+   58.548,
+   "Start with your use case,"
+  ],
+  [
+   58.548,
+   59.762,
+   "not a logo."
+  ],
+  [
+   60.312,
+   62.741,
+   "For the fastest conventional developer experience,"
+  ],
+  [
+   62.741,
+   64.36,
+   "shortlist Razorpay and Cashfree."
+  ],
+  [
+   64.91,
+   66.124,
+   "For a UPI-heavy,"
+  ],
+  [
+   66.124,
+   66.934,
+   "cost-sensitive mix,"
+  ],
+  [
+   66.934,
+   70.172,
+   "Paytm's zero-percent UPI and RuPay position is\ndistinctive."
+  ],
+  [
+   70.722,
+   73.96,
+   "If you already operate multiple gateways at\nenterprise"
+  ],
+  [
+   73.96,
+   74.365,
+   "scale,"
+  ],
+  [
+   74.365,
+   76.389,
+   "Juspay solves the routing layer."
+  ],
+  [
+   76.939,
+   80.177,
+   "And if you do not have a website"
+  ],
+  [
+   80.177,
+   80.987,
+   "at all,"
+  ],
+  [
+   80.987,
+   83.82,
+   "Instamojo can start with a payment link."
+  ],
+  [
+   84.37,
+   87.608,
+   "Then test the exact flow that your customers"
+  ],
+  [
+   87.608,
+   88.418,
+   "will use."
+  ],
+  [
+   88.918,
+   91.914,
+   "So the whole map in one breath."
+  ],
+  [
+   92.464,
+   94.176,
+   "A gateway runs checkout,"
+  ],
+  [
+   94.176,
+   97.172,
+   "but your server must verify the payment,"
+  ],
+  [
+   97.172,
+   98.455,
+   "process the webhook,"
+  ],
+  [
+   98.455,
+   100.167,
+   "and wait for settlement."
+  ],
+  [
+   100.717,
+   104.141,
+   "Razorpay and Cashfree are the straightforward\nnear-two-percent developer"
+  ],
+  [
+   104.141,
+   104.569,
+   "options."
+  ],
+  [
+   105.119,
+   107.259,
+   "Paytm's edge is zero-percent UPI,"
+  ],
+  [
+   107.259,
+   110.255,
+   "while CCAvenue is the fee-heavy traditional choice."
+  ],
+  [
+   110.805,
+   113.373,
+   "Juspay routes across gateways at scale."
+  ],
+  [
+   113.923,
+   116.918,
+   "Always verify server-side and confirm live pricing."
+  ],
+  [
+   117.468,
+   120.892,
+   "Pick for your payment mix and your scale,"
+  ],
+  [
+   120.892,
+   122.604,
+   "not for the logo."
+  ],
+  [
+   122.604,
+   123.888,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pg/09_compare.wav",
+   "volume": 1.0
+  }
+ }
+}

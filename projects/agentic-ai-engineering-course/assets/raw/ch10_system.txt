@@ -1,0 +1,3 @@
+file '/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/assets/raw/ch10_system_0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/assets/raw/pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/assets/raw/ch10_system_1.wav'

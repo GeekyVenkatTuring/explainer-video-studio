@@ -1,0 +1,44 @@
+{
+ "idx": 9,
+ "variant": "xa_flow",
+ "props": {
+  "rank": 9,
+  "total": 10,
+  "ch": 1,
+  "chname": "LEARNING PATHS",
+  "title": "Become AI Agentic Engineer in 6 Weeks (Full Course) - Part 2",
+  "handle": "@sairahul1",
+  "likes": "320",
+  "thesis": "Part two moves from prompting to security: the model proposes an action, and deterministic backend checks decide whether it may actually run.",
+  "take": "Assume the model can be fooled \u2014 enforce permissions in the backend, not the prompt.",
+  "nodes": [
+   {
+    "label": "Label the source",
+    "sub": "Mark retrieved pages, emails and issues as untrusted data",
+    "emoji": "\ud83c\udff7\ufe0f"
+   },
+   {
+    "label": "Authenticate",
+    "sub": "Identify the real requester before any tool is offered",
+    "emoji": "\ud83d\udd11"
+   },
+   {
+    "label": "Authorize",
+    "sub": "Derive allowed tools from that person's own permissions",
+    "emoji": "\ud83d\udee1\ufe0f"
+   },
+   {
+    "label": "Validate the call",
+    "sub": "Check ownership, eligibility, prior refunds and the limit",
+    "emoji": "\u2705"
+   },
+   {
+    "label": "Gate and log",
+    "sub": "Human approval for money and deletion, then audit",
+    "emoji": "\ud83d\udea6"
+   }
+  ],
+  "note": "Search the web, read internal documents and send email in one session, and you have built an exfiltration path."
+ },
+ "narration": "Rahul's second part is about security. [pause] The idea is simple. A tool-using agent turns text into real actions. So the backend must decide what runs, not the prompt. Start by labelling the source. Direct injection arrives in user input. Indirect injection hides inside a retrieved page, an email, or a GitHub issue. An issue asking your coding agent to delete authentication tests is data, not an instruction. [pause] Then authenticate. Identify the real requester before offering any tool. Then authorize. Derive the allowed tools from that person's own permissions. Rahul calls the failure a confused deputy. Alice reads Bob's salary because the agent's credentials were wider than hers. [pause] Then validate the call itself. For a refund, check ownership, earlier refunds, eligibility and the amount. Permission to refund an order does not justify five hundred thousand dollars on a forty-nine dollar purchase. [pause] Finally, gate and log. Require human approval for money and deletion. And watch tool combinations, not single tools. Search the web, read internal documents, and send email in one session, and you have built an exfiltration path. [pause] Design the permissions assuming the model can be fooled. [pause] His closing exercises are worth doing. Design a confirmed email send. Handle two policy documents that disagree. And validate a transfer whose amount does not match the request."
+}

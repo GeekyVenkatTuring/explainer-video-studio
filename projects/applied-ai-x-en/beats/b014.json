@@ -1,0 +1,68 @@
+{
+ "idx": 14,
+ "variant": "xa_roster",
+ "props": {
+  "rank": 4,
+  "total": 5,
+  "ch": 2,
+  "chname": "SKILLS & MCP",
+  "title": "Top 67 Claude Skills That Turn a $20 Subscription Into a Full Dev Team",
+  "handle": "@polydao",
+  "likes": "4.6K",
+  "thesis": "The full-team headline is marketing. The real mechanism is a folder of instructions and examples that keeps a workflow alive between sessions.",
+  "take": "Adopt in stages, and judge a skill on the tasks you actually fail.",
+  "count": 67,
+  "countLabel": "skills catalogued",
+  "items": [
+   {
+    "name": "Skill Creator",
+    "note": "Workflow bullets to a draft, then test and revise"
+   },
+   {
+    "name": "Grill Me",
+    "note": "Interrogates requirements, data models and failure cases"
+   },
+   {
+    "name": "Write a PRD",
+    "note": "Interview plus codebase exploration, saved to GitHub"
+   },
+   {
+    "name": "PRD to Plan",
+    "note": "Sequences tracer-bullet vertical slices"
+   },
+   {
+    "name": "PRD to Issues",
+    "note": "Independently assignable work, with blockers"
+   },
+   {
+    "name": "TDD",
+    "note": "Failing test, minimal code, refactor \u2014 one slice at a time"
+   },
+   {
+    "name": "Systematic Debugging",
+    "note": "Reproduce, isolate the cause, one fix, verify"
+   },
+   {
+    "name": "Git Guardrails",
+    "note": "Hooks that block push, reset --hard and clean"
+   },
+   {
+    "name": "Setup Pre-Commit",
+    "note": "Husky, lint-staged, Prettier, type checks and tests"
+   },
+   {
+    "name": "Dependency Auditor",
+    "note": "Ranks the packages actually worth worrying about"
+   },
+   {
+    "name": "Excel MCP Server",
+    "note": "Drives spreadsheets without desktop Excel"
+   },
+   {
+    "name": "Playwright CLI",
+    "note": "Browser regression checks and funnel walkthroughs"
+   }
+  ]
+ },
+ "narration": "Sixty-seven skills, and a headline that promises a whole development team. [pause] Set the promise aside. The mechanism underneath is genuinely useful. A skill is a folder. It holds instructions, examples, constraints, and sometimes scripts. That is what makes a workflow survive between sessions. [pause] The author suggests a staged order. Start by making skills. Skill Creator turns your bullet points into a draft. You then run a handful of test prompts, and fix whatever fails. [pause] Next, planning. Grill Me interrogates your requirements, including data models and failure cases. Write a P R D combines an interview with codebase exploration. P R D to Plan sequences thin vertical slices. P R D to Issues turns them into assignable work. [pause] Then engineering discipline. Test-driven development. Systematic debugging \u2014 reproduce, isolate, one fix, verify. [pause] Then repository safety, which is the part people skip. Git Guardrails adds hooks that block push, hard reset and clean before they run. Pre-commit assembles linting, type checks and tests. [pause] Beyond code, the list reaches further. A documentation generator derives OpenAPI material straight from your routes. Theme Factory turns a brand description into palette tokens. An Excel server drives spreadsheets without desktop Excel. [pause] Judge any of these on the tasks you actually fail. Not on the headline."
+}

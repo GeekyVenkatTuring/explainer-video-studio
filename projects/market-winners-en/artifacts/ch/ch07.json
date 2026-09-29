@@ -1,0 +1,217 @@
+{
+ "cuts": [
+  {
+   "id": "d07",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 11.084,
+   "props": {
+    "n": 7,
+    "title": "The Quiet One",
+    "sub": "Dolly Khanna \u2014 you don't need crores to start",
+    "color": "#34D399",
+    "total": 14,
+    "dur": 11.584
+   }
+  },
+  {
+   "id": "w07",
+   "type": "mw_investor",
+   "in_seconds": 11.584,
+   "out_seconds": 61.959,
+   "props": {
+    "idx": 6,
+    "total": 8,
+    "color": "#34D399",
+    "name": "Dolly Khanna",
+    "tag": "THE QUIET ONE",
+    "worth": 223,
+    "worthUnit": "cr",
+    "stocks": 10,
+    "asOf": "Dec 2025",
+    "holdings": [
+     {
+      "nm": "Prakash Industries",
+      "v": "\u20b961 cr"
+     },
+     {
+      "nm": "GHCL",
+      "v": "\u20b950 cr"
+     },
+     {
+      "nm": "SOM Distilleries",
+      "v": "\u20b936 cr"
+     },
+     {
+      "nm": "Southern Petrochem (SPIC)",
+      "v": "\u20b935 cr"
+     },
+     {
+      "nm": "Emkay Global",
+      "v": "\u20b915 cr"
+     }
+    ],
+    "strategy": "A tiny, patient micro-cap book (run by husband Rajiv Khanna) \u2014 buy unloved cyclicals early, exit into strength.",
+    "playbook": [
+     "Just ~10 disclosed names, ~\u20b9223 cr \u2014 proof you don't need scale",
+     "Cyclicals bought before the crowd: chemicals, metals, spirits",
+     "Low turnover, high patience \u2014 the anti-day-trader"
+    ],
+    "move": "Added Coffee Day, IFB Agro; raised Mangalore Chemicals in recent filings",
+    "steep": 1.6,
+    "foot": "Disclosed shareholding (BSE/NSE filings) \u00b7 filings managed by Rajiv Khanna \u00b7 Dec-2025 \u00b7 not advice",
+    "dur": 50.875
+   }
+  },
+  {
+   "id": "c72",
+   "type": "mw_statement",
+   "in_seconds": 62.459,
+   "out_seconds": 81.858,
+   "props": {
+    "kicker": "THE DEMOCRATISING TRUTH",
+    "color": "#34D399",
+    "lines": [
+     "A ten-stock,",
+     "two-hundred-crore book",
+     "beat most 'experts'."
+    ],
+    "sub": "The edge was never capital. It was behaviour.",
+    "dur": 19.899
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.742,
+   "Chapter seven. The quiet one."
+  ],
+  [
+   2.374,
+   5.509,
+   "The names so far command tens of thousands of"
+  ],
+  [
+   5.509,
+   8.645,
+   "crores. Our next winner proves you can play this"
+  ],
+  [
+   8.645,
+   11.084,
+   "game brilliantly with a fraction of that."
+  ],
+  [
+   11.584,
+   15.23,
+   "The name Dolly Khanna is famous in Indian markets"
+  ],
+  [
+   15.23,
+   18.876,
+   "\u2014 though the portfolio is actually run by her"
+  ],
+  [
+   18.876,
+   21.711,
+   "husband, Rajiv, and that's worth saying plainly."
+  ],
+  [
+   22.343,
+   25.989,
+   "Their disclosed book holds just about ten stocks,\nworth"
+  ],
+  [
+   25.989,
+   28.824,
+   "a little over two hundred crore rupees."
+  ],
+  [
+   29.456,
+   33.102,
+   "Tiny, by star-investor standards \u2014 and that's the\nlesson."
+  ],
+  [
+   33.733,
+   37.379,
+   "They hunt unloved cyclical companies \u2014 chemicals,\nmetals, sugar,"
+  ],
+  [
+   37.379,
+   41.025,
+   "textiles \u2014 and buy them before the market cares."
+  ],
+  [
+   41.025,
+   43.05,
+   "Prakash Industries. GHCL. SOM Distilleries."
+  ],
+  [
+   43.682,
+   47.328,
+   "Then they hold, quietly, for years, and sell into"
+  ],
+  [
+   47.328,
+   49.758,
+   "strength when the crowd finally arrives."
+  ],
+  [
+   50.39,
+   52.82,
+   "Low turnover. High patience. No noise."
+  ],
+  [
+   53.452,
+   57.098,
+   "It's a reminder that the method scales down \u2014"
+  ],
+  [
+   57.098,
+   60.744,
+   "you don't need a fortune to invest like this."
+  ],
+  [
+   60.744,
+   61.959,
+   "You need temperament."
+  ],
+  [
+   62.459,
+   64.015,
+   "Let that sink in."
+  ],
+  [
+   64.647,
+   68.147,
+   "A ten-stock portfolio, run patiently, quietly, from\nhome \u2014"
+  ],
+  [
+   68.147,
+   71.648,
+   "outperformed the vast majority of loud, leveraged\n'experts' online."
+  ],
+  [
+   72.28,
+   75.781,
+   "The edge was never the size of the account."
+  ],
+  [
+   76.412,
+   79.913,
+   "It was behaviour. And behaviour is the one thing"
+  ],
+  [
+   79.913,
+   81.858,
+   "you can copy for free."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch07.wav",
+   "volume": 1.0
+  }
+ }
+}

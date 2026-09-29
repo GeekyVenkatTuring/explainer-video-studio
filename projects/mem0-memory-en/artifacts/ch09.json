@@ -1,0 +1,452 @@
+{
+ "pack": "blueprint",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Mem0 memory",
+  "issue": "September 2026",
+  "code": "MEM-0"
+ },
+ "beats": [
+  {
+   "id": "b52",
+   "kind": "divider",
+   "dur": 3.902,
+   "props": {
+    "n": 9,
+    "total": 9,
+    "title": "Putting It to Work",
+    "sub": "a few lines of code, and the design lessons"
+   }
+  },
+  {
+   "id": "b53",
+   "kind": "x_code",
+   "dur": 32.408,
+   "props": {
+    "kicker": "The open-source API",
+    "title": "A memory layer in a few lines",
+    "file": "agent.py",
+    "lines": [
+     "from mem0 import Memory",
+     "",
+     "m = Memory()        # Qdrant + text-embedding-3-small",
+     "",
+     "m.add(messages, user_id=\"riya\")          # write path",
+     "",
+     "hits = m.search(\"where does she live?\",",
+     "                filters={\"user_id\": \"riya\"},",
+     "                top_k=5)                      # read path",
+     "",
+     "context = [h[\"memory\"] for h in hits[\"results\"]]"
+    ],
+    "notes": [
+     {
+      "a": 2,
+      "b": 2,
+      "at": 0.09,
+      "t": "defaults: Qdrant, OpenAI embeddings, an OpenAI LLM"
+     },
+     {
+      "a": 4,
+      "b": 4,
+      "at": 0.33,
+      "t": "add(): extraction + dedup + entity linking"
+     },
+     {
+      "a": 6,
+      "b": 8,
+      "at": 0.55,
+      "t": "search(): scoped, hybrid-scored, top k"
+     },
+     {
+      "a": 10,
+      "b": 10,
+      "at": 0.78,
+      "t": "inject the memories into your prompt"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b54",
+   "kind": "list",
+   "dur": 35.325,
+   "props": {
+    "kicker": "Running it in production",
+    "title": "What to design for",
+    "items": [
+     {
+      "h": "Async writes",
+      "d": "extract off the critical path"
+     },
+     {
+      "h": "Latency budget",
+      "d": "search must fit inside the reply"
+     },
+     {
+      "h": "Deletion and privacy",
+      "d": "delete by user; expiry dates"
+     },
+     {
+      "h": "Cost per turn",
+      "d": "one LLM call + embeddings per write"
+     },
+     {
+      "h": "Evaluation",
+      "d": "test recall on your own conversations"
+     }
+    ],
+    "ats": [
+     0.12,
+     0.24,
+     0.37,
+     0.62,
+     0.83
+    ]
+   }
+  },
+  {
+   "id": "b55",
+   "kind": "list",
+   "dur": 33.853,
+   "props": {
+    "kicker": "Design lessons",
+    "title": "What Mem0 teaches about memory systems",
+    "items": [
+     {
+      "h": "Distill, don't replay",
+      "d": "write-time extraction buys cheap reads"
+     },
+     {
+      "h": "Atomic facts",
+      "d": "small units match and dedupe well"
+     },
+     {
+      "h": "Make ids easy for LLMs",
+      "d": "integers, not UUIDs"
+     },
+     {
+      "h": "Hybrid beats pure vectors",
+      "d": "semantic + keyword + entity"
+     },
+     {
+      "h": "Keep history",
+      "d": "invalidate or append; never lose the timeline"
+     },
+     {
+      "h": "Scope everything",
+      "d": "user, agent and run on every call"
+     }
+    ],
+    "ats": [
+     0.09,
+     0.236,
+     0.356,
+     0.464,
+     0.685,
+     0.907
+    ]
+   }
+  },
+  {
+   "id": "b56",
+   "kind": "recap",
+   "dur": 47.216,
+   "props": {
+    "title": "Mem0 in one breath",
+    "items": [
+     "Memory is a system around a stateless model",
+     "2025: extract facts, then ADD / UPDATE / DELETE / NOOP",
+     "Vectors + HNSW find similar memories in milliseconds",
+     "Mem0g: entity graph, invalidated edges, dual retrieval",
+     "Paper: 66.9 J at 1.44 s p95 vs 72.9 at 17.1 s",
+     "2026: one add-only LLM call + entity linking",
+     "Reads fuse semantic, BM25 and entity scores"
+    ],
+    "closer": "Remember less, but remember the right things.",
+    "ats": [
+     0.002,
+     0.157,
+     0.275,
+     0.325,
+     0.49,
+     0.721,
+     0.771
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.268,
+   "Part nine. Let's put it to work, and"
+  ],
+  [
+   2.268,
+   3.402,
+   "pull out the lessons."
+  ],
+  [
+   3.902,
+   6.172,
+   "Using it takes a few lines."
+  ],
+  [
+   6.804,
+   9.83,
+   "Create a Memory object. The defaults are Qdrant,"
+  ],
+  [
+   9.83,
+   12.856,
+   "OpenAI embeddings, and an OpenAI model, and every"
+  ],
+  [
+   12.856,
+   13.991,
+   "piece is swappable."
+  ],
+  [
+   14.623,
+   17.649,
+   "After each turn, call add, with the messages"
+  ],
+  [
+   17.649,
+   20.675,
+   "and a user id. That's the whole write"
+  ],
+  [
+   20.675,
+   21.054,
+   "path."
+  ],
+  [
+   21.685,
+   24.712,
+   "Before answering, call search, with the question, a"
+  ],
+  [
+   24.712,
+   27.738,
+   "filter for this user, and how many results"
+  ],
+  [
+   27.738,
+   28.494,
+   "you want."
+  ],
+  [
+   29.126,
+   32.152,
+   "Then put the returned memories into your prompt."
+  ],
+  [
+   32.784,
+   35.81,
+   "Everything we've covered happens inside those two calls."
+  ],
+  [
+   36.31,
+   39.477,
+   "Running this in production raises a few more"
+  ],
+  [
+   39.477,
+   39.873,
+   "questions."
+  ],
+  [
+   40.504,
+   43.671,
+   "Make writes asynchronous, so extraction never delays the"
+  ],
+  [
+   43.671,
+   44.067,
+   "reply."
+  ],
+  [
+   44.699,
+   47.865,
+   "Give search a latency budget: it happens before"
+  ],
+  [
+   47.865,
+   48.657,
+   "every answer."
+  ],
+  [
+   49.289,
+   52.455,
+   "Plan for deletion and privacy. Users will ask"
+  ],
+  [
+   52.455,
+   55.622,
+   "to be forgotten, and expiry dates let stale"
+  ],
+  [
+   55.622,
+   57.601,
+   "memories disappear on their own."
+  ],
+  [
+   58.233,
+   61.4,
+   "Track the cost per turn: at least one"
+  ],
+  [
+   61.4,
+   64.567,
+   "LLM call and a few embeddings for every"
+  ],
+  [
+   64.567,
+   64.962,
+   "write."
+  ],
+  [
+   65.594,
+   68.761,
+   "And evaluate on your own conversations. Benchmarks are"
+  ],
+  [
+   68.761,
+   71.136,
+   "a starting point, not a guarantee."
+  ],
+  [
+   71.636,
+   75.014,
+   "So what does Mem0 teach about memory systems?"
+  ],
+  [
+   75.646,
+   79.025,
+   "Distill, don't replay: extraction at write time buys"
+  ],
+  [
+   79.025,
+   79.869,
+   "cheap reads."
+  ],
+  [
+   80.501,
+   83.88,
+   "Atomic facts are easier to match and deduplicate."
+  ],
+  [
+   84.511,
+   87.467,
+   "Make ids easy for LLMs to copy."
+  ],
+  [
+   88.099,
+   91.478,
+   "Hybrid retrieval beats pure vectors: semantic, keyword, and"
+  ],
+  [
+   91.478,
+   94.856,
+   "entity signals each catch what the others miss."
+  ],
+  [
+   95.488,
+   98.867,
+   "Keep history, whether by invalidating edges or by"
+  ],
+  [
+   98.867,
+   101.823,
+   "appending, so the timeline is never lost."
+  ],
+  [
+   102.455,
+   104.989,
+   "And scope everything, on every call."
+  ],
+  [
+   105.488,
+   106.37,
+   "Let's recap."
+  ],
+  [
+   107.001,
+   110.526,
+   "Memory is a system you build around a"
+  ],
+  [
+   110.526,
+   111.407,
+   "stateless model."
+  ],
+  [
+   112.039,
+   115.563,
+   "The twenty twenty five design extracted facts, then"
+  ],
+  [
+   115.563,
+   119.088,
+   "chose ADD, UPDATE, DELETE, or NOOP for each."
+  ],
+  [
+   119.719,
+   123.244,
+   "Vectors and HNSW find similar memories in milliseconds."
+  ],
+  [
+   123.876,
+   127.4,
+   "The graph variant added entities, invalidated edges, and"
+  ],
+  [
+   127.4,
+   128.281,
+   "dual retrieval."
+  ],
+  [
+   128.913,
+   132.438,
+   "In the paper, Mem0 kept most of full"
+  ],
+  [
+   132.438,
+   135.962,
+   "context's accuracy, at a fraction of its latency"
+  ],
+  [
+   135.962,
+   136.843,
+   "and tokens."
+  ],
+  [
+   137.475,
+   141.0,
+   "The twenty twenty six design makes one add-only"
+  ],
+  [
+   141.0,
+   144.524,
+   "call, links entities, and fuses three signals when"
+  ],
+  [
+   144.524,
+   144.965,
+   "reading."
+  ],
+  [
+   145.596,
+   149.121,
+   "Good memory isn't remembering everything. It's remembering less,"
+  ],
+  [
+   149.121,
+   152.205,
+   "but the right things. Thanks for watching."
+  ]
+ ],
+ "audio": "m0/ch09.wav"
+}

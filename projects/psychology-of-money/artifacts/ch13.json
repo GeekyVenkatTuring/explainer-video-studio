@@ -1,0 +1,425 @@
+{
+ "cuts": [
+  {
+   "id": "ch13_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 15.649,
+   "props": {
+    "n": 13,
+    "total": 20,
+    "title": "Room for Error",
+    "lines": [
+     "The most important part of every plan is planning on the plan not going according to plan.",
+     "Room for error is the only way an uncertain world stays survivable."
+    ],
+    "color": "#34D399",
+    "dur": 16.149
+   }
+  },
+  {
+   "id": "ch13_margin",
+   "type": "pm_sheet",
+   "in_seconds": 16.149,
+   "out_seconds": 58.535,
+   "props": {
+    "kicker": "MARGIN OF SAFETY",
+    "title": "Avoid ruin even when the odds look good",
+    "rows": [
+     {
+      "k": "Stocks since 1870s",
+      "v": "U.S. stocks: annual average about 6.8% after inflation since the 1870s \u2014 with brutal variation around that mean.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Overrun",
+      "v": "Infrastructure projects often run 25% to 50% over budget. Your life plan will too.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Taleb",
+      "v": "You can be risk-loving and still averse to ruin. Russian roulette has favorable odds. The downside is still unacceptable.",
+      "c": "#F87171"
+     },
+     {
+      "k": "95 / 5",
+      "v": "If something is 95% likely, the 5% will still happen in a long life. If that 5% is ruin, do not take the bet.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Gap",
+      "v": "Use a gap between what can happen and what you need to happen. That gap is the room for error.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 42.886
+   }
+  },
+  {
+   "id": "ch13_error-more",
+   "type": "pm_sheet",
+   "in_seconds": 59.035,
+   "out_seconds": 90.997,
+   "props": {
+    "kicker": "ROOM FOR ERROR IN NUMBERS",
+    "title": "The mean is not the life you live",
+    "rows": [
+     {
+      "k": "6.8%",
+      "v": "About 6.8% a year after inflation since the 1870s \u2014 an average that hides years that feel like ruin.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "25\u201350%",
+      "v": "Projects run 25% to 50% over budget. Your retirement math should assume the same slop.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "95/5",
+      "v": "A 95% bet will still hit the 5% in a long life. If the 5% is bankruptcy, the bet is illegal for you.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Taleb",
+      "v": "Risk-loving and ruin-averse can coexist. That is the adult version of room for error.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 32.462
+   }
+  },
+  {
+   "id": "ch13_error-do",
+   "type": "pm_list",
+   "in_seconds": 91.497,
+   "out_seconds": 103.461,
+   "props": {
+    "kicker": "ROOM FOR ERROR \u00b7 RULES",
+    "title": "Leave slack on purpose",
+    "items": [
+     "Save more than the model. Spend less than the peak year. Borrow less than the bank offers.",
+     "A plan that only works if every assumption is right is not a plan. It is a wish."
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 12.464
+   }
+  },
+  {
+   "id": "ch13_error-close",
+   "type": "pm_list",
+   "in_seconds": 103.961,
+   "out_seconds": 126.897,
+   "props": {
+    "kicker": "CHAPTER 13 \u00b7 CLOSE",
+    "title": "Leave slack on purpose",
+    "items": [
+     "A ninety-five percent bet still hits the five percent in a long life. If the five percent is ruin, skip it.",
+     "Projects run over budget. Your retirement math should assume the same slop.",
+     "Save more than the model. Borrow less than the bank offers.",
+     "A plan that only works if every assumption is right is a wish."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 23.436
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.846,
+   "Chapter 13."
+  ],
+  [
+   0.846,
+   2.116,
+   "Room for Error."
+  ],
+  [
+   2.747,
+   6.132,
+   "The most important part of every plan is"
+  ],
+  [
+   6.132,
+   9.517,
+   "planning on the plan not going according\nto"
+  ],
+  [
+   9.517,
+   9.94,
+   "plan."
+  ],
+  [
+   10.572,
+   13.957,
+   "Room for error is the only way an"
+  ],
+  [
+   13.957,
+   15.649,
+   "uncertain world stays survivable."
+  ],
+  [
+   16.149,
+   16.536,
+   "U.S."
+  ],
+  [
+   16.536,
+   16.923,
+   "stocks:"
+  ],
+  [
+   16.923,
+   20.019,
+   "annual average about six point eight\npercent after"
+  ],
+  [
+   20.019,
+   21.954,
+   "inflation since the eighteen seventies,"
+  ],
+  [
+   21.954,
+   24.276,
+   "with brutal variation around that mean."
+  ],
+  [
+   24.907,
+   28.003,
+   "Infrastructure projects often run\ntwenty-five to fifty percent"
+  ],
+  [
+   28.003,
+   28.777,
+   "over budget."
+  ],
+  [
+   28.777,
+   30.712,
+   "Your life plan will too."
+  ],
+  [
+   31.344,
+   31.731,
+   "Taleb:"
+  ],
+  [
+   31.731,
+   34.827,
+   "you can be risk-loving and still averse to"
+  ],
+  [
+   34.827,
+   35.214,
+   "ruin."
+  ],
+  [
+   35.214,
+   37.149,
+   "Russian roulette has favorable odds."
+  ],
+  [
+   37.149,
+   39.083,
+   "The downside is still unacceptable."
+  ],
+  [
+   39.715,
+   42.037,
+   "If something is ninety-five percent\nlikely,"
+  ],
+  [
+   42.037,
+   45.133,
+   "the five percent will still happen in a"
+  ],
+  [
+   45.133,
+   45.907,
+   "long life."
+  ],
+  [
+   45.907,
+   48.229,
+   "If that five percent is ruin,"
+  ],
+  [
+   48.229,
+   50.164,
+   "do not take the bet."
+  ],
+  [
+   50.795,
+   53.891,
+   "Use a gap between what can happen and"
+  ],
+  [
+   53.891,
+   55.826,
+   "what you need to happen."
+  ],
+  [
+   55.826,
+   58.535,
+   "That gap is the room for error."
+  ],
+  [
+   59.035,
+   62.119,
+   "About six point eight percent a year after"
+  ],
+  [
+   62.119,
+   64.046,
+   "inflation since the eighteen seventies."
+  ],
+  [
+   64.046,
+   67.13,
+   "An average that hides years that feel like"
+  ],
+  [
+   67.13,
+   67.516,
+   "ruin."
+  ],
+  [
+   68.147,
+   71.231,
+   "Projects run twenty-five to fifty percent\nover budget."
+  ],
+  [
+   71.231,
+   74.315,
+   "Your retirement math should assume the\nsame slop."
+  ],
+  [
+   74.946,
+   78.03,
+   "A ninety-five percent bet will still hit\nthe"
+  ],
+  [
+   78.03,
+   80.343,
+   "five percent in a long life."
+  ],
+  [
+   80.343,
+   82.656,
+   "If the five percent is bankruptcy,"
+  ],
+  [
+   82.656,
+   84.969,
+   "the bet is illegal for you."
+  ],
+  [
+   85.6,
+   87.528,
+   "Risk-loving and ruin-averse can coexist."
+  ],
+  [
+   87.528,
+   90.612,
+   "That is the adult version of room for"
+  ],
+  [
+   90.612,
+   90.997,
+   "error."
+  ],
+  [
+   91.497,
+   93.116,
+   "Save more than the model."
+  ],
+  [
+   93.116,
+   95.059,
+   "Spend less than the peak year."
+  ],
+  [
+   95.059,
+   97.001,
+   "Borrow less than the bank offers."
+  ],
+  [
+   97.633,
+   100.223,
+   "A plan that only works if every assumption"
+  ],
+  [
+   100.223,
+   102.166,
+   "is right is not a plan."
+  ],
+  [
+   102.166,
+   103.461,
+   "It is a wish."
+  ],
+  [
+   103.961,
+   106.914,
+   "A ninety-five percent bet still hits the\nfive"
+  ],
+  [
+   106.914,
+   108.76,
+   "percent in a long life."
+  ],
+  [
+   108.76,
+   110.975,
+   "If the five percent is ruin,"
+  ],
+  [
+   110.975,
+   111.713,
+   "skip it."
+  ],
+  [
+   112.345,
+   113.821,
+   "Projects run over budget."
+  ],
+  [
+   113.821,
+   116.774,
+   "Your retirement math should assume the\nsame slop."
+  ],
+  [
+   117.406,
+   119.252,
+   "Save more than the model."
+  ],
+  [
+   119.252,
+   121.467,
+   "Borrow less than the bank offers."
+  ],
+  [
+   122.098,
+   125.051,
+   "A plan that only works if every assumption"
+  ],
+  [
+   125.051,
+   126.897,
+   "is right is a wish."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch13.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "part": 0,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/artifacts/ch/p0.json",
+  "seconds": 141.19,
+  "title": "Intro"
+ },
+ {
+  "part": 1,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/artifacts/ch/p1.json",
+  "seconds": 115.08,
+  "title": "The Workflows"
+ },
+ {
+  "part": 2,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/artifacts/ch/p2.json",
+  "seconds": 447.17,
+  "title": "The Contract"
+ },
+ {
+  "part": 3,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/artifacts/ch/p3.json",
+  "seconds": 252.27,
+  "title": "Motion"
+ },
+ {
+  "part": 4,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/artifacts/ch/p4.json",
+  "seconds": 162.06,
+  "title": "Creative Direction"
+ },
+ {
+  "part": 5,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/artifacts/ch/p5.json",
+  "seconds": 233.6,
+  "title": "Media & Audio"
+ },
+ {
+  "part": 6,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/artifacts/ch/p6.json",
+  "seconds": 312.26,
+  "title": "Ship It"
+ },
+ {
+  "part": 7,
+  "json": "/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/artifacts/ch/p7.json",
+  "seconds": 52.92,
+  "title": "Recap"
+ }
+]

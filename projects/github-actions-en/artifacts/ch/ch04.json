@@ -1,0 +1,518 @@
+{
+ "cuts": [
+  {
+   "id": "d04",
+   "type": "gha_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 7.117,
+   "props": {
+    "n": 4,
+    "title": "Runners & Jobs",
+    "sub": "where your code actually runs",
+    "color": "#58A6FF",
+    "total": 10,
+    "dur": 7.117
+   }
+  },
+  {
+   "id": "j04",
+   "type": "gha_hosted",
+   "in_seconds": 7.117,
+   "out_seconds": 45.855,
+   "props": {
+    "dur": 38.738
+   }
+  },
+  {
+   "id": "j04b",
+   "type": "gha_selfhosted",
+   "in_seconds": 45.855,
+   "out_seconds": 88.215,
+   "props": {
+    "dur": 42.36
+   }
+  },
+  {
+   "id": "j04c",
+   "type": "gha_dag",
+   "in_seconds": 88.215,
+   "out_seconds": 122.219,
+   "props": {
+    "dur": 34.004
+   }
+  },
+  {
+   "id": "j04d",
+   "type": "gha_matrix",
+   "in_seconds": 122.219,
+   "out_seconds": 160.804,
+   "props": {
+    "dur": 38.585
+   }
+  },
+  {
+   "id": "j04e",
+   "type": "gha_services",
+   "in_seconds": 160.804,
+   "out_seconds": 194.693,
+   "props": {
+    "dur": 33.889
+   }
+  },
+  {
+   "id": "j04f",
+   "type": "gha_yaml",
+   "in_seconds": 194.693,
+   "out_seconds": 229.324,
+   "props": {
+    "kicker": "CONTROLLING FAILURE",
+    "title": "Timeouts, soft failures and cleanup",
+    "file": ".github/workflows/ci.yml",
+    "lines": [
+     "jobs:",
+     "  test:",
+     "    runs-on: ubuntu-latest",
+     "    timeout-minutes: 15",
+     "    steps:",
+     "      - uses: actions/checkout@v4",
+     "      - run: npm test",
+     "      - run: npm run lint",
+     "        continue-on-error: true",
+     "      - if: failure()",
+     "        run: ./notify-team.sh",
+     "      - if: always()",
+     "        run: docker compose down"
+    ],
+    "notes": [
+     {
+      "a": 3,
+      "b": 3,
+      "at": 0.1,
+      "c": "#F2A93B",
+      "t": "timeout-minutes \u2014 kill a stuck job after 15 min, not 6 h"
+     },
+     {
+      "a": 7,
+      "b": 8,
+      "at": 0.32,
+      "c": "#BC8CFF",
+      "t": "continue-on-error \u2014 lint may fail without failing the job"
+     },
+     {
+      "a": 9,
+      "b": 10,
+      "at": 0.54,
+      "c": "#F85149",
+      "t": "if: failure() \u2014 runs only when something broke"
+     },
+     {
+      "a": 11,
+      "b": 12,
+      "at": 0.82,
+      "c": "#3FB950",
+      "t": "if: always() \u2014 cleanup, pass or fail"
+     }
+    ],
+    "dur": 34.631
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.76,
+   "Part four. Runners and jobs."
+  ],
+  [
+   2.392,
+   5.561,
+   "Where does your code actually run, and how do"
+  ],
+  [
+   5.561,
+   6.617,
+   "jobs work together?"
+  ],
+  [
+   7.117,
+   9.845,
+   "The easy option is a GitHub-hosted runner."
+  ],
+  [
+   10.477,
+   13.985,
+   "You write runs-on ubuntu-latest, windows-latest, or\nmacos-latest, and GitHub"
+  ],
+  [
+   13.985,
+   17.493,
+   "hands you a fresh virtual machine, preloaded with\ncommon"
+  ],
+  [
+   17.493,
+   17.883,
+   "tools."
+  ],
+  [
+   18.514,
+   22.022,
+   "There are Arm runners, larger machines with more\ncores,"
+  ],
+  [
+   22.022,
+   23.582,
+   "and even GPU runners."
+  ],
+  [
+   24.213,
+   27.721,
+   "The key word is ephemeral. Every job gets a"
+  ],
+  [
+   27.721,
+   31.229,
+   "clean machine, and it's wiped when the job ends."
+  ],
+  [
+   31.861,
+   35.369,
+   "Nothing leaks between runs. That's why builds are\nreproducible"
+  ],
+  [
+   35.369,
+   38.877,
+   "\u2014 and why you'll want caching, which we'll see"
+  ],
+  [
+   38.877,
+   39.267,
+   "later."
+  ],
+  [
+   39.898,
+   43.406,
+   "A single job on a hosted runner can run"
+  ],
+  [
+   43.406,
+   45.355,
+   "for up to six hours."
+  ],
+  [
+   45.855,
+   49.446,
+   "The other option is a self-hosted runner: your own"
+  ],
+  [
+   49.446,
+   51.042,
+   "machine, registered with GitHub."
+  ],
+  [
+   51.673,
+   55.264,
+   "A small agent on it asks GitHub for work,"
+  ],
+  [
+   55.264,
+   57.658,
+   "runs the job, and reports back."
+  ],
+  [
+   58.29,
+   61.881,
+   "Why do this? Special hardware. Access to a private"
+  ],
+  [
+   61.881,
+   65.472,
+   "network. Or heavy workloads where your own machines\nare"
+  ],
+  [
+   65.472,
+   65.871,
+   "cheaper."
+  ],
+  [
+   66.502,
+   70.093,
+   "At scale, teams run the Actions Runner Controller on"
+  ],
+  [
+   70.093,
+   73.684,
+   "Kubernetes. It watches the queue and scales runner\npods"
+  ],
+  [
+   73.684,
+   75.28,
+   "up and down automatically."
+  ],
+  [
+   75.912,
+   79.503,
+   "The trade-off: you now own patching, security and\ncleanup."
+  ],
+  [
+   80.134,
+   83.725,
+   "And never attach self-hosted runners to public\nrepositories \u2014"
+  ],
+  [
+   83.725,
+   87.316,
+   "a stranger's pull request could run code on your"
+  ],
+  [
+   87.316,
+   87.715,
+   "machine."
+  ],
+  [
+   88.215,
+   91.495,
+   "A workflow can hold many jobs, and by default"
+  ],
+  [
+   91.495,
+   94.046,
+   "they all start at once, in parallel."
+  ],
+  [
+   94.678,
+   97.958,
+   "To order them, use needs. Here, unit tests and"
+  ],
+  [
+   97.958,
+   101.238,
+   "end-to-end tests both need build. Deploy needs every\ncheck."
+  ],
+  [
+   101.869,
+   105.149,
+   "GitHub turns that into a graph, and starts each"
+  ],
+  [
+   105.149,
+   107.7,
+   "job the moment its needs are done."
+  ],
+  [
+   108.332,
+   111.612,
+   "Watch the timeline. Run one after another, these\njobs"
+  ],
+  [
+   111.612,
+   114.892,
+   "take eleven minutes. Run as a graph, just six."
+  ],
+  [
+   115.523,
+   118.803,
+   "And if a job fails, everything that needs it"
+  ],
+  [
+   118.803,
+   121.719,
+   "is skipped. A broken build never reaches deploy."
+  ],
+  [
+   122.219,
+   125.599,
+   "Need to test on several platforms? Don't copy the"
+  ],
+  [
+   125.599,
+   127.477,
+   "job \u2014 use a matrix."
+  ],
+  [
+   128.108,
+   131.488,
+   "Give it lists: three operating systems, and three\nNode"
+  ],
+  [
+   131.488,
+   131.864,
+   "versions."
+  ],
+  [
+   132.496,
+   135.876,
+   "GitHub multiplies them out: three times three, nine\njobs,"
+  ],
+  [
+   135.876,
+   137.002,
+   "all in parallel."
+  ],
+  [
+   137.634,
+   141.014,
+   "exclude removes combinations you don't need. include\nadds special"
+  ],
+  [
+   141.014,
+   144.394,
+   "ones. Here we drop one and add one \u2014"
+  ],
+  [
+   144.394,
+   145.145,
+   "still nine."
+  ],
+  [
+   145.777,
+   149.157,
+   "By default, fail-fast is on: if one job fails,"
+  ],
+  [
+   149.157,
+   152.537,
+   "GitHub cancels the rest to save time. Turn it"
+  ],
+  [
+   152.537,
+   155.166,
+   "off when you want the full picture."
+  ],
+  [
+   155.797,
+   159.177,
+   "One matrix can generate up to two hundred and"
+  ],
+  [
+   159.177,
+   160.304,
+   "fifty six jobs."
+  ],
+  [
+   160.804,
+   164.072,
+   "Jobs often need a real database to test against."
+  ],
+  [
+   164.072,
+   166.25,
+   "That's what service containers are for."
+  ],
+  [
+   166.882,
+   170.15,
+   "Under services, you name a container \u2014 say Postgres"
+  ],
+  [
+   170.15,
+   173.418,
+   "\u2014 with its image, a password and a health"
+  ],
+  [
+   173.418,
+   173.781,
+   "check."
+  ],
+  [
+   174.412,
+   177.68,
+   "GitHub starts it next to your job, waits until"
+  ],
+  [
+   177.68,
+   180.585,
+   "it's healthy, and your tests connect to it."
+  ],
+  [
+   181.216,
+   184.484,
+   "When the job ends, it's thrown away. Every run"
+  ],
+  [
+   184.484,
+   185.937,
+   "gets a clean database."
+  ],
+  [
+   186.568,
+   189.836,
+   "You can even run the whole job inside a"
+  ],
+  [
+   189.836,
+   193.104,
+   "container, with the container key. Same idea: you\nchoose"
+  ],
+  [
+   193.104,
+   194.193,
+   "the exact environment."
+  ],
+  [
+   194.693,
+   197.236,
+   "Real pipelines also need to control failure."
+  ],
+  [
+   197.867,
+   201.137,
+   "First, timeout minutes. A hung test could otherwise\nburn"
+  ],
+  [
+   201.137,
+   204.406,
+   "up to six hours. Set a sensible limit, like"
+  ],
+  [
+   204.406,
+   205.133,
+   "fifteen minutes."
+  ],
+  [
+   205.765,
+   209.034,
+   "Next, continue on error. Here, lint may fail without"
+  ],
+  [
+   209.034,
+   212.303,
+   "failing the whole job \u2014 useful for a check"
+  ],
+  [
+   212.303,
+   213.756,
+   "you're still rolling out."
+  ],
+  [
+   214.388,
+   217.658,
+   "Normally, a failed step stops the job. But a"
+  ],
+  [
+   217.658,
+   220.927,
+   "step with if failure runs only when something broke"
+  ],
+  [
+   220.927,
+   223.107,
+   "\u2014 perfect for alerting the team."
+  ],
+  [
+   223.738,
+   227.008,
+   "And if always runs no matter what, so the"
+  ],
+  [
+   227.008,
+   228.824,
+   "cleanup happens every single time."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch04.wav",
+   "volume": 1.0
+  }
+ }
+}

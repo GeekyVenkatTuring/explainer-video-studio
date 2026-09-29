@@ -1,0 +1,195 @@
+{
+ "cuts": [
+  {
+   "id": "b10",
+   "type": "dta_pairs",
+   "in_seconds": 0,
+   "out_seconds": 48.885,
+   "props": {
+    "dur": 49.385
+   }
+  },
+  {
+   "id": "b11",
+   "type": "dta_breakout",
+   "in_seconds": 49.385,
+   "out_seconds": 93.436,
+   "props": {
+    "dur": 44.551
+   }
+  }
+ ],
+ "captions": [
+  [
+   0,
+   2.335,
+   "Pairs trading compares two related series."
+  ],
+  [
+   2.967,
+   6.47,
+   "The algo measures their spread, then a z-score\ndescribes"
+  ],
+  [
+   6.47,
+   9.972,
+   "how unusual that spread is against its recent\nhistory."
+  ],
+  [
+   10.604,
+   14.107,
+   "A rule may act when the absolute z-score exceeds"
+  ],
+  [
+   14.107,
+   14.496,
+   "two."
+  ],
+  [
+   15.127,
+   18.63,
+   "It goes long one leg and short the other,"
+  ],
+  [
+   18.63,
+   20.576,
+   "expecting the relationship to normalize."
+  ],
+  [
+   21.208,
+   23.543,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   24.174,
+   26.899,
+   "The real danger is a broken relationship."
+  ],
+  [
+   27.53,
+   31.033,
+   "A sector shock, company event, or changing business\nmodel"
+  ],
+  [
+   31.033,
+   32.979,
+   "can make yesterday's pair irrelevant."
+  ],
+  [
+   33.611,
+   37.114,
+   "A pair is not safe merely because it has"
+  ],
+  [
+   37.114,
+   38.281,
+   "moved together before."
+  ],
+  [
+   38.913,
+   42.415,
+   "The model needs synchronized data, a clear hedge\nrule,"
+  ],
+  [
+   42.415,
+   45.918,
+   "and a way to exit when the spread keeps"
+  ],
+  [
+   45.918,
+   46.307,
+   "widening."
+  ],
+  [
+   46.939,
+   48.885,
+   "Neutral-looking positions still carry risk."
+  ],
+  [
+   49.385,
+   51.95,
+   "Opening-range breakout defines a first trading\nwindow."
+  ],
+  [
+   52.581,
+   54.779,
+   "Its high and low become boundaries."
+  ],
+  [
+   55.411,
+   58.708,
+   "If price crosses above the high, a long rule"
+  ],
+  [
+   58.708,
+   59.441,
+   "may activate."
+  ],
+  [
+   60.072,
+   63.37,
+   "If it crosses below the low, a short rule"
+  ],
+  [
+   63.37,
+   64.102,
+   "may activate."
+  ],
+  [
+   64.734,
+   68.031,
+   "A stop defines failure before the order is sent."
+  ],
+  [
+   68.663,
+   70.861,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   71.493,
+   74.79,
+   "Opening noise, headline gaps, and false breakouts\nare the"
+  ],
+  [
+   74.79,
+   75.523,
+   "core danger."
+  ],
+  [
+   76.154,
+   79.451,
+   "A boundary crossed once is not a guaranteed trend."
+  ],
+  [
+   80.083,
+   83.38,
+   "A breakout rule must decide its range before the"
+  ],
+  [
+   83.38,
+   83.747,
+   "break."
+  ],
+  [
+   84.378,
+   87.309,
+   "It must decide its stop before the entry."
+  ],
+  [
+   87.941,
+   91.238,
+   "Otherwise the system is just reacting after the\nemotional"
+  ],
+  [
+   91.238,
+   93.436,
+   "part of the move has arrived."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "dta/ch04.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,277 @@
+{
+  "cuts": [
+    {
+      "id": "esds_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 20.756,
+      "props": {
+        "title": "ESDS Software Solution IPO",
+        "sub": "AI-enabled cloud & data centres · ₹720 Cr · 28 Aug–1 Sep 2026",
+        "kicker": "IPO ANALYSIS · MAINBOARD · 100% FRESH",
+        "dur": 21.256
+      }
+    },
+    {
+      "id": "esds_biz",
+      "type": "sm_iconcards",
+      "in_seconds": 21.256,
+      "out_seconds": 62.122,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "Business Model",
+        "color": "#22D3EE",
+        "items": [
+          {
+            "emoji": "☁️",
+            "k": "AI-enabled cloud & data centres",
+            "v": "ESDS runs managed cloud, data-centre infrastructure, cybersecurity and GPU-as-a-service for Indian enterprises and government.",
+            "chip": "CLOUD"
+          },
+          {
+            "emoji": "🏛️",
+            "k": "Government & BFSI heavy",
+            "v": "Its community-cloud and compliance focus skews to public-sector, banking and regulated customers.",
+            "chip": "REGULATED"
+          },
+          {
+            "emoji": "📈",
+            "k": "Profitable and scaling",
+            "v": "FY26 revenue grew about 28% and profit more than doubled, with debt-equity of only 0.08.",
+            "chip": "QUALITY"
+          }
+        ],
+        "dur": 41.366
+      }
+    },
+    {
+      "id": "esds_fin",
+      "type": "sm_stats",
+      "in_seconds": 62.622,
+      "out_seconds": 105.65,
+      "props": {
+        "kicker": "FINANCIAL QUALITY",
+        "title": "FY26 Financials",
+        "stats": [
+          {
+            "label": "Revenue",
+            "to": 480.65,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "FY26 filing"
+          },
+          {
+            "label": "Profit after tax",
+            "to": 120.82,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "filing evidence"
+          },
+          {
+            "label": "PAT margin",
+            "to": 25.136793924893375,
+            "prefix": "",
+            "suffix": "%",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "reported FY26 margin"
+          }
+        ],
+        "note": "FY26 revenue ₹480.65 Cr (FY25 ₹376.64), PAT ₹120.82 Cr (FY25 ₹55.61, +117%); PAT margin about 25% with debt-equity of 0.08.",
+        "dur": 43.528
+      }
+    },
+    {
+      "id": "esds_issue",
+      "type": "sm_stats",
+      "in_seconds": 106.15,
+      "out_seconds": 120.356,
+      "props": {
+        "kicker": "OFFER STRUCTURE",
+        "title": "Fresh Issue vs OFS",
+        "stats": [
+          {
+            "label": "Total offer",
+            "to": 720.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#22D3EE",
+            "sub": "offer size"
+          },
+          {
+            "label": "Fresh — company receives",
+            "to": 720.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "new capital"
+          },
+          {
+            "label": "OFS — sellers receive",
+            "to": 0.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FB7185",
+            "sub": "none — 100% fresh"
+          }
+        ],
+        "note": "Fresh funds enter the company. Offer-for-sale proceeds go to selling shareholders.",
+        "dur": 14.706
+      }
+    },
+    {
+      "id": "esds_proceeds",
+      "type": "sm_iconcards",
+      "in_seconds": 120.856,
+      "out_seconds": 154.138,
+      "props": {
+        "kicker": "USE OF PROCEEDS",
+        "title": "What The Capital Funds",
+        "color": "#22D3EE",
+        "items": [
+          {
+            "emoji": "🖥️",
+            "k": "About ₹576 Cr cloud & data-centre kit",
+            "v": "The bulk of the fresh issue funds cloud-computing equipment and data-centre build-out.",
+            "chip": "80% OF FRESH"
+          },
+          {
+            "emoji": "🧰",
+            "k": "General corporate purposes",
+            "v": "The remainder is for general corporate purposes per the RHP.",
+            "chip": "GCP"
+          },
+          {
+            "emoji": "✅",
+            "k": "No promoter exit",
+            "v": "With no offer for sale, all ₹720 Cr of proceeds enter the company.",
+            "chip": "100% FRESH"
+          }
+        ],
+        "dur": 33.782
+      }
+    },
+    {
+      "id": "esds_peers",
+      "type": "sm_peers",
+      "in_seconds": 154.638,
+      "out_seconds": 172.324,
+      "props": {
+        "kicker": "COMPETITORS · VALUATION",
+        "title": "Peer Comparison",
+        "color": "#22D3EE",
+        "rows": [
+          {
+            "name": "ESDS IPO",
+            "pe": null,
+            "note": "AI-enabled cloud + data centres",
+            "hi": true
+          },
+          {
+            "name": "E2E Networks",
+            "pe": null,
+            "note": "only listed peer; loss-making, P/E n/a",
+            "hi": false
+          }
+        ],
+        "verdict": "There is no clean profitable listed peer: judge ESDS on its own roughly 25% PAT margin, 25% return on equity and a low 0.08 debt-equity.",
+        "dur": 18.186
+      }
+    },
+    {
+      "id": "esds_verdict",
+      "type": "sm_myths",
+      "in_seconds": 172.824,
+      "out_seconds": 212.778,
+      "props": {
+        "kicker": "CONSOLIDATED ANALYSIS",
+        "title": "Strengths vs Watch-outs",
+        "mythLabel": "⚠️ WATCH-OUTS",
+        "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+        "pairs": [
+          {
+            "m": "Valuation is rich after a very strong FY26",
+            "f": "Profitable, cash-generative cloud with about 25% PAT margin"
+          },
+          {
+            "m": "Competition from global hyperscalers",
+            "f": "Profit more than doubled; debt-equity just 0.08"
+          },
+          {
+            "m": "The only listed peer is loss-making, hard to benchmark",
+            "f": "100% fresh capital funds capacity, no promoter exit"
+          }
+        ],
+        "dur": 40.454
+      }
+    },
+    {
+      "id": "esds_retail",
+      "type": "sm_iconcards",
+      "in_seconds": 213.278,
+      "out_seconds": 244.76,
+      "props": {
+        "kicker": "HOW TO APPLY",
+        "title": "Check Terms Before You Bid",
+        "color": "#22D3EE",
+        "items": [
+          {
+            "emoji": "🧑",
+            "k": "Retail cap",
+            "v": "Retail bids up to ₹2 lakh; allocation can be lottery-based when oversubscribed.",
+            "chip": "RII"
+          },
+          {
+            "emoji": "💰",
+            "k": "Minimum bid",
+            "v": "₹14,586 (34 shares × ₹429)",
+            "chip": "MIN BID"
+          },
+          {
+            "emoji": "📌",
+            "k": "MAINBOARD",
+            "v": "Mainboard retail bids run up to two lakh rupees; allotment can be a lottery when oversubscribed.",
+            "chip": "MAINBOARD"
+          },
+          {
+            "emoji": "🔎",
+            "k": "Verify live",
+            "v": "Read the final RHP and the NSE or BSE subscription data before bidding.",
+            "chip": "SOURCES"
+          }
+        ],
+        "dur": 31.982
+      }
+    },
+    {
+      "id": "esds_recap",
+      "type": "sm_recap",
+      "in_seconds": 245.26,
+      "out_seconds": 309.474,
+      "props": {
+        "title": "ESDS Software Solution IPO — Evidence Recap",
+        "items": [
+          "FY26: revenue ₹480.65 Cr · PAT ₹120.82 Cr",
+          "Offer: ₹720.00 Cr · 100% fresh",
+          "Competitor lens: There is no clean profitable listed peer: judge ESDS on its own roughly 25% PAT margin, 25% return on equity and a low 0.08 debt-equity.",
+          "Evidence: RHP-based reporting: Groww, IPOWatch, tradebrains, Upstox, Chittorgarh (FY26 financials, objects, terms)."
+        ],
+        "closer": "Read the final RHP. Decide for yourself.",
+        "dur": 64.714
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/esds.wav",
+      "volume": 1.0
+    }
+  }
+}

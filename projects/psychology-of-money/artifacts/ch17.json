@@ -1,0 +1,490 @@
+{
+ "cuts": [
+  {
+   "id": "ch17_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 14.775,
+   "props": {
+    "n": 17,
+    "total": 20,
+    "title": "Pessimism",
+    "lines": [
+     "Pessimism sounds smarter than optimism and travels faster.",
+     "Progress is slow and quiet. Setbacks are fast and loud. That skews the news."
+    ],
+    "color": "#FBBF24",
+    "dur": 15.275
+   }
+  },
+  {
+   "id": "ch17_seduced",
+   "type": "pm_sheet",
+   "in_seconds": 15.275,
+   "out_seconds": 73.62,
+   "props": {
+    "kicker": "WHY PESSIMISM SEDUCES",
+    "title": "Asymmetry of stories",
+    "rows": [
+     {
+      "k": "News",
+      "v": "Stocks rising 1% might get a mention. A 1% fall is reported in bold.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "1929 owners",
+      "v": "Only 2.5% of Americans owned stocks on the eve of the crash \u2014 yet it defines the national memory.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Heart disease",
+      "v": "U.S. death rates from heart disease declined more than 70% since 1965 \u2014 a quiet miracle versus a loud crash.",
+      "c": "#34D399"
+     },
+     {
+      "k": "40 vs 140",
+      "v": "A 40% decline in months owns the narrative. A 140% gain over six years can go almost unnoticed.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Oil",
+      "v": "A barrel sold for $20 in 2001 and $138 by 2008. Yergin: 86% of oil is still in the ground \u2014 scarcity stories ignore that.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Japan aside",
+      "v": "The book imagines a 1945 Japanese forecast of 15\u00d7 growth, doubled lifespan, and decades under 6% unemployment \u2014 optimism that sounded insane and happened.",
+      "c": "#E8B86D"
+     }
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 58.845
+   }
+  },
+  {
+   "id": "ch17_pess-more",
+   "type": "pm_sheet",
+   "in_seconds": 74.12,
+   "out_seconds": 112.768,
+   "props": {
+    "kicker": "PROGRESS IS QUIET",
+    "title": "Why the crash owns the story",
+    "rows": [
+     {
+      "k": "1% news",
+      "v": "A 1% rise is a mention. A 1% fall is a headline. Attention is not a fair sample.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "2.5%",
+      "v": "Only 2.5% of Americans owned stocks at the 1929 crash. The memory is national anyway.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Heart 70%",
+      "v": "Deaths from heart disease down more than 70% since 1965 \u2014 slow, so it barely feels like news.",
+      "c": "#34D399"
+     },
+     {
+      "k": "40 vs 140",
+      "v": "A 40% drop in months is a saga. A 140% gain over six years is a shrug.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Oil 86%",
+      "v": "Yergin: 86% of oil still in the ground. Scarcity stories skip the residual.",
+      "c": "#38BDF8"
+     }
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 39.148
+   }
+  },
+  {
+   "id": "ch17_pess-do",
+   "type": "pm_list",
+   "in_seconds": 113.268,
+   "out_seconds": 124.596,
+   "props": {
+    "kicker": "PESSIMISM \u00b7 RULES",
+    "title": "Do not let the loud side monopolise the file",
+    "items": [
+     "For every crash story, ask what slow compounding happened in the same decades.",
+     "Optimism can sound naive and still be the base rate of a growing economy."
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 11.828
+   }
+  },
+  {
+   "id": "ch17_pess-close",
+   "type": "pm_list",
+   "in_seconds": 125.096,
+   "out_seconds": 153.662,
+   "props": {
+    "kicker": "CHAPTER 17 \u00b7 CLOSE",
+    "title": "Do not let the crash own the file",
+    "items": [
+     "A one percent fall is a headline. A one percent rise is a mention. Attention is a biased sample.",
+     "Heart-disease deaths fell more than seventy percent since nineteen sixty-five, slowly, so it barely felt like news.",
+     "A forty percent drop in months is a saga. A one hundred forty percent gain over six years is a shrug.",
+     "Optimism can sound naive and still be the base rate of a growing economy."
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 29.066
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.081,
+   "Chapter 17."
+  ],
+  [
+   1.081,
+   1.621,
+   "Pessimism."
+  ],
+  [
+   2.253,
+   6.577,
+   "Pessimism sounds smarter than optimism and\ntravels faster."
+  ],
+  [
+   7.208,
+   9.911,
+   "Progress is slow and quiet."
+  ],
+  [
+   9.911,
+   12.613,
+   "Setbacks are fast and loud."
+  ],
+  [
+   12.613,
+   14.775,
+   "That skews the news."
+  ],
+  [
+   15.275,
+   18.474,
+   "Stocks rising one percent might get a\nmention."
+  ],
+  [
+   18.474,
+   21.674,
+   "A one percent fall is reported in bold."
+  ],
+  [
+   22.305,
+   25.504,
+   "Only two point five percent of Americans\nowned"
+  ],
+  [
+   25.504,
+   28.304,
+   "stocks on the eve of the crash,"
+  ],
+  [
+   28.304,
+   30.703,
+   "yet it defines the national memory."
+  ],
+  [
+   31.335,
+   31.735,
+   "U.S."
+  ],
+  [
+   31.735,
+   34.934,
+   "death rates from heart disease declined\nmore than"
+  ],
+  [
+   34.934,
+   36.933,
+   "seventy percent since nineteen sixty-five."
+  ],
+  [
+   36.933,
+   39.733,
+   "A quiet miracle versus a loud crash."
+  ],
+  [
+   40.364,
+   43.564,
+   "A forty percent decline in months owns the"
+  ],
+  [
+   43.564,
+   43.963,
+   "narrative."
+  ],
+  [
+   43.963,
+   47.163,
+   "A one hundred forty percent gain over six"
+  ],
+  [
+   47.163,
+   49.162,
+   "years can go almost unnoticed."
+  ],
+  [
+   49.794,
+   52.993,
+   "A barrel sold for twenty dollars in two"
+  ],
+  [
+   52.993,
+   56.192,
+   "thousand one and one hundred thirty-eight\nby two"
+  ],
+  [
+   56.192,
+   56.992,
+   "thousand eight."
+  ],
+  [
+   56.992,
+   57.392,
+   "Yergin:"
+  ],
+  [
+   57.392,
+   60.591,
+   "eighty-six percent of oil is still in the"
+  ],
+  [
+   60.591,
+   60.991,
+   "ground."
+  ],
+  [
+   60.991,
+   62.591,
+   "Scarcity stories ignore that."
+  ],
+  [
+   63.222,
+   66.422,
+   "The book imagines a nineteen forty-five\nJapanese forecast"
+  ],
+  [
+   66.422,
+   68.021,
+   "of fifteen times growth,"
+  ],
+  [
+   68.021,
+   68.821,
+   "doubled lifespan,"
+  ],
+  [
+   68.821,
+   71.221,
+   "and decades under six percent\nunemployment."
+  ],
+  [
+   71.221,
+   72.82,
+   "Optimism that sounded insane,"
+  ],
+  [
+   72.82,
+   73.62,
+   "and happened."
+  ],
+  [
+   74.12,
+   76.81,
+   "A one percent rise is a mention."
+  ],
+  [
+   76.81,
+   79.5,
+   "A one percent fall is a headline."
+  ],
+  [
+   79.5,
+   81.805,
+   "Attention is not a fair sample."
+  ],
+  [
+   82.437,
+   85.511,
+   "Only two point five percent of Americans\nowned"
+  ],
+  [
+   85.511,
+   87.817,
+   "stocks at the nineteen twenty-nine crash."
+  ],
+  [
+   87.817,
+   89.738,
+   "The memory is national anyway."
+  ],
+  [
+   90.37,
+   93.444,
+   "Deaths from heart disease down more than\nseventy"
+  ],
+  [
+   93.444,
+   94.981,
+   "percent since nineteen sixty-five."
+  ],
+  [
+   94.981,
+   95.365,
+   "Slow,"
+  ],
+  [
+   95.365,
+   97.671,
+   "so it barely feels like news."
+  ],
+  [
+   98.303,
+   101.377,
+   "A forty percent drop in months is a"
+  ],
+  [
+   101.377,
+   101.761,
+   "saga."
+  ],
+  [
+   101.761,
+   104.835,
+   "A one hundred forty percent gain over six"
+  ],
+  [
+   104.835,
+   106.372,
+   "years is a shrug."
+  ],
+  [
+   107.004,
+   107.388,
+   "Yergin:"
+  ],
+  [
+   107.388,
+   110.462,
+   "eighty-six percent of oil is still in the"
+  ],
+  [
+   110.462,
+   110.847,
+   "ground."
+  ],
+  [
+   110.847,
+   112.768,
+   "Scarcity stories skip the residual."
+  ],
+  [
+   113.268,
+   114.853,
+   "For every crash story,"
+  ],
+  [
+   114.853,
+   118.022,
+   "ask what slow compounding happened in the\nsame"
+  ],
+  [
+   118.022,
+   118.418,
+   "decades."
+  ],
+  [
+   119.05,
+   122.219,
+   "Optimism can sound naive and still be the"
+  ],
+  [
+   122.219,
+   124.596,
+   "base rate of a growing economy."
+  ],
+  [
+   125.096,
+   127.726,
+   "A one percent fall is a headline."
+  ],
+  [
+   127.726,
+   130.355,
+   "A one percent rise is a mention."
+  ],
+  [
+   130.355,
+   132.233,
+   "Attention is a biased sample."
+  ],
+  [
+   132.865,
+   135.87,
+   "Heart-disease deaths fell more than\nseventy percent since"
+  ],
+  [
+   135.87,
+   136.621,
+   "nineteen sixty-five,"
+  ],
+  [
+   136.621,
+   136.997,
+   "slowly,"
+  ],
+  [
+   136.997,
+   139.251,
+   "so it barely felt like news."
+  ],
+  [
+   139.883,
+   142.888,
+   "A forty percent drop in months is a"
+  ],
+  [
+   142.888,
+   143.263,
+   "saga."
+  ],
+  [
+   143.263,
+   146.269,
+   "A one hundred forty percent gain over six"
+  ],
+  [
+   146.269,
+   147.771,
+   "years is a shrug."
+  ],
+  [
+   148.403,
+   151.408,
+   "Optimism can sound naive and still be the"
+  ],
+  [
+   151.408,
+   153.662,
+   "base rate of a growing economy."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch17.wav",
+   "volume": 1.0
+  }
+ }
+}

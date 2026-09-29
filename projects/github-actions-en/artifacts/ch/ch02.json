@@ -1,0 +1,394 @@
+{
+ "cuts": [
+  {
+   "id": "d02",
+   "type": "gha_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 7.157,
+   "props": {
+    "n": 2,
+    "title": "Anatomy of a Workflow",
+    "sub": "one YAML file, line by line",
+    "color": "#BC8CFF",
+    "total": 10,
+    "dur": 7.157
+   }
+  },
+  {
+   "id": "a02",
+   "type": "gha_yaml",
+   "in_seconds": 7.157,
+   "out_seconds": 47.208,
+   "props": {
+    "kicker": "YOUR FIRST WORKFLOW",
+    "title": "Fifteen lines that test every change",
+    "file": ".github/workflows/ci.yml",
+    "lines": [
+     "name: CI",
+     "on:",
+     "  push:",
+     "    branches: [main]",
+     "  pull_request:",
+     "jobs:",
+     "  test:",
+     "    runs-on: ubuntu-latest",
+     "    steps:",
+     "      - uses: actions/checkout@v4",
+     "      - uses: actions/setup-node@v4",
+     "        with:",
+     "          node-version: 22",
+     "      - run: npm ci",
+     "      - run: npm test"
+    ],
+    "notes": [
+     {
+      "a": 0,
+      "b": 0,
+      "at": 0.19,
+      "c": "#BC8CFF",
+      "t": "name \u2014 the label shown in the Actions tab"
+     },
+     {
+      "a": 1,
+      "b": 4,
+      "at": 0.32,
+      "c": "#F2A93B",
+      "t": "on \u2014 the trigger: pushes to main + every pull request"
+     },
+     {
+      "a": 5,
+      "b": 6,
+      "at": 0.5,
+      "c": "#58A6FF",
+      "t": "jobs \u2014 one job, called \u201ctest\u201d"
+     },
+     {
+      "a": 7,
+      "b": 7,
+      "at": 0.6,
+      "c": "#58A6FF",
+      "t": "runs-on \u2014 which machine: latest Ubuntu"
+     },
+     {
+      "a": 8,
+      "b": 14,
+      "at": 0.7,
+      "c": "#3FB950",
+      "t": "steps \u2014 checkout, install Node, install deps, test"
+     }
+    ],
+    "dur": 40.051
+   }
+  },
+  {
+   "id": "a02b",
+   "type": "gha_steps",
+   "in_seconds": 47.208,
+   "out_seconds": 87.543,
+   "props": {
+    "dur": 40.335
+   }
+  },
+  {
+   "id": "a02c",
+   "type": "gha_lifecycle",
+   "in_seconds": 87.543,
+   "out_seconds": 127.387,
+   "props": {
+    "dur": 39.844
+   }
+  },
+  {
+   "id": "a02d",
+   "type": "gha_runlog",
+   "in_seconds": 127.387,
+   "out_seconds": 160.542,
+   "props": {
+    "dur": 33.155
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.008,
+   "Part two. Anatomy of a workflow."
+  ],
+  [
+   2.64,
+   5.653,
+   "Let's open a real workflow file and read it,"
+  ],
+  [
+   5.653,
+   6.657,
+   "line by line."
+  ],
+  [
+   7.157,
+   10.655,
+   "Workflows live in one place: a folder called dot"
+  ],
+  [
+   10.655,
+   14.154,
+   "github, slash workflows. Any YAML file there is a"
+  ],
+  [
+   14.154,
+   14.543,
+   "workflow."
+  ],
+  [
+   15.174,
+   18.673,
+   "Line one, name, is just the label you'll see"
+  ],
+  [
+   18.673,
+   19.839,
+   "in the UI."
+  ],
+  [
+   20.47,
+   23.969,
+   "Next, on. This is the trigger. Here: run on"
+  ],
+  [
+   23.969,
+   27.467,
+   "every push to main, and on every pull request."
+  ],
+  [
+   28.099,
+   31.208,
+   "Then jobs. We have one job, called test."
+  ],
+  [
+   31.84,
+   34.95,
+   "runs-on picks the machine: the latest Ubuntu runner."
+  ],
+  [
+   35.581,
+   39.08,
+   "And steps is the to-do list. Check out the"
+  ],
+  [
+   39.08,
+   42.189,
+   "code. Install Node. Install dependencies. Run the\ntests."
+  ],
+  [
+   42.821,
+   46.319,
+   "Fifteen lines, and every pull request now gets\ntested"
+  ],
+  [
+   46.319,
+   46.708,
+   "automatically."
+  ],
+  [
+   47.208,
+   49.744,
+   "Every step is one of two kinds."
+  ],
+  [
+   50.375,
+   53.635,
+   "A uses step pulls in an action \u2014 reusable"
+  ],
+  [
+   53.635,
+   56.895,
+   "code someone already wrote. actions slash checkout,\nat v4,"
+  ],
+  [
+   56.895,
+   60.155,
+   "means: the checkout action, from the actions\norganization, version"
+  ],
+  [
+   60.155,
+   62.691,
+   "four. The with block passes it inputs."
+  ],
+  [
+   63.322,
+   66.582,
+   "A run step is plain shell. Whatever you'd type"
+  ],
+  [
+   66.582,
+   69.842,
+   "in a terminal, you can put here. Use a"
+  ],
+  [
+   69.842,
+   72.015,
+   "pipe character to write several lines."
+  ],
+  [
+   72.647,
+   75.907,
+   "Steps in a job share the same machine and"
+  ],
+  [
+   75.907,
+   79.167,
+   "the same files. So step one checks out the"
+  ],
+  [
+   79.167,
+   81.703,
+   "code, and step four can test it."
+  ],
+  [
+   82.334,
+   85.594,
+   "That shared workspace is what makes a job feel"
+  ],
+  [
+   85.594,
+   87.043,
+   "like one continuous script."
+  ],
+  [
+   87.543,
+   90.007,
+   "So what actually happens when you push?"
+  ],
+  [
+   90.639,
+   93.455,
+   "GitHub receives the push, and records an event."
+  ],
+  [
+   94.087,
+   97.255,
+   "It looks in dot github slash workflows \u2014 in"
+  ],
+  [
+   97.255,
+   100.423,
+   "that exact commit \u2014 for workflows listening to push."
+  ],
+  [
+   101.055,
+   104.223,
+   "Each match becomes a workflow run, and its jobs"
+  ],
+  [
+   104.223,
+   105.631,
+   "go into a queue."
+  ],
+  [
+   106.262,
+   109.431,
+   "A runner picks up a job. On hosted runners,"
+  ],
+  [
+   109.431,
+   112.599,
+   "that's a brand new virtual machine, created just for"
+  ],
+  [
+   112.599,
+   113.303,
+   "this job."
+  ],
+  [
+   113.935,
+   117.103,
+   "The runner downloads the actions, runs each step,\nand"
+  ],
+  [
+   117.103,
+   118.863,
+   "streams the logs back live."
+  ],
+  [
+   119.494,
+   122.663,
+   "When the job finishes, the machine is destroyed. And"
+  ],
+  [
+   122.663,
+   125.831,
+   "a green check, or a red cross, appears next"
+  ],
+  [
+   125.831,
+   126.887,
+   "to your commit."
+  ],
+  [
+   127.387,
+   130.242,
+   "You watch all of this in the Actions tab."
+  ],
+  [
+   130.873,
+   133.728,
+   "On the left, every run of every workflow. Click"
+  ],
+  [
+   133.728,
+   136.582,
+   "one, and you see a graph of its jobs."
+  ],
+  [
+   137.214,
+   140.068,
+   "Click a job, and you get the live log"
+  ],
+  [
+   140.068,
+   142.923,
+   "\u2014 every step, with its own timing, expandable line"
+  ],
+  [
+   142.923,
+   143.557,
+   "by line."
+  ],
+  [
+   144.189,
+   147.043,
+   "The same result shows up on pull requests as"
+  ],
+  [
+   147.043,
+   147.995,
+   "a status check."
+  ],
+  [
+   148.627,
+   151.481,
+   "With branch protection, you can make those checks\nrequired."
+  ],
+  [
+   151.481,
+   154.336,
+   "The merge button stays locked until the tests pass."
+  ],
+  [
+   154.967,
+   157.822,
+   "That's the whole loop: a push, a run, a"
+  ],
+  [
+   157.822,
+   160.042,
+   "verdict \u2014 right where the team works."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch02.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-launches-27aug-03sep-2026/assets/raw/farmpeace_lane_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-launches-27aug-03sep-2026/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-launches-27aug-03sep-2026/assets/raw/farmpeace_lane_c1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-launches-27aug-03sep-2026/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-launches-27aug-03sep-2026/assets/raw/farmpeace_lane_c2.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-launches-27aug-03sep-2026/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-launches-27aug-03sep-2026/assets/raw/farmpeace_lane_c3.wav'

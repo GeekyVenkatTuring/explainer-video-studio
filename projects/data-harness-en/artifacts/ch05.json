@@ -1,0 +1,622 @@
+{
+ "pack": "ledger",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "data-harness",
+  "issue": "part 5 · trust + memory",
+  "code": "DH · P5"
+ },
+ "beats": [
+  {
+   "id": "b28",
+   "kind": "divider",
+   "dur": 7.135,
+   "props": {
+    "n": 5,
+    "total": 6,
+    "title": "Trust and memory",
+    "sub": "verify every number · remember every correction"
+   }
+  },
+  {
+   "id": "b29",
+   "kind": "x_verify",
+   "dur": 39.311,
+   "props": {
+    "kicker": "Step 5 · the verifier gate",
+    "title": "Every number must match the evidence",
+    "claims": [
+     {
+      "t": "Net margin rose from {n} a year ago",
+      "n": "7.32%",
+      "ok": true,
+      "e": 0,
+      "key": "rose"
+     },
+     {
+      "t": "to {n} in Q2FY26.",
+      "n": "8.50%",
+      "ok": true,
+      "e": 1,
+      "key": "now"
+     },
+     {
+      "t": "Revenue grew {n} year on year.",
+      "n": "10.40%",
+      "ok": false,
+      "e": 2,
+      "fix": "14.07%",
+      "key": "grew"
+     },
+     {
+      "t": "Debt to equity fell to {n}.",
+      "n": "0.25x",
+      "ok": true,
+      "e": 3,
+      "key": "fell"
+     }
+    ],
+    "evidence": [
+     {
+      "k": "net_margin Q2FY25",
+      "v": "7.32",
+      "src": "q2fy25.pdf p4"
+     },
+     {
+      "k": "net_margin Q2FY26",
+      "v": "8.50",
+      "src": "q2fy26.pdf p4"
+     },
+     {
+      "k": "yoy(revenue) Q2FY26",
+      "v": "14.07",
+      "src": "metrics.yaml"
+     },
+     {
+      "k": "D/E H1FY26",
+      "v": "0.25",
+      "src": "BS!C14:E22"
+     },
+     {
+      "k": "borrowings H1FY26",
+      "v": "412.50",
+      "src": "BS!E14"
+     }
+    ],
+    "ats": [
+     0.284,
+     0.375,
+     0.424,
+     0.802
+    ]
+   }
+  },
+  {
+   "id": "b30",
+   "kind": "list",
+   "dur": 29.511,
+   "props": {
+    "kicker": "Beyond matching",
+    "title": "Sanity rules that catch the rest",
+    "items": [
+     {
+      "h": "Units",
+      "d": "a 100× jump between periods is a lakh–crore slip"
+     },
+     {
+      "h": "Ranges",
+      "d": "margins within ±100%, D/E never negative"
+     },
+     {
+      "h": "Periods",
+      "d": "contiguous quarters, fiscal calendar mapped"
+     },
+     {
+      "h": "Conflicts",
+      "d": "if sources disagree, show both, pick neither"
+     },
+     {
+      "h": "As-of",
+      "d": "every answer states how fresh its data is"
+     },
+     {
+      "h": "Refusal",
+      "d": "'not in the loaded documents' beats a guess"
+     }
+    ],
+    "ats": [
+     0.15,
+     0.317,
+     0.47,
+     0.544,
+     0.685,
+     0.746
+    ]
+   }
+  },
+  {
+   "id": "b31",
+   "kind": "x_table",
+   "dur": 34.653,
+   "props": {
+    "kicker": "Measure it",
+    "title": "A golden set, before any clever features",
+    "cols": [
+     {
+      "h": "question type",
+      "w": 1.6
+     },
+     {
+      "h": "example",
+      "w": 3.2
+     },
+     {
+      "h": "graded by",
+      "w": 1.6
+     }
+    ],
+    "rows": [
+     [
+      "lookup",
+      "Acme PAT in Q2FY26?",
+      "exact ± 0.5%"
+     ],
+     [
+      "trend",
+      "Margin over 8 quarters?",
+      "exact series"
+     ],
+     [
+      "ratio",
+      "D/E in H1FY26?",
+      "exact ± 0.5%"
+     ],
+     [
+      "cross-source",
+      "PDF vs Excel PAT agree?",
+      "flags conflict"
+     ],
+     [
+      "narrative",
+      "Why did margin rise?",
+      "judge + citation"
+     ],
+     [
+      "refusal",
+      "Q2FY26 cash flow?",
+      "says 'not loaded'"
+     ]
+    ],
+    "marks": [
+     {
+      "r": 4,
+      "c": 2,
+      "key": "judge",
+      "tone": "bad",
+      "note": "validate the LLM judge against human labels first: one public write-up found it inflated scores by 34%",
+      "at": 0.668
+     }
+    ]
+   }
+  },
+  {
+   "id": "b32",
+   "kind": "x_table",
+   "dur": 42.269,
+   "props": {
+    "kicker": "Memory, Mem0-style",
+    "title": "What to remember, and where",
+    "cols": [
+     {
+      "h": "layer",
+      "w": 1.3
+     },
+     {
+      "h": "what",
+      "w": 3.4
+     },
+     {
+      "h": "stored in",
+      "w": 1.7
+     }
+    ],
+    "rows": [
+     [
+      "working",
+      "this session's evidence log",
+      "process memory"
+     ],
+     [
+      "short-term",
+      "the conversation, compacted",
+      "session store"
+     ],
+     [
+      "preferences",
+      "'show ₹ crore', 'I hold HAL and KEI'",
+      "Mem0 (vector)"
+     ],
+     [
+      "tribal knowledge",
+      "'broker_x.xlsx is in lakh' — when source = broker_x",
+      "Mem0 + applies_when"
+     ],
+     [
+      "NOT memory",
+      "financial numbers",
+      "facts table only"
+     ]
+    ],
+    "marks": [
+     {
+      "r": 3,
+      "c": 1,
+      "key": "tribal",
+      "tone": "hi",
+      "note": "Tk-Boost (arXiv 2602.13521): corrections + applicability conditions → +16.9% Spider 2.0, +13.7% BIRD",
+      "at": 0.347
+     },
+     {
+      "r": 4,
+      "c": 0,
+      "key": "never",
+      "tone": "bad",
+      "note": "numbers live in the facts table, with provenance, never in memory",
+      "at": 0.827
+     }
+    ]
+   }
+  },
+  {
+   "id": "b33",
+   "kind": "flow",
+   "dur": 30.168,
+   "props": {
+    "kicker": "The learning loop",
+    "title": "A correction made once, applied forever",
+    "steps": [
+     {
+      "h": "User corrects",
+      "d": "'those borrowings are lakh, not crore'"
+     },
+     {
+      "h": "Extract learning",
+      "d": "fact + applies_when: source = broker_x.xlsx"
+     },
+     {
+      "h": "Store",
+      "d": "ADD, UPDATE or NOOP against existing memories"
+     },
+     {
+      "h": "Recall next time",
+      "d": "context builder injects it for matching sources"
+     }
+    ],
+    "ats": [
+     0.092,
+     0.289,
+     0.487,
+     0.798
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.876,
+   "Part five. Trust, and memory."
+  ],
+  [
+   2.508,
+   5.509,
+   "How the harness checks every number, and learns"
+  ],
+  [
+   5.509,
+   6.635,
+   "from every correction."
+  ],
+  [
+   7.135,
+   10.071,
+   "Now the gate that makes this trustworthy."
+  ],
+  [
+   10.702,
+   14.057,
+   "The verifier pulls every number out of the"
+  ],
+  [
+   14.057,
+   17.413,
+   "draft and looks for it in the evidence"
+  ],
+  [
+   17.413,
+   17.832,
+   "log."
+  ],
+  [
+   18.464,
+   21.399,
+   "Net margin rose from 7.32 percent. Found."
+  ],
+  [
+   22.031,
+   23.708,
+   "To 8.50 now. Found."
+  ],
+  [
+   24.34,
+   27.695,
+   "Revenue grew 10.4 percent. Not found. The model"
+  ],
+  [
+   27.695,
+   29.792,
+   "estimated that in its head."
+  ],
+  [
+   30.424,
+   33.779,
+   "The verifier sends it back, the model calls"
+  ],
+  [
+   33.779,
+   37.134,
+   "the tool, and the real figure is 14.07"
+  ],
+  [
+   37.134,
+   37.553,
+   "percent."
+  ],
+  [
+   38.185,
+   41.121,
+   "Debt to equity fell to 0.25. Found."
+  ],
+  [
+   41.752,
+   45.107,
+   "Zero uncited numbers. Only now does the answer"
+  ],
+  [
+   45.107,
+   45.946,
+   "go out."
+  ],
+  [
+   46.446,
+   49.503,
+   "Matching numbers catches most errors. A few simple"
+  ],
+  [
+   49.503,
+   51.032,
+   "rules catch the rest."
+  ],
+  [
+   51.663,
+   54.72,
+   "Units: a hundred times jump is almost always"
+  ],
+  [
+   54.72,
+   55.867,
+   "a unit slip."
+  ],
+  [
+   56.498,
+   59.556,
+   "Ranges: margins stay within plus or minus a"
+  ],
+  [
+   59.556,
+   60.32,
+   "hundred percent."
+  ],
+  [
+   60.951,
+   62.48,
+   "Periods must be contiguous."
+  ],
+  [
+   63.112,
+   65.022,
+   "Conflicts are shown, not hidden."
+  ],
+  [
+   65.654,
+   67.947,
+   "Every answer states its as-of date."
+  ],
+  [
+   68.578,
+   71.635,
+   "And refusal is a feature. Not in the"
+  ],
+  [
+   71.635,
+   74.692,
+   "loaded documents is a far better answer than"
+  ],
+  [
+   74.692,
+   75.457,
+   "a guess."
+  ],
+  [
+   75.957,
+   79.541,
+   "How do you know it works? Build a"
+  ],
+  [
+   79.541,
+   82.229,
+   "golden set before adding clever features."
+  ],
+  [
+   82.861,
+   86.445,
+   "About fifty questions across a few companies, mixing"
+  ],
+  [
+   86.445,
+   90.029,
+   "lookups, trends, ratios, cross-source checks, narrative whys, and"
+  ],
+  [
+   90.029,
+   91.821,
+   "questions it should refuse."
+  ],
+  [
+   92.453,
+   96.037,
+   "Numbers are graded exactly, within a small tolerance."
+  ],
+  [
+   96.669,
+   100.253,
+   "For narrative answers you'll use an LLM judge."
+  ],
+  [
+   100.253,
+   103.837,
+   "But validate that judge against human labels first."
+  ],
+  [
+   103.837,
+   107.421,
+   "In one public FinanceBench write-up, an unchecked judge"
+  ],
+  [
+   107.421,
+   110.109,
+   "inflated scores by thirty four percent."
+  ],
+  [
+   110.609,
+   114.022,
+   "Now memory, just like the Mem0 system from"
+  ],
+  [
+   114.022,
+   115.301,
+   "our last video."
+  ],
+  [
+   115.933,
+   119.345,
+   "Working memory is this session's evidence. Short-term memory"
+  ],
+  [
+   119.345,
+   122.758,
+   "is the conversation. Preferences are durable facts about"
+  ],
+  [
+   122.758,
+   123.611,
+   "the user."
+  ],
+  [
+   124.242,
+   127.655,
+   "The most valuable layer is tribal knowledge: corrections"
+  ],
+  [
+   127.655,
+   131.067,
+   "the agent learned the hard way, each stored"
+  ],
+  [
+   131.067,
+   134.053,
+   "with a condition for when it applies."
+  ],
+  [
+   134.685,
+   138.097,
+   "A 2026 paper called Tk-Boost did exactly this"
+  ],
+  [
+   138.097,
+   141.51,
+   "for SQL agents, and improved accuracy by up"
+  ],
+  [
+   141.51,
+   144.922,
+   "to sixteen point nine percent on Spider two."
+  ],
+  [
+   145.553,
+   148.966,
+   "One rule. Never keep financial numbers in memory."
+  ],
+  [
+   148.966,
+   152.378,
+   "They live in the facts table, with provenance."
+  ],
+  [
+   152.878,
+   155.492,
+   "Here's how a correction becomes a skill."
+  ],
+  [
+   156.124,
+   159.111,
+   "The user corrects the agent: those borrowings are"
+  ],
+  [
+   159.111,
+   159.857,
+   "in lakh."
+  ],
+  [
+   160.489,
+   163.476,
+   "After the session, the harness extracts a learning,"
+  ],
+  [
+   163.476,
+   166.463,
+   "with a condition: when the source is this"
+  ],
+  [
+   166.463,
+   167.21,
+   "broker's file."
+  ],
+  [
+   167.841,
+   170.828,
+   "It's stored, and like Mem0, it's compared with"
+  ],
+  [
+   170.828,
+   173.815,
+   "existing memories first, to add, update, or skip."
+  ],
+  [
+   174.447,
+   177.434,
+   "Next session, any question touching that file will"
+  ],
+  [
+   177.434,
+   179.674,
+   "recall it in the context builder."
+  ],
+  [
+   180.306,
+   182.546,
+   "The same mistake never happens twice."
+  ]
+ ],
+ "audio": "dh/ch05.wav"
+}

@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch24_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 46.503,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "foundation",
+        "dur": 47.003
+      }
+    },
+    {
+      "id": "ch24_system",
+      "type": "aae_chapter",
+      "in_seconds": 47.003,
+      "out_seconds": 85.112,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "system",
+        "dur": 38.609
+      }
+    },
+    {
+      "id": "ch24_practice",
+      "type": "aae_chapter",
+      "in_seconds": 85.612,
+      "out_seconds": 132.233,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "practice",
+        "dur": 47.121
+      }
+    },
+    {
+      "id": "ch24_failure",
+      "type": "aae_chapter",
+      "in_seconds": 132.733,
+      "out_seconds": 171.053,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "failure",
+        "dur": 38.819
+      }
+    },
+    {
+      "id": "ch24_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 171.553,
+      "out_seconds": 214.82,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "evaluation",
+        "dur": 43.767
+      }
+    },
+    {
+      "id": "ch24_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 215.32,
+      "out_seconds": 252.297,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "handoff",
+        "dur": 37.477
+      }
+    },
+    {
+      "id": "ch24_application",
+      "type": "aae_chapter",
+      "in_seconds": 252.797,
+      "out_seconds": 302.501,
+      "props": {
+        "chapter": 24,
+        "title": "AI-Native Transformation",
+        "focus": "redesigning work and organizations around accountable intelligence rather than adding a chatbot",
+        "concepts": [
+          "workflow redesign",
+          "portfolio learning",
+          "responsible scaling"
+        ],
+        "example": "a claims operation rebuilt around human judgment and machine preparation",
+        "trap": "automating a broken process",
+        "takeaway": "Redesigning work and organizations around accountable intelligence rather than adding a chatbot.",
+        "beat": "application",
+        "dur": 50.204
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch24.wav",
+      "volume": 1
+    }
+  }
+}

@@ -1,0 +1,662 @@
+{
+ "cuts": [
+  {
+   "id": "02_cashfree_title",
+   "type": "pg_title",
+   "in_seconds": 0.0,
+   "out_seconds": 20.793,
+   "props": {
+    "gateway": "Cashfree",
+    "tagline": "Fast settlements, deep APIs \u2014 cards to payouts",
+    "accent": "#14B8A6",
+    "kicker": "PAYMENT GATEWAYS \u00b7 DEVELOPER GUIDE",
+    "dur": 21.293
+   }
+  },
+  {
+   "id": "02_cashfree_docs",
+   "type": "pg_docs",
+   "in_seconds": 21.293,
+   "out_seconds": 50.369,
+   "props": {
+    "gateway": "Cashfree",
+    "accent": "#14B8A6",
+    "url": "cashfree.com",
+    "docsUrl": "cashfree.com/docs",
+    "signupUrl": "merchant.cashfree.com",
+    "sandbox": true,
+    "kyc": [
+     "Business & signatory PAN",
+     "Bank proof",
+     "Business-registration / GST",
+     "Address proof",
+     "Website/app with policies"
+    ],
+    "methods": [
+     "Cards",
+     "UPI",
+     "Net banking",
+     "Wallets",
+     "Payouts"
+    ],
+    "dur": 29.576
+   }
+  },
+  {
+   "id": "02_cashfree_support",
+   "type": "pg_support",
+   "in_seconds": 50.869,
+   "out_seconds": 71.385,
+   "props": {
+    "gateway": "Cashfree",
+    "accent": "#14B8A6",
+    "channels": [
+     {
+      "icon": "\u260e",
+      "label": "Phone",
+      "value": "not published",
+      "live": false
+     },
+     {
+      "icon": "\u2709\ufe0f",
+      "label": "Email / ticket",
+      "value": "cashfree.com/docs/help",
+      "live": true
+     },
+     {
+      "icon": "\ud83d\udcac",
+      "label": "Dashboard tickets",
+      "value": "merchant dashboard",
+      "live": true
+     },
+     {
+      "icon": "\ud83d\udcda",
+      "label": "Docs",
+      "value": "cashfree.com/docs",
+      "live": true
+     }
+    ],
+    "dur": 21.016
+   }
+  },
+  {
+   "id": "02_cashfree_metrics",
+   "type": "pg_metrics",
+   "in_seconds": 71.885,
+   "out_seconds": 87.82,
+   "props": {
+    "gateway": "Cashfree",
+    "accent": "#14B8A6",
+    "settleDay": 1,
+    "settleNote": "standard cycle",
+    "instant": true,
+    "successNote": "No official figure published",
+    "complexity": 2,
+    "complexityLabel": "Easy\u2013Medium",
+    "complexityWhy": "Drop-in + SDKs + plugins",
+    "dur": 16.435
+   }
+  },
+  {
+   "id": "02_cashfree_pricing",
+   "type": "pg_pricing",
+   "in_seconds": 88.32,
+   "out_seconds": 123.774,
+   "props": {
+    "gateway": "Cashfree",
+    "accent": "#14B8A6",
+    "rows": [
+     {
+      "icon": "\ud83d\udcb3",
+      "label": "Cards",
+      "rate": "1.95%",
+      "feePct": 1.95
+     },
+     {
+      "icon": "\ud83d\udfe3",
+      "label": "UPI",
+      "rate": "1.95%",
+      "feePct": 1.95
+     },
+     {
+      "icon": "\ud83c\udfe6",
+      "label": "Net banking",
+      "rate": "1.95%",
+      "feePct": 1.95
+     },
+     {
+      "icon": "\ud83d\udc5b",
+      "label": "Wallets",
+      "rate": "1.95%",
+      "feePct": 1.95
+     },
+     {
+      "icon": "\ud83c\udf10",
+      "label": "International cards",
+      "rate": "2.99%",
+      "feePct": 2.99
+     }
+    ],
+    "foot": "Setup \u20b90 \u00b7 AMC \u20b90 \u00b7 GST on platform fee \u00b7 0% promo for new merchants till Mar 2027 (\u2264\u20b920L/mo)",
+    "dur": 35.954
+   }
+  },
+  {
+   "id": "02_cashfree_flow",
+   "type": "pg_flow",
+   "in_seconds": 124.274,
+   "out_seconds": 147.176,
+   "props": {
+    "gateway": "Cashfree",
+    "accent": "#14B8A6",
+    "steps": [
+     {
+      "emoji": "\ud83e\uddfe",
+      "label": "Create order",
+      "sub": "server \u00b7 POST /pg/orders"
+     },
+     {
+      "emoji": "\ud83d\uded2",
+      "label": "Open Drop-in",
+      "sub": "client \u00b7 payment_session_id"
+     },
+     {
+      "emoji": "\ud83d\udcb3",
+      "label": "Customer pays",
+      "sub": "chosen method"
+     },
+     {
+      "emoji": "\ud83d\udd14",
+      "label": "Verify + webhook",
+      "sub": "GET order status"
+     },
+     {
+      "emoji": "\ud83c\udfe6",
+      "label": "Settlement",
+      "sub": "T+1 / instant"
+     }
+    ],
+    "dur": 23.402
+   }
+  },
+  {
+   "id": "02_cashfree_code",
+   "type": "pg_code",
+   "in_seconds": 147.676,
+   "out_seconds": 170.77,
+   "props": {
+    "gateway": "Cashfree",
+    "accent": "#14B8A6",
+    "lang": "node",
+    "file": "create-order.js",
+    "lines": [
+     "const res = await fetch(\"https://api.cashfree.com/pg/orders\", {",
+     "  method: \"POST\",",
+     "  headers: { \"x-client-id\": ID, \"x-client-secret\": SECRET },",
+     "  body: JSON.stringify({ order_amount: 500, order_currency: \"INR\" }),",
+     "});",
+     "const { payment_session_id } = await res.json();"
+    ],
+    "docUrl": "cashfree.com/docs",
+    "caption": "Create the order server-side; hand payment_session_id to Cashfree.js.",
+    "dur": 23.594
+   }
+  },
+  {
+   "id": "02_cashfree_recap",
+   "type": "pg_recap",
+   "in_seconds": 171.27,
+   "out_seconds": 196.109,
+   "props": {
+    "title": "Cashfree in one breath",
+    "items": [
+     "T+1 standard \u00b7 instant available",
+     "1.95% domestic \u00b7 2.99% international",
+     "\u20b90 setup and AMC",
+     "Drop-in, SDKs, plugins, plus payouts",
+     "Dashboard/ticket support \u00b7 no public phone"
+    ],
+    "closer": "A strong fit when payments and payouts both need deep APIs.",
+    "dur": 25.339
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.215,
+   "Let's look at Cashfree from a developer's point"
+  ],
+  [
+   3.215,
+   4.019,
+   "of view."
+  ],
+  [
+   4.569,
+   5.373,
+   "Fast settlements,"
+  ],
+  [
+   5.373,
+   7.784,
+   "deep APIs \u2014 cards to payouts."
+  ],
+  [
+   8.334,
+   10.746,
+   "We'll walk its docs and KYC,"
+  ],
+  [
+   10.746,
+   11.951,
+   "its support channels,"
+  ],
+  [
+   11.951,
+   12.353,
+   "settlement,"
+  ],
+  [
+   12.353,
+   13.559,
+   "success and effort,"
+  ],
+  [
+   13.559,
+   15.97,
+   "exact pricing for every payment method,"
+  ],
+  [
+   15.97,
+   19.185,
+   "and a real integration call \u2014 everything you"
+  ],
+  [
+   19.185,
+   20.793,
+   "want before you commit."
+  ],
+  [
+   21.293,
+   23.121,
+   "Everything starts at cashfree.com/docs."
+  ],
+  [
+   23.671,
+   24.586,
+   "For access,"
+  ],
+  [
+   24.586,
+   28.242,
+   "you get test-mode keys the moment you sign"
+  ],
+  [
+   28.242,
+   28.7,
+   "up,"
+  ],
+  [
+   28.7,
+   30.528,
+   "before any paperwork clears."
+  ],
+  [
+   31.078,
+   34.735,
+   "To go live you complete KYC \u2014 Business"
+  ],
+  [
+   34.735,
+   36.106,
+   "& signatory PAN,"
+  ],
+  [
+   36.106,
+   37.02,
+   "Bank proof,"
+  ],
+  [
+   37.02,
+   38.392,
+   "Business-registration / GST,"
+  ],
+  [
+   38.392,
+   42.048,
+   "and more \u2014 and it's worth confirming the"
+  ],
+  [
+   42.048,
+   44.791,
+   "exact list in the live dashboard."
+  ],
+  [
+   45.341,
+   47.626,
+   "The methods you can accept:"
+  ],
+  [
+   47.626,
+   48.084,
+   "Cards,"
+  ],
+  [
+   48.084,
+   48.541,
+   "UPI,"
+  ],
+  [
+   48.541,
+   49.455,
+   "Net banking,"
+  ],
+  [
+   49.455,
+   49.912,
+   "Wallets,"
+  ],
+  [
+   49.912,
+   50.369,
+   "Payouts."
+  ],
+  [
+   50.869,
+   51.689,
+   "Now support,"
+  ],
+  [
+   51.689,
+   53.74,
+   "shown honestly as published routes,"
+  ],
+  [
+   53.74,
+   55.38,
+   "not promised service levels."
+  ],
+  [
+   55.93,
+   58.801,
+   "Your live channels are email / ticket,"
+  ],
+  [
+   58.801,
+   59.622,
+   "dashboard tickets,"
+  ],
+  [
+   59.622,
+   60.032,
+   "docs."
+  ],
+  [
+   60.582,
+   63.863,
+   "There's no published phone number \u2014 this is"
+  ],
+  [
+   63.863,
+   64.683,
+   "a dashboard,"
+  ],
+  [
+   64.683,
+   66.324,
+   "ticket and docs-first setup."
+  ],
+  [
+   66.874,
+   70.155,
+   "A grey item means the provider simply doesn't"
+  ],
+  [
+   70.155,
+   71.385,
+   "publish that route."
+  ],
+  [
+   71.885,
+   73.184,
+   "Three operational checks."
+  ],
+  [
+   73.734,
+   75.898,
+   "On settlement \u2014 standard cycle."
+  ],
+  [
+   76.448,
+   79.911,
+   "On success rate \u2014 No official figure published;"
+  ],
+  [
+   79.911,
+   82.508,
+   "we won't quote a made-up percentage."
+  ],
+  [
+   83.058,
+   86.521,
+   "And integration effort is Easy\u2013Medium \u2014 Drop-in +"
+  ],
+  [
+   86.521,
+   87.82,
+   "SDKs + plugins."
+  ],
+  [
+   88.32,
+   92.545,
+   "Now pricing \u2014 the part you actually budget"
+  ],
+  [
+   92.545,
+   93.074,
+   "for."
+  ],
+  [
+   93.624,
+   96.265,
+   "Cashfree lists cards at 1.95%;"
+  ],
+  [
+   96.265,
+   97.849,
+   "upi at 1.95%;"
+  ],
+  [
+   97.849,
+   99.962,
+   "net banking at 1.95%."
+  ],
+  [
+   100.512,
+   103.153,
+   "Where a row says custom,"
+  ],
+  [
+   103.153,
+   103.681,
+   "varies,"
+  ],
+  [
+   103.681,
+   105.266,
+   "or contact sales,"
+  ],
+  [
+   105.266,
+   109.491,
+   "keep it exactly that vague in your model"
+  ],
+  [
+   109.491,
+   112.66,
+   "\u2014 don't invent a precise number."
+  ],
+  [
+   113.21,
+   117.436,
+   "Setup \u20b90 \u00b7 AMC \u20b90 \u00b7 GST on"
+  ],
+  [
+   117.436,
+   121.661,
+   "platform fee \u00b7 0% promo for new merchants"
+  ],
+  [
+   121.661,
+   123.774,
+   "till Mar 2027 (\u2264\u20b920L/mo)."
+  ],
+  [
+   124.274,
+   125.666,
+   "The integration runs:"
+  ],
+  [
+   125.666,
+   129.377,
+   "Create order \u2192 Open Drop-in \u2192 Customer pays"
+  ],
+  [
+   129.377,
+   132.16,
+   "\u2192 Verify + webhook \u2192 Settlement."
+  ],
+  [
+   132.71,
+   135.493,
+   "Create the intent on your server,"
+  ],
+  [
+   135.493,
+   138.74,
+   "hand the client only what checkout needs,"
+  ],
+  [
+   138.74,
+   142.451,
+   "then confirm status and signatures server-side\nbefore you"
+  ],
+  [
+   142.451,
+   142.915,
+   "fulfil."
+  ],
+  [
+   143.465,
+   147.176,
+   "A browser redirect is never proof of payment."
+  ],
+  [
+   147.676,
+   150.895,
+   "Here's the representative call \u2014 create-order.js."
+  ],
+  [
+   151.445,
+   153.59,
+   "Create the order server-side;"
+  ],
+  [
+   153.59,
+   155.736,
+   "hand payment_session_id to Cashfree.js."
+  ],
+  [
+   156.286,
+   158.968,
+   "Treat it as a shape,"
+  ],
+  [
+   158.968,
+   160.578,
+   "not copy-and-forget code:"
+  ],
+  [
+   160.578,
+   163.796,
+   "read the current reference at cashfree.com/docs,"
+  ],
+  [
+   163.796,
+   167.015,
+   "keep your secrets in server-side config,"
+  ],
+  [
+   167.015,
+   170.77,
+   "and validate the final callback or webhook."
+  ],
+  [
+   171.27,
+   171.795,
+   "So,"
+  ],
+  [
+   171.795,
+   173.897,
+   "Cashfree in one breath."
+  ],
+  [
+   174.447,
+   177.073,
+   "T+1 standard \u00b7 instant available"
+  ],
+  [
+   177.623,
+   180.25,
+   "1.95% domestic \u00b7 2.99% international"
+  ],
+  [
+   180.8,
+   182.901,
+   "\u20b90 setup and AMC"
+  ],
+  [
+   183.451,
+   183.977,
+   "Drop-in,"
+  ],
+  [
+   183.977,
+   184.502,
+   "SDKs,"
+  ],
+  [
+   184.502,
+   185.028,
+   "plugins,"
+  ],
+  [
+   185.028,
+   186.078,
+   "plus payouts"
+  ],
+  [
+   186.628,
+   189.78,
+   "Dashboard/ticket support \u00b7 no public phone."
+  ],
+  [
+   190.33,
+   194.533,
+   "A strong fit when payments and payouts both"
+  ],
+  [
+   194.533,
+   196.109,
+   "need deep APIs."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pg/02_cashfree.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "cuts": [
+  {
+   "id": "s01_title",
+   "type": "hf_title",
+   "in_seconds": 0.0,
+   "out_seconds": 24.82,
+   "props": {
+    "dur": 25.32
+   }
+  },
+  {
+   "id": "s02_hook",
+   "type": "hf_hook",
+   "in_seconds": 25.32,
+   "out_seconds": 62.887,
+   "props": {
+    "dur": 38.067
+   }
+  },
+  {
+   "id": "s03_why",
+   "type": "hf_bullets",
+   "in_seconds": 63.387,
+   "out_seconds": 105.333,
+   "props": {
+    "kicker": "WHY WRITE VIDEO THIS WAY",
+    "title": "Video that behaves like code",
+    "color": "#38BDF8",
+    "foot": "If you can build a web page, you can already build a frame of video.",
+    "items": [
+     {
+      "h": "No footage, no assets needed",
+      "sub": "type, shapes and gradients are enough",
+      "icon": "\u270d\ufe0f",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "Reuse everything you know",
+      "sub": "HTML, CSS, SVG, the DOM, flexbox",
+      "icon": "\ud83e\uddf1",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "Plain text you can diff and review",
+      "sub": "a video in a pull request",
+      "icon": "\ud83d\udd00",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Deterministic \u2014 same input, same frames",
+      "sub": "re-render any time, byte for byte",
+      "icon": "\ud83c\udfaf",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 42.446
+   }
+  },
+  {
+   "id": "s04_roadmap",
+   "type": "hf_roadmap",
+   "in_seconds": 105.833,
+   "out_seconds": 141.194,
+   "props": {
+    "dur": 35.861
+   }
+  }
+ ],
+ "audio": {
+  "narration": {
+   "src": "hf/narration_p0.wav",
+   "volume": 1.0
+  }
+ }
+}

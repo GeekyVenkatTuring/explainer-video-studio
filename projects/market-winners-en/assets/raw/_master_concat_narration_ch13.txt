@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/d13.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/k13a.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/k13b.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/k13c.wav'

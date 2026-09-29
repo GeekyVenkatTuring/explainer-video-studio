@@ -1,0 +1,19 @@
+{
+  "cuts": [
+    {
+      "id": "title",
+      "type": "aae_title",
+      "in_seconds": 0.0,
+      "out_seconds": 20.574,
+      "props": {
+        "dur": 21.074
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/00_intro.wav",
+      "volume": 1
+    }
+  }
+}

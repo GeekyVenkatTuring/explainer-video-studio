@@ -1,0 +1,158 @@
+[
+  {
+    "id": "00_intro",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/00_intro.json",
+    "duration": 20.574,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/00_intro.mp4"
+  },
+  {
+    "id": "ch01",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch01.json",
+    "duration": 312.268,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch01.mp4"
+  },
+  {
+    "id": "ch02",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch02.json",
+    "duration": 298.544,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch02.mp4"
+  },
+  {
+    "id": "ch03",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch03.json",
+    "duration": 301.228,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch03.mp4"
+  },
+  {
+    "id": "ch04",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch04.json",
+    "duration": 301.021,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch04.mp4"
+  },
+  {
+    "id": "ch05",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch05.json",
+    "duration": 309.155,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch05.mp4"
+  },
+  {
+    "id": "ch06",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch06.json",
+    "duration": 301.128,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch06.mp4"
+  },
+  {
+    "id": "ch07",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch07.json",
+    "duration": 296.305,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch07.mp4"
+  },
+  {
+    "id": "ch08",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch08.json",
+    "duration": 294.592,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch08.mp4"
+  },
+  {
+    "id": "ch09",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch09.json",
+    "duration": 304.535,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch09.mp4"
+  },
+  {
+    "id": "ch10",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch10.json",
+    "duration": 303.443,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch10.mp4"
+  },
+  {
+    "id": "ch11",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch11.json",
+    "duration": 301.229,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch11.mp4"
+  },
+  {
+    "id": "ch12",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch12.json",
+    "duration": 299.027,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch12.mp4"
+  },
+  {
+    "id": "ch13",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch13.json",
+    "duration": 298.171,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch13.mp4"
+  },
+  {
+    "id": "ch14",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch14.json",
+    "duration": 305.387,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch14.mp4"
+  },
+  {
+    "id": "ch15",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch15.json",
+    "duration": 300.601,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch15.mp4"
+  },
+  {
+    "id": "ch16",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch16.json",
+    "duration": 297.017,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch16.mp4"
+  },
+  {
+    "id": "ch17",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch17.json",
+    "duration": 299.324,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch17.mp4"
+  },
+  {
+    "id": "ch18",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch18.json",
+    "duration": 296.572,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch18.mp4"
+  },
+  {
+    "id": "ch19",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch19.json",
+    "duration": 299.941,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch19.mp4"
+  },
+  {
+    "id": "ch20",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch20.json",
+    "duration": 312.649,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch20.mp4"
+  },
+  {
+    "id": "ch21",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch21.json",
+    "duration": 299.283,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch21.mp4"
+  },
+  {
+    "id": "ch22",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch22.json",
+    "duration": 308.054,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch22.mp4"
+  },
+  {
+    "id": "ch23",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch23.json",
+    "duration": 309.082,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch23.mp4"
+  },
+  {
+    "id": "ch24",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/ch24.json",
+    "duration": 302.501,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/ch24.mp4"
+  },
+  {
+    "id": "25_recap",
+    "props": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/artifacts/25_recap.json",
+    "duration": 16.912,
+    "output": "/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/renders/25_recap.mp4"
+  }
+]

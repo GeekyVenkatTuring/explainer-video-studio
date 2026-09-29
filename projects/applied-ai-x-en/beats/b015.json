@@ -1,0 +1,42 @@
+{
+ "idx": 15,
+ "variant": "xa_roadmap",
+ "props": {
+  "rank": 5,
+  "total": 5,
+  "ch": 2,
+  "chname": "SKILLS & MCP",
+  "title": "AI Engineering Skills Map: Using coding agents",
+  "handle": "@AndrewYNg",
+  "likes": "7.2K",
+  "thesis": "Ng's third map is about steering coding agents, and he is blunt that longer unattended runs are not the goal.",
+  "take": "Set verifiable goals, keep the context current, and intervene by risk \u2014 not by vibe.",
+  "phases": [
+   {
+    "label": "Plan",
+    "line": "Research, explore the codebase, then write a spec and an execution plan"
+   },
+   {
+    "label": "Execute",
+    "line": "Build and verify together, in steps whose results you can check"
+   },
+   {
+    "label": "Operate",
+    "line": "Release gates, log inspection, and a route back to earlier phases"
+   },
+   {
+    "label": "Calibrate autonomy",
+    "line": "Collaborate, delegate, or let it retry \u2014 decide by risk and cost"
+   },
+   {
+    "label": "Verify the verifier",
+    "line": "Automated checks stop agents, but their criteria need scrutiny too"
+   },
+   {
+    "label": "Hold the context",
+    "line": "AGENTS.md or CLAUDE.md, hooks, retrospectives, clearing agent debt"
+   }
+  ]
+ },
+ "narration": "The third map is the one most people need, and it ends on a warning. [pause] Ng's process has three phases. Plan. Execute. Operate. Planning means research, codebase exploration, and a specification covering requirements, design and architecture. Execution pairs building with testing. Operating adds release gates and log inspection. And a failed check sends you back a phase. [pause] How much planning? That depends. A throwaway prototype needs a sentence. An established product serving real users deserves a checked specification. [pause] Then calibrate autonomy. Work alongside the agent, delegate a chunk, or let it retry toward a clear goal. Decide by risk and cost, not by habit. [pause] Then verify the verifier. Automated checks tell an agent when to stop. But the criteria themselves need scrutiny, and sometimes a human still has to look. [pause] Then hold the context. An agents file records architecture and conventions. Hooks trigger reviews. Retrospectives capture lessons. And you clear the debt the agents generate. [pause] Ng names the warning signs too. Overengineering. Missing verification. Stopping too early. And destructive actions. [pause] He also says to learn how the harness itself works. How it retrieves code, how it manages the context window, how it spawns subagents. [pause] His closing warning is direct. Social media exaggerates how useful those hours-long, million-token runs really are."
+}

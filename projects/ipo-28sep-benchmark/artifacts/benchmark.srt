@@ -1,0 +1,296 @@
+1
+00:00:00,000 --> 00:00:02,942
+This is the Bench Mark Infotech I P O,
+
+2
+00:00:02,942 --> 00:00:05,574
+a S M E issue on NSE Emerge offer,
+
+3
+00:00:05,574 --> 00:00:10,219
+open from the twenty-fifth to the twenty-ninth of September.
+
+4
+00:00:10,719 --> 00:00:13,574
+The price band is ₹104 to ₹110.
+
+5
+00:00:13,574 --> 00:00:19,193
+Every figure here comes from the final red herring prospectus
+
+6
+00:00:19,193 --> 00:00:21,128
+and exchange notices;
+
+7
+00:00:21,128 --> 00:00:24,720
+the final price is fixed after bidding,
+
+8
+00:00:24,720 --> 00:00:28,681
+so valuations are computed at the ₹110 cap.
+
+9
+00:00:29,181 --> 00:00:30,419
+First, the business.
+
+10
+00:00:30,919 --> 00:00:34,393
+Bench Mark Infotech, from Kolkata, designs,
+
+11
+00:00:34,393 --> 00:00:38,676
+installs and maintains IT and digital infrastructure:
+
+12
+00:00:38,676 --> 00:00:41,989
+networks, wireless systems, surveillance,
+
+13
+00:00:41,989 --> 00:00:45,383
+audio-visual set-ups and smart classrooms.
+
+14
+00:00:45,883 --> 00:00:49,045
+Its customers are mostly government departments,
+
+15
+00:00:49,045 --> 00:00:51,944
+public-sector undertakings and institutions,
+
+16
+00:00:51,944 --> 00:00:53,328
+plus private clients.
+
+17
+00:00:53,828 --> 00:00:55,428
+The financial checkpoint.
+
+18
+00:00:55,928 --> 00:01:05,712
+FY26 revenue was ₹60.53 Cr, against ₹50.04 Cr in FY25,
+
+19
+00:01:05,712 --> 00:01:09,155
+a change of 20.96%.
+
+20
+00:01:09,655 --> 00:01:16,695
+Profit after tax was ₹10.22 Cr, a margin of 16.88%.
+
+21
+00:01:17,195 --> 00:01:18,859
+The turnaround is recent.
+
+22
+00:01:19,359 --> 00:01:24,557
+FY24 was a ₹1.48 Cr loss;
+
+23
+00:01:24,557 --> 00:01:32,457
+FY25 made ₹5.83 Cr and FY26 ₹10.22 Cr.
+
+24
+00:01:32,957 --> 00:01:37,523
+The offer size at the cap is ₹42.44 Cr.
+
+25
+00:01:38,023 --> 00:01:43,551
+₹37.40 Cr is fresh issue that goes into the company,
+
+26
+00:01:43,551 --> 00:01:50,780
+and ₹5.04 Cr is an offer for sale that goes to selling shareholders.
+
+27
+00:01:51,280 --> 00:01:55,246
+So 88.12% of the deal is new capital,
+
+28
+00:01:55,246 --> 00:01:59,856
+and 11.88% is an exit for existing holders.
+
+29
+00:02:00,356 --> 00:02:01,679
+Where does the money go?
+
+30
+00:02:02,179 --> 00:02:08,208
+Of the ₹37.40 Cr fresh issue, ₹30.00 Cr funds working capital,
+
+31
+00:02:08,208 --> 00:02:12,099
+and the rest general corporate purposes.
+
+32
+00:02:12,599 --> 00:02:17,197
+A promoter also sells 4,58,000 shares,
+
+33
+00:02:17,197 --> 00:02:20,343
+about ₹5.04 Cr at the cap.
+
+34
+00:02:20,843 --> 00:02:21,845
+Valuation.
+
+35
+00:02:22,345 --> 00:02:24,908
+At the ₹110 cap,
+
+36
+00:02:24,908 --> 00:02:33,076
+the price is 11.70x FY26 earnings of ₹9.40 a share.
+
+37
+00:02:33,576 --> 00:02:37,452
+Listed peers trade higher:
+
+38
+00:02:37,452 --> 00:02:45,501
+Esconet at 15.66x, Dynacons 26.55x and Xtranet 50.87x.
+
+39
+00:02:46,001 --> 00:02:48,831
+Small S M E stocks also trade thinly,
+
+40
+00:02:48,831 --> 00:02:51,889
+which a P E comparison does not capture.
+
+41
+00:02:52,389 --> 00:02:53,883
+Now balance the evidence.
+
+42
+00:02:54,383 --> 00:02:55,753
+Watch-out:
+
+43
+00:02:55,753 --> 00:02:58,219
+Recent turnaround:
+
+44
+00:02:58,219 --> 00:03:00,411
+FY24 was a loss.
+
+45
+00:03:00,411 --> 00:03:01,644
+Strength:
+
+46
+00:03:01,644 --> 00:03:06,713
+PAT up to ₹10.22 Cr, a 16.88% margin.
+
+47
+00:03:07,213 --> 00:03:08,241
+Watch-out:
+
+48
+00:03:08,241 --> 00:03:12,765
+Government receivables need working capital.
+
+49
+00:03:12,765 --> 00:03:13,690
+Strength:
+
+50
+00:03:13,690 --> 00:03:16,877
+11.70x P/E, below listed peers.
+
+51
+00:03:17,377 --> 00:03:18,610
+Watch-out:
+
+52
+00:03:18,610 --> 00:03:19,103
+SME:
+
+53
+00:03:19,103 --> 00:03:23,293
+₹2,64,000 minimum, thin liquidity.
+
+54
+00:03:23,293 --> 00:03:24,402
+Strength:
+
+55
+00:03:24,402 --> 00:03:28,961
+88.12% of the offer is fresh capital.
+
+56
+00:03:29,461 --> 00:03:30,592
+How to apply.
+
+57
+00:03:31,092 --> 00:03:35,095
+This is an S M E issue on NSE Emerge.
+
+58
+00:03:35,095 --> 00:03:37,584
+One lot is 1200 shares,
+
+59
+00:03:37,584 --> 00:03:43,643
+and the minimum application for individuals is two lots,
+
+60
+00:03:43,643 --> 00:03:47,647
+2400 shares, or ₹2,64,000 at the cap.
+
+61
+00:03:48,147 --> 00:03:52,243
+S M E shares trade thinly after listing, with a market maker,
+
+62
+00:03:52,243 --> 00:03:55,400
+so exiting can be harder than on the mainboard.
+
+63
+00:03:55,900 --> 00:03:56,860
+Let's recap.
+
+64
+00:03:57,360 --> 00:04:03,097
+FY26 revenue ₹60.53 Cr, profit ₹10.22 Cr.
+
+65
+00:04:03,097 --> 00:04:11,493
+The offer is ₹42.44 Cr, of which ₹5.04 Cr is offer for sale.
+
+66
+00:04:11,493 --> 00:04:17,090
+Valuation is 11.70x earnings at the cap.
+
+67
+00:04:17,090 --> 00:04:22,128
+The minimum investment is ₹2,64,000.
+
+68
+00:04:22,628 --> 00:04:26,802
+This video is public-source education from the red herring
+
+69
+00:04:26,802 --> 00:04:29,104
+prospectus and exchange notices.
+
+70
+00:04:29,104 --> 00:04:33,062
+It is not investment advice and not a buy or sell call.
+
+71
+00:04:33,062 --> 00:04:34,861
+Read the final documents,
+
+72
+00:04:34,861 --> 00:04:37,740
+check live subscription on the exchange,
+
+73
+00:04:37,740 --> 00:04:40,474
+and consult a SEBI-registered adviser.
+
+74
+00:04:40,474 --> 00:04:41,913
+Thanks for watching.
+

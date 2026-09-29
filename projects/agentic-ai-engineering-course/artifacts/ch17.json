@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch17_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 45.451,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "foundation",
+        "dur": 45.951
+      }
+    },
+    {
+      "id": "ch17_system",
+      "type": "aae_chapter",
+      "in_seconds": 45.951,
+      "out_seconds": 83.533,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "system",
+        "dur": 38.082
+      }
+    },
+    {
+      "id": "ch17_practice",
+      "type": "aae_chapter",
+      "in_seconds": 84.033,
+      "out_seconds": 130.36,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "practice",
+        "dur": 46.827
+      }
+    },
+    {
+      "id": "ch17_failure",
+      "type": "aae_chapter",
+      "in_seconds": 130.86,
+      "out_seconds": 169.126,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "failure",
+        "dur": 38.766
+      }
+    },
+    {
+      "id": "ch17_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 169.626,
+      "out_seconds": 212.962,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "evaluation",
+        "dur": 43.837
+      }
+    },
+    {
+      "id": "ch17_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 213.462,
+      "out_seconds": 250.124,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "handoff",
+        "dur": 37.161
+      }
+    },
+    {
+      "id": "ch17_application",
+      "type": "aae_chapter",
+      "in_seconds": 250.624,
+      "out_seconds": 299.324,
+      "props": {
+        "chapter": 17,
+        "title": "Agentic Trust Engineering",
+        "focus": "combining reliability, safety, transparency, and recourse into earned confidence",
+        "concepts": [
+          "calibrated confidence",
+          "human recourse",
+          "trust evidence"
+        ],
+        "example": "an HR agent citing policy and routing edge cases to a reviewer",
+        "trap": "claiming trust without measurement",
+        "takeaway": "Combining reliability, safety, transparency, and recourse into earned confidence.",
+        "beat": "application",
+        "dur": 49.2
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch17.wav",
+      "volume": 1
+    }
+  }
+}

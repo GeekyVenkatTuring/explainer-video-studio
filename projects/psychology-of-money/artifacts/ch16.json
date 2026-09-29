@@ -1,0 +1,406 @@
+{
+ "cuts": [
+  {
+   "id": "ch16_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 15.096,
+   "props": {
+    "n": 16,
+    "total": 20,
+    "title": "You and Me",
+    "lines": [
+     "You and I can look at the same price and be playing different games.",
+     "Bubbles form when short-term traders set prices that long-term owners then treat as wisdom."
+    ],
+    "color": "#38BDF8",
+    "dur": 15.596
+   }
+  },
+  {
+   "id": "ch16_games",
+   "type": "pm_sheet",
+   "in_seconds": 15.596,
+   "out_seconds": 46.481,
+   "props": {
+    "kicker": "DIFFERENT PLAYERS, SAME TICKER",
+    "title": "Cisco 1999 as the book's example",
+    "rows": [
+     {
+      "k": "Cisco 1999",
+      "v": "Cisco stock rose 300% in 1999 to $60 a share. Market value about $600 billion.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Day trader",
+      "v": "At $60, a momentum trader can be right for a week. A 30-year owner needed a different math.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Turnover",
+      "v": "The average mutual fund had about 120% annual turnover \u2014 many 'investors' were not investing.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Rule",
+      "v": "Identify your game. Do not take cues from people playing a different one.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 31.385
+   }
+  },
+  {
+   "id": "ch16_games-more",
+   "type": "pm_sheet",
+   "in_seconds": 46.981,
+   "out_seconds": 78.283,
+   "props": {
+    "kicker": "CISCO WAS TWO GAMES AT $60",
+    "title": "Do not import another player's scoreboard",
+    "rows": [
+     {
+      "k": "300%",
+      "v": "Cisco rose 300% in 1999 to $60. Valuation about $600 billion.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Trader",
+      "v": "A one-week momentum trader can be right at $60. That does not make $60 a 30-year entry.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "120%",
+      "v": "Average mutual fund turnover about 120% a year \u2014 many holders were not 'investors.'",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Bubble path",
+      "v": "Short-term players set the print. Long-term owners treat the print as wisdom. That is how bubbles recruit.",
+      "c": "#F87171"
+     }
+    ],
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 31.802
+   }
+  },
+  {
+   "id": "ch16_games-do",
+   "type": "pm_list",
+   "in_seconds": 78.783,
+   "out_seconds": 90.455,
+   "props": {
+    "kicker": "YOU AND ME \u00b7 RULES",
+    "title": "Name your time horizon out loud",
+    "items": [
+     "Write whether you are playing weeks, years, or decades before you copy a price take.",
+     "Hot takes from a different game are not information. They are someone else's payoff function."
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 12.172
+   }
+  },
+  {
+   "id": "ch16_bubble",
+   "type": "pm_sheet",
+   "in_seconds": 90.955,
+   "out_seconds": 124.078,
+   "props": {
+    "kicker": "A BUBBLE IS TWO GAMES",
+    "title": "Same ticker, different payoff",
+    "rows": [
+     {
+      "k": "Print",
+      "v": "Short-term traders can be right about a print that is nonsense for a thirty-year holder.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Cisco",
+      "v": "Cisco at sixty dollars after a three hundred percent year was a trader's win and an owner's trap.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Turnover",
+      "v": "About one hundred twenty percent average fund turnover meant many 'holders' were not investing.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Recruit",
+      "v": "Bubbles recruit long-term money with short-term scoreboards. Name your clock before you copy.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Rule",
+      "v": "If you cannot say whether you are playing weeks or decades, you are playing someone else's game.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 33.623
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.838,
+   "Chapter 16."
+  ],
+  [
+   0.838,
+   2.096,
+   "You and Me."
+  ],
+  [
+   2.727,
+   6.081,
+   "You and I can look at the same"
+  ],
+  [
+   6.081,
+   8.596,
+   "price and be playing different games."
+  ],
+  [
+   9.228,
+   12.581,
+   "Bubbles form when short-term traders set\nprices that"
+  ],
+  [
+   12.581,
+   15.096,
+   "long-term owners then treat as wisdom."
+  ],
+  [
+   15.596,
+   18.863,
+   "Cisco stock rose three hundred percent in\nnineteen"
+  ],
+  [
+   18.863,
+   21.312,
+   "ninety-nine to sixty dollars a share."
+  ],
+  [
+   21.312,
+   24.171,
+   "Market value about six hundred billion\ndollars."
+  ],
+  [
+   24.802,
+   26.027,
+   "At sixty dollars,"
+  ],
+  [
+   26.027,
+   29.294,
+   "a momentum trader can be right for a"
+  ],
+  [
+   29.294,
+   29.702,
+   "week."
+  ],
+  [
+   29.702,
+   32.56,
+   "A thirty-year owner needed a different\nmath."
+  ],
+  [
+   33.192,
+   36.458,
+   "The average mutual fund had about one\nhundred"
+  ],
+  [
+   36.458,
+   38.091,
+   "twenty percent annual turnover."
+  ],
+  [
+   38.091,
+   40.541,
+   "Many so-called investors were not\ninvesting."
+  ],
+  [
+   41.173,
+   42.398,
+   "Identify your game."
+  ],
+  [
+   42.398,
+   45.664,
+   "Do not take cues from people playing a"
+  ],
+  [
+   45.664,
+   46.481,
+   "different one."
+  ],
+  [
+   46.981,
+   50.441,
+   "Cisco rose three hundred percent in\nnineteen ninety-nine"
+  ],
+  [
+   50.441,
+   51.738,
+   "to sixty dollars."
+  ],
+  [
+   51.738,
+   53.9,
+   "Valuation about six hundred billion."
+  ],
+  [
+   54.532,
+   57.992,
+   "A one-week momentum trader can be right at"
+  ],
+  [
+   57.992,
+   58.857,
+   "sixty dollars."
+  ],
+  [
+   58.857,
+   62.316,
+   "That does not make sixty dollars a\nthirty-year"
+  ],
+  [
+   62.316,
+   62.749,
+   "entry."
+  ],
+  [
+   63.38,
+   66.84,
+   "Average mutual fund turnover about one\nhundred twenty"
+  ],
+  [
+   66.84,
+   68.137,
+   "percent a year."
+  ],
+  [
+   68.137,
+   70.3,
+   "Many holders were not investors."
+  ],
+  [
+   70.931,
+   73.093,
+   "Short-term players set the print."
+  ],
+  [
+   73.093,
+   76.121,
+   "Long-term owners treat the print as\nwisdom."
+  ],
+  [
+   76.121,
+   78.283,
+   "That is how bubbles recruit."
+  ],
+  [
+   78.783,
+   80.991,
+   "Write whether you are playing weeks,"
+  ],
+  [
+   80.991,
+   81.359,
+   "years,"
+  ],
+  [
+   81.359,
+   84.303,
+   "or decades before you copy a price take."
+  ],
+  [
+   84.935,
+   87.879,
+   "Hot takes from a different game are not"
+  ],
+  [
+   87.879,
+   88.247,
+   "information."
+  ],
+  [
+   88.247,
+   90.455,
+   "They are someone else's payoff function."
+  ],
+  [
+   90.955,
+   94.134,
+   "Short-term traders can be right about a\nprint"
+  ],
+  [
+   94.134,
+   96.915,
+   "that is nonsense for a thirty-year holder."
+  ],
+  [
+   97.547,
+   100.726,
+   "Cisco at sixty dollars after a three\nhundred"
+  ],
+  [
+   100.726,
+   103.905,
+   "percent year was a trader's win and an"
+  ],
+  [
+   103.905,
+   104.699,
+   "owner's trap."
+  ],
+  [
+   105.331,
+   108.51,
+   "About one hundred twenty percent average\nfund turnover"
+  ],
+  [
+   108.51,
+   110.894,
+   "meant many holders were not investing."
+  ],
+  [
+   111.526,
+   114.307,
+   "Bubbles recruit long-term money with\nshort-term scoreboards."
+  ],
+  [
+   114.307,
+   116.691,
+   "Name your clock before you copy."
+  ],
+  [
+   117.323,
+   120.502,
+   "If you cannot say whether you are playing"
+  ],
+  [
+   120.502,
+   121.694,
+   "weeks or decades,"
+  ],
+  [
+   121.694,
+   124.078,
+   "you are playing someone else's game."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch16.wav",
+   "volume": 1.0
+  }
+ }
+}

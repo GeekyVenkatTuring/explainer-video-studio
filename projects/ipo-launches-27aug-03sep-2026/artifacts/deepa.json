@@ -1,0 +1,277 @@
+{
+  "cuts": [
+    {
+      "id": "deepa_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 19.676,
+      "props": {
+        "title": "Deepa Jewellers IPO",
+        "sub": "Jewellery retail · ₹459.72 Cr · 1–3 Sep 2026",
+        "kicker": "IPO ANALYSIS · MAINBOARD",
+        "dur": 20.176
+      }
+    },
+    {
+      "id": "deepa_biz",
+      "type": "sm_iconcards",
+      "in_seconds": 20.176,
+      "out_seconds": 65.362,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "Business Model",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "💍",
+            "k": "Jewellery retail",
+            "v": "Designs and retails gold and diamond jewellery with a strong regional footprint.",
+            "chip": "JEWELLERY"
+          },
+          {
+            "emoji": "🚀",
+            "k": "Fast growth, high returns",
+            "v": "FY26 revenue ₹1,927 Cr, up 38%, and profit ₹104.8 Cr, up 158%, with return on equity near 56%.",
+            "chip": "GROWTH"
+          },
+          {
+            "emoji": "⚖️",
+            "k": "Part offer for sale",
+            "v": "₹250 Cr is fresh and ₹209.7 Cr is an offer for sale — nearly half the deal goes to selling promoters.",
+            "chip": "STRUCTURE"
+          }
+        ],
+        "dur": 45.686
+      }
+    },
+    {
+      "id": "deepa_fin",
+      "type": "sm_stats",
+      "in_seconds": 65.862,
+      "out_seconds": 110.018,
+      "props": {
+        "kicker": "FINANCIAL QUALITY",
+        "title": "FY26 Financials",
+        "stats": [
+          {
+            "label": "Revenue",
+            "to": 1926.7,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "FY26 filing"
+          },
+          {
+            "label": "Profit after tax",
+            "to": 104.8,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "filing evidence"
+          },
+          {
+            "label": "PAT margin",
+            "to": 5.439352260341517,
+            "prefix": "",
+            "suffix": "%",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "reported FY26 margin"
+          }
+        ],
+        "note": "FY26 revenue ₹1,926.7 Cr (FY25 ₹1,400.10, +38%), PAT ₹104.8 Cr (FY25 ₹40.58, +158%); return on equity near 56% and about 16 times earnings.",
+        "dur": 44.656
+      }
+    },
+    {
+      "id": "deepa_issue",
+      "type": "sm_stats",
+      "in_seconds": 110.518,
+      "out_seconds": 134.276,
+      "props": {
+        "kicker": "OFFER STRUCTURE",
+        "title": "Fresh Issue vs OFS",
+        "stats": [
+          {
+            "label": "Total offer",
+            "to": 459.72,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "offer size"
+          },
+          {
+            "label": "Fresh — company receives",
+            "to": 250.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "new capital"
+          },
+          {
+            "label": "OFS — sellers receive",
+            "to": 209.72,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FB7185",
+            "sub": "shareholder exit"
+          }
+        ],
+        "note": "Fresh funds enter the company. Offer-for-sale proceeds go to selling shareholders.",
+        "dur": 24.258
+      }
+    },
+    {
+      "id": "deepa_proceeds",
+      "type": "sm_iconcards",
+      "in_seconds": 134.776,
+      "out_seconds": 164.362,
+      "props": {
+        "kicker": "USE OF PROCEEDS",
+        "title": "What The Capital Funds",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "📦",
+            "k": "₹215 Cr working capital",
+            "v": "Most of the fresh money funds inventory procurement and scale-up.",
+            "chip": "RHP"
+          },
+          {
+            "emoji": "🧰",
+            "k": "General corporate purposes",
+            "v": "The balance is for general corporate purposes.",
+            "chip": "GCP"
+          },
+          {
+            "emoji": "👥",
+            "k": "₹209.7 Cr offer for sale",
+            "v": "Selling promoters receive nearly half of the total deal.",
+            "chip": "OFS"
+          }
+        ],
+        "dur": 30.086
+      }
+    },
+    {
+      "id": "deepa_peers",
+      "type": "sm_peers",
+      "in_seconds": 164.862,
+      "out_seconds": 180.7,
+      "props": {
+        "kicker": "COMPETITORS · VALUATION",
+        "title": "Peer Comparison",
+        "color": "#FBBF24",
+        "rows": [
+          {
+            "name": "Deepa Jewellers IPO",
+            "pe": 16.2,
+            "note": "₹177 cap / FY26 PAT",
+            "hi": true
+          },
+          {
+            "name": "Listed jewellery peers",
+            "pe": null,
+            "note": "P/E range 10.08 to 57.56x",
+            "hi": false
+          }
+        ],
+        "verdict": "At about 16 times earnings, Deepa sits in the lower half of the disclosed jewellery peer P/E range of 10 to 57 times, with a much higher return on equity.",
+        "dur": 16.338
+      }
+    },
+    {
+      "id": "deepa_verdict",
+      "type": "sm_myths",
+      "in_seconds": 181.2,
+      "out_seconds": 221.994,
+      "props": {
+        "kicker": "CONSOLIDATED ANALYSIS",
+        "title": "Strengths vs Watch-outs",
+        "mythLabel": "⚠️ WATCH-OUTS",
+        "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+        "pairs": [
+          {
+            "m": "Nearly half the deal is a promoter offer for sale",
+            "f": "FY26 profit up 158%, return on equity near 56%"
+          },
+          {
+            "m": "Gold inventory and working-capital intensity",
+            "f": "Revenue up 38% to ₹1,927 Cr"
+          },
+          {
+            "m": "Jewellery-cycle and metal-price exposure",
+            "f": "About 16x P/E, in the lower half of the peer range"
+          }
+        ],
+        "dur": 41.294
+      }
+    },
+    {
+      "id": "deepa_retail",
+      "type": "sm_iconcards",
+      "in_seconds": 222.494,
+      "out_seconds": 254.288,
+      "props": {
+        "kicker": "HOW TO APPLY",
+        "title": "Check Terms Before You Bid",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "🧑",
+            "k": "Retail cap",
+            "v": "Retail bids up to ₹2 lakh; allocation can be lottery-based when oversubscribed.",
+            "chip": "RII"
+          },
+          {
+            "emoji": "💰",
+            "k": "Minimum bid",
+            "v": "₹14,868 (84 shares × ₹177)",
+            "chip": "MIN BID"
+          },
+          {
+            "emoji": "📌",
+            "k": "MAINBOARD",
+            "v": "Mainboard retail bids run up to two lakh rupees; allotment can be a lottery when oversubscribed.",
+            "chip": "MAINBOARD"
+          },
+          {
+            "emoji": "🔎",
+            "k": "Verify live",
+            "v": "Read the final RHP and the NSE or BSE subscription data before bidding.",
+            "chip": "SOURCES"
+          }
+        ],
+        "dur": 32.294
+      }
+    },
+    {
+      "id": "deepa_recap",
+      "type": "sm_recap",
+      "in_seconds": 254.788,
+      "out_seconds": 323.682,
+      "props": {
+        "title": "Deepa Jewellers IPO — Evidence Recap",
+        "items": [
+          "FY26: revenue ₹1,927 Cr · PAT ₹104.80 Cr",
+          "Offer: ₹459.72 Cr · fresh ₹250.00 Cr · OFS ₹209.72 Cr",
+          "Competitor lens: At about 16 times earnings, Deepa sits in the lower half of the disclosed jewellery peer P/E range of 10 to 57 times, with a much higher return on equity.",
+          "Evidence: RHP-based reporting: BusinessToday, IPOWatch, Chittorgarh, Orient Publication (FY26 financials, peer P/E range, terms)."
+        ],
+        "closer": "Read the final RHP. Decide for yourself.",
+        "dur": 69.394
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/deepa.wav",
+      "volume": 1.0
+    }
+  }
+}

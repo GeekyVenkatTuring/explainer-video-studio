@@ -1,0 +1,30 @@
+{
+ "cuts": [
+  {
+   "id": "s43_recap",
+   "type": "hf_recap",
+   "in_seconds": 0.0,
+   "out_seconds": 52.922,
+   "props": {
+    "items": [
+     "HyperFrames renders video from a single HTML file",
+     "data-* attributes declare duration, timing and tracks",
+     "One paused timeline per composition \u2014 we seek it, never play it",
+     "Determinism: seed randomness, animate transforms, never the clock",
+     "GSAP by default, but seven runtimes all seek as one",
+     "Design for video: dense, hierarchical, always moving",
+     "One audio engine: voice, music, effects and captions \u2014 cloud or local",
+     "Lint, validate, inspect; preview in Studio; then render"
+    ],
+    "closer": "Video you can write, diff, review, and render \u2014 like any other code.",
+    "dur": 53.422
+   }
+  }
+ ],
+ "audio": {
+  "narration": {
+   "src": "hf/narration_p7.wav",
+   "volume": 1.0
+  }
+ }
+}

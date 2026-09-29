@@ -1498,10 +1498,11 @@ const StairsScene: React.FC<{
 // verdict line. Handles null P/E ("n/a") for no-listed-peer / loss-making cases.
 const PeersScene: React.FC<{
   dur?: number; kicker?: string; title?: string; color?: string; peLabel?: string;
-  rows?: { name: string; pe: number | null; note?: string; hi?: boolean }[];
-  verdict?: string;
+  rows?: { name: string; pe: number | null; note?: string; hi?: boolean; display?: string }[];
+  verdict?: string; unit?: string; dec?: number; naText?: string;
 }> = ({ dur, kicker = "COMPETITORS · VALUATION", title = "", color = A.mkt,
-  peLabel = "P/E (×) — longer bar = pricier", rows = [], verdict = "" }) => {
+  peLabel = "P/E (×) — longer bar = pricier", rows = [], verdict = "",
+  unit = "×", dec, naText = "no comparable P/E" }) => {
   const frame = useCurrentFrame();
   const p = useP(dur);
   const n = rows.length || 1;
@@ -1542,12 +1543,12 @@ const PeersScene: React.FC<{
               {r.pe != null
                 ? <div style={{ width: fill, height: "100%", borderRadius: 6,
                     background: `linear-gradient(90deg, ${mix(c, T.bg1, 0.4)}, ${c})` }} />
-                : <span style={{ fontFamily: MONO, fontSize: 18, color: T.muted, paddingLeft: 12, opacity: o }}>no comparable P/E</span>}
+                : <span style={{ fontFamily: MONO, fontSize: 18, color: T.muted, paddingLeft: 12, opacity: o }}>{naText}</span>}
             </div>
             <div style={{ width: PEW, marginLeft: 26, textAlign: "right", flexShrink: 0,
               fontFamily: MONO, fontWeight: 800, fontSize: 34, color: r.pe != null ? (r.hi ? color : T.text) : T.muted,
               opacity: p(at + 0.12, at + 0.26) }}>
-              {r.pe != null ? `${r.pe % 1 ? r.pe.toFixed(1) : r.pe.toFixed(0)}×` : "n/a"}</div>
+              {r.pe != null ? (r.display || `${r.pe.toFixed(dec != null ? dec : (r.pe % 1 ? 1 : 0))}${unit}`) : "n/a"}</div>
           </div>
         );
       })}
@@ -1556,6 +1557,127 @@ const PeersScene: React.FC<{
           <span style={{ fontFamily: SANS, fontWeight: 700, fontSize: 30, color: T.text, lineHeight: 1.4 }}>{verdict}</span>
         </div>
       )}
+    </Stage>
+  );
+};
+
+// ---------------------------------------------------------------- sm_reportcard
+// One consistent five-factor report card for a newly listed stock. The price
+// journey, factor row and two-quarter model path deliberately share the same
+// geometry across every company so viewers can compare without relearning the
+// frame. Always-on motion: live candles, travelling rail pulse and edge progress.
+const ReportCardScene: React.FC<{
+  dur?: number; index?: number; total?: number; name?: string; ticker?: string;
+  listed?: string; issue?: string; listing?: string; current?: string;
+  listGain?: string; returnPct?: string; status?: string; statusTone?: string;
+  factors?: { label: string; value: string; note: string; tone?: string }[];
+  target1?: string; target2?: string; confidence?: string; modelNote?: string;
+}> = ({
+  dur, index = 1, total = 20, name = "", ticker = "", listed = "",
+  issue = "", listing = "", current = "", listGain = "", returnPct = "",
+  status = "", statusTone = A.mkt, factors = [], target1 = "", target2 = "",
+  confidence = "LOW", modelNote = "",
+}) => {
+  const frame = useCurrentFrame();
+  const p = useP(dur);
+  const priceNodes = [
+    { label: "ISSUE", value: issue, note: "offer price", color: A.money },
+    { label: "LISTING", value: listing, note: listGain, color: A.mkt },
+    { label: "28 AUG CLOSE", value: current, note: returnPct, color: statusTone },
+  ];
+  const railPulse = ((frame * 5) % 1450);
+  return (
+    <Stage>
+      <CandleMotif x={1420} y={70} w={350} h={110} o={0.22 + Math.sin(frame * 0.06) * 0.05} k={22} dim />
+      <div style={{ position: "absolute", left: 100, top: 48, right: 100 }}>
+        <Kicker theme={T} text={`STOCK ${String(index).padStart(2, "0")} / ${total} · NSE:${ticker} · LISTED ${listed}`} color={statusTone} />
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: 9 }}>
+          <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 50, color: T.text, letterSpacing: 0, opacity: p(0, 0.05) }}>{name}</div>
+          <div style={{ fontFamily: MONO, fontWeight: 800, fontSize: 22, color: statusTone,
+            padding: "9px 18px", borderRadius: 999, border: `2px solid ${statusTone}`,
+            background: mix(T.panel, statusTone, 0.13), opacity: p(0.04, 0.10) }}>{status}</div>
+        </div>
+      </div>
+
+      {/* price journey */}
+      <div style={{ position: "absolute", left: 130, top: 185, width: 1660, height: 190,
+        borderRadius: 20, background: mix(T.panel, A.mkt, 0.045), border: `2px solid ${mix(T.bg2, A.mkt, 0.42)}` }}>
+        {priceNodes.map((node, i) => {
+          const at = 0.05 + i * 0.07;
+          const o = p(at, at + 0.07);
+          const x = 28 + i * 390;
+          return (
+            <React.Fragment key={node.label}>
+              <div style={{ position: "absolute", left: x, top: 24, width: 330, height: 140,
+                borderRadius: 16, padding: "18px 22px", boxSizing: "border-box",
+                opacity: o, transform: `translateY(${(1 - o) * 16}px)`,
+                background: mix(T.panel, node.color, 0.09), border: `2px solid ${mix(T.bg2, node.color, 0.62)}` }}>
+                <div style={{ fontFamily: MONO, fontWeight: 800, fontSize: 18, letterSpacing: 2, color: node.color }}>{node.label}</div>
+                <div style={{ fontFamily: MONO, fontWeight: 800, fontSize: 39, color: T.text, marginTop: 8 }}>{node.value}</div>
+                <div style={{ fontFamily: SANS, fontSize: 19, color: T.muted, marginTop: 3 }}>{node.note}</div>
+              </div>
+              {i < 2 && <div style={{ position: "absolute", left: x + 340, top: 89, color: A.mkt,
+                fontFamily: MONO, fontWeight: 800, fontSize: 28, opacity: p(at + 0.04, at + 0.1) }}>→</div>}
+            </React.Fragment>
+          );
+        })}
+        <div style={{ position: "absolute", right: 28, top: 24, width: 420, height: 140,
+          borderRadius: 16, padding: "18px 22px", boxSizing: "border-box", textAlign: "center",
+          opacity: p(0.22, 0.3), background: mix(T.panel, statusTone, 0.12), border: `2.5px solid ${statusTone}`,
+          boxShadow: `0 0 ${18 + Math.sin(frame * 0.08) * 8}px ${mix(T.bg0, statusTone, 0.28)}` }}>
+          <div style={{ fontFamily: MONO, fontWeight: 800, fontSize: 18, letterSpacing: 2, color: statusTone }}>MARKET SCORE</div>
+          <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 30, color: T.text, marginTop: 13, lineHeight: 1.2 }}>{status}</div>
+          <div style={{ fontFamily: MONO, fontSize: 18, color: T.muted, marginTop: 7 }}>vs issue price</div>
+        </div>
+      </div>
+
+      {/* the same five lenses on every company */}
+      <div style={{ position: "absolute", left: 130, top: 408, width: 1660, display: "flex", gap: 16 }}>
+        {factors.map((f, i) => {
+          const c = f.tone || A.mkt;
+          const at = 0.22 + i * 0.045;
+          const o = p(at, at + 0.07);
+          const hot = Math.floor(frame / 34) % Math.max(1, factors.length) === i;
+          return (
+            <div key={f.label} style={{ width: 319, height: 220, borderRadius: 16, boxSizing: "border-box", padding: "19px 18px",
+              opacity: o, transform: `translateY(${(1 - o) * 18}px) scale(${hot && p(0.55, 0.6) > 0.5 ? 1.015 : 1})`,
+              background: mix(T.panel, c, hot ? 0.13 : 0.07), border: `2px solid ${mix(T.bg2, c, hot ? 0.82 : 0.48)}` }}>
+              <div style={{ fontFamily: MONO, fontWeight: 800, fontSize: 17, color: c, letterSpacing: 1.5 }}>{f.label}</div>
+              <div style={{ fontFamily: MONO, fontWeight: 800, fontSize: 29, color: T.text, marginTop: 17, lineHeight: 1.1 }}>{f.value}</div>
+              <div style={{ fontFamily: SANS, fontSize: 18, color: T.muted, lineHeight: 1.32, marginTop: 14 }}>{f.note}</div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* uniform two-quarter base-case target rail */}
+      <div style={{ position: "absolute", left: 130, top: 666, width: 1660, height: 240,
+        borderRadius: 20, boxSizing: "border-box", padding: "20px 28px",
+        opacity: p(0.48, 0.56), background: mix(T.panel, A.deriv, 0.07), border: `2px solid ${mix(T.bg2, A.deriv, 0.58)}` }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <div style={{ fontFamily: MONO, fontWeight: 800, fontSize: 19, color: A.deriv, letterSpacing: 2 }}>UNIFORM FACTOR MODEL · BASE CASE</div>
+          <div style={{ fontFamily: MONO, fontWeight: 800, fontSize: 18, color: A.money }}>CONFIDENCE: {confidence}</div>
+        </div>
+        <div style={{ position: "absolute", left: 70, right: 70, top: 104, height: 4, background: mix(T.bg2, A.deriv, 0.42), borderRadius: 4 }} />
+        <div style={{ position: "absolute", left: 70 + railPulse, top: 96, width: 20, height: 20, borderRadius: 20,
+          background: A.deriv, boxShadow: `0 0 22px ${A.deriv}` }} />
+        {[
+          { x: 70, label: "CURRENT", value: current, color: statusTone },
+          { x: 710, label: "NEXT QUARTER", value: target1, color: A.mkt },
+          { x: 1350, label: "FOLLOWING QUARTER", value: target2, color: A.deriv },
+        ].map((n, i) => (
+          <div key={n.label} style={{ position: "absolute", left: n.x, top: 68, width: 240, textAlign: "center",
+            opacity: p(0.53 + i * 0.06, 0.61 + i * 0.06), transform: `translateY(${(1 - p(0.53 + i * 0.06, 0.61 + i * 0.06)) * 12}px)` }}>
+            <div style={{ width: 18, height: 18, margin: "27px auto 8px", borderRadius: 18, background: n.color, border: `3px solid ${T.bg0}` }} />
+            <div style={{ fontFamily: MONO, fontWeight: 800, fontSize: 17, color: n.color, letterSpacing: 1 }}>{n.label}</div>
+            <div style={{ fontFamily: MONO, fontWeight: 800, fontSize: 31, color: T.text, marginTop: 6 }}>{n.value}</div>
+          </div>
+        ))}
+        <div style={{ position: "absolute", left: 310, right: 310, bottom: 14, textAlign: "center",
+          fontFamily: SANS, fontSize: 17, color: T.muted, lineHeight: 1.28 }}>{modelNote}</div>
+      </div>
+      <div style={{ position: "absolute", left: 0, bottom: 0, width: `${p(0, 1) * 100}%`, height: 6,
+        background: `linear-gradient(90deg, ${A.mkt}, ${statusTone}, ${A.deriv})` }} />
     </Stage>
   );
 };
@@ -1675,6 +1797,7 @@ export const SMScene: React.FC<{ variant: string;[key: string]: unknown }> = ({ 
     case "sm_mfpool": content = <MFPoolScene {...(rest as any)} />; accent = A.up; break;
     case "sm_stairs": content = <StairsScene {...(rest as any)} />; accent = A.up; break;
     case "sm_peers": content = <PeersScene {...(rest as any)} />; accent = ((rest as any).color as string) || A.mkt; break;
+    case "sm_reportcard": content = <ReportCardScene {...(rest as any)} />; accent = ((rest as any).statusTone as string) || A.mkt; break;
     case "sm_financials": content = <FinancialsScene {...(rest as any)} />; accent = ((rest as any).color as string) || A.money; break;
     default:
       content = (

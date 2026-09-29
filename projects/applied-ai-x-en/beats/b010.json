@@ -1,0 +1,40 @@
+{
+ "idx": 10,
+ "variant": "xa_stack",
+ "props": {
+  "rank": 10,
+  "total": 10,
+  "ch": 1,
+  "chname": "LEARNING PATHS",
+  "title": "The 25 AI Concepts You Actually Need to Understand in 2026",
+  "handle": "@KanikaBK",
+  "likes": "342",
+  "thesis": "Kanika sorts twenty-five concepts into layers, and argues that real expertise comes from connecting the mechanisms rather than collecting the vocabulary.",
+  "take": "Build one small workflow on a real bottleneck, with retrieval, evals and cost limits.",
+  "topLabel": "where the value is",
+  "botLabel": "where you start",
+  "layers": [
+   {
+    "label": "Computational basics",
+    "line": "Tokens, context windows, embeddings, and training versus inference"
+   },
+   {
+    "label": "Model capabilities",
+    "line": "Match capability, latency and cost \u2014 bigger is not automatically better"
+   },
+   {
+    "label": "Beyond prompting",
+    "line": "Agents plan and act; function calling reaches APIs, code and databases"
+   },
+   {
+    "label": "Grounded workflows",
+    "line": "Retrieve, summarise, draft, review, publish \u2014 a process, not a chatbot"
+   },
+   {
+    "label": "Reliability and value",
+    "line": "Evals, guardrails, human review, and cost control as usage grows"
+   }
+  ]
+ },
+ "narration": "Kanika's map covers twenty-five concepts, and it is built in layers. [pause] At the base are the computational basics. Tokens are the pieces a model processes. They set your cost, your latency, and how much fits in the context window. Embeddings turn meaning into numbers, so you can search by similarity. Training adjusts parameters. Inference just uses them. [pause] Above that sit model capabilities. Seven billion, seventy billion, four hundred and five billion. Those numbers describe scale, not suitability. Match capability, speed and cost to the job. [pause] The third layer goes beyond prompting. Agents plan, then act. Function calling reaches APIs, code and databases. Orchestration coordinates models, people and approvals. Her point is that workflow structure matters more than clever wording. [pause] The fourth layer is grounded workflows. Retrieval pulls in real material before the model answers. Her example runs retrieve, summarise, draft, review, publish. That is a process, not a chatbot. [pause] The top layer is reliability and value. A plausible falsehood still needs verifying. Evaluation measures accuracy, relevance, safety and usefulness. Guardrails limit sensitive data and unauthorized actions. And compounding systems feed experience back into better prompts and better retrieval. [pause] And her advice is to start small, on a bottleneck that actually matters."
+}

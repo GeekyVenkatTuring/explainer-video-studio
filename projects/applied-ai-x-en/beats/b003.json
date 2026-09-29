@@ -1,0 +1,42 @@
+{
+ "idx": 3,
+ "variant": "xa_article",
+ "props": {
+  "rank": 3,
+  "total": 10,
+  "ch": 1,
+  "chname": "LEARNING PATHS",
+  "title": "20 AI Concepts You Must Understand in 2026",
+  "handle": "@sairahul1",
+  "likes": "2.4K",
+  "thesis": "Rahul connects twenty AI concepts to practical choices about instructions, model adaptation, retrieval, and tools.",
+  "take": "Choose the intervention your problem needs, and verify factual answers.",
+  "points": [
+   {
+    "label": "How models work",
+    "line": "Models learn connection strengths, then predict the next fragment of text."
+   },
+   {
+    "label": "Reliable instructions",
+    "line": "Supply context, examples, output formats, and manageable steps; verify answers."
+   },
+   {
+    "label": "Specialization",
+    "line": "Continue training on focused material, and use human rankings to guide responses."
+   },
+   {
+    "label": "Lower costs",
+    "line": "LoRA trains small additions. Quantization reduces precision and storage."
+   },
+   {
+    "label": "Retrieval and action",
+    "line": "Search documents before answering, or connect tools through repeated action and observation."
+   },
+   {
+    "label": "Beyond text",
+    "line": "Image generation removes noise progressively; Rahul also discusses Sora and Runway."
+   }
+  ]
+ },
+ "narration": "Rahul connects twenty AI concepts to everyday engineering decisions. His argument is practical: understanding mechanisms helps you choose the right intervention. [pause] Foundations begin with models learning connection strengths and interpreting text fragments through surrounding words. Model behavior follows from predicting what text comes next across vast training collections. Available context is limited, and fluent answers can still contain invented facts. Reliable instructions supply context, examples, output formats, and manageable steps for the model. Rahul recommends intermediate calculations for complex problems and checking factual answers rather than trusting confidence. Specialization means continuing training on focused material, such as clinical notes or contracts. Human rankings can separately guide models toward more helpful responses. Lower costs come through LoRA, which trains small additions while leaving the original model unchanged. [pause] Quantization means storing model weights with less numerical precision. Rahul illustrates thirty-two bits becoming four bits, an eightfold storage reduction. [pause] Retrieval and action offer alternatives to changing the model itself. Search relevant documents before answering using Pinecone, Qdrant, Weaviate, or pgvector. Tool-using systems repeatedly plan, act, observe, and revise their work. Beyond text, image generation progressively removes noise under written guidance. Rahul also discusses video tools Sora and Runway. [pause] Improve instructions first where appropriate. Retrieve changing facts, adapt specialized behavior, connect tools, and verify answers."
+}

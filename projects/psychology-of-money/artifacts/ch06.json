@@ -1,0 +1,728 @@
+{
+ "cuts": [
+  {
+   "id": "ch06_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 14.251,
+   "props": {
+    "n": 6,
+    "total": 20,
+    "title": "Tails, You Win",
+    "lines": [
+     "A few extreme outcomes drive most of finance. Being wrong often can still win.",
+     "Index-like patience is how you make sure you own the tail."
+    ],
+    "color": "#38BDF8",
+    "dur": 14.751
+   }
+  },
+  {
+   "id": "ch06_vc",
+   "type": "pm_sheet",
+   "in_seconds": 14.751,
+   "out_seconds": 38.082,
+   "props": {
+    "kicker": "VENTURE MATH (CORRELATION VENTURES)",
+    "title": "More than 21,000 financings, 2004\u20132014",
+    "rows": [
+     {
+      "k": "Lost money",
+      "v": "65% of venture financings lost money.",
+      "c": "#F87171"
+     },
+     {
+      "k": "10 to 20\u00d7",
+      "v": "Two and a half percent made ten times to twenty times.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Over 20\u00d7",
+      "v": "One percent made more than a twenty-times return.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "50\u00d7 club",
+      "v": "Half a percent \u2014 about 100 companies out of 21,000 \u2014 earned 50\u00d7 or more. That is where most industry returns come from.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#38BDF8",
+    "note": "Correlation Ventures, as cited in the book.",
+    "dur": 23.831
+   }
+  },
+  {
+   "id": "ch06_russell",
+   "type": "pm_sheet",
+   "in_seconds": 38.582,
+   "out_seconds": 78.683,
+   "props": {
+    "kicker": "PUBLIC STOCKS LOOK LIKE VENTURE",
+    "title": "Russell 3000 since 1980 (J.P. Morgan A.M., as cited)",
+    "rows": [
+     {
+      "k": "Failed names",
+      "v": "40% of Russell 3000 components lost at least 70% of their value and never recovered.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Who drove it",
+      "v": "Effectively all of the index's overall returns came from 7% of companies that outperformed by at least two standard deviations.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Bessembinder",
+      "v": "1926\u20132016: the best-performing about 4% of listed companies explain the net gain of the entire U.S. stock market; the rest collectively matched Treasury bills.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "2018 tails",
+      "v": "Amazon drove about 6% of S&P 500 returns in 2018. Apple: almost 7%.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 40.601
+   }
+  },
+  {
+   "id": "ch06_disney",
+   "type": "pm_sheet",
+   "in_seconds": 79.183,
+   "out_seconds": 116.183,
+   "props": {
+    "kicker": "ONE TAIL CAN PAY THE REST",
+    "title": "Snow White versus hundreds of shorts",
+    "rows": [
+     {
+      "k": "Before",
+      "v": "Disney's first studio went bankrupt. By the mid-1930s he had produced more than 400 cartoons; most lost money.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Snow White",
+      "v": "The $8 million earned in the first six months of 1938 dwarfed anything before. Debts paid. New Burbank studio. Celebrity.",
+      "c": "#34D399"
+     },
+     {
+      "k": "The 83 minutes",
+      "v": "By 1938 he had produced several hundred hours of film. In business terms, the 83 minutes of Snow White were what mattered.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Art dealers",
+      "v": "Berggruen-style dealers bought portfolios. Perhaps 99% of works were of little value if 1% was Picasso.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 37.5
+   }
+  },
+  {
+   "id": "ch06_sue",
+   "type": "pm_sheet",
+   "in_seconds": 116.683,
+   "out_seconds": 166.515,
+   "props": {
+    "kicker": "STAYING IN FOR THE TAIL MONTHS",
+    "title": "$1 a month, 1900\u20132019",
+    "rows": [
+     {
+      "k": "Sue",
+      "v": "Invests $1 every month, rain or shine. Ends with $435,551.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Jim",
+      "v": "Sells in recessions, holds cash, buys back after. Ends with $257,386.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Tom",
+      "v": "Sells six months after a recession starts, buys six months after it ends. Ends with $234,476.",
+      "c": "#F87171"
+     },
+     {
+      "k": "The 22%",
+      "v": "1,428 months in the span; just over 300 were recession months \u2014 about 22% of the time. Sue's cool there is most of the gap.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "2008",
+      "v": "How you behaved in a few months of late 2008 and early 2009 can outweigh everything from 2000 to 2008.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 50.332
+   }
+  },
+  {
+   "id": "ch06_vc-again",
+   "type": "pm_sheet",
+   "in_seconds": 167.015,
+   "out_seconds": 201.876,
+   "props": {
+    "kicker": "TAILS ARE NORMAL",
+    "title": "Failure is not a glitch in the system",
+    "rows": [
+     {
+      "k": "VC 65%",
+      "v": "Most venture deals lose money. That is the design, not an accident.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Public 40%",
+      "v": "Forty percent of Russell 3000 names lost 70% and never recovered \u2014 inside a 'boring' index.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "4% / 7%",
+      "v": "Bessembinder's about 4% of listed firms, and J.P. Morgan's 7% of the Russell, are why diversification exists.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Sue",
+      "v": "Missing the ugly 22% of months cost Jim and Tom roughly 40% of Sue's pile.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Job",
+      "v": "Your job is to still be invested when the handful of winners show up.",
+      "c": "#E8B86D"
+     }
+    ],
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 35.361
+   }
+  },
+  {
+   "id": "ch06_tails-close",
+   "type": "pm_list",
+   "in_seconds": 202.376,
+   "out_seconds": 229.047,
+   "props": {
+    "kicker": "CHAPTER 6 \u00b7 CLOSE",
+    "title": "Stay for the handful",
+    "items": [
+     "Most venture deals lose money. That is how the industry is built, not a scandal.",
+     "Forty percent of Russell three thousand names lost seventy percent and never recovered, inside a boring index.",
+     "Sue captured the ugly months. Jim and Tom did not. The pile gap is the point.",
+     "Your job is not to be right every year. It is to still be invested when the few winners arrive."
+    ],
+    "color": "#38BDF8",
+    "note": "",
+    "dur": 27.171
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.866,
+   "Chapter 6."
+  ],
+  [
+   0.866,
+   1.299,
+   "Tails,"
+  ],
+  [
+   1.299,
+   2.165,
+   "You Win."
+  ],
+  [
+   2.796,
+   6.26,
+   "A few extreme outcomes drive most of\nfinance."
+  ],
+  [
+   6.26,
+   8.857,
+   "Being wrong often can still win."
+  ],
+  [
+   9.489,
+   12.952,
+   "Index-like patience is how you make sure\nyou"
+  ],
+  [
+   12.952,
+   14.251,
+   "own the tail."
+  ],
+  [
+   14.751,
+   17.752,
+   "Sixty-five percent of venture financings\nlost money."
+  ],
+  [
+   18.384,
+   21.813,
+   "Two and a half percent made ten times"
+  ],
+  [
+   21.813,
+   23.1,
+   "to twenty times."
+  ],
+  [
+   23.731,
+   27.161,
+   "One percent made more than a twenty-times\nreturn."
+  ],
+  [
+   27.793,
+   29.079,
+   "Half a percent,"
+  ],
+  [
+   29.079,
+   32.509,
+   "about one hundred companies out of\ntwenty-one thousand,"
+  ],
+  [
+   32.509,
+   34.652,
+   "earned fifty times or more."
+  ],
+  [
+   34.652,
+   38.082,
+   "That is where most industry returns come\nfrom."
+  ],
+  [
+   38.582,
+   42.016,
+   "Forty percent of Russell three thousand\ncomponents lost"
+  ],
+  [
+   42.016,
+   45.451,
+   "at least seventy percent of their value\nand"
+  ],
+  [
+   45.451,
+   46.309,
+   "never recovered."
+  ],
+  [
+   46.941,
+   50.375,
+   "Effectively all of the index's overall\nreturns came"
+  ],
+  [
+   50.375,
+   53.809,
+   "from seven percent of companies that\noutperformed by"
+  ],
+  [
+   53.809,
+   55.956,
+   "at least two standard deviations."
+  ],
+  [
+   56.587,
+   57.017,
+   "Bessembinder,"
+  ],
+  [
+   57.017,
+   59.163,
+   "nineteen twenty-six to twenty sixteen:"
+  ],
+  [
+   59.163,
+   62.597,
+   "the best-performing about four percent of\nlisted companies"
+  ],
+  [
+   62.597,
+   66.031,
+   "explain the net gain of the entire U.S."
+  ],
+  [
+   66.031,
+   66.89,
+   "stock market."
+  ],
+  [
+   66.89,
+   69.466,
+   "The rest collectively matched Treasury\nbills."
+  ],
+  [
+   70.097,
+   73.532,
+   "Amazon drove about six percent of S and"
+  ],
+  [
+   73.532,
+   76.966,
+   "P five hundred returns in two thousand\neighteen."
+  ],
+  [
+   76.966,
+   77.395,
+   "Apple:"
+  ],
+  [
+   77.395,
+   78.683,
+   "almost seven percent."
+  ],
+  [
+   79.183,
+   81.178,
+   "Disney's first studio went bankrupt."
+  ],
+  [
+   81.178,
+   84.369,
+   "By the mid nineteen thirties he had\nproduced"
+  ],
+  [
+   84.369,
+   86.364,
+   "more than four hundred cartoons."
+  ],
+  [
+   86.364,
+   87.56,
+   "Most lost money."
+  ],
+  [
+   88.192,
+   91.383,
+   "The eight million dollars earned in the\nfirst"
+  ],
+  [
+   91.383,
+   94.575,
+   "six months of nineteen thirty-eight\ndwarfed anything before."
+  ],
+  [
+   94.575,
+   95.772,
+   "Debts were paid."
+  ],
+  [
+   95.772,
+   97.367,
+   "A new Burbank studio."
+  ],
+  [
+   97.367,
+   97.766,
+   "Celebrity."
+  ],
+  [
+   98.398,
+   101.589,
+   "By nineteen thirty-eight he had produced\nseveral hundred"
+  ],
+  [
+   101.589,
+   102.786,
+   "hours of film."
+  ],
+  [
+   102.786,
+   103.983,
+   "In business terms,"
+  ],
+  [
+   103.983,
+   107.174,
+   "the eighty-three minutes of Snow White\nwere what"
+  ],
+  [
+   107.174,
+   107.573,
+   "mattered."
+  ],
+  [
+   108.205,
+   110.598,
+   "Art dealers like Berggruen bought\nportfolios."
+  ],
+  [
+   110.598,
+   113.789,
+   "Perhaps ninety-nine percent of works were\nof little"
+  ],
+  [
+   113.789,
+   116.183,
+   "value if one percent was Picasso."
+  ],
+  [
+   116.683,
+   118.9,
+   "Sue invests one dollar every month,"
+  ],
+  [
+   118.9,
+   120.009,
+   "rain or shine."
+  ],
+  [
+   120.009,
+   122.966,
+   "She ends with four hundred thirty-five\nthousand five"
+  ],
+  [
+   122.966,
+   124.075,
+   "hundred fifty-one dollars."
+  ],
+  [
+   124.706,
+   126.184,
+   "Jim sells in recessions,"
+  ],
+  [
+   126.184,
+   126.924,
+   "holds cash,"
+  ],
+  [
+   126.924,
+   128.402,
+   "and buys back after."
+  ],
+  [
+   128.402,
+   131.358,
+   "He ends with two hundred fifty-seven\nthousand three"
+  ],
+  [
+   131.358,
+   132.467,
+   "hundred eighty-six dollars."
+  ],
+  [
+   133.099,
+   136.055,
+   "Tom sells six months after a recession\nstarts"
+  ],
+  [
+   136.055,
+   138.642,
+   "and buys six months after it ends."
+  ],
+  [
+   138.642,
+   141.599,
+   "He ends with two hundred thirty-four\nthousand four"
+  ],
+  [
+   141.599,
+   142.708,
+   "hundred seventy-six dollars."
+  ],
+  [
+   143.339,
+   146.296,
+   "There were one thousand four hundred\ntwenty-eight months"
+  ],
+  [
+   146.296,
+   147.405,
+   "in the span."
+  ],
+  [
+   147.405,
+   149.992,
+   "Just over three hundred were recession\nmonths,"
+  ],
+  [
+   149.992,
+   152.209,
+   "about twenty-two percent of the time."
+  ],
+  [
+   152.209,
+   155.166,
+   "Sue keeping her cool then is most of"
+  ],
+  [
+   155.166,
+   155.905,
+   "the gap."
+  ],
+  [
+   156.536,
+   159.493,
+   "How you behaved in a few months of"
+  ],
+  [
+   159.493,
+   162.45,
+   "late two thousand eight and early two\nthousand"
+  ],
+  [
+   162.45,
+   165.406,
+   "nine can outweigh everything from two\nthousand to"
+  ],
+  [
+   165.406,
+   166.515,
+   "two thousand eight."
+  ],
+  [
+   167.015,
+   169.061,
+   "Most venture deals lose money."
+  ],
+  [
+   169.061,
+   170.699,
+   "That is the design,"
+  ],
+  [
+   170.699,
+   171.927,
+   "not an accident."
+  ],
+  [
+   172.558,
+   175.833,
+   "Forty percent of Russell three thousand\nnames lost"
+  ],
+  [
+   175.833,
+   177.879,
+   "seventy percent and never recovered,"
+  ],
+  [
+   177.879,
+   179.516,
+   "inside a boring index."
+  ],
+  [
+   180.148,
+   183.013,
+   "Bessembinder's about four percent of\nlisted firms,"
+  ],
+  [
+   183.013,
+   183.832,
+   "and J.P."
+  ],
+  [
+   183.832,
+   186.287,
+   "Morgan's seven percent of the Russell,"
+  ],
+  [
+   186.287,
+   187.925,
+   "are why diversification exists."
+  ],
+  [
+   188.556,
+   191.831,
+   "Missing the ugly twenty-two percent of\nmonths cost"
+  ],
+  [
+   191.831,
+   195.105,
+   "Jim and Tom roughly forty percent of Sue's"
+  ],
+  [
+   195.105,
+   195.514,
+   "pile."
+  ],
+  [
+   196.146,
+   199.42,
+   "Your job is to still be invested when"
+  ],
+  [
+   199.42,
+   201.876,
+   "the handful of winners show up."
+  ],
+  [
+   202.376,
+   204.198,
+   "Most venture deals lose money."
+  ],
+  [
+   204.198,
+   206.748,
+   "That is how the industry is built,"
+  ],
+  [
+   206.748,
+   207.841,
+   "not a scandal."
+  ],
+  [
+   208.473,
+   211.388,
+   "Forty percent of Russell three thousand\nnames lost"
+  ],
+  [
+   211.388,
+   213.21,
+   "seventy percent and never recovered,"
+  ],
+  [
+   213.21,
+   214.667,
+   "inside a boring index."
+  ],
+  [
+   215.299,
+   217.12,
+   "Sue captured the ugly months."
+  ],
+  [
+   217.12,
+   218.942,
+   "Jim and Tom did not."
+  ],
+  [
+   218.942,
+   221.128,
+   "The pile gap is the point."
+  ],
+  [
+   221.76,
+   224.675,
+   "Your job is not to be right every"
+  ],
+  [
+   224.675,
+   225.039,
+   "year."
+  ],
+  [
+   225.039,
+   227.954,
+   "It is to still be invested when the"
+  ],
+  [
+   227.954,
+   229.047,
+   "few winners arrive."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch06.wav",
+   "volume": 1.0
+  }
+ }
+}

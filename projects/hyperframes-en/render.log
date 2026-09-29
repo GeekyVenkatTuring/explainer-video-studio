@@ -1,0 +1,37 @@
+== chunked render start: Wed Sep  2 13:49:52 IST 2026 ==
+-- p0: rendering @ Wed Sep  2 13:49:52 IST 2026 ; free: 5.6Gi
+Encoded 4219/4266
+Encoded 4266/4266
++                    /Users/appuram/Developer/explainer-forge/projects/hyperframes-en/renders/p0.mp4 15.7 MB
+-- p1: rendering @ Wed Sep  2 13:52:52 IST 2026 ; free: 5.6Gi
+Encoded 3471/3483
+Encoded 3483/3483
++                    /Users/appuram/Developer/explainer-forge/projects/hyperframes-en/renders/p1.mp4 13.3 MB
+-- p2: rendering @ Wed Sep  2 13:56:20 IST 2026 ; free: 5.6Gi
+Encoded 13396/13446
+Encoded 13446/13446
++                    /Users/appuram/Developer/explainer-forge/projects/hyperframes-en/renders/p2.mp4 57.2 MB
+-- p3: rendering @ Wed Sep  2 14:09:47 IST 2026 ; free: 5.5Gi
+Encoded 7557/7599
+Encoded 7599/7599
++                    /Users/appuram/Developer/explainer-forge/projects/hyperframes-en/renders/p3.mp4 30 MB
+-- p4: rendering @ Wed Sep  2 14:17:31 IST 2026 ; free: 5.5Gi
+Encoded 4846/4892
+Encoded 4892/4892
++                    /Users/appuram/Developer/explainer-forge/projects/hyperframes-en/renders/p4.mp4 18.4 MB
+-- p5: rendering @ Wed Sep  2 14:21:23 IST 2026 ; free: 5.4Gi
+Encoded 6910/7039
+Encoded 7039/7039
++                    /Users/appuram/Developer/explainer-forge/projects/hyperframes-en/renders/p5.mp4 30 MB
+-- p6: rendering @ Wed Sep  2 14:26:08 IST 2026 ; free: 5.4Gi
+Encoded 9383/9398
+Encoded 9398/9398
++                    /Users/appuram/Developer/explainer-forge/projects/hyperframes-en/renders/p6.mp4 39.1 MB
+-- p7: rendering @ Wed Sep  2 14:33:02 IST 2026 ; free: 5.3Gi
+Encoded 1514/1618
+Encoded 1618/1618
++                    /Users/appuram/Developer/explainer-forge/projects/hyperframes-en/renders/p7.mp4 7.1 MB
+== concat -> master @ Wed Sep  2 14:34:14 IST 2026 ==
+== DONE: -rw-r--r--@ 1 appuram  staff  210755670  2 Sep 14:34 /Users/appuram/Developer/explainer-forge/projects/hyperframes-en/renders/hyperframes.mp4 ==
+duration=1725.141333
+size=210755670

@@ -1,0 +1,20 @@
+  title         40.00s
+  lenses        39.12s
+  d1             3.10s
+  returns       44.09s
+  poptrap       42.47s
+  d2             3.81s
+  growth        45.62s
+  q1            53.55s
+  d3             4.11s
+  margins       52.25s
+  d4             4.30s
+  valuation     59.47s
+  d5             4.04s
+  proceeds      48.41s
+  buckets       51.39s
+  entry         45.67s
+  recap         73.72s
+
+comparison: total 623.09s (10.38 min), 17 scenes, 1488 words, 209 cues
+effective pace: 143.3 wpm

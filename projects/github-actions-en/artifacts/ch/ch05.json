@@ -1,0 +1,348 @@
+{
+ "cuts": [
+  {
+   "id": "d05",
+   "type": "gha_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 7.066,
+   "props": {
+    "n": 5,
+    "title": "Actions",
+    "sub": "reusable building blocks",
+    "color": "#BC8CFF",
+    "total": 10,
+    "dur": 7.066
+   }
+  },
+  {
+   "id": "m05",
+   "type": "gha_marketplace",
+   "in_seconds": 7.066,
+   "out_seconds": 43.63,
+   "props": {
+    "dur": 36.564
+   }
+  },
+  {
+   "id": "m05b",
+   "type": "gha_actiontypes",
+   "in_seconds": 43.63,
+   "out_seconds": 78.871,
+   "props": {
+    "dur": 35.241
+   }
+  },
+  {
+   "id": "m05c",
+   "type": "gha_yaml",
+   "in_seconds": 78.871,
+   "out_seconds": 111.152,
+   "props": {
+    "kicker": "WRITE YOUR OWN",
+    "title": "A composite action, inside your repo",
+    "file": ".github/actions/setup-app/action.yml",
+    "lines": [
+     "name: Setup app",
+     "description: Install Node and deps",
+     "inputs:",
+     "  node-version:",
+     "    default: \"22\"",
+     "runs:",
+     "  using: composite",
+     "  steps:",
+     "    - uses: actions/setup-node@v4",
+     "      with:",
+     "        node-version: ${{ inputs.node-version }}",
+     "        cache: npm",
+     "    - run: npm ci",
+     "      shell: bash"
+    ],
+    "notes": [
+     {
+      "a": 0,
+      "b": 1,
+      "at": 0.08,
+      "c": "#BC8CFF",
+      "t": "metadata \u2014 what the action is"
+     },
+     {
+      "a": 2,
+      "b": 4,
+      "at": 0.13,
+      "c": "#F2A93B",
+      "t": "inputs \u2014 node-version, default 22"
+     },
+     {
+      "a": 5,
+      "b": 11,
+      "at": 0.27,
+      "c": "#58A6FF",
+      "t": "using: composite \u2014 ordinary steps inside"
+     },
+     {
+      "a": 12,
+      "b": 13,
+      "at": 0.5,
+      "c": "#F85149",
+      "t": "run steps in a composite must set shell"
+     },
+     {
+      "a": -1,
+      "b": -1,
+      "at": 0.66,
+      "c": "#3FB950",
+      "t": "caller: uses: ./.github/actions/setup-app"
+     }
+    ],
+    "dur": 32.281
+   }
+  },
+  {
+   "id": "m05d",
+   "type": "gha_reuse",
+   "in_seconds": 111.152,
+   "out_seconds": 150.522,
+   "props": {
+    "dur": 39.37
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.119,
+   "Part five. The actions themselves."
+  ],
+  [
+   2.751,
+   6.566,
+   "Workflows stay short because of reuse. Let's see\nhow."
+  ],
+  [
+   7.066,
+   10.001,
+   "An action is a packaged, reusable step."
+  ],
+  [
+   10.632,
+   14.405,
+   "The GitHub Marketplace lists thousands of them.\nChecking out"
+  ],
+  [
+   14.405,
+   18.178,
+   "code. Setting up Node, Python, Java or Go. Caching."
+  ],
+  [
+   18.178,
+   21.951,
+   "Uploading artifacts. Building Docker images. Logging\nin to AWS,"
+  ],
+  [
+   21.951,
+   23.628,
+   "Azure or Google Cloud."
+  ],
+  [
+   24.26,
+   28.033,
+   "You reference one with uses: the owner, the\nrepository,"
+  ],
+  [
+   28.033,
+   30.967,
+   "and after the at sign, a version."
+  ],
+  [
+   31.599,
+   35.372,
+   "That version can be a tag like v4, a"
+  ],
+  [
+   35.372,
+   37.887,
+   "branch, or a full commit hash."
+  ],
+  [
+   38.519,
+   42.292,
+   "Remember that detail. It matters a lot in the"
+  ],
+  [
+   42.292,
+   43.13,
+   "security chapter."
+  ],
+  [
+   43.63,
+   47.123,
+   "You can write your own actions, in three flavors."
+  ],
+  [
+   47.755,
+   51.248,
+   "A JavaScript action runs directly on the runner with"
+  ],
+  [
+   51.248,
+   54.741,
+   "Node. It starts fastest, and works on every\noperating"
+  ],
+  [
+   54.741,
+   55.129,
+   "system."
+  ],
+  [
+   55.761,
+   59.254,
+   "A Docker container action ships its own environment.\nFully"
+  ],
+  [
+   59.254,
+   62.359,
+   "reproducible, but Linux only, and slower to start."
+  ],
+  [
+   62.991,
+   66.484,
+   "A composite action is simply a bundle of steps,"
+  ],
+  [
+   66.484,
+   69.589,
+   "packaged as one. It's the easiest to write."
+  ],
+  [
+   70.22,
+   73.713,
+   "All three are described by a file called action"
+  ],
+  [
+   73.713,
+   77.207,
+   "dot yml, which declares the inputs, the outputs, and"
+  ],
+  [
+   77.207,
+   78.371,
+   "how to run."
+  ],
+  [
+   78.871,
+   82.263,
+   "Here's a composite action, living inside the\nrepository."
+  ],
+  [
+   82.894,
+   86.71,
+   "It declares one input, the node version, with a"
+  ],
+  [
+   86.71,
+   87.134,
+   "default."
+  ],
+  [
+   87.766,
+   91.582,
+   "Under runs, using composite, it lists ordinary\nsteps: set"
+  ],
+  [
+   91.582,
+   94.55,
+   "up Node with caching, then install dependencies."
+  ],
+  [
+   95.181,
+   98.997,
+   "Note that run steps inside a composite must declare"
+  ],
+  [
+   98.997,
+   99.845,
+   "a shell."
+  ],
+  [
+   100.476,
+   104.292,
+   "Now every workflow in this repo can replace those"
+  ],
+  [
+   104.292,
+   108.108,
+   "steps with a single line: uses, dot slash, dot"
+  ],
+  [
+   108.108,
+   110.652,
+   "github, slash actions, slash setup app."
+  ],
+  [
+   111.152,
+   114.01,
+   "For bigger reuse, there are reusable workflows."
+  ],
+  [
+   114.642,
+   118.317,
+   "A workflow whose trigger is workflow call can be"
+  ],
+  [
+   118.317,
+   121.992,
+   "called by other workflows \u2014 even from other\nrepositories."
+  ],
+  [
+   121.992,
+   125.668,
+   "It takes inputs and secrets, and runs whole jobs."
+  ],
+  [
+   126.299,
+   129.974,
+   "Platform teams love this. Write one hardened deploy\npipeline,"
+  ],
+  [
+   129.974,
+   133.65,
+   "and fifty services call it. Fix a bug once,"
+  ],
+  [
+   133.65,
+   135.691,
+   "and everyone gets the fix."
+  ],
+  [
+   136.323,
+   139.998,
+   "Rule of thumb: composite actions reuse steps.\nReusable workflows"
+  ],
+  [
+   139.998,
+   140.815,
+   "reuse jobs."
+  ],
+  [
+   141.447,
+   145.122,
+   "Since late twenty twenty five, you can nest reusable"
+  ],
+  [
+   145.122,
+   148.797,
+   "workflows ten levels deep, and call up to fifty"
+  ],
+  [
+   148.797,
+   150.022,
+   "in one run."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch05.wav",
+   "volume": 1.0
+  }
+ }
+}

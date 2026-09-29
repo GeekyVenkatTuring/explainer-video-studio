@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch16_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 44.319,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "foundation",
+        "dur": 44.819
+      }
+    },
+    {
+      "id": "ch16_system",
+      "type": "aae_chapter",
+      "in_seconds": 44.819,
+      "out_seconds": 82.113,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "system",
+        "dur": 37.793
+      }
+    },
+    {
+      "id": "ch16_practice",
+      "type": "aae_chapter",
+      "in_seconds": 82.613,
+      "out_seconds": 129.045,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "practice",
+        "dur": 46.932
+      }
+    },
+    {
+      "id": "ch16_failure",
+      "type": "aae_chapter",
+      "in_seconds": 129.545,
+      "out_seconds": 168.575,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "failure",
+        "dur": 39.53
+      }
+    },
+    {
+      "id": "ch16_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 169.075,
+      "out_seconds": 211.604,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "evaluation",
+        "dur": 43.03
+      }
+    },
+    {
+      "id": "ch16_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 212.104,
+      "out_seconds": 249.292,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "handoff",
+        "dur": 37.688
+      }
+    },
+    {
+      "id": "ch16_application",
+      "type": "aae_chapter",
+      "in_seconds": 249.792,
+      "out_seconds": 297.017,
+      "props": {
+        "chapter": 16,
+        "title": "Agentic Cognition Engineering",
+        "focus": "closing the loop among perception, deliberation, action, and reflection",
+        "concepts": [
+          "observe",
+          "decide and act",
+          "learn within bounds"
+        ],
+        "example": "a maintenance agent updating its plan after a sensor anomaly",
+        "trap": "treating a chain of prompts as cognition",
+        "takeaway": "Closing the loop among perception, deliberation, action, and reflection.",
+        "beat": "application",
+        "dur": 47.725
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch16.wav",
+      "volume": 1
+    }
+  }
+}

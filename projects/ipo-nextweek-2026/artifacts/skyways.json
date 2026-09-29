@@ -1,0 +1,587 @@
+{
+  "cuts": [
+    {
+      "id": "skyways_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 18.98,
+      "props": {
+        "title": "Skyways Air Services IPO",
+        "sub": "Freight forwarding & logistics · ₹582.80 Cr · 24–27 Aug 2026",
+        "kicker": "IPO ANALYSIS · MAINBOARD",
+        "dur": 19.48
+      }
+    },
+    {
+      "id": "skyways_biz",
+      "type": "sm_iconcards",
+      "in_seconds": 19.48,
+      "out_seconds": 62.314,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "Business Model",
+        "color": "#A78BFA",
+        "items": [
+          {
+            "emoji": "✈️",
+            "k": "Air-first freight forwarder",
+            "v": "Handles air, ocean and land freight, express cargo and parcel logistics across twelve countries.",
+            "chip": "12 COUNTRIES"
+          },
+          {
+            "emoji": "📦",
+            "k": "Scale metrics",
+            "v": "FY26: 9,504 customers, 83,924 air-cargo tonnes and 28,275 ocean containers handled.",
+            "chip": "VOLUME"
+          },
+          {
+            "emoji": "🌏",
+            "k": "Asia concentration",
+            "v": "Asia was 85.51% of FY26 revenue — reach is broad, but exposure is not evenly distributed.",
+            "chip": "RHP RISK"
+          }
+        ],
+        "dur": 43.334
+      }
+    },
+    {
+      "id": "skyways_fin",
+      "type": "sm_stats",
+      "in_seconds": 62.814,
+      "out_seconds": 95.644,
+      "props": {
+        "kicker": "FINANCIAL QUALITY",
+        "title": "FY Financials",
+        "stats": [
+          {
+            "label": "Revenue",
+            "to": 2812.9,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#34D399",
+            "sub": "filing evidence"
+          },
+          {
+            "label": "Profit after tax",
+            "to": 63.52,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#34D399",
+            "sub": "2.26% PAT margin"
+          },
+          {
+            "label": "Borrowings",
+            "to": 624.06,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "₹624.06 Cr"
+          }
+        ],
+        "note": "Final RHP FY26: revenue ₹2,812.90 Cr (+25.14%), PAT ₹63.52 Cr and total borrowings ₹624.06 Cr.",
+        "dur": 33.33
+      }
+    },
+    {
+      "id": "skyways_issue",
+      "type": "sm_stats",
+      "in_seconds": 96.144,
+      "out_seconds": 117.286,
+      "props": {
+        "kicker": "OFFER STRUCTURE",
+        "title": "Fresh Issue vs OFS",
+        "stats": [
+          {
+            "label": "Total offer",
+            "to": 582.8,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#A78BFA",
+            "sub": "offer terms"
+          },
+          {
+            "label": "Fresh — company receives",
+            "to": 398.8,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#34D399",
+            "sub": "new capital"
+          },
+          {
+            "label": "OFS — sellers receive",
+            "to": 184.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#FB7185",
+            "sub": "shareholder exit"
+          }
+        ],
+        "note": "Fresh funds enter the company. OFS proceeds go to selling shareholders.",
+        "dur": 21.642
+      }
+    },
+    {
+      "id": "skyways_proceeds",
+      "type": "sm_iconcards",
+      "in_seconds": 117.786,
+      "out_seconds": 153.828,
+      "props": {
+        "kicker": "USE OF PROCEEDS",
+        "title": "What Fresh Capital Funds",
+        "color": "#A78BFA",
+        "items": [
+          {
+            "emoji": "🏦",
+            "k": "₹216.79 Cr debt repayment",
+            "v": "For Skyways and subsidiary Forin Container Line — the largest stated fresh-issue use.",
+            "chip": "RHP"
+          },
+          {
+            "emoji": "📦",
+            "k": "₹130 Cr working capital",
+            "v": "Funding growth in a business with substantial receivables and working-capital needs.",
+            "chip": "RHP"
+          },
+          {
+            "emoji": "👥",
+            "k": "₹184 Cr OFS",
+            "v": "That portion goes to selling shareholders, not the operating company.",
+            "chip": "OFS"
+          }
+        ],
+        "dur": 36.542
+      }
+    },
+    {
+      "id": "skyways_peers",
+      "type": "sm_peers",
+      "in_seconds": 154.328,
+      "out_seconds": 174.006,
+      "props": {
+        "kicker": "COMPETITORS · VALUATION",
+        "title": "Peer Comparison",
+        "color": "#A78BFA",
+        "rows": [
+          {
+            "name": "Skyways IPO",
+            "pe": 38.8,
+            "note": "₹138 cap / FY26 EPS ₹3.56",
+            "hi": true
+          },
+          {
+            "name": "TVS Supply Chain",
+            "pe": 54,
+            "note": "RHP peer set",
+            "hi": false
+          },
+          {
+            "name": "Shadowfax",
+            "pe": 104,
+            "note": "RHP peer set",
+            "hi": false
+          },
+          {
+            "name": "Delhivery",
+            "pe": 260,
+            "note": "RHP peer set",
+            "hi": false
+          },
+          {
+            "name": "Mahindra Logistics",
+            "pe": 1548,
+            "note": "RHP peer set; low EPS",
+            "hi": false
+          }
+        ],
+        "verdict": "At the ₹138 cap, Skyways is ~38.8× FY26 EPS — below the disclosed peer-set low of 54×, but business models are not strictly comparable.",
+        "dur": 20.178
+      }
+    },
+    {
+      "id": "skyways_verdict",
+      "type": "sm_myths",
+      "in_seconds": 174.506,
+      "out_seconds": 216.14,
+      "props": {
+        "kicker": "CONSOLIDATED ANALYSIS",
+        "title": "Strengths vs Watch-outs",
+        "mythLabel": "⚠️ WATCH-OUTS",
+        "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+        "pairs": [
+          {
+            "m": "Thin 2.26% FY26 PAT margin",
+            "f": "Revenue +25.14% and operating scale expanded"
+          },
+          {
+            "m": "₹624.06 Cr borrowings; working-capital funding matters",
+            "f": "Fresh proceeds repay debt and support working capital"
+          },
+          {
+            "m": "85.51% of revenue from Asia",
+            "f": "Peer multiple is lower, but comparability is limited"
+          }
+        ],
+        "dur": 42.134
+      }
+    },
+    {
+      "id": "skyways_retail",
+      "type": "sm_iconcards",
+      "in_seconds": 216.64,
+      "out_seconds": 241.02,
+      "props": {
+        "kicker": "HOW TO APPLY · RETAIL VS HNI",
+        "title": "Check Terms Before You Bid",
+        "color": "#A78BFA",
+        "items": [
+          {
+            "emoji": "🧑",
+            "k": "Retail cap",
+            "v": "Up to ₹2 lakh; allocation can be lottery-based when oversubscribed.",
+            "chip": "RII"
+          },
+          {
+            "emoji": "💼",
+            "k": "HNI",
+            "v": "Above ₹2 lakh; allocation is proportionate.",
+            "chip": "NII"
+          },
+          {
+            "emoji": "💰",
+            "k": "Minimum bid",
+            "v": "₹13,800 (100 shares × ₹138)",
+            "chip": "MIN BID"
+          },
+          {
+            "emoji": "🔎",
+            "k": "Verify live",
+            "v": "Read the final RHP and the NSE/BSE subscription data.",
+            "chip": "SOURCES"
+          }
+        ],
+        "dur": 24.88
+      }
+    },
+    {
+      "id": "skyways_recap",
+      "type": "sm_recap",
+      "in_seconds": 241.52,
+      "out_seconds": 321.142,
+      "props": {
+        "title": "Skyways Air Services IPO — Evidence Recap",
+        "items": [
+          "FY data: revenue ₹2,812.90 Cr · PAT ₹63.52 Cr · 2.26% PAT margin",
+          "Offer: ₹582.80 Cr · fresh ₹398.80 Cr · OFS ₹184.00 Cr",
+          "Competitor lens: At the ₹138 cap, Skyways is ~38.8× FY26 EPS — below the disclosed peer-set low of 54×, but business models are not strictly comparable.",
+          "Evidence: Final RHP: Skyways Air Services, pages 72–74, 109–110 and 132–133; offer terms from final price-band announcement."
+        ],
+        "closer": "Read the final RHP. Decide for yourself.",
+        "dur": 80.122
+      }
+    }
+  ],
+  "captions": [
+    [
+      0.0,
+      3.147,
+      "This is Skyways Air Services IPO."
+    ],
+    [
+      3.147,
+      9.156,
+      "We will use the IPOAgents filing evidence to test the business,"
+    ],
+    [
+      9.156,
+      12.971,
+      "financial quality, where the money goes,"
+    ],
+    [
+      12.971,
+      15.07,
+      "competitors and risks."
+    ],
+    [
+      15.07,
+      18.98,
+      "This is education, not investment advice."
+    ],
+    [
+      19.48,
+      21.956,
+      "First, the business."
+    ],
+    [
+      21.956,
+      25.422,
+      "Air-first freight forwarder."
+    ],
+    [
+      25.422,
+      29.879,
+      "Handles air, ocean and land freight,"
+    ],
+    [
+      29.879,
+      37.183,
+      "express cargo and parcel logistics across twelve countries."
+    ],
+    [
+      37.183,
+      38.916,
+      "Scale metrics."
+    ],
+    [
+      38.916,
+      41.64,
+      "FY26: 9,504 customers,"
+    ],
+    [
+      41.64,
+      49.068,
+      "83,924 air-cargo tonnes and 28,275 ocean containers handled."
+    ],
+    [
+      49.068,
+      51.42,
+      "Asia concentration."
+    ],
+    [
+      51.42,
+      57.486,
+      "Asia was 85.51% of FY26 revenue — reach is broad,"
+    ],
+    [
+      57.486,
+      62.314,
+      "but exposure is not evenly distributed."
+    ],
+    [
+      62.814,
+      71.236,
+      "The financial checkpoint is revenue ₹2,812.90 Cr,"
+    ],
+    [
+      71.236,
+      79.659,
+      "profit after tax ₹63.52 Cr, and 2.26% PAT margin."
+    ],
+    [
+      79.659,
+      87.737,
+      "Final RHP FY26: revenue ₹2,812.90 Cr (+25.14%),"
+    ],
+    [
+      87.737,
+      95.644,
+      "PAT ₹63.52 Cr and total borrowings ₹624.06 Cr."
+    ],
+    [
+      96.144,
+      106.907,
+      "The offer is ₹582.80 Cr: ₹398.80 Cr is fresh money and ₹184.00 Cr is offer for sale."
+    ],
+    [
+      106.907,
+      110.879,
+      "Fresh money enters the company."
+    ],
+    [
+      110.879,
+      117.286,
+      "Offer-for-sale money goes to selling shareholders."
+    ],
+    [
+      117.786,
+      120.678,
+      "Where does fresh money go?"
+    ],
+    [
+      120.678,
+      123.571,
+      "₹216.79 Cr debt repayment."
+    ],
+    [
+      123.571,
+      129.021,
+      "For Skyways and subsidiary Forin Container Line —"
+    ],
+    [
+      129.021,
+      132.915,
+      "the largest stated fresh-issue use."
+    ],
+    [
+      132.915,
+      135.585,
+      "₹130 Cr working capital."
+    ],
+    [
+      135.585,
+      144.929,
+      "Funding growth in a business with substantial receivables and working-capital needs."
+    ],
+    [
+      144.929,
+      146.264,
+      "₹184 Cr OFS."
+    ],
+    [
+      146.264,
+      150.936,
+      "That portion goes to selling shareholders,"
+    ],
+    [
+      150.936,
+      153.828,
+      "not the operating company."
+    ],
+    [
+      154.328,
+      157.95,
+      "Now competitors and valuation."
+    ],
+    [
+      157.95,
+      163.382,
+      "At the ₹138 cap, Skyways is ~38.8× FY26 EPS —"
+    ],
+    [
+      163.382,
+      168.211,
+      "below the disclosed peer-set low of 54×,"
+    ],
+    [
+      168.211,
+      174.006,
+      "but business models are not strictly comparable."
+    ],
+    [
+      174.506,
+      177.04,
+      "Balance the evidence."
+    ],
+    [
+      177.04,
+      181.626,
+      "Watch-out: Thin 2.26% FY26 PAT margin."
+    ],
+    [
+      181.626,
+      188.263,
+      "Strength: Revenue +25.14% and operating scale expanded."
+    ],
+    [
+      188.263,
+      196.228,
+      "Watch-out: ₹624.06 Cr borrowings; working-capital funding matters."
+    ],
+    [
+      196.228,
+      203.951,
+      "Strength: Fresh proceeds repay debt and support working capital."
+    ],
+    [
+      203.951,
+      208.658,
+      "Watch-out: 85.51% of revenue from Asia."
+    ],
+    [
+      208.658,
+      212.64,
+      "Strength: Peer multiple is lower,"
+    ],
+    [
+      212.64,
+      216.14,
+      "but comparability is limited."
+    ],
+    [
+      216.64,
+      218.756,
+      "For retail investors,"
+    ],
+    [
+      218.756,
+      223.793,
+      "the stated minimum is ₹13,800 (100 shares × ₹138)."
+    ],
+    [
+      223.793,
+      234.371,
+      "Retail bids are capped at two lakh rupees and allotment can be a lottery when an offer is oversubscribed."
+    ],
+    [
+      234.371,
+      241.02,
+      "Check the exchange pages and final RHP before making any decision."
+    ],
+    [
+      241.52,
+      243.165,
+      "Let's recap."
+    ],
+    [
+      243.165,
+      263.995,
+      "FY data: revenue ₹2,812.90 Cr · PAT ₹63.52 Cr · 2.26% PAT margin Offer: ₹582.80 Cr · fresh ₹398.80 Cr · OFS ₹184.00 Cr Competitor lens: At the ₹138 cap,"
+    ],
+    [
+      263.995,
+      267.832,
+      "Skyways is ~38.8× FY26 EPS —"
+    ],
+    [
+      267.832,
+      273.314,
+      "below the disclosed peer-set low of 54×,"
+    ],
+    [
+      273.314,
+      279.892,
+      "but business models are not strictly comparable."
+    ],
+    [
+      279.892,
+      287.429,
+      "Evidence: Final RHP: Skyways Air Services, pages 72–74,"
+    ],
+    [
+      287.429,
+      296.748,
+      "109–110 and 132–133; offer terms from final price-band announcement."
+    ],
+    [
+      296.748,
+      301.134,
+      "This is public-source education,"
+    ],
+    [
+      301.134,
+      307.164,
+      "not investment advice or a buy or sell call."
+    ],
+    [
+      307.164,
+      309.767,
+      "Read the final RHP,"
+    ],
+    [
+      309.767,
+      318.401,
+      "verify live subscription and consult a SEBI-registered advisor."
+    ],
+    [
+      318.401,
+      321.142,
+      "Thanks for watching."
+    ]
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/skyways.wav",
+      "volume": 1.0
+    }
+  }
+}

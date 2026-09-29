@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/00_intro_title.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/_gap.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/00_intro_flow.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/_gap.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/00_intro_divider.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/_gap.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/00_intro_disclaimer.wav'

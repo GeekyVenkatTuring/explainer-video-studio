@@ -1,0 +1,5 @@
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/02_cashfree_flow_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/02_cashfree_flow_c1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/02_cashfree_flow_c2.wav'

@@ -1,0 +1,358 @@
+{
+ "cuts": [
+  {
+   "id": "t00",
+   "type": "gha_title",
+   "in_seconds": 0.0,
+   "out_seconds": 16.862,
+   "props": {
+    "kicker": "GITHUB ACTIONS \u00b7 THE COMPLETE GUIDE",
+    "line1": "GitHub Actions,",
+    "line2": "Explained",
+    "sub": "events \u00b7 workflows \u00b7 runners \u00b7 deploys \u00b7 security \u2014 plus a tour of GitHub",
+    "dur": 16.862
+   }
+  },
+  {
+   "id": "h00",
+   "type": "gha_manual",
+   "in_seconds": 16.862,
+   "out_seconds": 55.919,
+   "props": {
+    "steps": [
+     "Run the tests",
+     "Build the app",
+     "Package it",
+     "Copy to server",
+     "Restart & pray"
+    ],
+    "dur": 39.057
+   }
+  },
+  {
+   "id": "h01",
+   "type": "gha_timeline",
+   "in_seconds": 55.919,
+   "out_seconds": 94.59,
+   "props": {
+    "events": [
+     {
+      "y": "2018",
+      "t": "Announced",
+      "d": "Actions unveiled, in beta"
+     },
+     {
+      "y": "2019",
+      "t": "GA with CI/CD",
+      "d": "Hosted runners for Linux, Windows, macOS"
+     },
+     {
+      "y": "2021",
+      "t": "OIDC + reuse",
+      "d": "Keyless cloud logins, reusable workflows"
+     },
+     {
+      "y": "2024",
+      "t": "Attestations",
+      "d": "Signed build provenance, Arm64 runners"
+     },
+     {
+      "y": "2025",
+      "t": "Scale-ups",
+      "d": "Free Arm runners for public repos, deeper nesting"
+     },
+     {
+      "y": "2026",
+      "t": "Price cut",
+      "d": "Hosted runners up to 39% cheaper"
+     }
+    ],
+    "dur": 38.671
+   }
+  },
+  {
+   "id": "r00",
+   "type": "gha_roadmap",
+   "in_seconds": 94.59,
+   "out_seconds": 130.907,
+   "props": {
+    "parts": [
+     {
+      "t": "The Big Picture",
+      "s": "CI/CD and where Actions fits",
+      "c": "#58A6FF"
+     },
+     {
+      "t": "Anatomy of a Workflow",
+      "s": "one YAML file, line by line",
+      "c": "#BC8CFF"
+     },
+     {
+      "t": "Triggers & Events",
+      "s": "push, PRs, schedules, buttons",
+      "c": "#F2A93B"
+     },
+     {
+      "t": "Runners & Jobs",
+      "s": "machines, graphs, matrices",
+      "c": "#58A6FF"
+     },
+     {
+      "t": "Actions",
+      "s": "reusable building blocks",
+      "c": "#BC8CFF"
+     },
+     {
+      "t": "Data, Secrets & Caching",
+      "s": "expressions, outputs, caches",
+      "c": "#BC8CFF"
+     },
+     {
+      "t": "Deploying",
+      "s": "environments, approvals, OIDC",
+      "c": "#3FB950"
+     },
+     {
+      "t": "Security",
+      "s": "tokens, pinning, injection",
+      "c": "#F85149"
+     },
+     {
+      "t": "Cost, Speed & Debugging",
+      "s": "run it well, fix it fast",
+      "c": "#F2A93B"
+     },
+     {
+      "t": "The Rest of GitHub",
+      "s": "PRs, Issues, Copilot, Codespaces\u2026",
+      "c": "#3FB950"
+     }
+    ],
+    "dur": 36.317
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.02,
+   "Every time you push code, something could happen\nautomatically."
+  ],
+  [
+   3.651,
+   6.671,
+   "Tests could run. A build could ship. A bug"
+  ],
+  [
+   6.671,
+   9.02,
+   "could be caught before anyone sees it."
+  ],
+  [
+   9.651,
+   12.671,
+   "That something is GitHub Actions. Let's learn it\nfrom"
+  ],
+  [
+   12.671,
+   15.691,
+   "zero to production \u2014 and then tour the rest"
+  ],
+  [
+   15.691,
+   16.362,
+   "of GitHub."
+  ],
+  [
+   16.862,
+   18.986,
+   "Picture a team with no automation."
+  ],
+  [
+   19.618,
+   22.803,
+   "A developer finishes a feature. Now they run the"
+  ],
+  [
+   22.803,
+   25.989,
+   "tests by hand \u2014 if they remember. They build"
+  ],
+  [
+   25.989,
+   29.175,
+   "the app on their own laptop. They copy files"
+  ],
+  [
+   29.175,
+   30.237,
+   "to a server."
+  ],
+  [
+   30.869,
+   34.055,
+   "Then comes the classic line: it works on my"
+  ],
+  [
+   34.055,
+   34.409,
+   "machine."
+  ],
+  [
+   35.04,
+   38.226,
+   "Every step is slow, manual, and easy to get"
+  ],
+  [
+   38.226,
+   41.412,
+   "wrong. And it happens dozens of times a day,"
+  ],
+  [
+   41.412,
+   42.828,
+   "across the whole team."
+  ],
+  [
+   43.46,
+   46.646,
+   "Now picture a robot that watches your repository.\nThe"
+  ],
+  [
+   46.646,
+   49.832,
+   "moment code arrives, it runs every step, the same"
+  ],
+  [
+   49.832,
+   52.309,
+   "way, every time, on a clean machine."
+  ],
+  [
+   52.941,
+   55.419,
+   "That robot is what we're building toward."
+  ],
+  [
+   55.919,
+   59.738,
+   "GitHub Actions isn't new, but it has grown fast."
+  ],
+  [
+   60.37,
+   64.189,
+   "It was announced in twenty eighteen, and became\ngenerally"
+  ],
+  [
+   64.189,
+   67.583,
+   "available with full CI/CD in late twenty nineteen."
+  ],
+  [
+   68.215,
+   72.034,
+   "Since then it has added keyless cloud logins,\nreusable"
+  ],
+  [
+   72.034,
+   75.004,
+   "workflows, Arm runners, and signed build\nattestations."
+  ],
+  [
+   75.636,
+   79.455,
+   "In January twenty twenty six, GitHub cut hosted\nrunner"
+  ],
+  [
+   79.455,
+   82.426,
+   "prices by up to thirty nine percent."
+  ],
+  [
+   83.057,
+   86.876,
+   "Today it's the default automation engine for a huge"
+  ],
+  [
+   86.876,
+   90.695,
+   "share of projects on GitHub \u2014 and for public"
+  ],
+  [
+   90.695,
+   94.09,
+   "open source repositories, standard runners are\ncompletely free."
+  ],
+  [
+   94.59,
+   95.776,
+   "Here's the map."
+  ],
+  [
+   96.408,
+   99.966,
+   "We start with the big picture, then the anatomy"
+  ],
+  [
+   99.966,
+   102.734,
+   "of a workflow file, line by line."
+  ],
+  [
+   103.366,
+   106.924,
+   "Then triggers, runners and jobs, and the reusable\nactions"
+  ],
+  [
+   106.924,
+   108.901,
+   "that make it all fast."
+  ],
+  [
+   109.533,
+   113.092,
+   "Next, how data flows \u2014 expressions, secrets, outputs\nand"
+  ],
+  [
+   113.092,
+   113.487,
+   "caching."
+  ],
+  [
+   114.119,
+   116.886,
+   "Then deployments, security, cost, speed and\ndebugging."
+  ],
+  [
+   117.518,
+   121.077,
+   "And finally, a tour of the rest of GitHub"
+  ],
+  [
+   121.077,
+   124.635,
+   "\u2014 pull requests, issues, projects, Codespaces,\nCopilot and security"
+  ],
+  [
+   124.635,
+   125.031,
+   "features."
+  ],
+  [
+   125.662,
+   129.221,
+   "By the end, you'll read any workflow file, and"
+  ],
+  [
+   129.221,
+   130.407,
+   "write your own."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch00.wav",
+   "volume": 1.0
+  }
+ }
+}

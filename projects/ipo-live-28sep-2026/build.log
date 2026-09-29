@@ -1,0 +1,37 @@
+  orient_title            28.21s
+  orient_biz              36.17s
+  orient_fin              60.63s
+  orient_issue            26.19s
+  orient_proceeds         33.99s
+  orient_peers            47.26s
+  orient_verdict          42.80s
+  orient_apply            23.77s
+  orient_recap            46.80s
+orient: 349.83s (5.83 min), 9 scenes, 82 cues, 548 words
+  moneyview_title         25.78s
+  moneyview_biz           38.00s
+  moneyview_fin           62.30s
+  moneyview_issue         29.01s
+  moneyview_proceeds      36.27s
+  moneyview_peers         38.77s
+  moneyview_verdict       45.47s
+  moneyview_apply         24.60s
+  moneyview_recap         48.53s
+moneyview: 352.73s (5.88 min), 9 scenes, 80 cues, 531 words
+  aonesteel_title         28.64s
+  aonesteel_biz           25.82s
+  aonesteel_fin           53.06s
+  aonesteel_issue         24.68s
+  aonesteel_proceeds      24.80s
+  aonesteel_peers         33.09s
+  aonesteel_verdict       47.54s
+  aonesteel_apply         24.09s
+  aonesteel_recap         46.35s
+aonesteel: 312.07s (5.20 min), 9 scenes, 74 cues, 489 words
+  acevector_title         25.63s
+  acevector_biz           26.09s
+  acevector_fin           37.57s
+  acevector_issue         25.92s
+  acevector_proceeds      29.45s
+  acevector_peers         22.26s
+  acevector_verdict       39.03s

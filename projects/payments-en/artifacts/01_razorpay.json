@@ -1,0 +1,783 @@
+{
+ "cuts": [
+  {
+   "id": "01_razorpay_title",
+   "type": "pg_title",
+   "in_seconds": 0.0,
+   "out_seconds": 22.147,
+   "props": {
+    "gateway": "Razorpay",
+    "accent": "#3B82F6",
+    "kicker": "PAYMENT GATEWAYS \u00b7 DEVELOPER GUIDE",
+    "tagline": "Docs, pricing, support & a real integration \u2014 end to end",
+    "dur": 22.647
+   }
+  },
+  {
+   "id": "01_razorpay_docs",
+   "type": "pg_docs",
+   "in_seconds": 22.647,
+   "out_seconds": 57.986,
+   "props": {
+    "gateway": "Razorpay",
+    "accent": "#3B82F6",
+    "url": "razorpay.com/docs",
+    "docsUrl": "razorpay.com/docs",
+    "signupUrl": "dashboard.razorpay.com/signup",
+    "sandbox": true,
+    "kyc": [
+     "Business PAN + signatory PAN",
+     "Bank proof (cancelled cheque)",
+     "GST / incorporation proof",
+     "Live site with policies"
+    ],
+    "methods": [
+     "Cards",
+     "UPI",
+     "Net banking",
+     "Wallets",
+     "EMI"
+    ],
+    "dur": 35.839
+   }
+  },
+  {
+   "id": "01_razorpay_support",
+   "type": "pg_support",
+   "in_seconds": 58.486,
+   "out_seconds": 82.348,
+   "props": {
+    "gateway": "Razorpay",
+    "accent": "#3B82F6",
+    "channels": [
+     {
+      "icon": "\ud83d\udcde",
+      "label": "Phone",
+      "value": "not published",
+      "live": false
+     },
+     {
+      "icon": "\u2709\ufe0f",
+      "label": "Email / ticket",
+      "value": "razorpay.com/support",
+      "live": true
+     },
+     {
+      "icon": "\ud83d\udcac",
+      "label": "Dashboard chat",
+      "value": "in-dashboard",
+      "live": true
+     },
+     {
+      "icon": "\ud83d\udcda",
+      "label": "Docs",
+      "value": "razorpay.com/docs",
+      "live": true
+     }
+    ],
+    "dur": 24.362
+   }
+  },
+  {
+   "id": "01_razorpay_metrics",
+   "type": "pg_metrics",
+   "in_seconds": 82.848,
+   "out_seconds": 117.992,
+   "props": {
+    "gateway": "Razorpay",
+    "accent": "#3B82F6",
+    "settleDay": 1,
+    "settleNote": "standard cycle",
+    "instant": true,
+    "successNote": "No official figure published",
+    "complexity": 1,
+    "complexityLabel": "Easy",
+    "complexityWhy": "Hosted checkout + SDKs + plugins",
+    "dur": 35.644
+   }
+  },
+  {
+   "id": "01_razorpay_pricing",
+   "type": "pg_pricing",
+   "in_seconds": 118.492,
+   "out_seconds": 152.962,
+   "props": {
+    "gateway": "Razorpay",
+    "accent": "#3B82F6",
+    "rows": [
+     {
+      "icon": "\ud83d\udcb3",
+      "label": "Credit / debit cards",
+      "rate": "2%",
+      "feePct": 2.0
+     },
+     {
+      "icon": "\ud83d\udfe3",
+      "label": "UPI",
+      "rate": "2%",
+      "feePct": 2.0,
+      "note": "MDR 0 + platform fee"
+     },
+     {
+      "icon": "\ud83c\udfe6",
+      "label": "Net banking",
+      "rate": "2%",
+      "feePct": 2.0
+     },
+     {
+      "icon": "\ud83d\udc5b",
+      "label": "Wallets",
+      "rate": "2%",
+      "feePct": 2.0
+     },
+     {
+      "icon": "\ud83c\udf10",
+      "label": "International cards",
+      "rate": "up to 3%",
+      "feePct": 3.0
+     }
+    ],
+    "foot": "Setup \u20b90 \u00b7 AMC \u20b90 \u00b7 GST 18% on the platform fee \u00b7 corporate cards 2.15%",
+    "dur": 34.97
+   }
+  },
+  {
+   "id": "01_razorpay_flow",
+   "type": "pg_flow",
+   "in_seconds": 153.462,
+   "out_seconds": 182.838,
+   "props": {
+    "gateway": "Razorpay",
+    "accent": "#3B82F6",
+    "steps": [
+     {
+      "emoji": "\ud83e\uddfe",
+      "label": "Create order",
+      "sub": "server \u00b7 Orders API"
+     },
+     {
+      "emoji": "\ud83d\uded2",
+      "label": "Checkout",
+      "sub": "client \u00b7 order_id"
+     },
+     {
+      "emoji": "\ud83d\udcb3",
+      "label": "Customer pays",
+      "sub": "card / UPI / \u2026"
+     },
+     {
+      "emoji": "\ud83d\udd14",
+      "label": "Webhook + verify",
+      "sub": "signature check"
+     },
+     {
+      "emoji": "\ud83c\udfe6",
+      "label": "Settlement",
+      "sub": "T+1 to your bank"
+     }
+    ],
+    "dur": 29.876
+   }
+  },
+  {
+   "id": "01_razorpay_code",
+   "type": "pg_code",
+   "in_seconds": 183.338,
+   "out_seconds": 212.521,
+   "props": {
+    "gateway": "Razorpay",
+    "accent": "#3B82F6",
+    "lang": "node",
+    "file": "create-order.js",
+    "docUrl": "razorpay.com/docs/api/orders",
+    "lines": [
+     "const rzp = new Razorpay({ key_id, key_secret });",
+     "const order = await rzp.orders.create({",
+     "  amount: 50000,      // paise = \u20b9500.00",
+     "  currency: \"INR\",",
+     "  receipt: \"rcpt_11\",",
+     "});",
+     "// send order.id to the client to open Checkout"
+    ],
+    "caption": "Server creates the order; the client only ever sees an order_id.",
+    "dur": 29.683
+   }
+  },
+  {
+   "id": "01_razorpay_recap",
+   "type": "pg_recap",
+   "in_seconds": 213.021,
+   "out_seconds": 238.04,
+   "props": {
+    "title": "Razorpay in one breath",
+    "items": [
+     "Cleanest docs \u00b7 instant test keys",
+     "Flat 2% \u00b7 \u20b90 setup \u00b7 no AMC",
+     "T+1 settlement \u00b7 instant add-on",
+     "Dashboard support \u00b7 no phone line",
+     "Order \u2192 Checkout \u2192 verify \u2192 webhook"
+    ],
+    "closer": "The fastest path from zero to a live payment in India.",
+    "dur": 25.519
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.085,
+   "Let's start with Razorpay \u2014 for a lot"
+  ],
+  [
+   3.085,
+   4.242,
+   "of Indian developers,"
+  ],
+  [
+   4.242,
+   6.556,
+   "this is the default first choice."
+  ],
+  [
+   7.106,
+   10.192,
+   "Over the next few minutes we'll walk through"
+  ],
+  [
+   10.192,
+   11.734,
+   "its documentation and KYC,"
+  ],
+  [
+   11.734,
+   12.891,
+   "its support channels,"
+  ],
+  [
+   12.891,
+   14.434,
+   "settlement and success behaviour,"
+  ],
+  [
+   14.434,
+   16.748,
+   "exact pricing for every payment method,"
+  ],
+  [
+   16.748,
+   19.833,
+   "and a real integration call \u2014 everything you"
+  ],
+  [
+   19.833,
+   22.147,
+   "want to know before you commit."
+  ],
+  [
+   22.647,
+   26.102,
+   "Everything starts at razorpay dot com slash docs"
+  ],
+  [
+   26.102,
+   29.558,
+   "\u2014 one of the cleanest developer references in"
+  ],
+  [
+   29.558,
+   30.421,
+   "Indian fintech."
+  ],
+  [
+   30.971,
+   34.427,
+   "You sign up and get test-mode API keys"
+  ],
+  [
+   34.427,
+   34.859,
+   "instantly,"
+  ],
+  [
+   34.859,
+   36.586,
+   "before any paperwork clears."
+  ],
+  [
+   37.136,
+   39.728,
+   "To go live you complete KYC:"
+  ],
+  [
+   39.728,
+   41.887,
+   "your business and signatory PAN,"
+  ],
+  [
+   41.887,
+   44.911,
+   "a bank proof like a cancelled cheque,"
+  ],
+  [
+   44.911,
+   47.07,
+   "a GST or incorporation document,"
+  ],
+  [
+   47.07,
+   50.094,
+   "and a live site carrying your privacy,"
+  ],
+  [
+   50.094,
+   51.821,
+   "refund and terms pages."
+  ],
+  [
+   52.371,
+   52.803,
+   "Cards,"
+  ],
+  [
+   52.803,
+   53.235,
+   "UPI,"
+  ],
+  [
+   53.235,
+   54.099,
+   "net banking,"
+  ],
+  [
+   54.099,
+   57.554,
+   "wallets and EMI all work out of the"
+  ],
+  [
+   57.554,
+   57.986,
+   "box."
+  ],
+  [
+   58.486,
+   58.869,
+   "Now,"
+  ],
+  [
+   58.869,
+   61.55,
+   "support \u2014 and here's the honest picture."
+  ],
+  [
+   62.1,
+   64.78,
+   "Razorpay does not publish a phone number."
+  ],
+  [
+   65.33,
+   67.628,
+   "You reach them through the dashboard:"
+  ],
+  [
+   67.628,
+   69.543,
+   "email tickets and in-dashboard chat,"
+  ],
+  [
+   69.543,
+   71.458,
+   "backed by that strong documentation."
+  ],
+  [
+   72.008,
+   75.072,
+   "For most integration questions the docs answer you"
+  ],
+  [
+   75.072,
+   78.135,
+   "faster than any hotline would \u2014 but if"
+  ],
+  [
+   78.135,
+   81.199,
+   "a printed support line matters to your business,"
+  ],
+  [
+   81.199,
+   82.348,
+   "factor this in."
+  ],
+  [
+   82.848,
+   85.212,
+   "Three things every developer should check."
+  ],
+  [
+   85.762,
+   88.915,
+   "Settlement lands on a T-plus-one cycle by default,"
+  ],
+  [
+   88.915,
+   92.067,
+   "with instant settlement available as a paid add-on"
+  ],
+  [
+   92.067,
+   95.219,
+   "\u2014 so your money reaches your bank the"
+  ],
+  [
+   95.219,
+   96.402,
+   "next working day."
+  ],
+  [
+   96.952,
+   98.134,
+   "On success rate,"
+  ],
+  [
+   98.134,
+   100.104,
+   "we won't quote a number:"
+  ],
+  [
+   100.104,
+   102.862,
+   "Razorpay markets smart routing to lift acceptance,"
+  ],
+  [
+   102.862,
+   105.621,
+   "but it doesn't publish a fixed percentage,"
+  ],
+  [
+   105.621,
+   107.197,
+   "and neither will we."
+  ],
+  [
+   107.747,
+   108.535,
+   "And effort?"
+  ],
+  [
+   108.535,
+   111.687,
+   "This is the easy end of the scale"
+  ],
+  [
+   111.687,
+   112.869,
+   "\u2014 hosted checkout,"
+  ],
+  [
+   112.869,
+   115.234,
+   "official SDKs in every major language,"
+  ],
+  [
+   115.234,
+   117.992,
+   "and drop-in plugins for Shopify and WooCommerce."
+  ],
+  [
+   118.492,
+   121.565,
+   "Now the part you actually care about \u2014"
+  ],
+  [
+   121.565,
+   123.102,
+   "what each payment costs."
+  ],
+  [
+   123.652,
+   126.725,
+   "Razorpay runs a flat two percent platform fee"
+  ],
+  [
+   126.725,
+   127.878,
+   "across domestic cards,"
+  ],
+  [
+   127.878,
+   128.262,
+   "UPI,"
+  ],
+  [
+   128.262,
+   129.799,
+   "net banking and wallets."
+  ],
+  [
+   130.349,
+   132.269,
+   "UPI's own MDR is zero,"
+  ],
+  [
+   132.269,
+   135.343,
+   "but the two percent platform fee still applies."
+  ],
+  [
+   135.893,
+   138.582,
+   "International cards go up to three percent."
+  ],
+  [
+   139.132,
+   142.205,
+   "There's no setup fee and no annual maintenance"
+  ],
+  [
+   142.205,
+   145.279,
+   "charge \u2014 you only add eighteen percent GST"
+  ],
+  [
+   145.279,
+   146.815,
+   "on the fee itself."
+  ],
+  [
+   146.815,
+   148.736,
+   "So on a one-thousand-rupee payment,"
+  ],
+  [
+   148.736,
+   151.041,
+   "the fee is about twenty rupees,"
+  ],
+  [
+   151.041,
+   152.962,
+   "and you keep the rest."
+  ],
+  [
+   153.462,
+   155.548,
+   "Here's the integration in five steps."
+  ],
+  [
+   156.098,
+   158.88,
+   "Your server creates an order through the Orders"
+  ],
+  [
+   158.88,
+   159.227,
+   "API."
+  ],
+  [
+   159.777,
+   162.559,
+   "The client opens Checkout with that order id."
+  ],
+  [
+   163.109,
+   165.195,
+   "The customer pays \u2014 by card,"
+  ],
+  [
+   165.195,
+   165.542,
+   "UPI,"
+  ],
+  [
+   165.542,
+   166.933,
+   "or whatever they prefer."
+  ],
+  [
+   167.483,
+   170.265,
+   "Razorpay fires a webhook and hands back a"
+  ],
+  [
+   170.265,
+   172.003,
+   "signature your server must verify."
+  ],
+  [
+   172.553,
+   175.334,
+   "And then the money settles to your bank."
+  ],
+  [
+   175.884,
+   176.927,
+   "The golden rule:"
+  ],
+  [
+   176.927,
+   179.709,
+   "never trust the browser \u2014 always verify the"
+  ],
+  [
+   179.709,
+   182.49,
+   "payment on your server before you fulfil the"
+  ],
+  [
+   182.49,
+   182.838,
+   "order."
+  ],
+  [
+   183.338,
+   186.105,
+   "And here's what that first step actually looks"
+  ],
+  [
+   186.105,
+   186.451,
+   "like."
+  ],
+  [
+   187.001,
+   188.039,
+   "On your server,"
+  ],
+  [
+   188.039,
+   190.807,
+   "you create an order with the amount in"
+  ],
+  [
+   190.807,
+   193.574,
+   "paise \u2014 fifty thousand paise is five hundred"
+  ],
+  [
+   193.574,
+   194.958,
+   "rupees \u2014 the currency,"
+  ],
+  [
+   194.958,
+   196.342,
+   "and a receipt id."
+  ],
+  [
+   196.892,
+   199.659,
+   "You send only that order id to the"
+  ],
+  [
+   199.659,
+   200.005,
+   "client."
+  ],
+  [
+   200.555,
+   201.247,
+   "After payment,"
+  ],
+  [
+   201.247,
+   204.014,
+   "you verify the signature \u2014 an HMAC of"
+  ],
+  [
+   204.014,
+   206.782,
+   "the order and payment ids using your key"
+  ],
+  [
+   206.782,
+   208.858,
+   "secret \u2014 before you trust anything."
+  ],
+  [
+   209.408,
+   211.137,
+   "That's the whole trust model,"
+  ],
+  [
+   211.137,
+   212.521,
+   "in a few lines."
+  ],
+  [
+   213.021,
+   213.402,
+   "So,"
+  ],
+  [
+   213.402,
+   214.926,
+   "Razorpay in one breath:"
+  ],
+  [
+   215.476,
+   218.143,
+   "the cleanest docs and instant test keys,"
+  ],
+  [
+   218.693,
+   221.742,
+   "a flat two percent with zero setup and"
+  ],
+  [
+   221.742,
+   222.885,
+   "no annual charge,"
+  ],
+  [
+   223.435,
+   224.197,
+   "T-plus-one settlement,"
+  ],
+  [
+   224.747,
+   227.033,
+   "dashboard-based support with no phone line,"
+  ],
+  [
+   227.583,
+   229.107,
+   "and a simple order,"
+  ],
+  [
+   229.107,
+   229.488,
+   "checkout,"
+  ],
+  [
+   229.488,
+   229.869,
+   "verify,"
+  ],
+  [
+   229.869,
+   230.631,
+   "webhook flow."
+  ],
+  [
+   231.181,
+   234.23,
+   "If you want the fastest path from zero"
+  ],
+  [
+   234.23,
+   236.516,
+   "to a live payment in India,"
+  ],
+  [
+   236.516,
+   238.04,
+   "this is usually it."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pg/01_razorpay.wav",
+   "volume": 1.0
+  }
+ }
+}

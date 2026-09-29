@@ -1,0 +1,243 @@
+{
+ "cuts": [
+  {
+   "id": "d03",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 17.055,
+   "props": {
+    "n": 3,
+    "title": "The SMILE Investor",
+    "sub": "Vijay Kedia \u2014 small bets, giant patience",
+    "color": "#34D399",
+    "total": 14,
+    "dur": 17.555
+   }
+  },
+  {
+   "id": "w03",
+   "type": "mw_investor",
+   "in_seconds": 17.555,
+   "out_seconds": 73.574,
+   "props": {
+    "idx": 2,
+    "total": 8,
+    "color": "#34D399",
+    "name": "Vijay Kedia",
+    "tag": "THE SMILE INVESTOR",
+    "worth": 1406,
+    "worthUnit": "cr",
+    "stocks": 23,
+    "asOf": "Jun 2026",
+    "holdings": [
+     {
+      "nm": "Tejas Networks",
+      "pct": ""
+     },
+     {
+      "nm": "Atul Auto",
+      "pct": ""
+     },
+     {
+      "nm": "Cera Sanitaryware",
+      "pct": ""
+     },
+     {
+      "nm": "Heritage Foods",
+      "pct": ""
+     },
+     {
+      "nm": "Precision Camshafts",
+      "pct": ""
+     }
+    ],
+    "strategy": "SMILE: Small in size, Medium in experience, Large aspiration, Extra-large market. Hold 5\u201310 years.",
+    "playbook": [
+     "Buys tiny companies with huge runways \u2014 then waits, for years",
+     "His own rags-to-riches is real: arrived in Mumbai with little, c.1990",
+     "Conviction over diversification \u2014 a few bets, held through the noise"
+    ],
+    "move": "Added Eimco Elecon (1.45%) in Jun-2026; still actively compounding",
+    "steep": 1.9,
+    "dip": true,
+    "foot": "Disclosed shareholding (Trendlyne, BSE/NSE filings) \u00b7 as of Jun-2026 \u00b7 not investment advice",
+    "dur": 56.519
+   }
+  },
+  {
+   "id": "c32",
+   "type": "mw_quote",
+   "in_seconds": 74.074,
+   "out_seconds": 93.604,
+   "props": {
+    "color": "#34D399",
+    "quote": "Bulls make money, bears make money \u2014 but pigs get slaughtered.",
+    "who": "a market maxim Kedia lives by \u00b7 greed is the real risk",
+    "dur": 20.03
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.88,
+   "Chapter three. The SMILE investor."
+  ],
+  [
+   2.512,
+   5.896,
+   "If Damani is silence, our next winner is the"
+  ],
+  [
+   5.896,
+   9.279,
+   "opposite \u2014 loud, joyful, and completely open about\nhow"
+  ],
+  [
+   9.279,
+   10.407,
+   "he does it."
+  ],
+  [
+   11.039,
+   14.423,
+   "And his own life is the real version of"
+  ],
+  [
+   14.423,
+   17.055,
+   "the rags-to-riches dream the fakes only imitate."
+  ],
+  [
+   17.555,
+   21.1,
+   "Vijay Kedia came to Mumbai around nineteen ninety\nwith"
+  ],
+  [
+   21.1,
+   23.857,
+   "very little, after his family business faltered."
+  ],
+  [
+   24.489,
+   28.034,
+   "He learned the market the slow, painful way \u2014"
+  ],
+  [
+   28.034,
+   31.578,
+   "and built a disclosed portfolio worth roughly one\nthousand"
+  ],
+  [
+   31.578,
+   34.336,
+   "crore rupees today, across about twenty-one\ncompanies."
+  ],
+  [
+   34.967,
+   38.118,
+   "His method even has a name \u2014 SMILE."
+  ],
+  [
+   38.75,
+   42.295,
+   "Small in size. Medium in experience. Large in\naspiration."
+  ],
+  [
+   42.295,
+   43.87,
+   "Extra-large in market potential."
+  ],
+  [
+   44.502,
+   48.047,
+   "In plain terms: he buys tiny companies with room"
+  ],
+  [
+   48.047,
+   51.592,
+   "to become big ones \u2014 names like Tejas Networks,"
+  ],
+  [
+   51.592,
+   55.136,
+   "Atul Auto, Cera Sanitaryware \u2014 and then he does"
+  ],
+  [
+   55.136,
+   57.106,
+   "the hardest thing in investing."
+  ],
+  [
+   57.737,
+   60.101,
+   "He waits. Five years. Ten years."
+  ],
+  [
+   60.732,
+   64.277,
+   "Even now he's still adding \u2014 a fresh stake"
+  ],
+  [
+   64.277,
+   66.247,
+   "in Eimco Elecon this June."
+  ],
+  [
+   66.878,
+   70.423,
+   "His edge isn't a secret indicator. It's conviction \u2014"
+  ],
+  [
+   70.423,
+   73.574,
+   "and a decade of holding through the noise."
+  ],
+  [
+   74.074,
+   77.126,
+   "Kedia likes to say the market rewards courage but"
+  ],
+  [
+   77.126,
+   77.805,
+   "punishes greed."
+  ],
+  [
+   78.436,
+   81.488,
+   "Bulls make money. Bears make money. But pigs \u2014"
+  ],
+  [
+   81.488,
+   84.541,
+   "the greedy ones chasing every hot tip \u2014 get"
+  ],
+  [
+   84.541,
+   84.88,
+   "slaughtered."
+  ],
+  [
+   85.511,
+   88.564,
+   "Every winner in this video, in their own way,"
+  ],
+  [
+   88.564,
+   89.92,
+   "learned to sit still."
+  ],
+  [
+   90.552,
+   93.604,
+   "That's the muscle the fakes never show you building."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch03.wav",
+   "volume": 1.0
+  }
+ }
+}

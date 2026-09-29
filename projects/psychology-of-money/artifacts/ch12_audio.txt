@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/ch12_divider.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/_gap.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/ch12_tails-hist.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/_gap.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/ch12_surprise-more.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/_gap.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/ch12_surprise-do.wav'

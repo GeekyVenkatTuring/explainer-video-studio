@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch13_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 45.408,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "foundation",
+        "dur": 45.908
+      }
+    },
+    {
+      "id": "ch13_system",
+      "type": "aae_chapter",
+      "in_seconds": 45.908,
+      "out_seconds": 83.7,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "system",
+        "dur": 38.293
+      }
+    },
+    {
+      "id": "ch13_practice",
+      "type": "aae_chapter",
+      "in_seconds": 84.2,
+      "out_seconds": 129.804,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "practice",
+        "dur": 46.104
+      }
+    },
+    {
+      "id": "ch13_failure",
+      "type": "aae_chapter",
+      "in_seconds": 130.304,
+      "out_seconds": 168.991,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "failure",
+        "dur": 39.188
+      }
+    },
+    {
+      "id": "ch13_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 169.491,
+      "out_seconds": 212.284,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "evaluation",
+        "dur": 43.292
+      }
+    },
+    {
+      "id": "ch13_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 212.784,
+      "out_seconds": 249.602,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "handoff",
+        "dur": 37.319
+      }
+    },
+    {
+      "id": "ch13_application",
+      "type": "aae_chapter",
+      "in_seconds": 250.102,
+      "out_seconds": 298.171,
+      "props": {
+        "chapter": 13,
+        "title": "Agentic System Design",
+        "focus": "designing the whole socio-technical system around goals, boundaries, and failure",
+        "concepts": [
+          "system boundaries",
+          "non-model safeguards",
+          "escalation design"
+        ],
+        "example": "a customer operations agent with explicit no-go zones",
+        "trap": "starting with a framework instead of a problem",
+        "takeaway": "Designing the whole socio-technical system around goals, boundaries, and failure.",
+        "beat": "application",
+        "dur": 48.568
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch13.wav",
+      "volume": 1
+    }
+  }
+}

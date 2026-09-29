@@ -1,0 +1,232 @@
+{
+ "cuts": [
+  {
+   "id": "d14",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 12.923,
+   "props": {
+    "n": 14,
+    "title": "Spot the Fake \u2014 Part 2",
+    "sub": "The anatomy of a '1 lakh to 44 lakh' claim",
+    "color": "#FB7185",
+    "total": 14,
+    "dur": 13.423
+   }
+  },
+  {
+   "id": "f14a",
+   "type": "mw_statement",
+   "in_seconds": 13.423,
+   "out_seconds": 46.635,
+   "props": {
+    "kicker": "THE NUMBER THAT ENDS THE DEBATE",
+    "color": "#FB7185",
+    "lines": [
+     "SEBI studied",
+     "the traders.",
+     "93% lost money."
+    ],
+    "sub": "Individual F&O traders, FY22\u201324. Net losses over \u20b91.8 lakh crore.",
+    "dur": 33.712
+   }
+  },
+  {
+   "id": "f14b",
+   "type": "mw_checklist",
+   "in_seconds": 47.135,
+   "out_seconds": 85.142,
+   "props": {
+    "kicker": "SPOT THE FAKE",
+    "title": "Six red flags in a viral profit claim",
+    "color": "#FB7185",
+    "mark": "!",
+    "items": [
+     {
+      "k": "No SEBI reg number",
+      "d": "A real advisor shows an RIA registration; a finfluencer shows a lifestyle."
+     },
+     {
+      "k": "Screenshots, not statements",
+      "d": "Cropped P&L pop-ups are trivially faked; audited broker statements aren't."
+     },
+     {
+      "k": "Survivorship only",
+      "d": "You see the one win, never the nine blown accounts behind it."
+     },
+     {
+      "k": "'Guaranteed / sure-shot'",
+      "d": "No one can guarantee a market return. The word itself is the tell."
+     },
+     {
+      "k": "The course upsell",
+      "d": "The money is made selling you the dream, not trading it."
+     },
+     {
+      "k": "One trade, no record",
+      "d": "'1 lakh to 44 lakh' once proves luck \u2014 never a repeatable skill."
+     }
+    ],
+    "dur": 38.507
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.731,
+   "Chapter fourteen. So how do you protect yourself?"
+  ],
+  [
+   3.363,
+   6.436,
+   "Let's dissect the exact claim that probably brought\nyou"
+  ],
+  [
+   6.436,
+   9.509,
+   "here \u2014 one lakh turned into forty-four \u2014 and"
+  ],
+  [
+   9.509,
+   12.582,
+   "build a checklist you can use on any post,"
+  ],
+  [
+   12.582,
+   12.923,
+   "forever."
+  ],
+  [
+   13.423,
+   16.597,
+   "Before the checklist, one number settles the whole\nargument."
+  ],
+  [
+   17.229,
+   20.403,
+   "SEBI studied every individual trader in the futures\nand"
+  ],
+  [
+   20.403,
+   21.109,
+   "options market."
+  ],
+  [
+   21.74,
+   24.915,
+   "Ninety-three percent of them lost money \u2014 together,\nmore"
+  ],
+  [
+   24.915,
+   28.089,
+   "than one point eight lakh crore rupees over three"
+  ],
+  [
+   28.089,
+   28.442,
+   "years."
+  ],
+  [
+   29.073,
+   32.248,
+   "And losses got worse the next year, not better."
+  ],
+  [
+   32.879,
+   36.054,
+   "So when someone shows you one lakh becoming\nforty-four,"
+  ],
+  [
+   36.054,
+   39.228,
+   "remember: for every account like that \u2014 if it's"
+  ],
+  [
+   39.228,
+   42.402,
+   "even real \u2014 there are roughly nine that quietly"
+  ],
+  [
+   42.402,
+   45.577,
+   "blew up, and you will never see a single"
+  ],
+  [
+   45.577,
+   46.635,
+   "one of them."
+  ],
+  [
+   47.135,
+   50.188,
+   "So here's your defence \u2014 six red flags."
+  ],
+  [
+   50.82,
+   54.255,
+   "One: no SEBI registration number \u2014 a real adviser"
+  ],
+  [
+   54.255,
+   56.926,
+   "shows one; a finfluencer shows a lifestyle."
+  ],
+  [
+   57.558,
+   60.993,
+   "Two: screenshots instead of audited statements \u2014 one\ntakes"
+  ],
+  [
+   60.993,
+   63.283,
+   "seconds to fake, the other doesn't."
+  ],
+  [
+   63.914,
+   67.349,
+   "Three: survivorship only \u2014 you see the win, never"
+  ],
+  [
+   67.349,
+   68.113,
+   "the losses."
+  ],
+  [
+   68.744,
+   72.179,
+   "Four: the words 'guaranteed' or 'sure-shot' \u2014 an\ninstant"
+  ],
+  [
+   72.179,
+   72.561,
+   "disqualifier."
+  ],
+  [
+   73.192,
+   76.627,
+   "Five: the course upsell \u2014 the real product is"
+  ],
+  [
+   76.627,
+   77.391,
+   "the dream."
+  ],
+  [
+   78.022,
+   81.457,
+   "Six: a single lucky trade with no track record."
+  ],
+  [
+   82.089,
+   85.142,
+   "See two or more, and close the tab."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch14.wav",
+   "volume": 1.0
+  }
+ }
+}

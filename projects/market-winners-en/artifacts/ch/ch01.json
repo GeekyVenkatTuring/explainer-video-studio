@@ -1,0 +1,171 @@
+{
+ "cuts": [
+  {
+   "id": "d01",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 7.906,
+   "props": {
+    "n": 1,
+    "title": "The Two Questions",
+    "sub": "What 'making money' really means",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 8.406
+   }
+  },
+  {
+   "id": "c11",
+   "type": "mw_statement",
+   "in_seconds": 8.406,
+   "out_seconds": 35.059,
+   "props": {
+    "kicker": "QUESTION ONE \u00b7 IS IT VERIFIABLE?",
+    "color": "#38BDF8",
+    "lines": [
+     "Did they truly",
+     "hold the position \u2014",
+     "or just post",
+     "a screenshot?"
+    ],
+    "sub": "Ownership you can verify beats any claim you can't.",
+    "dur": 27.153
+   }
+  },
+  {
+   "id": "c12",
+   "type": "mw_statement",
+   "in_seconds": 35.559,
+   "out_seconds": 60.71,
+   "props": {
+    "kicker": "QUESTION TWO \u00b7 OVER WHAT, VERSUS WHAT?",
+    "color": "#A78BFA",
+    "lines": [
+     "A gain means nothing",
+     "without its time frame",
+     "and its benchmark."
+    ],
+    "sub": "Every real number here comes with its date and its comparison.",
+    "dur": 25.651
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.273,
+   "Before we meet the winners, we need two questions."
+  ],
+  [
+   3.905,
+   7.179,
+   "They sound almost too simple. And almost nobody\nactually"
+  ],
+  [
+   7.179,
+   7.906,
+   "applies them."
+  ],
+  [
+   8.406,
+   10.599,
+   "Question one \u2014 is it verifiable?"
+  ],
+  [
+   11.231,
+   14.521,
+   "A screenshot of a profit-and-loss screen proves\nnothing; it"
+  ],
+  [
+   14.521,
+   16.349,
+   "takes thirty seconds to fake."
+  ],
+  [
+   16.98,
+   20.27,
+   "But when an investor crosses one percent of a"
+  ],
+  [
+   20.27,
+   23.56,
+   "listed company, the exchange forces them to disclose\nit"
+  ],
+  [
+   23.56,
+   24.657,
+   "\u2014 by law."
+  ],
+  [
+   25.289,
+   28.579,
+   "That paper trail \u2014 quarterly shareholding filings \u2014\nis"
+  ],
+  [
+   28.579,
+   31.869,
+   "how we know what India's big investors truly own."
+  ],
+  [
+   32.5,
+   35.059,
+   "Not what they claim. What they filed."
+  ],
+  [
+   35.559,
+   38.51,
+   "Question two \u2014 over what time frame, and compared"
+  ],
+  [
+   38.51,
+   39.166,
+   "to what?"
+  ],
+  [
+   39.797,
+   42.748,
+   "Doubling your money sounds incredible \u2014 until you\nlearn"
+  ],
+  [
+   42.748,
+   45.7,
+   "it took ten years, which is just seven percent"
+  ],
+  [
+   45.7,
+   46.355,
+   "a year."
+  ],
+  [
+   46.987,
+   49.938,
+   "Or that the whole market doubled right alongside\nyou."
+  ],
+  [
+   50.569,
+   53.521,
+   "Every real number in this video comes with its"
+  ],
+  [
+   53.521,
+   54.832,
+   "date and its benchmark."
+  ],
+  [
+   55.464,
+   58.415,
+   "Hold both questions in your head. They are the"
+  ],
+  [
+   58.415,
+   60.71,
+   "difference between an investor and an audience."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch01.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,234 @@
+{
+ "cuts": [
+  {
+   "id": "d6",
+   "type": "hf_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 3.241,
+   "props": {
+    "n": 6,
+    "title": "Ship It",
+    "sub": "check, preview, render",
+    "color": "#34D399",
+    "dur": 3.741
+   }
+  },
+  {
+   "id": "s35_checks",
+   "type": "hf_pipeline",
+   "in_seconds": 3.741,
+   "out_seconds": 45.26,
+   "props": {
+    "kicker": "THREE CHECKERS",
+    "title": "Each catches what the last can't",
+    "color": "#34D399",
+    "foot": "Static, then runtime, then visual \u2014 run all three before you preview.",
+    "steps": [
+     {
+      "label": "lint",
+      "sub": "structure & attributes",
+      "c": "#38BDF8"
+     },
+     {
+      "label": "validate",
+      "sub": "runtime errors, contrast",
+      "c": "#A78BFA"
+     },
+     {
+      "label": "inspect",
+      "sub": "text spilling, off-canvas",
+      "c": "#FBBF24"
+     }
+    ],
+    "dur": 42.019
+   }
+  },
+  {
+   "id": "s36_conventions",
+   "type": "hf_bullets",
+   "in_seconds": 45.76,
+   "out_seconds": 80.254,
+   "props": {
+    "kicker": "FOR AGENTS & CI",
+    "title": "Conventions that keep it scriptable",
+    "color": "#34D399",
+    "foot": "Machine-readable output and clear exit codes make the whole loop automatable.",
+    "items": [
+     {
+      "h": "Ask for JSON output",
+      "sub": "structured results for scripts",
+      "icon": "\ud83d\udce6",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "Gate on doctor's ok field",
+      "sub": "it always exits zero on purpose",
+      "icon": "\ud83e\ude7a",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Strict flags fail the build",
+      "sub": "turn warnings into hard errors in CI",
+      "icon": "\ud83d\uded1",
+      "c": "#FB7185"
+     }
+    ],
+    "dur": 34.994
+   }
+  },
+  {
+   "id": "s37_snapshot",
+   "type": "hf_bullets",
+   "in_seconds": 80.754,
+   "out_seconds": 118.303,
+   "props": {
+    "kicker": "THE VISUAL SMOKE TEST",
+    "title": "When you nest, snapshot",
+    "color": "#34D399",
+    "foot": "The static checkers test files alone \u2014 only a real load catches a broken mount.",
+    "items": [
+     {
+      "h": "The checkers test files in isolation",
+      "sub": "they never mount sub-compositions",
+      "icon": "\ud83e\udde9",
+      "c": "#FB7185"
+     },
+     {
+      "h": "Snapshot loads it like a real render",
+      "sub": "one frame per sub-comp midpoint",
+      "icon": "\ud83d\udcf8",
+      "c": "#34D399"
+     },
+     {
+      "h": "Then eyeball every frame",
+      "sub": "missing hero, tiny text = a broken mount",
+      "icon": "\ud83d\udc40",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 38.049
+   }
+  },
+  {
+   "id": "s38_studio",
+   "type": "hf_studio",
+   "in_seconds": 118.803,
+   "out_seconds": 155.168,
+   "props": {
+    "dur": 36.865
+   }
+  },
+  {
+   "id": "s39_render",
+   "type": "hf_compare",
+   "in_seconds": 155.668,
+   "out_seconds": 193.506,
+   "props": {
+    "kicker": "THE RENDER",
+    "title": "Pick the render for the job",
+    "foot": "Draft while you iterate; high to deliver; strict and docker for CI.",
+    "left": {
+     "head": "Everyday",
+     "bad": false,
+     "c": "#34D399",
+     "items": [
+      "draft \u2014 fast, while iterating",
+      "high \u2014 the final delivery",
+      "verify the file exists after"
+     ]
+    },
+    "right": {
+     "head": "For CI",
+     "bad": false,
+     "c": "#38BDF8",
+     "items": [
+      "strict \u2014 fail on lint errors",
+      "docker \u2014 a reproducible host",
+      "then report feedback once"
+     ]
+    },
+    "dur": 38.338
+   }
+  },
+  {
+   "id": "s40_lambda",
+   "type": "hf_lambda",
+   "in_seconds": 194.006,
+   "out_seconds": 232.752,
+   "props": {
+    "dur": 39.246
+   }
+  },
+  {
+   "id": "s41_registry",
+   "type": "hf_compare",
+   "in_seconds": 233.252,
+   "out_seconds": 273.067,
+   "props": {
+    "kicker": "THE REGISTRY",
+    "title": "Install ready-made pieces",
+    "foot": "The add command pulls a piece in; blocks nest on a track, components paste in.",
+    "left": {
+     "head": "Blocks",
+     "bad": false,
+     "c": "#38BDF8",
+     "items": [
+      "Standalone sub-compositions",
+      "Own size, duration, timeline",
+      "Wired in by src, on a track"
+     ]
+    },
+    "right": {
+     "head": "Components",
+     "bad": false,
+     "c": "#A78BFA",
+     "items": [
+      "Effect snippets, no size",
+      "Pasted into your markup",
+      "A grain overlay, a shimmer"
+     ]
+    },
+    "dur": 40.315
+   }
+  },
+  {
+   "id": "s42_doctor",
+   "type": "hf_bullets",
+   "in_seconds": 273.567,
+   "out_seconds": 312.261,
+   "props": {
+    "kicker": "KEEP IT HEALTHY",
+    "title": "The housekeeping that saves you",
+    "color": "#34D399",
+    "foot": "So: a minute of housekeeping beats an hour lost to a stale environment.",
+    "items": [
+     {
+      "h": "doctor checks your environment",
+      "sub": "the right Node, FFmpeg, and more",
+      "icon": "\ud83e\ude7a",
+      "c": "#34D399"
+     },
+     {
+      "h": "Keep the tools and skills current",
+      "sub": "a quick check before a long build",
+      "icon": "\ud83d\udd04",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "Report feedback after a render",
+      "sub": "the project's main signal channel",
+      "icon": "\ud83d\udcac",
+      "c": "#FBBF24"
+     }
+    ],
+    "dur": 39.194
+   }
+  }
+ ],
+ "audio": {
+  "narration": {
+   "src": "hf/narration_p6.wav",
+   "volume": 1.0
+  }
+ }
+}

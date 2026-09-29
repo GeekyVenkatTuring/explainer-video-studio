@@ -1,0 +1,580 @@
+{
+ "cuts": [
+  {
+   "id": "ch03_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 13.46,
+   "props": {
+    "n": 3,
+    "total": 20,
+    "title": "Never Enough",
+    "lines": [
+     "The hardest financial skill is stopping when you already have enough.",
+     "Do not risk what you have and need for what you do not have and do not need."
+    ],
+    "color": "#F87171",
+    "dur": 13.96
+   }
+  },
+  {
+   "id": "ch03_gupta",
+   "type": "pm_dual",
+   "in_seconds": 13.96,
+   "out_seconds": 64.608,
+   "props": {
+    "kicker": "ALREADY RICH, STILL REACHING",
+    "title": "Gupta and Madoff",
+    "left": {
+     "name": "Rajat Gupta",
+     "tag": "McKinsey",
+     "c": "#F87171",
+     "lines": [
+      "Reported net worth about $100 million. The book: that throws off roughly $600 an hour, 24 hours a day.",
+      "Still passed insider tips. Rajaratnam made a quick $1 million.",
+      "Prosecutors: Gupta's tips linked to about $17 million in profits. Gupta went to prison."
+     ]
+    },
+    "right": {
+     "name": "Bernie Madoff",
+     "tag": "already a fortune",
+     "c": "#FBBF24",
+     "lines": [
+      "Legal market-making: about $25 to $50 million a year before the fraud.",
+      "Book: Madoff's electronic volume equaled about 9% of the New York exchange.",
+      "That legal business was not enough. The Ponzi is what people remember. Others were ruined."
+     ]
+    },
+    "color": "#F87171",
+    "note": "Do not risk what you have and need for what you do not have and do not need.",
+    "dur": 51.148
+   }
+  },
+  {
+   "id": "ch03_ladder",
+   "type": "pm_sheet",
+   "in_seconds": 65.108,
+   "out_seconds": 103.413,
+   "props": {
+    "kicker": "THE COMPARISON LADDER",
+    "title": "Someone is always richer",
+    "rows": [
+     {
+      "k": "Rookie",
+      "v": "A rookie baseball player on $500,000 a year is rich in any normal life.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Trout",
+      "v": "Mike Trout: 12-year, $430 million contract \u2014 about $36 million a year. The rookie can feel broke.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Hedge fund",
+      "v": "To feel like a top earner, the book says you might need $340 million in one year.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "2018 pay",
+      "v": "Some managers earned at least $770 million in 2018.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Bezos 2018",
+      "v": "Jeff Bezos's net worth increased by about $24 billion in 2018 \u2014 the ladder has no last rung.",
+      "c": "#E8B86D"
+     }
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 38.805
+   }
+  },
+  {
+   "id": "ch03_enough",
+   "type": "pm_list",
+   "in_seconds": 103.913,
+   "out_seconds": 128.352,
+   "props": {
+    "kicker": "NAME ENOUGH IN ADVANCE",
+    "title": "The antidote",
+    "items": [
+     "Decide what enough is before results inflate your expectations.",
+     "Enough is people you will not disappoint, plus risk that lets you stay in the game.",
+     "Rockefeller, asked how much is enough: 'Just a little bit more' \u2014 a warning, not a plan.",
+     "If expectations rise with every win, compounding cannot catch a moving finish line."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 24.939
+   }
+  },
+  {
+   "id": "ch03_enough-math",
+   "type": "pm_sheet",
+   "in_seconds": 128.852,
+   "out_seconds": 156.971,
+   "props": {
+    "kicker": "THE HOURLY FIGURE",
+    "title": "Why $100 million still felt small",
+    "rows": [
+     {
+      "k": "$100 million",
+      "v": "The book: a fortune that size generates almost $600 an hour, 24 hours a day.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Still reaching",
+      "v": "Gupta still wanted the next rung. Comparison, not poverty, drove the extra risk.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Madoff legal",
+      "v": "Twenty-five to fifty million a year, legally, was already 'enough' by any household standard. It was not enough for his identity.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Rule on screen",
+      "v": "There is no reason to risk what you have and need for what you do not have and do not need.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#F87171",
+    "note": "",
+    "dur": 28.619
+   }
+  },
+  {
+   "id": "ch03_enough-close",
+   "type": "pm_list",
+   "in_seconds": 157.471,
+   "out_seconds": 183.594,
+   "props": {
+    "kicker": "CHAPTER 3 \u00b7 CLOSE",
+    "title": "Write enough before the ladder moves",
+    "items": [
+     "A rookie on five hundred thousand can feel poor next to a three hundred forty million year.",
+     "Gupta already had a one hundred million fortune. The extra risk was comparison, not rent.",
+     "Madoff already had a legal fortune. The fraud was identity, not necessity.",
+     "Name the people you will not disappoint. That list is a better finish line than a neighbor's net worth."
+    ],
+    "color": "#F87171",
+    "note": "",
+    "dur": 26.623
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.739,
+   "Chapter 3."
+  ],
+  [
+   0.739,
+   1.478,
+   "Never Enough."
+  ],
+  [
+   2.11,
+   5.067,
+   "The hardest financial skill is stopping\nwhen you"
+  ],
+  [
+   5.067,
+   6.176,
+   "already have enough."
+  ],
+  [
+   6.807,
+   9.764,
+   "Do not risk what you have and need"
+  ],
+  [
+   9.764,
+   12.721,
+   "for what you do not have and do"
+  ],
+  [
+   12.721,
+   13.46,
+   "not need."
+  ],
+  [
+   13.96,
+   14.849,
+   "Rajat Gupta."
+  ],
+  [
+   14.849,
+   15.293,
+   "McKinsey"
+  ],
+  [
+   15.925,
+   19.481,
+   "Reported net worth about one hundred\nmillion dollars."
+  ],
+  [
+   19.481,
+   23.037,
+   "The book says that throws off roughly six"
+  ],
+  [
+   23.037,
+   24.815,
+   "hundred dollars an hour,"
+  ],
+  [
+   24.815,
+   26.593,
+   "twenty-four hours a day."
+  ],
+  [
+   27.224,
+   29.447,
+   "He still passed insider tips."
+  ],
+  [
+   29.447,
+   32.558,
+   "Rajaratnam made a quick one million\ndollars."
+  ],
+  [
+   33.19,
+   36.746,
+   "Prosecutors said Gupta's tips linked to\nabout seventeen"
+  ],
+  [
+   36.746,
+   38.524,
+   "million dollars in profits."
+  ],
+  [
+   38.524,
+   40.302,
+   "Gupta went to prison."
+  ],
+  [
+   40.933,
+   41.822,
+   "Bernie Madoff."
+  ],
+  [
+   41.822,
+   43.156,
+   "already a fortune"
+  ],
+  [
+   43.787,
+   47.343,
+   "Legal market-making made about twenty-five\nto fifty million"
+  ],
+  [
+   47.343,
+   50.01,
+   "dollars a year before the fraud."
+  ],
+  [
+   50.642,
+   54.198,
+   "The book says Madoff's electronic volume\nequaled about"
+  ],
+  [
+   54.198,
+   57.309,
+   "nine percent of the New York exchange."
+  ],
+  [
+   57.941,
+   60.608,
+   "That legal business was not enough."
+  ],
+  [
+   60.608,
+   63.275,
+   "The Ponzi is what people remember."
+  ],
+  [
+   63.275,
+   64.608,
+   "Others were ruined."
+  ],
+  [
+   65.108,
+   68.186,
+   "A rookie baseball player on five hundred\nthousand"
+  ],
+  [
+   68.186,
+   71.263,
+   "dollars a year is rich in any normal"
+  ],
+  [
+   71.263,
+   71.648,
+   "life."
+  ],
+  [
+   72.28,
+   74.203,
+   "Mike Trout had a twelve-year,"
+  ],
+  [
+   74.203,
+   76.512,
+   "four hundred thirty million dollar\ncontract,"
+  ],
+  [
+   76.512,
+   78.435,
+   "about thirty-six million a year."
+  ],
+  [
+   78.435,
+   80.359,
+   "The rookie can feel broke."
+  ],
+  [
+   80.99,
+   83.683,
+   "To feel like a top hedge-fund earner,"
+  ],
+  [
+   83.683,
+   86.761,
+   "the book says you might need three hundred"
+  ],
+  [
+   86.761,
+   89.069,
+   "forty million dollars in one year."
+  ],
+  [
+   89.701,
+   92.779,
+   "Some managers earned at least seven\nhundred seventy"
+  ],
+  [
+   92.779,
+   95.087,
+   "million dollars in two thousand eighteen."
+  ],
+  [
+   95.719,
+   98.796,
+   "Jeff Bezos's net worth increased by about\ntwenty-four"
+  ],
+  [
+   98.796,
+   101.105,
+   "billion dollars in two thousand eighteen."
+  ],
+  [
+   101.105,
+   103.413,
+   "The ladder has no last rung."
+  ],
+  [
+   103.913,
+   107.077,
+   "Decide what enough is before results\ninflate your"
+  ],
+  [
+   107.077,
+   107.473,
+   "expectations."
+  ],
+  [
+   108.104,
+   110.873,
+   "Enough is people you will not disappoint,"
+  ],
+  [
+   110.873,
+   114.037,
+   "plus risk that lets you stay in the"
+  ],
+  [
+   114.037,
+   114.432,
+   "game."
+  ],
+  [
+   115.064,
+   115.46,
+   "Rockefeller,"
+  ],
+  [
+   115.46,
+   117.437,
+   "asked how much is enough,"
+  ],
+  [
+   117.437,
+   119.81,
+   "said just a little bit more."
+  ],
+  [
+   119.81,
+   121.392,
+   "That is a warning,"
+  ],
+  [
+   121.392,
+   122.579,
+   "not a plan."
+  ],
+  [
+   123.21,
+   125.583,
+   "If expectations rise with every win,"
+  ],
+  [
+   125.583,
+   128.352,
+   "compounding cannot catch a moving finish\nline."
+  ],
+  [
+   128.852,
+   129.58,
+   "The book:"
+  ],
+  [
+   129.58,
+   132.494,
+   "a fortune that size generates almost six\nhundred"
+  ],
+  [
+   132.494,
+   133.587,
+   "dollars an hour,"
+  ],
+  [
+   133.587,
+   135.044,
+   "twenty-four hours a day."
+  ],
+  [
+   135.675,
+   137.861,
+   "Gupta still wanted the next rung."
+  ],
+  [
+   137.861,
+   138.225,
+   "Comparison,"
+  ],
+  [
+   138.225,
+   138.953,
+   "not poverty,"
+  ],
+  [
+   138.953,
+   140.41,
+   "drove the extra risk."
+  ],
+  [
+   141.042,
+   143.227,
+   "Twenty-five to fifty million a year,"
+  ],
+  [
+   143.227,
+   143.592,
+   "legally,"
+  ],
+  [
+   143.592,
+   146.141,
+   "was already enough by any household\nstandard."
+  ],
+  [
+   146.141,
+   148.691,
+   "It was not enough for his identity."
+  ],
+  [
+   149.322,
+   152.236,
+   "There is no reason to risk what you"
+  ],
+  [
+   152.236,
+   155.15,
+   "have and need for what you do not"
+  ],
+  [
+   155.15,
+   156.971,
+   "have and do not need."
+  ],
+  [
+   157.471,
+   160.548,
+   "A rookie on five hundred thousand can feel"
+  ],
+  [
+   160.548,
+   163.624,
+   "poor next to a three hundred forty million"
+  ],
+  [
+   163.624,
+   164.009,
+   "year."
+  ],
+  [
+   164.64,
+   167.717,
+   "Gupta already had a one hundred million\nfortune."
+  ],
+  [
+   167.717,
+   169.64,
+   "The extra risk was comparison,"
+  ],
+  [
+   169.64,
+   170.409,
+   "not rent."
+  ],
+  [
+   171.041,
+   173.348,
+   "Madoff already had a legal fortune."
+  ],
+  [
+   173.348,
+   174.886,
+   "The fraud was identity,"
+  ],
+  [
+   174.886,
+   175.655,
+   "not necessity."
+  ],
+  [
+   176.287,
+   178.979,
+   "Name the people you will not disappoint."
+  ],
+  [
+   178.979,
+   182.056,
+   "That list is a better finish line than"
+  ],
+  [
+   182.056,
+   183.594,
+   "a neighbor's net worth."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch03.wav",
+   "volume": 1.0
+  }
+ }
+}

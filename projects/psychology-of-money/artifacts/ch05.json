@@ -1,0 +1,630 @@
+{
+ "cuts": [
+  {
+   "id": "ch05_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 13.119,
+   "props": {
+    "n": 5,
+    "total": 20,
+    "title": "Stay Wealthy",
+    "lines": [
+     "Getting money and keeping money are different skills.",
+     "Survival is the strategy: stay in the game so compounding can finish."
+    ],
+    "color": "#34D399",
+    "dur": 13.619
+   }
+  },
+  {
+   "id": "ch05_skills",
+   "type": "pm_dual",
+   "in_seconds": 13.619,
+   "out_seconds": 51.319,
+   "props": {
+    "kicker": "OFFENSE VERSUS DEFENSE",
+    "title": "Two jobs, two personalities",
+    "left": {
+     "name": "Getting wealthy",
+     "tag": "offense",
+     "c": "#38BDF8",
+     "lines": [
+      "Needs taking risk, optimism, concentration, hustle.",
+      "Fails as fragility: a great return that ends in year twelve."
+     ]
+    },
+    "right": {
+     "name": "Staying wealthy",
+     "tag": "defense",
+     "c": "#34D399",
+     "lines": [
+      "Needs humility, useful fear, cash, frugality, room for error.",
+      "Wins as longevity: a good return that lasts fifty years beats a spectacular one that blows up.",
+      "Margin of safety is not about being right. It is about not being forced out."
+     ]
+    },
+    "color": "#34D399",
+    "note": "",
+    "dur": 38.2
+   }
+  },
+  {
+   "id": "ch05_rick",
+   "type": "pm_sheet",
+   "in_seconds": 51.819,
+   "out_seconds": 85.017,
+   "props": {
+    "kicker": "RICK GUERIN",
+    "title": "Leverage turned a crash into a forced sale",
+    "rows": [
+     {
+      "k": "Partners",
+      "v": "Charlie Munger and Rick Guerin were both early Buffett partners.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Margin",
+      "v": "Guerin used leverage. In the early 1970s the market crushed him.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Berkshire",
+      "v": "Berkshire fell almost 70% in those two years.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Sale",
+      "v": "Margin calls: Guerin sold Berkshire under $40 a share. Buffett later bought some of that stock.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Buffett wait",
+      "v": "Buffett did not need the money, so he was not a forced seller.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Rule",
+      "v": "Staying wealthy means arranging life so you never have to sell at the bottom.",
+      "c": "#E8B86D"
+     }
+    ],
+    "color": "#F87171",
+    "note": "",
+    "dur": 33.698
+   }
+  },
+  {
+   "id": "ch05_cash",
+   "type": "pm_sheet",
+   "in_seconds": 85.517,
+   "out_seconds": 114.083,
+   "props": {
+    "kicker": "CASH LOOKS DUMB UNTIL YOU NEED IT",
+    "title": "The 1% versus 10% nag",
+    "rows": [
+     {
+      "k": "The nag",
+      "v": "Illustration: cash earns 1%, stocks 10%. The 9-point gap nags every day.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "True yield",
+      "v": "The book's point: cash's real yield is not 1%. It is the option not to become a forced seller.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Housing",
+      "v": "The book cites a housing boom and bust that touched nearly 10 million households.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Plan",
+      "v": "A rate you can survive: '8% would be great; 4% I can still live with.'",
+      "c": "#E8B86D"
+     }
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 29.066
+   }
+  },
+  {
+   "id": "ch05_survive-list",
+   "type": "pm_list",
+   "in_seconds": 114.583,
+   "out_seconds": 141.52,
+   "props": {
+    "kicker": "SURVIVAL CHECKLIST",
+    "title": "Staying wealthy on one card",
+    "items": [
+     "Frugality, cash, and low leverage are how you avoid becoming Rick Guerin in a two-year crash.",
+     "A 70% drop is a fee if you can wait. It is ruin if a lender can call the loan.",
+     "Plan for 4% years even if you hope for 8%. Room between those numbers is the strategy.",
+     "Getting rich and staying rich need different personalities. Do not let offense run the whole life."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 27.437
+   }
+  },
+  {
+   "id": "ch05_barbell",
+   "type": "pm_sheet",
+   "in_seconds": 142.02,
+   "out_seconds": 175.033,
+   "props": {
+    "kicker": "OPTIMISM AND PARANOIA",
+    "title": "Two personalities, one life",
+    "rows": [
+     {
+      "k": "Offense",
+      "v": "Getting rich can require optimism, concentration, and a willingness to look foolish for a while.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Defense",
+      "v": "Staying rich requires paranoia about ruin: cash, frugality, and no lender who can call you at the bottom.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Guerin",
+      "v": "Rick Guerin was in the same early Buffett circle. Leverage turned a crash into an exit.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Switch",
+      "v": "The book: do not let the personality that got you rich run the whole rest of the life.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Aim",
+      "v": "Survive first. Compounding is only available to people who are still in the game.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 33.513
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.988,
+   "Chapter 5."
+  ],
+  [
+   0.988,
+   1.976,
+   "Stay Wealthy."
+  ],
+  [
+   2.608,
+   6.559,
+   "Getting money and keeping money are\ndifferent skills."
+  ],
+  [
+   7.191,
+   9.167,
+   "Survival is the strategy:"
+  ],
+  [
+   9.167,
+   13.119,
+   "stay in the game so compounding can\nfinish."
+  ],
+  [
+   13.619,
+   14.548,
+   "Getting wealthy."
+  ],
+  [
+   14.548,
+   15.013,
+   "offense"
+  ],
+  [
+   15.644,
+   17.967,
+   "Getting wealthy needs taking risk,"
+  ],
+  [
+   17.967,
+   18.431,
+   "optimism,"
+  ],
+  [
+   18.431,
+   18.896,
+   "concentration,"
+  ],
+  [
+   18.896,
+   19.825,
+   "and hustle."
+  ],
+  [
+   20.456,
+   22.315,
+   "It fails as fragility:"
+  ],
+  [
+   22.315,
+   26.031,
+   "a great return that ends in year twelve."
+  ],
+  [
+   26.662,
+   27.591,
+   "Staying wealthy."
+  ],
+  [
+   27.591,
+   28.056,
+   "defense"
+  ],
+  [
+   28.688,
+   30.546,
+   "Staying wealthy needs humility,"
+  ],
+  [
+   30.546,
+   31.475,
+   "useful fear,"
+  ],
+  [
+   31.475,
+   31.939,
+   "cash,"
+  ],
+  [
+   31.939,
+   32.404,
+   "frugality,"
+  ],
+  [
+   32.404,
+   34.262,
+   "and room for error."
+  ],
+  [
+   34.893,
+   36.752,
+   "It wins as longevity."
+  ],
+  [
+   36.752,
+   40.468,
+   "A good return that lasts fifty years beats"
+  ],
+  [
+   40.468,
+   43.255,
+   "a spectacular one that blows up."
+  ],
+  [
+   43.887,
+   47.603,
+   "A margin of safety is not about being"
+  ],
+  [
+   47.603,
+   48.067,
+   "right."
+  ],
+  [
+   48.067,
+   51.319,
+   "It is about not being forced out."
+  ],
+  [
+   51.819,
+   55.023,
+   "Charlie Munger and Rick Guerin were both\nearly"
+  ],
+  [
+   55.023,
+   55.824,
+   "Buffett partners."
+  ],
+  [
+   56.456,
+   57.658,
+   "Guerin used leverage."
+  ],
+  [
+   57.658,
+   60.862,
+   "In the early nineteen seventies the market\ncrushed"
+  ],
+  [
+   60.862,
+   61.262,
+   "him."
+  ],
+  [
+   61.894,
+   65.098,
+   "Berkshire fell almost seventy percent in\nthose two"
+  ],
+  [
+   65.098,
+   65.499,
+   "years."
+  ],
+  [
+   66.13,
+   66.931,
+   "Margin calls:"
+  ],
+  [
+   66.931,
+   70.136,
+   "Guerin sold Berkshire under forty dollars\na share."
+  ],
+  [
+   70.136,
+   72.939,
+   "Buffett later bought some of that stock."
+  ],
+  [
+   73.571,
+   75.974,
+   "Buffett did not need the money,"
+  ],
+  [
+   75.974,
+   78.778,
+   "so he was not a forced seller."
+  ],
+  [
+   79.41,
+   82.614,
+   "Staying wealthy means arranging life so\nyou never"
+  ],
+  [
+   82.614,
+   85.017,
+   "have to sell at the bottom."
+  ],
+  [
+   85.517,
+   85.863,
+   "Illustration:"
+  ],
+  [
+   85.863,
+   87.249,
+   "cash earns one percent,"
+  ],
+  [
+   87.249,
+   88.288,
+   "stocks ten percent."
+  ],
+  [
+   88.288,
+   90.366,
+   "The nine-point gap nags every day."
+  ],
+  [
+   90.998,
+   92.037,
+   "The book's point:"
+  ],
+  [
+   92.037,
+   94.462,
+   "cash's real yield is not one percent."
+  ],
+  [
+   94.462,
+   97.233,
+   "It is the option not to become a"
+  ],
+  [
+   97.233,
+   97.926,
+   "forced seller."
+  ],
+  [
+   98.557,
+   101.328,
+   "The book cites a housing boom and bust"
+  ],
+  [
+   101.328,
+   103.406,
+   "that touched nearly ten million\nhouseholds."
+  ],
+  [
+   104.038,
+   106.116,
+   "Plan a rate you can survive."
+  ],
+  [
+   106.116,
+   108.887,
+   "It would be great if the market returns"
+  ],
+  [
+   108.887,
+   110.273,
+   "eight percent a year;"
+  ],
+  [
+   110.273,
+   112.005,
+   "if it only does four,"
+  ],
+  [
+   112.005,
+   114.083,
+   "you can still live with it."
+  ],
+  [
+   114.583,
+   114.936,
+   "Frugality,"
+  ],
+  [
+   114.936,
+   115.288,
+   "cash,"
+  ],
+  [
+   115.288,
+   118.11,
+   "and low leverage are how you avoid\nbecoming"
+  ],
+  [
+   118.11,
+   120.226,
+   "Rick Guerin in a two-year crash."
+  ],
+  [
+   120.858,
+   123.68,
+   "A seventy percent drop is a fee if"
+  ],
+  [
+   123.68,
+   124.738,
+   "you can wait."
+  ],
+  [
+   124.738,
+   127.559,
+   "It is ruin if a lender can call"
+  ],
+  [
+   127.559,
+   128.265,
+   "the loan."
+  ],
+  [
+   128.896,
+   131.718,
+   "Plan for four percent years even if you"
+  ],
+  [
+   131.718,
+   132.776,
+   "hope for eight."
+  ],
+  [
+   132.776,
+   135.245,
+   "Room between those numbers is the\nstrategy."
+  ],
+  [
+   135.877,
+   138.698,
+   "Getting rich and staying rich need\ndifferent personalities."
+  ],
+  [
+   138.698,
+   141.52,
+   "Do not let offense run the whole life."
+  ],
+  [
+   142.02,
+   143.902,
+   "Getting rich can require optimism,"
+  ],
+  [
+   143.902,
+   144.278,
+   "concentration,"
+  ],
+  [
+   144.278,
+   147.289,
+   "and a willingness to look foolish for a"
+  ],
+  [
+   147.289,
+   147.666,
+   "while."
+  ],
+  [
+   148.297,
+   150.556,
+   "Staying rich requires paranoia about ruin:"
+  ],
+  [
+   150.556,
+   150.932,
+   "cash,"
+  ],
+  [
+   150.932,
+   151.308,
+   "frugality,"
+  ],
+  [
+   151.308,
+   154.319,
+   "and no lender who can call you at"
+  ],
+  [
+   154.319,
+   155.072,
+   "the bottom."
+  ],
+  [
+   155.704,
+   158.715,
+   "Rick Guerin was in the same early Buffett"
+  ],
+  [
+   158.715,
+   159.091,
+   "circle."
+  ],
+  [
+   159.091,
+   161.726,
+   "Leverage turned a crash into an exit."
+  ],
+  [
+   162.357,
+   163.11,
+   "The book:"
+  ],
+  [
+   163.11,
+   166.121,
+   "do not let the personality that got you"
+  ],
+  [
+   166.121,
+   169.132,
+   "rich run the whole rest of the life."
+  ],
+  [
+   169.764,
+   170.516,
+   "Survive first."
+  ],
+  [
+   170.516,
+   173.527,
+   "Compounding is only available to people\nwho are"
+  ],
+  [
+   173.527,
+   175.033,
+   "still in the game."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch05.wav",
+   "volume": 1.0
+  }
+ }
+}

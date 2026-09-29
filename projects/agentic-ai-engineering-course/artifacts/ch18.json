@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch18_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 45.214,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "foundation",
+        "dur": 45.714
+      }
+    },
+    {
+      "id": "ch18_system",
+      "type": "aae_chapter",
+      "in_seconds": 45.714,
+      "out_seconds": 83.743,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "system",
+        "dur": 38.529
+      }
+    },
+    {
+      "id": "ch18_practice",
+      "type": "aae_chapter",
+      "in_seconds": 84.243,
+      "out_seconds": 129.469,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "practice",
+        "dur": 45.726
+      }
+    },
+    {
+      "id": "ch18_failure",
+      "type": "aae_chapter",
+      "in_seconds": 129.969,
+      "out_seconds": 168.183,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "failure",
+        "dur": 38.714
+      }
+    },
+    {
+      "id": "ch18_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 168.683,
+      "out_seconds": 211.002,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "evaluation",
+        "dur": 42.819
+      }
+    },
+    {
+      "id": "ch18_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 211.502,
+      "out_seconds": 248.295,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "handoff",
+        "dur": 37.293
+      }
+    },
+    {
+      "id": "ch18_application",
+      "type": "aae_chapter",
+      "in_seconds": 248.795,
+      "out_seconds": 296.572,
+      "props": {
+        "chapter": 18,
+        "title": "AgentOps Engineering",
+        "focus": "operating agent fleets through tests, monitoring, cost control, and safe rollout",
+        "concepts": [
+          "evaluation gates",
+          "production telemetry",
+          "rollback and iteration"
+        ],
+        "example": "a release gate blocking a regression in tool selection",
+        "trap": "shipping once and watching complaints",
+        "takeaway": "Operating agent fleets through tests, monitoring, cost control, and safe rollout.",
+        "beat": "application",
+        "dur": 48.278
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch18.wav",
+      "volume": 1
+    }
+  }
+}

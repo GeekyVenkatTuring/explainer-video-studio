@@ -1,0 +1,155 @@
+{
+ "cuts": [
+  {
+   "id": "d15",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 12.471,
+   "props": {
+    "n": 15,
+    "title": "What Actually Works",
+    "sub": "The threads every real winner shared",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 12.971
+   }
+  },
+  {
+   "id": "s15",
+   "type": "mw_checklist",
+   "in_seconds": 12.971,
+   "out_seconds": 49.043,
+   "props": {
+    "kicker": "THE COMMON THREADS",
+    "title": "Six things every real winner shared",
+    "color": "#FBBF24",
+    "mark": "#",
+    "items": [
+     {
+      "k": "Quality first",
+      "d": "Great businesses, or a diversified basket of them \u2014 never hot tips."
+     },
+     {
+      "k": "Time, not timing",
+      "d": "Holding periods measured in years and decades, not days."
+     },
+     {
+      "k": "Position sizing",
+      "d": "Never so much in one idea that a single mistake ends the game."
+     },
+     {
+      "k": "No ruinous leverage",
+      "d": "They compounded patiently; they did not gamble on borrowed money."
+     },
+     {
+      "k": "Bought weakness",
+      "d": "The April crash was treated as a discount, not a disaster."
+     },
+     {
+      "k": "Temperament",
+      "d": "The real edge was patience and skepticism \u2014 not a secret indicator."
+     }
+    ],
+    "dur": 36.572
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.732,
+   "Chapter fifteen. Let's pull it together."
+  ],
+  [
+   3.364,
+   7.462,
+   "Across nine verified investors and every ordinary\nwinner, the"
+  ],
+  [
+   7.462,
+   11.56,
+   "same handful of threads keep appearing. Copy these,\nnot"
+  ],
+  [
+   11.56,
+   12.471,
+   "the screenshots."
+  ],
+  [
+   12.971,
+   13.699,
+   "Six threads."
+  ],
+  [
+   14.33,
+   17.604,
+   "One: quality first \u2014 own good businesses, or a"
+  ],
+  [
+   17.604,
+   19.06,
+   "wide basket of them."
+  ],
+  [
+   19.691,
+   22.602,
+   "Two: time, not timing \u2014 hold for years."
+  ],
+  [
+   23.233,
+   26.507,
+   "Three: position sizing \u2014 never bet the farm on"
+  ],
+  [
+   26.507,
+   27.235,
+   "one idea."
+  ],
+  [
+   27.867,
+   31.141,
+   "Four: no ruinous leverage \u2014 they compounded, they\ndidn't"
+  ],
+  [
+   31.141,
+   31.505,
+   "gamble."
+  ],
+  [
+   32.136,
+   35.411,
+   "Five: they bought weakness \u2014 the crash was a"
+  ],
+  [
+   35.411,
+   36.866,
+   "discount, not a disaster."
+  ],
+  [
+   37.497,
+   38.953,
+   "Six, and biggest: temperament."
+  ],
+  [
+   39.584,
+   42.858,
+   "Every real edge in this video was patience and"
+  ],
+  [
+   42.858,
+   46.133,
+   "skepticism. None of it was a secret indicator. All"
+  ],
+  [
+   46.133,
+   49.043,
+   "of it, you can copy \u2014 for free."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch15.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,362 @@
+{
+ "cuts": [
+  {
+   "id": "d08",
+   "type": "gha_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 7.548,
+   "props": {
+    "n": 8,
+    "title": "Security",
+    "sub": "your pipeline is part of your attack surface",
+    "color": "#F85149",
+    "total": 10,
+    "dur": 7.548
+   }
+  },
+  {
+   "id": "s08",
+   "type": "gha_permissions",
+   "in_seconds": 7.548,
+   "out_seconds": 47.683,
+   "props": {
+    "dur": 40.135
+   }
+  },
+  {
+   "id": "s08b",
+   "type": "gha_supply",
+   "in_seconds": 47.683,
+   "out_seconds": 89.653,
+   "props": {
+    "dur": 41.97
+   }
+  },
+  {
+   "id": "s08c",
+   "type": "gha_injection",
+   "in_seconds": 89.653,
+   "out_seconds": 131.657,
+   "props": {
+    "dur": 42.004
+   }
+  },
+  {
+   "id": "s08d",
+   "type": "gha_bullets",
+   "in_seconds": 131.657,
+   "out_seconds": 164.298,
+   "props": {
+    "kicker": "THE HARDENING CHECKLIST",
+    "title": "Seven habits of a secure pipeline",
+    "color": "#F85149",
+    "items": [
+     {
+      "i": "\ud83d\udd12",
+      "k": "Read-only by default",
+      "d": "permissions: contents: read \u2014 grant writes per job"
+     },
+     {
+      "i": "\ud83d\udccc",
+      "k": "Pin to commit hashes",
+      "d": "Third-party actions @<full SHA>, not @v4"
+     },
+     {
+      "i": "\ud83e\udeaa",
+      "k": "OIDC, not stored keys",
+      "d": "Short-lived cloud credentials, nothing to leak"
+     },
+     {
+      "i": "\ud83e\uddea",
+      "k": "No untrusted input in run",
+      "d": "Route titles/branches through env vars"
+     },
+     {
+      "i": "\ud83d\udec2",
+      "k": "Protect production",
+      "d": "Environments + required reviewers"
+     },
+     {
+      "i": "\ud83d\udda5\ufe0f",
+      "k": "Private self-hosted only",
+      "d": "Never on public repos"
+     },
+     {
+      "i": "\ud83e\udd16",
+      "k": "Dependabot + code scanning",
+      "d": "Keep actions updated; scan workflows too"
+     }
+    ],
+    "dur": 32.641
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.132,
+   "Part eight. Security."
+  ],
+  [
+   1.764,
+   5.161,
+   "Your pipeline holds secrets and can push to\nproduction."
+  ],
+  [
+   5.161,
+   7.048,
+   "That makes it a target."
+  ],
+  [
+   7.548,
+   11.196,
+   "Every job gets an automatic credential: the\nGITHUB_TOKEN. It"
+  ],
+  [
+   11.196,
+   14.843,
+   "lets the workflow call the GitHub API \u2014 comment"
+  ],
+  [
+   14.843,
+   18.491,
+   "on a pull request, push a tag, publish a"
+  ],
+  [
+   18.491,
+   18.896,
+   "package."
+  ],
+  [
+   19.528,
+   21.96,
+   "It expires when the job ends."
+  ],
+  [
+   22.591,
+   26.239,
+   "What it can do is set by the permissions"
+  ],
+  [
+   26.239,
+   26.644,
+   "key."
+  ],
+  [
+   27.276,
+   30.924,
+   "Newer repositories default to read-only. Best\npractice: start with"
+  ],
+  [
+   30.924,
+   34.571,
+   "read, and grant write only for exactly what a"
+  ],
+  [
+   34.571,
+   35.382,
+   "job needs."
+  ],
+  [
+   36.014,
+   39.661,
+   "Here: contents read, pull requests write, and\nid-token write"
+  ],
+  [
+   39.661,
+   42.093,
+   "for cloud login. Everything else, none."
+  ],
+  [
+   42.725,
+   46.372,
+   "If an attacker hijacks a step, least privilege\nlimits"
+  ],
+  [
+   46.372,
+   47.183,
+   "the damage."
+  ],
+  [
+   47.683,
+   51.372,
+   "Now, that version after the at sign. A tag"
+  ],
+  [
+   51.372,
+   55.062,
+   "like v4 is just a pointer, and its owner"
+  ],
+  [
+   55.062,
+   56.292,
+   "can move it."
+  ],
+  [
+   56.923,
+   60.613,
+   "In March twenty twenty five, that's exactly what\nhappened."
+  ],
+  [
+   60.613,
+   64.302,
+   "Attackers compromised the popular tj-actions\nchanged-files action, and moved"
+  ],
+  [
+   64.302,
+   66.762,
+   "its version tags to malicious code."
+  ],
+  [
+   67.393,
+   71.083,
+   "Tens of thousands of repositories used it. Their\nworkflows"
+  ],
+  [
+   71.083,
+   74.772,
+   "pulled the bad code automatically, and some printed\nsecrets"
+  ],
+  [
+   74.772,
+   76.002,
+   "into public logs."
+  ],
+  [
+   76.633,
+   80.323,
+   "Repositories pinned to a full commit hash were safe,"
+  ],
+  [
+   80.323,
+   82.782,
+   "because a hash can't be moved."
+  ],
+  [
+   83.414,
+   87.103,
+   "So pin third-party actions to a commit hash, and"
+  ],
+  [
+   87.103,
+   89.153,
+   "let Dependabot propose the updates."
+  ],
+  [
+   89.653,
+   91.931,
+   "The next trap is script injection."
+  ],
+  [
+   92.563,
+   95.98,
+   "Look at this step. It echoes the pull request"
+  ],
+  [
+   95.98,
+   98.258,
+   "title, straight into a shell command."
+  ],
+  [
+   98.889,
+   102.306,
+   "But the title is written by whoever opened the"
+  ],
+  [
+   102.306,
+   105.723,
+   "pull request. An attacker names their PR: quote,\nsemicolon,"
+  ],
+  [
+   105.723,
+   108.381,
+   "curl evil dot sh, pipe to shell."
+  ],
+  [
+   109.012,
+   112.429,
+   "GitHub pastes that text into the script before\nrunning"
+  ],
+  [
+   112.429,
+   115.846,
+   "it. The shell sees a second command, and runs"
+  ],
+  [
+   115.846,
+   116.226,
+   "it."
+  ],
+  [
+   116.858,
+   120.274,
+   "The fix: pass untrusted values through an\nenvironment variable,"
+  ],
+  [
+   120.274,
+   123.691,
+   "and quote it. Now the title is just data."
+  ],
+  [
+   124.323,
+   127.74,
+   "And be very careful with pull request target. It"
+  ],
+  [
+   127.74,
+   131.157,
+   "runs with secrets, even for pull requests from\nforks."
+  ],
+  [
+   131.657,
+   132.977,
+   "Here's the checklist."
+  ],
+  [
+   133.609,
+   136.689,
+   "One: set permissions to read by default."
+  ],
+  [
+   137.32,
+   140.4,
+   "Two: pin third-party actions to commit hashes."
+  ],
+  [
+   141.032,
+   144.552,
+   "Three: use OIDC instead of long-lived cloud keys."
+  ],
+  [
+   145.183,
+   148.703,
+   "Four: never paste untrusted input into run scripts."
+  ],
+  [
+   149.335,
+   152.415,
+   "Five: protect production with environments and\nreviewers."
+  ],
+  [
+   153.046,
+   156.566,
+   "Six: keep self-hosted runners away from public\nrepos."
+  ],
+  [
+   157.198,
+   161.158,
+   "And seven: turn on Dependabot and code scanning,\nwhich"
+  ],
+  [
+   161.158,
+   163.798,
+   "can check your workflow files too."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch08.wav",
+   "volume": 1.0
+  }
+ }
+}

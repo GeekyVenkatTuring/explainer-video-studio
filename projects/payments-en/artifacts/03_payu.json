@@ -1,0 +1,669 @@
+{
+ "cuts": [
+  {
+   "id": "03_payu_title",
+   "type": "pg_title",
+   "in_seconds": 0.0,
+   "out_seconds": 20.948,
+   "props": {
+    "gateway": "PayU",
+    "tagline": "Broad methods, hosted checkout \u2014 the enterprise workhorse",
+    "accent": "#8B5CF6",
+    "kicker": "PAYMENT GATEWAYS \u00b7 DEVELOPER GUIDE",
+    "dur": 21.448
+   }
+  },
+  {
+   "id": "03_payu_docs",
+   "type": "pg_docs",
+   "in_seconds": 21.448,
+   "out_seconds": 50.614,
+   "props": {
+    "gateway": "PayU",
+    "accent": "#8B5CF6",
+    "url": "payu.in",
+    "docsUrl": "docs.payu.in",
+    "signupUrl": "payu.in/business/payment-gateway",
+    "sandbox": true,
+    "kyc": [
+     "Business & signatory PAN",
+     "Bank proof",
+     "Business-registration / GST",
+     "Address proof",
+     "Website/app with policies"
+    ],
+    "methods": [
+     "Cards",
+     "UPI",
+     "Netbanking",
+     "Wallets",
+     "EMI",
+     "BNPL"
+    ],
+    "dur": 29.666
+   }
+  },
+  {
+   "id": "03_payu_support",
+   "type": "pg_support",
+   "in_seconds": 51.114,
+   "out_seconds": 69.613,
+   "props": {
+    "gateway": "PayU",
+    "accent": "#8B5CF6",
+    "channels": [
+     {
+      "icon": "\u260e",
+      "label": "Phone",
+      "value": "not published",
+      "live": false
+     },
+     {
+      "icon": "\ud83d\udcda",
+      "label": "Docs",
+      "value": "docs.payu.in",
+      "live": true
+     },
+     {
+      "icon": "\ud83d\udcac",
+      "label": "Dashboard",
+      "value": "integration help",
+      "live": true
+     }
+    ],
+    "dur": 18.999
+   }
+  },
+  {
+   "id": "03_payu_metrics",
+   "type": "pg_metrics",
+   "in_seconds": 70.113,
+   "out_seconds": 89.058,
+   "props": {
+    "gateway": "PayU",
+    "accent": "#8B5CF6",
+    "settleDay": 2,
+    "settleNote": "standard cycle (same-day/priority available)",
+    "instant": true,
+    "successNote": "No official figure published",
+    "complexity": 3,
+    "complexityLabel": "Medium",
+    "complexityWhy": "Request hash (SHA-512) adds a step",
+    "dur": 19.445
+   }
+  },
+  {
+   "id": "03_payu_pricing",
+   "type": "pg_pricing",
+   "in_seconds": 89.558,
+   "out_seconds": 113.174,
+   "props": {
+    "gateway": "PayU",
+    "accent": "#8B5CF6",
+    "rows": [
+     {
+      "icon": "\ud83d\udcb3",
+      "label": "Cards",
+      "rate": "2%",
+      "feePct": 2.0
+     },
+     {
+      "icon": "\ud83c\udfe6",
+      "label": "Net banking",
+      "rate": "2%",
+      "feePct": 2.0
+     },
+     {
+      "icon": "\ud83d\udc5b",
+      "label": "Wallets",
+      "rate": "2%",
+      "feePct": 2.0
+     },
+     {
+      "icon": "\ud83d\udecd\ufe0f",
+      "label": "BNPL",
+      "rate": "2%",
+      "feePct": 2.0
+     },
+     {
+      "icon": "\ud83d\udfe3",
+      "label": "UPI",
+      "rate": "varies by category",
+      "note": "merchant UPI is category-specific"
+     },
+     {
+      "icon": "\ud83d\udcb3",
+      "label": "Diners / Amex",
+      "rate": "3%",
+      "feePct": 3.0
+     },
+     {
+      "icon": "\ud83d\udcc6",
+      "label": "EMI",
+      "rate": "3%",
+      "feePct": 3.0
+     },
+     {
+      "icon": "\ud83c\udf10",
+      "label": "International cards",
+      "rate": "3%",
+      "feePct": 3.0
+     }
+    ],
+    "foot": "No setup/onboarding/annual fees \u00b7 GST 18%",
+    "dur": 24.116
+   }
+  },
+  {
+   "id": "03_payu_flow",
+   "type": "pg_flow",
+   "in_seconds": 113.674,
+   "out_seconds": 136.108,
+   "props": {
+    "gateway": "PayU",
+    "accent": "#8B5CF6",
+    "steps": [
+     {
+      "emoji": "\ud83d\udd10",
+      "label": "Build hash",
+      "sub": "server \u00b7 SHA-512"
+     },
+     {
+      "emoji": "\ud83e\uddfe",
+      "label": "Post payment",
+      "sub": "server \u2192 PayU"
+     },
+     {
+      "emoji": "\ud83d\uded2",
+      "label": "Hosted checkout",
+      "sub": "customer pays"
+     },
+     {
+      "emoji": "\ud83d\udd14",
+      "label": "Verify response",
+      "sub": "hash + webhook"
+     },
+     {
+      "emoji": "\ud83c\udfe6",
+      "label": "Settlement",
+      "sub": "T+2 / priority"
+     }
+    ],
+    "dur": 22.934
+   }
+  },
+  {
+   "id": "03_payu_code",
+   "type": "pg_code",
+   "in_seconds": 136.608,
+   "out_seconds": 157.646,
+   "props": {
+    "gateway": "PayU",
+    "accent": "#8B5CF6",
+    "lang": "node",
+    "file": "create-order.js",
+    "lines": [
+     "const crypto = require(\"crypto\");",
+     "const str = `${key}|${txnid}|${amount}|${productinfo}|${firstname}|${email}|||||||||||${salt}`;",
+     "const hash = crypto.createHash(\"sha512\").update(str).digest(\"hex\");",
+     "// POST payment params and hash to PayU",
+     "// Verify the response hash on the server."
+    ],
+    "docUrl": "docs.payu.in",
+    "caption": "The request hash is part of the server-side trust boundary.",
+    "dur": 21.538
+   }
+  },
+  {
+   "id": "03_payu_recap",
+   "type": "pg_recap",
+   "in_seconds": 158.146,
+   "out_seconds": 183.587,
+   "props": {
+    "title": "PayU in one breath",
+    "items": [
+     "Broad cards, UPI, wallets, EMI and BNPL",
+     "Domestic published rates 2%; UPI varies",
+     "T+2 standard \u00b7 priority available",
+     "SHA-512 request and response verification",
+     "Dashboard + docs \u00b7 no public phone"
+    ],
+    "closer": "A broad enterprise stack when you are comfortable owning the hash step.",
+    "dur": 25.941
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.24,
+   "Let's look at PayU from a developer's point"
+  ],
+  [
+   3.24,
+   4.051,
+   "of view."
+  ],
+  [
+   4.601,
+   5.411,
+   "Broad methods,"
+  ],
+  [
+   5.411,
+   7.841,
+   "hosted checkout \u2014 the enterprise workhorse."
+  ],
+  [
+   8.391,
+   10.821,
+   "We'll walk its docs and KYC,"
+  ],
+  [
+   10.821,
+   12.037,
+   "its support channels,"
+  ],
+  [
+   12.037,
+   12.442,
+   "settlement,"
+  ],
+  [
+   12.442,
+   13.657,
+   "success and effort,"
+  ],
+  [
+   13.657,
+   16.087,
+   "exact pricing for every payment method,"
+  ],
+  [
+   16.087,
+   19.328,
+   "and a real integration call \u2014 everything you"
+  ],
+  [
+   19.328,
+   20.948,
+   "want before you commit."
+  ],
+  [
+   21.448,
+   23.282,
+   "Everything starts at docs.payu.in."
+  ],
+  [
+   23.832,
+   24.75,
+   "For access,"
+  ],
+  [
+   24.75,
+   28.418,
+   "you get test-mode keys the moment you sign"
+  ],
+  [
+   28.418,
+   28.877,
+   "up,"
+  ],
+  [
+   28.877,
+   30.711,
+   "before any paperwork clears."
+  ],
+  [
+   31.261,
+   34.93,
+   "To go live you complete KYC \u2014 Business"
+  ],
+  [
+   34.93,
+   36.306,
+   "& signatory PAN,"
+  ],
+  [
+   36.306,
+   37.223,
+   "Bank proof,"
+  ],
+  [
+   37.223,
+   38.599,
+   "Business-registration / GST,"
+  ],
+  [
+   38.599,
+   42.268,
+   "and more \u2014 and it's worth confirming the"
+  ],
+  [
+   42.268,
+   45.019,
+   "exact list in the live dashboard."
+  ],
+  [
+   45.569,
+   47.862,
+   "The methods you can accept:"
+  ],
+  [
+   47.862,
+   48.321,
+   "Cards,"
+  ],
+  [
+   48.321,
+   48.78,
+   "UPI,"
+  ],
+  [
+   48.78,
+   49.238,
+   "Netbanking,"
+  ],
+  [
+   49.238,
+   49.697,
+   "Wallets,"
+  ],
+  [
+   49.697,
+   50.155,
+   "EMI,"
+  ],
+  [
+   50.155,
+   50.614,
+   "BNPL."
+  ],
+  [
+   51.114,
+   51.916,
+   "Now support,"
+  ],
+  [
+   51.916,
+   53.922,
+   "shown honestly as published routes,"
+  ],
+  [
+   53.922,
+   55.527,
+   "not promised service levels."
+  ],
+  [
+   56.077,
+   58.083,
+   "Your live channels are docs,"
+  ],
+  [
+   58.083,
+   58.484,
+   "dashboard."
+  ],
+  [
+   59.034,
+   62.243,
+   "There's no published phone number \u2014 this is"
+  ],
+  [
+   62.243,
+   63.046,
+   "a dashboard,"
+  ],
+  [
+   63.045,
+   64.65,
+   "ticket and docs-first setup."
+  ],
+  [
+   65.2,
+   68.409,
+   "A grey item means the provider simply doesn't"
+  ],
+  [
+   68.409,
+   69.613,
+   "publish that route."
+  ],
+  [
+   70.113,
+   71.554,
+   "Three operational checks."
+  ],
+  [
+   72.104,
+   75.467,
+   "On settlement \u2014 standard cycle (same-day/priority\navailable)."
+  ],
+  [
+   76.017,
+   79.861,
+   "On success rate \u2014 No official figure published;"
+  ],
+  [
+   79.861,
+   82.743,
+   "we won't quote a made-up percentage."
+  ],
+  [
+   83.293,
+   87.136,
+   "And integration effort is Medium \u2014 Request hash"
+  ],
+  [
+   87.136,
+   89.058,
+   "(SHA-512) adds a step."
+  ],
+  [
+   89.558,
+   93.073,
+   "Now pricing \u2014 the part you actually budget"
+  ],
+  [
+   93.073,
+   93.512,
+   "for."
+  ],
+  [
+   94.062,
+   96.258,
+   "PayU lists cards at 2%;"
+  ],
+  [
+   96.258,
+   98.016,
+   "net banking at 2%;"
+  ],
+  [
+   98.016,
+   99.334,
+   "wallets at 2%."
+  ],
+  [
+   99.884,
+   102.08,
+   "Where a row says custom,"
+  ],
+  [
+   102.08,
+   102.52,
+   "varies,"
+  ],
+  [
+   102.52,
+   103.838,
+   "or contact sales,"
+  ],
+  [
+   103.838,
+   107.352,
+   "keep it exactly that vague in your model"
+  ],
+  [
+   107.352,
+   109.988,
+   "\u2014 don't invent a precise number."
+  ],
+  [
+   110.538,
+   113.174,
+   "No setup/onboarding/annual fees \u00b7 GST 18%."
+  ],
+  [
+   113.674,
+   115.065,
+   "The integration runs:"
+  ],
+  [
+   115.065,
+   118.776,
+   "Build hash \u2192 Post payment \u2192 Hosted checkout"
+  ],
+  [
+   118.776,
+   121.095,
+   "\u2192 Verify response \u2192 Settlement."
+  ],
+  [
+   121.645,
+   124.427,
+   "Create the intent on your server,"
+  ],
+  [
+   124.427,
+   127.674,
+   "hand the client only what checkout needs,"
+  ],
+  [
+   127.674,
+   131.384,
+   "then confirm status and signatures server-side\nbefore you"
+  ],
+  [
+   131.384,
+   131.848,
+   "fulfil."
+  ],
+  [
+   132.398,
+   136.108,
+   "A browser redirect is never proof of payment."
+  ],
+  [
+   136.608,
+   139.39,
+   "Here's the representative call \u2014 create-order.js."
+  ],
+  [
+   139.94,
+   143.649,
+   "The request hash is part of the server-side"
+  ],
+  [
+   143.649,
+   144.577,
+   "trust boundary."
+  ],
+  [
+   145.127,
+   147.445,
+   "Treat it as a shape,"
+  ],
+  [
+   147.445,
+   148.836,
+   "not copy-and-forget code:"
+  ],
+  [
+   148.836,
+   151.618,
+   "read the current reference at docs.payu.in,"
+  ],
+  [
+   151.618,
+   154.4,
+   "keep your secrets in server-side config,"
+  ],
+  [
+   154.4,
+   157.646,
+   "and validate the final callback or webhook."
+  ],
+  [
+   158.146,
+   158.617,
+   "So,"
+  ],
+  [
+   158.617,
+   160.501,
+   "PayU in one breath."
+  ],
+  [
+   161.051,
+   161.994,
+   "Broad cards,"
+  ],
+  [
+   161.994,
+   162.465,
+   "UPI,"
+  ],
+  [
+   162.465,
+   162.936,
+   "wallets,"
+  ],
+  [
+   162.936,
+   164.349,
+   "EMI and BNPL"
+  ],
+  [
+   164.899,
+   166.783,
+   "Domestic published rates 2%;"
+  ],
+  [
+   166.783,
+   167.726,
+   "UPI varies"
+  ],
+  [
+   168.276,
+   170.631,
+   "T+2 standard \u00b7 priority available"
+  ],
+  [
+   171.181,
+   173.536,
+   "SHA-512 request and response verification"
+  ],
+  [
+   174.086,
+   177.384,
+   "Dashboard + docs \u00b7 no public phone."
+  ],
+  [
+   177.934,
+   181.703,
+   "A broad enterprise stack when you are comfortable"
+  ],
+  [
+   181.703,
+   183.587,
+   "owning the hash step."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pg/03_payu.wav",
+   "volume": 1.0
+  }
+ }
+}

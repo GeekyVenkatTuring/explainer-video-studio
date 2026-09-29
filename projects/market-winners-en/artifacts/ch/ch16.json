@@ -1,0 +1,171 @@
+{
+ "cuts": [
+  {
+   "id": "r16",
+   "type": "mw_recap",
+   "in_seconds": 0.0,
+   "out_seconds": 39.728,
+   "props": {
+    "title": "Who actually made money",
+    "color": "#FBBF24",
+    "items": [
+     "The winners held quality businesses for years \u2014 not days",
+     "Some concentrated (Damani), some diversified (Kacholia) \u2014 all patient",
+     "Rekha Jhunjhunwala's book beat a flat market: +\u20b97,756 cr in a quarter",
+     "Real IPO doubles existed \u2014 but the average gain was just 6.6%",
+     "The boring SIP investor auto-bought the April crash and won",
+     "SEBI barred the finfluencers: Sathe \u20b9546 cr, Patel \u20b953 cr, 'Baap' \u20b917 cr",
+     "93% of F&O traders lose \u2014 assume every unverified 44x is marketing"
+    ],
+    "closer": "Wealth was built by patience \u2014 and protected by skepticism.",
+    "dur": 40.228
+   }
+  },
+  {
+   "id": "r16b",
+   "type": "mw_statement",
+   "in_seconds": 40.228,
+   "out_seconds": 69.426,
+   "props": {
+    "kicker": "ONE LAST THING",
+    "color": "#38BDF8",
+    "lines": [
+     "This is education,",
+     "not advice.",
+     "Verify everything \u2014",
+     "including this."
+    ],
+    "sub": "Every figure here is from public disclosures & SEBI orders. Consult a SEBI-registered adviser.",
+    "dur": 29.698
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.37,
+   "So \u2014 who actually made money?"
+  ],
+  [
+   3.001,
+   5.766,
+   "Not the loudest accounts. The patient ones."
+  ],
+  [
+   6.397,
+   9.952,
+   "The big bulls who held quality for years. Rekha"
+  ],
+  [
+   9.952,
+   13.506,
+   "Jhunjhunwala, whose book beat a flat market by\nnearly"
+  ],
+  [
+   13.506,
+   16.27,
+   "eight thousand crore in a single quarter."
+  ],
+  [
+   16.902,
+   20.456,
+   "The lucky, disciplined IPO investors \u2014 remembering\nthe average"
+  ],
+  [
+   20.456,
+   22.431,
+   "gain was just six percent."
+  ],
+  [
+   23.063,
+   26.617,
+   "And the quiet SIP investor who automatically bought\nthe"
+  ],
+  [
+   26.617,
+   28.197,
+   "crash everyone else feared."
+  ],
+  [
+   28.828,
+   32.383,
+   "Meanwhile SEBI was busy barring the fakes and\nimpounding"
+  ],
+  [
+   32.383,
+   33.172,
+   "their crores."
+  ],
+  [
+   33.804,
+   37.358,
+   "The lesson is almost boring. Wealth was built by"
+  ],
+  [
+   37.358,
+   39.728,
+   "patience \u2014 and protected by skepticism."
+  ],
+  [
+   40.228,
+   42.284,
+   "One last thing, and it matters."
+  ],
+  [
+   42.915,
+   45.999,
+   "Nothing in this video is investment advice \u2014 it's"
+  ],
+  [
+   45.999,
+   47.37,
+   "a way of thinking."
+  ],
+  [
+   48.001,
+   51.085,
+   "Every number came from public disclosures and SEBI\norders,"
+  ],
+  [
+   51.085,
+   54.169,
+   "and you should verify all of it yourself, including"
+  ],
+  [
+   54.169,
+   55.882,
+   "everything I just told you."
+  ],
+  [
+   56.513,
+   59.597,
+   "Before you act on any idea, talk to a"
+  ],
+  [
+   59.597,
+   60.282,
+   "SEBI-registered adviser."
+  ],
+  [
+   60.914,
+   63.998,
+   "The winners weren't the ones with the loudest\nclaims."
+  ],
+  [
+   63.998,
+   66.739,
+   "They were the ones who could prove them."
+  ],
+  [
+   67.37,
+   69.426,
+   "Be that investor. Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch16.wav",
+   "volume": 1.0
+  }
+ }
+}

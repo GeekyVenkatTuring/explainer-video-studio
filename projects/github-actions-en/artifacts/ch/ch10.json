@@ -1,0 +1,656 @@
+{
+ "cuts": [
+  {
+   "id": "d10",
+   "type": "gha_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 10.282,
+   "props": {
+    "n": 10,
+    "title": "The Rest of GitHub",
+    "sub": "the platform Actions plugs into",
+    "color": "#3FB950",
+    "total": 10,
+    "dur": 10.282
+   }
+  },
+  {
+   "id": "g10",
+   "type": "gha_platform",
+   "in_seconds": 10.282,
+   "out_seconds": 44.091,
+   "props": {
+    "dur": 33.809
+   }
+  },
+  {
+   "id": "g10b",
+   "type": "gha_pr",
+   "in_seconds": 44.091,
+   "out_seconds": 82.905,
+   "props": {
+    "dur": 38.814
+   }
+  },
+  {
+   "id": "g10c",
+   "type": "gha_issues",
+   "in_seconds": 82.905,
+   "out_seconds": 121.491,
+   "props": {
+    "dur": 38.586
+   }
+  },
+  {
+   "id": "g10d",
+   "type": "gha_codespaces",
+   "in_seconds": 121.491,
+   "out_seconds": 156.861,
+   "props": {
+    "dur": 35.37
+   }
+  },
+  {
+   "id": "g10e",
+   "type": "gha_copilot",
+   "in_seconds": 156.861,
+   "out_seconds": 194.397,
+   "props": {
+    "dur": 37.536
+   }
+  },
+  {
+   "id": "g10f",
+   "type": "gha_ghas",
+   "in_seconds": 194.397,
+   "out_seconds": 233.588,
+   "props": {
+    "dur": 39.191
+   }
+  },
+  {
+   "id": "g10g",
+   "type": "gha_bullets",
+   "in_seconds": 233.588,
+   "out_seconds": 268.589,
+   "props": {
+    "kicker": "SHIP & EXTEND",
+    "title": "More GitHub features worth knowing",
+    "color": "#3FB950",
+    "items": [
+     {
+      "i": "\ud83c\udff7\ufe0f",
+      "k": "Releases",
+      "d": "Versioned downloads + notes, built from tags"
+     },
+     {
+      "i": "\ud83d\udce6",
+      "k": "Packages & GHCR",
+      "d": "Host containers and libraries next to the code"
+     },
+     {
+      "i": "\ud83c\udf10",
+      "k": "Pages",
+      "d": "Free static sites straight from a repo"
+     },
+     {
+      "i": "\u2328\ufe0f",
+      "k": "GitHub CLI (gh)",
+      "d": "PRs, issues and workflow runs from the terminal"
+     },
+     {
+      "i": "\ud83e\uddf7",
+      "k": "Gists",
+      "d": "Share snippets and notes instantly"
+     },
+     {
+      "i": "\ud83d\udd0c",
+      "k": "Apps & Marketplace",
+      "d": "Integrations that extend GitHub itself"
+     },
+     {
+      "i": "\ud83d\udcc8",
+      "k": "Insights",
+      "d": "Contributors, traffic, dependency graph"
+     }
+    ],
+    "dur": 35.001
+   }
+  },
+  {
+   "id": "r10",
+   "type": "gha_recap",
+   "in_seconds": 268.589,
+   "out_seconds": 325.329,
+   "props": {
+    "title": "GitHub Actions in one breath",
+    "color": "#3FB950",
+    "items": [
+     "Event \u2192 workflow \u2192 job \u2192 runner \u2192 step: the whole model",
+     "Workflows are YAML files in .github/workflows",
+     "Filters, schedules and buttons decide WHEN a workflow runs",
+     "needs builds a graph; a matrix fans jobs out in parallel",
+     "Actions + reusable workflows: rarely start from scratch",
+     "Caches, outputs, artifacts carry data; secrets stay masked",
+     "Deploy via environments, approvals and OIDC \u2014 no stored keys",
+     "Around it: PRs, Issues, Projects, Codespaces, Copilot, security"
+    ],
+    "closer": "Push code. Let the robots do the rest.",
+    "dur": 56.74
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.033,
+   "Part ten. The rest of GitHub."
+  ],
+  [
+   2.665,
+   5.715,
+   "Actions is one piece of a much bigger platform."
+  ],
+  [
+   5.715,
+   8.765,
+   "Let's tour the other features \u2014 the ones your"
+  ],
+  [
+   8.765,
+   9.782,
+   "workflows plug into."
+  ],
+  [
+   10.282,
+   13.814,
+   "At the center is the repository: your code, its"
+  ],
+  [
+   13.814,
+   15.776,
+   "full history, and its branches."
+  ],
+  [
+   16.408,
+   19.94,
+   "Around it, GitHub groups its features into a few"
+  ],
+  [
+   19.94,
+   20.332,
+   "families."
+  ],
+  [
+   20.964,
+   23.711,
+   "Collaborate \u2014 pull requests and code review."
+  ],
+  [
+   24.343,
+   26.697,
+   "Plan \u2014 Issues, Projects and Discussions."
+  ],
+  [
+   27.329,
+   30.469,
+   "Build \u2014 Codespaces, and Copilot, the AI assistant."
+  ],
+  [
+   31.1,
+   34.24,
+   "Automate \u2014 Actions, which you now know well."
+  ],
+  [
+   34.871,
+   38.011,
+   "Secure \u2014 Dependabot, code scanning and secret\nscanning."
+  ],
+  [
+   38.642,
+   41.39,
+   "And ship \u2014 Releases, Packages and Pages."
+  ],
+  [
+   42.021,
+   43.591,
+   "Let's walk through them."
+  ],
+  [
+   44.091,
+   47.16,
+   "The heart of collaboration is the pull request."
+  ],
+  [
+   47.791,
+   51.244,
+   "You create a branch, commit your change, and open"
+  ],
+  [
+   51.244,
+   54.313,
+   "a pull request to merge it into main."
+  ],
+  [
+   54.944,
+   58.397,
+   "Teammates review the diff line by line. They\ncomment,"
+  ],
+  [
+   58.397,
+   61.082,
+   "suggest edits, and approve, or request changes."
+  ],
+  [
+   61.714,
+   65.166,
+   "A code owners file can require review from the"
+  ],
+  [
+   65.166,
+   66.317,
+   "right team automatically."
+  ],
+  [
+   66.948,
+   68.866,
+   "Meanwhile, Actions runs the checks."
+  ],
+  [
+   69.498,
+   72.95,
+   "Rulesets and branch protection enforce the policy \u2014\nreviews"
+  ],
+  [
+   72.95,
+   76.403,
+   "required, checks green. And a merge queue can test"
+  ],
+  [
+   76.403,
+   78.321,
+   "changes together before they land."
+  ],
+  [
+   78.953,
+   82.405,
+   "Then you merge: squash, rebase, or a merge commit."
+  ],
+  [
+   82.905,
+   86.584,
+   "For planning, there are Issues. Each one tracks a"
+  ],
+  [
+   86.584,
+   90.262,
+   "bug, a task or an idea, with labels, assignees,"
+  ],
+  [
+   90.262,
+   93.123,
+   "and sub-issues for breaking big work down."
+  ],
+  [
+   93.755,
+   97.433,
+   "Projects turns issues into a planning board \u2014 a"
+  ],
+  [
+   97.433,
+   101.112,
+   "table, a kanban board, or a roadmap timeline, with"
+  ],
+  [
+   101.112,
+   103.564,
+   "custom fields like priority and sprint."
+  ],
+  [
+   104.196,
+   107.875,
+   "Write closes, then the issue number, in a pull"
+  ],
+  [
+   107.875,
+   111.144,
+   "request, and merging it closes the issue\nautomatically."
+  ],
+  [
+   111.776,
+   115.455,
+   "For open-ended conversation there's Discussions \u2014\nquestions, ideas and"
+  ],
+  [
+   115.455,
+   117.907,
+   "announcements, away from the bug tracker."
+  ],
+  [
+   118.539,
+   120.991,
+   "And a wiki, for longer documentation."
+  ],
+  [
+   121.491,
+   125.041,
+   "Codespaces gives you a full development environment\nin the"
+  ],
+  [
+   125.041,
+   125.435,
+   "cloud."
+  ],
+  [
+   126.067,
+   129.617,
+   "Click Code, then create codespace, and in seconds\nyou're"
+  ],
+  [
+   129.617,
+   133.167,
+   "in VS Code \u2014 in your browser or on"
+  ],
+  [
+   133.167,
+   136.717,
+   "your desktop \u2014 on a cloud machine with your"
+  ],
+  [
+   136.717,
+   137.9,
+   "repo already cloned."
+  ],
+  [
+   138.532,
+   142.081,
+   "A dev container file defines the tools, so every"
+  ],
+  [
+   142.081,
+   145.631,
+   "contributor gets an identical setup. No more setup\ndocuments."
+  ],
+  [
+   146.263,
+   149.813,
+   "Personal accounts get a free monthly allowance of\ncore"
+  ],
+  [
+   149.813,
+   150.207,
+   "hours."
+  ],
+  [
+   150.839,
+   154.389,
+   "It's perfect for onboarding, reviewing a pull\nrequest properly,"
+  ],
+  [
+   154.389,
+   156.361,
+   "or coding from a tablet."
+  ],
+  [
+   156.861,
+   159.047,
+   "Then there's Copilot, GitHub's AI assistant."
+  ],
+  [
+   159.678,
+   162.957,
+   "In your editor, it completes code as you type,"
+  ],
+  [
+   162.957,
+   164.778,
+   "and answers questions in chat."
+  ],
+  [
+   165.41,
+   168.688,
+   "On github dot com, it can review pull requests"
+  ],
+  [
+   168.688,
+   171.238,
+   "and leave comments like a teammate would."
+  ],
+  [
+   171.87,
+   175.148,
+   "And the Copilot coding agent goes further. Assign it"
+  ],
+  [
+   175.148,
+   178.427,
+   "an issue, and it works in the background \u2014"
+  ],
+  [
+   178.427,
+   181.705,
+   "writing code, running tests in its Actions-powered\nenvironment \u2014"
+  ],
+  [
+   181.705,
+   184.984,
+   "then opens a pull request for you to review."
+  ],
+  [
+   185.616,
+   188.894,
+   "There's a free tier to start, and paid plans"
+  ],
+  [
+   188.894,
+   189.987,
+   "for heavier use."
+  ],
+  [
+   190.618,
+   193.897,
+   "You stay the reviewer. The agent does the legwork."
+  ],
+  [
+   194.397,
+   196.602,
+   "Security is built in, too."
+  ],
+  [
+   197.234,
+   201.203,
+   "Dependabot watches your dependencies. It raises\nalerts for known"
+  ],
+  [
+   201.203,
+   204.731,
+   "vulnerabilities, and opens pull requests that\nupgrade them."
+  ],
+  [
+   205.363,
+   209.332,
+   "Code scanning, powered by CodeQL, analyses your code\nfor"
+  ],
+  [
+   209.332,
+   213.301,
+   "bugs like injection, and flags them right in the"
+  ],
+  [
+   213.301,
+   214.184,
+   "pull request."
+  ],
+  [
+   214.815,
+   218.784,
+   "Secret scanning finds leaked keys and tokens. With\npush"
+  ],
+  [
+   218.784,
+   222.754,
+   "protection, it blocks the push before the secret\never"
+  ],
+  [
+   222.754,
+   223.636,
+   "reaches GitHub."
+  ],
+  [
+   224.267,
+   228.237,
+   "For public repositories, much of this is free. For"
+  ],
+  [
+   228.237,
+   232.206,
+   "private ones, it's sold as GitHub Secret Protection\nand"
+  ],
+  [
+   232.206,
+   233.088,
+   "Code Security."
+  ],
+  [
+   233.588,
+   235.8,
+   "A few more worth knowing."
+  ],
+  [
+   236.431,
+   239.085,
+   "Releases package versioned downloads with notes."
+  ],
+  [
+   239.717,
+   243.698,
+   "Packages and the container registry host your images\nand"
+  ],
+  [
+   243.698,
+   245.91,
+   "libraries next to the code."
+  ],
+  [
+   246.542,
+   250.523,
+   "Pages serves free static websites straight from a\nrepository."
+  ],
+  [
+   251.154,
+   255.135,
+   "The GitHub CLI, gh, drives pull requests, issues and"
+  ],
+  [
+   255.135,
+   257.347,
+   "workflow runs from your terminal."
+  ],
+  [
+   257.979,
+   259.748,
+   "Gists share snippets instantly."
+  ],
+  [
+   260.38,
+   263.476,
+   "Apps from the Marketplace extend GitHub itself."
+  ],
+  [
+   264.108,
+   268.089,
+   "And Insights shows contributors, traffic, and your\ndependency graph."
+  ],
+  [
+   268.589,
+   269.464,
+   "Let's recap."
+  ],
+  [
+   270.096,
+   274.033,
+   "Everything is a chain: an event starts a workflow,"
+  ],
+  [
+   274.033,
+   277.971,
+   "a workflow runs jobs, and each job runs steps"
+  ],
+  [
+   277.971,
+   279.283,
+   "on a runner."
+  ],
+  [
+   279.915,
+   283.852,
+   "Workflows are YAML files in dot github slash\nworkflows."
+  ],
+  [
+   284.484,
+   288.421,
+   "Filters decide when they run. needs and matrix\ndecide"
+  ],
+  [
+   288.421,
+   290.171,
+   "how jobs fan out."
+  ],
+  [
+   290.803,
+   294.74,
+   "Actions and reusable workflows mean you rarely start\nfrom"
+  ],
+  [
+   294.74,
+   295.178,
+   "scratch."
+  ],
+  [
+   295.809,
+   298.872,
+   "Caches, outputs and artifacts carry data through."
+  ],
+  [
+   299.503,
+   303.441,
+   "Environments, approvals and OIDC make deploys safe,\nand least"
+  ],
+  [
+   303.441,
+   305.191,
+   "privilege keeps them secure."
+  ],
+  [
+   305.822,
+   309.76,
+   "And around it all, GitHub gives you pull requests,"
+  ],
+  [
+   309.76,
+   312.822,
+   "issues, projects, Codespaces, Copilot and built-in\nsecurity."
+  ],
+  [
+   313.454,
+   317.392,
+   "Now open a repository, create dot github slash\nworkflows,"
+  ],
+  [
+   317.392,
+   321.329,
+   "and write your first fifteen lines. Push code. Let"
+  ],
+  [
+   321.329,
+   324.829,
+   "the robots do the rest. Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch10.wav",
+   "volume": 1.0
+  }
+ }
+}

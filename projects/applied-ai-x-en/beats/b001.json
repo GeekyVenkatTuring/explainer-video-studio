@@ -1,0 +1,42 @@
+{
+  "idx": 1,
+  "variant": "xa_roadmap",
+  "props": {
+    "rank": 1,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "How to become an AI Engineer in 6 months (RESOURCES)",
+    "handle": "@DeRonin_",
+    "likes": "7.7K",
+    "thesis": "Ronin proposes six months of building with existing models, from Python foundations to deployed applications. The goal is practical ability, not senior expertise.",
+    "take": "Build, test, deploy, and publish one project monthly; show working demonstrations.",
+    "phases": [
+      {
+        "label": "Month one",
+        "line": "Practice Python with CS50P, use Git, and build FastAPI endpoints."
+      },
+      {
+        "label": "Month two",
+        "line": "Use OpenAI, Anthropic, and Instructor; validate outputs and restrict tool permissions."
+      },
+      {
+        "label": "Month three",
+        "line": "Build retrieval with LlamaIndex and Chroma; test cited answers across ten to twenty files."
+      },
+      {
+        "label": "Month four",
+        "line": "Build controlled agents before LangGraph; test twenty to fifty cases with DeepEval."
+      },
+      {
+        "label": "Month five",
+        "line": "Deploy with Docker Compose; add authentication, Celery queues, and Langfuse tracking."
+      },
+      {
+        "label": "Month six",
+        "line": "Choose products, applied engineering, or automation; demonstrate usable work."
+      }
+    ]
+  },
+  "narration": "Ronin lays out a six-month route into practical AI engineering. He emphasizes building products with existing models rather than training enormous models yourself. The goal is working ability, not instant seniority. [pause] Month one starts with Python practice through CS50P, alongside Git and basic web skills. Build a small script, then create FastAPI endpoints that check incoming data. Month two introduces OpenAI and Anthropic, with Instructor helping enforce predictable output formats. Tool calling means models request actions while your code executes them. [pause] Validate results, limit permissions, and account for conversation history, retries, and costs. Month three covers retrieval, meaning finding relevant source material before answering. [pause] Use LlamaIndex and Chroma, then test cited answers across ten to twenty files. Check missing context before blaming the model. Month four adds agents, systems that choose actions as tasks unfold. Build one directly before adopting LangGraph, and limit its steps and retries. Test twenty to fifty representative cases with DeepEval. [pause] Month five makes deployment concrete through Docker Compose, authentication, and Celery background queues. Track prompts, delays, and costs with Langfuse. Month six branches into products, applied engineering, or automation. Ship usable projects, or build Temporal workflows with approvals and audit trails. [pause] Build, test, deploy, and publish one project monthly. Use working demonstrations when pursuing opportunities."
+}

@@ -1,0 +1,243 @@
+{
+  "cuts": [
+    {
+      "id": "ch09_divider",
+      "type": "fa_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 9.226,
+      "props": {
+        "n": 9,
+        "total": 11,
+        "title": "Choose help carefully",
+        "sub": "Adviser, fund, or direct investing: match the route to your knowledge and time.",
+        "color": "#A78BFA",
+        "dur": 9.726
+      }
+    },
+    {
+      "id": "ch09_routes",
+      "type": "fa_compare",
+      "in_seconds": 9.726,
+      "out_seconds": 39.078,
+      "props": {
+        "kicker": "THREE WAYS TO PARTICIPATE",
+        "title": "The best vehicle depends on your ability to evaluate and monitor risk",
+        "cos": [
+          {
+            "name": "Direct equity",
+            "c": "#2DD4BF",
+            "tag": "hands-on",
+            "stats": [
+              {
+                "k": "Needs",
+                "v": "time and skill"
+              },
+              {
+                "k": "Control",
+                "v": "high"
+              },
+              {
+                "k": "Work",
+                "v": "research / review"
+              },
+              {
+                "k": "Risk",
+                "v": "self-directed",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Fund / adviser",
+            "c": "#34D399",
+            "tag": "delegated",
+            "stats": [
+              {
+                "k": "Needs",
+                "v": "due diligence"
+              },
+              {
+                "k": "Control",
+                "v": "lower"
+              },
+              {
+                "k": "Work",
+                "v": "choose and monitor"
+              },
+              {
+                "k": "Risk",
+                "v": "manager / fees",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "Neither route removes risk; both require informed monitoring.",
+        "color": "#A78BFA",
+        "dur": 29.852
+      }
+    },
+    {
+      "id": "ch09_advisor_check",
+      "type": "fa_ledger",
+      "in_seconds": 39.578,
+      "out_seconds": 68.777,
+      "props": {
+        "kicker": "ADVISER DUE DILIGENCE",
+        "title": "Questions to ask before trusting financial guidance",
+        "rows": [
+          {
+            "label": "Registration",
+            "val": "verify SEBI registration",
+            "c": "#34D399",
+            "bold": true
+          },
+          {
+            "label": "Method",
+            "val": "can they explain the logic?",
+            "c": "#2DD4BF"
+          },
+          {
+            "label": "Claims",
+            "val": "avoid 'guaranteed' returns",
+            "c": "#F87171"
+          },
+          {
+            "label": "Conflicts / fees",
+            "val": "understand incentives",
+            "c": "#FBBF24"
+          },
+          {
+            "label": "Record",
+            "val": "check independently",
+            "c": "#A78BFA"
+          }
+        ],
+        "caption": "Use official registries and current disclosures before acting.",
+        "color": "#A78BFA",
+        "dur": 29.699
+      }
+    },
+    {
+      "id": "ch09_accountability",
+      "type": "fa_keyidea",
+      "in_seconds": 69.277,
+      "out_seconds": 94.555,
+      "props": {
+        "kicker": "KEEP ACCOUNTABILITY",
+        "big": "Even with advice, understand the thesis, the downside, and the reason you own each position.",
+        "sub": "Outsourcing a decision does not outsource its consequence.",
+        "color": "#34D399",
+        "dur": 25.778
+      }
+    },
+    {
+      "id": "ch09_detail_need_adviser",
+      "type": "fa_keyidea",
+      "in_seconds": 95.055,
+      "out_seconds": 130.163,
+      "props": {
+        "kicker": "DO YOU NEED AN ADVISER?",
+        "big": "The right question is not who has the hottest calls; it is whether you have the time, skill, and temperament to manage direct equity yourself.",
+        "sub": "Delegation can be useful, but it never removes the need for due diligence.",
+        "color": "#A78BFA",
+        "dur": 35.608
+      }
+    },
+    {
+      "id": "ch09_detail_fund_direct",
+      "type": "fa_compare",
+      "in_seconds": 130.663,
+      "out_seconds": 162.023,
+      "props": {
+        "kicker": "MUTUAL FUND OR DIRECT EQUITY",
+        "title": "Both are tools; choose based on responsibility, not status",
+        "cos": [
+          {
+            "name": "Mutual fund",
+            "c": "#34D399",
+            "tag": "delegated",
+            "stats": [
+              {
+                "k": "Strength",
+                "v": "professional process"
+              },
+              {
+                "k": "Trade-off",
+                "v": "fees / less control"
+              },
+              {
+                "k": "Investor work",
+                "v": "select and monitor"
+              },
+              {
+                "k": "Best for",
+                "v": "limited time",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Direct equity",
+            "c": "#2DD4BF",
+            "tag": "self-directed",
+            "stats": [
+              {
+                "k": "Strength",
+                "v": "control / learning"
+              },
+              {
+                "k": "Trade-off",
+                "v": "research burden"
+              },
+              {
+                "k": "Investor work",
+                "v": "analyse and monitor"
+              },
+              {
+                "k": "Best for",
+                "v": "prepared investors",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "This is a conceptual comparison, not a recommendation of any fund or product.",
+        "color": "#A78BFA",
+        "dur": 31.86
+      }
+    },
+    {
+      "id": "ch09_detail_scams",
+      "type": "fa_keyidea",
+      "in_seconds": 162.523,
+      "out_seconds": 199.259,
+      "props": {
+        "kicker": "RED FLAGS IN ADVICE",
+        "big": "Extraordinary-return claims, secret formulas, paid pressure, and unexplained calls are warning signs \u2014 not proof of skill.",
+        "sub": "Verify registrations and disclosures from current official sources before acting.",
+        "color": "#F87171",
+        "dur": 37.236
+      }
+    },
+    {
+      "id": "ch09_detail_adviser_process",
+      "type": "fa_keyidea",
+      "in_seconds": 199.759,
+      "out_seconds": 232.349,
+      "props": {
+        "kicker": "A RESPONSIBLE ADVICE PROCESS",
+        "big": "Good guidance should make you more informed: objectives, risk capacity, diversification, evidence, review, and clear fees.",
+        "sub": "If the process cannot be explained clearly, do not hand over decision-making authority.",
+        "color": "#34D399",
+        "dur": 33.09
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch09.wav",
+      "volume": 1.0
+    }
+  }
+}

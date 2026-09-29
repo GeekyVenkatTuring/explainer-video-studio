@@ -1,0 +1,42 @@
+{
+  "idx": 6,
+  "variant": "xa_roadmap",
+  "props": {
+    "rank": 6,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "How to Become a Graph Architect With Zero Experience (Full Course)",
+    "handle": "@cyrilXBT",
+    "likes": "392",
+    "thesis": "CyrilXBT argues that connected facts and explicit agent controls belong together. A documented, tested project demonstrates competence better than credentials.",
+    "take": "Deepen one domain project; document sources, failures, changes, and retest outcomes.",
+    "phases": [
+      {
+        "label": "Foundations",
+        "line": "Weeks one and two: map relationships manually across twenty support tickets."
+      },
+      {
+        "label": "Extraction",
+        "line": "Weeks three and four: Extract, Resolve, Assemble, Query; test matches and retain sources."
+      },
+      {
+        "label": "Agent control",
+        "line": "Weeks five and six: lock plans, separate execution and recovery, and bound retries."
+      },
+      {
+        "label": "Portfolio",
+        "line": "Weeks seven through ten: join documents and agents; publish design choices and failures."
+      },
+      {
+        "label": "Resources",
+        "line": "Claude Cookbook, Andreas Kollegger's DeepLearning.AI course, and an agent-design paper."
+      },
+      {
+        "label": "Learning evidence",
+        "line": "Keep dated failures, changes, and retests; deepen one domain project."
+      }
+    ]
+  },
+  "narration": "CyrilXBT's ten-week course pairs connected facts with accountable agents. He argues that documented projects demonstrate competence better than credentials. [pause] Foundations start with twenty support tickets during weeks one and two. Map a knowledge graph, meaning facts connected by relationships, before automating. [pause] Extraction occupies weeks three and four: Extract, Resolve, Assemble, Query. Extract uses one inexpensive model call per document to produce structured facts. Resolve matches references using context, since Edwin Aldrin and Buzz Aldrin name one person. Test mistaken merges and missed matches; Assemble preserves sources, while Query ties answers to connections. Agent control follows during weeks five and six, using explicit states, meaning defined steps with rules. [pause] Lock plans and separate planning, execution, and recovery to favor auditability over flexibility. The example permits two recovery retries before escalation. Portfolio work spans weeks seven through ten, combining messy documents with an agent querying their graph. Handle ambiguity and missing evidence explicitly, and publish prompts, schemas, matching logic, and transition rules. Explain failures, including confident answers caused by missing coverage. Resources include Claude Cookbook and Andreas Kollegger's DeepLearning.AI course. An April twenty twenty-six arXiv paper explores agent design but leaves practical questions unresolved. Learning evidence means dated failure logs, changes, and retests. [pause] Deepen one domain project instead of switching topics."
+}

@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/b21.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/artifacts/gap.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/b22.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/artifacts/gap.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/b23.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/artifacts/gap.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/b24.wav'

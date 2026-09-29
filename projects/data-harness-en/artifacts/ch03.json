@@ -1,0 +1,660 @@
+{
+ "pack": "ledger",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "data-harness",
+  "issue": "part 3 · metrics + tools",
+  "code": "DH · P3"
+ },
+ "beats": [
+  {
+   "id": "b15",
+   "kind": "divider",
+   "dur": 6.353,
+   "props": {
+    "n": 3,
+    "total": 6,
+    "title": "Metrics and tools",
+    "sub": "the model chooses, the code computes"
+   }
+  },
+  {
+   "id": "b16",
+   "kind": "chart",
+   "dur": 37.234,
+   "props": {
+    "kicker": "dbt Labs benchmark · 2026",
+    "title": "Semantic layer vs raw text-to-SQL",
+    "type": "bar",
+    "unit": "%",
+    "bars": [
+     {
+      "label": "Sonnet 4.6 · SQL",
+      "value": 90.0,
+      "c": "faint"
+     },
+     {
+      "label": "Sonnet 4.6 · SL",
+      "value": 98.2,
+      "c": "llm"
+     },
+     {
+      "label": "GPT-5.3 · SQL",
+      "value": 84.1,
+      "c": "faint"
+     },
+     {
+      "label": "GPT-5.3 · SL",
+      "value": 100.0,
+      "c": "llm"
+     }
+    ],
+    "ats": [
+     0.263,
+     0.332,
+     0.464,
+     0.51
+    ],
+    "note": "SL = semantic layer. Source: docs.getdbt.com, 'Semantic Layer vs. Text-to-SQL: 2026 Benchmark Update' (modeled data)"
+   }
+  },
+  {
+   "id": "b17",
+   "kind": "x_code",
+   "dur": 42.781,
+   "props": {
+    "kicker": "Semantic layer",
+    "title": "Metrics are defined once, in code",
+    "file": "semantic/metrics.yaml",
+    "lines": [
+     "metrics:",
+     "  revenue:        {source: facts, metric: revenue, unit: INR_cr}",
+     "  pat:            {source: facts, metric: pat, unit: INR_cr}",
+     "  net_margin:     {expr: pat / revenue * 100, unit: pct}",
+     "  debt_to_equity: {expr: borrowings / equity, unit: x}",
+     "  yoy(m):         {expr: m / lag(m, 4) - 1, unit: pct}",
+     "defaults:",
+     "  basis: consolidated          # user can override",
+     "  fiscal_year: apr_to_mar      # Q1FY26 = Apr–Jun 2025",
+     "checks:",
+     "  net_margin: [-100, 100]      # outside = unit error",
+     "  debt_to_equity: '>= 0'"
+    ],
+    "notes": [
+     {
+      "a": 4,
+      "b": 5,
+      "key": "formula",
+      "t": "The LLM picks net_margin. It never writes the formula itself.",
+      "at": 0.348
+     },
+     {
+      "a": 6,
+      "b": 6,
+      "key": "four",
+      "t": "YoY compares with the same quarter a year back: lag of four quarters.",
+      "at": 0.537
+     },
+     {
+      "a": 8,
+      "b": 9,
+      "key": "fiscal",
+      "t": "Indian fiscal year: April to March. Say it once, here.",
+      "at": 0.644
+     },
+     {
+      "a": 10,
+      "b": 12,
+      "key": "sanity",
+      "t": "Range checks turn silent unit slips into loud errors.",
+      "at": 0.805
+     }
+    ]
+   }
+  },
+  {
+   "id": "b18",
+   "kind": "x_table",
+   "dur": 28.073,
+   "props": {
+    "kicker": "get_metrics(acme, [revenue, pat, net_margin, yoy(revenue)], last 8Q)",
+    "title": "What the semantic layer returns",
+    "cols": [
+     {
+      "h": "period"
+     },
+     {
+      "h": "revenue ₹ cr",
+      "align": "right",
+      "c": "pdf"
+     },
+     {
+      "h": "PAT ₹ cr",
+      "align": "right",
+      "c": "pdf"
+     },
+     {
+      "h": "net margin %",
+      "computed": "pat / revenue",
+      "align": "right"
+     },
+     {
+      "h": "revenue YoY %",
+      "computed": "rev / lag4 − 1",
+      "align": "right"
+     }
+    ],
+    "rows": [
+     [
+      "Q3FY24",
+      1012.4,
+      71.2,
+      7.03,
+      "—"
+     ],
+     [
+      "Q4FY24",
+      1060.8,
+      76.5,
+      7.21,
+      "—"
+     ],
+     [
+      "Q1FY25",
+      1118.3,
+      83.9,
+      7.5,
+      "—"
+     ],
+     [
+      "Q2FY25",
+      1094.6,
+      80.1,
+      7.32,
+      "—"
+     ],
+     [
+      "Q3FY25",
+      1150.9,
+      88.6,
+      7.7,
+      13.68
+     ],
+     [
+      "Q4FY25",
+      1203.7,
+      96.3,
+      8.0,
+      13.47
+     ],
+     [
+      "Q1FY26",
+      1261.2,
+      104.7,
+      8.3,
+      12.78
+     ],
+     [
+      "Q2FY26",
+      1248.6,
+      106.1,
+      8.5,
+      14.07
+     ]
+    ],
+    "marks": [
+     {
+      "r": 3,
+      "c": 3,
+      "key": "year",
+      "tone": "hi",
+      "note": "Q2FY25 margin 7.32% …",
+      "at": 0.426
+     },
+     {
+      "r": 7,
+      "c": 3,
+      "key": "now",
+      "tone": "ok",
+      "note": "… Q2FY26 margin 8.50%: up 1.18 points, computed, not guessed",
+      "at": 0.682
+     }
+    ],
+    "note": "Illustrative data · fictional company · not investment advice"
+   }
+  },
+  {
+   "id": "b19",
+   "kind": "list",
+   "dur": 37.847,
+   "props": {
+    "kicker": "The agent's hands",
+    "title": "Six data tools, plus memory",
+    "items": [
+     {
+      "h": "list_sources",
+      "d": "what data exists, which periods, as of when"
+     },
+     {
+      "h": "get_metrics",
+      "d": "semantic-layer query: deterministic, cited"
+     },
+     {
+      "h": "query_sql",
+      "d": "read-only ad-hoc SQL for exploration, 50 rows max"
+     },
+     {
+      "h": "search_docs",
+      "d": "hybrid search over commentary, returns doc:page"
+     },
+     {
+      "h": "read_table",
+      "d": "open the exact PDF table or Excel range behind a fact"
+     },
+     {
+      "h": "run_python",
+      "d": "sandboxed pandas for custom transforms, no network"
+     }
+    ],
+    "ats": [
+     0.078,
+     0.227,
+     0.325,
+     0.453,
+     0.561,
+     0.7
+    ]
+   }
+  },
+  {
+   "id": "b20",
+   "kind": "x_code",
+   "dur": 31.642,
+   "props": {
+    "kicker": "Tool design",
+    "title": "Descriptions steer; errors teach",
+    "file": "tools/get_metrics.py",
+    "lines": [
+     "@tool",
+     "def get_metrics(company: str, metrics: list[str], periods: list[str],",
+     "                basis: str = \"consolidated\") -> Result:",
+     "    \"\"\"Use for ANY standard metric (revenue, pat, net_margin, D/E, yoy).",
+     "    Prefer this over query_sql. Returns values + unit + source.\"\"\"",
+     "    unknown = [m for m in metrics if m not in METRICS]",
+     "    if unknown:",
+     "        raise ToolError(f\"unknown metric {unknown[0]}. \"",
+     "            f\"Did you mean {closest(unknown[0])}? Available: {list(METRICS)}\")",
+     "    sql = compile_metrics(company, metrics, periods, basis)   # deterministic",
+     "    rows = duck.execute(sql).fetchall()[:MAX_ROWS]",
+     "    return Result(rows=rows, provenance=trace_cells(rows), sql=sql)"
+    ],
+    "notes": [
+     {
+      "a": 4,
+      "b": 5,
+      "key": "when",
+      "t": "Say WHEN to use the tool, not just what it does.",
+      "at": 0.273
+     },
+     {
+      "a": 6,
+      "b": 9,
+      "key": "error",
+      "t": "An instructive error lets the model fix itself on the next step.",
+      "at": 0.508
+     },
+     {
+      "a": 10,
+      "b": 12,
+      "key": "compact",
+      "t": "Clip the output, and always return provenance.",
+      "at": 0.875
+     }
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.865,
+   "Part three. Metrics and tools."
+  ],
+  [
+   2.496,
+   5.48,
+   "Where the model stops doing math, and starts"
+  ],
+  [
+   5.48,
+   5.853,
+   "choosing."
+  ],
+  [
+   6.353,
+   9.731,
+   "Why define metrics in code? Look at this"
+  ],
+  [
+   9.731,
+   11.843,
+   "2026 benchmark from dbt Labs."
+  ],
+  [
+   12.474,
+   15.853,
+   "When Claude Sonnet four point six wrote raw"
+  ],
+  [
+   15.853,
+   19.231,
+   "SQL, it scored ninety percent. Through a semantic"
+  ],
+  [
+   19.231,
+   21.343,
+   "layer, ninety eight point two."
+  ],
+  [
+   21.974,
+   25.353,
+   "For GPT five point three codex, eighty four"
+  ],
+  [
+   25.353,
+   27.464,
+   "point one, versus one hundred."
+  ],
+  [
+   28.096,
+   31.474,
+   "The failure style matters even more. Raw SQL"
+  ],
+  [
+   31.474,
+   34.853,
+   "fails silently, with a plausible wrong number. The"
+  ],
+  [
+   34.853,
+   37.809,
+   "semantic layer fails loudly, with an error."
+  ],
+  [
+   38.441,
+   41.819,
+   "For numbers investors act on, loud failure is"
+  ],
+  [
+   41.819,
+   43.086,
+   "what you want."
+  ],
+  [
+   43.586,
+   45.523,
+   "Here's a small semantic layer."
+  ],
+  [
+   46.155,
+   49.253,
+   "Revenue and PAT come straight from the facts"
+  ],
+  [
+   49.253,
+   49.641,
+   "table."
+  ],
+  [
+   50.272,
+   53.371,
+   "Net margin is PAT over revenue. Debt to"
+  ],
+  [
+   53.371,
+   56.47,
+   "equity is borrowings over equity. The model picks"
+  ],
+  [
+   56.47,
+   59.569,
+   "net margin by name. It never writes the"
+  ],
+  [
+   59.569,
+   60.344,
+   "formula itself."
+  ],
+  [
+   60.975,
+   64.074,
+   "Year on year compares a quarter with the"
+  ],
+  [
+   64.074,
+   67.173,
+   "same quarter a year back, so it lags"
+  ],
+  [
+   67.173,
+   67.948,
+   "by four."
+  ],
+  [
+   68.579,
+   71.678,
+   "Defaults live here too. Consolidated basis, and the"
+  ],
+  [
+   71.678,
+   74.777,
+   "Indian fiscal year, April to March. So Q1"
+  ],
+  [
+   74.777,
+   77.876,
+   "FY26 means April to June twenty twenty five."
+  ],
+  [
+   78.508,
+   81.607,
+   "And sanity checks. A net margin above a"
+  ],
+  [
+   81.607,
+   84.705,
+   "hundred percent is not a great quarter. It's"
+  ],
+  [
+   84.705,
+   85.868,
+   "a unit error."
+  ],
+  [
+   86.368,
+   89.45,
+   "Here's what one tool call returns. Eight quarters"
+  ],
+  [
+   89.45,
+   90.221,
+   "for Acme."
+  ],
+  [
+   90.853,
+   93.935,
+   "Revenue and PAT come from the PDFs. The"
+  ],
+  [
+   93.935,
+   97.018,
+   "violet columns are computed by the semantic layer:"
+  ],
+  [
+   97.018,
+   100.101,
+   "net margin, and revenue growth year on year."
+  ],
+  [
+   100.732,
+   103.815,
+   "The same quarter a year ago had a"
+  ],
+  [
+   103.815,
+   105.356,
+   "margin of 7.32 percent."
+  ],
+  [
+   105.988,
+   107.529,
+   "Now it's 8.50 percent."
+  ],
+  [
+   108.161,
+   111.244,
+   "That's the first half of our answer, and"
+  ],
+  [
+   111.244,
+   113.941,
+   "nobody did the arithmetic in their head."
+  ],
+  [
+   114.441,
+   117.469,
+   "Now the tools. Keep them few and high"
+  ],
+  [
+   117.469,
+   117.847,
+   "level."
+  ],
+  [
+   118.479,
+   121.506,
+   "List sources tells the agent what data exists"
+  ],
+  [
+   121.506,
+   123.399,
+   "and how fresh it is."
+  ],
+  [
+   124.03,
+   127.058,
+   "Get metrics is the workhorse, the semantic layer."
+  ],
+  [
+   127.69,
+   130.717,
+   "Query SQL is for exploration, read-only and capped"
+  ],
+  [
+   130.717,
+   131.853,
+   "at fifty rows."
+  ],
+  [
+   132.484,
+   135.512,
+   "Search docs finds commentary and returns document and"
+  ],
+  [
+   135.512,
+   135.89,
+   "page."
+  ],
+  [
+   136.522,
+   139.55,
+   "Read table opens the exact table behind any"
+  ],
+  [
+   139.55,
+   140.685,
+   "fact, for audits."
+  ],
+  [
+   141.317,
+   144.344,
+   "And run python is a sandbox for custom"
+  ],
+  [
+   144.344,
+   146.993,
+   "transforms, like a trailing twelve month sum."
+  ],
+  [
+   147.625,
+   150.653,
+   "Two more, recall and remember, handle memory. We'll"
+  ],
+  [
+   150.653,
+   151.788,
+   "get to those."
+  ],
+  [
+   152.288,
+   155.261,
+   "Tool design matters as much as the model."
+  ],
+  [
+   155.893,
+   158.866,
+   "Anthropic's guidance on writing tools boils down to"
+  ],
+  [
+   158.866,
+   159.981,
+   "a few rules."
+  ],
+  [
+   160.612,
+   163.585,
+   "The description says when to use the tool,"
+  ],
+  [
+   163.585,
+   166.558,
+   "not only what it does. Here it says:"
+  ],
+  [
+   166.558,
+   168.417,
+   "prefer this over raw SQL."
+  ],
+  [
+   169.048,
+   172.021,
+   "Errors should teach. Ask for net profit, and"
+  ],
+  [
+   172.021,
+   174.994,
+   "the error says: unknown metric, did you mean"
+  ],
+  [
+   174.994,
+   177.967,
+   "PAT? The model fixes itself on the very"
+  ],
+  [
+   177.967,
+   178.711,
+   "next step."
+  ],
+  [
+   179.342,
+   182.315,
+   "And outputs stay compact. Clip the rows, and"
+  ],
+  [
+   182.315,
+   183.43,
+   "always return provenance."
+  ]
+ ],
+ "audio": "dh/ch03.wav"
+}

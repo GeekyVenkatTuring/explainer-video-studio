@@ -1,0 +1,42 @@
+{
+ "idx": 8,
+ "variant": "xa_article",
+ "props": {
+  "rank": 8,
+  "total": 10,
+  "ch": 1,
+  "chname": "LEARNING PATHS",
+  "title": "AI Agents: The Complete Course",
+  "handle": "@sairahul1",
+  "likes": "524",
+  "thesis": "Rahul argues that reliable agents need bounded workflows, measurable steps, and operational safeguards before greater autonomy.",
+  "take": "Build a bounded sequential workflow; expand autonomy only after failures become diagnosable.",
+  "points": [
+   {
+    "label": "Bounded iteration",
+    "line": "Limit tool choices within repeated reasoning, action, and observation."
+   },
+   {
+    "label": "Explicit context",
+    "line": "Provide background, tools, and references; separate checkable tasks and memory."
+   },
+   {
+    "label": "Completion checks",
+    "line": "Evaluate components and outputs; apply scoring, format checks, and human approval."
+   },
+   {
+    "label": "Sequential coordination",
+    "line": "Start with ordered specialists; reserve parallel work for independent tasks."
+   },
+   {
+    "label": "Quality before speed",
+    "line": "Fix retrieval, prompts and models first; then track spend, tokens and wins."
+   },
+   {
+    "label": "Contained execution",
+    "line": "Use disposable Docker containers, resource limits, and sensitive-output scanning."
+   }
+  ]
+ },
+ "narration": "Rahul makes controlled autonomy the centerpiece of his agent course. He argues reliable agents need engineered workflows, not more freedom. [pause] Bounded iteration starts with ReAct, a cycle of reasoning, actions, and observations. Limit tool choices rather than granting unrestricted control. [pause] Explicit context supplies background, tool definitions, and reference material before work begins. Split outlining, research, drafting, and revision into tasks with checkable inputs and outputs. Keep evolving working notes separate from reference documents. Completion checks evaluate components and finished outputs, because successful parts can still fail together. Score complex work from one to five using fixed criteria. Add format checks and human approval for consequential decisions. [pause] Sequential coordination starts with ordered specialists, such as Researcher, Designer, then Writer. Parallel work suits independent tasks; unrestricted messaging makes production behavior less predictable. Quality first means adjusting retrieval settings, then improving prompts, changing models, and shrinking subtasks. Establish adequate results before reducing delays or context size. Visible costs include Rahul's illustrative research run costing approximately eight cents. [pause] Record prompts, tool calls, token usage, and success rates across runs. Contained execution uses disposable Docker containers with timeouts and resource caps. Scan outputs for sensitive information before release. [pause] Build one bounded sequential workflow first. Expand autonomy only when failures become diagnosable and containable."
+}

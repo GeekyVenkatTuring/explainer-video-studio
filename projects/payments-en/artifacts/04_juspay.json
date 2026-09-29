@@ -1,0 +1,630 @@
+{
+ "cuts": [
+  {
+   "id": "04_juspay_title",
+   "type": "pg_title",
+   "in_seconds": 0.0,
+   "out_seconds": 26.362,
+   "props": {
+    "gateway": "Juspay",
+    "tagline": "Not a gateway \u2014 the orchestration layer above them",
+    "accent": "#F59E0B",
+    "kicker": "PAYMENT GATEWAYS \u00b7 DEVELOPER GUIDE",
+    "dur": 26.862
+   }
+  },
+  {
+   "id": "04_juspay_docs",
+   "type": "pg_docs",
+   "in_seconds": 26.862,
+   "out_seconds": 51.898,
+   "props": {
+    "gateway": "Juspay",
+    "accent": "#F59E0B",
+    "url": "juspay.io/in",
+    "docsUrl": "juspay.io/in/docs",
+    "signupUrl": "juspay.io (enterprise)",
+    "sandbox": true,
+    "kyc": [
+     "Enterprise onboarding (contract-based)"
+    ],
+    "methods": [
+     "300+ PSPs / methods"
+    ],
+    "dur": 25.536
+   }
+  },
+  {
+   "id": "04_juspay_support",
+   "type": "pg_support",
+   "in_seconds": 52.398,
+   "out_seconds": 72.801,
+   "props": {
+    "gateway": "Juspay",
+    "accent": "#F59E0B",
+    "channels": [
+     {
+      "icon": "\u260e",
+      "label": "Phone",
+      "value": "not published",
+      "live": false
+     },
+     {
+      "icon": "\ud83e\udd1d",
+      "label": "Solutions / integration team",
+      "value": "enterprise team",
+      "live": true
+     },
+     {
+      "icon": "\ud83d\udcda",
+      "label": "Docs",
+      "value": "juspay.io/in/docs",
+      "live": true
+     }
+    ],
+    "dur": 20.903
+   }
+  },
+  {
+   "id": "04_juspay_metrics",
+   "type": "pg_metrics",
+   "in_seconds": 73.301,
+   "out_seconds": 96.515,
+   "props": {
+    "gateway": "Juspay",
+    "accent": "#F59E0B",
+    "settleDay": 0,
+    "settleNote": "settles via the routed PA/PG",
+    "instant": false,
+    "settleUnknown": true,
+    "successNote": "Juspay's claim: routing lifts acceptance & cuts cost up to ~30% (their figure)",
+    "complexity": 3,
+    "complexityLabel": "Enterprise",
+    "complexityWhy": "One integration fronts 300+ PSPs",
+    "dur": 23.714
+   }
+  },
+  {
+   "id": "04_juspay_pricing",
+   "type": "pg_pricing",
+   "in_seconds": 97.015,
+   "out_seconds": 126.362,
+   "props": {
+    "gateway": "Juspay",
+    "accent": "#F59E0B",
+    "rows": [
+     {
+      "icon": "\ud83d\udd00",
+      "label": "Orchestration fee",
+      "rate": "custom",
+      "note": "per contract"
+     },
+     {
+      "icon": "\ud83d\udcb3",
+      "label": "Underlying MDR",
+      "rate": "your PG's rate"
+     },
+     {
+      "icon": "\ud83d\udee0\ufe0f",
+      "label": "Hyperswitch (OSS)",
+      "rate": "self-host"
+     }
+    ],
+    "foot": "Custom enterprise pricing \u2014 a cost layer ON TOP of your PG(s), not a per-instrument MDR",
+    "dur": 29.847
+   }
+  },
+  {
+   "id": "04_juspay_flow",
+   "type": "pg_flow",
+   "in_seconds": 126.862,
+   "out_seconds": 150.282,
+   "props": {
+    "gateway": "Juspay",
+    "accent": "#F59E0B",
+    "steps": [
+     {
+      "emoji": "\ud83d\udcf1",
+      "label": "Init HyperSDK",
+      "sub": "client"
+     },
+     {
+      "emoji": "\ud83e\uddfe",
+      "label": "Create order",
+      "sub": "server \u00b7 /orders"
+     },
+     {
+      "emoji": "\ud83d\uded2",
+      "label": "Unified checkout",
+      "sub": "one experience"
+     },
+     {
+      "emoji": "\ud83d\udd00",
+      "label": "Route",
+      "sub": "best PA / PG"
+     },
+     {
+      "emoji": "\ud83d\udd14",
+      "label": "Callback + settlement",
+      "sub": "via that PG"
+     }
+    ],
+    "dur": 23.92
+   }
+  },
+  {
+   "id": "04_juspay_code",
+   "type": "pg_code",
+   "in_seconds": 150.782,
+   "out_seconds": 174.334,
+   "props": {
+    "gateway": "Juspay",
+    "accent": "#F59E0B",
+    "lang": "bash",
+    "file": "create-order.sh",
+    "lines": [
+     "curl https://api.juspay.in/orders",
+     "  -u \"<API_KEY>:\"",
+     "  -d order_id=\"o11\" -d amount=500 -d currency=INR",
+     "  -d customer_id=\"c1\"",
+     "  -d return_url=\"https://site/return\"",
+     "# initialise HyperSDK with the returned order token"
+    ],
+    "docUrl": "juspay.io/in/docs",
+    "caption": "Juspay creates an orchestration order; the routed PG still settles funds.",
+    "dur": 24.052
+   }
+  },
+  {
+   "id": "04_juspay_recap",
+   "type": "pg_recap",
+   "in_seconds": 174.834,
+   "out_seconds": 200.758,
+   "props": {
+    "title": "Juspay in one breath",
+    "items": [
+     "Not a PA/PG: it orchestrates many",
+     "One integration can front 300+ PSPs",
+     "Settlement and MDR remain with routed PG",
+     "Custom fee sits above underlying MDR",
+     "Best fit: enterprise, scale, multi-PG routing"
+    ],
+    "closer": "Choose Juspay to orchestrate payment partners, not to replace them.",
+    "dur": 26.424
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.313,
+   "Juspay routes across more than three hundred payment"
+  ],
+  [
+   3.313,
+   3.727,
+   "aggregators,"
+  ],
+  [
+   3.727,
+   4.141,
+   "gateways,"
+  ],
+  [
+   4.141,
+   4.97,
+   "and methods;"
+  ],
+  [
+   4.97,
+   8.283,
+   "it is not a payment aggregator or gateway"
+  ],
+  [
+   8.283,
+   8.697,
+   "itself."
+  ],
+  [
+   9.247,
+   12.56,
+   "Not a gateway \u2014 the orchestration layer above"
+  ],
+  [
+   12.56,
+   12.974,
+   "them."
+  ],
+  [
+   13.524,
+   16.009,
+   "We'll walk its docs and KYC,"
+  ],
+  [
+   16.009,
+   17.251,
+   "its support channels,"
+  ],
+  [
+   17.251,
+   17.665,
+   "settlement,"
+  ],
+  [
+   17.665,
+   18.908,
+   "success and effort,"
+  ],
+  [
+   18.908,
+   21.392,
+   "exact pricing for every payment method,"
+  ],
+  [
+   21.392,
+   24.705,
+   "and a real integration call \u2014 everything you"
+  ],
+  [
+   24.705,
+   26.362,
+   "want before you commit."
+  ],
+  [
+   26.862,
+   28.733,
+   "Everything starts at juspay.io/in/docs."
+  ],
+  [
+   29.283,
+   30.218,
+   "For access,"
+  ],
+  [
+   30.218,
+   33.96,
+   "you get test-mode keys the moment you sign"
+  ],
+  [
+   33.96,
+   34.428,
+   "up,"
+  ],
+  [
+   34.428,
+   36.299,
+   "before any paperwork clears."
+  ],
+  [
+   36.849,
+   40.59,
+   "To go live you complete KYC \u2014 Enterprise"
+  ],
+  [
+   40.59,
+   44.332,
+   "onboarding (contract-based) \u2014 and it's worth\nconfirming the"
+  ],
+  [
+   44.332,
+   47.139,
+   "exact list in the live dashboard."
+  ],
+  [
+   47.689,
+   50.027,
+   "The methods you can accept:"
+  ],
+  [
+   50.027,
+   51.898,
+   "300+ PSPs / methods."
+  ],
+  [
+   52.398,
+   53.231,
+   "Now support,"
+  ],
+  [
+   53.231,
+   55.315,
+   "shown honestly as published routes,"
+  ],
+  [
+   55.315,
+   56.982,
+   "not promised service levels."
+  ],
+  [
+   57.532,
+   60.866,
+   "Your live channels are solutions / integration team,"
+  ],
+  [
+   60.866,
+   61.283,
+   "docs."
+  ],
+  [
+   61.833,
+   65.167,
+   "There's no published phone number \u2014 this is"
+  ],
+  [
+   65.167,
+   66.0,
+   "a dashboard,"
+  ],
+  [
+   66.0,
+   67.667,
+   "ticket and docs-first setup."
+  ],
+  [
+   68.217,
+   71.551,
+   "A grey item means the provider simply doesn't"
+  ],
+  [
+   71.551,
+   72.801,
+   "publish that route."
+  ],
+  [
+   73.301,
+   74.739,
+   "Three operational checks."
+  ],
+  [
+   75.289,
+   79.122,
+   "On settlement \u2014 settles via the routed PA/PG."
+  ],
+  [
+   79.672,
+   82.547,
+   "On success rate \u2014 Juspay's claim:"
+  ],
+  [
+   82.547,
+   86.381,
+   "routing lifts acceptance & cuts cost up to"
+  ],
+  [
+   86.381,
+   87.819,
+   "~30% (their figure);"
+  ],
+  [
+   87.819,
+   90.694,
+   "we won't quote a made-up percentage."
+  ],
+  [
+   91.244,
+   95.077,
+   "And integration effort is Enterprise \u2014 One\nintegration"
+  ],
+  [
+   95.077,
+   96.515,
+   "fronts 300+ PSPs."
+  ],
+  [
+   97.015,
+   100.477,
+   "Now pricing \u2014 the part you actually budget"
+  ],
+  [
+   100.477,
+   100.91,
+   "for."
+  ],
+  [
+   101.46,
+   104.056,
+   "Juspay lists orchestration fee at custom;"
+  ],
+  [
+   104.056,
+   106.653,
+   "underlying mdr at your PG's rate;"
+  ],
+  [
+   106.653,
+   108.384,
+   "hyperswitch (oss) at self-host."
+  ],
+  [
+   108.934,
+   111.098,
+   "Where a row says custom,"
+  ],
+  [
+   111.098,
+   111.531,
+   "varies,"
+  ],
+  [
+   111.531,
+   112.829,
+   "or contact sales,"
+  ],
+  [
+   112.829,
+   116.291,
+   "keep it exactly that vague in your model"
+  ],
+  [
+   116.291,
+   118.888,
+   "\u2014 don't invent a precise number."
+  ],
+  [
+   119.438,
+   122.9,
+   "Custom enterprise pricing \u2014 a cost layer ON"
+  ],
+  [
+   122.9,
+   124.631,
+   "TOP of your PG(s),"
+  ],
+  [
+   124.631,
+   126.362,
+   "not a per-instrument MDR."
+  ],
+  [
+   126.862,
+   128.287,
+   "The integration runs:"
+  ],
+  [
+   128.287,
+   132.086,
+   "Init HyperSDK \u2192 Create order \u2192 Unified checkout"
+  ],
+  [
+   132.086,
+   134.935,
+   "\u2192 Route \u2192 Callback + settlement."
+  ],
+  [
+   135.485,
+   138.335,
+   "Create the intent on your server,"
+  ],
+  [
+   138.335,
+   141.659,
+   "hand the client only what checkout needs,"
+  ],
+  [
+   141.659,
+   145.458,
+   "then confirm status and signatures server-side\nbefore you"
+  ],
+  [
+   145.458,
+   145.933,
+   "fulfil."
+  ],
+  [
+   146.483,
+   150.282,
+   "A browser redirect is never proof of payment."
+  ],
+  [
+   150.782,
+   153.844,
+   "Here's the representative call \u2014 create-order.sh."
+  ],
+  [
+   154.394,
+   156.945,
+   "Juspay creates an orchestration order;"
+  ],
+  [
+   156.945,
+   160.007,
+   "the routed PG still settles funds."
+  ],
+  [
+   160.557,
+   163.108,
+   "Treat it as a shape,"
+  ],
+  [
+   163.108,
+   164.639,
+   "not copy-and-forget code:"
+  ],
+  [
+   164.639,
+   167.7,
+   "read the current reference at juspay.io/in/docs,"
+  ],
+  [
+   167.7,
+   170.762,
+   "keep your secrets in server-side config,"
+  ],
+  [
+   170.762,
+   174.334,
+   "and validate the final callback or webhook."
+  ],
+  [
+   174.834,
+   175.326,
+   "So,"
+  ],
+  [
+   175.326,
+   177.293,
+   "Juspay in one breath."
+  ],
+  [
+   177.843,
+   179.319,
+   "Not a PA/PG:"
+  ],
+  [
+   179.319,
+   180.794,
+   "it orchestrates many"
+  ],
+  [
+   181.344,
+   184.295,
+   "One integration can front 300+ PSPs"
+  ],
+  [
+   184.845,
+   188.288,
+   "Settlement and MDR remain with routed PG"
+  ],
+  [
+   188.838,
+   191.789,
+   "Custom fee sits above underlying MDR"
+  ],
+  [
+   192.339,
+   193.322,
+   "Best fit:"
+  ],
+  [
+   193.322,
+   193.814,
+   "enterprise,"
+  ],
+  [
+   193.814,
+   194.306,
+   "scale,"
+  ],
+  [
+   194.306,
+   195.29,
+   "multi-PG routing."
+  ],
+  [
+   195.84,
+   198.791,
+   "Choose Juspay to orchestrate payment partners,"
+  ],
+  [
+   198.791,
+   200.758,
+   "not to replace them."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pg/04_juspay.wav",
+   "volume": 1.0
+  }
+ }
+}

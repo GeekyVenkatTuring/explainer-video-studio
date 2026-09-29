@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch03_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 46.003,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "foundation",
+        "dur": 46.503
+      }
+    },
+    {
+      "id": "ch03_system",
+      "type": "aae_chapter",
+      "in_seconds": 46.503,
+      "out_seconds": 84.901,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "system",
+        "dur": 38.898
+      }
+    },
+    {
+      "id": "ch03_practice",
+      "type": "aae_chapter",
+      "in_seconds": 85.401,
+      "out_seconds": 131.414,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "practice",
+        "dur": 46.513
+      }
+    },
+    {
+      "id": "ch03_failure",
+      "type": "aae_chapter",
+      "in_seconds": 131.914,
+      "out_seconds": 170.653,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "failure",
+        "dur": 39.24
+      }
+    },
+    {
+      "id": "ch03_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 171.153,
+      "out_seconds": 213.999,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "evaluation",
+        "dur": 43.346
+      }
+    },
+    {
+      "id": "ch03_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 214.499,
+      "out_seconds": 251.87,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "handoff",
+        "dur": 37.871
+      }
+    },
+    {
+      "id": "ch03_application",
+      "type": "aae_chapter",
+      "in_seconds": 252.37,
+      "out_seconds": 301.228,
+      "props": {
+        "chapter": 3,
+        "title": "Agentic Security Engineering",
+        "focus": "protecting instructions, data, tools, and identities across an autonomous loop",
+        "concepts": [
+          "least privilege",
+          "prompt-injection resistance",
+          "action authorization"
+        ],
+        "example": "a procurement agent rejecting a malicious vendor document",
+        "trap": "treating text input as trusted",
+        "takeaway": "Protecting instructions, data, tools, and identities across an autonomous loop.",
+        "beat": "application",
+        "dur": 49.358
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch03.wav",
+      "volume": 1
+    }
+  }
+}

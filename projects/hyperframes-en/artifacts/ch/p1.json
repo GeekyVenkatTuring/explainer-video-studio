@@ -1,0 +1,134 @@
+{
+ "cuts": [
+  {
+   "id": "d1",
+   "type": "hf_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 1.846,
+   "props": {
+    "n": 1,
+    "title": "The Workflows",
+    "sub": "one engine, many kinds of video",
+    "color": "#38BDF8",
+    "dur": 2.346
+   }
+  },
+  {
+   "id": "s05_workflows",
+   "type": "hf_bullets",
+   "in_seconds": 2.346,
+   "out_seconds": 44.457,
+   "props": {
+    "kicker": "ONE ENGINE, MANY VIDEOS",
+    "title": "What you can make",
+    "color": "#38BDF8",
+    "foot": "You describe the intent; a workflow scaffolds the right kind of project.",
+    "items": [
+     {
+      "h": "Product launch & website videos",
+      "sub": "promos and tours built from a URL",
+      "icon": "\ud83d\ude80",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "Faceless explainers & PR videos",
+      "sub": "explain a topic, or a code change",
+      "icon": "\ud83d\udca1",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Captions & talking-head recuts",
+      "sub": "subtitles or graphics over footage",
+      "icon": "\ud83e\uddfe",
+      "c": "#FBBF24"
+     },
+     {
+      "h": "Motion graphics, music & slideshows",
+      "sub": "logo stings, beat-synced, decks",
+      "icon": "\ud83c\udf9e\ufe0f",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 42.611
+   }
+  },
+  {
+   "id": "s06_routing",
+   "type": "hf_compare",
+   "in_seconds": 44.957,
+   "out_seconds": 80.915,
+   "props": {
+    "kicker": "PICKING A WORKFLOW",
+    "title": "Routing is about the input",
+    "foot": "One question settles most cases: is the site selling a product, or not?",
+    "left": {
+     "head": "Selling a product",
+     "bad": false,
+     "c": "#38BDF8",
+     "items": [
+      "A SaaS or app URL \u2192 a promo",
+      "The value is the subject",
+      "Product-launch workflow"
+     ]
+    },
+    "right": {
+     "head": "Just showing a site",
+     "bad": false,
+     "c": "#A78BFA",
+     "items": [
+      "Portfolio, blog, docs \u2192 a tour",
+      "The site itself is the subject",
+      "Website-to-video workflow"
+     ]
+    },
+    "dur": 36.458
+   }
+  },
+  {
+   "id": "s07_devloop",
+   "type": "hf_pipeline",
+   "in_seconds": 81.415,
+   "out_seconds": 115.081,
+   "props": {
+    "kicker": "THE DEV LOOP",
+    "title": "How you actually work",
+    "color": "#34D399",
+    "foot": "Write a little, check a lot, preview, then render. That rhythm is the job.",
+    "steps": [
+     {
+      "label": "init",
+      "sub": "scaffold a project",
+      "c": "#38BDF8"
+     },
+     {
+      "label": "write",
+      "sub": "author the HTML",
+      "c": "#38BDF8"
+     },
+     {
+      "label": "check",
+      "sub": "lint, validate, inspect",
+      "c": "#A78BFA"
+     },
+     {
+      "label": "preview",
+      "sub": "edit in Studio",
+      "c": "#FBBF24"
+     },
+     {
+      "label": "render",
+      "sub": "frames \u2192 MP4",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 34.166
+   }
+  }
+ ],
+ "audio": {
+  "narration": {
+   "src": "hf/narration_p1.wav",
+   "volume": 1.0
+  }
+ }
+}

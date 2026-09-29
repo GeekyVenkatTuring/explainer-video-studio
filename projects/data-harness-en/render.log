@@ -1,0 +1,4 @@
+Error: ENOSPC: no space left on device, write
+    at async write (node:internal/fs/promises:744:8)
+    at async writeFileHandle (node:internal/fs/promises:501:7)
+    at async screenshotTask (/Users/appuram/Developer/explainer-forge/composer/node_modules/@remotion/renderer/dist/screenshot-task.js:69:13)

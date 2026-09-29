@@ -1,0 +1,27 @@
+{
+ "fps": 30,
+ "total_seconds": 1766.863,
+ "total_frames": 53006,
+ "chapters": [
+  {
+   "n": 1,
+   "label": "ch1-learning-paths",
+   "first": "s000_title",
+   "last": "s013_c1recap",
+   "start_s": 0.0,
+   "end_s": 1212.041,
+   "start_frame": 0,
+   "end_frame": 36360
+  },
+  {
+   "n": 2,
+   "label": "ch2-skills-mcp",
+   "first": "s014_d2",
+   "last": "s021_end",
+   "start_s": 1212.541,
+   "end_s": 1766.863,
+   "start_frame": 36376,
+   "end_frame": 53005
+  }
+ ]
+}

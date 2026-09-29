@@ -1,0 +1,5 @@
+file '/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/assets/raw/ch10_foundation_0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/assets/raw/pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/assets/raw/ch10_foundation_1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/assets/raw/pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/agentic-ai-engineering-course/assets/raw/ch10_foundation_2.wav'

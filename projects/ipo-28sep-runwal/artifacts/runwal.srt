@@ -1,0 +1,300 @@
+1
+00:00:00,000 --> 00:00:03,914
+This is the Runwal Enterprises I P O, a mainboard offer,
+
+2
+00:00:03,914 --> 00:00:08,107
+open from the twenty-fifth to the twenty-ninth of September.
+
+3
+00:00:08,607 --> 00:00:11,527
+The price band is ₹290 to ₹305.
+
+4
+00:00:11,527 --> 00:00:17,273
+Every figure here comes from the final red herring prospectus
+
+5
+00:00:17,273 --> 00:00:19,251
+and exchange notices;
+
+6
+00:00:19,251 --> 00:00:22,924
+the final price is fixed after bidding,
+
+7
+00:00:22,924 --> 00:00:26,975
+so valuations are computed at the ₹305 cap.
+
+8
+00:00:27,475 --> 00:00:28,712
+First, the business.
+
+9
+00:00:29,212 --> 00:00:33,005
+Runwal is a Mumbai residential real-estate developer,
+
+10
+00:00:33,005 --> 00:00:36,368
+known for large townships that include schools,
+
+11
+00:00:36,368 --> 00:00:38,300
+malls and shopping arcades.
+
+12
+00:00:38,800 --> 00:00:43,463
+Real-estate revenue is lumpy:
+
+13
+00:00:43,463 --> 00:00:50,377
+₹2,408.87 Cr in FY24, ₹1,007.77 Cr in FY25,
+
+14
+00:00:50,377 --> 00:00:54,397
+and ₹1,798.95 Cr in FY26,
+
+15
+00:00:54,397 --> 00:01:02,437
+because sales are recognised as projects complete.
+
+16
+00:01:02,937 --> 00:01:04,537
+The financial checkpoint.
+
+17
+00:01:05,037 --> 00:01:17,416
+FY26 revenue was ₹1,798.95 Cr, against ₹1,007.77 Cr in FY25,
+
+18
+00:01:17,416 --> 00:01:21,336
+a change of 78.51%.
+
+19
+00:01:21,836 --> 00:01:29,900
+Profit after tax was ₹185.76 Cr, a margin of 10.33%.
+
+20
+00:01:30,400 --> 00:01:32,384
+The balance sheet is the key lens.
+
+21
+00:01:32,884 --> 00:01:38,912
+Net debt was ₹2,778.11 Cr at March 2026,
+
+22
+00:01:38,912 --> 00:01:44,187
+against total equity of ₹844.82 Cr,
+
+23
+00:01:44,187 --> 00:01:49,311
+so net debt is about 3.29x equity.
+
+24
+00:01:49,811 --> 00:01:53,683
+The offer size at the cap is ₹500.00 Cr,
+
+25
+00:01:53,683 --> 00:01:56,296
+and it is 100% fresh issue.
+
+26
+00:01:56,796 --> 00:01:59,181
+All of that money goes into the company;
+
+27
+00:01:59,181 --> 00:02:02,044
+no existing shareholder is selling in this deal.
+
+28
+00:02:02,544 --> 00:02:03,867
+Where does the money go?
+
+29
+00:02:04,367 --> 00:02:07,231
+The whole ₹500.00 Cr is fresh money;
+
+30
+00:02:07,231 --> 00:02:09,380
+there is no offer for sale.
+
+31
+00:02:09,880 --> 00:02:13,645
+₹100.00 Cr repays the company's own debt,
+
+32
+00:02:13,645 --> 00:02:17,502
+and ₹225.00 Cr goes into two subsidiaries,
+
+33
+00:02:17,502 --> 00:02:22,552
+Evie Real Estate and Runwal Residency, to repay theirs.
+
+34
+00:02:23,052 --> 00:02:28,193
+The balance can fund future project acquisitions and general corporate purposes.
+
+35
+00:02:28,693 --> 00:02:29,696
+Valuation.
+
+36
+00:02:30,196 --> 00:02:32,716
+At the ₹305 cap,
+
+37
+00:02:32,716 --> 00:02:40,905
+the price is 18.22x FY26 earnings of ₹16.74 a share.
+
+38
+00:02:41,405 --> 00:02:46,708
+That is below all its listed peers:
+
+39
+00:02:46,708 --> 00:02:55,648
+Sunteck at 21.09x, Oberoi 25.88x, Godrej Properties 27.53x,
+
+40
+00:02:55,648 --> 00:03:00,648
+Lodha 33.42x and Prestige 51.70x.
+
+41
+00:03:01,148 --> 00:03:05,841
+The discount partly reflects much higher leverage and lumpy profits.
+
+42
+00:03:06,341 --> 00:03:07,835
+Now balance the evidence.
+
+43
+00:03:08,335 --> 00:03:09,559
+Watch-out:
+
+44
+00:03:09,559 --> 00:03:12,375
+Net debt ~3.29x equity.
+
+45
+00:03:12,375 --> 00:03:13,477
+Strength:
+
+46
+00:03:13,477 --> 00:03:14,824
+100% fresh:
+
+47
+00:03:14,824 --> 00:03:17,273
+no promoter selling.
+
+48
+00:03:17,773 --> 00:03:19,538
+Watch-out:
+
+49
+00:03:19,538 --> 00:03:22,008
+Lumpy revenue:
+
+50
+00:03:22,008 --> 00:03:26,595
+FY25 fell to ₹1,007.77 Cr.
+
+51
+00:03:26,595 --> 00:03:28,183
+Strength:
+
+52
+00:03:28,183 --> 00:03:32,771
+FY26 PAT up to ₹185.76 Cr.
+
+53
+00:03:33,271 --> 00:03:34,480
+Watch-out:
+
+54
+00:03:34,480 --> 00:03:39,319
+₹325.00 Cr of proceeds only repays debt.
+
+55
+00:03:39,319 --> 00:03:40,407
+Strength:
+
+56
+00:03:40,407 --> 00:03:45,004
+18.22x P/E, below listed Mumbai peers.
+
+57
+00:03:45,504 --> 00:03:46,635
+How to apply.
+
+58
+00:03:47,135 --> 00:03:51,652
+The minimum bid is one lot of 49 shares,
+
+59
+00:03:51,652 --> 00:03:54,815
+which is ₹14,945 at the cap.
+
+60
+00:03:55,315 --> 00:03:58,790
+Retail investors can bid up to two lakh rupees,
+
+61
+00:03:58,790 --> 00:04:02,931
+and allotment is by lottery if retail is oversubscribed.
+
+62
+00:04:03,431 --> 00:04:07,974
+Check live subscription on the N S E or B S E website,
+
+63
+00:04:07,974 --> 00:04:09,404
+not social media.
+
+64
+00:04:09,904 --> 00:04:10,864
+Let's recap.
+
+65
+00:04:11,364 --> 00:04:18,554
+FY26 revenue ₹1,798.95 Cr, profit ₹185.76 Cr.
+
+66
+00:04:18,554 --> 00:04:22,389
+The offer is 100% fresh.
+
+67
+00:04:22,389 --> 00:04:28,780
+Valuation is 18.22x earnings at the cap.
+
+68
+00:04:28,780 --> 00:04:34,212
+The minimum investment is ₹14,945.
+
+69
+00:04:34,712 --> 00:04:38,886
+This video is public-source education from the red herring
+
+70
+00:04:38,886 --> 00:04:41,188
+prospectus and exchange notices.
+
+71
+00:04:41,188 --> 00:04:45,146
+It is not investment advice and not a buy or sell call.
+
+72
+00:04:45,146 --> 00:04:46,945
+Read the final documents,
+
+73
+00:04:46,945 --> 00:04:49,824
+check live subscription on the exchange,
+
+74
+00:04:49,824 --> 00:04:52,558
+and consult a SEBI-registered adviser.
+
+75
+00:04:52,558 --> 00:04:53,997
+Thanks for watching.
+

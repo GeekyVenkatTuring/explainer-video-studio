@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch02_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 45.582,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "foundation",
+        "dur": 46.082
+      }
+    },
+    {
+      "id": "ch02_system",
+      "type": "aae_chapter",
+      "in_seconds": 46.082,
+      "out_seconds": 83.638,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "system",
+        "dur": 38.056
+      }
+    },
+    {
+      "id": "ch02_practice",
+      "type": "aae_chapter",
+      "in_seconds": 84.138,
+      "out_seconds": 129.781,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "practice",
+        "dur": 46.144
+      }
+    },
+    {
+      "id": "ch02_failure",
+      "type": "aae_chapter",
+      "in_seconds": 130.281,
+      "out_seconds": 169.653,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "failure",
+        "dur": 39.872
+      }
+    },
+    {
+      "id": "ch02_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 170.153,
+      "out_seconds": 212.657,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "evaluation",
+        "dur": 43.003
+      }
+    },
+    {
+      "id": "ch02_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 213.157,
+      "out_seconds": 249.712,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "handoff",
+        "dur": 37.056
+      }
+    },
+    {
+      "id": "ch02_application",
+      "type": "aae_chapter",
+      "in_seconds": 250.212,
+      "out_seconds": 298.544,
+      "props": {
+        "chapter": 2,
+        "title": "Agent Runtime Environment",
+        "focus": "the bounded environment in which an agent receives context, invokes tools, and records state",
+        "concepts": [
+          "execution boundary",
+          "tool contracts",
+          "durable state"
+        ],
+        "example": "a support agent whose actions pass through a controlled runtime",
+        "trap": "letting a model call production systems directly",
+        "takeaway": "The bounded environment in which an agent receives context, invokes tools, and records state.",
+        "beat": "application",
+        "dur": 48.831
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch02.wav",
+      "volume": 1
+    }
+  }
+}

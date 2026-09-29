@@ -1,0 +1,398 @@
+{
+ "cuts": [
+  {
+   "id": "b21",
+   "type": "dta_code",
+   "in_seconds": 0,
+   "out_seconds": 48.886,
+   "props": {
+    "dur": 49.386
+   }
+  },
+  {
+   "id": "b22",
+   "type": "dta_live",
+   "in_seconds": 49.386,
+   "out_seconds": 98.516,
+   "props": {
+    "dur": 49.63
+   }
+  },
+  {
+   "id": "b23",
+   "type": "dta_rules",
+   "in_seconds": 99.016,
+   "out_seconds": 149.726,
+   "props": {
+    "dur": 51.21
+   }
+  },
+  {
+   "id": "b24",
+   "type": "dta_recap",
+   "in_seconds": 150.226,
+   "out_seconds": 193.249,
+   "props": {
+    "items": [
+     "Data \u2192 signal \u2192 risk \u2192 order \u2192 fill",
+     "HFT is a subset, not every algo",
+     "Synthetic examples are not backtests",
+     "Costs decide if turnover survives",
+     "Retail APIs have SEBI/NSE controls",
+     "Automation is not an edge",
+     "Monitor and stop"
+    ],
+    "closer": "Build systems that can say no.",
+    "dur": 43.523
+   }
+  }
+ ],
+ "captions": [
+  [
+   0,
+   2.498,
+   "Pseudo-code should read like an accountable\ndecision."
+  ],
+  [
+   3.129,
+   5.627,
+   "First calculate a fast and slow average."
+  ],
+  [
+   6.258,
+   9.47,
+   "If the fast average is above the slow average,"
+  ],
+  [
+   9.47,
+   10.54,
+   "propose a position."
+  ],
+  [
+   11.172,
+   12.956,
+   "Do not send it yet."
+  ],
+  [
+   13.587,
+   15.014,
+   "Check cash and margin."
+  ],
+  [
+   15.646,
+   17.073,
+   "Check maximum order size."
+  ],
+  [
+   17.705,
+   19.489,
+   "Check the daily loss limit."
+  ],
+  [
+   20.12,
+   23.332,
+   "Check the instrument is tradable and the data is"
+  ],
+  [
+   23.332,
+   23.688,
+   "fresh."
+  ],
+  [
+   24.32,
+   26.461,
+   "Only then send the tagged order."
+  ],
+  [
+   27.092,
+   29.59,
+   "If any check fails, reject and alert."
+  ],
+  [
+   30.222,
+   33.433,
+   "The strongest line of code is often the one"
+  ],
+  [
+   33.433,
+   34.86,
+   "that prevents a trade."
+  ],
+  [
+   35.492,
+   38.703,
+   "This is why risk code sits immediately before the"
+  ],
+  [
+   38.703,
+   39.06,
+   "order."
+  ],
+  [
+   39.691,
+   42.902,
+   "The signal may be perfectly valid and still be"
+  ],
+  [
+   42.902,
+   46.114,
+   "unacceptable today because cash, margin, size, or\nloss limits"
+  ],
+  [
+   46.114,
+   46.827,
+   "say no."
+  ],
+  [
+   47.459,
+   48.886,
+   "That is disciplined automation."
+  ],
+  [
+   49.386,
+   52.976,
+   "Going live begins smaller than a backtest fantasy."
+  ],
+  [
+   53.608,
+   54.505,
+   "Paper-trade first."
+  ],
+  [
+   55.137,
+   56.932,
+   "Use conservative position sizing."
+  ],
+  [
+   57.563,
+   61.602,
+   "Watch for stale data, rejected orders, duplicate\norders, latency"
+  ],
+  [
+   61.602,
+   64.295,
+   "spikes, unexpected exposure, and daily-loss\nbreaches."
+  ],
+  [
+   64.926,
+   68.067,
+   "Reconcile exchange acknowledgements with the\nintended position."
+  ],
+  [
+   68.699,
+   70.494,
+   "Alerts need an owner."
+  ],
+  [
+   71.126,
+   74.267,
+   "A kill switch needs a tested path."
+  ],
+  [
+   74.898,
+   78.937,
+   "Discipline matters more than clever code, because a\nlive"
+  ],
+  [
+   78.937,
+   82.976,
+   "system trades the actual market, not a chart frozen"
+  ],
+  [
+   82.976,
+   83.873,
+   "in hindsight."
+  ],
+  [
+   84.505,
+   86.3,
+   "Paper trading checks workflow."
+  ],
+  [
+   86.932,
+   89.175,
+   "Small live size checks execution."
+  ],
+  [
+   89.807,
+   92.051,
+   "Neither step proves future profitability."
+  ],
+  [
+   92.682,
+   96.721,
+   "They reduce the chance that a technical failure\nbecomes"
+  ],
+  [
+   96.721,
+   98.516,
+   "a large financial mistake."
+  ],
+  [
+   99.016,
+   100.297,
+   "Keep five rules."
+  ],
+  [
+   100.929,
+   103.491,
+   "Model all explicit and implicit costs."
+  ],
+  [
+   104.123,
+   107.966,
+   "Test out of sample, not only where you tuned"
+  ],
+  [
+   107.966,
+   108.82,
+   "the rule."
+  ],
+  [
+   109.452,
+   113.295,
+   "Size small enough that a normal loss is survivable."
+  ],
+  [
+   113.926,
+   115.635,
+   "Monitor every live component."
+  ],
+  [
+   116.266,
+   120.11,
+   "Treat promised, expected, or unverified past-return\nmarketing as a"
+  ],
+  [
+   120.11,
+   120.964,
+   "red flag."
+  ],
+  [
+   121.595,
+   125.439,
+   "S E B I's restriction is nuanced: it does"
+  ],
+  [
+   125.439,
+   128.428,
+   "not mean all performance discussion is banned."
+  ],
+  [
+   129.059,
+   132.903,
+   "It does mean brokers and platforms cannot make those"
+  ],
+  [
+   132.903,
+   136.746,
+   "unverified return references, subject to the\nspecified verified-metrics route."
+  ],
+  [
+   137.378,
+   139.513,
+   "The common thread is humility."
+  ],
+  [
+   140.145,
+   140.999,
+   "Markets change."
+  ],
+  [
+   141.63,
+   142.484,
+   "Data fails."
+  ],
+  [
+   143.116,
+   143.97,
+   "Costs compound."
+  ],
+  [
+   144.602,
+   148.445,
+   "A system should be designed to survive uncertainty,\nnot"
+  ],
+  [
+   148.445,
+   149.726,
+   "to advertise certainty."
+  ],
+  [
+   150.226,
+   152.743,
+   "So the whole map is this."
+  ],
+  [
+   153.375,
+   157.151,
+   "A trading algorithm is a rule connected to data,"
+  ],
+  [
+   157.151,
+   158.829,
+   "risk, routing, and monitoring."
+  ],
+  [
+   159.46,
+   163.236,
+   "Strategies differ, but all can fail through costs,\nbad"
+  ],
+  [
+   163.236,
+   165.334,
+   "assumptions, or a changing market."
+  ],
+  [
+   165.965,
+   169.741,
+   "India adds broker, API, identity, tagging, and audit\ncontrols."
+  ],
+  [
+   170.373,
+   172.051,
+   "Automation is not edge."
+  ],
+  [
+   172.683,
+   176.458,
+   "Educational information from public sources, not\ninvestment advice. Consult"
+  ],
+  [
+   176.458,
+   178.976,
+   "a S E B I-registered adviser."
+  ],
+  [
+   179.607,
+   180.866,
+   "Thanks for watching."
+  ],
+  [
+   181.497,
+   184.854,
+   "Keep the scope labels attached to every number."
+  ],
+  [
+   185.485,
+   187.163,
+   "Keep synthetic examples labelled."
+  ],
+  [
+   187.795,
+   191.571,
+   "And keep the decision to stop as available as"
+  ],
+  [
+   191.571,
+   193.249,
+   "the decision to trade."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "dta/ch08.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,436 @@
+{
+ "cuts": [
+  {
+   "id": "s06_div2",
+   "type": "da_div",
+   "in_seconds": 0.0,
+   "out_seconds": 8.865,
+   "props": {
+    "n": 2,
+    "title": "The Strategies",
+    "sub": "Four everyday ideas, on synthetic charts",
+    "color": "#34D399",
+    "dur": 9.465
+   }
+  },
+  {
+   "id": "s07_momentum",
+   "type": "da_momentum",
+   "in_seconds": 9.465,
+   "out_seconds": 68.265,
+   "props": {
+    "dur": 59.4
+   }
+  },
+  {
+   "id": "s08_meanrev",
+   "type": "da_meanrev",
+   "in_seconds": 68.865,
+   "out_seconds": 118.649,
+   "props": {
+    "dur": 50.384
+   }
+  },
+  {
+   "id": "s09_breakout",
+   "type": "da_breakout",
+   "in_seconds": 119.249,
+   "out_seconds": 170.701,
+   "props": {
+    "dur": 52.052
+   }
+  },
+  {
+   "id": "s10_vwap",
+   "type": "da_vwap",
+   "in_seconds": 171.301,
+   "out_seconds": 228.362,
+   "props": {
+    "dur": 57.661
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.877,
+   "Part two."
+  ],
+  [
+   1.583,
+   2.46,
+   "The strategies."
+  ],
+  [
+   3.166,
+   7.112,
+   "These charts use illustrative, synthetic data \u2014\nnever a"
+  ],
+  [
+   7.112,
+   8.865,
+   "backtest, never a promise."
+  ],
+  [
+   9.465,
+   11.225,
+   "Our first strategy is momentum."
+  ],
+  [
+   11.932,
+   15.1,
+   "Think of pushing a child on a swing \u2014"
+  ],
+  [
+   15.1,
+   18.268,
+   "you don't fight it, you push while it's already"
+  ],
+  [
+   18.268,
+   19.324,
+   "moving your way."
+  ],
+  [
+   20.031,
+   23.199,
+   "To see the trend, we draw two moving averages"
+  ],
+  [
+   23.199,
+   26.367,
+   "on the price: a fast one that reacts quickly,"
+  ],
+  [
+   26.367,
+   28.831,
+   "and a slow one that reacts gently."
+  ],
+  [
+   29.538,
+   32.706,
+   "Here's the rule in action. When the fast line"
+  ],
+  [
+   32.706,
+   35.874,
+   "crosses above the slow line, the recent trend has"
+  ],
+  [
+   35.874,
+   39.042,
+   "turned up, so the algorithm can go long; when"
+  ],
+  [
+   39.042,
+   42.21,
+   "the fast line crosses back below, the trend has"
+  ],
+  [
+   42.21,
+   45.379,
+   "faded, and it exits. Notice it never tries to"
+  ],
+  [
+   45.379,
+   48.547,
+   "catch the exact bottom \u2014 it waits for the"
+  ],
+  [
+   48.547,
+   49.955,
+   "turn to be confirmed."
+  ],
+  [
+   50.661,
+   53.83,
+   "In plain words, you're riding a move that has"
+  ],
+  [
+   53.83,
+   56.294,
+   "already begun, and letting it carry you."
+  ],
+  [
+   57.0,
+   60.169,
+   "The technical name is trend, or momentum, trading \u2014"
+  ],
+  [
+   60.169,
+   63.337,
+   "and its failure mode is chop: a flat, sideways"
+  ],
+  [
+   63.337,
+   66.505,
+   "market that fakes you long and short, again and"
+  ],
+  [
+   66.505,
+   68.265,
+   "again, paying costs each time."
+  ],
+  [
+   68.865,
+   71.733,
+   "The next strategy believes the opposite of momentum."
+  ],
+  [
+   72.44,
+   75.667,
+   "Think of a rubber band \u2014 stretch it too"
+  ],
+  [
+   75.667,
+   78.176,
+   "far, and it wants to snap back."
+  ],
+  [
+   78.883,
+   82.11,
+   "To measure the stretch, we draw volatility bands\naround"
+  ],
+  [
+   82.11,
+   85.337,
+   "a moving average: an upper band and a lower"
+  ],
+  [
+   85.337,
+   88.205,
+   "band that widen when the market gets wild."
+  ],
+  [
+   88.911,
+   92.138,
+   "For example, when price pokes below the lower band,"
+  ],
+  [
+   92.138,
+   95.365,
+   "and a momentum gauge like R S I looks"
+  ],
+  [
+   95.365,
+   98.592,
+   "washed out, the rule may bet on a bounce"
+  ],
+  [
+   98.592,
+   100.026,
+   "back toward the middle."
+  ],
+  [
+   100.733,
+   103.959,
+   "In plain words, you're betting that an unusually\nlarge"
+  ],
+  [
+   103.959,
+   106.111,
+   "move returns toward its own average."
+  ],
+  [
+   106.817,
+   110.044,
+   "The technical name is mean reversion \u2014 and its"
+  ],
+  [
+   110.044,
+   113.271,
+   "danger is the one thing it can't handle: a"
+  ],
+  [
+   113.271,
+   116.498,
+   "genuine trend, where cheap simply keeps getting\ncheaper, and"
+  ],
+  [
+   116.498,
+   118.649,
+   "the band breaks instead of holding."
+  ],
+  [
+   119.249,
+   121.81,
+   "Our third strategy waits for a build-up."
+  ],
+  [
+   122.516,
+   125.808,
+   "Think of water behind a dam \u2014 pressure gathers"
+  ],
+  [
+   125.808,
+   128.735,
+   "quietly, and then it escapes all at once."
+  ],
+  [
+   129.441,
+   132.733,
+   "On the chart, we take the first stretch of"
+  ],
+  [
+   132.733,
+   136.026,
+   "the session and mark its highest high and lowest"
+  ],
+  [
+   136.026,
+   138.952,
+   "low. That box is called the opening range."
+  ],
+  [
+   139.658,
+   142.951,
+   "Here's the example. If price pushes above the top"
+  ],
+  [
+   142.951,
+   146.243,
+   "of the box, the rule buys the breakout, and"
+  ],
+  [
+   146.243,
+   149.535,
+   "immediately places a stop just below \u2014 the exit"
+  ],
+  [
+   149.535,
+   151.364,
+   "is decided before the entry."
+  ],
+  [
+   152.07,
+   155.363,
+   "In plain words, you're trading the exact moment\nprice"
+  ],
+  [
+   155.363,
+   158.289,
+   "escapes a quiet range and starts to run."
+  ],
+  [
+   158.995,
+   162.288,
+   "The technical name is the opening-range breakout \u2014\nand"
+  ],
+  [
+   162.288,
+   165.58,
+   "its classic failure is the false breakout, where\nprice"
+  ],
+  [
+   165.58,
+   168.872,
+   "pokes out, sucks everyone in, and snaps right back,"
+  ],
+  [
+   168.872,
+   170.701,
+   "often on a news gap."
+  ],
+  [
+   171.301,
+   174.534,
+   "This next one is different \u2014 it isn't about"
+  ],
+  [
+   174.534,
+   177.408,
+   "what to buy, but how to buy it."
+  ],
+  [
+   178.115,
+   181.348,
+   "Imagine you have to buy a huge quantity. Slam"
+  ],
+  [
+   181.348,
+   184.581,
+   "it in at once and you'll push the price"
+  ],
+  [
+   184.581,
+   187.815,
+   "against yourself; instead you take small sips, so\nyou"
+  ],
+  [
+   187.815,
+   189.252,
+   "don't spook the market."
+  ],
+  [
+   189.958,
+   193.191,
+   "On the chart, a V W A P line"
+  ],
+  [
+   193.191,
+   196.425,
+   "traces the volume-weighted average price \u2014 a fair\nbenchmark"
+  ],
+  [
+   196.425,
+   199.658,
+   "for the day \u2014 and your child orders try"
+  ],
+  [
+   199.658,
+   200.736,
+   "to track it."
+  ],
+  [
+   201.442,
+   204.675,
+   "For example, one big parent order of a thousand"
+  ],
+  [
+   204.675,
+   207.909,
+   "lots is chopped into twenty small slices, released\nthrough"
+  ],
+  [
+   207.909,
+   210.783,
+   "the day so each blends into normal volume."
+  ],
+  [
+   211.489,
+   214.722,
+   "In plain words, this is execution: quietly cutting\nyour"
+  ],
+  [
+   214.722,
+   217.237,
+   "own footprint, not predicting direction at all."
+  ],
+  [
+   217.944,
+   221.177,
+   "The technical names are V W A P and"
+  ],
+  [
+   221.177,
+   224.41,
+   "T W A P execution; the risks are market"
+  ],
+  [
+   224.41,
+   227.643,
+   "impact and information leakage \u2014 letting others see\nwhat"
+  ],
+  [
+   227.643,
+   228.362,
+   "you're doing."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "da/ch02.wav",
+   "volume": 1.0
+  }
+ }
+}

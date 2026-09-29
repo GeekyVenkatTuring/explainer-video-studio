@@ -1,0 +1,46 @@
+{
+  "idx": 7,
+  "variant": "xa_roadmap",
+  "props": {
+    "rank": 7,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "From 0 to Graph Engineer: The 14-Step Roadmap Using Kimi K3 (Full",
+    "handle": "@eng_khairallah1",
+    "likes": "276",
+    "thesis": "Al-Awady argues that relationship-heavy questions need connected facts, not similarity alone. Engineers must control structure, identity, evidence, and maintenance.",
+    "take": "Prove your validation pipeline before scaling extraction.",
+    "phases": [
+      {
+        "label": "Foundations",
+        "line": "Practice Cypher in Neo4j until you can follow three connected relationships."
+      },
+      {
+        "label": "Design first",
+        "line": "Use ten to fifteen real questions; include source references and validity windows."
+      },
+      {
+        "label": "Resolve identities",
+        "line": "Compare surrounding sentences; send uncertain name matches for human review."
+      },
+      {
+        "label": "Construct carefully",
+        "line": "Extract explicit facts; carry canonical names; automate repairs and budget limits."
+      },
+      {
+        "label": "Validate first",
+        "line": "Check structure, exact quotations, domain rules, and human samples before writes."
+      },
+      {
+        "label": "Analyze and retrieve",
+        "line": "Consider lighter GraphRAG options; route questions to graphs, vectors, or SQL."
+      },
+      {
+        "label": "Operate responsibly",
+        "line": "Update sources, preserve conflicts, track staleness; save K3 for difficult work."
+      }
+    ]
+  },
+  "narration": "Khairallah AL-Awady proposes fourteen steps toward graph engineering with Kimi K3. His claim is straightforward: relationship-heavy questions need connected facts, not similarity alone. [pause] Foundations means learning graphs, networks of entities joined by relationships. Practice Cypher with Neo4j until you can follow three connected relationships. Design first means deriving your schema, the allowed data structure, from ten to fifteen real questions. [pause] Include source references and validity windows immediately rather than adding them later. Resolve identities by comparing surrounding sentences instead of trusting similar names. Apple, Apple Inc., and AAPL might identify one organization, but uncertain matches need human review. Construct carefully by extracting only explicit facts and carrying canonical names between batches. Al-Awady promotes K3 for its claimed million-token context window. [pause] Automate parsing, one repair retry, failure logging, and budget limits. Validate first through schema checks, exact source quotations, domain rules, and human sampling. Reject unsupported facts before writing them. Analyze and retrieve with GraphRAG, which combines graph construction and community summaries for answering. Consider LazyGraphRAG or LightRAG before expensive full indexing. Route relationship questions to graphs, meaning-based searches to vectors, and aggregates to SQL. Operate responsibly by updating changed sources, preserving conflicts, and tracking staleness. Reserve K3 for difficult work. [pause] Prove your validation pipeline before scaling extraction."
+}

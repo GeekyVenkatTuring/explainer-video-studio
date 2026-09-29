@@ -1,0 +1,205 @@
+{
+ "cuts": [
+  {
+   "id": "d11",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 11.847,
+   "props": {
+    "n": 11,
+    "title": "The 2026 IPO Winners",
+    "sub": "Who really made money on listings \u2014 and who didn't",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 12.347
+   }
+  },
+  {
+   "id": "i11",
+   "type": "mw_bars",
+   "in_seconds": 12.347,
+   "out_seconds": 41.877,
+   "props": {
+    "kicker": "IN-WINDOW WINNERS \u00b7 2026 IPOs",
+    "title": "The listings that doubled \u2014 and the average that didn't",
+    "unit": "%",
+    "color": "#FBBF24",
+    "bars": [
+     {
+      "label": "Omnitech\nEngineering",
+      "v": 158.4,
+      "c": "#34D399",
+      "tag": "since 5 Mar"
+     },
+     {
+      "label": "SEDEMAC\nMechatronics",
+      "v": 126.3,
+      "c": "#34D399",
+      "tag": "since 11 Mar"
+     },
+     {
+      "label": "Shadowfax\nTech",
+      "v": 100.2,
+      "c": "#34D399",
+      "tag": "since 28 Jan"
+     },
+     {
+      "label": "Avg 2026\nlisting gain",
+      "v": 6.56,
+      "c": "#FB7185",
+      "tag": "across 32 IPOs"
+     }
+    ],
+    "foot": "Gain from issue price to recent price \u00b7 avg across ~32 IPOs \u00b7 most were NOT multibaggers \u00b7 not advice",
+    "dur": 30.03
+   }
+  },
+  {
+   "id": "i11b",
+   "type": "mw_statement",
+   "in_seconds": 42.377,
+   "out_seconds": 75.174,
+   "props": {
+    "kicker": "THE LOTTERY NOBODY MENTIONS",
+    "color": "#FB7185",
+    "lines": [
+     "To win the IPO,",
+     "you first have to",
+     "be allotted it.",
+     "Most retail buyers",
+     "aren't."
+    ],
+    "sub": "Survivorship bias with an official stamp.",
+    "dur": 33.297
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.003,
+   "Chapter eleven. The IPO winners."
+  ],
+  [
+   2.634,
+   6.239,
+   "If any story fits 'made money in six months',"
+  ],
+  [
+   6.239,
+   9.844,
+   "it's the new listings. A handful genuinely doubled.\nBut"
+  ],
+  [
+   9.844,
+   11.847,
+   "the headline hides the truth."
+  ],
+  [
+   12.347,
+   13.861,
+   "The winners are real."
+  ],
+  [
+   14.493,
+   17.9,
+   "Omnitech Engineering, listed in March, is up over\none"
+  ],
+  [
+   17.9,
+   20.928,
+   "hundred and fifty-eight percent from its issue\nprice."
+  ],
+  [
+   21.559,
+   24.209,
+   "SEDEMAC Mechatronics, up a hundred and twenty-six."
+  ],
+  [
+   24.841,
+   28.248,
+   "Shadowfax, up a hundred percent \u2014 a clean double."
+  ],
+  [
+   28.879,
+   31.15,
+   "Now look at the last bar."
+  ],
+  [
+   31.782,
+   35.189,
+   "The average listing gain across all thirty-two IPOs\nthis"
+  ],
+  [
+   35.189,
+   36.324,
+   "year? Six-point-five percent."
+  ],
+  [
+   36.956,
+   40.363,
+   "For every headline double, there were many that\nbarely"
+  ],
+  [
+   40.363,
+   41.877,
+   "moved \u2014 or fell."
+  ],
+  [
+   42.377,
+   45.252,
+   "And there's a catch even the average hides."
+  ],
+  [
+   45.883,
+   49.117,
+   "To make that money, you first had to be"
+  ],
+  [
+   49.117,
+   52.351,
+   "allotted the shares \u2014 and popular IPOs are so"
+  ],
+  [
+   52.351,
+   55.585,
+   "oversubscribed that most small applicants get\nnothing at all."
+  ],
+  [
+   56.217,
+   59.451,
+   "So the viral 'I doubled my money on the"
+  ],
+  [
+   59.451,
+   62.685,
+   "IPO' post is survivorship bias with an official\nstamp:"
+  ],
+  [
+   62.685,
+   65.919,
+   "you hear from the lucky few who got the"
+  ],
+  [
+   65.919,
+   69.152,
+   "allotment and the pop \u2014 never from the thousands"
+  ],
+  [
+   69.152,
+   72.027,
+   "who applied, got nothing, or bought a dud."
+  ],
+  [
+   72.659,
+   75.174,
+   "Real, but not repeatable-on-demand. Know the\ndifference."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch11.wav",
+   "volume": 1.0
+  }
+ }
+}

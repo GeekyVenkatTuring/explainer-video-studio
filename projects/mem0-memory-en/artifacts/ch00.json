@@ -1,0 +1,242 @@
+{
+ "pack": "blueprint",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Mem0 memory",
+  "issue": "September 2026",
+  "code": "MEM-0"
+ },
+ "beats": [
+  {
+   "id": "b00",
+   "kind": "title",
+   "dur": 21.762,
+   "props": {
+    "kicker": "Agent memory \u00b7 system design deep dive",
+    "title": "Inside Mem0:\nMemory for AI Agents",
+    "subtitle": "architecture \u00b7 algorithms \u00b7 benchmarks \u00b7 the 2026 redesign"
+   }
+  },
+  {
+   "id": "b01",
+   "kind": "statement",
+   "dur": 27.243,
+   "props": {
+    "kicker": "The problem",
+    "lines": [
+     "LLMs are stateless.",
+     "Memory is a system",
+     "you have to build."
+    ],
+    "accent": 2,
+    "sub": "every call starts from an empty context window"
+   }
+  },
+  {
+   "id": "b02",
+   "kind": "list",
+   "dur": 30.553,
+   "props": {
+    "kicker": "The plan",
+    "title": "Ten parts, one memory system",
+    "items": [
+     {
+      "h": "Why memory",
+      "d": "context windows, cost, kinds of memory"
+     },
+     {
+      "h": "Architecture",
+      "d": "APIs, stores, scopes, data flow"
+     },
+     {
+      "h": "Extract and update",
+      "d": "the 2025 two-phase pipeline"
+     },
+     {
+      "h": "Vectors and HNSW",
+      "d": "how memories are found"
+     },
+     {
+      "h": "Graph memory",
+      "d": "entities, triplets, conflicts"
+     },
+     {
+      "h": "Benchmarks",
+      "d": "accuracy, latency, tokens"
+     },
+     {
+      "h": "The 2026 redesign",
+      "d": "add-only writes, hybrid reads"
+     }
+    ],
+    "ats": [
+     0.089,
+     0.18,
+     0.341,
+     0.543,
+     0.704,
+     0.781,
+     0.9
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.963,
+   "Every conversation with an AI agent starts from"
+  ],
+  [
+   2.963,
+   5.925,
+   "zero. It forgets your name, your plans, the"
+  ],
+  [
+   5.925,
+   7.407,
+   "bug you fixed yesterday."
+  ],
+  [
+   8.038,
+   11.001,
+   "Mem0 is one of the most widely used"
+  ],
+  [
+   11.001,
+   13.964,
+   "answers to that problem: a long-term memory layer"
+  ],
+  [
+   13.964,
+   14.705,
+   "for agents."
+  ],
+  [
+   15.336,
+   18.299,
+   "In the next thirty minutes, we'll take it"
+  ],
+  [
+   18.299,
+   21.262,
+   "apart, down to the formulas in the code."
+  ],
+  [
+   21.762,
+   23.107,
+   "Here's the core problem."
+  ],
+  [
+   23.739,
+   26.429,
+   "A language model is stateless. Each call sees"
+  ],
+  [
+   26.429,
+   29.12,
+   "only what you put into its context window,"
+  ],
+  [
+   29.12,
+   30.129,
+   "and nothing else."
+  ],
+  [
+   30.761,
+   33.451,
+   "So memory is not something the model has."
+  ],
+  [
+   33.451,
+   36.142,
+   "It's a system you build around the model."
+  ],
+  [
+   36.774,
+   39.464,
+   "That system must decide what to remember, how"
+  ],
+  [
+   39.464,
+   42.155,
+   "to store it, how to find it again,"
+  ],
+  [
+   42.155,
+   44.51,
+   "and what to do when facts change."
+  ],
+  [
+   45.141,
+   47.832,
+   "Those four decisions are exactly what this video"
+  ],
+  [
+   47.832,
+   48.505,
+   "is about."
+  ],
+  [
+   49.005,
+   50.265,
+   "Here's the plan."
+  ],
+  [
+   50.897,
+   53.838,
+   "First, why agents need memory at all."
+  ],
+  [
+   54.47,
+   57.831,
+   "Then the architecture: the APIs, the stores, and"
+  ],
+  [
+   57.831,
+   59.092,
+   "how data flows."
+  ],
+  [
+   59.723,
+   63.085,
+   "Then extract and update, the two-phase pipeline from"
+  ],
+  [
+   63.085,
+   65.186,
+   "the twenty twenty five paper."
+  ],
+  [
+   65.818,
+   69.179,
+   "Then vectors and HNSW, the algorithm that finds"
+  ],
+  [
+   69.179,
+   70.02,
+   "memories fast."
+  ],
+  [
+   70.651,
+   71.912,
+   "Then graph memory."
+  ],
+  [
+   72.543,
+   73.804,
+   "Then the benchmarks."
+  ],
+  [
+   74.435,
+   77.797,
+   "And finally, the twenty twenty six redesign, which"
+  ],
+  [
+   77.797,
+   79.058,
+   "changed almost everything."
+  ]
+ ],
+ "audio": "m0/ch00.wav"
+}

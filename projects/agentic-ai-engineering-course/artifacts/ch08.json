@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch08_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 43.424,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "foundation",
+        "dur": 43.924
+      }
+    },
+    {
+      "id": "ch08_system",
+      "type": "aae_chapter",
+      "in_seconds": 43.924,
+      "out_seconds": 81.164,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "system",
+        "dur": 37.74
+      }
+    },
+    {
+      "id": "ch08_practice",
+      "type": "aae_chapter",
+      "in_seconds": 81.664,
+      "out_seconds": 128.097,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "practice",
+        "dur": 46.933
+      }
+    },
+    {
+      "id": "ch08_failure",
+      "type": "aae_chapter",
+      "in_seconds": 128.597,
+      "out_seconds": 166.284,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "failure",
+        "dur": 38.187
+      }
+    },
+    {
+      "id": "ch08_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 166.784,
+      "out_seconds": 209.787,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "evaluation",
+        "dur": 43.503
+      }
+    },
+    {
+      "id": "ch08_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 210.287,
+      "out_seconds": 247.133,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "handoff",
+        "dur": 37.346
+      }
+    },
+    {
+      "id": "ch08_application",
+      "type": "aae_chapter",
+      "in_seconds": 247.633,
+      "out_seconds": 294.592,
+      "props": {
+        "chapter": 8,
+        "title": "Agentic Context Engineering",
+        "focus": "constructing the right briefing packet for each model call",
+        "concepts": [
+          "relevance",
+          "structured context",
+          "context pruning"
+        ],
+        "example": "a contract reviewer receiving only liability clauses and policy",
+        "trap": "context bloat",
+        "takeaway": "Constructing the right briefing packet for each model call.",
+        "beat": "application",
+        "dur": 47.459
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch08.wav",
+      "volume": 1
+    }
+  }
+}

@@ -1,0 +1,453 @@
+{
+ "cuts": [
+  {
+   "id": "ch08_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 11.226,
+   "props": {
+    "n": 8,
+    "total": 20,
+    "title": "Car Paradox",
+    "lines": [
+     "You want the car because of how you think it makes others see you.",
+     "They are looking at the car, not at you."
+    ],
+    "color": "#FBBF24",
+    "dur": 11.726
+   }
+  },
+  {
+   "id": "ch08_car",
+   "type": "pm_list",
+   "in_seconds": 11.726,
+   "out_seconds": 41.137,
+   "props": {
+    "kicker": "THE MAN IN THE CAR",
+    "title": "What a $100,000 car actually signals",
+    "items": [
+     "Someone driving a $100,000 car might be wealthy \u2014 or might have $100,000 less, or $100,000 more debt.",
+     "Humble: you want respect. The paradox: observers respect the car, not the driver.",
+     "Rich is a current income. Wealth is unspent options. They look the same from the curb until they do not.",
+     "If the point was admiration, the book says: skip the car and keep the assets that actually buy freedom."
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 29.911
+   }
+  },
+  {
+   "id": "ch08_car-split",
+   "type": "pm_dual",
+   "in_seconds": 41.637,
+   "out_seconds": 75.496,
+   "props": {
+    "kicker": "HUMILITY VERSUS THE BUMPER",
+    "title": "What you think you bought vs what they saw",
+    "left": {
+     "name": "What you wanted",
+     "tag": "inside your head",
+     "c": "#FBBF24",
+     "lines": [
+      "Respect, status, proof you made it.",
+      "A $100,000 car as a loud r\u00e9sum\u00e9."
+     ]
+    },
+    "right": {
+     "name": "What they saw",
+     "tag": "from the sidewalk",
+     "c": "#A78BFA",
+     "lines": [
+      "The car. Not your skill, not your savings rate, not your name.",
+      "They may want the same car next. You were the billboard, not the hero.",
+      "If admiration was the goal, unspent wealth buys more of it over decades than chrome does in a minute."
+     ]
+    },
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 34.359
+   }
+  },
+  {
+   "id": "ch08_car-rules",
+   "type": "pm_list",
+   "in_seconds": 75.996,
+   "out_seconds": 93.694,
+   "props": {
+    "kicker": "CAR PARADOX \u00b7 RULES",
+    "title": "Keep the respect trade honest",
+    "items": [
+     "Spending to be liked is a tax. The audience is looking at the object.",
+     "Rich and wealthy look identical at a stoplight. Only the unspent pile is wealth.",
+     "If the car requires debt that can force a sale, you bought the opposite of freedom."
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 18.198
+   }
+  },
+  {
+   "id": "ch08_status",
+   "type": "pm_sheet",
+   "in_seconds": 94.194,
+   "out_seconds": 127.052,
+   "props": {
+    "kicker": "RESPECT IS NOT TRANSFERABLE",
+    "title": "The paradox in one column",
+    "rows": [
+     {
+      "k": "Wanted",
+      "v": "People buy loud goods hoping the object will transfer respect onto the owner.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Received",
+      "v": "Observers usually stop at the object. They imagine themselves in the seat, not you.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Debt",
+      "v": "If the object is financed, you may have purchased the opposite of the freedom you wanted to display.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Quiet",
+      "v": "Unspent wealth does not photograph. That is why it is easy to under-count and over-spend.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Move",
+      "v": "If admiration was the goal, keep the assets that buy time. Chrome is a billboard for the factory.",
+      "c": "#E8B86D"
+     }
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 33.358
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.738,
+   "Chapter 8."
+  ],
+  [
+   0.738,
+   1.476,
+   "Car Paradox."
+  ],
+  [
+   2.108,
+   5.06,
+   "You want the car because of how you"
+  ],
+  [
+   5.06,
+   7.273,
+   "think it makes others see you."
+  ],
+  [
+   7.905,
+   10.119,
+   "They are looking at the car,"
+  ],
+  [
+   10.119,
+   11.226,
+   "not at you."
+  ],
+  [
+   11.726,
+   14.622,
+   "Someone driving a one hundred thousand\ndollar car"
+  ],
+  [
+   14.622,
+   15.709,
+   "might be wealthy,"
+  ],
+  [
+   15.709,
+   18.243,
+   "or might have one hundred thousand less,"
+  ],
+  [
+   18.243,
+   20.777,
+   "or one hundred thousand more in debt."
+  ],
+  [
+   21.409,
+   22.495,
+   "You want respect."
+  ],
+  [
+   22.495,
+   23.219,
+   "The paradox:"
+  ],
+  [
+   23.219,
+   24.667,
+   "observers respect the car,"
+  ],
+  [
+   24.667,
+   25.754,
+   "not the driver."
+  ],
+  [
+   26.385,
+   28.196,
+   "Rich is a current income."
+  ],
+  [
+   28.196,
+   29.644,
+   "Wealth is unspent options."
+  ],
+  [
+   29.644,
+   32.54,
+   "They look the same from the curb until"
+  ],
+  [
+   32.54,
+   33.626,
+   "they do not."
+  ],
+  [
+   34.258,
+   36.068,
+   "If the point was admiration,"
+  ],
+  [
+   36.068,
+   38.965,
+   "the book says skip the car and keep"
+  ],
+  [
+   38.965,
+   41.137,
+   "the assets that actually buy freedom."
+  ],
+  [
+   41.637,
+   42.779,
+   "What you wanted."
+  ],
+  [
+   42.779,
+   43.921,
+   "inside your head"
+  ],
+  [
+   44.552,
+   45.694,
+   "What you wanted:"
+  ],
+  [
+   45.694,
+   46.075,
+   "respect,"
+  ],
+  [
+   46.075,
+   46.455,
+   "status,"
+  ],
+  [
+   46.455,
+   47.978,
+   "proof you made it."
+  ],
+  [
+   48.61,
+   51.655,
+   "A one hundred thousand dollar car as a"
+  ],
+  [
+   51.655,
+   52.416,
+   "loud r\u00e9sum\u00e9."
+  ],
+  [
+   53.047,
+   54.189,
+   "What they saw."
+  ],
+  [
+   54.189,
+   55.331,
+   "from the sidewalk"
+  ],
+  [
+   55.963,
+   57.105,
+   "What they saw:"
+  ],
+  [
+   57.105,
+   57.866,
+   "the car."
+  ],
+  [
+   57.866,
+   59.008,
+   "Not your skill,"
+  ],
+  [
+   59.008,
+   60.53,
+   "not your savings rate,"
+  ],
+  [
+   60.53,
+   61.672,
+   "not your name."
+  ],
+  [
+   62.304,
+   64.968,
+   "They may want the same car next."
+  ],
+  [
+   64.968,
+   66.491,
+   "You were the billboard,"
+  ],
+  [
+   66.491,
+   67.633,
+   "not the hero."
+  ],
+  [
+   68.264,
+   70.167,
+   "If admiration was the goal,"
+  ],
+  [
+   70.167,
+   73.212,
+   "unspent wealth buys more of it over\ndecades"
+  ],
+  [
+   73.212,
+   75.496,
+   "than chrome does in a minute."
+  ],
+  [
+   75.996,
+   78.611,
+   "Spending to be liked is a tax."
+  ],
+  [
+   78.611,
+   81.225,
+   "The audience is looking at the object."
+  ],
+  [
+   81.857,
+   84.845,
+   "Rich and wealthy look identical at a\nstoplight."
+  ],
+  [
+   84.845,
+   87.086,
+   "Only the unspent pile is wealth."
+  ],
+  [
+   87.718,
+   90.706,
+   "If the car requires debt that can force"
+  ],
+  [
+   90.706,
+   91.453,
+   "a sale,"
+  ],
+  [
+   91.453,
+   93.694,
+   "you bought the opposite of freedom."
+  ],
+  [
+   94.194,
+   97.305,
+   "People buy loud goods hoping the object\nwill"
+  ],
+  [
+   97.305,
+   99.249,
+   "transfer respect onto the owner."
+  ],
+  [
+   99.881,
+   102.214,
+   "Observers usually stop at the object."
+  ],
+  [
+   102.214,
+   104.547,
+   "They imagine themselves in the seat,"
+  ],
+  [
+   104.547,
+   105.325,
+   "not you."
+  ],
+  [
+   105.957,
+   107.901,
+   "If the object is financed,"
+  ],
+  [
+   107.901,
+   111.012,
+   "you may have purchased the opposite of the"
+  ],
+  [
+   111.012,
+   112.956,
+   "freedom you wanted to display."
+  ],
+  [
+   113.588,
+   115.532,
+   "Unspent wealth does not photograph."
+  ],
+  [
+   115.532,
+   118.643,
+   "That is why it is easy to under-count"
+  ],
+  [
+   118.643,
+   119.421,
+   "and over-spend."
+  ],
+  [
+   120.052,
+   121.997,
+   "If admiration was the goal,"
+  ],
+  [
+   121.997,
+   124.33,
+   "keep the assets that buy time."
+  ],
+  [
+   124.33,
+   127.052,
+   "Chrome is a billboard for the factory."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch08.wav",
+   "volume": 1.0
+  }
+ }
+}

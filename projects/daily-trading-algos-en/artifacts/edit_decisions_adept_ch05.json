@@ -1,0 +1,421 @@
+{
+ "cuts": [
+  {
+   "id": "s15_div4",
+   "type": "da_div",
+   "in_seconds": 0.0,
+   "out_seconds": 8.079,
+   "props": {
+    "n": 4,
+    "title": "Build & Run One",
+    "sub": "The stack, the test, the checklist",
+    "color": "#A78BFA",
+    "dur": 8.679
+   }
+  },
+  {
+   "id": "s16_stack",
+   "type": "da_stack",
+   "in_seconds": 8.679,
+   "out_seconds": 68.597,
+   "props": {
+    "dur": 60.518
+   }
+  },
+  {
+   "id": "s17_backtest",
+   "type": "da_backtest",
+   "in_seconds": 69.197,
+   "out_seconds": 124.517,
+   "props": {
+    "dur": 55.92
+   }
+  },
+  {
+   "id": "s18_live",
+   "type": "da_live",
+   "in_seconds": 125.117,
+   "out_seconds": 181.325,
+   "props": {
+    "dur": 56.808
+   }
+  },
+  {
+   "id": "s19_recap",
+   "type": "da_recap",
+   "in_seconds": 181.925,
+   "out_seconds": 218.612,
+   "props": {
+    "items": [
+     "A trading algorithm is a rule: data -> signal -> risk -> order -> fill",
+     "Not everything fast is an algo \u2014 HFT is a subset, not the whole",
+     "Momentum, mean reversion, breakout, VWAP \u2014 each a simple rule, each fails a way",
+     "India: your bot needs an Algo ID, static IP, and supervision (SEBI, 1 Apr 2026)",
+     "Costs decide survival \u2014 and 93% of individual F&O traders lost money",
+     "Backtest attacks the idea; controls and a kill switch make it a system",
+     "Automation is not an edge \u2014 synthetic charts here are not backtests"
+    ],
+    "closer": "Build systems that can say no.",
+    "dur": 37.287
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.667,
+   "Part four."
+  ],
+  [
+   1.373,
+   2.706,
+   "Building and running one."
+  ],
+  [
+   3.413,
+   6.413,
+   "The code is the easy part; the controls are"
+  ],
+  [
+   6.413,
+   8.079,
+   "what make it a system."
+  ],
+  [
+   8.679,
+   11.346,
+   "So how do you actually build one?"
+  ],
+  [
+   12.052,
+   15.481,
+   "Picture a factory line \u2014 with a foreman watching,"
+  ],
+  [
+   15.481,
+   18.529,
+   "and a big red emergency stop within reach."
+  ],
+  [
+   19.236,
+   22.664,
+   "The line runs in order: market data comes in,"
+  ],
+  [
+   22.664,
+   26.093,
+   "it's validated, a signal forms, risk checks it, an"
+  ],
+  [
+   26.093,
+   29.522,
+   "order-and-risk system shapes it, the broker A P I"
+  ],
+  [
+   29.522,
+   32.951,
+   "sends it, the exchange fills it, and monitoring plus"
+  ],
+  [
+   32.951,
+   35.237,
+   "an end-of-day review close the loop."
+  ],
+  [
+   35.943,
+   39.372,
+   "For example, every hand-off should be observable \u2014\nat"
+  ],
+  [
+   39.372,
+   42.801,
+   "any moment you can answer what data arrived, which"
+  ],
+  [
+   42.801,
+   46.23,
+   "check approved it, and which order actually left. If"
+  ],
+  [
+   46.23,
+   49.659,
+   "you can't answer that, you can't safely debug it."
+  ],
+  [
+   50.365,
+   53.794,
+   "In plain words, the strategy code is just one"
+  ],
+  [
+   53.794,
+   57.223,
+   "part; the controls are what make it a real"
+  ],
+  [
+   57.223,
+   57.604,
+   "system."
+  ],
+  [
+   58.31,
+   61.739,
+   "The technical pieces are the O M S and"
+  ],
+  [
+   61.739,
+   65.168,
+   "R M S, reconciliation of intent against reality, and"
+  ],
+  [
+   65.168,
+   68.597,
+   "a kill switch that is tested \u2014 not decorative."
+  ],
+  [
+   69.197,
+   72.55,
+   "Before you risk real money, you test the rule"
+  ],
+  [
+   72.55,
+   75.903,
+   "on history \u2014 but a test will lie to"
+  ],
+  [
+   75.903,
+   77.766,
+   "you if you let it."
+  ],
+  [
+   78.473,
+   81.826,
+   "Think of a dress rehearsal versus opening night; a"
+  ],
+  [
+   81.826,
+   83.316,
+   "perfect rehearsal guarantees nothing."
+  ],
+  [
+   84.023,
+   87.376,
+   "On the chart, watch two curves. An overfit strategy"
+  ],
+  [
+   87.376,
+   90.729,
+   "looks absolutely brilliant on the data it was tuned"
+  ],
+  [
+   90.729,
+   94.082,
+   "on \u2014 that's in-sample \u2014 and then flattens or"
+  ],
+  [
+   94.082,
+   97.435,
+   "falls apart on fresh data it never saw, walked"
+  ],
+  [
+   97.435,
+   98.553,
+   "forward in time."
+  ],
+  [
+   99.259,
+   102.613,
+   "So, for example, you split your history into train,"
+  ],
+  [
+   102.613,
+   105.966,
+   "validation, and test; you model every cost and\nslippage;"
+  ],
+  [
+   105.966,
+   109.319,
+   "and you never let the strategy peek at the"
+  ],
+  [
+   109.319,
+   109.691,
+   "future."
+  ],
+  [
+   110.398,
+   113.751,
+   "In plain words, a good backtest attacks your idea"
+  ],
+  [
+   113.751,
+   117.104,
+   "\u2014 it doesn't sell it to you. If it"
+  ],
+  [
+   117.104,
+   120.085,
+   "only wins in one narrow setting, it's fragile."
+  ],
+  [
+   120.791,
+   124.144,
+   "The technical traps are overfitting, and\nsurvivorship and look-ahead"
+  ],
+  [
+   124.144,
+   124.517,
+   "bias."
+  ],
+  [
+   125.117,
+   128.432,
+   "Finally, going live \u2014 treat it like a pilot's"
+  ],
+  [
+   128.432,
+   129.537,
+   "checklist before takeoff."
+  ],
+  [
+   130.244,
+   133.559,
+   "The most important code doesn't come after the\nsignal;"
+  ],
+  [
+   133.559,
+   135.769,
+   "it sits right before the order."
+  ],
+  [
+   136.476,
+   139.791,
+   "Here it is, in order: the moment the rule"
+  ],
+  [
+   139.791,
+   143.106,
+   "wants to trade, check that there's enough cash and"
+  ],
+  [
+   143.106,
+   146.421,
+   "margin, that the order size is within limits, and"
+  ],
+  [
+   146.421,
+   149.737,
+   "that you haven't blown your daily-loss cap \u2014 and"
+  ],
+  [
+   149.737,
+   153.052,
+   "only then send the tagged order. If any check"
+  ],
+  [
+   153.052,
+   155.63,
+   "fails, reject it and raise an alert."
+  ],
+  [
+   156.337,
+   159.652,
+   "For example, you paper-trade first to prove the\nplumbing,"
+  ],
+  [
+   159.652,
+   162.967,
+   "then go live with tiny size, watching for stale"
+  ],
+  [
+   162.967,
+   164.809,
+   "feeds, rejected orders, and duplicates."
+  ],
+  [
+   165.516,
+   168.831,
+   "In plain words: size small, monitor everything, and\nbe"
+  ],
+  [
+   168.831,
+   172.146,
+   "as ready to stop as you are to trade."
+  ],
+  [
+   172.853,
+   176.168,
+   "Technically, that's pre-trade risk management \u2014 and\nvery often,"
+  ],
+  [
+   176.168,
+   179.483,
+   "the strongest line of code you write is the"
+  ],
+  [
+   179.483,
+   181.325,
+   "one that prevents a trade."
+  ],
+  [
+   181.925,
+   183.753,
+   "So, the whole map."
+  ],
+  [
+   184.46,
+   188.573,
+   "A trading algorithm is a rule connected to data,"
+  ],
+  [
+   188.573,
+   190.401,
+   "risk, routing, and monitoring."
+  ],
+  [
+   191.107,
+   195.22,
+   "The strategies differ \u2014 momentum, mean reversion,\nbreakout, execution"
+  ],
+  [
+   195.22,
+   199.333,
+   "\u2014 but each can fail through costs, bad assumptions,"
+  ],
+  [
+   199.333,
+   201.162,
+   "or a changing market."
+  ],
+  [
+   201.868,
+   205.524,
+   "India adds identity, rate limits, and audit trails."
+  ],
+  [
+   206.231,
+   208.516,
+   "Automation is not an edge."
+  ],
+  [
+   209.222,
+   213.335,
+   "Educational information from public sources, not\ninvestment advice. Please"
+  ],
+  [
+   213.335,
+   216.534,
+   "consult a S E B I-registered adviser."
+  ],
+  [
+   217.241,
+   218.612,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "da/ch05.wav",
+   "volume": 1.0
+  }
+ }
+}

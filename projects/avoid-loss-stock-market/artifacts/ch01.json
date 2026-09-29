@@ -1,0 +1,247 @@
+{
+  "cuts": [
+    {
+      "id": "ch01_title",
+      "type": "fa_title",
+      "in_seconds": 0.0,
+      "out_seconds": 21.225,
+      "props": {
+        "kicker": "INDIAN EQUITY EDUCATION \u00b7 BOOK GUIDE",
+        "line1": "Avoid Loss and",
+        "line2": "Invest Consistently",
+        "sub": "An 11-chapter practical framework, adapted from the supplied 2017 book",
+        "color": "#2DD4BF",
+        "dur": 21.725
+      }
+    },
+    {
+      "id": "ch01_roadmap",
+      "type": "fa_roadmap",
+      "in_seconds": 21.725,
+      "out_seconds": 45.481,
+      "props": {
+        "kicker": "THE COMPLETE MAP \u00b7 ELEVEN CHAPTERS",
+        "parts": [
+          {
+            "n": 1,
+            "title": "Avoiding loss",
+            "sub": "ownership, process, capital protection",
+            "c": "#F87171"
+          },
+          {
+            "n": 2,
+            "title": "The real risk",
+            "sub": "purchasing power and preparation",
+            "c": "#FBBF24"
+          },
+          {
+            "n": 3,
+            "title": "Business quality",
+            "sub": "returns, moat, and debt",
+            "c": "#34D399"
+          },
+          {
+            "n": 4,
+            "title": "Management",
+            "sub": "evidence over stories",
+            "c": "#2DD4BF"
+          },
+          {
+            "n": 5,
+            "title": "Valuation",
+            "sub": "great business, sensible price",
+            "c": "#A78BFA"
+          },
+          {
+            "n": 6,
+            "title": "Buy and sell",
+            "sub": "thesis-led decisions",
+            "c": "#38BDF8"
+          },
+          {
+            "n": 7,
+            "title": "Behaviour",
+            "sub": "avoid self-inflicted errors",
+            "c": "#F87171"
+          }
+        ],
+        "color": "#2DD4BF",
+        "dur": 24.256
+      }
+    },
+    {
+      "id": "ch01_divider",
+      "type": "fa_divider",
+      "in_seconds": 45.981,
+      "out_seconds": 53.472,
+      "props": {
+        "n": 1,
+        "total": 11,
+        "title": "Avoiding loss",
+        "sub": "Stocks are ownership claims, not lottery tickets.",
+        "color": "#F87171",
+        "dur": 7.991
+      }
+    },
+    {
+      "id": "ch01_ownership",
+      "type": "fa_keyidea",
+      "in_seconds": 53.972,
+      "out_seconds": 78.778,
+      "props": {
+        "kicker": "FIRST PRINCIPLE \u00b7 OWNERSHIP",
+        "big": "A share is a small ownership claim on a real business \u2014 not a number to gamble on.",
+        "sub": "Your job is to assess the business and the price, then give the thesis time.",
+        "color": "#2DD4BF",
+        "dur": 25.306
+      }
+    },
+    {
+      "id": "ch01_loss_loop",
+      "type": "fa_compare",
+      "in_seconds": 79.278,
+      "out_seconds": 104.396,
+      "props": {
+        "kicker": "WHY MOST PEOPLE LOSE",
+        "title": "A process separates investing from tip-chasing",
+        "cos": [
+          {
+            "name": "Impulse",
+            "c": "#F87171",
+            "tag": "fragile",
+            "stats": [
+              {
+                "k": "Input",
+                "v": "a hot tip"
+              },
+              {
+                "k": "Focus",
+                "v": "today's quote"
+              },
+              {
+                "k": "Action",
+                "v": "panic / chase"
+              },
+              {
+                "k": "Result",
+                "v": "no thesis",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Process",
+            "c": "#34D399",
+            "tag": "repeatable",
+            "stats": [
+              {
+                "k": "Input",
+                "v": "business evidence"
+              },
+              {
+                "k": "Focus",
+                "v": "value and risk"
+              },
+              {
+                "k": "Action",
+                "v": "written thesis"
+              },
+              {
+                "k": "Result",
+                "v": "reviewable",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "The book's central order: protect capital first; seek return second.",
+        "color": "#2DD4BF",
+        "dur": 25.618
+      }
+    },
+    {
+      "id": "ch01_protect",
+      "type": "fa_keyidea",
+      "in_seconds": 104.896,
+      "out_seconds": 131.213,
+      "props": {
+        "kicker": "CAPITAL PROTECTION",
+        "big": "The first return is avoiding permanent loss. Diversify, understand, and refuse what you cannot explain.",
+        "sub": "A loss on paper and a broken investment thesis are different events.",
+        "color": "#34D399",
+        "dur": 26.817
+      }
+    },
+    {
+      "id": "ch01_detail_broker",
+      "type": "fa_keyidea",
+      "in_seconds": 131.713,
+      "out_seconds": 166.505,
+      "props": {
+        "kicker": "CASE STUDY \u00b7 THE BROKER LOOP",
+        "big": "Frequent activity can create a conflict: each transaction may create costs, even when the investor's result is poor.",
+        "sub": "The book's fictionalised Rohit story begins with tips, early gains, then a sharp loss and accumulated charges.",
+        "color": "#F87171",
+        "dur": 35.292
+      }
+    },
+    {
+      "id": "ch01_detail_intraday",
+      "type": "fa_keyidea",
+      "in_seconds": 167.005,
+      "out_seconds": 203.15,
+      "props": {
+        "kicker": "CASE STUDY \u00b7 INTRADAY AND MARGIN",
+        "big": "A high hit rate can still lose money when losses are larger than gains, costs accumulate, and leverage amplifies errors.",
+        "sub": "A stop price is not a guarantee of an exact exit price in a fast move.",
+        "color": "#F87171",
+        "dur": 36.645
+      }
+    },
+    {
+      "id": "ch01_detail_leverage",
+      "type": "fa_keyidea",
+      "in_seconds": 203.65,
+      "out_seconds": 238.601,
+      "props": {
+        "kicker": "CASE STUDY \u00b7 LOAN AGAINST SHARES",
+        "big": "Borrowing against a portfolio introduces a second risk: a lender can force action precisely when prices are weak.",
+        "sub": "A falling collateral value can trigger margin calls and forced selling.",
+        "color": "#FBBF24",
+        "dur": 35.451
+      }
+    },
+    {
+      "id": "ch01_detail_fo",
+      "type": "fa_keyidea",
+      "in_seconds": 239.101,
+      "out_seconds": 278.247,
+      "props": {
+        "kicker": "CASE STUDY \u00b7 F&O TIP CLAIMS",
+        "big": "An extraordinary-return promise is a warning sign, especially when it hides the size and probability of loss.",
+        "sub": "Futures and options are risk-management instruments; they can also create leveraged losses.",
+        "color": "#F87171",
+        "dur": 39.646
+      }
+    },
+    {
+      "id": "ch01_detail_long_term",
+      "type": "fa_keyidea",
+      "in_seconds": 278.747,
+      "out_seconds": 313.803,
+      "props": {
+        "kicker": "THE BOOK'S ALTERNATIVE",
+        "big": "The proposed antidote is long-horizon ownership: quality business, sensible valuation, and patience while the thesis remains valid.",
+        "sub": "No approach guarantees a profit; it aims to reduce avoidable, permanent mistakes.",
+        "color": "#34D399",
+        "dur": 35.556
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch01.wav",
+      "volume": 1.0
+    }
+  }
+}

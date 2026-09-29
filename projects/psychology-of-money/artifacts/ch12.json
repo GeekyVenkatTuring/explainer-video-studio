@@ -1,0 +1,406 @@
+{
+ "cuts": [
+  {
+   "id": "ch12_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 15.541,
+   "props": {
+    "n": 12,
+    "total": 20,
+    "title": "Surprise",
+    "lines": [
+     "History is the study of surprises. It is a bad map of the next surprise.",
+     "The most important events are the ones nobody predicted. Plan for that, not for a repeat."
+    ],
+    "color": "#FBBF24",
+    "dur": 16.041
+   }
+  },
+  {
+   "id": "ch12_tails-hist",
+   "type": "pm_sheet",
+   "in_seconds": 16.041,
+   "out_seconds": 69.581,
+   "props": {
+    "kicker": "THE CENTURY WAS TAILS",
+    "title": "U.S. history, as the book lists it",
+    "rows": [
+     {
+      "k": "War deaths",
+      "v": "1.3 million Americans died fighting nine major wars.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Companies",
+      "v": "Roughly 99.9% of all companies that were created went out of business.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Drops",
+      "v": "The stock market fell more than 10% from a recent high at least 102 times.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Inflation years",
+      "v": "Annual inflation exceeded 7% in 20 separate years.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Seven people",
+      "v": "The book: 0.00000000004% of people were responsible for much of the last century's direction.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Student loans",
+      "v": "About $1.6 trillion in student loans with a 10.8% default rate \u2014 a surprise the prior generation did not budget.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Templeton",
+      "v": "The four most dangerous words: this time is different. Templeton still admitted it is different at least 20% of the time.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 54.04
+   }
+  },
+  {
+   "id": "ch12_surprise-more",
+   "type": "pm_sheet",
+   "in_seconds": 70.081,
+   "out_seconds": 109.78,
+   "props": {
+    "kicker": "HISTORY IS A LIST OF SURPRISES",
+    "title": "Do not treat the last war as the next one",
+    "rows": [
+     {
+      "k": "102 drops",
+      "v": "More than 10% off a recent high, at least 102 times. Surprise is the base rate.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "99.9%",
+      "v": "Roughly 99.9% of companies ever created went out of business. Failure is normal.",
+      "c": "#F87171"
+     },
+     {
+      "k": "7% inflation",
+      "v": "Inflation over 7% in 20 separate years. Your parents' price world is not a law.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Student debt",
+      "v": "$1.6 trillion of student loans, 10.8% default \u2014 a mass product the 1950s planner did not have.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "This time",
+      "v": "Templeton's warning still allows that it is different at least 20% of the time. Plan for both.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 40.199
+   }
+  },
+  {
+   "id": "ch12_surprise-do",
+   "type": "pm_list",
+   "in_seconds": 110.28,
+   "out_seconds": 124.7,
+   "props": {
+    "kicker": "SURPRISE \u00b7 RULES",
+    "title": "Forecast less, buffer more",
+    "items": [
+     "The next big event will not be in last decade's textbook. Room for error is how you admit that.",
+     "Do not require a precise story of 2035. Require a life that survives a story you did not write."
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 14.92
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.84,
+   "Chapter 12."
+  ],
+  [
+   0.84,
+   1.26,
+   "Surprise."
+  ],
+  [
+   1.891,
+   4.411,
+   "History is the study of surprises."
+  ],
+  [
+   4.411,
+   7.771,
+   "It is a bad map of the next"
+  ],
+  [
+   7.771,
+   8.19,
+   "surprise."
+  ],
+  [
+   8.822,
+   12.182,
+   "The most important events are the ones\nnobody"
+  ],
+  [
+   12.182,
+   12.601,
+   "predicted."
+  ],
+  [
+   12.601,
+   13.861,
+   "Plan for that,"
+  ],
+  [
+   13.861,
+   15.541,
+   "not for a repeat."
+  ],
+  [
+   16.041,
+   19.126,
+   "One point three million Americans died\nfighting nine"
+  ],
+  [
+   19.126,
+   19.898,
+   "major wars."
+  ],
+  [
+   20.529,
+   23.615,
+   "Roughly ninety-nine point nine percent of\nall companies"
+  ],
+  [
+   23.615,
+   26.314,
+   "that were created went out of business."
+  ],
+  [
+   26.946,
+   30.031,
+   "The stock market fell more than ten\npercent"
+  ],
+  [
+   30.031,
+   33.116,
+   "from a recent high at least one hundred"
+  ],
+  [
+   33.116,
+   33.888,
+   "two times."
+  ],
+  [
+   34.519,
+   37.605,
+   "Annual inflation exceeded seven percent in\ntwenty separate"
+  ],
+  [
+   37.605,
+   37.99,
+   "years."
+  ],
+  [
+   38.622,
+   41.707,
+   "The book says zero point zero zero zero"
+  ],
+  [
+   41.707,
+   44.792,
+   "zero zero zero zero zero zero zero four"
+  ],
+  [
+   44.792,
+   47.878,
+   "percent of people were responsible for\nmuch of"
+  ],
+  [
+   47.878,
+   49.42,
+   "the last century's direction."
+  ],
+  [
+   50.052,
+   53.137,
+   "About one point six trillion dollars in\nstudent"
+  ],
+  [
+   53.137,
+   56.223,
+   "loans with a ten point eight percent\ndefault"
+  ],
+  [
+   56.223,
+   56.608,
+   "rate."
+  ],
+  [
+   56.608,
+   59.694,
+   "That is a surprise the prior generation\ndid"
+  ],
+  [
+   59.694,
+   60.465,
+   "not budget."
+  ],
+  [
+   61.096,
+   63.025,
+   "The four most dangerous words:"
+  ],
+  [
+   63.025,
+   64.567,
+   "this time is different."
+  ],
+  [
+   64.567,
+   67.653,
+   "Templeton still admitted it is different\nat least"
+  ],
+  [
+   67.653,
+   69.581,
+   "twenty percent of the time."
+  ],
+  [
+   70.081,
+   73.211,
+   "The market fell more than ten percent from"
+  ],
+  [
+   73.211,
+   76.342,
+   "a recent high at least one hundred two"
+  ],
+  [
+   76.342,
+   76.733,
+   "times."
+  ],
+  [
+   76.733,
+   78.689,
+   "Surprise is the base rate."
+  ],
+  [
+   79.321,
+   82.451,
+   "Roughly ninety-nine point nine percent of\ncompanies ever"
+  ],
+  [
+   82.451,
+   84.408,
+   "created went out of business."
+  ],
+  [
+   84.408,
+   85.582,
+   "Failure is normal."
+  ],
+  [
+   86.213,
+   89.344,
+   "Inflation exceeded seven percent in twenty\nseparate years."
+  ],
+  [
+   89.344,
+   92.474,
+   "Your parents' price world is not a law."
+  ],
+  [
+   93.105,
+   96.236,
+   "One point six trillion dollars of student\nloans,"
+  ],
+  [
+   96.236,
+   98.192,
+   "ten point eight percent default."
+  ],
+  [
+   98.192,
+   101.323,
+   "A mass product the nineteen fifties\nplanner did"
+  ],
+  [
+   101.323,
+   102.105,
+   "not have."
+  ],
+  [
+   102.737,
+   105.867,
+   "Templeton's warning still allows that it\nis different"
+  ],
+  [
+   105.867,
+   108.606,
+   "at least twenty percent of the time."
+  ],
+  [
+   108.606,
+   109.78,
+   "Plan for both."
+  ],
+  [
+   110.28,
+   113.108,
+   "The next big event will not be in"
+  ],
+  [
+   113.108,
+   114.169,
+   "last decade's textbook."
+  ],
+  [
+   114.169,
+   116.997,
+   "Room for error is how you admit that."
+  ],
+  [
+   117.629,
+   120.457,
+   "Do not require a precise story of twenty"
+  ],
+  [
+   120.457,
+   120.811,
+   "thirty-five."
+  ],
+  [
+   120.811,
+   123.639,
+   "Require a life that survives a story you"
+  ],
+  [
+   123.639,
+   124.7,
+   "did not write."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch12.wav",
+   "volume": 1.0
+  }
+ }
+}

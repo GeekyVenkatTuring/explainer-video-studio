@@ -1,0 +1,351 @@
+{
+ "cuts": [
+  {
+   "id": "s01_title",
+   "type": "da_title",
+   "in_seconds": 0.0,
+   "out_seconds": 25.42,
+   "props": {
+    "dur": 26.02
+   }
+  },
+  {
+   "id": "s02_hook",
+   "type": "da_hook",
+   "in_seconds": 26.02,
+   "out_seconds": 56.111,
+   "props": {
+    "dur": 30.691
+   }
+  },
+  {
+   "id": "s03_div1",
+   "type": "da_div",
+   "in_seconds": 56.711,
+   "out_seconds": 63.246,
+   "props": {
+    "n": 1,
+    "title": "What a Rule Really Does",
+    "sub": "The loop behind every trading bot",
+    "color": "#38BDF8",
+    "dur": 7.135
+   }
+  },
+  {
+   "id": "s04_loop",
+   "type": "da_loop",
+   "in_seconds": 63.846,
+   "out_seconds": 120.464,
+   "props": {
+    "dur": 57.218
+   }
+  },
+  {
+   "id": "s05_market",
+   "type": "da_market",
+   "in_seconds": 121.064,
+   "out_seconds": 178.107,
+   "props": {
+    "dur": 57.643
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.054,
+   "A promise before we start."
+  ],
+  [
+   2.761,
+   6.458,
+   "Every idea here, I'll explain with something you\nalready"
+  ],
+  [
+   6.458,
+   6.868,
+   "know."
+  ],
+  [
+   7.575,
+   11.272,
+   "We'll use a method called ADEPT \u2014 analogy, diagram,"
+  ],
+  [
+   11.272,
+   14.148,
+   "example, plain words, then the technical term."
+  ],
+  [
+   14.854,
+   18.552,
+   "Today's topic: daily trading algorithms. How\nmachines actually trade,"
+  ],
+  [
+   18.552,
+   20.195,
+   "and the India reality."
+  ],
+  [
+   20.901,
+   24.598,
+   "None of this is investment advice. It's a way"
+  ],
+  [
+   24.598,
+   25.42,
+   "of thinking."
+  ],
+  [
+   26.02,
+   27.111,
+   "Here's a puzzle."
+  ],
+  [
+   27.818,
+   31.092,
+   "An order hits the exchange in the blink of"
+  ],
+  [
+   31.092,
+   31.82,
+   "an eye."
+  ],
+  [
+   32.526,
+   35.801,
+   "Nobody clicked a button. A rule did \u2014 a"
+  ],
+  [
+   35.801,
+   37.984,
+   "computer following instructions, with no emotion."
+  ],
+  [
+   38.69,
+   41.964,
+   "By financial year twenty twenty-four, twelve point\neight percent"
+  ],
+  [
+   41.964,
+   45.239,
+   "of N S E cash-market turnover was classified as"
+  ],
+  [
+   45.239,
+   45.603,
+   "algo."
+  ],
+  [
+   46.309,
+   49.583,
+   "That's one scoped number, not a claim about all"
+  ],
+  [
+   49.583,
+   49.947,
+   "trading."
+  ],
+  [
+   50.654,
+   53.928,
+   "So what is that rule really doing? Let's build"
+  ],
+  [
+   53.928,
+   56.111,
+   "it up, from the very beginning."
+  ],
+  [
+   56.711,
+   57.44,
+   "Part one."
+  ],
+  [
+   58.146,
+   61.425,
+   "What a trading rule actually does \u2014 the simple"
+  ],
+  [
+   61.425,
+   63.246,
+   "loop hiding inside every bot."
+  ],
+  [
+   63.846,
+   65.769,
+   "Think of a vending machine."
+  ],
+  [
+   66.476,
+   69.938,
+   "You meet its one condition \u2014 insert the coin"
+  ],
+  [
+   69.938,
+   73.4,
+   "\u2014 and it acts, the same way every single"
+  ],
+  [
+   73.4,
+   76.093,
+   "time, with no mood and no hesitation."
+  ],
+  [
+   76.799,
+   80.261,
+   "A trading algorithm has a loop just like that:"
+  ],
+  [
+   80.261,
+   83.724,
+   "it takes in data, forms a signal, checks risk,"
+  ],
+  [
+   83.724,
+   86.416,
+   "sends an order, and receives a fill."
+  ],
+  [
+   87.123,
+   90.585,
+   "Here's a real case. Suppose I decide: if the"
+  ],
+  [
+   90.585,
+   94.047,
+   "price crosses a line I chose, buy exactly one"
+  ],
+  [
+   94.047,
+   97.509,
+   "lot. The computer watches every tick, and the\ninstant"
+  ],
+  [
+   97.509,
+   100.971,
+   "that line is crossed, the order goes \u2014 just"
+  ],
+  [
+   100.971,
+   102.51,
+   "one, exactly as written."
+  ],
+  [
+   103.216,
+   106.678,
+   "In plain words, an algorithm turns incoming data\ninto"
+  ],
+  [
+   106.678,
+   109.371,
+   "controlled orders, and then keeps watching itself."
+  ],
+  [
+   110.078,
+   113.54,
+   "The technical name for all of this is algorithmic"
+  ],
+  [
+   113.54,
+   117.002,
+   "trading, and the authenticated pipe it sends orders\nthrough"
+  ],
+  [
+   117.002,
+   120.464,
+   "is called direct market access, or D M A."
+  ],
+  [
+   121.064,
+   123.907,
+   "Now, not everything fast is an algo."
+  ],
+  [
+   124.614,
+   128.269,
+   "Picture a highway: some cars drive themselves, some\nsit"
+  ],
+  [
+   128.269,
+   131.925,
+   "in a fast lane near the toll, and some"
+  ],
+  [
+   131.925,
+   133.144,
+   "rented the on-ramp."
+  ],
+  [
+   133.85,
+   137.506,
+   "Those are three different things. On N S E"
+  ],
+  [
+   137.506,
+   141.161,
+   "cash market in financial year twenty twenty-four,\nalgo was"
+  ],
+  [
+   141.161,
+   144.817,
+   "twelve point eight percent of turnover, while\nco-location was"
+  ],
+  [
+   144.817,
+   148.473,
+   "thirty-four point three percent \u2014 and co-location is\nnot"
+  ],
+  [
+   148.473,
+   149.691,
+   "an algo share."
+  ],
+  [
+   150.398,
+   154.054,
+   "In the United States, the I M F put"
+  ],
+  [
+   154.054,
+   157.709,
+   "algo near seventy percent of equity trading \u2014 a"
+  ],
+  [
+   157.709,
+   159.74,
+   "U S figure, not India."
+  ],
+  [
+   160.447,
+   164.102,
+   "Here's the example that matters: a co-located order\ncan"
+  ],
+  [
+   164.102,
+   166.539,
+   "still be placed by a human."
+  ],
+  [
+   167.246,
+   170.902,
+   "Plainly: automation, speed, and access are three\nseparate choices."
+  ],
+  [
+   171.608,
+   175.264,
+   "The technical point \u2014 high-frequency trading is just\na"
+  ],
+  [
+   175.264,
+   178.107,
+   "fast subset; the India-wide share stays unverified."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "da/ch01.wav",
+   "volume": 1.0
+  }
+ }
+}

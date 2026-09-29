@@ -1,0 +1,2230 @@
+{
+ "cuts": [
+  {
+   "id": "t00",
+   "type": "fq_title",
+   "in_seconds": 0.0,
+   "out_seconds": 16.251,
+   "props": {
+    "dur": 16.751
+   }
+  },
+  {
+   "id": "t01",
+   "type": "fq_lenses",
+   "in_seconds": 16.751,
+   "out_seconds": 47.784,
+   "props": {
+    "dur": 31.533
+   }
+  },
+  {
+   "id": "d1",
+   "type": "fq_divider",
+   "in_seconds": 48.284,
+   "out_seconds": 56.785,
+   "props": {
+    "n": 1,
+    "title": "Fundamentals",
+    "sub": "The health of the business behind the share",
+    "color": "#34D399",
+    "pips": 3,
+    "dur": 9.001
+   }
+  },
+  {
+   "id": "f01",
+   "type": "fq_share",
+   "in_seconds": 57.285,
+   "out_seconds": 88.922,
+   "props": {
+    "dur": 32.137
+   }
+  },
+  {
+   "id": "f02",
+   "type": "fq_pe",
+   "in_seconds": 89.422,
+   "out_seconds": 127.264,
+   "props": {
+    "dur": 38.342
+   }
+  },
+  {
+   "id": "f03",
+   "type": "fq_pb",
+   "in_seconds": 127.764,
+   "out_seconds": 153.947,
+   "props": {
+    "dur": 26.683
+   }
+  },
+  {
+   "id": "f04",
+   "type": "fq_roe",
+   "in_seconds": 154.447,
+   "out_seconds": 189.951,
+   "props": {
+    "dur": 36.004
+   }
+  },
+  {
+   "id": "f05",
+   "type": "fq_debt",
+   "in_seconds": 190.451,
+   "out_seconds": 216.16,
+   "props": {
+    "dur": 26.209
+   }
+  },
+  {
+   "id": "f06",
+   "type": "fq_growth",
+   "in_seconds": 216.66,
+   "out_seconds": 250.769,
+   "props": {
+    "dur": 34.609
+   }
+  },
+  {
+   "id": "f07",
+   "type": "fq_apply_fa",
+   "in_seconds": 251.269,
+   "out_seconds": 282.269,
+   "props": {
+    "dur": 31.5
+   }
+  },
+  {
+   "id": "d2",
+   "type": "fq_divider",
+   "in_seconds": 282.769,
+   "out_seconds": 291.065,
+   "props": {
+    "n": 2,
+    "title": "Technicals",
+    "sub": "Reading the price: trend, momentum, timing",
+    "color": "#FBBF24",
+    "pips": 3,
+    "dur": 8.796
+   }
+  },
+  {
+   "id": "g01",
+   "type": "fq_chart",
+   "in_seconds": 291.565,
+   "out_seconds": 317.236,
+   "props": {
+    "dur": 26.171
+   }
+  },
+  {
+   "id": "g02",
+   "type": "fq_dma",
+   "in_seconds": 317.736,
+   "out_seconds": 347.089,
+   "props": {
+    "dur": 29.853
+   }
+  },
+  {
+   "id": "g03",
+   "type": "fq_rsi",
+   "in_seconds": 347.589,
+   "out_seconds": 379.007,
+   "props": {
+    "dur": 31.918
+   }
+  },
+  {
+   "id": "g04",
+   "type": "fq_volbeta",
+   "in_seconds": 379.507,
+   "out_seconds": 407.914,
+   "props": {
+    "dur": 28.907
+   }
+  },
+  {
+   "id": "g05",
+   "type": "fq_52w",
+   "in_seconds": 408.414,
+   "out_seconds": 429.846,
+   "props": {
+    "dur": 21.932
+   }
+  },
+  {
+   "id": "g06",
+   "type": "fq_apply_ta",
+   "in_seconds": 430.346,
+   "out_seconds": 460.074,
+   "props": {
+    "dur": 30.228
+   }
+  },
+  {
+   "id": "d3",
+   "type": "fq_divider",
+   "in_seconds": 460.574,
+   "out_seconds": 469.501,
+   "props": {
+    "n": 3,
+    "title": "The Plan",
+    "sub": "One verdict \u2014 then finding and buying stocks",
+    "color": "#4F8DF5",
+    "pips": 3,
+    "dur": 9.427
+   }
+  },
+  {
+   "id": "a01",
+   "type": "fq_score",
+   "in_seconds": 470.001,
+   "out_seconds": 499.576,
+   "props": {
+    "dur": 30.075
+   }
+  },
+  {
+   "id": "a02",
+   "type": "fq_concentration",
+   "in_seconds": 500.076,
+   "out_seconds": 530.324,
+   "props": {
+    "dur": 30.748
+   }
+  },
+  {
+   "id": "a03",
+   "type": "fq_funnel",
+   "in_seconds": 530.824,
+   "out_seconds": 561.341,
+   "props": {
+    "dur": 31.017
+   }
+  },
+  {
+   "id": "a04",
+   "type": "fq_picks",
+   "in_seconds": 561.841,
+   "out_seconds": 585.304,
+   "props": {
+    "dur": 23.963
+   }
+  },
+  {
+   "id": "a05",
+   "type": "fq_targets",
+   "in_seconds": 585.804,
+   "out_seconds": 614.842,
+   "props": {
+    "dur": 29.538
+   }
+  },
+  {
+   "id": "a06",
+   "type": "fq_valuation",
+   "in_seconds": 615.342,
+   "out_seconds": 651.228,
+   "props": {
+    "dur": 36.386
+   }
+  },
+  {
+   "id": "a07",
+   "type": "fq_gtt",
+   "in_seconds": 651.728,
+   "out_seconds": 683.059,
+   "props": {
+    "dur": 31.831
+   }
+  },
+  {
+   "id": "p1",
+   "type": "fq_pickdetail",
+   "in_seconds": 683.559,
+   "out_seconds": 729.936,
+   "props": {
+    "tk": "HAL",
+    "theme": "Defence \u00b7 aircraft",
+    "cap": "Large",
+    "conv": "High",
+    "month": 1,
+    "line": "India's fighter-jet monopoly",
+    "color": "#4F8DF5",
+    "fa": {
+     "pe": 34.9,
+     "pb": 7.92,
+     "roe": 24.0,
+     "roce": 32.0,
+     "de": 0.0,
+     "prom": 71.64,
+     "valflag": "Fair"
+    },
+    "ta": {
+     "ltp": 4861.1,
+     "s200": 4383,
+     "d200": 10.9,
+     "rsi": 52.7,
+     "beta": 0.97,
+     "mdd": -29.1,
+     "pos52": 85,
+     "lo52": 3487.2,
+     "hi52": 5099
+    },
+    "sc": {
+     "q": 78,
+     "t": 93,
+     "v": 60,
+     "c": 100,
+     "comp": 83
+    },
+    "cat": "First Tejas Mk1A jets deliver in FY27; a \u20b92.55 lakh-crore order book; Q1 profit already up 14% before jet revenue lands.",
+    "bear": "Engine and integration delays; over 90% of sales depend on a single buyer \u2014 the Ministry of Defence.",
+    "plan": {
+     "leg1": 4760,
+     "leg2": 4560,
+     "avg": 4675,
+     "stop": 4090,
+     "stopPct": -13.2,
+     "tgt": 5099,
+     "tgtPct": 9.1
+    },
+    "dur": 46.877
+   }
+  },
+  {
+   "id": "p2",
+   "type": "fq_pickdetail",
+   "in_seconds": 730.436,
+   "out_seconds": 776.521,
+   "props": {
+    "tk": "DIXON",
+    "theme": "Electronics \u00b7 EMS",
+    "cap": "Mid",
+    "conv": "Medium",
+    "month": 2,
+    "line": "India's electronics factory",
+    "color": "#34D399",
+    "fa": {
+     "pe": 47.7,
+     "pb": 19.05,
+     "roe": 37.4,
+     "roce": 42.0,
+     "de": 0.21,
+     "prom": 28.55,
+     "valflag": "Cheap"
+    },
+    "ta": {
+     "ltp": 14650,
+     "s200": 12230,
+     "d200": 19.8,
+     "rsi": 58.7,
+     "beta": 1.53,
+     "mdd": -47.2,
+     "pos52": 57,
+     "lo52": 9673,
+     "hi52": 18177
+    },
+    "sc": {
+     "q": 85,
+     "t": 91,
+     "v": 80,
+     "c": 60,
+     "comp": 80
+    },
+    "cat": "Vivo joint venture cleared \u2014 \u20b935\u201340k crore of new revenue from FY28 \u2014 plus PLI 2.0 export incentives; an elite 37% ROE.",
+    "bear": "FY27 margins bottom near 3%; PLI rules unfinalised; heavy dependence on a few large clients.",
+    "plan": {
+     "leg1": 14300,
+     "leg2": 13700,
+     "avg": 13960,
+     "stop": 12100,
+     "stopPct": -14.0,
+     "tgt": 18177,
+     "tgtPct": 30.2
+    },
+    "dur": 46.585
+   }
+  },
+  {
+   "id": "p3",
+   "type": "fq_pickdetail",
+   "in_seconds": 777.021,
+   "out_seconds": 821.085,
+   "props": {
+    "tk": "KEI",
+    "theme": "Cables & wires",
+    "cap": "Mid",
+    "conv": "Medium",
+    "month": 3,
+    "line": "the electrification compounder",
+    "color": "#4F8DF5",
+    "fa": {
+     "pe": 53.4,
+     "pb": 7.99,
+     "roe": 14.8,
+     "roce": 20.1,
+     "de": 0.04,
+     "prom": 35.0,
+     "valflag": "Fair"
+    },
+    "ta": {
+     "ltp": 5570,
+     "s200": 4749,
+     "d200": 17.3,
+     "rsi": 54.9,
+     "beta": 1.18,
+     "mdd": -23.3,
+     "pos52": 85,
+     "lo52": 3805.2,
+     "hi52": 5873
+    },
+    "sc": {
+     "q": 67,
+     "t": 93,
+     "v": 60,
+     "c": 60,
+     "comp": 71
+    },
+    "cat": "India's electrification, data-centre and grid boom; a \u20b94,292-crore order book, debt-free, with a new EHV plant by 2027.",
+    "bear": "Export disruption and duties; a slower plant ramp; copper-price and competitive pressure.",
+    "plan": {
+     "leg1": 5420,
+     "leg2": 5150,
+     "avg": 5310,
+     "stop": 4780,
+     "stopPct": -10.5,
+     "tgt": 5873,
+     "tgtPct": 10.6
+    },
+    "dur": 44.564
+   }
+  },
+  {
+   "id": "p4",
+   "type": "fq_pickdetail",
+   "in_seconds": 821.585,
+   "out_seconds": 865.741,
+   "props": {
+    "tk": "SYRMA",
+    "theme": "Electronics \u00b7 EMS",
+    "cap": "Small",
+    "conv": "Medium",
+    "month": 4,
+    "line": "small-cap, pure momentum",
+    "color": "#FBBF24",
+    "fa": {
+     "pe": 76.5,
+     "pb": 9.96,
+     "roe": 14.0,
+     "roce": 16.8,
+     "de": 0.14,
+     "prom": 42.28,
+     "valflag": "Fair"
+    },
+    "ta": {
+     "ltp": 1474.3,
+     "s200": 1008.4,
+     "d200": 46.2,
+     "rsi": 56.5,
+     "beta": 1.32,
+     "mdd": -29.1,
+     "pos52": 95,
+     "lo52": 640.1,
+     "hi52": 1516.4
+    },
+    "sc": {
+     "q": 71,
+     "t": 94,
+     "v": 60,
+     "c": 60,
+     "comp": 73
+    },
+    "cat": "Growth already printing \u2014 Q1 revenue up 68%, profit nearly doubled; a \u20b96,800-crore book and exports up 60%.",
+    "bear": "A strategic inventory build dilutes returns on capital; a lower-margin consumer mix.",
+    "plan": {
+     "leg1": 1420,
+     "leg2": 1320,
+     "avg": 1376,
+     "stop": 1190,
+     "stopPct": -14.3,
+     "tgt": 1516,
+     "tgtPct": 10.2
+    },
+    "dur": 44.656
+   }
+  },
+  {
+   "id": "p5",
+   "type": "fq_pickdetail",
+   "in_seconds": 866.241,
+   "out_seconds": 914.304,
+   "props": {
+    "tk": "DATAPATTNS",
+    "theme": "Defence electronics",
+    "cap": "Small",
+    "conv": "Medium",
+    "month": 5,
+    "line": "radar & avionics, priced for perfection",
+    "color": "#FBBF24",
+    "fa": {
+     "pe": 95.8,
+     "pb": 14.92,
+     "roe": 15.2,
+     "roce": 21.9,
+     "de": 0.0,
+     "prom": 42.41,
+     "valflag": "Expensive"
+    },
+    "ta": {
+     "ltp": 4624.8,
+     "s200": 3543.5,
+     "d200": 30.5,
+     "rsi": 52.2,
+     "beta": 1.14,
+     "mdd": -29.9,
+     "pos52": 91,
+     "lo52": 2182.5,
+     "hi52": 4866
+    },
+    "sc": {
+     "q": 78,
+     "t": 93,
+     "v": 35,
+     "c": 60,
+     "comp": 70
+    },
+    "cat": "Fresh \u20b9771-crore orders, including a \u20b9586-crore BEL radar contract; up 93% in a year; buying STAC for backward integration.",
+    "bear": "A 96-times multiple leaves no room for error; lumpy programme timing; heavy reliance on BEL as a customer.",
+    "plan": {
+     "leg1": 4480,
+     "leg2": 4200,
+     "avg": 4349,
+     "stop": 3920,
+     "stopPct": -10.6,
+     "tgt": 4866,
+     "tgtPct": 11.9
+    },
+    "dur": 48.563
+   }
+  },
+  {
+   "id": "r00",
+   "type": "fq_recap",
+   "in_seconds": 914.804,
+   "out_seconds": 945.147,
+   "props": {
+    "items": [
+     "Fundamentals \u2014 is the business good, and fairly priced?",
+     "Technicals \u2014 what is the price doing: trend, momentum, timing?",
+     "One score blends quality, trend, value and risk into a call",
+     "Diversify \u2014 concentration is the risk you actually control",
+     "A price target is a range: value it bear, base, and bull",
+     "Buy staggered, on dips \u2014 and always set a stop-loss"
+    ],
+    "closer": "Learn the tools. Then decide for yourself.",
+    "dur": 30.843
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.005,
+   "This is a real stock portfolio \u2014 worth fifty-nine"
+  ],
+  [
+   3.005,
+   3.673,
+   "thousand rupees."
+  ],
+  [
+   4.304,
+   6.307,
+   "Seven holdings. Some winning, some losing."
+  ],
+  [
+   6.939,
+   9.61,
+   "But how do you actually judge a stock?"
+  ],
+  [
+   10.241,
+   13.246,
+   "In the next few minutes, we'll learn to read"
+  ],
+  [
+   13.246,
+   16.251,
+   "one like a professional \u2014 from the very beginning."
+  ],
+  [
+   16.751,
+   19.16,
+   "Every stock can be judged two ways."
+  ],
+  [
+   19.792,
+   22.889,
+   "The first lens is fundamental analysis. It asks a"
+  ],
+  [
+   22.889,
+   25.986,
+   "simple question \u2014 is the business good, and is"
+  ],
+  [
+   25.986,
+   27.018,
+   "the price fair?"
+  ],
+  [
+   27.65,
+   30.747,
+   "It looks at how much a company earns, how"
+  ],
+  [
+   30.747,
+   33.844,
+   "well it earns it, and what you pay for"
+  ],
+  [
+   33.844,
+   34.189,
+   "that."
+  ],
+  [
+   34.82,
+   37.917,
+   "The second lens is technical analysis. It ignores\nthe"
+  ],
+  [
+   37.917,
+   41.015,
+   "business, and asks \u2014 what is the price actually"
+  ],
+  [
+   41.015,
+   41.359,
+   "doing?"
+  ],
+  [
+   41.99,
+   44.055,
+   "The trend, the momentum, the timing."
+  ],
+  [
+   44.687,
+   47.784,
+   "Great investors use both. Let's start with the\nfirst."
+  ],
+  [
+   48.284,
+   49.408,
+   "Part one. Fundamentals."
+  ],
+  [
+   50.04,
+   53.412,
+   "The health of the business behind the share \u2014"
+  ],
+  [
+   53.412,
+   56.785,
+   "earnings, quality, and value. Let's build it from\nzero."
+  ],
+  [
+   57.285,
+   59.127,
+   "First, what is a share?"
+  ],
+  [
+   59.759,
+   63.075,
+   "It's one tiny slice of a real company. Buy"
+  ],
+  [
+   63.075,
+   66.392,
+   "one share of HDFC Bank, and you own a"
+  ],
+  [
+   66.392,
+   69.708,
+   "sliver of that bank \u2014 its profits, and its"
+  ],
+  [
+   69.708,
+   70.077,
+   "risks."
+  ],
+  [
+   70.708,
+   74.025,
+   "Today, one slice costs seven hundred and twenty\nrupees."
+  ],
+  [
+   74.656,
+   77.973,
+   "Multiply that price by the total number of shares,"
+  ],
+  [
+   77.973,
+   81.289,
+   "and you get the market cap \u2014 how big"
+  ],
+  [
+   81.289,
+   82.763,
+   "the whole company is."
+  ],
+  [
+   83.395,
+   86.711,
+   "That size sorts the market into small-caps,\nmid-caps, and"
+  ],
+  [
+   86.711,
+   88.922,
+   "large-caps. HDFC Bank is a large-cap."
+  ],
+  [
+   89.422,
+   92.779,
+   "Now the most famous number in investing \u2014 the"
+  ],
+  [
+   92.779,
+   93.524,
+   "P, E."
+  ],
+  [
+   94.156,
+   97.513,
+   "First, earnings per share, or E P S. That's"
+  ],
+  [
+   97.513,
+   100.496,
+   "the company's yearly profit, split across every\nshare."
+  ],
+  [
+   101.128,
+   104.484,
+   "The P E is just the price divided by"
+  ],
+  [
+   104.484,
+   105.23,
+   "that profit."
+  ],
+  [
+   105.862,
+   109.218,
+   "It tells you how many rupees you pay for"
+  ],
+  [
+   109.218,
+   111.083,
+   "one rupee of yearly profit."
+  ],
+  [
+   111.715,
+   115.071,
+   "HDFC Bank at seven-twenty, with about fifty-one\nrupees of"
+  ],
+  [
+   115.071,
+   117.682,
+   "profit per share, trades near fourteen times."
+  ],
+  [
+   118.313,
+   121.67,
+   "In plain terms \u2014 you pay fourteen rupees for"
+  ],
+  [
+   121.67,
+   125.026,
+   "one rupee of profit. Roughly fourteen years to earn"
+  ],
+  [
+   125.026,
+   127.264,
+   "it back. Lower is usually cheaper."
+  ],
+  [
+   127.764,
+   129.043,
+   "Next, price to book."
+  ],
+  [
+   129.674,
+   132.551,
+   "Book value is what a company would be worth"
+  ],
+  [
+   132.551,
+   135.429,
+   "if you sold everything and paid off every debt"
+  ],
+  [
+   135.429,
+   137.347,
+   "\u2014 its net worth, per share."
+  ],
+  [
+   137.978,
+   140.856,
+   "Price to book is the price divided by that"
+  ],
+  [
+   140.856,
+   141.495,
+   "net worth."
+  ],
+  [
+   142.126,
+   145.004,
+   "Below one means you're buying it for less than"
+  ],
+  [
+   145.004,
+   145.963,
+   "its own assets."
+  ],
+  [
+   146.594,
+   149.471,
+   "It matters most for banks. HDFC Bank trades near"
+  ],
+  [
+   149.471,
+   152.349,
+   "one point eight times its book \u2014 a fair"
+  ],
+  [
+   152.349,
+   153.947,
+   "price for a quality lender."
+  ],
+  [
+   154.447,
+   157.98,
+   "Here's the one that separates great businesses from\naverage"
+  ],
+  [
+   157.98,
+   159.943,
+   "ones \u2014 return on equity."
+  ],
+  [
+   160.575,
+   164.108,
+   "It's the yearly profit divided by the shareholders'\nmoney"
+  ],
+  [
+   164.108,
+   165.286,
+   "in the business."
+  ],
+  [
+   165.918,
+   169.451,
+   "It answers \u2014 for every hundred rupees the owners"
+  ],
+  [
+   169.451,
+   172.984,
+   "put in, how much profit comes back each year?"
+  ],
+  [
+   173.616,
+   177.149,
+   "Infosys earns about thirty-two rupees on every\nhundred. That's"
+  ],
+  [
+   177.149,
+   179.505,
+   "a thirty-two percent return on equity."
+  ],
+  [
+   180.136,
+   183.67,
+   "High, consistent returns are a compounding engine \u2014\nthe"
+  ],
+  [
+   183.67,
+   187.203,
+   "single biggest sign of a quality business. Its\ncousin,"
+  ],
+  [
+   187.203,
+   189.951,
+   "return on capital, tells the same story."
+  ],
+  [
+   190.451,
+   191.739,
+   "Three quick health checks."
+  ],
+  [
+   192.371,
+   195.268,
+   "Debt to equity \u2014 how much the company borrows"
+  ],
+  [
+   195.268,
+   197.522,
+   "against its own money. Low is safer."
+  ],
+  [
+   198.154,
+   201.052,
+   "Promoter holding \u2014 how much the founders still own."
+  ],
+  [
+   201.052,
+   203.949,
+   "High means their skin is in the game with"
+  ],
+  [
+   203.949,
+   204.271,
+   "yours."
+  ],
+  [
+   204.903,
+   207.801,
+   "And dividend yield \u2014 the cash the company pays"
+  ],
+  [
+   207.801,
+   210.699,
+   "you each year, as a percent of the price."
+  ],
+  [
+   211.33,
+   214.228,
+   "Together, these tell you if the balance sheet is"
+  ],
+  [
+   214.228,
+   216.16,
+   "sound and the owners are aligned."
+  ],
+  [
+   216.66,
+   218.679,
+   "A cheap stock isn't always cheap."
+  ],
+  [
+   219.31,
+   222.002,
+   "What if a company grows its profit fast?"
+  ],
+  [
+   222.633,
+   225.661,
+   "Then a high price to earnings can still be"
+  ],
+  [
+   225.661,
+   226.334,
+   "a bargain."
+  ],
+  [
+   226.965,
+   229.993,
+   "We measure growth as the yearly rate profits have"
+  ],
+  [
+   229.993,
+   230.33,
+   "climbed."
+  ],
+  [
+   230.961,
+   233.989,
+   "And we adjust the P E for it, using"
+  ],
+  [
+   233.989,
+   237.017,
+   "the P E G \u2014 the P E divided"
+  ],
+  [
+   237.017,
+   238.363,
+   "by the growth rate."
+  ],
+  [
+   238.994,
+   242.022,
+   "Dixon trades at forty-seven times earnings \u2014\nexpensive on"
+  ],
+  [
+   242.022,
+   245.05,
+   "the surface. But it grows profits near seventy-seven\npercent,"
+  ],
+  [
+   245.05,
+   248.078,
+   "so its P E G is about zero point"
+  ],
+  [
+   248.078,
+   250.769,
+   "six. Below one \u2014 cheap for that growth."
+  ],
+  [
+   251.269,
+   254.491,
+   "Let's put it together on one stock \u2014 HDFC"
+  ],
+  [
+   254.491,
+   254.849,
+   "Bank."
+  ],
+  [
+   255.481,
+   258.703,
+   "Price to earnings, fourteen \u2014 cheap for a big"
+  ],
+  [
+   258.703,
+   259.061,
+   "bank."
+  ],
+  [
+   259.693,
+   262.557,
+   "Price to book, one point eight \u2014 fair."
+  ],
+  [
+   263.189,
+   266.411,
+   "Return on equity, near fourteen percent \u2014 solid and"
+  ],
+  [
+   266.411,
+   266.769,
+   "steady."
+  ],
+  [
+   267.401,
+   270.623,
+   "Low debt, a dividend, and India's most trusted\nprivate"
+  ],
+  [
+   270.623,
+   270.981,
+   "bank."
+  ],
+  [
+   271.612,
+   274.835,
+   "The verdict from fundamentals alone \u2014 a quality\nbusiness"
+  ],
+  [
+   274.835,
+   276.267,
+   "at a reasonable price."
+  ],
+  [
+   276.899,
+   280.121,
+   "But fundamentals never tell you when to buy. For"
+  ],
+  [
+   280.121,
+   282.269,
+   "that, we need the second lens."
+  ],
+  [
+   282.769,
+   283.864,
+   "Part two. Technicals."
+  ],
+  [
+   284.495,
+   287.78,
+   "Now we ignore the business, and read only the"
+  ],
+  [
+   287.78,
+   291.065,
+   "price \u2014 the trend, the momentum, and the timing."
+  ],
+  [
+   291.565,
+   294.458,
+   "A price chart is just the story of what"
+  ],
+  [
+   294.458,
+   297.03,
+   "buyers and sellers have agreed on, over time."
+  ],
+  [
+   297.661,
+   299.59,
+   "Every point is a closing price."
+  ],
+  [
+   300.222,
+   303.115,
+   "The first thing we read is returns \u2014 how"
+  ],
+  [
+   303.115,
+   306.008,
+   "much the price has moved, over a month, six"
+  ],
+  [
+   306.008,
+   306.972,
+   "months, a year."
+  ],
+  [
+   307.604,
+   310.497,
+   "Up and to the right is an uptrend. Down"
+  ],
+  [
+   310.497,
+   312.426,
+   "is a downtrend. Sideways is indecision."
+  ],
+  [
+   313.057,
+   315.95,
+   "But raw price is noisy. To see the real"
+  ],
+  [
+   315.95,
+   317.236,
+   "trend, we smooth it."
+  ],
+  [
+   317.736,
+   319.882,
+   "That smoothing is a moving average."
+  ],
+  [
+   320.514,
+   323.733,
+   "It's simple \u2014 take the last fifty closing prices"
+  ],
+  [
+   323.733,
+   326.952,
+   "and average them. Do that every day, and you"
+  ],
+  [
+   326.952,
+   329.814,
+   "get a smooth line that follows the trend."
+  ],
+  [
+   330.445,
+   333.664,
+   "Two are famous \u2014 the fifty-day and the\ntwo-hundred-day."
+  ],
+  [
+   334.296,
+   337.515,
+   "The fifty-day is the short-term trend. The\ntwo-hundred-day is"
+  ],
+  [
+   337.515,
+   338.588,
+   "the long-term trend."
+  ],
+  [
+   339.22,
+   342.439,
+   "The rule of thumb \u2014 when the price is"
+  ],
+  [
+   342.439,
+   345.658,
+   "above the two-hundred-day line, the tide is with\nyou."
+  ],
+  [
+   345.658,
+   347.089,
+   "Below it, be careful."
+  ],
+  [
+   347.589,
+   350.252,
+   "Next, momentum \u2014 how strong a move is."
+  ],
+  [
+   350.884,
+   353.879,
+   "The tool is the R S I, a number"
+  ],
+  [
+   353.879,
+   355.544,
+   "from zero to a hundred."
+  ],
+  [
+   356.175,
+   359.171,
+   "It compares the size of recent gains to recent"
+  ],
+  [
+   359.171,
+   359.504,
+   "losses."
+  ],
+  [
+   360.136,
+   363.132,
+   "Above seventy, the stock is overbought \u2014 it's run"
+  ],
+  [
+   363.132,
+   364.463,
+   "hot and may pause."
+  ],
+  [
+   365.095,
+   368.091,
+   "Below thirty, it's oversold \u2014 beaten down and may"
+  ],
+  [
+   368.091,
+   368.423,
+   "bounce."
+  ],
+  [
+   369.055,
+   372.051,
+   "Between forty-five and sixty-five is a healthy,\nsustainable trend."
+  ],
+  [
+   372.682,
+   375.678,
+   "The R S I doesn't tell you direction \u2014"
+  ],
+  [
+   375.678,
+   378.674,
+   "it tells you whether a move has gone too"
+  ],
+  [
+   378.674,
+   379.007,
+   "far."
+  ],
+  [
+   379.507,
+   380.529,
+   "Three risk gauges."
+  ],
+  [
+   381.16,
+   384.225,
+   "Volatility measures how wildly a price swings, day\nto"
+  ],
+  [
+   384.225,
+   386.268,
+   "day. Higher means a bumpier ride."
+  ],
+  [
+   386.9,
+   389.965,
+   "Beta compares a stock to the whole market \u2014"
+  ],
+  [
+   389.965,
+   393.029,
+   "the Nifty. A beta of one moves with the"
+  ],
+  [
+   393.029,
+   396.094,
+   "market. Above one amplifies it \u2014 more reward, more"
+  ],
+  [
+   396.094,
+   396.435,
+   "risk."
+  ],
+  [
+   397.066,
+   400.131,
+   "And maximum drawdown is the worst fall, from a"
+  ],
+  [
+   400.131,
+   401.493,
+   "peak to a low."
+  ],
+  [
+   402.125,
+   405.19,
+   "It's the pain you'd have had to sit through."
+  ],
+  [
+   405.19,
+   407.914,
+   "Knowing it before you buy keeps you honest."
+  ],
+  [
+   408.414,
+   410.016,
+   "One more, and it's intuitive."
+  ],
+  [
+   410.648,
+   413.532,
+   "The fifty-two-week range is simply the highest and\nlowest"
+  ],
+  [
+   413.532,
+   415.134,
+   "price of the past year."
+  ],
+  [
+   415.765,
+   418.649,
+   "Where the price sits inside that range tells you"
+  ],
+  [
+   418.649,
+   419.29,
+   "a lot."
+  ],
+  [
+   419.922,
+   422.806,
+   "Near the high, the stock has momentum \u2014 but"
+  ],
+  [
+   422.806,
+   425.69,
+   "less room. Near the low, it's cheap on the"
+  ],
+  [
+   425.69,
+   427.933,
+   "chart \u2014 but the trend is weak."
+  ],
+  [
+   428.564,
+   429.846,
+   "Context, in one glance."
+  ],
+  [
+   430.346,
+   432.444,
+   "Let's read one chart \u2014 Reliance."
+  ],
+  [
+   433.075,
+   436.222,
+   "The price is below its two-hundred-day line, so the"
+  ],
+  [
+   436.222,
+   437.62,
+   "long-term trend is weak."
+  ],
+  [
+   438.252,
+   441.398,
+   "Its R S I is around forty-three \u2014 neither"
+  ],
+  [
+   441.398,
+   442.447,
+   "overbought nor oversold."
+  ],
+  [
+   443.079,
+   446.225,
+   "And it sits near the bottom of its yearly"
+  ],
+  [
+   446.225,
+   447.973,
+   "range, at just eight percent."
+  ],
+  [
+   448.605,
+   451.751,
+   "Its beta is under one, so it's calmer than"
+  ],
+  [
+   451.751,
+   452.45,
+   "the market."
+  ],
+  [
+   453.082,
+   456.228,
+   "The technical read \u2014 a weak tape, but a"
+  ],
+  [
+   456.228,
+   459.375,
+   "beaten-down, low-risk name. The chart says wait; the\nfundamentals"
+  ],
+  [
+   459.375,
+   460.074,
+   "said cheap."
+  ],
+  [
+   460.574,
+   462.897,
+   "Part three. The verdict, and the plan."
+  ],
+  [
+   463.528,
+   466.515,
+   "We'll turn all these numbers into one call \u2014"
+  ],
+  [
+   466.515,
+   469.501,
+   "then find new stocks, and buy them with discipline."
+  ],
+  [
+   470.001,
+   471.915,
+   "So how do we decide?"
+  ],
+  [
+   472.547,
+   474.844,
+   "We don't trust any single number."
+  ],
+  [
+   475.476,
+   478.921,
+   "We score each stock on four independent things \u2014"
+  ],
+  [
+   478.921,
+   482.367,
+   "quality, trend, valuation, and risk \u2014 each from zero"
+  ],
+  [
+   482.367,
+   483.516,
+   "to a hundred."
+  ],
+  [
+   484.147,
+   487.593,
+   "Then we blend them, weighting quality and trend the"
+  ],
+  [
+   487.593,
+   489.507,
+   "most, into one composite score."
+  ],
+  [
+   490.139,
+   493.584,
+   "Sixty-four or above, accumulate. In the mid-fifties,\nadd on"
+  ],
+  [
+   493.584,
+   497.03,
+   "dips. In the forties, just hold. Below that, trim."
+  ],
+  [
+   497.662,
+   499.576,
+   "One number, four honest inputs."
+  ],
+  [
+   500.076,
+   503.086,
+   "But before any single stock, check the whole\nportfolio."
+  ],
+  [
+   503.718,
+   506.728,
+   "Here's the biggest risk in this real book \u2014"
+  ],
+  [
+   506.728,
+   508.734,
+   "and it isn't any one share."
+  ],
+  [
+   509.366,
+   512.376,
+   "One holding is almost sixty percent of the money."
+  ],
+  [
+   513.007,
+   516.017,
+   "So even with seven names, you effectively own only"
+  ],
+  [
+   516.017,
+   518.359,
+   "about two and a half independent bets."
+  ],
+  [
+   518.99,
+   522.0,
+   "That's concentration. If that one stock stumbles,\nthe whole"
+  ],
+  [
+   522.0,
+   522.669,
+   "portfolio does."
+  ],
+  [
+   523.301,
+   526.311,
+   "And it listed less than three weeks ago. Rule"
+  ],
+  [
+   526.311,
+   529.321,
+   "one of investing \u2014 don't put all your eggs"
+  ],
+  [
+   529.321,
+   530.324,
+   "in one basket."
+  ],
+  [
+   530.824,
+   532.373,
+   "Now, finding new stocks."
+  ],
+  [
+   533.005,
+   536.491,
+   "Two thousand companies trade on the exchange. How do"
+  ],
+  [
+   536.491,
+   538.041,
+   "you get to five?"
+  ],
+  [
+   538.672,
+   539.447,
+   "A funnel."
+  ],
+  [
+   540.078,
+   543.565,
+   "First, keep only names liquid enough to buy and"
+  ],
+  [
+   543.565,
+   544.339,
+   "sell easily."
+  ],
+  [
+   544.971,
+   548.457,
+   "Then only sectors that are actually growing \u2014\ndefence,"
+  ],
+  [
+   548.457,
+   549.232,
+   "electronics, power."
+  ],
+  [
+   549.863,
+   553.35,
+   "Then only companies with a real record of rising"
+  ],
+  [
+   553.35,
+   553.737,
+   "profits."
+  ],
+  [
+   554.369,
+   557.855,
+   "Two thousand becomes about forty, then a shortlist\nof"
+  ],
+  [
+   557.855,
+   561.341,
+   "twenty-three worth studying \u2014 and finally, five\nworth buying."
+  ],
+  [
+   561.841,
+   564.982,
+   "And here they are \u2014 five to add, one"
+  ],
+  [
+   564.982,
+   565.679,
+   "a month."
+  ],
+  [
+   566.311,
+   569.451,
+   "A defence anchor, an electronics leader, a cables\ncompounder,"
+  ],
+  [
+   569.451,
+   571.545,
+   "and two small-caps with real momentum."
+  ],
+  [
+   572.177,
+   574.968,
+   "Each scored the same way you just learned."
+  ],
+  [
+   575.6,
+   578.74,
+   "Higher potential upside \u2014 and, to be honest, higher"
+  ],
+  [
+   578.74,
+   579.089,
+   "risk."
+  ],
+  [
+   579.721,
+   582.861,
+   "These are ideas to research, not promises. Which\nbrings"
+  ],
+  [
+   582.861,
+   585.304,
+   "us to the hardest question of all."
+  ],
+  [
+   585.804,
+   587.938,
+   "What is a stock actually worth?"
+  ],
+  [
+   588.569,
+   589.636,
+   "A price target."
+  ],
+  [
+   590.268,
+   592.046,
+   "Professionals set it three ways."
+  ],
+  [
+   592.677,
+   595.878,
+   "One \u2014 take a fair price to earnings, and"
+  ],
+  [
+   595.878,
+   598.367,
+   "multiply it by next year's expected profit."
+  ],
+  [
+   598.999,
+   601.488,
+   "Two \u2014 average what many analysts expect."
+  ],
+  [
+   602.12,
+   605.32,
+   "Three \u2014 read the chart, where price has found"
+  ],
+  [
+   605.32,
+   606.743,
+   "support and resistance before."
+  ],
+  [
+   607.374,
+   610.575,
+   "No single method is right. Good analysts triangulate\nall"
+  ],
+  [
+   610.575,
+   613.775,
+   "three \u2014 and treat the answer as a range,"
+  ],
+  [
+   613.775,
+   614.842,
+   "not a promise."
+  ],
+  [
+   615.342,
+   618.383,
+   "The honest way to value a stock is to"
+  ],
+  [
+   618.383,
+   619.396,
+   "imagine three futures."
+  ],
+  [
+   620.028,
+   623.069,
+   "A bad case, where things disappoint. A middle case."
+  ],
+  [
+   623.069,
+   625.771,
+   "And a good case, where everything goes right."
+  ],
+  [
+   626.403,
+   629.444,
+   "For each, multiply a fair price to earnings by"
+  ],
+  [
+   629.444,
+   630.119,
+   "expected profit."
+  ],
+  [
+   630.751,
+   633.454,
+   "Then weight them by how likely each is."
+  ],
+  [
+   634.086,
+   637.126,
+   "For our top pick, H A L, that weighted"
+  ],
+  [
+   637.126,
+   639.153,
+   "average lands right around today's price."
+  ],
+  [
+   639.785,
+   642.826,
+   "The bull case is up sixteen percent; the bear"
+  ],
+  [
+   642.826,
+   643.839,
+   "case, down twenty-four."
+  ],
+  [
+   644.471,
+   647.512,
+   "The lesson \u2014 the growth is already in the"
+  ],
+  [
+   647.512,
+   650.552,
+   "price. A double would need the bull case, and"
+  ],
+  [
+   650.552,
+   651.228,
+   "then some."
+  ],
+  [
+   651.728,
+   654.644,
+   "Finally, how to actually buy \u2014 with a plan,"
+  ],
+  [
+   654.644,
+   655.616,
+   "not a panic."
+  ],
+  [
+   656.248,
+   657.868,
+   "Don't buy everything at once."
+  ],
+  [
+   658.499,
+   661.416,
+   "Place two orders below the current price, so you"
+  ],
+  [
+   661.416,
+   663.036,
+   "average in as it dips."
+  ],
+  [
+   663.667,
+   666.583,
+   "These are G T T orders \u2014 good, till"
+  ],
+  [
+   666.583,
+   669.5,
+   "triggered. They sit and wait, and only fire when"
+  ],
+  [
+   669.5,
+   671.12,
+   "the price hits your level."
+  ],
+  [
+   671.751,
+   673.695,
+   "And always place a stop-loss underneath."
+  ],
+  [
+   674.327,
+   677.243,
+   "If you're wrong, it sells automatically, so one bad"
+  ],
+  [
+   677.243,
+   679.187,
+   "call can only cost so much."
+  ],
+  [
+   679.819,
+   682.735,
+   "Plan the entry, plan the exit \u2014 before emotion"
+  ],
+  [
+   682.735,
+   683.059,
+   "arrives."
+  ],
+  [
+   683.559,
+   686.835,
+   "Pick one \u2014 Hindustan Aeronautics, our\nhighest-conviction name."
+  ],
+  [
+   687.467,
+   691.152,
+   "A large-cap defence monopoly that builds India's\nfighter jets."
+  ],
+  [
+   691.784,
+   695.469,
+   "The fundamentals are pristine \u2014 zero debt, a\nthirty-two"
+  ],
+  [
+   695.469,
+   699.154,
+   "percent return on capital, and the government owns\nseventy-two"
+  ],
+  [
+   699.154,
+   702.84,
+   "percent. At thirty-five times earnings, a fair price\nfor"
+  ],
+  [
+   702.84,
+   703.659,
+   "that quality."
+  ],
+  [
+   704.291,
+   707.976,
+   "Technically, it sits eleven percent above its\ntwo-hundred-day line"
+  ],
+  [
+   707.976,
+   711.661,
+   "\u2014 a healthy uptrend \u2014 with a calm beta"
+  ],
+  [
+   711.661,
+   712.48,
+   "near one."
+  ],
+  [
+   713.112,
+   714.341,
+   "Composite score, eighty-three."
+  ],
+  [
+   714.972,
+   718.658,
+   "The bull case \u2014 Tejas jet deliveries and a"
+  ],
+  [
+   718.658,
+   722.343,
+   "huge order book. The bear case \u2014 it all"
+  ],
+  [
+   722.343,
+   723.981,
+   "leans on one buyer."
+  ],
+  [
+   724.613,
+   728.298,
+   "The plan \u2014 average in near forty-six seventy-five,\nwith"
+  ],
+  [
+   728.298,
+   729.936,
+   "a stop at forty-ninety."
+  ],
+  [
+   730.436,
+   733.69,
+   "Pick two \u2014 Dixon Technologies, India's electronics\nfactory."
+  ],
+  [
+   734.321,
+   737.981,
+   "A mid-cap that assembles phones and appliances for\nthe"
+  ],
+  [
+   737.981,
+   738.795,
+   "world's brands."
+  ],
+  [
+   739.426,
+   743.086,
+   "The fundamentals are elite \u2014 a thirty-seven percent\nreturn"
+  ],
+  [
+   743.086,
+   746.747,
+   "on equity, forty-two on capital. It trades at\nforty-eight"
+  ],
+  [
+   746.747,
+   750.407,
+   "times earnings, but with a P-E-G under one, that's"
+  ],
+  [
+   750.407,
+   752.44,
+   "actually cheap for the growth."
+  ],
+  [
+   753.072,
+   756.732,
+   "The price is nearly twenty percent above its\nlong-term"
+  ],
+  [
+   756.732,
+   760.392,
+   "average \u2014 but a beta of one-and-a-half means a"
+  ],
+  [
+   760.392,
+   764.052,
+   "wild ride, with a forty-seven percent fall in the"
+  ],
+  [
+   764.052,
+   764.866,
+   "past year."
+  ],
+  [
+   765.497,
+   766.311,
+   "Score, eighty."
+  ],
+  [
+   766.942,
+   770.602,
+   "Bull \u2014 a huge new venture with Vivo. Bear"
+  ],
+  [
+   770.602,
+   773.043,
+   "\u2014 thin margins and client concentration."
+  ],
+  [
+   773.674,
+   776.521,
+   "Buy near fourteen thousand, stop near twelve-one."
+  ],
+  [
+   777.021,
+   781.048,
+   "Pick three \u2014 K-E-I Industries, a cables and wires"
+  ],
+  [
+   781.048,
+   781.496,
+   "compounder."
+  ],
+  [
+   782.128,
+   785.707,
+   "A mid-cap riding India's electrification and\ndata-centre boom."
+  ],
+  [
+   786.339,
+   790.367,
+   "It's debt-free, with a fifteen percent return on\nequity"
+  ],
+  [
+   790.367,
+   794.394,
+   "and steady twenty percent returns on capital. At\nfifty-three"
+  ],
+  [
+   794.394,
+   797.974,
+   "times earnings, fairly valued for a proven grower."
+  ],
+  [
+   798.606,
+   802.633,
+   "Technically strong \u2014 seventeen percent above its\ntwo-hundred-day line,"
+  ],
+  [
+   802.633,
+   805.765,
+   "near the top of its yearly range."
+  ],
+  [
+   806.397,
+   807.292,
+   "Score, seventy-one."
+  ],
+  [
+   807.924,
+   811.951,
+   "Bull \u2014 a four-thousand-crore order book and a new"
+  ],
+  [
+   811.951,
+   815.978,
+   "plant by twenty twenty-seven. Bear \u2014 export\ndisruption and"
+  ],
+  [
+   815.978,
+   817.321,
+   "a slower ramp."
+  ],
+  [
+   817.953,
+   821.085,
+   "Average in near fifty-three-ten, stop at\nforty-seven-eighty."
+  ],
+  [
+   821.585,
+   825.491,
+   "Pick four \u2014 Syrma S-G-S, our first small-cap, and"
+  ],
+  [
+   825.491,
+   826.36,
+   "pure momentum."
+  ],
+  [
+   826.991,
+   830.029,
+   "Another electronics maker, but smaller and faster."
+  ],
+  [
+   830.661,
+   834.567,
+   "The growth is already printing \u2014 revenue up\nsixty-eight"
+  ],
+  [
+   834.567,
+   838.474,
+   "percent, profit nearly doubled. But quality is only\nmoderate"
+  ],
+  [
+   838.474,
+   842.38,
+   "\u2014 a fourteen percent return on equity, at\nseventy-six"
+  ],
+  [
+   842.38,
+   843.248,
+   "times earnings."
+  ],
+  [
+   843.88,
+   847.786,
+   "Technically it's the hottest of the five \u2014 forty-six"
+  ],
+  [
+   847.786,
+   851.693,
+   "percent above its two-hundred-day line, near its\nall-time high,"
+  ],
+  [
+   851.693,
+   853.429,
+   "with a high beta."
+  ],
+  [
+   854.061,
+   854.929,
+   "Score, seventy-three."
+  ],
+  [
+   855.56,
+   859.467,
+   "Bull \u2014 a sixty-eight-hundred-crore order book. Bear\n\u2014 a"
+  ],
+  [
+   859.467,
+   862.071,
+   "stretched balance sheet as it grows."
+  ],
+  [
+   862.703,
+   865.741,
+   "Buy near thirteen seventy-six, stop at\neleven-ninety."
+  ],
+  [
+   866.241,
+   869.946,
+   "Pick five \u2014 Data Patterns, defence electronics, and\nthe"
+  ],
+  [
+   869.946,
+   872.005,
+   "most expensive of the lot."
+  ],
+  [
+   872.637,
+   875.93,
+   "A small-cap that builds radar and avionics systems."
+  ],
+  [
+   876.562,
+   880.267,
+   "It's debt-free, with a twenty-two percent return on\ncapital"
+  ],
+  [
+   880.267,
+   883.973,
+   "\u2014 but at ninety-six times earnings, the valuation\nleaves"
+  ],
+  [
+   883.973,
+   887.678,
+   "no room for error; our value score is just"
+  ],
+  [
+   887.678,
+   888.09,
+   "thirty-five."
+  ],
+  [
+   888.722,
+   892.427,
+   "Technically it's flying \u2014 thirty percent above its\nlong-term"
+  ],
+  [
+   892.427,
+   895.309,
+   "average, up ninety-three percent in a year."
+  ],
+  [
+   895.941,
+   896.764,
+   "Score, seventy."
+  ],
+  [
+   897.396,
+   901.101,
+   "Bull \u2014 fresh orders, including a radar contract from"
+  ],
+  [
+   901.101,
+   904.807,
+   "B-E-L. Bear \u2014 that sky-high multiple and lumpy\ntiming."
+  ],
+  [
+   905.438,
+   908.32,
+   "Average in near forty-three-fifty, stop at\nthirty-nine-twenty."
+  ],
+  [
+   908.952,
+   912.657,
+   "Five stocks, one method \u2014 now you can read"
+  ],
+  [
+   912.657,
+   914.304,
+   "any of them yourself."
+  ],
+  [
+   914.804,
+   917.941,
+   "So \u2014 how to read a portfolio like a"
+  ],
+  [
+   917.941,
+   918.289,
+   "quant."
+  ],
+  [
+   918.921,
+   922.058,
+   "Fundamentals tell you if the business is good, and"
+  ],
+  [
+   922.058,
+   925.194,
+   "fairly priced. Technicals tell you what the price is"
+  ],
+  [
+   925.194,
+   925.543,
+   "doing."
+  ],
+  [
+   926.174,
+   928.614,
+   "Blend four scores into one honest call."
+  ],
+  [
+   929.246,
+   932.034,
+   "Diversify \u2014 concentration is the risk you control."
+  ],
+  [
+   932.666,
+   935.802,
+   "Treat a target as a range, and always buy"
+  ],
+  [
+   935.802,
+   936.848,
+   "with a stop."
+  ],
+  [
+   937.479,
+   940.616,
+   "None of this is investment advice \u2014 it's a"
+  ],
+  [
+   940.616,
+   943.753,
+   "way of thinking. Learn the tools, then decide for"
+  ],
+  [
+   943.753,
+   945.147,
+   "yourself. Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "fq/narration.wav",
+   "volume": 1.0
+  }
+ }
+}

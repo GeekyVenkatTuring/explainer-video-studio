@@ -1,0 +1,405 @@
+{
+ "cuts": [
+  {
+   "id": "ch20_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 15.572,
+   "props": {
+    "n": 20,
+    "total": 20,
+    "title": "Confessions",
+    "lines": [
+     "Housel publishes his own household rules so the book is not a lecture from nowhere.",
+     "Independence is the goal. The strategy is whatever you will actually stick with."
+    ],
+    "color": "#34D399",
+    "dur": 16.072
+   }
+  },
+  {
+   "id": "ch20_house",
+   "type": "pm_sheet",
+   "in_seconds": 16.072,
+   "out_seconds": 54.009,
+   "props": {
+    "kicker": "HOUSEL'S HOUSEHOLD (AS PRINTED)",
+    "title": "Not a universal prescription",
+    "rows": [
+     {
+      "k": "Goal",
+      "v": "Independence. Every saving and investing decision is pointed at not being a forced actor.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "House",
+      "v": "They keep a paid-for house as a large, conservative chunk \u2014 a reasonable, not maximally rational, choice.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Stocks",
+      "v": "Around 20% of assets outside the house in a mix they can hold. No leverage.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Funds",
+      "v": "He prefers low-cost index funds and notes about 85% of large active funds fail to beat their index over long spans.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Humility",
+      "v": "The plan is what his family will stick with \u2014 not what a spreadsheet says is optimal this year.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#34D399",
+    "note": "Confessions chapter. His plan is not your plan.",
+    "dur": 38.437
+   }
+  },
+  {
+   "id": "ch20_confess-more",
+   "type": "pm_sheet",
+   "in_seconds": 54.509,
+   "out_seconds": 83.498,
+   "props": {
+    "kicker": "WHY HE PUBLISHES THE PLAN",
+    "title": "A confession is not a command",
+    "rows": [
+     {
+      "k": "Not advice",
+      "v": "These are Housel's household rules. They are evidence of 'reasonable,' not a model portfolio.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Independence",
+      "v": "Every dollar is aimed at not being forced \u2014 not at winning a neighbor's comparison.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "House + 20%",
+      "v": "A paid house plus about 20% of other assets, no leverage, index-heavy \u2014 chosen for stickiness.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "85% funds",
+      "v": "He cites about 85% of large active funds missing the index over long spans as a reason for simplicity.",
+      "c": "#FBBF24"
+     }
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 29.489
+   }
+  },
+  {
+   "id": "ch20_recap",
+   "type": "pm_recap",
+   "in_seconds": 83.998,
+   "out_seconds": 121.276,
+   "props": {
+    "kicker": "RECAP \u2014 THE BOOK ON ONE CARD",
+    "title": "What to remember",
+    "color": "#E8B86D",
+    "items": [
+     "Behaviour beats formulas; luck and risk are a pair.",
+     "Name enough. Compounding needs time and survival.",
+     "Tails drive returns; savings and unseen wealth are the real pile.",
+     "Be reasonable. Leave room for error. You will change.",
+     "Volatility is a fee. Do not copy another player's game.",
+     "Pessimism seduces. Stories fake control. Independence is the point."
+    ],
+    "closer": "Education, not advice. Consult a SEBI-registered adviser. Thanks for watching.",
+    "dur": 37.778
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.923,
+   "Chapter 20."
+  ],
+  [
+   0.923,
+   1.385,
+   "Confessions."
+  ],
+  [
+   2.016,
+   5.709,
+   "Housel publishes his own household rules\nso the"
+  ],
+  [
+   5.709,
+   8.94,
+   "book is not a lecture from nowhere."
+  ],
+  [
+   9.572,
+   11.418,
+   "Independence is the goal."
+  ],
+  [
+   11.418,
+   15.11,
+   "The strategy is whatever you will actually\nstick"
+  ],
+  [
+   15.11,
+   15.572,
+   "with."
+  ],
+  [
+   16.072,
+   17.663,
+   "The goal is independence."
+  ],
+  [
+   17.663,
+   20.846,
+   "Every saving and investing decision is\npointed at"
+  ],
+  [
+   20.846,
+   22.836,
+   "not being a forced actor."
+  ],
+  [
+   23.467,
+   26.65,
+   "They keep a paid-for house as a large,"
+  ],
+  [
+   26.65,
+   27.446,
+   "conservative chunk."
+  ],
+  [
+   27.446,
+   28.242,
+   "A reasonable,"
+  ],
+  [
+   28.242,
+   29.436,
+   "not maximally rational,"
+  ],
+  [
+   29.436,
+   29.833,
+   "choice."
+  ],
+  [
+   30.465,
+   33.648,
+   "Around twenty percent of assets outside\nthe house"
+  ],
+  [
+   33.648,
+   36.035,
+   "in a mix they can hold."
+  ],
+  [
+   36.035,
+   36.831,
+   "No leverage."
+  ],
+  [
+   37.463,
+   40.645,
+   "He prefers low-cost index funds and notes\nabout"
+  ],
+  [
+   40.645,
+   43.828,
+   "eighty-five percent of large active funds\nfail to"
+  ],
+  [
+   43.828,
+   46.216,
+   "beat their index over long spans."
+  ],
+  [
+   46.847,
+   50.03,
+   "The plan is what his family will stick"
+  ],
+  [
+   50.03,
+   50.428,
+   "with,"
+  ],
+  [
+   50.428,
+   53.611,
+   "not what a spreadsheet says is optimal\nthis"
+  ],
+  [
+   53.611,
+   54.009,
+   "year."
+  ],
+  [
+   54.509,
+   56.626,
+   "These are Housel's household rules."
+  ],
+  [
+   56.626,
+   58.742,
+   "They are evidence of reasonable,"
+  ],
+  [
+   58.742,
+   60.436,
+   "not a model portfolio."
+  ],
+  [
+   61.067,
+   64.454,
+   "Every dollar is aimed at not being forced,"
+  ],
+  [
+   64.454,
+   66.994,
+   "not at winning a neighbor's comparison."
+  ],
+  [
+   67.626,
+   71.013,
+   "A paid house plus about twenty percent of"
+  ],
+  [
+   71.013,
+   71.859,
+   "other assets,"
+  ],
+  [
+   71.859,
+   72.706,
+   "no leverage,"
+  ],
+  [
+   72.706,
+   73.129,
+   "index-heavy,"
+  ],
+  [
+   73.129,
+   74.399,
+   "chosen for stickiness."
+  ],
+  [
+   75.031,
+   78.418,
+   "He cites about eighty-five percent of\nlarge active"
+  ],
+  [
+   78.418,
+   81.805,
+   "funds missing the index over long spans as"
+  ],
+  [
+   81.805,
+   83.498,
+   "a reason for simplicity."
+  ],
+  [
+   83.998,
+   85.497,
+   "Behaviour beats formulas."
+  ],
+  [
+   85.497,
+   88.496,
+   "Luck and risk are a pair."
+  ],
+  [
+   89.128,
+   90.128,
+   "Name enough."
+  ],
+  [
+   90.128,
+   92.627,
+   "Compounding needs time and survival."
+  ],
+  [
+   93.258,
+   94.758,
+   "Tails drive returns."
+  ],
+  [
+   94.758,
+   98.757,
+   "Savings and unseen wealth are the real\npile."
+  ],
+  [
+   99.388,
+   100.388,
+   "Be reasonable."
+  ],
+  [
+   100.388,
+   102.387,
+   "Leave room for error."
+  ],
+  [
+   102.387,
+   103.887,
+   "You will change."
+  ],
+  [
+   104.518,
+   106.517,
+   "Volatility is a fee."
+  ],
+  [
+   106.517,
+   109.516,
+   "Do not copy another player's game."
+  ],
+  [
+   110.148,
+   111.148,
+   "Pessimism seduces."
+  ],
+  [
+   111.148,
+   112.647,
+   "Stories fake control."
+  ],
+  [
+   112.647,
+   114.646,
+   "Independence is the point."
+  ],
+  [
+   115.278,
+   116.778,
+   "This is education,"
+  ],
+  [
+   116.778,
+   117.777,
+   "not advice."
+  ],
+  [
+   117.777,
+   119.777,
+   "Consult a SEBI-registered adviser."
+  ],
+  [
+   119.777,
+   121.276,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch20.wav",
+   "volume": 1.0
+  }
+ }
+}

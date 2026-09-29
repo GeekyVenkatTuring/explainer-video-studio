@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch06_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 45.635,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "foundation",
+        "dur": 46.135
+      }
+    },
+    {
+      "id": "ch06_system",
+      "type": "aae_chapter",
+      "in_seconds": 46.135,
+      "out_seconds": 84.455,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "system",
+        "dur": 38.819
+      }
+    },
+    {
+      "id": "ch06_practice",
+      "type": "aae_chapter",
+      "in_seconds": 84.955,
+      "out_seconds": 131.179,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "practice",
+        "dur": 46.724
+      }
+    },
+    {
+      "id": "ch06_failure",
+      "type": "aae_chapter",
+      "in_seconds": 131.679,
+      "out_seconds": 170.735,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "failure",
+        "dur": 39.556
+      }
+    },
+    {
+      "id": "ch06_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 171.235,
+      "out_seconds": 214.843,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "evaluation",
+        "dur": 44.109
+      }
+    },
+    {
+      "id": "ch06_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 215.343,
+      "out_seconds": 252.267,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "handoff",
+        "dur": 37.424
+      }
+    },
+    {
+      "id": "ch06_application",
+      "type": "aae_chapter",
+      "in_seconds": 252.767,
+      "out_seconds": 301.128,
+      "props": {
+        "chapter": 6,
+        "title": "Agentic Governance Engineering",
+        "focus": "encoding policy, accountability, and review into the operating system",
+        "concepts": [
+          "policy as executable control",
+          "risk tiers",
+          "audit ownership"
+        ],
+        "example": "a loan workflow requiring approval above a delegated limit",
+        "trap": "governance as a document after launch",
+        "takeaway": "Encoding policy, accountability, and review into the operating system.",
+        "beat": "application",
+        "dur": 48.86
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch06.wav",
+      "volume": 1
+    }
+  }
+}

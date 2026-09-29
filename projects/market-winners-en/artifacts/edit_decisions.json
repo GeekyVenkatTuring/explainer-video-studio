@@ -1,0 +1,3480 @@
+{
+ "cuts": [
+  {
+   "id": "t00",
+   "type": "mw_title",
+   "in_seconds": 0.0,
+   "out_seconds": 34.604,
+   "props": {
+    "dur": 35.104
+   }
+  },
+  {
+   "id": "t01",
+   "type": "mw_statement",
+   "in_seconds": 35.104,
+   "out_seconds": 56.455,
+   "props": {
+    "kicker": "START HERE",
+    "color": "#FB7185",
+    "lines": [
+     "Most of what went viral",
+     "was never true.",
+     "But some people",
+     "genuinely got richer.",
+     "This is how."
+    ],
+    "dur": 21.851
+   }
+  },
+  {
+   "id": "t02",
+   "type": "mw_macro",
+   "in_seconds": 56.955,
+   "out_seconds": 95.943,
+   "props": {
+    "peak": 26130,
+    "low": 22182.55,
+    "now": 24080,
+    "lowDate": "2 Apr 2026",
+    "nowLabel": "Aug 2026",
+    "peakLabel": "Dec 2025",
+    "dropPct": "-16%",
+    "recoverPct": "+9%",
+    "dur": 39.488
+   }
+  },
+  {
+   "id": "d01",
+   "type": "mw_divider",
+   "in_seconds": 96.443,
+   "out_seconds": 104.349,
+   "props": {
+    "n": 1,
+    "title": "The Two Questions",
+    "sub": "What 'making money' really means",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 8.406
+   }
+  },
+  {
+   "id": "c11",
+   "type": "mw_statement",
+   "in_seconds": 104.849,
+   "out_seconds": 131.502,
+   "props": {
+    "kicker": "QUESTION ONE \u00b7 IS IT VERIFIABLE?",
+    "color": "#38BDF8",
+    "lines": [
+     "Did they truly",
+     "hold the position \u2014",
+     "or just post",
+     "a screenshot?"
+    ],
+    "sub": "Ownership you can verify beats any claim you can't.",
+    "dur": 27.153
+   }
+  },
+  {
+   "id": "c12",
+   "type": "mw_statement",
+   "in_seconds": 132.002,
+   "out_seconds": 157.153,
+   "props": {
+    "kicker": "QUESTION TWO \u00b7 OVER WHAT, VERSUS WHAT?",
+    "color": "#A78BFA",
+    "lines": [
+     "A gain means nothing",
+     "without its time frame",
+     "and its benchmark."
+    ],
+    "sub": "Every real number here comes with its date and its comparison.",
+    "dur": 25.651
+   }
+  },
+  {
+   "id": "d02",
+   "type": "mw_divider",
+   "in_seconds": 157.653,
+   "out_seconds": 171.1,
+   "props": {
+    "n": 2,
+    "title": "The Retail King",
+    "sub": "Radhakishan Damani \u2014 the man who owns one stock",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 13.947
+   }
+  },
+  {
+   "id": "w02",
+   "type": "mw_investor",
+   "in_seconds": 171.6,
+   "out_seconds": 225.097,
+   "props": {
+    "idx": 1,
+    "total": 8,
+    "color": "#FBBF24",
+    "name": "Radhakishan Damani",
+    "tag": "THE RETAIL KING",
+    "worth": 198328,
+    "worthUnit": "cr",
+    "stocks": 13,
+    "asOf": "Apr 2026",
+    "holdings": [
+     {
+      "nm": "Avenue Supermarts (DMart)",
+      "pct": "67.2%"
+     },
+     {
+      "nm": "VST Industries",
+      "pct": "29.1%"
+     },
+     {
+      "nm": "3M India",
+      "pct": "1.5%"
+     },
+     {
+      "nm": "United Breweries",
+      "pct": "1.2%"
+     },
+     {
+      "nm": "India Cements / others",
+      "pct": ""
+     }
+    ],
+    "strategy": "Extreme concentration in one quality compounder he controls \u2014 and near-total silence.",
+    "playbook": [
+     "~99% of the disclosed book is a single business he built: DMart",
+     "Owns companies, not tickers \u2014 decade-plus holding periods",
+     "No course, no channel, no calls \u2014 just patience"
+    ],
+    "move": "DMart parent Avenue Supermarts anchors a ~1.98 lakh-crore disclosed book",
+    "steep": 1.7,
+    "foot": "Disclosed shareholding (BSE/NSE filings, aggregator) \u00b7 as of Apr-2026 \u00b7 not investment advice",
+    "dur": 53.997
+   }
+  },
+  {
+   "id": "c22",
+   "type": "mw_statement",
+   "in_seconds": 225.597,
+   "out_seconds": 248.362,
+   "props": {
+    "kicker": "THE LESSON",
+    "color": "#FBBF24",
+    "lines": [
+     "He got rich slowly,",
+     "in one thing,",
+     "in silence."
+    ],
+    "sub": "As a rule: the more someone posts their trades, the less you should trust the returns.",
+    "dur": 23.265
+   }
+  },
+  {
+   "id": "d03",
+   "type": "mw_divider",
+   "in_seconds": 248.862,
+   "out_seconds": 265.917,
+   "props": {
+    "n": 3,
+    "title": "The SMILE Investor",
+    "sub": "Vijay Kedia \u2014 small bets, giant patience",
+    "color": "#34D399",
+    "total": 14,
+    "dur": 17.555
+   }
+  },
+  {
+   "id": "w03",
+   "type": "mw_investor",
+   "in_seconds": 266.417,
+   "out_seconds": 322.436,
+   "props": {
+    "idx": 2,
+    "total": 8,
+    "color": "#34D399",
+    "name": "Vijay Kedia",
+    "tag": "THE SMILE INVESTOR",
+    "worth": 1406,
+    "worthUnit": "cr",
+    "stocks": 23,
+    "asOf": "Jun 2026",
+    "holdings": [
+     {
+      "nm": "Tejas Networks",
+      "pct": ""
+     },
+     {
+      "nm": "Atul Auto",
+      "pct": ""
+     },
+     {
+      "nm": "Cera Sanitaryware",
+      "pct": ""
+     },
+     {
+      "nm": "Heritage Foods",
+      "pct": ""
+     },
+     {
+      "nm": "Precision Camshafts",
+      "pct": ""
+     }
+    ],
+    "strategy": "SMILE: Small in size, Medium in experience, Large aspiration, Extra-large market. Hold 5\u201310 years.",
+    "playbook": [
+     "Buys tiny companies with huge runways \u2014 then waits, for years",
+     "His own rags-to-riches is real: arrived in Mumbai with little, c.1990",
+     "Conviction over diversification \u2014 a few bets, held through the noise"
+    ],
+    "move": "Added Eimco Elecon (1.45%) in Jun-2026; still actively compounding",
+    "steep": 1.9,
+    "dip": true,
+    "foot": "Disclosed shareholding (Trendlyne, BSE/NSE filings) \u00b7 as of Jun-2026 \u00b7 not investment advice",
+    "dur": 56.519
+   }
+  },
+  {
+   "id": "c32",
+   "type": "mw_quote",
+   "in_seconds": 322.936,
+   "out_seconds": 342.466,
+   "props": {
+    "color": "#34D399",
+    "quote": "Bulls make money, bears make money \u2014 but pigs get slaughtered.",
+    "who": "a market maxim Kedia lives by \u00b7 greed is the real risk",
+    "dur": 20.03
+   }
+  },
+  {
+   "id": "d04",
+   "type": "mw_divider",
+   "in_seconds": 342.966,
+   "out_seconds": 361.122,
+   "props": {
+    "n": 4,
+    "title": "The Big Bull's Legacy",
+    "sub": "Rekha Jhunjhunwala \u2014 carrying Rakesh's book",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 18.656
+   }
+  },
+  {
+   "id": "w04",
+   "type": "mw_investor",
+   "in_seconds": 361.622,
+   "out_seconds": 426.752,
+   "props": {
+    "idx": 3,
+    "total": 8,
+    "color": "#FBBF24",
+    "name": "Rekha Jhunjhunwala",
+    "tag": "THE BIG BULL'S LEGACY",
+    "worth": 46982,
+    "worthUnit": "cr",
+    "stocks": 26,
+    "asOf": "21 Jul 2026",
+    "holdings": [
+     {
+      "nm": "Titan Company",
+      "pct": "5.3%"
+     },
+     {
+      "nm": "Tata Motors",
+      "pct": ""
+     },
+     {
+      "nm": "Indian Hotels (Taj)",
+      "pct": ""
+     },
+     {
+      "nm": "Metro Brands",
+      "pct": ""
+     },
+     {
+      "nm": "Canara Bank / others",
+      "pct": ""
+     }
+    ],
+    "strategy": "Carry a concentrated, high-conviction book for decades \u2014 and prune ruthlessly when a thesis breaks.",
+    "playbook": [
+     "Book rose ~\u20b97,756 cr in the Jun-2026 quarter \u2014 beating a flat market",
+     "Titan is still the engine: a 5.3% stake worth ~\u20b922,100 cr",
+     "Cut a loser hard: Star Health slashed from 15.6% to 3.0%"
+    ],
+    "move": "\u20b939,226 cr (31 Mar) \u2192 \u20b946,982 cr (21 Jul 2026) \u00b7 +~\u20b97,756 cr",
+    "steep": 1.5,
+    "foot": "Portfolio value per Business Standard / disclosed filings \u00b7 21-Jul-2026 \u00b7 not investment advice",
+    "dur": 65.63
+   }
+  },
+  {
+   "id": "c42",
+   "type": "mw_statement",
+   "in_seconds": 427.252,
+   "out_seconds": 444.044,
+   "props": {
+    "kicker": "THE PATTERN SO FAR",
+    "color": "#FBBF24",
+    "lines": [
+     "Three winners.",
+     "Three fortunes.",
+     "Zero day-trading."
+    ],
+    "sub": "Every one of them owns businesses \u2014 and waits.",
+    "dur": 17.292
+   }
+  },
+  {
+   "id": "d05",
+   "type": "mw_divider",
+   "in_seconds": 444.544,
+   "out_seconds": 456.301,
+   "props": {
+    "n": 5,
+    "title": "The Small-Cap Hunter",
+    "sub": "Ashish Kacholia \u2014 fifty tiny bets",
+    "color": "#38BDF8",
+    "total": 14,
+    "dur": 12.257
+   }
+  },
+  {
+   "id": "w05",
+   "type": "mw_investor",
+   "in_seconds": 456.801,
+   "out_seconds": 522.291,
+   "props": {
+    "idx": 4,
+    "total": 8,
+    "color": "#38BDF8",
+    "name": "Ashish Kacholia",
+    "tag": "THE SMALL-CAP HUNTER",
+    "worth": 3274,
+    "worthUnit": "cr",
+    "stocks": 48,
+    "asOf": "Jun 2026",
+    "holdings": [
+     {
+      "nm": "Shaily Engineering",
+      "v": "\u20b9709 cr"
+     },
+     {
+      "nm": "Beta Drugs",
+      "v": "\u20b9278 cr"
+     },
+     {
+      "nm": "Knowledge Marine Engg",
+      "v": "\u20b9165 cr"
+     },
+     {
+      "nm": "Safa Systems",
+      "v": ""
+     },
+     {
+      "nm": "MAN Industries",
+      "v": ""
+     }
+    ],
+    "strategy": "Cast a wide net of small-cap bets, do brutal homework, and let two or three winners carry the pack.",
+    "playbook": [
+     "~48 disclosed small-caps \u2014 diversified, VC-style position sizing",
+     "Book jumped ~47% Q/Q: \u20b92,229 cr (Mar) \u2192 \u20b93,274 cr (Jun-2026)",
+     "Early, not loud \u2014 names most people have never heard of"
+    ],
+    "move": "\u20b92,229 cr (Mar) \u2192 \u20b93,274 cr (Jun-2026) disclosed \u00b7 +~47%",
+    "steep": 2.1,
+    "foot": "Disclosed shareholding (BSE/NSE filings, aggregator) \u00b7 Jun-2026; below-1% stakes not captured \u00b7 not advice",
+    "dur": 65.99
+   }
+  },
+  {
+   "id": "c52",
+   "type": "mw_statement",
+   "in_seconds": 522.791,
+   "out_seconds": 546.686,
+   "props": {
+    "kicker": "CONCENTRATE OR DIVERSIFY?",
+    "color": "#38BDF8",
+    "lines": [
+     "Damani owns one stock.",
+     "Kacholia owns fifty.",
+     "Both are right."
+    ],
+    "sub": "The common factor isn't the count \u2014 it's the discipline behind each pick.",
+    "dur": 24.395
+   }
+  },
+  {
+   "id": "d06",
+   "type": "mw_divider",
+   "in_seconds": 547.186,
+   "out_seconds": 557.685,
+   "props": {
+    "n": 6,
+    "title": "The Diversifier",
+    "sub": "Mukul Agrawal \u2014 breadth as a strategy",
+    "color": "#A78BFA",
+    "total": 14,
+    "dur": 10.999
+   }
+  },
+  {
+   "id": "w06",
+   "type": "mw_investor",
+   "in_seconds": 558.185,
+   "out_seconds": 609.812,
+   "props": {
+    "idx": 5,
+    "total": 8,
+    "color": "#A78BFA",
+    "name": "Mukul Agrawal",
+    "tag": "THE DIVERSIFIER",
+    "worth": 6425,
+    "worthUnit": "cr",
+    "stocks": 73,
+    "asOf": "Dec 2025",
+    "holdings": [
+     {
+      "nm": "Neuland Laboratories",
+      "v": "\u20b9497 cr"
+     },
+     {
+      "nm": "Radico Khaitan",
+      "v": "\u20b9379 cr"
+     },
+     {
+      "nm": "ASM Technologies",
+      "v": "\u20b9339 cr"
+     },
+     {
+      "nm": "Nuvama Wealth",
+      "v": "\u20b9295 cr"
+     },
+     {
+      "nm": "Zota Health Care",
+      "v": "\u20b9292 cr"
+     }
+    ],
+    "strategy": "One of India's widest star-books \u2014 dozens of positions blending momentum with fundamentals.",
+    "playbook": [
+     "~73 disclosed stocks worth ~\u20b96,425 cr \u2014 breadth as risk control",
+     "High hit-rate on multibaggers across pharma, spirits, tech",
+     "Kept buying in 2026: added Sudeep Pharma, HCC, Sirca Paints"
+    ],
+    "move": "Added Sudeep Pharma, HCC & Sirca Paints in 2026; trimmed the froth",
+    "steep": 1.8,
+    "foot": "Disclosed shareholding (BSE/NSE filings, aggregator) \u00b7 as of Dec-2025 filing \u00b7 not investment advice",
+    "dur": 52.127
+   }
+  },
+  {
+   "id": "d07",
+   "type": "mw_divider",
+   "in_seconds": 610.312,
+   "out_seconds": 621.396,
+   "props": {
+    "n": 7,
+    "title": "The Quiet One",
+    "sub": "Dolly Khanna \u2014 you don't need crores to start",
+    "color": "#34D399",
+    "total": 14,
+    "dur": 11.584
+   }
+  },
+  {
+   "id": "w07",
+   "type": "mw_investor",
+   "in_seconds": 621.896,
+   "out_seconds": 672.271,
+   "props": {
+    "idx": 6,
+    "total": 8,
+    "color": "#34D399",
+    "name": "Dolly Khanna",
+    "tag": "THE QUIET ONE",
+    "worth": 223,
+    "worthUnit": "cr",
+    "stocks": 10,
+    "asOf": "Dec 2025",
+    "holdings": [
+     {
+      "nm": "Prakash Industries",
+      "v": "\u20b961 cr"
+     },
+     {
+      "nm": "GHCL",
+      "v": "\u20b950 cr"
+     },
+     {
+      "nm": "SOM Distilleries",
+      "v": "\u20b936 cr"
+     },
+     {
+      "nm": "Southern Petrochem (SPIC)",
+      "v": "\u20b935 cr"
+     },
+     {
+      "nm": "Emkay Global",
+      "v": "\u20b915 cr"
+     }
+    ],
+    "strategy": "A tiny, patient micro-cap book (run by husband Rajiv Khanna) \u2014 buy unloved cyclicals early, exit into strength.",
+    "playbook": [
+     "Just ~10 disclosed names, ~\u20b9223 cr \u2014 proof you don't need scale",
+     "Cyclicals bought before the crowd: chemicals, metals, spirits",
+     "Low turnover, high patience \u2014 the anti-day-trader"
+    ],
+    "move": "Added Coffee Day, IFB Agro; raised Mangalore Chemicals in recent filings",
+    "steep": 1.6,
+    "foot": "Disclosed shareholding (BSE/NSE filings) \u00b7 filings managed by Rajiv Khanna \u00b7 Dec-2025 \u00b7 not advice",
+    "dur": 50.875
+   }
+  },
+  {
+   "id": "c72",
+   "type": "mw_statement",
+   "in_seconds": 672.771,
+   "out_seconds": 692.17,
+   "props": {
+    "kicker": "THE DEMOCRATISING TRUTH",
+    "color": "#34D399",
+    "lines": [
+     "A ten-stock,",
+     "two-hundred-crore book",
+     "beat most 'experts'."
+    ],
+    "sub": "The edge was never capital. It was behaviour.",
+    "dur": 19.899
+   }
+  },
+  {
+   "id": "d08",
+   "type": "mw_divider",
+   "in_seconds": 692.67,
+   "out_seconds": 703.148,
+   "props": {
+    "n": 8,
+    "title": "The Professional",
+    "sub": "Sunil Singhania \u2014 process over hunches",
+    "color": "#38BDF8",
+    "total": 14,
+    "dur": 10.978
+   }
+  },
+  {
+   "id": "w08",
+   "type": "mw_investor",
+   "in_seconds": 703.648,
+   "out_seconds": 757.881,
+   "props": {
+    "idx": 7,
+    "total": 8,
+    "color": "#38BDF8",
+    "name": "Sunil Singhania",
+    "tag": "THE PROFESSIONAL",
+    "worth": 2290,
+    "worthUnit": "cr",
+    "stocks": 24,
+    "asOf": "Dec 2025",
+    "holdings": [
+     {
+      "nm": "Himatsingka Seide",
+      "pct": "6.8%"
+     },
+     {
+      "nm": "All Time Plastics",
+      "pct": "6.2%"
+     },
+     {
+      "nm": "Carysil",
+      "pct": "5.3%"
+     },
+     {
+      "nm": "Hindware Home Innovation",
+      "pct": "4.6%"
+     },
+     {
+      "nm": "Sarda Energy / others",
+      "pct": ""
+     }
+    ],
+    "strategy": "A CFA-charterholder's institutional value framework \u2014 earnings, valuation and management, applied with discipline.",
+    "playbook": [
+     "Founder of Abakkus Asset Management (est. 2018); ~\u20b92,290 cr personal book",
+     "Value across capital goods, consumer durables, manufacturing",
+     "Process over hunches \u2014 the professional's edge is repeatability"
+    ],
+    "move": "Runs money for others too; the personal book is only the visible part",
+    "steep": 1.7,
+    "foot": "Disclosed personal shareholding (BSE/NSE filings, aggregator) \u00b7 as of Dec-2025 \u00b7 not investment advice",
+    "dur": 54.733
+   }
+  },
+  {
+   "id": "d09",
+   "type": "mw_divider",
+   "in_seconds": 758.381,
+   "out_seconds": 768.741,
+   "props": {
+    "n": 9,
+    "title": "The Sugar Baron",
+    "sub": "Anil Kumar Goel \u2014 getting rich on boring",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 10.86
+   }
+  },
+  {
+   "id": "w09",
+   "type": "mw_investor",
+   "in_seconds": 769.241,
+   "out_seconds": 821.52,
+   "props": {
+    "idx": 8,
+    "total": 8,
+    "color": "#FBBF24",
+    "name": "Anil Kumar Goel",
+    "tag": "THE SUGAR BARON",
+    "worth": 1974,
+    "worthUnit": "cr",
+    "stocks": 36,
+    "asOf": "Jun 2026",
+    "holdings": [
+     {
+      "nm": "Triveni Engineering",
+      "pct": "4.6%"
+     },
+     {
+      "nm": "TCPL Packaging",
+      "pct": "9.1%"
+     },
+     {
+      "nm": "KRBL",
+      "pct": "4.4%"
+     },
+     {
+      "nm": "Dalmia Bharat Sugar",
+      "pct": "6.5%"
+     },
+     {
+      "nm": "Karnataka Bank",
+      "pct": "1.5%"
+     }
+    ],
+    "strategy": "Master of unglamorous cyclicals \u2014 sugar, rice, paper, textiles \u2014 bought cheap and held through the cycle.",
+    "playbook": [
+     "~36 disclosed stocks, ~\u20b91,900\u20132,000 cr \u2014 a whole book of 'boring' names",
+     "Understands operating leverage: cheap cyclicals, huge upside in an upcycle",
+     "Long holding periods; ignores short-term market noise"
+    ],
+    "move": "Concentrated in the sugar & agri cycle most retail investors overlook",
+    "steep": 1.5,
+    "foot": "Disclosed shareholding (BSE/NSE filings, aggregator) \u00b7 Jun-2026; vendor values vary \u00b7 not advice",
+    "dur": 52.779
+   }
+  },
+  {
+   "id": "c92",
+   "type": "mw_statement",
+   "in_seconds": 822.02,
+   "out_seconds": 843.863,
+   "props": {
+    "kicker": "NINE WINNERS \u00b7 ONE THREAD",
+    "color": "#FBBF24",
+    "lines": [
+     "Loud or quiet.",
+     "Big or small.",
+     "They all did",
+     "the boring thing."
+    ],
+    "sub": "Now \u2014 the ways ordinary investors made money too.",
+    "dur": 22.343
+   }
+  },
+  {
+   "id": "d10",
+   "type": "mw_divider",
+   "in_seconds": 844.363,
+   "out_seconds": 854.167,
+   "props": {
+    "n": 10,
+    "title": "Where the Money Flowed",
+    "sub": "Defence & capex carried the recovery",
+    "color": "#38BDF8",
+    "total": 14,
+    "dur": 10.304
+   }
+  },
+  {
+   "id": "s10a",
+   "type": "mw_statement",
+   "in_seconds": 854.667,
+   "out_seconds": 877.675,
+   "props": {
+    "kicker": "THE ENGINE OF THE RECOVERY",
+    "color": "#38BDF8",
+    "lines": [
+     "When India rebuilt,",
+     "it rearmed.",
+     "Defence led the way."
+    ],
+    "sub": "Order books, indigenisation, and a record defence budget.",
+    "dur": 23.508
+   }
+  },
+  {
+   "id": "s10b",
+   "type": "mw_bars",
+   "in_seconds": 878.175,
+   "out_seconds": 905.074,
+   "props": {
+    "kicker": "THE RECOVERY, UNEVENLY SHARED",
+    "title": "One stock, one sector, one index \u2014 off the April low",
+    "unit": "%",
+    "color": "#38BDF8",
+    "bars": [
+     {
+      "label": "Bharat\nElectronics",
+      "v": 55,
+      "c": "#34D399",
+      "tag": "from Apr low"
+     },
+     {
+      "label": "Defence\nsector",
+      "v": 24,
+      "c": "#A78BFA",
+      "tag": "2026 YTD"
+     },
+     {
+      "label": "Nifty 50",
+      "v": 9,
+      "c": "#38BDF8",
+      "tag": "off Apr low"
+     }
+    ],
+    "foot": "BEL rebound per Business Standard (23-May-2026); defence sector YTD (late-Aug); Nifty off its 2-Apr low \u00b7 not advice",
+    "dur": 27.399
+   }
+  },
+  {
+   "id": "s10c",
+   "type": "mw_statement",
+   "in_seconds": 905.574,
+   "out_seconds": 929.569,
+   "props": {
+    "kicker": "THE HONEST FOOTNOTE",
+    "color": "#FB7185",
+    "lines": [
+     "A tailwind is not",
+     "a guarantee.",
+     "You are seeing this",
+     "after it happened."
+    ],
+    "sub": "Chasing last quarter's winner is how the next correction finds you.",
+    "dur": 24.495
+   }
+  },
+  {
+   "id": "d11",
+   "type": "mw_divider",
+   "in_seconds": 930.069,
+   "out_seconds": 941.916,
+   "props": {
+    "n": 11,
+    "title": "The 2026 IPO Winners",
+    "sub": "Who really made money on listings \u2014 and who didn't",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 12.347
+   }
+  },
+  {
+   "id": "i11",
+   "type": "mw_bars",
+   "in_seconds": 942.416,
+   "out_seconds": 971.946,
+   "props": {
+    "kicker": "IN-WINDOW WINNERS \u00b7 2026 IPOs",
+    "title": "The listings that doubled \u2014 and the average that didn't",
+    "unit": "%",
+    "color": "#FBBF24",
+    "bars": [
+     {
+      "label": "Omnitech\nEngineering",
+      "v": 158.4,
+      "c": "#34D399",
+      "tag": "since 5 Mar"
+     },
+     {
+      "label": "SEDEMAC\nMechatronics",
+      "v": 126.3,
+      "c": "#34D399",
+      "tag": "since 11 Mar"
+     },
+     {
+      "label": "Shadowfax\nTech",
+      "v": 100.2,
+      "c": "#34D399",
+      "tag": "since 28 Jan"
+     },
+     {
+      "label": "Avg 2026\nlisting gain",
+      "v": 6.56,
+      "c": "#FB7185",
+      "tag": "across 32 IPOs"
+     }
+    ],
+    "foot": "Gain from issue price to recent price \u00b7 avg across ~32 IPOs \u00b7 most were NOT multibaggers \u00b7 not advice",
+    "dur": 30.03
+   }
+  },
+  {
+   "id": "i11b",
+   "type": "mw_statement",
+   "in_seconds": 972.446,
+   "out_seconds": 1005.243,
+   "props": {
+    "kicker": "THE LOTTERY NOBODY MENTIONS",
+    "color": "#FB7185",
+    "lines": [
+     "To win the IPO,",
+     "you first have to",
+     "be allotted it.",
+     "Most retail buyers",
+     "aren't."
+    ],
+    "sub": "Survivorship bias with an official stamp.",
+    "dur": 33.297
+   }
+  },
+  {
+   "id": "d12",
+   "type": "mw_divider",
+   "in_seconds": 1005.743,
+   "out_seconds": 1016.286,
+   "props": {
+    "n": 12,
+    "title": "The Boring Winners",
+    "sub": "The SIP investor who quietly beat the experts",
+    "color": "#34D399",
+    "total": 14,
+    "dur": 11.043
+   }
+  },
+  {
+   "id": "s12a",
+   "type": "mw_statement",
+   "in_seconds": 1016.786,
+   "out_seconds": 1037.912,
+   "props": {
+    "kicker": "THE INVISIBLE MAJORITY",
+    "color": "#34D399",
+    "lines": [
+     "No screenshots.",
+     "No stock tips.",
+     "No timing.",
+     "Just a monthly SIP."
+    ],
+    "sub": "The most boring plan in India quietly won.",
+    "dur": 21.626
+   }
+  },
+  {
+   "id": "s12b",
+   "type": "mw_statement",
+   "in_seconds": 1038.412,
+   "out_seconds": 1068.364,
+   "props": {
+    "kicker": "AMFI DATA \u00b7 MAR 2026",
+    "color": "#34D399",
+    "lines": [
+     "\u20b932,087 crore.",
+     "In a single month.",
+     "Bought automatically \u2014",
+     "right into the crash."
+    ],
+    "sub": "A record monthly SIP flow; five straight months above \u20b931,000 crore.",
+    "dur": 30.452
+   }
+  },
+  {
+   "id": "s12c",
+   "type": "mw_statement",
+   "in_seconds": 1068.864,
+   "out_seconds": 1093.29,
+   "props": {
+    "kicker": "THE QUIET VICTORY",
+    "color": "#34D399",
+    "lines": [
+     "The dip you feared",
+     "was the SIP's",
+     "best friend."
+    ],
+    "sub": "Rupee-cost averaging turns volatility from an enemy into an ally.",
+    "dur": 24.926
+   }
+  },
+  {
+   "id": "d13",
+   "type": "mw_divider",
+   "in_seconds": 1093.79,
+   "out_seconds": 1107.542,
+   "props": {
+    "n": 13,
+    "title": "Spot the Fake \u2014 Part 1",
+    "sub": "The finfluencer machine SEBI is dismantling",
+    "color": "#FB7185",
+    "total": 14,
+    "dur": 14.252
+   }
+  },
+  {
+   "id": "k13a",
+   "type": "mw_case",
+   "in_seconds": 1108.042,
+   "out_seconds": 1141.123,
+   "props": {
+    "name": "Avadhut Sathe",
+    "alias": "Sathe Trading Academy (ASTA)",
+    "order": "4 Dec 2025",
+    "amount": "Rs 546.16 cr",
+    "amountLabel": "Disgorge",
+    "charge": "Collected ~Rs 601 cr from over 3.37 lakh people under the cover of 'education' \u2014 SEBI called it unregistered advisory built on selective profit-showcasing, and ordered Rs 546.16 cr disgorged.",
+    "lesson": "\"Education\" that shows you only the winning trades is not education.",
+    "dur": 33.581
+   }
+  },
+  {
+   "id": "k13b",
+   "type": "mw_case",
+   "in_seconds": 1141.623,
+   "out_seconds": 1168.852,
+   "props": {
+    "name": "Asmita Patel",
+    "alias": "The She-Wolf of the stock market",
+    "order": "6 Feb 2025",
+    "amount": "Rs 53.67 cr",
+    "amountLabel": "Impounded",
+    "charge": "Marketed 'courses' that were really unregistered buy/sell advisory; of ~Rs 104 cr earned, SEBI impounded Rs 53.67 cr and barred her and five entities.",
+    "lesson": "A glamorous nickname is a marketing budget, not a track record.",
+    "dur": 27.729
+   }
+  },
+  {
+   "id": "k13c",
+   "type": "mw_case",
+   "in_seconds": 1169.352,
+   "out_seconds": 1197.103,
+   "props": {
+    "name": "Md Nasiruddin Ansari",
+    "alias": "Baap of Chart",
+    "order": "Oct 2023",
+    "amount": "Rs 17.2 cr",
+    "amountLabel": "Disgorge",
+    "charge": "Built a massive following as a chart 'guru', then sold unregistered advisory; SEBI barred him and ordered Rs 17.2 cr disgorged.",
+    "lesson": "A catchy handle and a big following prove reach \u2014 never returns.",
+    "dur": 28.251
+   }
+  },
+  {
+   "id": "d14",
+   "type": "mw_divider",
+   "in_seconds": 1197.603,
+   "out_seconds": 1210.526,
+   "props": {
+    "n": 14,
+    "title": "Spot the Fake \u2014 Part 2",
+    "sub": "The anatomy of a '1 lakh to 44 lakh' claim",
+    "color": "#FB7185",
+    "total": 14,
+    "dur": 13.423
+   }
+  },
+  {
+   "id": "f14a",
+   "type": "mw_statement",
+   "in_seconds": 1211.026,
+   "out_seconds": 1244.238,
+   "props": {
+    "kicker": "THE NUMBER THAT ENDS THE DEBATE",
+    "color": "#FB7185",
+    "lines": [
+     "SEBI studied",
+     "the traders.",
+     "93% lost money."
+    ],
+    "sub": "Individual F&O traders, FY22\u201324. Net losses over \u20b91.8 lakh crore.",
+    "dur": 33.712
+   }
+  },
+  {
+   "id": "f14b",
+   "type": "mw_checklist",
+   "in_seconds": 1244.738,
+   "out_seconds": 1282.745,
+   "props": {
+    "kicker": "SPOT THE FAKE",
+    "title": "Six red flags in a viral profit claim",
+    "color": "#FB7185",
+    "mark": "!",
+    "items": [
+     {
+      "k": "No SEBI reg number",
+      "d": "A real advisor shows an RIA registration; a finfluencer shows a lifestyle."
+     },
+     {
+      "k": "Screenshots, not statements",
+      "d": "Cropped P&L pop-ups are trivially faked; audited broker statements aren't."
+     },
+     {
+      "k": "Survivorship only",
+      "d": "You see the one win, never the nine blown accounts behind it."
+     },
+     {
+      "k": "'Guaranteed / sure-shot'",
+      "d": "No one can guarantee a market return. The word itself is the tell."
+     },
+     {
+      "k": "The course upsell",
+      "d": "The money is made selling you the dream, not trading it."
+     },
+     {
+      "k": "One trade, no record",
+      "d": "'1 lakh to 44 lakh' once proves luck \u2014 never a repeatable skill."
+     }
+    ],
+    "dur": 38.507
+   }
+  },
+  {
+   "id": "d15",
+   "type": "mw_divider",
+   "in_seconds": 1283.245,
+   "out_seconds": 1295.716,
+   "props": {
+    "n": 15,
+    "title": "What Actually Works",
+    "sub": "The threads every real winner shared",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 12.971
+   }
+  },
+  {
+   "id": "s15",
+   "type": "mw_checklist",
+   "in_seconds": 1296.216,
+   "out_seconds": 1332.288,
+   "props": {
+    "kicker": "THE COMMON THREADS",
+    "title": "Six things every real winner shared",
+    "color": "#FBBF24",
+    "mark": "#",
+    "items": [
+     {
+      "k": "Quality first",
+      "d": "Great businesses, or a diversified basket of them \u2014 never hot tips."
+     },
+     {
+      "k": "Time, not timing",
+      "d": "Holding periods measured in years and decades, not days."
+     },
+     {
+      "k": "Position sizing",
+      "d": "Never so much in one idea that a single mistake ends the game."
+     },
+     {
+      "k": "No ruinous leverage",
+      "d": "They compounded patiently; they did not gamble on borrowed money."
+     },
+     {
+      "k": "Bought weakness",
+      "d": "The April crash was treated as a discount, not a disaster."
+     },
+     {
+      "k": "Temperament",
+      "d": "The real edge was patience and skepticism \u2014 not a secret indicator."
+     }
+    ],
+    "dur": 36.572
+   }
+  },
+  {
+   "id": "r16",
+   "type": "mw_recap",
+   "in_seconds": 1332.788,
+   "out_seconds": 1372.516,
+   "props": {
+    "title": "Who actually made money",
+    "color": "#FBBF24",
+    "items": [
+     "The winners held quality businesses for years \u2014 not days",
+     "Some concentrated (Damani), some diversified (Kacholia) \u2014 all patient",
+     "Rekha Jhunjhunwala's book beat a flat market: +\u20b97,756 cr in a quarter",
+     "Real IPO doubles existed \u2014 but the average gain was just 6.6%",
+     "The boring SIP investor auto-bought the April crash and won",
+     "SEBI barred the finfluencers: Sathe \u20b9546 cr, Patel \u20b953 cr, 'Baap' \u20b917 cr",
+     "93% of F&O traders lose \u2014 assume every unverified 44x is marketing"
+    ],
+    "closer": "Wealth was built by patience \u2014 and protected by skepticism.",
+    "dur": 40.228
+   }
+  },
+  {
+   "id": "r16b",
+   "type": "mw_statement",
+   "in_seconds": 1373.016,
+   "out_seconds": 1402.214,
+   "props": {
+    "kicker": "ONE LAST THING",
+    "color": "#38BDF8",
+    "lines": [
+     "This is education,",
+     "not advice.",
+     "Verify everything \u2014",
+     "including this."
+    ],
+    "sub": "Every figure here is from public disclosures & SEBI orders. Consult a SEBI-registered adviser.",
+    "dur": 29.698
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.451,
+   "Over the last six months, your feed was full"
+  ],
+  [
+   3.451,
+   4.218,
+   "of it."
+  ],
+  [
+   4.85,
+   8.301,
+   "Screenshots of one lakh turning into forty-four.\nAnonymous traders"
+  ],
+  [
+   8.301,
+   9.452,
+   "posing with Lamborghinis."
+  ],
+  [
+   10.083,
+   11.617,
+   "Everyone, apparently, got rich."
+  ],
+  [
+   12.249,
+   15.7,
+   "So here's the honest question this video answers:\nwho"
+  ],
+  [
+   15.7,
+   19.152,
+   "actually made money in the Indian market since the"
+  ],
+  [
+   19.152,
+   22.603,
+   "spring \u2014 and how much of what you saw"
+  ],
+  [
+   22.603,
+   23.37,
+   "was real?"
+  ],
+  [
+   24.002,
+   27.453,
+   "We'll only use things we can verify \u2014 public"
+  ],
+  [
+   27.453,
+   30.905,
+   "shareholding disclosures, exchange filings, and SEBI\norders. No invented"
+  ],
+  [
+   30.905,
+   31.288,
+   "rags-to-riches."
+  ],
+  [
+   31.92,
+   34.604,
+   "Let's separate the winners from the fiction."
+  ],
+  [
+   35.104,
+   37.131,
+   "Here's the twist those viral posts hide."
+  ],
+  [
+   37.763,
+   40.369,
+   "The market didn't go up over these six months."
+  ],
+  [
+   41.001,
+   43.607,
+   "It fell \u2014 hard \u2014 and then clawed its"
+  ],
+  [
+   43.607,
+   44.187,
+   "way back."
+  ],
+  [
+   44.818,
+   47.425,
+   "So the people who genuinely made money did it"
+  ],
+  [
+   47.425,
+   49.162,
+   "against the tape, not with it."
+  ],
+  [
+   49.794,
+   52.4,
+   "That makes their methods worth studying \u2014 and it"
+  ],
+  [
+   52.4,
+   55.007,
+   "makes the fakes much easier to spot, once you"
+  ],
+  [
+   55.007,
+   56.455,
+   "know what you're looking at."
+  ],
+  [
+   56.955,
+   58.629,
+   "Look at the actual tape."
+  ],
+  [
+   59.261,
+   62.275,
+   "At the end of December, the Nifty fifty sat"
+  ],
+  [
+   62.275,
+   65.288,
+   "near twenty-six thousand one hundred and thirty \u2014 an"
+  ],
+  [
+   65.288,
+   65.958,
+   "all-time high."
+  ],
+  [
+   66.59,
+   69.603,
+   "Then it fell. By the second of April, it"
+  ],
+  [
+   69.603,
+   72.617,
+   "had crashed to twenty-two thousand one hundred and\neighty-two"
+  ],
+  [
+   72.617,
+   75.631,
+   "\u2014 down about sixteen percent in roughly three\nmonths."
+  ],
+  [
+   76.262,
+   79.276,
+   "From there it recovered, and today it trades near"
+  ],
+  [
+   79.276,
+   82.29,
+   "twenty-four thousand \u2014 still below where it began\nthe"
+  ],
+  [
+   82.29,
+   82.625,
+   "year."
+  ],
+  [
+   83.256,
+   86.27,
+   "Read that again. Six months, and the index is"
+  ],
+  [
+   86.27,
+   86.605,
+   "down."
+  ],
+  [
+   87.237,
+   90.25,
+   "So anyone who tells you this was an easy"
+  ],
+  [
+   90.25,
+   93.264,
+   "market to get rich quick in is, at best,"
+  ],
+  [
+   93.264,
+   95.943,
+   "forgetting \u2014 and at worst, selling you something."
+  ],
+  [
+   96.443,
+   99.716,
+   "Before we meet the winners, we need two questions."
+  ],
+  [
+   100.348,
+   103.622,
+   "They sound almost too simple. And almost nobody\nactually"
+  ],
+  [
+   103.622,
+   104.349,
+   "applies them."
+  ],
+  [
+   104.849,
+   107.042,
+   "Question one \u2014 is it verifiable?"
+  ],
+  [
+   107.674,
+   110.964,
+   "A screenshot of a profit-and-loss screen proves\nnothing; it"
+  ],
+  [
+   110.964,
+   112.792,
+   "takes thirty seconds to fake."
+  ],
+  [
+   113.423,
+   116.713,
+   "But when an investor crosses one percent of a"
+  ],
+  [
+   116.713,
+   120.003,
+   "listed company, the exchange forces them to disclose\nit"
+  ],
+  [
+   120.003,
+   121.1,
+   "\u2014 by law."
+  ],
+  [
+   121.732,
+   125.022,
+   "That paper trail \u2014 quarterly shareholding filings \u2014\nis"
+  ],
+  [
+   125.022,
+   128.312,
+   "how we know what India's big investors truly own."
+  ],
+  [
+   128.943,
+   131.502,
+   "Not what they claim. What they filed."
+  ],
+  [
+   132.002,
+   134.953,
+   "Question two \u2014 over what time frame, and compared"
+  ],
+  [
+   134.953,
+   135.609,
+   "to what?"
+  ],
+  [
+   136.24,
+   139.191,
+   "Doubling your money sounds incredible \u2014 until you\nlearn"
+  ],
+  [
+   139.191,
+   142.143,
+   "it took ten years, which is just seven percent"
+  ],
+  [
+   142.143,
+   142.798,
+   "a year."
+  ],
+  [
+   143.43,
+   146.381,
+   "Or that the whole market doubled right alongside\nyou."
+  ],
+  [
+   147.012,
+   149.964,
+   "Every real number in this video comes with its"
+  ],
+  [
+   149.964,
+   151.275,
+   "date and its benchmark."
+  ],
+  [
+   151.907,
+   154.858,
+   "Hold both questions in your head. They are the"
+  ],
+  [
+   154.858,
+   157.153,
+   "difference between an investor and an audience."
+  ],
+  [
+   157.653,
+   159.394,
+   "Chapter two. The Retail King."
+  ],
+  [
+   160.025,
+   163.158,
+   "Our first verified winner made his fortune by doing"
+  ],
+  [
+   163.158,
+   165.943,
+   "the opposite of everything the internet tells you."
+  ],
+  [
+   166.575,
+   169.708,
+   "He owns, essentially, one stock \u2014 and he almost"
+  ],
+  [
+   169.708,
+   171.1,
+   "never talks about it."
+  ],
+  [
+   171.6,
+   172.753,
+   "Meet Radhakishan Damani."
+  ],
+  [
+   173.385,
+   176.845,
+   "By public filings, his disclosed equity is worth\naround"
+  ],
+  [
+   176.845,
+   180.306,
+   "one point nine eight lakh crore rupees \u2014 nearly"
+  ],
+  [
+   180.306,
+   181.075,
+   "two trillion."
+  ],
+  [
+   181.706,
+   185.166,
+   "And here's the astonishing part: almost all of it"
+  ],
+  [
+   185.166,
+   188.627,
+   "sits in a single company he founded and still"
+  ],
+  [
+   188.627,
+   191.703,
+   "controls \u2014 Avenue Supermarts, the parent of DMart."
+  ],
+  [
+   192.334,
+   193.872,
+   "Sixty-seven percent of it."
+  ],
+  [
+   194.504,
+   197.964,
+   "The rest \u2014 VST Industries, a slice of three-M"
+  ],
+  [
+   197.964,
+   201.424,
+   "India, a little United Breweries \u2014 barely moves the"
+  ],
+  [
+   201.424,
+   201.809,
+   "needle."
+  ],
+  [
+   202.44,
+   205.901,
+   "Damani didn't spread himself across a hundred tips.\nHe"
+  ],
+  [
+   205.901,
+   209.361,
+   "built one great business, and refused to sell it."
+  ],
+  [
+   209.993,
+   213.068,
+   "No interviews. No course. No channel. No calls."
+  ],
+  [
+   213.7,
+   217.16,
+   "Just decades of owning something excellent, and the\npatience"
+  ],
+  [
+   217.16,
+   218.698,
+   "to let it compound."
+  ],
+  [
+   219.33,
+   222.79,
+   "That patience is the entire strategy \u2014 and it's"
+  ],
+  [
+   222.79,
+   225.097,
+   "the rarest thing on your feed."
+  ],
+  [
+   225.597,
+   226.735,
+   "Sit with that."
+  ],
+  [
+   227.367,
+   230.782,
+   "The richest retail investor in the country got there"
+  ],
+  [
+   230.782,
+   233.438,
+   "slowly, in one business, in near-total silence."
+  ],
+  [
+   234.07,
+   237.485,
+   "The loudest voices online, meanwhile, are usually\nselling access"
+  ],
+  [
+   237.485,
+   239.762,
+   "to a secret they don't have."
+  ],
+  [
+   240.393,
+   243.808,
+   "Here's a rule of thumb worth keeping: the more"
+  ],
+  [
+   243.808,
+   247.224,
+   "someone posts about their trades, the less you\nshould"
+  ],
+  [
+   247.224,
+   248.362,
+   "trust their returns."
+  ],
+  [
+   248.862,
+   250.742,
+   "Chapter three. The SMILE investor."
+  ],
+  [
+   251.374,
+   254.758,
+   "If Damani is silence, our next winner is the"
+  ],
+  [
+   254.758,
+   258.141,
+   "opposite \u2014 loud, joyful, and completely open about\nhow"
+  ],
+  [
+   258.141,
+   259.269,
+   "he does it."
+  ],
+  [
+   259.901,
+   263.285,
+   "And his own life is the real version of"
+  ],
+  [
+   263.285,
+   265.917,
+   "the rags-to-riches dream the fakes only imitate."
+  ],
+  [
+   266.417,
+   269.962,
+   "Vijay Kedia came to Mumbai around nineteen ninety\nwith"
+  ],
+  [
+   269.962,
+   272.719,
+   "very little, after his family business faltered."
+  ],
+  [
+   273.351,
+   276.896,
+   "He learned the market the slow, painful way \u2014"
+  ],
+  [
+   276.896,
+   280.44,
+   "and built a disclosed portfolio worth roughly one\nthousand"
+  ],
+  [
+   280.44,
+   283.198,
+   "crore rupees today, across about twenty-one\ncompanies."
+  ],
+  [
+   283.829,
+   286.98,
+   "His method even has a name \u2014 SMILE."
+  ],
+  [
+   287.612,
+   291.157,
+   "Small in size. Medium in experience. Large in\naspiration."
+  ],
+  [
+   291.157,
+   292.732,
+   "Extra-large in market potential."
+  ],
+  [
+   293.364,
+   296.909,
+   "In plain terms: he buys tiny companies with room"
+  ],
+  [
+   296.909,
+   300.454,
+   "to become big ones \u2014 names like Tejas Networks,"
+  ],
+  [
+   300.454,
+   303.998,
+   "Atul Auto, Cera Sanitaryware \u2014 and then he does"
+  ],
+  [
+   303.998,
+   305.968,
+   "the hardest thing in investing."
+  ],
+  [
+   306.599,
+   308.963,
+   "He waits. Five years. Ten years."
+  ],
+  [
+   309.594,
+   313.139,
+   "Even now he's still adding \u2014 a fresh stake"
+  ],
+  [
+   313.139,
+   315.109,
+   "in Eimco Elecon this June."
+  ],
+  [
+   315.74,
+   319.285,
+   "His edge isn't a secret indicator. It's conviction \u2014"
+  ],
+  [
+   319.285,
+   322.436,
+   "and a decade of holding through the noise."
+  ],
+  [
+   322.936,
+   325.988,
+   "Kedia likes to say the market rewards courage but"
+  ],
+  [
+   325.988,
+   326.667,
+   "punishes greed."
+  ],
+  [
+   327.298,
+   330.35,
+   "Bulls make money. Bears make money. But pigs \u2014"
+  ],
+  [
+   330.35,
+   333.403,
+   "the greedy ones chasing every hot tip \u2014 get"
+  ],
+  [
+   333.403,
+   333.742,
+   "slaughtered."
+  ],
+  [
+   334.373,
+   337.426,
+   "Every winner in this video, in their own way,"
+  ],
+  [
+   337.426,
+   338.782,
+   "learned to sit still."
+  ],
+  [
+   339.414,
+   342.466,
+   "That's the muscle the fakes never show you building."
+  ],
+  [
+   342.966,
+   345.5,
+   "Chapter four. The Big Bull's legacy."
+  ],
+  [
+   346.132,
+   349.932,
+   "India's most famous investor, Rakesh Jhunjhunwala,\npassed away in"
+  ],
+  [
+   349.932,
+   350.777,
+   "twenty twenty-two."
+  ],
+  [
+   351.409,
+   355.21,
+   "But his portfolio didn't die with him \u2014 his"
+  ],
+  [
+   355.21,
+   359.01,
+   "wife, Rekha, now stewards it. And over these six"
+  ],
+  [
+   359.01,
+   361.122,
+   "months, it did something remarkable."
+  ],
+  [
+   361.622,
+   365.124,
+   "Rekha Jhunjhunwala's disclosed portfolio was worth\nabout forty-six thousand"
+  ],
+  [
+   365.124,
+   368.627,
+   "nine hundred and eighty-two crore rupees on the\ntwenty-first"
+  ],
+  [
+   368.627,
+   369.405,
+   "of July."
+  ],
+  [
+   370.037,
+   373.539,
+   "That's up nearly seven thousand seven hundred and\nfifty"
+  ],
+  [
+   373.539,
+   377.042,
+   "crore from thirty-nine thousand two hundred crore at\nthe"
+  ],
+  [
+   377.042,
+   378.209,
+   "end of March."
+  ],
+  [
+   378.841,
+   381.565,
+   "Now hold that against our earlier chart."
+  ],
+  [
+   382.196,
+   385.699,
+   "While the index was still clawing back from its"
+  ],
+  [
+   385.699,
+   389.201,
+   "April low, her book jumped almost twenty percent.\nShe"
+  ],
+  [
+   389.201,
+   392.315,
+   "didn't just recover \u2014 she beat the market."
+  ],
+  [
+   392.946,
+   396.449,
+   "The engine, as ever, is Titan \u2014 a five-point-three"
+  ],
+  [
+   396.449,
+   399.951,
+   "percent stake worth around twenty-two thousand\ncrore. Titan alone"
+  ],
+  [
+   399.951,
+   403.453,
+   "made her richer by roughly three and a half"
+  ],
+  [
+   403.453,
+   405.01,
+   "thousand crore since April."
+  ],
+  [
+   405.642,
+   409.144,
+   "The rest is classic Jhunjhunwala \u2014 Tata Motors,\nIndian"
+  ],
+  [
+   409.144,
+   410.312,
+   "Hotels, private banks."
+  ],
+  [
+   410.943,
+   414.446,
+   "And notice what she also did: she cut a"
+  ],
+  [
+   414.446,
+   417.948,
+   "losing bet, slashing Star Health from about sixteen\npercent"
+  ],
+  [
+   417.948,
+   419.116,
+   "down to three."
+  ],
+  [
+   419.747,
+   423.25,
+   "Concentrated conviction, held for years, pruned when\na thesis"
+  ],
+  [
+   423.25,
+   426.752,
+   "breaks. That is how you beat a flat market."
+  ],
+  [
+   427.252,
+   428.945,
+   "Stop and notice the pattern."
+  ],
+  [
+   429.576,
+   432.624,
+   "Three winners in, and not one of them made"
+  ],
+  [
+   432.624,
+   435.671,
+   "their money day-trading, or chasing tips, or timing\nthe"
+  ],
+  [
+   435.671,
+   436.009,
+   "market."
+  ],
+  [
+   436.641,
+   438.334,
+   "They own businesses. They wait."
+  ],
+  [
+   438.965,
+   442.013,
+   "Keep that in mind as the names get smaller"
+  ],
+  [
+   442.013,
+   444.044,
+   "\u2014 because the method doesn't change."
+  ],
+  [
+   444.544,
+   446.604,
+   "Chapter five. The small-cap hunter."
+  ],
+  [
+   447.236,
+   450.944,
+   "Not every winner concentrates. Our next investor\ndoes the"
+  ],
+  [
+   450.944,
+   454.653,
+   "opposite \u2014 dozens of small, careful bets, letting\nthe"
+  ],
+  [
+   454.653,
+   456.301,
+   "winners carry the pack."
+  ],
+  [
+   456.801,
+   460.441,
+   "Ashish Kacholia is one of India's most respected\nsmall-cap"
+  ],
+  [
+   460.441,
+   460.845,
+   "specialists."
+  ],
+  [
+   461.477,
+   465.117,
+   "His disclosed portfolio spans roughly forty-eight\ncompanies \u2014 a"
+  ],
+  [
+   465.117,
+   468.757,
+   "deliberately wide net across engineering, pharma,\nand niche manufacturing."
+  ],
+  [
+   469.388,
+   473.028,
+   "And it worked, hard, this year: his disclosed book"
+  ],
+  [
+   473.028,
+   476.668,
+   "jumped about forty-seven percent in a single quarter\n\u2014"
+  ],
+  [
+   476.668,
+   480.308,
+   "from around two thousand two hundred crore in March"
+  ],
+  [
+   480.308,
+   483.948,
+   "to over three thousand two hundred crore by June."
+  ],
+  [
+   484.579,
+   488.219,
+   "His largest bet, Shaily Engineering Plastics, is\nworth over"
+  ],
+  [
+   488.219,
+   489.432,
+   "seven hundred crore."
+  ],
+  [
+   490.064,
+   493.704,
+   "The philosophy is simple to say and brutally hard"
+  ],
+  [
+   493.704,
+   494.513,
+   "to do."
+  ],
+  [
+   495.144,
+   498.784,
+   "Find small companies before the crowd. Do the\nhomework"
+  ],
+  [
+   498.784,
+   502.424,
+   "nobody else will. Size each position so a single"
+  ],
+  [
+   502.424,
+   504.042,
+   "mistake can't sink you."
+  ],
+  [
+   504.673,
+   508.313,
+   "Then let the two or three that truly work"
+  ],
+  [
+   508.313,
+   511.144,
+   "compound into the bulk of your returns."
+  ],
+  [
+   511.776,
+   515.416,
+   "It's the venture-capital mindset, applied to listed\nsmall-caps \u2014"
+  ],
+  [
+   515.416,
+   519.056,
+   "and you've never heard of most of his names."
+  ],
+  [
+   519.056,
+   522.291,
+   "That's exactly the point. He's early, not loud."
+  ],
+  [
+   522.791,
+   524.048,
+   "Here's something important."
+  ],
+  [
+   524.68,
+   528.451,
+   "Damani won by owning essentially one stock. Kacholia\nwon"
+  ],
+  [
+   528.451,
+   530.126,
+   "by owning nearly fifty."
+  ],
+  [
+   530.758,
+   532.434,
+   "So which is correct?"
+  ],
+  [
+   533.066,
+   533.485,
+   "Both."
+  ],
+  [
+   534.116,
+   537.887,
+   "Concentration and diversification are just two\nhonest answers to"
+  ],
+  [
+   537.887,
+   541.658,
+   "risk. What they share is the discipline behind every"
+  ],
+  [
+   541.658,
+   545.429,
+   "single position \u2014 and the patience to hold it."
+  ],
+  [
+   545.429,
+   546.686,
+   "That's the constant."
+  ],
+  [
+   547.186,
+   548.704,
+   "Chapter six. The diversifier."
+  ],
+  [
+   549.336,
+   552.751,
+   "If Kacholia casts a wide net, our next winner"
+  ],
+  [
+   552.751,
+   556.167,
+   "casts the widest of all \u2014 and turns sheer"
+  ],
+  [
+   556.167,
+   557.685,
+   "breadth into a strategy."
+  ],
+  [
+   558.185,
+   561.962,
+   "Mukul Agrawal runs one of the broadest star\nportfolios"
+  ],
+  [
+   561.962,
+   565.739,
+   "in India \u2014 around seventy-three disclosed companies,\nworth roughly"
+  ],
+  [
+   565.739,
+   568.257,
+   "six thousand four hundred crore rupees."
+  ],
+  [
+   568.889,
+   572.665,
+   "Where a beginner sees chaos, he sees risk control:"
+  ],
+  [
+   572.665,
+   576.442,
+   "no single bet can wreck him, so he can"
+  ],
+  [
+   576.442,
+   578.96,
+   "hold high-growth names through gut-wrenching\nvolatility."
+  ],
+  [
+   579.592,
+   583.369,
+   "His top positions read like a tour of new"
+  ],
+  [
+   583.369,
+   587.146,
+   "India \u2014 Neuland Laboratories in pharma, Radico\nKhaitan in"
+  ],
+  [
+   587.146,
+   589.664,
+   "premium spirits, Nuvama in wealth management."
+  ],
+  [
+   590.296,
+   594.073,
+   "And crucially, he kept buying through this year's\nturmoil"
+  ],
+  [
+   594.073,
+   597.849,
+   "\u2014 adding Sudeep Pharma, Hindustan Construction, and\nSirca Paints"
+  ],
+  [
+   597.849,
+   599.108,
+   "while others panicked."
+  ],
+  [
+   599.74,
+   603.517,
+   "Breadth, plus the nerve to keep deploying into\nweakness."
+  ],
+  [
+   603.517,
+   607.294,
+   "That combination is why his hit-rate on multibaggers\nis"
+  ],
+  [
+   607.294,
+   609.812,
+   "among the best in the business."
+  ],
+  [
+   610.312,
+   612.054,
+   "Chapter seven. The quiet one."
+  ],
+  [
+   612.686,
+   615.821,
+   "The names so far command tens of thousands of"
+  ],
+  [
+   615.821,
+   618.957,
+   "crores. Our next winner proves you can play this"
+  ],
+  [
+   618.957,
+   621.396,
+   "game brilliantly with a fraction of that."
+  ],
+  [
+   621.896,
+   625.542,
+   "The name Dolly Khanna is famous in Indian markets"
+  ],
+  [
+   625.542,
+   629.188,
+   "\u2014 though the portfolio is actually run by her"
+  ],
+  [
+   629.188,
+   632.023,
+   "husband, Rajiv, and that's worth saying plainly."
+  ],
+  [
+   632.655,
+   636.301,
+   "Their disclosed book holds just about ten stocks,\nworth"
+  ],
+  [
+   636.301,
+   639.136,
+   "a little over two hundred crore rupees."
+  ],
+  [
+   639.768,
+   643.414,
+   "Tiny, by star-investor standards \u2014 and that's the\nlesson."
+  ],
+  [
+   644.045,
+   647.691,
+   "They hunt unloved cyclical companies \u2014 chemicals,\nmetals, sugar,"
+  ],
+  [
+   647.691,
+   651.337,
+   "textiles \u2014 and buy them before the market cares."
+  ],
+  [
+   651.337,
+   653.362,
+   "Prakash Industries. GHCL. SOM Distilleries."
+  ],
+  [
+   653.994,
+   657.64,
+   "Then they hold, quietly, for years, and sell into"
+  ],
+  [
+   657.64,
+   660.07,
+   "strength when the crowd finally arrives."
+  ],
+  [
+   660.702,
+   663.132,
+   "Low turnover. High patience. No noise."
+  ],
+  [
+   663.764,
+   667.41,
+   "It's a reminder that the method scales down \u2014"
+  ],
+  [
+   667.41,
+   671.056,
+   "you don't need a fortune to invest like this."
+  ],
+  [
+   671.056,
+   672.271,
+   "You need temperament."
+  ],
+  [
+   672.771,
+   674.327,
+   "Let that sink in."
+  ],
+  [
+   674.959,
+   678.459,
+   "A ten-stock portfolio, run patiently, quietly, from\nhome \u2014"
+  ],
+  [
+   678.459,
+   681.96,
+   "outperformed the vast majority of loud, leveraged\n'experts' online."
+  ],
+  [
+   682.592,
+   686.093,
+   "The edge was never the size of the account."
+  ],
+  [
+   686.724,
+   690.225,
+   "It was behaviour. And behaviour is the one thing"
+  ],
+  [
+   690.225,
+   692.17,
+   "you can copy for free."
+  ],
+  [
+   692.67,
+   694.382,
+   "Chapter eight. The professional."
+  ],
+  [
+   695.014,
+   698.867,
+   "So far, individuals. Now the institutional mind \u2014 a"
+  ],
+  [
+   698.867,
+   702.72,
+   "man who turned a repeatable process into a fund"
+  ],
+  [
+   702.72,
+   703.148,
+   "empire."
+  ],
+  [
+   703.648,
+   707.544,
+   "Sunil Singhania is a chartered financial analyst who\nfounded"
+  ],
+  [
+   707.544,
+   710.141,
+   "Abakkus Asset Management in twenty eighteen."
+  ],
+  [
+   710.772,
+   714.668,
+   "His personal disclosed book \u2014 around twenty-four\nstocks, worth"
+  ],
+  [
+   714.668,
+   718.563,
+   "roughly two thousand three hundred crore \u2014 is only"
+  ],
+  [
+   718.563,
+   722.459,
+   "the visible tip; he manages far more for others."
+  ],
+  [
+   723.09,
+   726.986,
+   "What sets him apart isn't a hot tip. It's"
+  ],
+  [
+   726.986,
+   730.882,
+   "a framework: durable earnings, sane valuations,\ntrustworthy management \u2014"
+  ],
+  [
+   730.882,
+   734.777,
+   "applied the same way, every time, across capital\ngoods,"
+  ],
+  [
+   734.777,
+   736.508,
+   "consumer durables, and manufacturing."
+  ],
+  [
+   737.14,
+   739.304,
+   "Names like Carysil and Hindware."
+  ],
+  [
+   739.936,
+   743.831,
+   "The amateur chases the next big thing. The\nprofessional"
+  ],
+  [
+   743.831,
+   747.727,
+   "builds a process that survives being wrong \u2014 because"
+  ],
+  [
+   747.727,
+   750.324,
+   "over enough decisions, repeatability beats\nbrilliance."
+  ],
+  [
+   750.956,
+   754.851,
+   "That's the quiet superpower the finfluencers can\nnever sell"
+  ],
+  [
+   754.851,
+   757.881,
+   "you, because you can't fake a process."
+  ],
+  [
+   758.381,
+   760.183,
+   "Chapter nine. The sugar baron."
+  ],
+  [
+   760.814,
+   764.057,
+   "Our last individual winner made a fortune in the"
+  ],
+  [
+   764.057,
+   767.3,
+   "least glamorous corner of the market \u2014 the one"
+  ],
+  [
+   767.3,
+   768.741,
+   "everybody else scrolls past."
+  ],
+  [
+   769.241,
+   772.939,
+   "Anil Kumar Goel is known as the sugar baron"
+  ],
+  [
+   772.939,
+   774.172,
+   "of Dalal Street."
+  ],
+  [
+   774.804,
+   778.502,
+   "His disclosed portfolio \u2014 around thirty-six stocks\nworth close"
+  ],
+  [
+   778.502,
+   782.2,
+   "to two thousand crore rupees \u2014 is a whole"
+  ],
+  [
+   782.2,
+   785.899,
+   "book of 'boring' names: sugar, rice, paper,\npackaging, textiles."
+  ],
+  [
+   786.53,
+   790.229,
+   "Triveni Engineering. Dalmia Bharat Sugar. K-R-B-L,\nthe basmati company."
+  ],
+  [
+   790.86,
+   793.737,
+   "Why boring? Because Goel understands operating\nleverage."
+  ],
+  [
+   794.368,
+   798.067,
+   "Buy a cheap, out-of-favour cyclical near the bottom\nof"
+  ],
+  [
+   798.067,
+   801.765,
+   "its cycle, and when the upturn comes, profits\nexplode"
+  ],
+  [
+   801.765,
+   804.231,
+   "\u2014 and so does the stock."
+  ],
+  [
+   804.862,
+   808.561,
+   "He holds for years and ignores the daily noise"
+  ],
+  [
+   808.561,
+   808.972,
+   "completely."
+  ],
+  [
+   809.603,
+   813.301,
+   "There is no hot sector here, no story stock,"
+  ],
+  [
+   813.301,
+   817.0,
+   "no hype. Just a deep understanding of unglamorous\nbusinesses"
+  ],
+  [
+   817.0,
+   820.698,
+   "\u2014 and the patience to wait for the cycle"
+  ],
+  [
+   820.698,
+   821.52,
+   "to turn."
+  ],
+  [
+   822.02,
+   825.345,
+   "Nine verified winners. Loud and quiet, giant and\ntiny,"
+  ],
+  [
+   825.345,
+   826.453,
+   "concentrated and diversified."
+  ],
+  [
+   827.085,
+   830.409,
+   "And underneath, the same boring thread: own good\nthings,"
+  ],
+  [
+   830.409,
+   831.148,
+   "and wait."
+  ],
+  [
+   831.78,
+   835.104,
+   "But you don't have to be a billionaire to"
+  ],
+  [
+   835.104,
+   837.321,
+   "have made money these six months."
+  ],
+  [
+   837.952,
+   841.277,
+   "Let's look at how ordinary investors did it \u2014"
+  ],
+  [
+   841.277,
+   843.863,
+   "starting with where the money actually flowed."
+  ],
+  [
+   844.363,
+   846.931,
+   "Chapter ten. Where the money actually flowed."
+  ],
+  [
+   847.563,
+   850.865,
+   "In a market that fell and recovered, the gains"
+  ],
+  [
+   850.865,
+   854.167,
+   "weren't spread evenly. One theme did the heavy\nlifting."
+  ],
+  [
+   854.667,
+   858.263,
+   "As the market clawed back from its April low,"
+  ],
+  [
+   858.263,
+   861.859,
+   "one sector led the charge \u2014 defence, and the"
+  ],
+  [
+   861.859,
+   863.857,
+   "broader capital-expenditure story behind it."
+  ],
+  [
+   864.489,
+   868.085,
+   "Record government spending, a national push to build\nweapons"
+  ],
+  [
+   868.085,
+   871.681,
+   "at home instead of importing them, and multi-year\norder"
+  ],
+  [
+   871.681,
+   875.278,
+   "books turned companies like Bharat Electronics and\nHindustan Aeronautics"
+  ],
+  [
+   875.278,
+   877.675,
+   "into the engines of the recovery."
+  ],
+  [
+   878.175,
+   879.592,
+   "Look at the gap."
+  ],
+  [
+   880.224,
+   883.413,
+   "From the April bottom, Bharat Electronics rebounded\nabout fifty-five"
+  ],
+  [
+   883.413,
+   884.83,
+   "percent to record highs."
+  ],
+  [
+   885.462,
+   888.651,
+   "The defence sector as a whole was up roughly"
+  ],
+  [
+   888.651,
+   890.423,
+   "twenty-four percent for the year."
+  ],
+  [
+   891.054,
+   894.244,
+   "The Nifty? Up about nine percent off the low."
+  ],
+  [
+   894.875,
+   897.001,
+   "Same six months, wildly different outcomes."
+  ],
+  [
+   897.633,
+   900.822,
+   "The people who made real money weren't smarter than"
+  ],
+  [
+   900.822,
+   904.011,
+   "the index \u2014 they were simply standing where the"
+  ],
+  [
+   904.011,
+   905.074,
+   "tailwind was blowing."
+  ],
+  [
+   905.574,
+   908.069,
+   "But here's the honesty most videos skip."
+  ],
+  [
+   908.701,
+   911.552,
+   "You're seeing this rally after it already happened."
+  ],
+  [
+   912.184,
+   915.392,
+   "A structural tailwind is real, but it is not"
+  ],
+  [
+   915.392,
+   918.6,
+   "a promise \u2014 defence stocks have run hard, and"
+  ],
+  [
+   918.6,
+   921.808,
+   "hot sectors are exactly where the next correction\ntends"
+  ],
+  [
+   921.808,
+   922.521,
+   "to start."
+  ],
+  [
+   923.153,
+   926.361,
+   "Recognising a trend is useful. Chasing it blindly,\nat"
+  ],
+  [
+   926.361,
+   929.569,
+   "the top, is how the fakes get their screenshots."
+  ],
+  [
+   930.069,
+   932.072,
+   "Chapter eleven. The IPO winners."
+  ],
+  [
+   932.703,
+   936.308,
+   "If any story fits 'made money in six months',"
+  ],
+  [
+   936.308,
+   939.913,
+   "it's the new listings. A handful genuinely doubled.\nBut"
+  ],
+  [
+   939.913,
+   941.916,
+   "the headline hides the truth."
+  ],
+  [
+   942.416,
+   943.93,
+   "The winners are real."
+  ],
+  [
+   944.562,
+   947.969,
+   "Omnitech Engineering, listed in March, is up over\none"
+  ],
+  [
+   947.969,
+   950.997,
+   "hundred and fifty-eight percent from its issue\nprice."
+  ],
+  [
+   951.628,
+   954.278,
+   "SEDEMAC Mechatronics, up a hundred and twenty-six."
+  ],
+  [
+   954.91,
+   958.317,
+   "Shadowfax, up a hundred percent \u2014 a clean double."
+  ],
+  [
+   958.948,
+   961.219,
+   "Now look at the last bar."
+  ],
+  [
+   961.851,
+   965.258,
+   "The average listing gain across all thirty-two IPOs\nthis"
+  ],
+  [
+   965.258,
+   966.393,
+   "year? Six-point-five percent."
+  ],
+  [
+   967.025,
+   970.432,
+   "For every headline double, there were many that\nbarely"
+  ],
+  [
+   970.432,
+   971.946,
+   "moved \u2014 or fell."
+  ],
+  [
+   972.446,
+   975.321,
+   "And there's a catch even the average hides."
+  ],
+  [
+   975.952,
+   979.186,
+   "To make that money, you first had to be"
+  ],
+  [
+   979.186,
+   982.42,
+   "allotted the shares \u2014 and popular IPOs are so"
+  ],
+  [
+   982.42,
+   985.654,
+   "oversubscribed that most small applicants get\nnothing at all."
+  ],
+  [
+   986.286,
+   989.52,
+   "So the viral 'I doubled my money on the"
+  ],
+  [
+   989.52,
+   992.754,
+   "IPO' post is survivorship bias with an official\nstamp:"
+  ],
+  [
+   992.754,
+   995.988,
+   "you hear from the lucky few who got the"
+  ],
+  [
+   995.988,
+   999.221,
+   "allotment and the pop \u2014 never from the thousands"
+  ],
+  [
+   999.221,
+   1002.096,
+   "who applied, got nothing, or bought a dud."
+  ],
+  [
+   1002.728,
+   1005.243,
+   "Real, but not repeatable-on-demand. Know the\ndifference."
+  ],
+  [
+   1005.743,
+   1007.452,
+   "Chapter twelve. The boring winners."
+  ],
+  [
+   1008.083,
+   1011.159,
+   "This is the most important chapter for most of"
+  ],
+  [
+   1011.159,
+   1014.235,
+   "you \u2014 because it's the one strategy on this"
+  ],
+  [
+   1014.235,
+   1016.286,
+   "list that anyone can actually copy."
+  ],
+  [
+   1016.786,
+   1020.248,
+   "There's a winner these six months who posted\nnothing,"
+  ],
+  [
+   1020.248,
+   1022.171,
+   "tipped nothing, and timed nothing."
+  ],
+  [
+   1022.802,
+   1026.264,
+   "The ordinary investor with a simple monthly S-I-P \u2014"
+  ],
+  [
+   1026.264,
+   1028.956,
+   "a systematic investment plan into mutual funds."
+  ],
+  [
+   1029.588,
+   1031.896,
+   "The most boring strategy in India."
+  ],
+  [
+   1032.527,
+   1035.989,
+   "And when the market crashed in April, it did"
+  ],
+  [
+   1035.989,
+   1037.912,
+   "something the panicking traders couldn't."
+  ],
+  [
+   1038.412,
+   1042.209,
+   "In March, Indians poured a record thirty-two\nthousand and"
+  ],
+  [
+   1042.209,
+   1046.007,
+   "eighty-seven crore rupees into SIPs \u2014 in a single"
+  ],
+  [
+   1046.007,
+   1046.429,
+   "month."
+  ],
+  [
+   1047.06,
+   1050.858,
+   "More than thirty-one thousand crore, every month,\nfor five"
+  ],
+  [
+   1050.858,
+   1051.702,
+   "straight months."
+  ],
+  [
+   1052.333,
+   1056.131,
+   "Here's the magic: those SIP instalments kept buying\nautomatically,"
+  ],
+  [
+   1056.131,
+   1059.084,
+   "on schedule, right through the April low."
+  ],
+  [
+   1059.716,
+   1061.825,
+   "No courage required. No forecast."
+  ],
+  [
+   1062.457,
+   1066.254,
+   "The plan bought the exact bottom that the\ntip-chasers"
+  ],
+  [
+   1066.254,
+   1068.364,
+   "were too scared to touch."
+  ],
+  [
+   1068.864,
+   1071.328,
+   "That's the whole trick of a SIP."
+  ],
+  [
+   1071.96,
+   1075.128,
+   "When prices fall, your fixed rupees simply buy more"
+  ],
+  [
+   1075.128,
+   1078.297,
+   "units \u2014 so a crash lowers your average cost"
+  ],
+  [
+   1078.297,
+   1079.705,
+   "instead of your resolve."
+  ],
+  [
+   1080.337,
+   1083.505,
+   "The volatility that terrified everyone else quietly\nworked in"
+  ],
+  [
+   1083.505,
+   1084.913,
+   "the SIP investor's favour."
+  ],
+  [
+   1085.545,
+   1088.713,
+   "They didn't beat the market with genius. They beat"
+  ],
+  [
+   1088.713,
+   1091.882,
+   "it with a standing instruction \u2014 and the discipline"
+  ],
+  [
+   1091.882,
+   1093.29,
+   "to leave it alone."
+  ],
+  [
+   1093.79,
+   1097.599,
+   "Chapter thirteen. Now the other half of the story"
+  ],
+  [
+   1097.599,
+   1098.869,
+   "\u2014 the fakes."
+  ],
+  [
+   1099.5,
+   1103.31,
+   "Because while real investors were quietly\ncompounding, an entire"
+  ],
+  [
+   1103.31,
+   1107.119,
+   "industry was manufacturing fake success. And the\nregulator has"
+  ],
+  [
+   1107.119,
+   1107.542,
+   "receipts."
+  ],
+  [
+   1108.042,
+   1109.609,
+   "Start with the biggest."
+  ],
+  [
+   1110.24,
+   1113.766,
+   "In December twenty twenty-five, SEBI came down on\nAvadhut"
+  ],
+  [
+   1113.766,
+   1115.725,
+   "Sathe and his trading academy."
+  ],
+  [
+   1116.356,
+   1119.882,
+   "Over eight years, they had collected around six\nhundred"
+  ],
+  [
+   1119.882,
+   1123.407,
+   "and one crore rupees from more than three lakh"
+  ],
+  [
+   1123.407,
+   1126.149,
+   "people \u2014 under the banner of 'education'."
+  ],
+  [
+   1126.781,
+   1130.307,
+   "SEBI found it was really unregistered investment\nadvice, built"
+  ],
+  [
+   1130.307,
+   1133.832,
+   "on showing off selective wins \u2014 and ordered five"
+  ],
+  [
+   1133.832,
+   1135.791,
+   "hundred and forty-six crore disgorged."
+  ],
+  [
+   1136.422,
+   1139.948,
+   "Read that number again. That is the size of"
+  ],
+  [
+   1139.948,
+   1141.123,
+   "the fake-success industry."
+  ],
+  [
+   1141.623,
+   1145.242,
+   "Then there's Asmita Patel, who branded herself the\nshe-wolf"
+  ],
+  [
+   1145.242,
+   1148.459,
+   "of the stock market and the options queen."
+  ],
+  [
+   1149.091,
+   1151.906,
+   "SEBI barred her in February twenty twenty-five."
+  ],
+  [
+   1152.537,
+   1156.156,
+   "Her 'courses', the regulator said, were really\nunregistered buy-and-sell"
+  ],
+  [
+   1156.156,
+   1159.776,
+   "advice \u2014 and of roughly one hundred and four"
+  ],
+  [
+   1159.776,
+   1163.395,
+   "crore rupees earned, more than fifty-three crore was\nimpounded."
+  ],
+  [
+   1164.026,
+   1167.646,
+   "The glamorous nickname wasn't a track record. It was"
+  ],
+  [
+   1167.646,
+   1168.852,
+   "a marketing budget."
+  ],
+  [
+   1169.352,
+   1173.105,
+   "And the one that named the whole genre \u2014"
+  ],
+  [
+   1173.105,
+   1176.442,
+   "'Baap of Chart', the self-styled father of charts."
+  ],
+  [
+   1177.073,
+   1180.827,
+   "A huge following, a confident persona, and, SEBI\nfound,"
+  ],
+  [
+   1180.827,
+   1184.58,
+   "unregistered advisory underneath \u2014 with seventeen\ncrore rupees ordered"
+  ],
+  [
+   1184.58,
+   1186.665,
+   "disgorged back in twenty twenty-three."
+  ],
+  [
+   1187.297,
+   1188.965,
+   "Three names, one template."
+  ],
+  [
+   1189.596,
+   1193.35,
+   "Build an audience, promise the dream, sell the\ncourse."
+  ],
+  [
+   1193.35,
+   1197.103,
+   "The trading profits were never the business. You\nwere."
+  ],
+  [
+   1197.603,
+   1200.334,
+   "Chapter fourteen. So how do you protect yourself?"
+  ],
+  [
+   1200.966,
+   1204.039,
+   "Let's dissect the exact claim that probably brought\nyou"
+  ],
+  [
+   1204.039,
+   1207.112,
+   "here \u2014 one lakh turned into forty-four \u2014 and"
+  ],
+  [
+   1207.112,
+   1210.185,
+   "build a checklist you can use on any post,"
+  ],
+  [
+   1210.185,
+   1210.526,
+   "forever."
+  ],
+  [
+   1211.026,
+   1214.2,
+   "Before the checklist, one number settles the whole\nargument."
+  ],
+  [
+   1214.832,
+   1218.006,
+   "SEBI studied every individual trader in the futures\nand"
+  ],
+  [
+   1218.006,
+   1218.712,
+   "options market."
+  ],
+  [
+   1219.343,
+   1222.518,
+   "Ninety-three percent of them lost money \u2014 together,\nmore"
+  ],
+  [
+   1222.518,
+   1225.692,
+   "than one point eight lakh crore rupees over three"
+  ],
+  [
+   1225.692,
+   1226.045,
+   "years."
+  ],
+  [
+   1226.676,
+   1229.851,
+   "And losses got worse the next year, not better."
+  ],
+  [
+   1230.482,
+   1233.657,
+   "So when someone shows you one lakh becoming\nforty-four,"
+  ],
+  [
+   1233.657,
+   1236.831,
+   "remember: for every account like that \u2014 if it's"
+  ],
+  [
+   1236.831,
+   1240.005,
+   "even real \u2014 there are roughly nine that quietly"
+  ],
+  [
+   1240.005,
+   1243.18,
+   "blew up, and you will never see a single"
+  ],
+  [
+   1243.18,
+   1244.238,
+   "one of them."
+  ],
+  [
+   1244.738,
+   1247.791,
+   "So here's your defence \u2014 six red flags."
+  ],
+  [
+   1248.423,
+   1251.858,
+   "One: no SEBI registration number \u2014 a real adviser"
+  ],
+  [
+   1251.858,
+   1254.529,
+   "shows one; a finfluencer shows a lifestyle."
+  ],
+  [
+   1255.161,
+   1258.596,
+   "Two: screenshots instead of audited statements \u2014 one\ntakes"
+  ],
+  [
+   1258.596,
+   1260.886,
+   "seconds to fake, the other doesn't."
+  ],
+  [
+   1261.517,
+   1264.952,
+   "Three: survivorship only \u2014 you see the win, never"
+  ],
+  [
+   1264.952,
+   1265.716,
+   "the losses."
+  ],
+  [
+   1266.347,
+   1269.782,
+   "Four: the words 'guaranteed' or 'sure-shot' \u2014 an\ninstant"
+  ],
+  [
+   1269.782,
+   1270.164,
+   "disqualifier."
+  ],
+  [
+   1270.795,
+   1274.23,
+   "Five: the course upsell \u2014 the real product is"
+  ],
+  [
+   1274.23,
+   1274.994,
+   "the dream."
+  ],
+  [
+   1275.625,
+   1279.06,
+   "Six: a single lucky trade with no track record."
+  ],
+  [
+   1279.692,
+   1282.745,
+   "See two or more, and close the tab."
+  ],
+  [
+   1283.245,
+   1285.977,
+   "Chapter fifteen. Let's pull it together."
+  ],
+  [
+   1286.609,
+   1290.707,
+   "Across nine verified investors and every ordinary\nwinner, the"
+  ],
+  [
+   1290.707,
+   1294.805,
+   "same handful of threads keep appearing. Copy these,\nnot"
+  ],
+  [
+   1294.805,
+   1295.716,
+   "the screenshots."
+  ],
+  [
+   1296.216,
+   1296.944,
+   "Six threads."
+  ],
+  [
+   1297.575,
+   1300.849,
+   "One: quality first \u2014 own good businesses, or a"
+  ],
+  [
+   1300.849,
+   1302.305,
+   "wide basket of them."
+  ],
+  [
+   1302.936,
+   1305.847,
+   "Two: time, not timing \u2014 hold for years."
+  ],
+  [
+   1306.478,
+   1309.752,
+   "Three: position sizing \u2014 never bet the farm on"
+  ],
+  [
+   1309.752,
+   1310.48,
+   "one idea."
+  ],
+  [
+   1311.112,
+   1314.386,
+   "Four: no ruinous leverage \u2014 they compounded, they\ndidn't"
+  ],
+  [
+   1314.386,
+   1314.75,
+   "gamble."
+  ],
+  [
+   1315.381,
+   1318.656,
+   "Five: they bought weakness \u2014 the crash was a"
+  ],
+  [
+   1318.656,
+   1320.111,
+   "discount, not a disaster."
+  ],
+  [
+   1320.742,
+   1322.198,
+   "Six, and biggest: temperament."
+  ],
+  [
+   1322.829,
+   1326.103,
+   "Every real edge in this video was patience and"
+  ],
+  [
+   1326.103,
+   1329.378,
+   "skepticism. None of it was a secret indicator. All"
+  ],
+  [
+   1329.378,
+   1332.288,
+   "of it, you can copy \u2014 for free."
+  ],
+  [
+   1332.788,
+   1335.158,
+   "So \u2014 who actually made money?"
+  ],
+  [
+   1335.789,
+   1338.554,
+   "Not the loudest accounts. The patient ones."
+  ],
+  [
+   1339.185,
+   1342.74,
+   "The big bulls who held quality for years. Rekha"
+  ],
+  [
+   1342.74,
+   1346.294,
+   "Jhunjhunwala, whose book beat a flat market by\nnearly"
+  ],
+  [
+   1346.294,
+   1349.058,
+   "eight thousand crore in a single quarter."
+  ],
+  [
+   1349.69,
+   1353.244,
+   "The lucky, disciplined IPO investors \u2014 remembering\nthe average"
+  ],
+  [
+   1353.244,
+   1355.219,
+   "gain was just six percent."
+  ],
+  [
+   1355.851,
+   1359.405,
+   "And the quiet SIP investor who automatically bought\nthe"
+  ],
+  [
+   1359.405,
+   1360.985,
+   "crash everyone else feared."
+  ],
+  [
+   1361.616,
+   1365.171,
+   "Meanwhile SEBI was busy barring the fakes and\nimpounding"
+  ],
+  [
+   1365.171,
+   1365.96,
+   "their crores."
+  ],
+  [
+   1366.592,
+   1370.146,
+   "The lesson is almost boring. Wealth was built by"
+  ],
+  [
+   1370.146,
+   1372.516,
+   "patience \u2014 and protected by skepticism."
+  ],
+  [
+   1373.016,
+   1375.072,
+   "One last thing, and it matters."
+  ],
+  [
+   1375.703,
+   1378.787,
+   "Nothing in this video is investment advice \u2014 it's"
+  ],
+  [
+   1378.787,
+   1380.158,
+   "a way of thinking."
+  ],
+  [
+   1380.789,
+   1383.873,
+   "Every number came from public disclosures and SEBI\norders,"
+  ],
+  [
+   1383.873,
+   1386.957,
+   "and you should verify all of it yourself, including"
+  ],
+  [
+   1386.957,
+   1388.67,
+   "everything I just told you."
+  ],
+  [
+   1389.301,
+   1392.385,
+   "Before you act on any idea, talk to a"
+  ],
+  [
+   1392.385,
+   1393.07,
+   "SEBI-registered adviser."
+  ],
+  [
+   1393.702,
+   1396.786,
+   "The winners weren't the ones with the loudest\nclaims."
+  ],
+  [
+   1396.786,
+   1399.527,
+   "They were the ones who could prove them."
+  ],
+  [
+   1400.158,
+   1402.214,
+   "Be that investor. Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration.wav",
+   "volume": 1.0
+  }
+ }
+}

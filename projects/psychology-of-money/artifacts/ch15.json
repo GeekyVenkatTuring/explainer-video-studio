@@ -1,0 +1,436 @@
+{
+ "cuts": [
+  {
+   "id": "ch15_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 14.699,
+   "props": {
+    "n": 15,
+    "total": 20,
+    "title": "Nothing's Free",
+    "lines": [
+     "Every return has a price. Volatility is the fee, not a fine.",
+     "If you want the return, pay the fee. If you will not pay it, buy a quieter asset."
+    ],
+    "color": "#F87171",
+    "dur": 15.199
+   }
+  },
+  {
+   "id": "ch15_fee",
+   "type": "pm_sheet",
+   "in_seconds": 15.199,
+   "out_seconds": 75.118,
+   "props": {
+    "kicker": "THE PRICE OF RETURNS",
+    "title": "Days below the old high are the bill",
+    "rows": [
+     {
+      "k": "S&P 1950\u20132019",
+      "v": "About 11% a year from 1950 to 2019 \u2014 with many stretches at least 5% below a previous high.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Netflix",
+      "v": "Netflix returned more than 35,000% from 2002 to 2018, but traded below its previous all-time high on 94% of days.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Monster",
+      "v": "Monster Beverage returned 319,000% from 1995 to 2018, below its previous high 95% of the time.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "The car",
+      "v": "A $30,000 car: pay it, buy used, or steal it. Almost nobody chooses steal. In markets, 'steal' is wanting 11% with no drawdowns.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Disneyland",
+      "v": "Tickets cost $100. That is the price of the day, not a punishment. Volatility is the same kind of price.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "2008 wealth",
+      "v": "The housing bubble's end cut more than $8 trillion; household wealth fell about $6.2 trillion in the crisis window the book cites.",
+      "c": "#F87171"
+     }
+    ],
+    "color": "#F87171",
+    "note": "",
+    "dur": 60.419
+   }
+  },
+  {
+   "id": "ch15_fee-more",
+   "type": "pm_sheet",
+   "in_seconds": 75.618,
+   "out_seconds": 121.561,
+   "props": {
+    "kicker": "PAY THE FEE OR BUY LESS RETURN",
+    "title": "Drawdowns are the invoice",
+    "rows": [
+     {
+      "k": "11%",
+      "v": "About 11% a year, 1950\u20132019, came bundled with long stretches 5% or more below an old high.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Netflix 94%",
+      "v": "More than 35,000% total return, below the old high on 94% of days. The fee was almost every morning.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Monster 95%",
+      "v": "319,000% from 1995\u20132018, below the previous high 95% of the time.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Steal",
+      "v": "Wanting 11% with no drawdowns is the market version of stealing the $30,000 car.",
+      "c": "#F87171"
+     },
+     {
+      "k": "2008",
+      "v": "More than $8 trillion of housing wealth and about $6.2 trillion of household wealth gone in the window the book cites \u2014 that was a fee, loudly collected.",
+      "c": "#FBBF24"
+     }
+    ],
+    "color": "#F87171",
+    "note": "",
+    "dur": 46.443
+   }
+  },
+  {
+   "id": "ch15_fee-do",
+   "type": "pm_list",
+   "in_seconds": 122.061,
+   "out_seconds": 134.654,
+   "props": {
+    "kicker": "NOTHING'S FREE \u00b7 RULES",
+    "title": "Choose the product, then pay",
+    "items": [
+     "If you want equity-like returns, budget for equity-like nausea. Do not call it a bug.",
+     "If you will not pay, buy a quieter asset and accept a quieter payoff. That is honest."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 13.093
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.79,
+   "Chapter 15."
+  ],
+  [
+   0.79,
+   1.581,
+   "Nothing's Free."
+  ],
+  [
+   2.212,
+   4.188,
+   "Every return has a price."
+  ],
+  [
+   4.188,
+   5.769,
+   "Volatility is the fee,"
+  ],
+  [
+   5.769,
+   6.954,
+   "not a fine."
+  ],
+  [
+   7.586,
+   9.562,
+   "If you want the return,"
+  ],
+  [
+   9.562,
+   10.747,
+   "pay the fee."
+  ],
+  [
+   10.747,
+   13.118,
+   "If you will not pay it,"
+  ],
+  [
+   13.118,
+   14.699,
+   "buy a quieter asset."
+  ],
+  [
+   15.199,
+   18.331,
+   "About eleven percent a year from nineteen\nfifty"
+  ],
+  [
+   18.331,
+   19.505,
+   "to twenty nineteen,"
+  ],
+  [
+   19.505,
+   22.637,
+   "with many stretches at least five percent\nbelow"
+  ],
+  [
+   22.637,
+   23.811,
+   "a previous high."
+  ],
+  [
+   24.443,
+   27.574,
+   "Netflix returned more than thirty-five\nthousand percent from"
+  ],
+  [
+   27.574,
+   29.923,
+   "two thousand two to twenty eighteen,"
+  ],
+  [
+   29.923,
+   33.055,
+   "but traded below its previous all-time\nhigh on"
+  ],
+  [
+   33.055,
+   34.62,
+   "ninety-four percent of days."
+  ],
+  [
+   35.252,
+   38.384,
+   "Monster Beverage returned three hundred\nnineteen thousand percent"
+  ],
+  [
+   38.384,
+   40.732,
+   "from nineteen ninety-five to twenty\neighteen,"
+  ],
+  [
+   40.732,
+   43.864,
+   "below its previous high ninety-five\npercent of the"
+  ],
+  [
+   43.864,
+   44.256,
+   "time."
+  ],
+  [
+   44.887,
+   46.844,
+   "A thirty thousand dollar car:"
+  ],
+  [
+   46.844,
+   47.627,
+   "pay it,"
+  ],
+  [
+   47.627,
+   48.41,
+   "buy used,"
+  ],
+  [
+   48.41,
+   49.585,
+   "or steal it."
+  ],
+  [
+   49.585,
+   51.15,
+   "Almost nobody chooses steal."
+  ],
+  [
+   51.15,
+   51.933,
+   "In markets,"
+  ],
+  [
+   51.933,
+   55.065,
+   "steal is wanting eleven percent with no\ndrawdowns."
+  ],
+  [
+   55.697,
+   58.045,
+   "Disneyland tickets cost one hundred\ndollars."
+  ],
+  [
+   58.045,
+   60.785,
+   "That is the price of the day,"
+  ],
+  [
+   60.785,
+   61.96,
+   "not a punishment."
+  ],
+  [
+   61.96,
+   64.7,
+   "Volatility is the same kind of price."
+  ],
+  [
+   65.332,
+   68.463,
+   "The housing bubble's end cut more than\neight"
+  ],
+  [
+   68.463,
+   69.246,
+   "trillion dollars."
+  ],
+  [
+   69.246,
+   72.378,
+   "Household wealth fell about six point two\ntrillion"
+  ],
+  [
+   72.378,
+   75.118,
+   "in the crisis window the book cites."
+  ],
+  [
+   75.618,
+   78.776,
+   "About eleven percent a year from nineteen\nfifty"
+  ],
+  [
+   78.776,
+   81.933,
+   "to twenty nineteen came bundled with long\nstretches"
+  ],
+  [
+   81.933,
+   85.091,
+   "five percent or more below an old high."
+  ],
+  [
+   85.722,
+   88.485,
+   "More than thirty-five thousand percent\ntotal return,"
+  ],
+  [
+   88.485,
+   91.643,
+   "below the old high on ninety-four percent\nof"
+  ],
+  [
+   91.643,
+   92.037,
+   "days."
+  ],
+  [
+   92.037,
+   94.406,
+   "The fee was almost every morning."
+  ],
+  [
+   95.037,
+   98.195,
+   "Three hundred nineteen thousand percent\nfrom nineteen ninety-five"
+  ],
+  [
+   98.195,
+   99.379,
+   "to twenty eighteen,"
+  ],
+  [
+   99.379,
+   102.536,
+   "below the previous high ninety-five\npercent of the"
+  ],
+  [
+   102.536,
+   102.931,
+   "time."
+  ],
+  [
+   103.563,
+   106.72,
+   "Wanting eleven percent with no drawdowns\nis the"
+  ],
+  [
+   106.72,
+   109.483,
+   "market version of stealing the\nthirty-thousand-dollar car."
+  ],
+  [
+   110.115,
+   113.272,
+   "More than eight trillion of housing wealth\nand"
+  ],
+  [
+   113.272,
+   116.43,
+   "about six point two trillion of household\nwealth"
+  ],
+  [
+   116.43,
+   119.193,
+   "gone in the window the book cites."
+  ],
+  [
+   119.193,
+   120.772,
+   "That was a fee,"
+  ],
+  [
+   120.772,
+   121.561,
+   "loudly collected."
+  ],
+  [
+   122.061,
+   123.93,
+   "If you want equity-like returns,"
+  ],
+  [
+   123.93,
+   125.425,
+   "budget for equity-like nausea."
+  ],
+  [
+   125.425,
+   127.668,
+   "Do not call it a bug."
+  ],
+  [
+   128.299,
+   130.168,
+   "If you will not pay,"
+  ],
+  [
+   130.168,
+   133.159,
+   "buy a quieter asset and accept a quieter"
+  ],
+  [
+   133.159,
+   133.533,
+   "payoff."
+  ],
+  [
+   133.533,
+   134.654,
+   "That is honest."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch15.wav",
+   "volume": 1.0
+  }
+ }
+}

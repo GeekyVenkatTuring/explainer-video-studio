@@ -1,0 +1,19 @@
+{
+  "cuts": [
+    {
+      "id": "recap",
+      "type": "aae_recap",
+      "in_seconds": 0.0,
+      "out_seconds": 16.912,
+      "props": {
+        "dur": 17.413
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/25_recap.wav",
+      "volume": 1
+    }
+  }
+}

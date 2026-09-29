@@ -1,0 +1,18 @@
+{
+  "cuts": [
+    { "id": "s00_title", "type": "pg_title", "in_seconds": 0, "out_seconds": 7, "props": { "dur": 7, "gateway": "Razorpay", "tagline": "Docs, pricing, support & a real integration — end to end", "accent": "#3B82F6" } },
+    { "id": "s01_div", "type": "pg_div", "in_seconds": 7, "out_seconds": 14, "props": { "dur": 7, "n": 1, "title": "The Gateways", "sub": "Eight ways to accept money in India", "color": "#A855F7" } },
+    { "id": "s02_docs", "type": "pg_docs", "in_seconds": 14, "out_seconds": 21, "props": { "dur": 7, "gateway": "Razorpay", "accent": "#3B82F6" } },
+    { "id": "s03_support", "type": "pg_support", "in_seconds": 21, "out_seconds": 28, "props": { "dur": 7, "gateway": "Razorpay", "accent": "#3B82F6" } },
+    { "id": "s04_metrics", "type": "pg_metrics", "in_seconds": 28, "out_seconds": 35, "props": { "dur": 7, "gateway": "Razorpay", "accent": "#3B82F6", "settleDay": 1, "successNote": "No official figure published", "complexity": 1, "complexityLabel": "Easy", "complexityWhy": "Hosted checkout + SDKs + plugins" } },
+    { "id": "s05_pricing", "type": "pg_pricing", "in_seconds": 35, "out_seconds": 42, "props": { "dur": 7, "gateway": "Razorpay", "accent": "#3B82F6" } },
+    { "id": "s06_flow", "type": "pg_flow", "in_seconds": 42, "out_seconds": 49, "props": { "dur": 7, "gateway": "Razorpay", "accent": "#3B82F6" } },
+    { "id": "s07_code", "type": "pg_code", "in_seconds": 49, "out_seconds": 56, "props": { "dur": 7, "gateway": "Razorpay", "accent": "#3B82F6" } },
+    { "id": "s08_compare", "type": "pg_compare", "in_seconds": 56, "out_seconds": 63, "props": { "dur": 7 } },
+    { "id": "s09_decision", "type": "pg_decision", "in_seconds": 63, "out_seconds": 70, "props": { "dur": 7 } },
+    { "id": "s10_disclaimer", "type": "pg_disclaimer", "in_seconds": 70, "out_seconds": 77, "props": { "dur": 7, "asOf": "August 2026" } },
+    { "id": "s11_recap", "type": "pg_recap", "in_seconds": 77, "out_seconds": 84, "props": { "dur": 7 } }
+  ],
+  "audio": {},
+  "captions": []
+}

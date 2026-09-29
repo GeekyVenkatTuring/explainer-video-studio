@@ -1,0 +1,455 @@
+{
+ "cuts": [
+  {
+   "id": "ch18_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 14.251,
+   "props": {
+    "n": 18,
+    "total": 20,
+    "title": "Believe Anything",
+    "lines": [
+     "Stories are how we stitch incomplete facts into a feeling of control.",
+     "The more you want the world to be predictable, the more fiction you will accept."
+    ],
+    "color": "#A78BFA",
+    "dur": 14.751
+   }
+  },
+  {
+   "id": "ch18_stories",
+   "type": "pm_sheet",
+   "in_seconds": 14.751,
+   "out_seconds": 54.877,
+   "props": {
+    "kicker": "COMING UP WITH REASONS",
+    "title": "Control we do not have",
+    "rows": [
+     {
+      "k": "Active funds",
+      "v": "85% of active mutual funds underperformed their benchmarks in the span the book cites.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Fed range",
+      "v": "A Fed forecast once gave 1.6% to 2.8% growth as its band \u2014 then missed by more than 2%.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "NASA",
+      "v": "A Pluto flyby forecast 99.99998% accurate. Money is not a spacecraft. We still want that feeling.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Startups",
+      "v": "Kahneman: founders say at least 80% of the outcome depends on what they do inside the firm.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Appeal",
+      "v": "A 1% chance of getting rich without effort is easy to over-weight if you cannot calibrate small odds.",
+      "c": "#E8B86D"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 40.626
+   }
+  },
+  {
+   "id": "ch18_stories-more",
+   "type": "pm_sheet",
+   "in_seconds": 55.377,
+   "out_seconds": 93.26,
+   "props": {
+    "kicker": "WE WANT A NASA STORY",
+    "title": "Money is not 99.99998% controllable",
+    "rows": [
+     {
+      "k": "85%",
+      "v": "About 85% of active funds underperformed their benchmarks in the span the book cites.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Fed miss",
+      "v": "A 1.6% to 2.8% growth band, then a miss of more than 2%. Official stories drift too.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Pluto",
+      "v": "A flyby at 99.99998% accuracy. We crave that feeling in markets and invent it.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "80%",
+      "v": "Founders tell Kahneman that at least 80% of the outcome is what they do inside the firm.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "1% lottery",
+      "v": "A 1% tale of effortless riches is easy to over-weight if you cannot feel small probabilities.",
+      "c": "#E8B86D"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 38.383
+   }
+  },
+  {
+   "id": "ch18_stories-do",
+   "type": "pm_list",
+   "in_seconds": 93.76,
+   "out_seconds": 107.328,
+   "props": {
+    "kicker": "BELIEVE ANYTHING \u00b7 RULES",
+    "title": "Keep the story thinner than the cash",
+    "items": [
+     "Prefer rules that survive a wrong story: save, diversify, avoid ruin, stay for tails.",
+     "When a forecast feels perfectly tight, remember the Fed miss and the 85% of funds."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 14.068
+   }
+  },
+  {
+   "id": "ch18_stories-close",
+   "type": "pm_list",
+   "in_seconds": 107.828,
+   "out_seconds": 136.578,
+   "props": {
+    "kicker": "CHAPTER 18 \u00b7 CLOSE",
+    "title": "Keep the story thinner than the cash",
+    "items": [
+     "A Pluto flyby can be ninety-nine point nine nine nine nine eight percent accurate. A portfolio cannot.",
+     "About eighty-five percent of active funds missed their benchmarks in the span the book cites.",
+     "Founders tell Kahneman that at least eighty percent of the outcome is what they do inside the firm. Markets disagree.",
+     "Prefer rules that survive a wrong story: save, diversify, avoid ruin, stay for tails."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 29.25
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.838,
+   "Chapter 18."
+  ],
+  [
+   0.838,
+   1.676,
+   "Believe Anything."
+  ],
+  [
+   2.307,
+   5.659,
+   "Stories are how we stitch incomplete facts\ninto"
+  ],
+  [
+   5.659,
+   7.335,
+   "a feeling of control."
+  ],
+  [
+   7.967,
+   11.318,
+   "The more you want the world to be"
+  ],
+  [
+   11.318,
+   11.737,
+   "predictable,"
+  ],
+  [
+   11.737,
+   14.251,
+   "the more fiction you will accept."
+  ],
+  [
+   14.751,
+   17.759,
+   "Eighty-five percent of active mutual funds\nunderperformed their"
+  ],
+  [
+   17.759,
+   20.391,
+   "benchmarks in the span the book cites."
+  ],
+  [
+   21.023,
+   24.031,
+   "A Fed forecast once gave one point six"
+  ],
+  [
+   24.031,
+   27.038,
+   "to two point eight percent growth as its"
+  ],
+  [
+   27.038,
+   27.414,
+   "band,"
+  ],
+  [
+   27.414,
+   30.046,
+   "then missed by more than two percent."
+  ],
+  [
+   30.678,
+   33.686,
+   "A Pluto flyby forecast was ninety-nine\npoint nine"
+  ],
+  [
+   33.686,
+   35.942,
+   "nine nine nine eight percent accurate."
+  ],
+  [
+   35.942,
+   37.822,
+   "Money is not a spacecraft."
+  ],
+  [
+   37.822,
+   39.702,
+   "We still want that feeling."
+  ],
+  [
+   40.334,
+   40.71,
+   "Kahneman:"
+  ],
+  [
+   40.71,
+   43.718,
+   "founders say at least eighty percent of\nthe"
+  ],
+  [
+   43.718,
+   46.725,
+   "outcome depends on what they do inside the"
+  ],
+  [
+   46.725,
+   47.101,
+   "firm."
+  ],
+  [
+   47.733,
+   50.741,
+   "A one percent chance of getting rich\nwithout"
+  ],
+  [
+   50.741,
+   53.749,
+   "effort is easy to over-weight if you\ncannot"
+  ],
+  [
+   53.749,
+   54.877,
+   "calibrate small odds."
+  ],
+  [
+   55.377,
+   58.386,
+   "About eighty-five percent of active funds\nunderperformed their"
+  ],
+  [
+   58.386,
+   61.019,
+   "benchmarks in the span the book cites."
+  ],
+  [
+   61.651,
+   64.66,
+   "A one point six to two point eight"
+  ],
+  [
+   64.66,
+   65.788,
+   "percent growth band,"
+  ],
+  [
+   65.788,
+   68.797,
+   "then a miss of more than two percent."
+  ],
+  [
+   68.797,
+   70.302,
+   "Official stories drift too."
+  ],
+  [
+   70.933,
+   73.942,
+   "A flyby at ninety-nine point nine nine\nnine"
+  ],
+  [
+   73.942,
+   75.447,
+   "nine eight percent accuracy."
+  ],
+  [
+   75.447,
+   78.456,
+   "We crave that feeling in markets and\ninvent"
+  ],
+  [
+   78.456,
+   78.832,
+   "it."
+  ],
+  [
+   79.464,
+   82.473,
+   "Founders tell Kahneman that at least\neighty percent"
+  ],
+  [
+   82.473,
+   85.482,
+   "of the outcome is what they do inside"
+  ],
+  [
+   85.482,
+   86.234,
+   "the firm."
+  ],
+  [
+   86.866,
+   89.875,
+   "A one percent tale of effortless riches is"
+  ],
+  [
+   89.875,
+   92.884,
+   "easy to over-weight if you cannot feel\nsmall"
+  ],
+  [
+   92.884,
+   93.26,
+   "probabilities."
+  ],
+  [
+   93.76,
+   96.778,
+   "Prefer rules that survive a wrong story:"
+  ],
+  [
+   96.778,
+   97.21,
+   "save,"
+  ],
+  [
+   97.21,
+   97.641,
+   "diversify,"
+  ],
+  [
+   97.641,
+   98.503,
+   "avoid ruin,"
+  ],
+  [
+   98.503,
+   99.797,
+   "stay for tails."
+  ],
+  [
+   100.429,
+   103.016,
+   "When a forecast feels perfectly tight,"
+  ],
+  [
+   103.016,
+   106.466,
+   "remember the Fed miss and the eighty-five\npercent"
+  ],
+  [
+   106.466,
+   107.328,
+   "of funds."
+  ],
+  [
+   107.828,
+   111.083,
+   "A Pluto flyby can be ninety-nine point\nnine"
+  ],
+  [
+   111.083,
+   113.525,
+   "nine nine nine eight percent accurate."
+  ],
+  [
+   113.525,
+   114.745,
+   "A portfolio cannot."
+  ],
+  [
+   115.377,
+   118.632,
+   "About eighty-five percent of active funds\nmissed their"
+  ],
+  [
+   118.632,
+   121.48,
+   "benchmarks in the span the book cites."
+  ],
+  [
+   122.112,
+   125.367,
+   "Founders tell Kahneman that at least\neighty percent"
+  ],
+  [
+   125.367,
+   128.622,
+   "of the outcome is what they do inside"
+  ],
+  [
+   128.622,
+   129.436,
+   "the firm."
+  ],
+  [
+   129.436,
+   130.25,
+   "Markets disagree."
+  ],
+  [
+   130.881,
+   133.73,
+   "Prefer rules that survive a wrong story:"
+  ],
+  [
+   133.73,
+   134.137,
+   "save,"
+  ],
+  [
+   134.137,
+   134.544,
+   "diversify,"
+  ],
+  [
+   134.544,
+   135.357,
+   "avoid ruin,"
+  ],
+  [
+   135.357,
+   136.578,
+   "stay for tails."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch18.wav",
+   "volume": 1.0
+  }
+ }
+}

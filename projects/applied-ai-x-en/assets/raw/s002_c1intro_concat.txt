@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/applied-ai-x-en/assets/raw/s002_c1intro_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/applied-ai-x-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/applied-ai-x-en/assets/raw/s002_c1intro_c1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/applied-ai-x-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/applied-ai-x-en/assets/raw/s002_c1intro_c2.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/applied-ai-x-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/applied-ai-x-en/assets/raw/s002_c1intro_c3.wav'

@@ -1,0 +1,221 @@
+{
+  "cuts": [
+    {
+      "id": "ch05_divider",
+      "type": "fa_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 8.595,
+      "props": {
+        "n": 5,
+        "total": 11,
+        "title": "Valuation matters",
+        "sub": "A great business can still be a poor investment at an extreme price.",
+        "color": "#A78BFA",
+        "dur": 9.095
+      }
+    },
+    {
+      "id": "ch05_quality_price",
+      "type": "fa_compare",
+      "in_seconds": 9.095,
+      "out_seconds": 39.659,
+      "props": {
+        "kicker": "QUALITY IS NOT PRICE",
+        "title": "The business and the stock are related, but not identical",
+        "cos": [
+          {
+            "name": "Business quality",
+            "c": "#34D399",
+            "tag": "what you own",
+            "stats": [
+              {
+                "k": "Ask",
+                "v": "is it durable?"
+              },
+              {
+                "k": "Evidence",
+                "v": "returns, cash, moat"
+              },
+              {
+                "k": "Time",
+                "v": "many years"
+              },
+              {
+                "k": "Can be",
+                "v": "excellent",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Valuation",
+            "c": "#A78BFA",
+            "tag": "what you pay",
+            "stats": [
+              {
+                "k": "Ask",
+                "v": "what is priced in?"
+              },
+              {
+                "k": "Evidence",
+                "v": "multiples, cash flow"
+              },
+              {
+                "k": "Time",
+                "v": "entry point"
+              },
+              {
+                "k": "Can be",
+                "v": "too expensive",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "The book uses historical examples to show that a quality name can disappoint after euphoric pricing.",
+        "color": "#A78BFA",
+        "dur": 31.064
+      }
+    },
+    {
+      "id": "ch05_multiple",
+      "type": "fa_gauge",
+      "in_seconds": 40.159,
+      "out_seconds": 72.163,
+      "props": {
+        "kicker": "VALUATION MULTIPLES",
+        "title": "A multiple is a shorthand for how much the market asks for a unit of earnings or cash flow.",
+        "value": 25,
+        "unit": "x",
+        "zones": [
+          {
+            "to": 15,
+            "c": "#34D399",
+            "label": "lower"
+          },
+          {
+            "to": 30,
+            "c": "#FBBF24",
+            "label": "context"
+          },
+          {
+            "to": 50,
+            "c": "#F87171",
+            "label": "higher"
+          }
+        ],
+        "caption": "There is no universal 'good P/E'; growth, returns, debt, and cycle matter.",
+        "note": "Compare against the company's own history and relevant peers, never in isolation.",
+        "color": "#A78BFA",
+        "dur": 32.504
+      }
+    },
+    {
+      "id": "ch05_margin_safety",
+      "type": "fa_keyidea",
+      "in_seconds": 72.663,
+      "out_seconds": 100.23,
+      "props": {
+        "kicker": "MARGIN OF SAFETY",
+        "big": "Demand room for error: conservative assumptions, balance-sheet strength, and a price that does not require perfection.",
+        "sub": "Valuation is an exercise in humility, not a precise forecast of one future.",
+        "color": "#34D399",
+        "dur": 28.067
+      }
+    },
+    {
+      "id": "ch05_detail_pe",
+      "type": "fa_keyidea",
+      "in_seconds": 100.73,
+      "out_seconds": 134.435,
+      "props": {
+        "kicker": "P/E, P/B, AND MARKET CAP",
+        "big": "A share's rupee price alone says nothing about cheapness; valuation connects price with earnings, assets, growth, and business quality.",
+        "sub": "A low P/E can be a bargain or a value trap; a high P/E can be justified or dangerous.",
+        "color": "#A78BFA",
+        "dur": 34.205
+      }
+    },
+    {
+      "id": "ch05_detail_value_trap",
+      "type": "fa_keyidea",
+      "in_seconds": 134.935,
+      "out_seconds": 165.582,
+      "props": {
+        "kicker": "CHEAP IS NOT VALUE",
+        "big": "Statistically low P/E, low P/B, or a high dividend yield can be a warning that the market expects trouble.",
+        "sub": "Investigate the future earning power and balance sheet before calling a stock undervalued.",
+        "color": "#F87171",
+        "dur": 31.147
+      }
+    },
+    {
+      "id": "ch05_detail_dcf",
+      "type": "fa_keyidea",
+      "in_seconds": 166.082,
+      "out_seconds": 203.306,
+      "props": {
+        "kicker": "DCF AND ITS LIMITS",
+        "big": "Discounted cash flow converts future cash-flow assumptions into a present value \u2014 but small assumption changes can move the answer dramatically.",
+        "sub": "Use models as structured thinking, not as an oracle.",
+        "color": "#A78BFA",
+        "dur": 37.724
+      }
+    },
+    {
+      "id": "ch05_detail_peg",
+      "type": "fa_ledger",
+      "in_seconds": 203.806,
+      "out_seconds": 241.029,
+      "props": {
+        "kicker": "THE BOOK'S HISTORICAL METHOD",
+        "title": "Compare today's P/E with the company's own valuation history and with multi-year EPS growth",
+        "rows": [
+          {
+            "label": "Historical P/E",
+            "val": "own past range",
+            "c": "#A78BFA",
+            "bold": true
+          },
+          {
+            "label": "EPS growth",
+            "val": "prefer per-share growth",
+            "c": "#34D399"
+          },
+          {
+            "label": "PEG",
+            "val": "P/E \u00f7 growth rate",
+            "c": "#2DD4BF"
+          },
+          {
+            "label": "Context",
+            "val": "quality, cycle, debt",
+            "c": "#FBBF24"
+          }
+        ],
+        "caption": "The book's PEG bands and thresholds are a 2017 heuristic, not a current recommendation.",
+        "color": "#A78BFA",
+        "dur": 37.723
+      }
+    },
+    {
+      "id": "ch05_detail_limits",
+      "type": "fa_keyidea",
+      "in_seconds": 241.529,
+      "out_seconds": 274.036,
+      "props": {
+        "kicker": "VALUATION LIMITATIONS",
+        "big": "Loss-making, turnaround, and cyclical businesses require different evidence because normal earnings multiples can be meaningless at the wrong point in a cycle.",
+        "sub": "Do not assume a weak business will recover merely because its historical price was higher.",
+        "color": "#F87171",
+        "dur": 33.007
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch05.wav",
+      "volume": 1.0
+    }
+  }
+}

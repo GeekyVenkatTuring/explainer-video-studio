@@ -1,0 +1,187 @@
+{
+  "cuts": [
+    {
+      "id": "ch11_divider",
+      "type": "fa_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 9.124,
+      "props": {
+        "n": 11,
+        "total": 11,
+        "title": "Long-term habits",
+        "sub": "Start early, learn continuously, own mistakes, and keep money in perspective.",
+        "color": "#2DD4BF",
+        "dur": 9.624
+      }
+    },
+    {
+      "id": "ch11_time",
+      "type": "fa_keyidea",
+      "in_seconds": 9.624,
+      "out_seconds": 38.379,
+      "props": {
+        "kicker": "TIME IS AN ASSET",
+        "big": "Starting with a small, sustainable amount can give learning and compounding more time to work.",
+        "sub": "Do not confuse the power of time with a promise of any future return.",
+        "color": "#34D399",
+        "dur": 29.255
+      }
+    },
+    {
+      "id": "ch11_learning_loop",
+      "type": "fa_compare",
+      "in_seconds": 38.879,
+      "out_seconds": 67.035,
+      "props": {
+        "kicker": "THE INVESTOR'S LEARNING LOOP",
+        "title": "Skill compounds when outcomes become feedback instead of blame",
+        "cos": [
+          {
+            "name": "Unhelpful loop",
+            "c": "#F87171",
+            "tag": "stuck",
+            "stats": [
+              {
+                "k": "Loss",
+                "v": "blame a tipster"
+              },
+              {
+                "k": "Lesson",
+                "v": "none"
+              },
+              {
+                "k": "Next move",
+                "v": "new hot tip"
+              },
+              {
+                "k": "Result",
+                "v": "repeat error",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Useful loop",
+            "c": "#34D399",
+            "tag": "improving",
+            "stats": [
+              {
+                "k": "Loss",
+                "v": "review thesis"
+              },
+              {
+                "k": "Lesson",
+                "v": "name the error"
+              },
+              {
+                "k": "Next move",
+                "v": "update process"
+              },
+              {
+                "k": "Result",
+                "v": "better judgement",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "Keep an investment journal: thesis, valuation, risks, and what later proved wrong.",
+        "color": "#2DD4BF",
+        "dur": 28.656
+      }
+    },
+    {
+      "id": "ch11_detail_start_early",
+      "type": "fa_keyidea",
+      "in_seconds": 67.535,
+      "out_seconds": 100.76,
+      "props": {
+        "kicker": "START EARLY, START SMALL",
+        "big": "The author's lesson is to begin learning and investing with a manageable amount, because time is useful only when paired with survival and discipline.",
+        "sub": "The book's future-value illustration is historical and not a return promise.",
+        "color": "#34D399",
+        "dur": 33.725
+      }
+    },
+    {
+      "id": "ch11_detail_crowd",
+      "type": "fa_keyidea",
+      "in_seconds": 101.26,
+      "out_seconds": 133.725,
+      "props": {
+        "kicker": "DON'T FOLLOW THE CROWD",
+        "big": "In markets, popularity can be a signal to investigate expectations, not a reason to abandon independent analysis.",
+        "sub": "Contrarian thinking means evidence-led independence, not automatically doing the opposite of everyone else.",
+        "color": "#A78BFA",
+        "dur": 32.965
+      }
+    },
+    {
+      "id": "ch11_detail_responsibility",
+      "type": "fa_keyidea",
+      "in_seconds": 134.225,
+      "out_seconds": 167.454,
+      "props": {
+        "kicker": "OWN YOUR DECISIONS",
+        "big": "Review losses for errors in process, research, position size, or behaviour instead of outsourcing blame to a broker, adviser, or market.",
+        "sub": "Taking responsibility is how an investor turns a loss into a process improvement.",
+        "color": "#2DD4BF",
+        "dur": 33.729
+      }
+    },
+    {
+      "id": "ch11_detail_appreciate",
+      "type": "fa_keyidea",
+      "in_seconds": 167.954,
+      "out_seconds": 201.717,
+      "props": {
+        "kicker": "APPRECIATE, DON'T PERSONALISE",
+        "big": "The author's interpersonal lesson is to evaluate people and processes fairly, especially during difficult periods.",
+        "sub": "For investing, this means disciplined review rather than emotional praise or condemnation after a short result.",
+        "color": "#34D399",
+        "dur": 34.263
+      }
+    },
+    {
+      "id": "ch11_detail_life",
+      "type": "fa_keyidea",
+      "in_seconds": 202.217,
+      "out_seconds": 235.31,
+      "props": {
+        "kicker": "MONEY IN PERSPECTIVE",
+        "big": "The final lesson is that financial success should support a healthy, meaningful life \u2014 not become its only measure.",
+        "sub": "Good investing serves life goals; it should not consume judgment, relationships, or well-being.",
+        "color": "#2DD4BF",
+        "dur": 33.593
+      }
+    },
+    {
+      "id": "ch11_final_recap",
+      "type": "fa_recap",
+      "in_seconds": 235.81,
+      "out_seconds": 265.129,
+      "props": {
+        "kicker": "RECAP \u00b7 THE WHOLE BOOK",
+        "title": "A calmer way to invest",
+        "items": [
+          "Treat shares as ownership claims, not tips or lottery tickets.",
+          "Protect capital with knowledge, balance-sheet discipline, and position limits.",
+          "Judge business quality, management incentives, and valuation together.",
+          "Buy and sell from a written thesis, never from an entry-price anchor.",
+          "Diversify by economic exposure; use screens only to begin research.",
+          "Verify advisers and reject guaranteed-return claims.",
+          "Keep learning, own mistakes, and let time do its work."
+        ],
+        "closer": "Information from a 2017 educational book; not investment advice. Consult a SEBI-registered adviser for personal decisions.",
+        "color": "#2DD4BF",
+        "dur": 29.819
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch11.wav",
+      "volume": 1.0
+    }
+  }
+}

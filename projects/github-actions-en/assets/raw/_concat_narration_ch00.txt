@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/github-actions-en/assets/t00.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/github-actions-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/github-actions-en/assets/h00.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/github-actions-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/github-actions-en/assets/h01.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/github-actions-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/github-actions-en/assets/r00.wav'

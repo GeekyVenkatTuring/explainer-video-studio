@@ -1,0 +1,225 @@
+{
+ "cuts": [
+  {
+   "id": "b05",
+   "type": "dta_algomarket",
+   "in_seconds": 0,
+   "out_seconds": 60.2,
+   "props": {
+    "dur": 60.7
+   }
+  },
+  {
+   "id": "b06",
+   "type": "dta_taxonomy",
+   "in_seconds": 60.7,
+   "out_seconds": 110.681,
+   "props": {
+    "dur": 50.481
+   }
+  }
+ ],
+ "captions": [
+  [
+   0,
+   2.477,
+   "Algo trading is a broad category."
+  ],
+  [
+   3.108,
+   5.998,
+   "High-frequency trading is a faster,\nlatency-sensitive subset."
+  ],
+  [
+   6.63,
+   10.345,
+   "Direct market access is an institutional route\nthrough a"
+  ],
+  [
+   10.345,
+   10.758,
+   "broker."
+  ],
+  [
+   11.389,
+   15.105,
+   "Co-location means systems are placed near exchange\ninfrastructure to"
+  ],
+  [
+   15.105,
+   15.93,
+   "reduce delay."
+  ],
+  [
+   16.562,
+   18.626,
+   "These labels are not interchangeable."
+  ],
+  [
+   19.258,
+   22.973,
+   "On N S E cash market in financial year"
+  ],
+  [
+   22.973,
+   26.688,
+   "twenty twenty-four, algo was twelve point eight\npercent of"
+  ],
+  [
+   26.688,
+   27.514,
+   "gross turnover."
+  ],
+  [
+   28.145,
+   31.861,
+   "Co-location was thirty-four point three percent, and\nit is"
+  ],
+  [
+   31.861,
+   33.512,
+   "not an algo share."
+  ],
+  [
+   34.143,
+   37.859,
+   "The I M F said algo was about seventy"
+  ],
+  [
+   37.859,
+   41.574,
+   "percent of U S equities trading in October twenty"
+  ],
+  [
+   41.574,
+   41.987,
+   "twenty-four."
+  ],
+  [
+   42.618,
+   45.095,
+   "That figure is U S only."
+  ],
+  [
+   45.727,
+   49.442,
+   "For a retail learner, the useful question is not"
+  ],
+  [
+   49.442,
+   50.681,
+   "who is fastest."
+  ],
+  [
+   51.312,
+   55.027,
+   "It is what kind of system you are actually"
+  ],
+  [
+   55.027,
+   55.44,
+   "describing."
+  ],
+  [
+   56.072,
+   59.787,
+   "Execution speed, access route, and trading logic are\nseparate"
+  ],
+  [
+   59.787,
+   60.2,
+   "choices."
+  ],
+  [
+   60.7,
+   63.464,
+   "Most daily strategies are simple rule families."
+  ],
+  [
+   64.095,
+   65.674,
+   "Momentum follows a move."
+  ],
+  [
+   66.306,
+   69.859,
+   "Mean reversion bets a stretched move may return\ntoward"
+  ],
+  [
+   69.859,
+   70.254,
+   "average."
+  ],
+  [
+   70.886,
+   72.86,
+   "Breakout trades a range boundary."
+  ],
+  [
+   73.491,
+   77.044,
+   "V W A P and T W A P"
+  ],
+  [
+   77.044,
+   78.624,
+   "split a large order."
+  ],
+  [
+   79.255,
+   81.229,
+   "Market making quotes both sides."
+  ],
+  [
+   81.861,
+   83.44,
+   "Arbitrage compares related prices."
+  ],
+  [
+   84.072,
+   87.625,
+   "A rule is not an edge merely because it"
+  ],
+  [
+   87.625,
+   88.809,
+   "has a name."
+  ],
+  [
+   89.441,
+   92.994,
+   "It needs suitable data, a tested condition, risk\nlimits,"
+  ],
+  [
+   92.994,
+   95.363,
+   "and execution that survives its costs."
+  ],
+  [
+   95.995,
+   99.548,
+   "Think of these as different answers to one question."
+  ],
+  [
+   100.179,
+   103.733,
+   "Do you expect continuation, reversal, a range break,\ncheaper"
+  ],
+  [
+   103.733,
+   106.891,
+   "execution, liquidity provision, or a temporary price\nmismatch?"
+  ],
+  [
+   107.523,
+   110.681,
+   "Then define exactly when that answer is wrong."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "dta/ch02.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "cuts": [
+  {
+   "id": "d4",
+   "type": "hf_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 3.408,
+   "props": {
+    "n": 4,
+    "title": "Creative Direction",
+    "sub": "make it look produced",
+    "color": "#FBBF24",
+    "dur": 3.908
+   }
+  },
+  {
+   "id": "s25_designspec",
+   "type": "hf_code",
+   "in_seconds": 3.908,
+   "out_seconds": 42.581,
+   "props": {
+    "kicker": "THE DESIGN SPEC",
+    "title": "One source of brand truth",
+    "color": "#FBBF24",
+    "codeTitle": "frame.md",
+    "foot": "Set the palette, type and tone once; every scene reads from the same tokens.",
+    "lines": [
+     [
+      [
+       "---",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "palette",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "[ink, cyan, amber]",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "font",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "Space Grotesk",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "tone",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "confident, technical",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "---",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "frame.md holds colors, fonts, tone",
+      "c": "#FBBF24"
+     },
+     {
+      "text": "frontmatter tokens are brand truth",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "every scene reads from one place",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 39.173
+   }
+  },
+  {
+   "id": "s26_housestyle",
+   "type": "hf_compare",
+   "in_seconds": 43.081,
+   "out_seconds": 86.228,
+   "props": {
+    "kicker": "THE HOUSE STYLE",
+    "title": "A frame is not a web page",
+    "foot": "Video wants density and detail \u2014 interpret the prompt, don't just restyle the words.",
+    "left": {
+     "head": "Produced video",
+     "bad": false,
+     "c": "#34D399",
+     "items": [
+      "Eight to ten elements per scene",
+      "Data readouts, marks, mono detail",
+      "Something moving in every frame"
+     ]
+    },
+    "right": {
+     "head": "Looks generic",
+     "bad": true,
+     "c": "#FB7185",
+     "items": [
+      "One headline on empty space",
+      "A literal restyle of the text",
+      "A frozen, static frame"
+     ]
+    },
+    "dur": 43.647
+   }
+  },
+  {
+   "id": "s27_typography",
+   "type": "hf_bullets",
+   "in_seconds": 86.728,
+   "out_seconds": 124.864,
+   "props": {
+    "kicker": "TYPE FOR THE SCREEN",
+    "title": "Typography that survives motion",
+    "color": "#FBBF24",
+    "foot": "Big, few, and hierarchical \u2014 type is most of the design in a faceless video.",
+    "items": [
+     {
+      "h": "One clear hierarchy",
+      "sub": "one hero element per scene",
+      "icon": "\ud83c\udd70\ufe0f",
+      "c": "#FBBF24"
+     },
+     {
+      "h": "Big enough to read on a phone",
+      "sub": "video is watched small",
+      "icon": "\ud83d\udcf1",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "One pairing, used consistently",
+      "sub": "a display face and a mono",
+      "icon": "\ud83d\uddda\ufe0f",
+      "c": "#A78BFA"
+     }
+    ],
+    "dur": 38.636
+   }
+  },
+  {
+   "id": "s28_beats",
+   "type": "hf_pipeline",
+   "in_seconds": 125.364,
+   "out_seconds": 162.058,
+   "props": {
+    "kicker": "PLANNING A PIECE",
+    "title": "From palette to a plan",
+    "color": "#FBBF24",
+    "foot": "So: decide the look and the rhythm before you write a single line of HTML.",
+    "steps": [
+     {
+      "label": "palette",
+      "sub": "colors that mean things",
+      "c": "#FBBF24"
+     },
+     {
+      "label": "type",
+      "sub": "one pairing, clear hierarchy",
+      "c": "#38BDF8"
+     },
+     {
+      "label": "narration",
+      "sub": "the spine of the piece",
+      "c": "#A78BFA"
+     },
+     {
+      "label": "beats",
+      "sub": "plan the rhythm",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 37.194
+   }
+  }
+ ],
+ "audio": {
+  "narration": {
+   "src": "hf/narration_p4.wav",
+   "volume": 1.0
+  }
+ }
+}

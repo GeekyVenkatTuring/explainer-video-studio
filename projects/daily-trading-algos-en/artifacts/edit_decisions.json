@@ -1,0 +1,2083 @@
+{
+ "cuts": [
+  {
+   "id": "b01",
+   "type": "dta_title",
+   "in_seconds": 0,
+   "out_seconds": 23.721,
+   "props": {
+    "dur": 24.221
+   }
+  },
+  {
+   "id": "b02",
+   "type": "dta_hook",
+   "in_seconds": 24.221,
+   "out_seconds": 63.012,
+   "props": {
+    "dur": 39.291
+   }
+  },
+  {
+   "id": "b03",
+   "type": "dta_divider",
+   "in_seconds": 63.512,
+   "out_seconds": 81.655,
+   "props": {
+    "n": 1,
+    "title": "The Anatomy",
+    "sub": "What a rule actually does",
+    "color": "#38BDF8",
+    "pips": 4,
+    "dur": 18.643
+   }
+  },
+  {
+   "id": "b04",
+   "type": "dta_anatomy",
+   "in_seconds": 82.155,
+   "out_seconds": 126.462,
+   "props": {
+    "dur": 44.807
+   }
+  },
+  {
+   "id": "b05",
+   "type": "dta_algomarket",
+   "in_seconds": 126.962,
+   "out_seconds": 187.162,
+   "props": {
+    "dur": 60.7
+   }
+  },
+  {
+   "id": "b06",
+   "type": "dta_taxonomy",
+   "in_seconds": 187.662,
+   "out_seconds": 237.643,
+   "props": {
+    "dur": 50.481
+   }
+  },
+  {
+   "id": "b07",
+   "type": "dta_divider",
+   "in_seconds": 238.143,
+   "out_seconds": 258.647,
+   "props": {
+    "n": 2,
+    "title": "The Strategies",
+    "sub": "Illustrative rules on synthetic data",
+    "color": "#34D399",
+    "pips": 4,
+    "dur": 21.004
+   }
+  },
+  {
+   "id": "b08",
+   "type": "dta_momentum",
+   "in_seconds": 259.147,
+   "out_seconds": 307.737,
+   "props": {
+    "dur": 49.09
+   }
+  },
+  {
+   "id": "b09",
+   "type": "dta_meanrev",
+   "in_seconds": 308.237,
+   "out_seconds": 353.235,
+   "props": {
+    "dur": 45.498
+   }
+  },
+  {
+   "id": "b10",
+   "type": "dta_pairs",
+   "in_seconds": 353.735,
+   "out_seconds": 402.62,
+   "props": {
+    "dur": 49.385
+   }
+  },
+  {
+   "id": "b11",
+   "type": "dta_breakout",
+   "in_seconds": 403.12,
+   "out_seconds": 447.171,
+   "props": {
+    "dur": 44.551
+   }
+  },
+  {
+   "id": "b12",
+   "type": "dta_vwap",
+   "in_seconds": 447.671,
+   "out_seconds": 500.235,
+   "props": {
+    "dur": 53.064
+   }
+  },
+  {
+   "id": "b13",
+   "type": "dta_making",
+   "in_seconds": 500.735,
+   "out_seconds": 549.101,
+   "props": {
+    "dur": 48.866
+   }
+  },
+  {
+   "id": "b14",
+   "type": "dta_divider",
+   "in_seconds": 549.601,
+   "out_seconds": 569.23,
+   "props": {
+    "n": 3,
+    "title": "The India Reality",
+    "sub": "Retail API rules and costs",
+    "color": "#FBBF24",
+    "pips": 4,
+    "dur": 20.129
+   }
+  },
+  {
+   "id": "b15",
+   "type": "dta_sebi",
+   "in_seconds": 569.73,
+   "out_seconds": 628.625,
+   "props": {
+    "dur": 59.395
+   }
+  },
+  {
+   "id": "b16",
+   "type": "dta_costs",
+   "in_seconds": 629.125,
+   "out_seconds": 688.114,
+   "props": {
+    "dur": 59.489
+   }
+  },
+  {
+   "id": "b17",
+   "type": "dta_reality",
+   "in_seconds": 688.614,
+   "out_seconds": 753.035,
+   "props": {
+    "dur": 64.921
+   }
+  },
+  {
+   "id": "b18",
+   "type": "dta_divider",
+   "in_seconds": 753.535,
+   "out_seconds": 772.326,
+   "props": {
+    "n": 4,
+    "title": "Build & Run One",
+    "sub": "Test, control, monitor",
+    "color": "#A78BFA",
+    "pips": 4,
+    "dur": 19.291
+   }
+  },
+  {
+   "id": "b19",
+   "type": "dta_stack",
+   "in_seconds": 772.826,
+   "out_seconds": 825.911,
+   "props": {
+    "dur": 53.585
+   }
+  },
+  {
+   "id": "b20",
+   "type": "dta_backtest",
+   "in_seconds": 826.411,
+   "out_seconds": 878.549,
+   "props": {
+    "dur": 52.638
+   }
+  },
+  {
+   "id": "b21",
+   "type": "dta_code",
+   "in_seconds": 879.049,
+   "out_seconds": 927.935,
+   "props": {
+    "dur": 49.386
+   }
+  },
+  {
+   "id": "b22",
+   "type": "dta_live",
+   "in_seconds": 928.435,
+   "out_seconds": 977.565,
+   "props": {
+    "dur": 49.63
+   }
+  },
+  {
+   "id": "b23",
+   "type": "dta_rules",
+   "in_seconds": 978.065,
+   "out_seconds": 1028.775,
+   "props": {
+    "dur": 51.21
+   }
+  },
+  {
+   "id": "b24",
+   "type": "dta_recap",
+   "in_seconds": 1029.275,
+   "out_seconds": 1072.298,
+   "props": {
+    "items": [
+     "Data \u2192 signal \u2192 risk \u2192 order \u2192 fill",
+     "HFT is a subset, not every algo",
+     "Synthetic examples are not backtests",
+     "Costs decide if turnover survives",
+     "Retail APIs have SEBI/NSE controls",
+     "Automation is not an edge",
+     "Monitor and stop"
+    ],
+    "closer": "Build systems that can say no.",
+    "dur": 43.523
+   }
+  }
+ ],
+ "captions": [
+  [
+   0,
+   1.068,
+   "Daily trading algorithms."
+  ],
+  [
+   1.699,
+   4.191,
+   "How machines trade, and the India reality."
+  ],
+  [
+   4.822,
+   8.026,
+   "This is an educational map of rules, execution,\nrisk,"
+  ],
+  [
+   8.026,
+   8.737,
+   "and limits."
+  ],
+  [
+   9.369,
+   11.86,
+   "It is not a promise of profit."
+  ],
+  [
+   12.492,
+   15.695,
+   "We will separate a useful tool from a seductive"
+  ],
+  [
+   15.695,
+   16.051,
+   "story."
+  ],
+  [
+   16.683,
+   19.886,
+   "The goal is not to find a magic bot."
+  ],
+  [
+   20.518,
+   23.721,
+   "The goal is to understand the complete decision\nchain."
+  ],
+  [
+   24.221,
+   25.982,
+   "An order reaches an exchange."
+  ],
+  [
+   26.614,
+   29.079,
+   "Was it a person clicking a button?"
+  ],
+  [
+   29.711,
+   32.88,
+   "Or a rule that a computer followed without emotion?"
+  ],
+  [
+   33.512,
+   36.682,
+   "By financial year twenty twenty-four, twelve point\neight percent"
+  ],
+  [
+   36.682,
+   39.852,
+   "of N S E cash-market gross turnover was classified"
+  ],
+  [
+   39.852,
+   40.556,
+   "as algo."
+  ],
+  [
+   41.188,
+   44.357,
+   "That is not a claim about all Indian trading."
+  ],
+  [
+   44.989,
+   47.102,
+   "It is one scoped exchange measure."
+  ],
+  [
+   47.734,
+   50.903,
+   "In this video, we unpack what the machines actually"
+  ],
+  [
+   50.903,
+   51.256,
+   "do."
+  ],
+  [
+   51.887,
+   54.705,
+   "A human can use the same rule manually."
+  ],
+  [
+   55.336,
+   57.097,
+   "Automation changes repeatability and speed."
+  ],
+  [
+   57.729,
+   60.899,
+   "It does not change what the rule knows, or"
+  ],
+  [
+   60.899,
+   63.012,
+   "what the market can do next."
+  ],
+  [
+   63.512,
+   64.939,
+   "Part one. The anatomy."
+  ],
+  [
+   65.571,
+   68.068,
+   "An algorithm is not a magic prediction."
+  ],
+  [
+   68.7,
+   71.197,
+   "It is a repeatable chain of decisions."
+  ],
+  [
+   71.829,
+   74.683,
+   "Keep this map in mind through every strategy."
+  ],
+  [
+   75.315,
+   78.526,
+   "If one link is missing, the system is incomplete."
+  ],
+  [
+   79.157,
+   81.655,
+   "A signal alone is only an opinion."
+  ],
+  [
+   82.155,
+   84.427,
+   "A daily algo begins with data."
+  ],
+  [
+   85.058,
+   87.33,
+   "It turns data into a signal."
+  ],
+  [
+   87.962,
+   91.37,
+   "Then risk checks decide whether the signal deserves\nan"
+  ],
+  [
+   91.37,
+   91.748,
+   "order."
+  ],
+  [
+   92.38,
+   94.273,
+   "The broker routes the order."
+  ],
+  [
+   94.905,
+   96.419,
+   "The exchange matches it."
+  ],
+  [
+   97.051,
+   98.944,
+   "Fills return to the system."
+  ],
+  [
+   99.576,
+   102.983,
+   "So the loop is data, signal, risk, order, fill."
+  ],
+  [
+   103.615,
+   107.023,
+   "Every serious system also watches the loop, because\na"
+  ],
+  [
+   107.023,
+   110.43,
+   "correct idea can still fail through bad data, a"
+  ],
+  [
+   110.43,
+   112.702,
+   "rejected order, or a runaway process."
+  ],
+  [
+   113.334,
+   116.742,
+   "This chain also explains why daily algos are more"
+  ],
+  [
+   116.742,
+   118.256,
+   "than a chart indicator."
+  ],
+  [
+   118.888,
+   120.402,
+   "A chart can suggest."
+  ],
+  [
+   121.034,
+   121.791,
+   "Risk decides."
+  ],
+  [
+   122.423,
+   123.18,
+   "Routing executes."
+  ],
+  [
+   123.812,
+   126.462,
+   "Monitoring checks that reality matches the plan."
+  ],
+  [
+   126.962,
+   129.439,
+   "Algo trading is a broad category."
+  ],
+  [
+   130.07,
+   132.96,
+   "High-frequency trading is a faster,\nlatency-sensitive subset."
+  ],
+  [
+   133.592,
+   137.307,
+   "Direct market access is an institutional route\nthrough a"
+  ],
+  [
+   137.307,
+   137.72,
+   "broker."
+  ],
+  [
+   138.351,
+   142.067,
+   "Co-location means systems are placed near exchange\ninfrastructure to"
+  ],
+  [
+   142.067,
+   142.892,
+   "reduce delay."
+  ],
+  [
+   143.524,
+   145.588,
+   "These labels are not interchangeable."
+  ],
+  [
+   146.22,
+   149.935,
+   "On N S E cash market in financial year"
+  ],
+  [
+   149.935,
+   153.65,
+   "twenty twenty-four, algo was twelve point eight\npercent of"
+  ],
+  [
+   153.65,
+   154.476,
+   "gross turnover."
+  ],
+  [
+   155.107,
+   158.823,
+   "Co-location was thirty-four point three percent, and\nit is"
+  ],
+  [
+   158.823,
+   160.474,
+   "not an algo share."
+  ],
+  [
+   161.105,
+   164.821,
+   "The I M F said algo was about seventy"
+  ],
+  [
+   164.821,
+   168.536,
+   "percent of U S equities trading in October twenty"
+  ],
+  [
+   168.536,
+   168.949,
+   "twenty-four."
+  ],
+  [
+   169.58,
+   172.057,
+   "That figure is U S only."
+  ],
+  [
+   172.689,
+   176.404,
+   "For a retail learner, the useful question is not"
+  ],
+  [
+   176.404,
+   177.643,
+   "who is fastest."
+  ],
+  [
+   178.274,
+   181.989,
+   "It is what kind of system you are actually"
+  ],
+  [
+   181.989,
+   182.402,
+   "describing."
+  ],
+  [
+   183.034,
+   186.749,
+   "Execution speed, access route, and trading logic are\nseparate"
+  ],
+  [
+   186.749,
+   187.162,
+   "choices."
+  ],
+  [
+   187.662,
+   190.426,
+   "Most daily strategies are simple rule families."
+  ],
+  [
+   191.057,
+   192.636,
+   "Momentum follows a move."
+  ],
+  [
+   193.268,
+   196.821,
+   "Mean reversion bets a stretched move may return\ntoward"
+  ],
+  [
+   196.821,
+   197.216,
+   "average."
+  ],
+  [
+   197.848,
+   199.822,
+   "Breakout trades a range boundary."
+  ],
+  [
+   200.453,
+   204.006,
+   "V W A P and T W A P"
+  ],
+  [
+   204.006,
+   205.586,
+   "split a large order."
+  ],
+  [
+   206.217,
+   208.191,
+   "Market making quotes both sides."
+  ],
+  [
+   208.823,
+   210.402,
+   "Arbitrage compares related prices."
+  ],
+  [
+   211.034,
+   214.587,
+   "A rule is not an edge merely because it"
+  ],
+  [
+   214.587,
+   215.771,
+   "has a name."
+  ],
+  [
+   216.403,
+   219.956,
+   "It needs suitable data, a tested condition, risk\nlimits,"
+  ],
+  [
+   219.956,
+   222.325,
+   "and execution that survives its costs."
+  ],
+  [
+   222.957,
+   226.51,
+   "Think of these as different answers to one question."
+  ],
+  [
+   227.141,
+   230.695,
+   "Do you expect continuation, reversal, a range break,\ncheaper"
+  ],
+  [
+   230.695,
+   233.853,
+   "execution, liquidity provision, or a temporary price\nmismatch?"
+  ],
+  [
+   234.485,
+   237.643,
+   "Then define exactly when that answer is wrong."
+  ],
+  [
+   238.143,
+   239.878,
+   "Part two. The strategies."
+  ],
+  [
+   240.509,
+   243.111,
+   "These charts use illustrative synthetic data."
+  ],
+  [
+   243.743,
+   246.778,
+   "They are not backtests, history, or recommendations."
+  ],
+  [
+   247.41,
+   250.879,
+   "Synthetic examples let us see the rule clearly."
+  ],
+  [
+   251.511,
+   254.113,
+   "They do not show a return."
+  ],
+  [
+   254.744,
+   258.647,
+   "Real markets add noise, queues, spreads, gaps, and\ncompetition."
+  ],
+  [
+   259.147,
+   261.75,
+   "Momentum asks whether a move is persistent."
+  ],
+  [
+   262.381,
+   265.728,
+   "One common rule compares a fast moving average with"
+  ],
+  [
+   265.728,
+   267.215,
+   "a slow moving average."
+  ],
+  [
+   267.846,
+   271.193,
+   "When the fast line rises above the slow line,"
+  ],
+  [
+   271.193,
+   273.795,
+   "the rule can permit a long position."
+  ],
+  [
+   274.427,
+   277.773,
+   "When it falls back below, the rule exits or"
+  ],
+  [
+   277.773,
+   278.145,
+   "reverses."
+  ],
+  [
+   278.777,
+   281.007,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   281.639,
+   283.498,
+   "Its failure mode is chop."
+  ],
+  [
+   284.13,
+   287.104,
+   "In a sideways market, repeated crosses create\nwhipsaws."
+  ],
+  [
+   287.736,
+   291.082,
+   "The system pays spread, slippage, and charges while\nrepeatedly"
+  ],
+  [
+   291.082,
+   291.826,
+   "being wrong."
+  ],
+  [
+   292.457,
+   294.316,
+   "The important discipline is consistency."
+  ],
+  [
+   294.948,
+   298.294,
+   "A trend follower cannot celebrate one winner and\nskip"
+  ],
+  [
+   298.294,
+   299.781,
+   "the next valid signal."
+  ],
+  [
+   300.413,
+   303.016,
+   "That would replace a rule with hindsight."
+  ],
+  [
+   303.647,
+   306.993,
+   "The rule needs a position size and a loss"
+  ],
+  [
+   306.993,
+   307.737,
+   "limit too."
+  ],
+  [
+   308.237,
+   310.823,
+   "Mean reversion starts from a different belief."
+  ],
+  [
+   311.455,
+   314.779,
+   "A price far from its recent average may move"
+  ],
+  [
+   314.779,
+   315.888,
+   "back toward it."
+  ],
+  [
+   316.519,
+   319.844,
+   "Bollinger bands frame a moving average with\nvolatility bands."
+  ],
+  [
+   320.476,
+   323.8,
+   "R S I is an oscillator from zero to"
+  ],
+  [
+   323.8,
+   324.539,
+   "one hundred."
+  ],
+  [
+   325.171,
+   328.496,
+   "A low reading or lower-band poke can become an"
+  ],
+  [
+   328.496,
+   329.234,
+   "entry condition."
+  ],
+  [
+   329.866,
+   332.083,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   332.714,
+   335.3,
+   "But a strong trend can keep going."
+  ],
+  [
+   335.932,
+   337.409,
+   "Cheap can become cheaper."
+  ],
+  [
+   338.041,
+   340.996,
+   "A band is a measurement, not a floor."
+  ],
+  [
+   341.628,
+   344.214,
+   "Mean reversion needs a definition of normal."
+  ],
+  [
+   344.846,
+   347.431,
+   "That definition is always historical and imperfect."
+  ],
+  [
+   348.063,
+   351.388,
+   "Before trading it, ask what news or regime could"
+  ],
+  [
+   351.388,
+   353.235,
+   "make the old average irrelevant."
+  ],
+  [
+   353.735,
+   356.07,
+   "Pairs trading compares two related series."
+  ],
+  [
+   356.702,
+   360.205,
+   "The algo measures their spread, then a z-score\ndescribes"
+  ],
+  [
+   360.205,
+   363.707,
+   "how unusual that spread is against its recent\nhistory."
+  ],
+  [
+   364.339,
+   367.842,
+   "A rule may act when the absolute z-score exceeds"
+  ],
+  [
+   367.842,
+   368.231,
+   "two."
+  ],
+  [
+   368.862,
+   372.365,
+   "It goes long one leg and short the other,"
+  ],
+  [
+   372.365,
+   374.311,
+   "expecting the relationship to normalize."
+  ],
+  [
+   374.943,
+   377.278,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   377.909,
+   380.634,
+   "The real danger is a broken relationship."
+  ],
+  [
+   381.265,
+   384.768,
+   "A sector shock, company event, or changing business\nmodel"
+  ],
+  [
+   384.768,
+   386.714,
+   "can make yesterday's pair irrelevant."
+  ],
+  [
+   387.346,
+   390.849,
+   "A pair is not safe merely because it has"
+  ],
+  [
+   390.849,
+   392.016,
+   "moved together before."
+  ],
+  [
+   392.648,
+   396.15,
+   "The model needs synchronized data, a clear hedge\nrule,"
+  ],
+  [
+   396.15,
+   399.653,
+   "and a way to exit when the spread keeps"
+  ],
+  [
+   399.653,
+   400.042,
+   "widening."
+  ],
+  [
+   400.674,
+   402.62,
+   "Neutral-looking positions still carry risk."
+  ],
+  [
+   403.12,
+   405.685,
+   "Opening-range breakout defines a first trading\nwindow."
+  ],
+  [
+   406.316,
+   408.514,
+   "Its high and low become boundaries."
+  ],
+  [
+   409.146,
+   412.443,
+   "If price crosses above the high, a long rule"
+  ],
+  [
+   412.443,
+   413.176,
+   "may activate."
+  ],
+  [
+   413.807,
+   417.105,
+   "If it crosses below the low, a short rule"
+  ],
+  [
+   417.105,
+   417.837,
+   "may activate."
+  ],
+  [
+   418.469,
+   421.766,
+   "A stop defines failure before the order is sent."
+  ],
+  [
+   422.398,
+   424.596,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   425.228,
+   428.525,
+   "Opening noise, headline gaps, and false breakouts\nare the"
+  ],
+  [
+   428.525,
+   429.258,
+   "core danger."
+  ],
+  [
+   429.889,
+   433.186,
+   "A boundary crossed once is not a guaranteed trend."
+  ],
+  [
+   433.818,
+   437.115,
+   "A breakout rule must decide its range before the"
+  ],
+  [
+   437.115,
+   437.482,
+   "break."
+  ],
+  [
+   438.113,
+   441.044,
+   "It must decide its stop before the entry."
+  ],
+  [
+   441.676,
+   444.973,
+   "Otherwise the system is just reacting after the\nemotional"
+  ],
+  [
+   444.973,
+   447.171,
+   "part of the move has arrived."
+  ],
+  [
+   447.671,
+   450.959,
+   "V W A P means volume-weighted average price."
+  ],
+  [
+   451.59,
+   455.289,
+   "It is an execution benchmark, not automatically a\ndirectional"
+  ],
+  [
+   455.289,
+   455.7,
+   "bet."
+  ],
+  [
+   456.331,
+   460.03,
+   "A large parent order can be divided into child"
+  ],
+  [
+   460.03,
+   460.441,
+   "orders."
+  ],
+  [
+   461.073,
+   464.771,
+   "T W A P spaces those slices through time."
+  ],
+  [
+   465.403,
+   469.102,
+   "A V W A P schedule responds to traded"
+  ],
+  [
+   469.102,
+   469.512,
+   "volume."
+  ],
+  [
+   470.144,
+   473.843,
+   "The goal is to reduce impact and compare fills"
+  ],
+  [
+   473.843,
+   474.254,
+   "fairly."
+  ],
+  [
+   474.885,
+   477.351,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   477.983,
+   481.681,
+   "Poor volume forecasts, information leakage, missed\nfills, and market"
+  ],
+  [
+   481.681,
+   484.147,
+   "impact can still make execution expensive."
+  ],
+  [
+   484.779,
+   486.011,
+   "This distinction matters."
+  ],
+  [
+   486.643,
+   490.342,
+   "A V W A P algorithm can help execute"
+  ],
+  [
+   490.342,
+   491.575,
+   "an investment decision."
+  ],
+  [
+   492.206,
+   495.905,
+   "It does not answer whether the investment decision\nwas"
+  ],
+  [
+   495.905,
+   496.316,
+   "good."
+  ],
+  [
+   496.947,
+   500.235,
+   "Execution quality and market direction are different\nproblems."
+  ],
+  [
+   500.735,
+   503.909,
+   "Market makers quote a bid and an ask."
+  ],
+  [
+   504.54,
+   508.11,
+   "They can earn spread when both sides trade, while"
+  ],
+  [
+   508.11,
+   508.904,
+   "controlling inventory."
+  ],
+  [
+   509.535,
+   513.106,
+   "Their danger is adverse selection: informed flow can\ntrade"
+  ],
+  [
+   513.106,
+   514.693,
+   "against a stale quote."
+  ],
+  [
+   515.324,
+   518.894,
+   "Arbitrage instead compares related prices, such as\ncash and"
+  ],
+  [
+   518.894,
+   519.291,
+   "futures."
+  ],
+  [
+   519.923,
+   523.493,
+   "It buys one and sells the other only if"
+  ],
+  [
+   523.493,
+   526.27,
+   "the spread survives every cost and constraint."
+  ],
+  [
+   526.902,
+   530.472,
+   "Legging, funding, limits, taxes, and execution can\nerase an"
+  ],
+  [
+   530.472,
+   531.265,
+   "apparent spread."
+  ],
+  [
+   531.897,
+   534.277,
+   "Small theoretical profits attract fast competition."
+  ],
+  [
+   534.909,
+   537.685,
+   "Both families sound mechanical because they are."
+  ],
+  [
+   538.317,
+   540.301,
+   "But neither removes market risk."
+  ],
+  [
+   540.932,
+   543.709,
+   "A spread is only useful after costs."
+  ],
+  [
+   544.341,
+   547.911,
+   "A quote is only useful while information has not"
+  ],
+  [
+   547.911,
+   549.101,
+   "moved past it."
+  ],
+  [
+   549.601,
+   551.875,
+   "Part three. The India reality."
+  ],
+  [
+   552.506,
+   556.599,
+   "An API bot operates inside a broker and exchange"
+  ],
+  [
+   556.599,
+   557.053,
+   "rulebook."
+  ],
+  [
+   557.685,
+   560.413,
+   "India-first means the operating details matter."
+  ],
+  [
+   561.045,
+   565.137,
+   "A rule that works in a notebook still has"
+  ],
+  [
+   565.137,
+   569.23,
+   "to pass broker, identity, authentication, tagging,\nand monitoring requirements."
+  ],
+  [
+   569.73,
+   573.5,
+   "S E B I issued the retail algo framework"
+  ],
+  [
+   573.5,
+   575.595,
+   "on four February twenty twenty-five."
+  ],
+  [
+   576.227,
+   579.997,
+   "Under its glide path, the framework applies to all"
+  ],
+  [
+   579.997,
+   582.511,
+   "stockbrokers from one April twenty twenty-six."
+  ],
+  [
+   583.142,
+   586.913,
+   "N S E's documented threshold is ten orders per"
+  ],
+  [
+   586.913,
+   589.007,
+   "second per exchange and segment."
+  ],
+  [
+   589.639,
+   593.409,
+   "At or below that threshold, an API algo gets"
+  ],
+  [
+   593.409,
+   595.504,
+   "a generic Algo I D."
+  ],
+  [
+   596.135,
+   598.649,
+   "Above it, the algo must register."
+  ],
+  [
+   599.281,
+   603.051,
+   "Access needs a unique key, broker-whitelisted static\nI P,"
+  ],
+  [
+   603.051,
+   605.565,
+   "OAuth, two-factor authentication, and daily logout."
+  ],
+  [
+   606.196,
+   608.71,
+   "Broker is principal. Provider is agent."
+  ],
+  [
+   609.341,
+   612.693,
+   "Audit trail is kept at least five years."
+  ],
+  [
+   613.324,
+   616.257,
+   "These are safeguards for traceability and\naccountability."
+  ],
+  [
+   616.889,
+   620.24,
+   "They are not a scorecard for a strategy."
+  ],
+  [
+   620.872,
+   624.642,
+   "Registration or an identifier does not certify a\nreturn."
+  ],
+  [
+   625.274,
+   628.625,
+   "It makes orders easier to identify and supervise."
+  ],
+  [
+   629.125,
+   631.851,
+   "Costs decide whether a fast strategy survives."
+  ],
+  [
+   632.483,
+   635.988,
+   "From one April twenty twenty-six, sell-side\nsecurities futures S"
+  ],
+  [
+   635.988,
+   639.104,
+   "T T is zero point zero five percent."
+  ],
+  [
+   639.735,
+   643.241,
+   "Option-sale S T T is zero point one five"
+  ],
+  [
+   643.241,
+   644.409,
+   "percent of premium."
+  ],
+  [
+   645.041,
+   648.546,
+   "A Zerodha example lists futures brokerage at zero\npoint"
+  ],
+  [
+   648.546,
+   652.051,
+   "zero three percent or twenty rupees per order,\nwhichever"
+  ],
+  [
+   652.051,
+   652.83,
+   "is lower."
+  ],
+  [
+   653.462,
+   656.188,
+   "Options are twenty rupees per executed order."
+  ],
+  [
+   656.82,
+   659.935,
+   "That is one broker example, not all brokers."
+  ],
+  [
+   660.567,
+   664.072,
+   "N S E transaction charges and G S T"
+  ],
+  [
+   664.072,
+   664.851,
+   "add more."
+  ],
+  [
+   665.483,
+   668.988,
+   "Spread, impact, delay, and missed fills are implicit\ncosts."
+  ],
+  [
+   669.619,
+   671.956,
+   "Gross return is not net return."
+  ],
+  [
+   672.588,
+   675.314,
+   "A robust test asks a tougher question."
+  ],
+  [
+   675.946,
+   679.061,
+   "What happens if fills are worse than expected?"
+  ],
+  [
+   679.693,
+   682.419,
+   "What happens if the spread is wider?"
+  ],
+  [
+   683.051,
+   686.556,
+   "What happens if a small gross edge disappears after"
+  ],
+  [
+   686.556,
+   688.114,
+   "the complete cost stack?"
+  ],
+  [
+   688.614,
+   691.113,
+   "Here is the uncomfortable scope-labelled evidence."
+  ],
+  [
+   691.744,
+   695.493,
+   "S E B I said ninety-three percent of over"
+  ],
+  [
+   695.493,
+   699.241,
+   "one crore individual equity futures and options\ntraders lost"
+  ],
+  [
+   699.241,
+   702.989,
+   "money between financial year twenty twenty-two and\ntwenty twenty-four."
+  ],
+  [
+   703.621,
+   707.369,
+   "Aggregate losses exceeded one point eight lakh crore\nrupees."
+  ],
+  [
+   708.001,
+   711.749,
+   "Only one percent made more than one lakh rupees"
+  ],
+  [
+   711.749,
+   712.582,
+   "after costs."
+  ],
+  [
+   713.214,
+   716.962,
+   "The financial year twenty twenty-four average\ntransaction cost was"
+  ],
+  [
+   716.962,
+   719.461,
+   "twenty-six thousand rupees per individual trader."
+  ],
+  [
+   720.092,
+   723.841,
+   "This is an individual F and O study, not"
+  ],
+  [
+   723.841,
+   725.506,
+   "an algo-user profitability study."
+  ],
+  [
+   726.138,
+   728.22,
+   "Automation does not create edge."
+  ],
+  [
+   728.852,
+   731.351,
+   "Backtest does not equal live trading."
+  ],
+  [
+   731.982,
+   735.314,
+   "Retail API does not equal H F T."
+  ],
+  [
+   735.946,
+   739.694,
+   "The lesson is not that every trader will lose."
+  ],
+  [
+   740.326,
+   744.074,
+   "The lesson is that broad retail F and O"
+  ],
+  [
+   744.074,
+   747.822,
+   "outcomes are harsh, and a claim of automation does"
+  ],
+  [
+   747.822,
+   749.488,
+   "not change that evidence."
+  ],
+  [
+   750.12,
+   753.035,
+   "Treat every profit promise with special caution."
+  ],
+  [
+   753.535,
+   755.753,
+   "Part four. Build and run one."
+  ],
+  [
+   756.384,
+   758.602,
+   "The code is only one component."
+  ],
+  [
+   759.234,
+   761.452,
+   "Controls make it a trading system."
+  ],
+  [
+   762.083,
+   765.41,
+   "Now we turn the map into an operating checklist."
+  ],
+  [
+   766.042,
+   769.369,
+   "The right order is deliberate: test first, limit\nrisk,"
+  ],
+  [
+   769.369,
+   772.326,
+   "then observe what happens in the real environment."
+  ],
+  [
+   772.826,
+   776.45,
+   "The real stack starts with market data and\ninstrument"
+  ],
+  [
+   776.45,
+   776.853,
+   "information."
+  ],
+  [
+   777.485,
+   781.109,
+   "Validate stale feeds, timestamps, missing values,\nand market status."
+  ],
+  [
+   781.741,
+   782.949,
+   "Calculate the signal."
+  ],
+  [
+   783.58,
+   785.997,
+   "Convert it into a desired position."
+  ],
+  [
+   786.628,
+   790.253,
+   "Then risk checks cap cash, margin, exposure, order\nsize,"
+  ],
+  [
+   790.253,
+   791.461,
+   "and daily loss."
+  ],
+  [
+   792.092,
+   794.508,
+   "An order-management system creates child orders."
+  ],
+  [
+   795.14,
+   797.556,
+   "The broker API routes tagged orders."
+  ],
+  [
+   798.188,
+   800.604,
+   "The exchange sends acknowledgements and fills."
+  ],
+  [
+   801.236,
+   803.249,
+   "Monitoring compares intent with reality."
+  ],
+  [
+   803.881,
+   807.505,
+   "A kill switch is part of the design, not"
+  ],
+  [
+   807.505,
+   808.713,
+   "an emergency decoration."
+  ],
+  [
+   809.345,
+   811.358,
+   "Each hand-off should be observable."
+  ],
+  [
+   811.99,
+   815.614,
+   "You should be able to answer: what data arrived,"
+  ],
+  [
+   815.614,
+   819.239,
+   "what signal fired, which check approved it, which\norder"
+  ],
+  [
+   819.239,
+   821.252,
+   "left, and which fill returned."
+  ],
+  [
+   821.884,
+   825.508,
+   "If you cannot answer that, you cannot safely debug"
+  ],
+  [
+   825.508,
+   825.911,
+   "it."
+  ],
+  [
+   826.411,
+   829.482,
+   "A backtest replays historical data under\nassumptions."
+  ],
+  [
+   830.114,
+   833.624,
+   "It should separate train, validation, and test\nperiods."
+  ],
+  [
+   834.255,
+   837.327,
+   "It must avoid look-ahead and survivorship bias."
+  ],
+  [
+   837.958,
+   841.907,
+   "It must model charges, spread, slippage, partial\nfills, and"
+  ],
+  [
+   841.907,
+   842.784,
+   "changing liquidity."
+  ],
+  [
+   843.416,
+   847.365,
+   "An overfit curve can look perfect in sample, then"
+  ],
+  [
+   847.365,
+   849.997,
+   "flatten or fail in walk-forward trading."
+  ],
+  [
+   850.629,
+   853.261,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   853.893,
+   857.841,
+   "Live trading adds current queue position, outages,\nrejected orders,"
+  ],
+  [
+   857.841,
+   861.79,
+   "and market regimes that historical tests cannot\nfully recreate."
+  ],
+  [
+   862.422,
+   866.37,
+   "A good backtest is a challenge to the idea,"
+  ],
+  [
+   866.37,
+   868.125,
+   "not a sales brochure."
+  ],
+  [
+   868.757,
+   869.634,
+   "Change assumptions."
+  ],
+  [
+   870.266,
+   871.582,
+   "Reserve unseen data."
+  ],
+  [
+   872.214,
+   873.091,
+   "Stress costs."
+  ],
+  [
+   873.723,
+   877.672,
+   "If the result survives only one narrow setting, it"
+  ],
+  [
+   877.672,
+   878.549,
+   "is fragile."
+  ],
+  [
+   879.049,
+   881.547,
+   "Pseudo-code should read like an accountable\ndecision."
+  ],
+  [
+   882.178,
+   884.676,
+   "First calculate a fast and slow average."
+  ],
+  [
+   885.307,
+   888.519,
+   "If the fast average is above the slow average,"
+  ],
+  [
+   888.519,
+   889.589,
+   "propose a position."
+  ],
+  [
+   890.221,
+   892.005,
+   "Do not send it yet."
+  ],
+  [
+   892.636,
+   894.063,
+   "Check cash and margin."
+  ],
+  [
+   894.695,
+   896.122,
+   "Check maximum order size."
+  ],
+  [
+   896.754,
+   898.538,
+   "Check the daily loss limit."
+  ],
+  [
+   899.169,
+   902.381,
+   "Check the instrument is tradable and the data is"
+  ],
+  [
+   902.381,
+   902.737,
+   "fresh."
+  ],
+  [
+   903.369,
+   905.51,
+   "Only then send the tagged order."
+  ],
+  [
+   906.141,
+   908.639,
+   "If any check fails, reject and alert."
+  ],
+  [
+   909.271,
+   912.482,
+   "The strongest line of code is often the one"
+  ],
+  [
+   912.482,
+   913.909,
+   "that prevents a trade."
+  ],
+  [
+   914.541,
+   917.752,
+   "This is why risk code sits immediately before the"
+  ],
+  [
+   917.752,
+   918.109,
+   "order."
+  ],
+  [
+   918.74,
+   921.951,
+   "The signal may be perfectly valid and still be"
+  ],
+  [
+   921.951,
+   925.163,
+   "unacceptable today because cash, margin, size, or\nloss limits"
+  ],
+  [
+   925.163,
+   925.876,
+   "say no."
+  ],
+  [
+   926.508,
+   927.935,
+   "That is disciplined automation."
+  ],
+  [
+   928.435,
+   932.025,
+   "Going live begins smaller than a backtest fantasy."
+  ],
+  [
+   932.657,
+   933.554,
+   "Paper-trade first."
+  ],
+  [
+   934.186,
+   935.981,
+   "Use conservative position sizing."
+  ],
+  [
+   936.612,
+   940.651,
+   "Watch for stale data, rejected orders, duplicate\norders, latency"
+  ],
+  [
+   940.651,
+   943.344,
+   "spikes, unexpected exposure, and daily-loss\nbreaches."
+  ],
+  [
+   943.975,
+   947.116,
+   "Reconcile exchange acknowledgements with the\nintended position."
+  ],
+  [
+   947.748,
+   949.543,
+   "Alerts need an owner."
+  ],
+  [
+   950.175,
+   953.316,
+   "A kill switch needs a tested path."
+  ],
+  [
+   953.947,
+   957.986,
+   "Discipline matters more than clever code, because a\nlive"
+  ],
+  [
+   957.986,
+   962.025,
+   "system trades the actual market, not a chart frozen"
+  ],
+  [
+   962.025,
+   962.922,
+   "in hindsight."
+  ],
+  [
+   963.554,
+   965.349,
+   "Paper trading checks workflow."
+  ],
+  [
+   965.981,
+   968.224,
+   "Small live size checks execution."
+  ],
+  [
+   968.856,
+   971.1,
+   "Neither step proves future profitability."
+  ],
+  [
+   971.731,
+   975.77,
+   "They reduce the chance that a technical failure\nbecomes"
+  ],
+  [
+   975.77,
+   977.565,
+   "a large financial mistake."
+  ],
+  [
+   978.065,
+   979.346,
+   "Keep five rules."
+  ],
+  [
+   979.978,
+   982.54,
+   "Model all explicit and implicit costs."
+  ],
+  [
+   983.172,
+   987.015,
+   "Test out of sample, not only where you tuned"
+  ],
+  [
+   987.015,
+   987.869,
+   "the rule."
+  ],
+  [
+   988.501,
+   992.344,
+   "Size small enough that a normal loss is survivable."
+  ],
+  [
+   992.975,
+   994.684,
+   "Monitor every live component."
+  ],
+  [
+   995.315,
+   999.159,
+   "Treat promised, expected, or unverified past-return\nmarketing as a"
+  ],
+  [
+   999.159,
+   1000.013,
+   "red flag."
+  ],
+  [
+   1000.644,
+   1004.488,
+   "S E B I's restriction is nuanced: it does"
+  ],
+  [
+   1004.488,
+   1007.477,
+   "not mean all performance discussion is banned."
+  ],
+  [
+   1008.108,
+   1011.952,
+   "It does mean brokers and platforms cannot make those"
+  ],
+  [
+   1011.952,
+   1015.795,
+   "unverified return references, subject to the\nspecified verified-metrics route."
+  ],
+  [
+   1016.427,
+   1018.562,
+   "The common thread is humility."
+  ],
+  [
+   1019.194,
+   1020.048,
+   "Markets change."
+  ],
+  [
+   1020.679,
+   1021.533,
+   "Data fails."
+  ],
+  [
+   1022.165,
+   1023.019,
+   "Costs compound."
+  ],
+  [
+   1023.651,
+   1027.494,
+   "A system should be designed to survive uncertainty,\nnot"
+  ],
+  [
+   1027.494,
+   1028.775,
+   "to advertise certainty."
+  ],
+  [
+   1029.275,
+   1031.792,
+   "So the whole map is this."
+  ],
+  [
+   1032.424,
+   1036.2,
+   "A trading algorithm is a rule connected to data,"
+  ],
+  [
+   1036.2,
+   1037.878,
+   "risk, routing, and monitoring."
+  ],
+  [
+   1038.509,
+   1042.285,
+   "Strategies differ, but all can fail through costs,\nbad"
+  ],
+  [
+   1042.285,
+   1044.383,
+   "assumptions, or a changing market."
+  ],
+  [
+   1045.014,
+   1048.79,
+   "India adds broker, API, identity, tagging, and audit\ncontrols."
+  ],
+  [
+   1049.422,
+   1051.1,
+   "Automation is not edge."
+  ],
+  [
+   1051.732,
+   1055.507,
+   "Educational information from public sources, not\ninvestment advice. Consult"
+  ],
+  [
+   1055.507,
+   1058.025,
+   "a S E B I-registered adviser."
+  ],
+  [
+   1058.656,
+   1059.915,
+   "Thanks for watching."
+  ],
+  [
+   1060.546,
+   1063.903,
+   "Keep the scope labels attached to every number."
+  ],
+  [
+   1064.534,
+   1066.212,
+   "Keep synthetic examples labelled."
+  ],
+  [
+   1066.844,
+   1070.62,
+   "And keep the decision to stop as available as"
+  ],
+  [
+   1070.62,
+   1072.298,
+   "the decision to trade."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "dta/narration.wav",
+   "volume": 1.0
+  }
+ }
+}

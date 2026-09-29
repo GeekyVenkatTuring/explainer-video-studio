@@ -1,0 +1,5 @@
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/augmont_retail_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/augmont_retail_c1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/ipo-nextweek-2026/assets/raw/augmont_retail_c2.wav'

@@ -1,0 +1,726 @@
+{
+ "pack": "ledger",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "data-harness",
+  "issue": "part 4 · loop",
+  "code": "DH · P4"
+ },
+ "beats": [
+  {
+   "id": "b21",
+   "kind": "divider",
+   "dur": 6.063,
+   "props": {
+    "n": 4,
+    "total": 6,
+    "title": "The agent loop",
+    "sub": "build context → call the model → run tools → repeat"
+   }
+  },
+  {
+   "id": "b22",
+   "kind": "x_loop",
+   "dur": 37.946,
+   "props": {
+    "kicker": "The core",
+    "title": "Seven steps, run until the answer is verified",
+    "center": "Claude",
+    "steps": [
+     {
+      "h": "Build context",
+      "d": "what the model sees"
+     },
+     {
+      "h": "Call the model",
+      "d": "plan, pick tools"
+     },
+     {
+      "h": "Run tools",
+      "d": "validated, sandboxed"
+     },
+     {
+      "h": "Observe",
+      "d": "clip, log evidence"
+     },
+     {
+      "h": "Verify",
+      "d": "numbers ⊆ evidence"
+     },
+     {
+      "h": "Answer",
+      "d": "cited, with as-of"
+     },
+     {
+      "h": "Remember",
+      "d": "store learnings"
+     }
+    ],
+    "trace": [
+     "context: 4,180 tok (prefix cached)",
+     "model → plan: 3 sub-questions",
+     "tool: get_metrics(acme, net_margin, 8Q)",
+     "observe: 8 rows, 16 cells logged",
+     "verify: 1 number unmatched → retry",
+     "answer: 5 numbers, 5 citations",
+     "memory: +1 learning"
+    ],
+    "ats": [
+     0.105,
+     0.161,
+     0.276,
+     0.362,
+     0.615,
+     0.681,
+     0.747
+    ]
+   }
+  },
+  {
+   "id": "b23",
+   "kind": "x_context",
+   "dur": 40.073,
+   "props": {
+    "kicker": "Step 1 · the context builder",
+    "title": "What the model sees, and in what order",
+    "budget": 12000,
+    "segs": [
+     {
+      "h": "Stable prefix",
+      "d": "role, rules, catalog summary, metric glossary",
+      "tok": 3200,
+      "c": "llm",
+      "cached": true
+     },
+     {
+      "h": "Recalled memories",
+      "d": "'user prefers ₹ crore', 'Excel from broker X is in lakh'",
+      "tok": 600,
+      "c": "pdf"
+     },
+     {
+      "h": "Conversation",
+      "d": "recent turns verbatim, older ones summarised",
+      "tok": 2600,
+      "c": "faint"
+     },
+     {
+      "h": "The question",
+      "d": "entities resolved: Acme → acme, 'last quarter' → Q2FY26",
+      "tok": 180,
+      "c": "ink"
+     },
+     {
+      "h": "Tool results",
+      "d": "clipped tables with provenance",
+      "tok": 2400,
+      "c": "xls"
+     }
+    ],
+    "compact": {
+     "idx": 2,
+     "to": 700,
+     "at": 0.8
+    },
+    "ats": [
+     0.156,
+     0.396,
+     0.518,
+     0.566,
+     0.709
+    ]
+   }
+  },
+  {
+   "id": "b24",
+   "kind": "x_code",
+   "dur": 33.107,
+   "props": {
+    "kicker": "Steps 2 to 6",
+    "title": "The loop is about thirty lines",
+    "file": "harness/loop.py",
+    "lines": [
+     "def run(question, session):",
+     "    ctx = build_context(question, session)          # step 1",
+     "    for step in range(MAX_STEPS):                    # budget: 12",
+     "        resp = claude.messages.create(model=MODEL, system=ctx.system,",
+     "                    messages=ctx.messages, tools=TOOL_SCHEMAS)",
+     "        if resp.stop_reason != \"tool_use\":",
+     "            report = verify(resp.text, session.evidence)",
+     "            if report.ok: break",
+     "            ctx.add_user(f\"VERIFIER: {report.problems}. Fix with tools.\")",
+     "            continue",
+     "        for call in tool_calls(resp):",
+     "            result = TOOLS[call.name].run(**call.input)  # validated",
+     "            session.evidence += result.provenance",
+     "            ctx.add_tool_result(call.id, clip(result))",
+     "    remember_learnings(session)                      # step 7",
+     "    return cite(resp.text, session.evidence)"
+    ],
+    "notes": [
+     {
+      "a": 3,
+      "b": 5,
+      "key": "budget",
+      "t": "A step budget stops runaway loops.",
+      "at": 0.133
+     },
+     {
+      "a": 6,
+      "b": 10,
+      "key": "verifier",
+      "t": "No tool call means a draft answer. Verify it before release.",
+      "at": 0.388
+     },
+     {
+      "a": 11,
+      "b": 14,
+      "key": "evidence",
+      "t": "Every tool result feeds the evidence log.",
+      "at": 0.776
+     },
+     {
+      "a": 15,
+      "b": 16,
+      "key": "remember",
+      "t": "Learn after the answer, and attach citations.",
+      "at": 0.898
+     }
+    ]
+   }
+  },
+  {
+   "id": "b25",
+   "kind": "x_trace",
+   "dur": 28.482,
+   "props": {
+    "kicker": "Worked example · part 1",
+    "title": "Is Acme's margin improving?",
+    "events": [
+     {
+      "k": "user",
+      "body": "Is Acme's margin improving, while its debt stays under control?",
+      "key": "asks"
+     },
+     {
+      "k": "memory",
+      "body": "recalled: prefers ₹ crore, consolidated · balance_sheet.xlsx is in ₹ lakh",
+      "key": "recalls"
+     },
+     {
+      "k": "plan",
+      "body": "1) net margin trend, 8 quarters  2) debt to equity, 3 periods  3) why: management commentary",
+      "key": "plans"
+     },
+     {
+      "k": "call",
+      "body": "get_metrics(company=\"acme\", metrics=[\"net_margin\"], periods=\"last_8q\")",
+      "key": "calls"
+     },
+     {
+      "k": "result",
+      "body": "8 rows · source q*_results.pdf p4 · unit pct",
+      "key": "comes",
+      "table": {
+       "head": [
+        "period",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26"
+       ],
+       "rows": [
+        [
+         "net margin %",
+         "7.32",
+         "7.70",
+         "8.00",
+         "8.30",
+         "8.50"
+        ]
+       ]
+      }
+     }
+    ],
+    "ats": [
+     0.107,
+     0.193,
+     0.431,
+     0.605,
+     0.755
+    ]
+   }
+  },
+  {
+   "id": "b26",
+   "kind": "x_trace",
+   "dur": 27.289,
+   "props": {
+    "kicker": "Worked example · part 2",
+    "title": "…and is its debt under control?",
+    "events": [
+     {
+      "k": "call",
+      "body": "get_metrics(company=\"acme\", metrics=[\"debt_to_equity\"], periods=[\"FY24\",\"FY25\",\"H1FY26\"])",
+      "key": "calls"
+     },
+     {
+      "k": "result",
+      "body": "lakh → crore applied at ingest · source balance_sheet.xlsx BS!C14:E22",
+      "key": "falls",
+      "table": {
+       "head": [
+        "period",
+        "FY24",
+        "FY25",
+        "H1FY26"
+       ],
+       "rows": [
+        [
+         "borrowings ₹ cr",
+         "524.80",
+         "473.10",
+         "412.50"
+        ],
+        [
+         "equity ₹ cr",
+         "1,482.00",
+         "1,589.00",
+         "1,650.00"
+        ],
+        [
+         "D/E (x)",
+         "0.35",
+         "0.30",
+         "0.25"
+        ]
+       ]
+      }
+     },
+     {
+      "k": "call",
+      "body": "search_docs(\"margin drivers\", company=\"acme\", doc_type=\"concall\", period=\"Q2FY26\")",
+      "key": "searches"
+     },
+     {
+      "k": "result",
+      "body": "\"…operating leverage and a better product mix…\"  [acme_q2fy26_concall.pdf · p7]",
+      "key": "quote"
+     }
+    ],
+    "ats": [
+     0.03,
+     0.428,
+     0.602,
+     0.79
+    ]
+   }
+  },
+  {
+   "id": "b27",
+   "kind": "statement",
+   "dur": 27.309,
+   "props": {
+    "kicker": "Research says: keep the loop simple",
+    "lines": [
+     "A plain ReAct loop",
+     "is enough.",
+     "Add agents only when",
+     "evals say so."
+    ],
+    "accent": 1,
+    "sub": "arXiv 2608.22651: think → run SQL → observe → fix beat elaborate multi-agent pipelines on text-to-SQL",
+    "ats": [
+     0.288,
+     0.443,
+     0.676,
+     0.753
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.761,
+   "Part four. The agent loop."
+  ],
+  [
+   2.393,
+   5.21,
+   "The small piece of code that ties everything"
+  ],
+  [
+   5.21,
+   5.563,
+   "together."
+  ],
+  [
+   6.063,
+   9.007,
+   "Here is the loop at the center of"
+  ],
+  [
+   9.007,
+   9.744,
+   "it all."
+  ],
+  [
+   10.375,
+   11.848,
+   "Step one, build context."
+  ],
+  [
+   12.479,
+   15.424,
+   "Step two, call the model. It plans and"
+  ],
+  [
+   15.424,
+   16.16,
+   "picks tools."
+  ],
+  [
+   16.792,
+   19.369,
+   "Step three, run tools, with validated arguments."
+  ],
+  [
+   20.0,
+   22.945,
+   "Step four, observe. Results are clipped, and every"
+  ],
+  [
+   22.945,
+   25.89,
+   "number goes into an evidence log. Then loop"
+  ],
+  [
+   25.89,
+   28.835,
+   "back, until the model stops asking for tools."
+  ],
+  [
+   29.467,
+   31.307,
+   "Step five, verify the draft."
+  ],
+  [
+   31.939,
+   33.779,
+   "Step six, answer, with citations."
+  ],
+  [
+   34.411,
+   36.619,
+   "Step seven, remember anything worth keeping."
+  ],
+  [
+   37.251,
+   40.196,
+   "Watch the trace on the right. Every step"
+  ],
+  [
+   40.196,
+   43.141,
+   "is logged, which is how you debug it"
+  ],
+  [
+   43.141,
+   43.509,
+   "later."
+  ],
+  [
+   44.009,
+   47.377,
+   "Step one deserves a closer look. The context"
+  ],
+  [
+   47.377,
+   49.903,
+   "builder decides what the model sees."
+  ],
+  [
+   50.534,
+   53.902,
+   "First, a stable prefix. Role, rules, the catalog"
+  ],
+  [
+   53.902,
+   57.27,
+   "summary, and the metric glossary. It barely changes,"
+  ],
+  [
+   57.27,
+   59.796,
+   "so prompt caching makes it cheap."
+  ],
+  [
+   60.427,
+   63.795,
+   "Then recalled memories, the ones relevant to this"
+  ],
+  [
+   63.795,
+   64.216,
+   "question."
+  ],
+  [
+   64.848,
+   66.111,
+   "Then the conversation."
+  ],
+  [
+   66.742,
+   70.11,
+   "Then the question itself, with entities already resolved."
+  ],
+  [
+   70.11,
+   72.215,
+   "Last quarter becomes Q2 FY26."
+  ],
+  [
+   72.847,
+   74.531,
+   "Then tool results, clipped."
+  ],
+  [
+   75.162,
+   78.53,
+   "When the window fills up, older turns are"
+  ],
+  [
+   78.53,
+   81.898,
+   "compacted into a summary. The numbers stay safe"
+  ],
+  [
+   81.898,
+   83.582,
+   "in the evidence log."
+  ],
+  [
+   84.082,
+   86.422,
+   "In code, the loop is surprisingly small."
+  ],
+  [
+   87.053,
+   89.727,
+   "Build the context. Then, within a step budget,"
+  ],
+  [
+   89.727,
+   92.067,
+   "call the model with the tool schemas."
+  ],
+  [
+   92.698,
+   95.372,
+   "If the model didn't ask for a tool,"
+  ],
+  [
+   95.372,
+   98.046,
+   "it has a draft answer. Run the verifier."
+  ],
+  [
+   98.046,
+   100.72,
+   "If it passes, we're done. If not, the"
+  ],
+  [
+   100.72,
+   103.394,
+   "problems go back to the model as a"
+  ],
+  [
+   103.394,
+   105.065,
+   "message, and it tries again."
+  ],
+  [
+   105.697,
+   108.37,
+   "If it did ask for tools, run each"
+  ],
+  [
+   108.37,
+   111.044,
+   "one, add its provenance to the evidence, and"
+  ],
+  [
+   111.044,
+   112.715,
+   "feed back a clipped result."
+  ],
+  [
+   113.347,
+   116.021,
+   "At the end, remember what's worth learning, and"
+  ],
+  [
+   116.021,
+   116.689,
+   "attach citations."
+  ],
+  [
+   117.189,
+   119.672,
+   "Let's run the example end to end."
+  ],
+  [
+   120.303,
+   122.076,
+   "The user asks our question."
+  ],
+  [
+   122.708,
+   125.545,
+   "The harness recalls two memories. The user prefers"
+  ],
+  [
+   125.545,
+   128.382,
+   "crore, and this balance sheet file is in"
+  ],
+  [
+   128.382,
+   128.737,
+   "lakh."
+  ],
+  [
+   129.368,
+   132.205,
+   "The model plans three sub-questions: the margin trend,"
+  ],
+  [
+   132.205,
+   133.979,
+   "debt to equity, and why."
+  ],
+  [
+   134.61,
+   137.447,
+   "It calls get metrics for net margin, eight"
+  ],
+  [
+   137.447,
+   137.802,
+   "quarters."
+  ],
+  [
+   138.433,
+   141.27,
+   "The result comes back as a small table,"
+  ],
+  [
+   141.27,
+   144.107,
+   "with its source and unit. Every cell is"
+  ],
+  [
+   144.107,
+   145.171,
+   "logged as evidence."
+  ],
+  [
+   145.671,
+   148.884,
+   "Second sub-question. The model calls get metrics for"
+  ],
+  [
+   148.884,
+   150.088,
+   "debt to equity."
+  ],
+  [
+   150.72,
+   153.932,
+   "The conversion from lakh to crore already happened"
+  ],
+  [
+   153.932,
+   157.144,
+   "at ingest, so the ratio is right. Debt"
+  ],
+  [
+   157.144,
+   159.955,
+   "to equity falls from 0.35 to 0.25."
+  ],
+  [
+   160.586,
+   163.799,
+   "Third, the why. The model searches the earnings"
+  ],
+  [
+   163.799,
+   165.405,
+   "call for margin drivers."
+  ],
+  [
+   166.036,
+   169.248,
+   "It gets back a quote, with the document"
+  ],
+  [
+   169.248,
+   172.461,
+   "and page. That's all the evidence it needs."
+  ],
+  [
+   172.961,
+   176.283,
+   "Should you build five cooperating agents? Probably not"
+  ],
+  [
+   176.283,
+   176.698,
+   "yet."
+  ],
+  [
+   177.329,
+   180.651,
+   "A 2026 paper titled Iteration Without Elaboration found"
+  ],
+  [
+   180.651,
+   183.973,
+   "that a plain loop of think, run SQL,"
+  ],
+  [
+   183.973,
+   187.295,
+   "observe, and fix is enough for text to"
+  ],
+  [
+   187.295,
+   187.71,
+   "SQL."
+  ],
+  [
+   188.342,
+   191.248,
+   "Start with one agent and one loop."
+  ],
+  [
+   191.88,
+   195.202,
+   "Add sub-agents later, when your evals show you"
+  ],
+  [
+   195.202,
+   198.524,
+   "need them. For example, one per company, in"
+  ],
+  [
+   198.524,
+   199.769,
+   "a five-company comparison."
+  ]
+ ],
+ "audio": "dh/ch04.wav"
+}

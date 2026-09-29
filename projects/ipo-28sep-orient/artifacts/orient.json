@@ -1,0 +1,719 @@
+{
+ "cuts": [
+  {
+   "id": "orient_title",
+   "type": "sm_ptitle",
+   "in_seconds": 0.0,
+   "out_seconds": 28.212,
+   "props": {
+    "title": "Orient Cables (India) IPO",
+    "sub": "Networking & specialty cables · ₹552.00 Cr · 25–29 Sep 2026",
+    "kicker": "IPO ANALYSIS · MAINBOARD · FRESH + OFS",
+    "dur": 28.712
+   }
+  },
+  {
+   "id": "orient_biz",
+   "type": "sm_iconcards",
+   "in_seconds": 28.712,
+   "out_seconds": 64.879,
+   "props": {
+    "kicker": "WHAT THE COMPANY DOES",
+    "title": "Business Model",
+    "color": "#38BDF8",
+    "items": [
+     {
+      "emoji": "🔌",
+      "k": "Networking-cable specialist",
+      "v": "LAN, specialty power and optical-fibre cables plus harnesses and EV-charging cable assemblies.",
+      "chip": "CABLES"
+     },
+     {
+      "emoji": "📡",
+      "k": "About 22.9% share",
+      "v": "A top-four Indian networking-cable maker, with about 22.9% share in FY26 per the RHP's industry report.",
+      "chip": "SCALE"
+     },
+     {
+      "emoji": "🏭",
+      "k": "Plants in Bhiwadi + Bengaluru",
+      "v": "Two Rajasthan plants and a Bengaluru plant that started in May 2026.",
+      "chip": "CAPACITY"
+     }
+    ],
+    "dur": 36.667
+   }
+  },
+  {
+   "id": "orient_fin",
+   "type": "sm_stats",
+   "in_seconds": 65.379,
+   "out_seconds": 126.012,
+   "props": {
+    "kicker": "FINANCIAL QUALITY · RESTATED (RHP)",
+    "title": "FY26 Financials",
+    "stats": [
+     {
+      "label": "Revenue from operations",
+      "to": 1171.654,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "FY25: ₹824.96 Cr · +42.03%"
+     },
+     {
+      "label": "Profit after tax",
+      "to": 53.813,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "FY25: ₹53.32 Cr"
+     },
+     {
+      "label": "PAT margin (computed)",
+      "to": 4.59290882803285,
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 2,
+      "color": "#FBBF24",
+      "sub": "FY25: 6.46%"
+     }
+    ],
+    "note": "Revenue jumped 42.03%, but PAT was flat: ₹53.81 Cr vs ₹53.32 Cr. Q1 FY27 alone: ₹489.16 Cr revenue, ₹33.22 Cr PAT.",
+    "dur": 61.133
+   }
+  },
+  {
+   "id": "orient_issue",
+   "type": "sm_stats",
+   "in_seconds": 126.512,
+   "out_seconds": 152.707,
+   "props": {
+    "kicker": "OFFER STRUCTURE · COMPUTED AT CAP",
+    "title": "Fresh Issue vs Offer for Sale",
+    "stats": [
+     {
+      "label": "Total offer (at cap)",
+      "to": 552.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "band ₹258–₹272"
+     },
+     {
+      "label": "Fresh issue → company",
+      "to": 320.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "new capital"
+     },
+     {
+      "label": "Offer for sale → sellers",
+      "to": 232.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "shareholder exit"
+     }
+    ],
+    "note": "57.97% fresh capital · 42.03% offer for sale (computed at the cap)",
+    "dur": 26.695
+   }
+  },
+  {
+   "id": "orient_proceeds",
+   "type": "sm_iconcards",
+   "in_seconds": 153.207,
+   "out_seconds": 187.197,
+   "props": {
+    "kicker": "USE OF PROCEEDS · RHP OBJECTS",
+    "title": "Where The Money Goes",
+    "color": "#38BDF8",
+    "items": [
+     {
+      "emoji": "🏦",
+      "k": "₹155.50 Cr debt repayment",
+      "v": "The largest use of the fresh money: repaying borrowings. Net debt to equity was 0.94 in FY26.",
+      "chip": "DEBT"
+     },
+     {
+      "emoji": "⚙️",
+      "k": "₹91.50 Cr capex",
+      "v": "Machinery, equipment and civil works at its plants, spread over FY27 to FY29.",
+      "chip": "CAPEX"
+     },
+     {
+      "emoji": "👥",
+      "k": "₹232.00 Cr offer for sale",
+      "v": "Promoter Vipul Nagpal, Garima Nagpal and two family trusts sell shares; the company gets none of it.",
+      "chip": "OFS"
+     }
+    ],
+    "dur": 34.491
+   }
+  },
+  {
+   "id": "orient_peers",
+   "type": "sm_peers",
+   "in_seconds": 187.697,
+   "out_seconds": 234.957,
+   "props": {
+    "kicker": "VALUATION · P/E AT CAP vs LISTED PEERS",
+    "title": "Peer Comparison",
+    "color": "#38BDF8",
+    "rows": [
+     {
+      "name": "Orient Cables (India)",
+      "pe": 51.61,
+      "note": "₹272 cap ÷ FY26 EPS ₹5.27",
+      "hi": true,
+      "display": "51.61x"
+     },
+     {
+      "name": "Finolex Cables",
+      "pe": 26.29,
+      "note": "cables peer",
+      "hi": false,
+      "display": "26.29x"
+     },
+     {
+      "name": "Havells India",
+      "pe": 42.69,
+      "note": "electricals + cables",
+      "hi": false,
+      "display": "42.69x"
+     },
+     {
+      "name": "Polycab India",
+      "pe": 46.69,
+      "note": "cables leader",
+      "hi": false,
+      "display": "46.69x"
+     },
+     {
+      "name": "KEI Industries",
+      "pe": 48.99,
+      "note": "cables peer",
+      "hi": false,
+      "display": "48.99x"
+     },
+     {
+      "name": "RR Kabel",
+      "pe": 54.85,
+      "note": "wires & cables",
+      "hi": false,
+      "display": "54.85x"
+     }
+    ],
+    "verdict": "At 51.61x FY26 earnings, Orient is priced near the top of its large, established cable peers.",
+    "dur": 47.76
+   }
+  },
+  {
+   "id": "orient_verdict",
+   "type": "sm_myths",
+   "in_seconds": 235.457,
+   "out_seconds": 278.259,
+   "props": {
+    "kicker": "BALANCED ANALYSIS",
+    "title": "Strengths vs Watch-outs",
+    "mythLabel": "⚠️ WATCH-OUTS",
+    "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+    "pairs": [
+     {
+      "m": "PAT flat while revenue grew 42.03%",
+      "f": "About 22.9% share of India's networking-cable market"
+     },
+     {
+      "m": "51.61x P/E, near the top of listed peers",
+      "f": "Strong Q1 FY27: ₹33.22 Cr PAT in one quarter"
+     },
+     {
+      "m": "42.03% of the offer is promoter OFS",
+      "f": "₹155.50 Cr of fresh money cuts debt"
+     }
+    ],
+    "dur": 43.301
+   }
+  },
+  {
+   "id": "orient_apply",
+   "type": "sm_iconcards",
+   "in_seconds": 278.759,
+   "out_seconds": 302.531,
+   "props": {
+    "kicker": "HOW TO APPLY",
+    "title": "Check Terms Before You Bid",
+    "color": "#38BDF8",
+    "items": [
+     {
+      "emoji": "🧑",
+      "k": "Retail: up to ₹2 lakh",
+      "v": "Individual bids up to ₹2,00,000; lottery allotment if oversubscribed.",
+      "chip": "RETAIL"
+     },
+     {
+      "emoji": "💰",
+      "k": "Minimum bid",
+      "v": "55 shares × ₹272 = ₹14,960",
+      "chip": "1 LOT"
+     },
+     {
+      "emoji": "📅",
+      "k": "Bidding window",
+      "v": "25–29 Sep 2026 · UPI mandate by 5 PM on the last day.",
+      "chip": "DATES"
+     },
+     {
+      "emoji": "🔎",
+      "k": "Verify live",
+      "v": "Live subscription on NSE/BSE; the final RHP for everything else.",
+      "chip": "SOURCES"
+     }
+    ],
+    "dur": 24.272
+   }
+  },
+  {
+   "id": "orient_recap",
+   "type": "sm_recap",
+   "in_seconds": 303.031,
+   "out_seconds": 349.833,
+   "props": {
+    "title": "Orient Cables (India) IPO — Recap",
+    "items": [
+     "FY26: revenue ₹1,171.65 Cr · PAT ₹53.81 Cr (4.59% margin)",
+     "Offer ₹552.00 Cr · fresh ₹320.00 Cr · OFS ₹232.00 Cr",
+     "Valuation: 51.61x FY26 EPS at the ₹272 cap",
+     "Minimum: ₹14,960 · 25–29 Sep 2026"
+    ],
+    "closer": "Education, not advice: read the RHP, decide for yourself.",
+    "dur": 47.303
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   4.284,
+   "This is the Orient Cables (India) I P O, a mainboard offer,"
+  ],
+  [
+   4.284,
+   8.64,
+   "open from the twenty-fifth to the twenty-ninth of September."
+  ],
+  [
+   9.14,
+   12.172,
+   "The price band is ₹258 to ₹272."
+  ],
+  [
+   12.172,
+   18.138,
+   "Every figure here comes from the final red herring prospectus"
+  ],
+  [
+   18.138,
+   20.192,
+   "and exchange notices;"
+  ],
+  [
+   20.192,
+   24.006,
+   "the final price is fixed after bidding,"
+  ],
+  [
+   24.006,
+   28.212,
+   "so valuations are computed at the ₹272 cap."
+  ],
+  [
+   28.712,
+   29.949,
+   "First, the business."
+  ],
+  [
+   30.449,
+   33.351,
+   "Orient Cables makes networking cables,"
+  ],
+  [
+   33.351,
+   36.786,
+   "the LAN cables inside offices and data rooms,"
+  ],
+  [
+   36.786,
+   38.924,
+   "plus specialty power cables,"
+  ],
+  [
+   38.924,
+   42.055,
+   "optical-fibre cables and cable harnesses,"
+  ],
+  [
+   42.055,
+   44.956,
+   "including E V charging-gun assemblies."
+  ],
+  [
+   45.456,
+   50.977,
+   "The RHP's industry report puts it among India's top four"
+  ],
+  [
+   50.977,
+   53.344,
+   "networking-cable makers,"
+  ],
+  [
+   53.344,
+   56.4,
+   "with about 22.9% share in FY26."
+  ],
+  [
+   56.9,
+   60.456,
+   "It runs two plants in Bhiwadi, Rajasthan,"
+  ],
+  [
+   60.456,
+   64.879,
+   "and a new Bengaluru plant that started in May 2026."
+  ],
+  [
+   65.379,
+   66.979,
+   "The financial checkpoint."
+  ],
+  [
+   67.479,
+   79.884,
+   "FY26 revenue was ₹1,171.65 Cr, against ₹824.96 Cr in FY25,"
+  ],
+  [
+   79.884,
+   83.948,
+   "a change of 42.03%."
+  ],
+  [
+   84.448,
+   91.744,
+   "Profit after tax was ₹53.81 Cr, a margin of 4.59%."
+  ],
+  [
+   92.244,
+   93.247,
+   "Here is the catch."
+  ],
+  [
+   93.747,
+   100.792,
+   "Revenue grew 42.03%, but profit barely moved,"
+  ],
+  [
+   100.792,
+   105.176,
+   "from ₹53.32 Cr to ₹53.81 Cr,"
+  ],
+  [
+   105.176,
+   111.283,
+   "so the margin fell from 6.46% to 4.59%."
+  ],
+  [
+   111.783,
+   116.04,
+   "The June 2026 quarter looked stronger:"
+  ],
+  [
+   116.04,
+   121.194,
+   "₹489.16 Cr of revenue and ₹33.22 Cr of profit,"
+  ],
+  [
+   121.194,
+   126.012,
+   "though a single quarter is not a full year."
+  ],
+  [
+   126.512,
+   130.864,
+   "The offer size at the cap is ₹552.00 Cr."
+  ],
+  [
+   131.364,
+   136.19,
+   "₹320.00 Cr is fresh issue that goes into the company,"
+  ],
+  [
+   136.19,
+   142.564,
+   "and ₹232.00 Cr is an offer for sale that goes to selling shareholders."
+  ],
+  [
+   143.064,
+   147.524,
+   "So 57.97% of the deal is new capital,"
+  ],
+  [
+   147.524,
+   152.707,
+   "and 42.03% is an exit for existing holders."
+  ],
+  [
+   153.207,
+   154.529,
+   "Where does the money go?"
+  ],
+  [
+   155.029,
+   163.349,
+   "Of the ₹320.00 Cr fresh issue, ₹155.50 Cr repays debt."
+  ],
+  [
+   163.849,
+   168.208,
+   "₹91.50 Cr goes to machinery and civil works,"
+  ],
+  [
+   168.208,
+   172.468,
+   "and the rest to general corporate purposes."
+  ],
+  [
+   172.968,
+   180.037,
+   "The ₹232.00 Cr offer for sale goes to the promoter family and its two trusts,"
+  ],
+  [
+   180.037,
+   187.197,
+   "whose average acquisition cost the ad lists as between zero and ₹0.01 a share."
+  ],
+  [
+   187.697,
+   189.063,
+   "Now, valuation."
+  ],
+  [
+   189.563,
+   192.105,
+   "At the ₹272 cap,"
+  ],
+  [
+   192.105,
+   200.528,
+   "the price is 51.61x FY26 earnings per share of ₹5.27."
+  ],
+  [
+   201.028,
+   208.361,
+   "That sits near the top of its listed cable peers:"
+  ],
+  [
+   208.361,
+   215.844,
+   "Finolex at 26.29x, Havells 42.69x, Polycab 46.69x,"
+  ],
+  [
+   215.844,
+   220.633,
+   "KEI 48.99x and R R Kabel 54.85x."
+  ],
+  [
+   221.133,
+   227.658,
+   "The RHP's 128.11x industry average is pulled up by Sterlite"
+  ],
+  [
+   227.658,
+   230.312,
+   "Technologies at 708.38x,"
+  ],
+  [
+   230.312,
+   234.957,
+   "so the peer range is the fairer yardstick."
+  ],
+  [
+   235.457,
+   236.951,
+   "Now balance the evidence."
+  ],
+  [
+   237.451,
+   238.589,
+   "Watch-out:"
+  ],
+  [
+   238.589,
+   242.574,
+   "PAT flat while revenue grew 42.03%."
+  ],
+  [
+   242.574,
+   243.598,
+   "Strength:"
+  ],
+  [
+   243.598,
+   249.632,
+   "About 22.9% share of India's networking-cable market."
+  ],
+  [
+   250.132,
+   251.56,
+   "Watch-out:"
+  ],
+  [
+   251.56,
+   257.413,
+   "51.61x P/E, near the top of listed peers."
+  ],
+  [
+   257.413,
+   258.698,
+   "Strength:"
+  ],
+  [
+   258.698,
+   260.84,
+   "Strong Q1 FY27:"
+  ],
+  [
+   260.84,
+   264.98,
+   "₹33.22 Cr PAT in one quarter."
+  ],
+  [
+   265.48,
+   266.884,
+   "Watch-out:"
+  ],
+  [
+   266.884,
+   271.94,
+   "42.03% of the offer is promoter OFS."
+  ],
+  [
+   271.94,
+   273.203,
+   "Strength:"
+  ],
+  [
+   273.203,
+   278.259,
+   "₹155.50 Cr of fresh money cuts debt."
+  ],
+  [
+   278.759,
+   279.889,
+   "How to apply."
+  ],
+  [
+   280.389,
+   284.832,
+   "The minimum bid is one lot of 55 shares,"
+  ],
+  [
+   284.832,
+   287.941,
+   "which is ₹14,960 at the cap."
+  ],
+  [
+   288.441,
+   291.917,
+   "Retail investors can bid up to two lakh rupees,"
+  ],
+  [
+   291.917,
+   296.057,
+   "and allotment is by lottery if retail is oversubscribed."
+  ],
+  [
+   296.557,
+   301.1,
+   "Check live subscription on the N S E or B S E website,"
+  ],
+  [
+   301.1,
+   302.531,
+   "not social media."
+  ],
+  [
+   303.031,
+   303.991,
+   "Let's recap."
+  ],
+  [
+   304.491,
+   310.703,
+   "FY26 revenue ₹1,171.65 Cr, profit ₹53.81 Cr."
+  ],
+  [
+   310.703,
+   319.599,
+   "The offer is ₹552.00 Cr, of which ₹232.00 Cr is offer for sale."
+  ],
+  [
+   319.599,
+   325.247,
+   "Valuation is 51.61x earnings at the cap."
+  ],
+  [
+   325.247,
+   330.048,
+   "The minimum investment is ₹14,960."
+  ],
+  [
+   330.548,
+   334.722,
+   "This video is public-source education from the red herring"
+  ],
+  [
+   334.722,
+   337.024,
+   "prospectus and exchange notices."
+  ],
+  [
+   337.024,
+   340.982,
+   "It is not investment advice and not a buy or sell call."
+  ],
+  [
+   340.982,
+   342.781,
+   "Read the final documents,"
+  ],
+  [
+   342.781,
+   345.66,
+   "check live subscription on the exchange,"
+  ],
+  [
+   345.66,
+   348.394,
+   "and consult a SEBI-registered adviser."
+  ],
+  [
+   348.394,
+   349.833,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "ipo28/orient.wav",
+   "volume": 1.0
+  }
+ }
+}

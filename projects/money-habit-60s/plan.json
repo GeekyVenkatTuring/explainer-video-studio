@@ -1,0 +1,23 @@
+{
+  "audioSrc": "mh/narration.mp3",
+  "beats": [
+    { "clip": "mh/hook.mp4", "clipStart": 0.0, "in": 0.0, "out": 9.15, "panX": 0.3,
+      "accent": "red", "kicker": "The mistake",
+      "head": "Save what's *left*?", "sub": "You save what's left after rent and bills — the surplus never shows up." },
+    { "clip": "mh/flip.mp4", "clipStart": 1.0, "in": 9.15, "out": 17.84, "panX": -0.25,
+      "accent": "green", "kicker": "The fix",
+      "head": "*Flip* the order", "sub": "The day salary lands, a fixed amount auto-invests — before you can spend it." },
+    { "clip": "mh/autosip.mp4", "clipStart": 2.0, "in": 17.84, "out": 24.06, "panX": 0.25,
+      "accent": "green", "kicker": "Auto-SIP",
+      "head": "Pay yourself *first*", "sub": "One standing instruction. Set it once." },
+    { "clip": "mh/willpower.mp4", "clipStart": 3.0, "in": 24.06, "out": 35.596, "panX": -0.2,
+      "accent": "amber", "kicker": "Why it works",
+      "head": "Willpower fails. *Systems* don't.", "sub": "No remembering. No bargaining. No skipping just this month." },
+    { "clip": "mh/averaging.mp4", "clipStart": 4.0, "in": 35.596, "out": 47.849, "panX": 0.45,
+      "accent": "green", "kicker": "Over time",
+      "head": "Buy on a *schedule*, not a mood", "sub": "You average your buys — quiet, automatic, compounding." },
+    { "clip": "mh/cta.mp4", "clipStart": 0.0, "in": 47.849, "out": 58.9, "panX": 0.0, "center": true,
+      "accent": "green", "kicker": "Do this week",
+      "head": "Set *one* auto-SIP", "sub": "A number you can live with — then leave it alone.   ·   Educational, not investment advice." }
+  ]
+}

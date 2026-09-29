@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch19_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 46.004,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "foundation",
+        "dur": 46.503
+      }
+    },
+    {
+      "id": "ch19_system",
+      "type": "aae_chapter",
+      "in_seconds": 46.504,
+      "out_seconds": 84.454,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "system",
+        "dur": 38.45
+      }
+    },
+    {
+      "id": "ch19_practice",
+      "type": "aae_chapter",
+      "in_seconds": 84.954,
+      "out_seconds": 130.913,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "practice",
+        "dur": 46.459
+      }
+    },
+    {
+      "id": "ch19_failure",
+      "type": "aae_chapter",
+      "in_seconds": 131.413,
+      "out_seconds": 170.021,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "failure",
+        "dur": 39.108
+      }
+    },
+    {
+      "id": "ch19_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 170.521,
+      "out_seconds": 213.34,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "evaluation",
+        "dur": 43.319
+      }
+    },
+    {
+      "id": "ch19_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 213.84,
+      "out_seconds": 250.738,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "handoff",
+        "dur": 37.398
+      }
+    },
+    {
+      "id": "ch19_application",
+      "type": "aae_chapter",
+      "in_seconds": 251.238,
+      "out_seconds": 299.941,
+      "props": {
+        "chapter": 19,
+        "title": "Agentic Quality Assurance",
+        "focus": "testing behavior, decisions, tools, and harmful edge cases before and after deployment",
+        "concepts": [
+          "scenario suites",
+          "adversarial tests",
+          "quality thresholds"
+        ],
+        "example": "a red-team suite for prompt injection and authorization bypass",
+        "trap": "testing only happy-path answers",
+        "takeaway": "Testing behavior, decisions, tools, and harmful edge cases before and after deployment.",
+        "beat": "application",
+        "dur": 49.203
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch19.wav",
+      "volume": 1
+    }
+  }
+}

@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/raw/b14_0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/raw/pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/raw/b14_1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/raw/pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/raw/b14_2.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/raw/pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/daily-trading-algos-en/assets/raw/b14_3.wav'

@@ -1,0 +1,256 @@
+{
+  "cuts": [
+    {
+      "id": "ch02_divider",
+      "type": "fa_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 8.229,
+      "props": {
+        "n": 2,
+        "total": 11,
+        "title": "The real risk",
+        "sub": "Volatility is visible; loss of purchasing power is quieter.",
+        "color": "#FBBF24",
+        "dur": 8.729
+      }
+    },
+    {
+      "id": "ch02_purchasing_power",
+      "type": "fa_keyidea",
+      "in_seconds": 8.729,
+      "out_seconds": 38.206,
+      "props": {
+        "kicker": "PURCHASING POWER",
+        "big": "Cash that grows slower than your future costs can lose real buying power.",
+        "sub": "This is a concept, not a claim about any current deposit rate or inflation rate.",
+        "color": "#FBBF24",
+        "dur": 29.977
+      }
+    },
+    {
+      "id": "ch02_risk_layers",
+      "type": "fa_compare",
+      "in_seconds": 38.706,
+      "out_seconds": 67.141,
+      "props": {
+        "kicker": "TWO KINDS OF RISK",
+        "title": "Separate normal fluctuation from a genuine threat to capital",
+        "cos": [
+          {
+            "name": "Price volatility",
+            "c": "#FBBF24",
+            "tag": "visible",
+            "stats": [
+              {
+                "k": "What moves?",
+                "v": "market quote"
+              },
+              {
+                "k": "Time horizon",
+                "v": "days to months"
+              },
+              {
+                "k": "Question",
+                "v": "has the thesis changed?"
+              },
+              {
+                "k": "Response",
+                "v": "review facts",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Permanent loss",
+            "c": "#F87171",
+            "tag": "fundamental",
+            "stats": [
+              {
+                "k": "What breaks?",
+                "v": "business economics"
+              },
+              {
+                "k": "Signals",
+                "v": "debt, fraud, decline"
+              },
+              {
+                "k": "Question",
+                "v": "was the thesis wrong?"
+              },
+              {
+                "k": "Response",
+                "v": "reduce or exit",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "A falling price alone is not proof; unchanged facts are not a guarantee either.",
+        "color": "#FBBF24",
+        "dur": 28.935
+      }
+    },
+    {
+      "id": "ch02_learn_basics",
+      "type": "fa_keyidea",
+      "in_seconds": 67.641,
+      "out_seconds": 93.6,
+      "props": {
+        "kicker": "THE INVESTOR'S EDGE",
+        "big": "Knowledge is a risk-control tool: learn statements, incentives, valuation, and position sizing.",
+        "sub": "Start small enough that learning mistakes are affordable.",
+        "color": "#34D399",
+        "dur": 26.459
+      }
+    },
+    {
+      "id": "ch02_detail_inflation",
+      "type": "fa_keyidea",
+      "in_seconds": 94.1,
+      "out_seconds": 129.013,
+      "props": {
+        "kicker": "INFLATION AND TAX",
+        "big": "Nominal return is not the same as real, after-tax return: future spending power is what matters.",
+        "sub": "The book's 2017 deposit-rate and tax figures are historical examples, not present rates.",
+        "color": "#FBBF24",
+        "dur": 35.413
+      }
+    },
+    {
+      "id": "ch02_detail_risk_knowledge",
+      "type": "fa_compare",
+      "in_seconds": 129.513,
+      "out_seconds": 157.764,
+      "props": {
+        "kicker": "THE BOOK'S 'ONE RISK'",
+        "title": "The author frames lack of knowledge as the root risk because ignorance leads to bad products, bad timing, and bad leverage.",
+        "cos": [
+          {
+            "name": "Unprepared",
+            "c": "#F87171",
+            "tag": "risk multiplies",
+            "stats": [
+              {
+                "k": "Does not know",
+                "v": "what is owned"
+              },
+              {
+                "k": "Responds to",
+                "v": "tips and price"
+              },
+              {
+                "k": "Uses",
+                "v": "borrowed conviction"
+              },
+              {
+                "k": "Outcome",
+                "v": "forced decisions",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Prepared",
+            "c": "#34D399",
+            "tag": "risk managed",
+            "stats": [
+              {
+                "k": "Knows",
+                "v": "business and downside"
+              },
+              {
+                "k": "Responds to",
+                "v": "material facts"
+              },
+              {
+                "k": "Uses",
+                "v": "position limits"
+              },
+              {
+                "k": "Outcome",
+                "v": "more choice",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "Knowledge cannot eliminate market risk; it can prevent many self-created risks.",
+        "color": "#2DD4BF",
+        "dur": 28.751
+      }
+    },
+    {
+      "id": "ch02_detail_equity_basics",
+      "type": "fa_ledger",
+      "in_seconds": 158.264,
+      "out_seconds": 194.357,
+      "props": {
+        "kicker": "WHY EQUITY IS DIFFERENT",
+        "title": "Equity: ownership, liquidity, and uncertainty",
+        "rows": [
+          {
+            "label": "Ownership",
+            "val": "claim on a business",
+            "c": "#34D399",
+            "bold": true
+          },
+          {
+            "label": "Liquidity",
+            "val": "usually tradable on exchange",
+            "c": "#38BDF8"
+          },
+          {
+            "label": "Accessibility",
+            "val": "small amounts can begin",
+            "c": "#2DD4BF"
+          },
+          {
+            "label": "Uncertainty",
+            "val": "price and return fluctuate",
+            "c": "#F87171"
+          },
+          {
+            "label": "Discipline",
+            "val": "research and horizon needed",
+            "c": "#FBBF24"
+          }
+        ],
+        "caption": "These are principles; availability, costs, and rules change over time.",
+        "color": "#2DD4BF",
+        "dur": 36.593
+      }
+    },
+    {
+      "id": "ch02_detail_basics",
+      "type": "fa_keyidea",
+      "in_seconds": 194.857,
+      "out_seconds": 229.767,
+      "props": {
+        "kicker": "DON'T SKIP THE BASICS",
+        "big": "Before selecting a share, understand statements, market terminology, risk, diversification, and the difference between investing and trading.",
+        "sub": "A beginner's first advantage is refusing to act beyond their understanding.",
+        "color": "#2DD4BF",
+        "dur": 35.41
+      }
+    },
+    {
+      "id": "ch02_detail_knowledge",
+      "type": "fa_keyidea",
+      "in_seconds": 230.267,
+      "out_seconds": 264.478,
+      "props": {
+        "kicker": "KNOWLEDGE COMPOUNDS",
+        "big": "Learning may not create instant returns, but it improves questions, filters, and the ability to recognise a poor offer.",
+        "sub": "Use trusted educational material and primary disclosures; verify changing regulations separately.",
+        "color": "#34D399",
+        "dur": 34.711
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch02.wav",
+      "volume": 1.0
+    }
+  }
+}

@@ -1,0 +1,916 @@
+{
+ "cuts": [
+  {
+   "id": "ch00_title",
+   "type": "pm_title",
+   "in_seconds": 0.0,
+   "out_seconds": 18.59,
+   "props": {
+    "kicker": "BOOK GUIDE \u00b7 EDUCATION, NOT ADVICE",
+    "line1": "The Psychology",
+    "line2": "of Money",
+    "sub": "Morgan Housel, 2020 \u00b7 figures as printed in the book",
+    "color": "#E8B86D",
+    "points": [
+     "Doing well with money is mostly behaviour, not formulas.",
+     "This video walks every chapter and puts the book's numbers on screen.",
+     "Education only \u2014 not investment advice. Consult a SEBI-registered adviser."
+    ],
+    "dur": 19.09
+   }
+  },
+  {
+   "id": "ch00_hook_read",
+   "type": "pm_sheet",
+   "in_seconds": 19.09,
+   "out_seconds": 59.103,
+   "props": {
+    "kicker": "INTRODUCTION \u00b7 THE OPENING PUZZLE",
+    "title": "Ronald Read, Vermont janitor",
+    "rows": [
+     {
+      "k": "Work",
+      "v": "Janitor and gas-station attendant; first in family to finish high school; hitchhiked to campus.",
+      "c": "#34D399"
+     },
+     {
+      "k": "House",
+      "v": "Bought a two-bedroom house for $12,000 at age 38 and lived there for life.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Life",
+      "v": "Widowed at 50; hobby: chopping firewood. Died 2014, age 92.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Estate",
+      "v": "More than $8 million: $2 million to family, more than $6 million to hospital and library.",
+      "c": "#34D399"
+     },
+     {
+      "k": "How",
+      "v": "No lottery, no inheritance: saved what he could, bought blue-chip stocks, waited decades.",
+      "c": "#38BDF8"
+     }
+    ],
+    "color": "#34D399",
+    "note": "Book-dated story, 2020 text. Not a forecast.",
+    "dur": 40.513
+   }
+  },
+  {
+   "id": "ch00_hook_fuscone",
+   "type": "pm_sheet",
+   "in_seconds": 59.603,
+   "out_seconds": 104.531,
+   "props": {
+    "kicker": "INTRODUCTION \u00b7 THE OTHER DOSSIER",
+    "title": "Richard Fuscone, Harvard M.B.A.",
+    "rows": [
+     {
+      "k": "R\u00e9sum\u00e9",
+      "v": "Harvard M.B.A.; Merrill Lynch executive; retired in his 40s; Crain's 40 under 40.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "House",
+      "v": "Expanded an 18,000-square-foot Greenwich home: 11 bathrooms, 2 elevators, 2 pools, 7 garages.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Cost",
+      "v": "More than $90,000 a month to maintain. Then 2008 hit.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "2008",
+      "v": "Told a bankruptcy judge: 'I currently have no income.' Palm Beach house foreclosed.",
+      "c": "#F87171"
+     },
+     {
+      "k": "2014",
+      "v": "Greenwich foreclosure sold 75% below the insurer's figure \u2014 five months before Read's gifts.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#F87171",
+    "note": "Book-dated story, 2020 text. Not a forecast.",
+    "dur": 45.428
+   }
+  },
+  {
+   "id": "ch00_why",
+   "type": "pm_sheet",
+   "in_seconds": 105.031,
+   "out_seconds": 147.414,
+   "props": {
+    "kicker": "WHY THIS BOOK EXISTS",
+    "title": "Finance is a soft skill",
+    "rows": [
+     {
+      "k": "The contrast",
+      "v": "A janitor with no degree can outperform a Harvard-trained executive in investing.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Not medicine",
+      "v": "A janitor will not outperform a Harvard surgeon, architect, or nuclear engineer.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Two explanations",
+      "v": "Luck independent of skill \u2014 or behaviour mattering more than technical knowledge.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Housel's bet",
+      "v": "Financial success is mostly a soft skill: how you behave is more important than what you know.",
+      "c": "#34D399"
+     },
+     {
+      "k": "2014 estates",
+      "v": "2,813,503 Americans died in 2014; fewer than 4,000 left a net worth over $8 million. Read was one.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "Source: Housel 2020 introduction.",
+    "dur": 42.883
+   }
+  },
+  {
+   "id": "ch00_map",
+   "type": "pm_grid",
+   "in_seconds": 147.914,
+   "out_seconds": 178.035,
+   "props": {
+    "kicker": "TWENTY CHAPTERS ON THIS GRID",
+    "title": "Every box is a later chapter",
+    "chips": [
+     {
+      "n": 1,
+      "title": "No One's Crazy",
+      "c": "#A78BFA"
+     },
+     {
+      "n": 2,
+      "title": "Luck and Risk",
+      "c": "#38BDF8"
+     },
+     {
+      "n": 3,
+      "title": "Never Enough",
+      "c": "#F87171"
+     },
+     {
+      "n": 4,
+      "title": "Compounding",
+      "c": "#E8B86D"
+     },
+     {
+      "n": 5,
+      "title": "Stay Wealthy",
+      "c": "#34D399"
+     },
+     {
+      "n": 6,
+      "title": "Tails, You Win",
+      "c": "#38BDF8"
+     },
+     {
+      "n": 7,
+      "title": "Freedom",
+      "c": "#E8B86D"
+     },
+     {
+      "n": 8,
+      "title": "Car Paradox",
+      "c": "#FBBF24"
+     },
+     {
+      "n": 9,
+      "title": "Hidden Wealth",
+      "c": "#A78BFA"
+     },
+     {
+      "n": 10,
+      "title": "Save Money",
+      "c": "#34D399"
+     },
+     {
+      "n": 11,
+      "title": "Reasonable",
+      "c": "#A78BFA"
+     },
+     {
+      "n": 12,
+      "title": "Surprise",
+      "c": "#FBBF24"
+     },
+     {
+      "n": 13,
+      "title": "Room for Error",
+      "c": "#34D399"
+     },
+     {
+      "n": 14,
+      "title": "You'll Change",
+      "c": "#A78BFA"
+     },
+     {
+      "n": 15,
+      "title": "Nothing's Free",
+      "c": "#F87171"
+     },
+     {
+      "n": 16,
+      "title": "You and Me",
+      "c": "#38BDF8"
+     },
+     {
+      "n": 17,
+      "title": "Pessimism",
+      "c": "#FBBF24"
+     },
+     {
+      "n": 18,
+      "title": "Believe Anything",
+      "c": "#A78BFA"
+     },
+     {
+      "n": 19,
+      "title": "All Together",
+      "c": "#E8B86D"
+     },
+     {
+      "n": 20,
+      "title": "Confessions",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#E8B86D",
+    "note": "Audio names the same twenty titles you see in the boxes.",
+    "dur": 30.621
+   }
+  },
+  {
+   "id": "ch00_valet",
+   "type": "pm_sheet",
+   "in_seconds": 178.535,
+   "out_seconds": 216.207,
+   "props": {
+    "kicker": "THE VALET STORY",
+    "title": "Gold coins into the Pacific",
+    "rows": [
+     {
+      "k": "Job",
+      "v": "Housel worked college years as a valet at a nice Los Angeles hotel.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Guest",
+      "v": "A tech executive who had designed a Wi-Fi router part, sold companies, and carried a thick stack of hundred-dollar bills.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Coins",
+      "v": "He sent a colleague for a few $1,000 gold coins, then skipped them into the ocean for fun.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Lamp",
+      "v": "He broke a $500 lamp, then handed over $5,000 and told the manager never to insult him again.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "End",
+      "v": "The behaviour did not last. Housel later learned the man went broke.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#FBBF24",
+    "note": "Introduction. Same lesson as Read versus Fuscone: behaviour can swamp credentials.",
+    "dur": 38.172
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.465,
+   "Doing well with money is mostly behaviour,"
+  ],
+  [
+   3.465,
+   4.455,
+   "not formulas."
+  ],
+  [
+   5.087,
+   9.047,
+   "This video walks every chapter and puts\nthe"
+  ],
+  [
+   9.047,
+   11.028,
+   "book's numbers on screen."
+  ],
+  [
+   11.659,
+   13.639,
+   "This is education only,"
+  ],
+  [
+   13.639,
+   15.125,
+   "not investment advice."
+  ],
+  [
+   15.125,
+   16.61,
+   "For personal decisions,"
+  ],
+  [
+   16.61,
+   18.59,
+   "consult a SEBI-registered adviser."
+  ],
+  [
+   19.09,
+   22.059,
+   "Ronald Read was a janitor and gas-station\nattendant."
+  ],
+  [
+   22.059,
+   25.028,
+   "He was first in his family to finish"
+  ],
+  [
+   25.028,
+   25.771,
+   "high school,"
+  ],
+  [
+   25.771,
+   27.627,
+   "and he hitchhiked to campus."
+  ],
+  [
+   28.258,
+   31.227,
+   "He bought a two-bedroom house for twelve\nthousand"
+  ],
+  [
+   31.227,
+   32.712,
+   "dollars at age thirty-eight,"
+  ],
+  [
+   32.712,
+   34.568,
+   "and lived there for life."
+  ],
+  [
+   35.199,
+   37.055,
+   "He was widowed at fifty."
+  ],
+  [
+   37.055,
+   38.911,
+   "His hobby was chopping firewood."
+  ],
+  [
+   38.911,
+   40.767,
+   "He died in twenty fourteen,"
+  ],
+  [
+   40.767,
+   41.88,
+   "at age ninety-two."
+  ],
+  [
+   42.512,
+   45.481,
+   "His estate was more than eight million\ndollars."
+  ],
+  [
+   45.481,
+   47.337,
+   "Two million went to family."
+  ],
+  [
+   47.337,
+   50.306,
+   "More than six million went to his local"
+  ],
+  [
+   50.306,
+   51.419,
+   "hospital and library."
+  ],
+  [
+   52.051,
+   54.649,
+   "There was no lottery and no inheritance."
+  ],
+  [
+   54.649,
+   56.505,
+   "He saved what he could,"
+  ],
+  [
+   56.505,
+   57.618,
+   "bought blue-chip stocks,"
+  ],
+  [
+   57.618,
+   59.103,
+   "and waited for decades."
+  ],
+  [
+   59.603,
+   62.003,
+   "Richard Fuscone had a Harvard M.B.A.,"
+  ],
+  [
+   62.003,
+   64.003,
+   "was a Merrill Lynch executive,"
+  ],
+  [
+   64.003,
+   65.603,
+   "retired in his forties,"
+  ],
+  [
+   65.603,
+   68.003,
+   "and made Crain's forty under forty."
+  ],
+  [
+   68.635,
+   71.835,
+   "He borrowed heavily to expand an eighteen\nthousand"
+  ],
+  [
+   71.835,
+   73.435,
+   "square foot Greenwich home,"
+  ],
+  [
+   73.435,
+   74.635,
+   "with eleven bathrooms,"
+  ],
+  [
+   74.635,
+   75.435,
+   "two elevators,"
+  ],
+  [
+   75.435,
+   76.235,
+   "two pools,"
+  ],
+  [
+   76.235,
+   77.435,
+   "and seven garages."
+  ],
+  [
+   78.067,
+   81.267,
+   "It cost more than ninety thousand dollars\na"
+  ],
+  [
+   81.267,
+   82.467,
+   "month to maintain."
+  ],
+  [
+   82.467,
+   84.467,
+   "Then two thousand eight hit."
+  ],
+  [
+   85.099,
+   88.299,
+   "He told a bankruptcy judge in two thousand"
+  ],
+  [
+   88.299,
+   91.099,
+   "eight that he currently had no income."
+  ],
+  [
+   91.099,
+   93.499,
+   "His Palm Beach house was foreclosed."
+  ],
+  [
+   94.131,
+   97.331,
+   "In twenty fourteen the Greenwich mansion\nsold at"
+  ],
+  [
+   97.331,
+   100.531,
+   "foreclosure for seventy-five percent less\nthan an insurer"
+  ],
+  [
+   100.531,
+   101.331,
+   "had figured."
+  ],
+  [
+   101.331,
+   104.531,
+   "That was five months before Read's\ncharitable gifts."
+  ],
+  [
+   105.031,
+   105.87,
+   "The contrast:"
+  ],
+  [
+   105.87,
+   109.226,
+   "a janitor with no degree can outperform a"
+  ],
+  [
+   109.226,
+   110.905,
+   "Harvard-trained executive in investing."
+  ],
+  [
+   111.536,
+   114.053,
+   "That does not happen in medicine."
+  ],
+  [
+   114.053,
+   117.41,
+   "A janitor will not outperform a Harvard\nsurgeon,"
+  ],
+  [
+   117.41,
+   117.829,
+   "architect,"
+  ],
+  [
+   117.829,
+   119.088,
+   "or nuclear engineer."
+  ],
+  [
+   119.72,
+   120.559,
+   "Two explanations:"
+  ],
+  [
+   120.559,
+   122.237,
+   "luck independent of skill,"
+  ],
+  [
+   122.237,
+   125.174,
+   "or behaviour mattering more than technical\nknowledge."
+  ],
+  [
+   125.805,
+   126.644,
+   "Housel's bet:"
+  ],
+  [
+   126.644,
+   129.581,
+   "financial success is mostly a soft skill."
+  ],
+  [
+   129.581,
+   132.937,
+   "How you behave is more important than what"
+  ],
+  [
+   132.937,
+   133.777,
+   "you know."
+  ],
+  [
+   134.408,
+   135.667,
+   "In twenty fourteen,"
+  ],
+  [
+   135.667,
+   139.023,
+   "two million eight hundred thirteen\nthousand five hundred"
+  ],
+  [
+   139.023,
+   140.282,
+   "three Americans died."
+  ],
+  [
+   140.282,
+   143.638,
+   "Fewer than four thousand left a net worth"
+  ],
+  [
+   143.638,
+   145.316,
+   "over eight million dollars."
+  ],
+  [
+   145.316,
+   147.414,
+   "Read was one of them."
+  ],
+  [
+   147.914,
+   148.855,
+   "Chapter one,"
+  ],
+  [
+   148.855,
+   150.266,
+   "No One's Crazy."
+  ],
+  [
+   150.266,
+   150.737,
+   "Two,"
+  ],
+  [
+   150.737,
+   152.148,
+   "Luck and Risk."
+  ],
+  [
+   152.148,
+   152.618,
+   "Three,"
+  ],
+  [
+   152.618,
+   153.559,
+   "Never Enough."
+  ],
+  [
+   153.559,
+   154.03,
+   "Four,"
+  ],
+  [
+   154.03,
+   154.5,
+   "Compounding."
+  ],
+  [
+   154.5,
+   154.971,
+   "Five,"
+  ],
+  [
+   154.971,
+   155.911,
+   "Stay Wealthy."
+  ],
+  [
+   156.543,
+   157.013,
+   "Six,"
+  ],
+  [
+   157.013,
+   157.484,
+   "Tails,"
+  ],
+  [
+   157.484,
+   158.425,
+   "You Win."
+  ],
+  [
+   158.425,
+   158.895,
+   "Seven,"
+  ],
+  [
+   158.895,
+   159.366,
+   "Freedom."
+  ],
+  [
+   159.366,
+   159.836,
+   "Eight,"
+  ],
+  [
+   159.836,
+   160.777,
+   "Car Paradox."
+  ],
+  [
+   160.777,
+   161.247,
+   "Nine,"
+  ],
+  [
+   161.247,
+   162.188,
+   "Hidden Wealth."
+  ],
+  [
+   162.188,
+   162.659,
+   "Ten,"
+  ],
+  [
+   162.659,
+   163.6,
+   "Save Money."
+  ],
+  [
+   164.231,
+   164.702,
+   "Eleven,"
+  ],
+  [
+   164.702,
+   165.172,
+   "Reasonable."
+  ],
+  [
+   165.172,
+   165.642,
+   "Twelve,"
+  ],
+  [
+   165.642,
+   166.113,
+   "Surprise."
+  ],
+  [
+   166.113,
+   166.583,
+   "Thirteen,"
+  ],
+  [
+   166.583,
+   167.995,
+   "Room for Error."
+  ],
+  [
+   167.995,
+   168.465,
+   "Fourteen,"
+  ],
+  [
+   168.465,
+   169.406,
+   "You'll Change."
+  ],
+  [
+   169.406,
+   169.876,
+   "Fifteen,"
+  ],
+  [
+   169.876,
+   170.817,
+   "Nothing's Free."
+  ],
+  [
+   171.449,
+   171.919,
+   "Sixteen,"
+  ],
+  [
+   171.919,
+   173.331,
+   "You and Me."
+  ],
+  [
+   173.331,
+   173.801,
+   "Seventeen,"
+  ],
+  [
+   173.801,
+   174.271,
+   "Pessimism."
+  ],
+  [
+   174.271,
+   174.742,
+   "Eighteen,"
+  ],
+  [
+   174.742,
+   175.683,
+   "Believe Anything."
+  ],
+  [
+   175.683,
+   176.153,
+   "Nineteen,"
+  ],
+  [
+   176.153,
+   177.094,
+   "All Together."
+  ],
+  [
+   177.094,
+   177.565,
+   "Twenty,"
+  ],
+  [
+   177.565,
+   178.035,
+   "Confessions."
+  ],
+  [
+   178.535,
+   181.625,
+   "Housel worked his college years as a valet"
+  ],
+  [
+   181.625,
+   183.942,
+   "at a nice Los Angeles hotel."
+  ],
+  [
+   184.574,
+   187.663,
+   "A frequent guest was a tech executive who"
+  ],
+  [
+   187.663,
+   190.753,
+   "had designed a part used in Wi-Fi routers,"
+  ],
+  [
+   190.753,
+   191.526,
+   "sold companies,"
+  ],
+  [
+   191.526,
+   194.615,
+   "and carried a thick stack of\nhundred-dollar bills."
+  ],
+  [
+   195.247,
+   198.337,
+   "He sent a colleague to buy a few"
+  ],
+  [
+   198.337,
+   199.495,
+   "one-thousand-dollar gold coins,"
+  ],
+  [
+   199.495,
+   202.585,
+   "then skipped them into the ocean for fun."
+  ],
+  [
+   203.216,
+   205.148,
+   "He broke a five-hundred-dollar lamp,"
+  ],
+  [
+   205.148,
+   208.237,
+   "then handed over five thousand dollars and\ntold"
+  ],
+  [
+   208.237,
+   210.941,
+   "the manager never to insult him again."
+  ],
+  [
+   211.572,
+   213.503,
+   "The behaviour did not last."
+  ],
+  [
+   213.503,
+   216.207,
+   "Housel later learned the man went broke."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch00.wav",
+   "volume": 1.0
+  }
+ }
+}

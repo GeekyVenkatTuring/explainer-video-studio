@@ -1,0 +1,132 @@
+{
+ "pack": "chalk",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Lean language",
+  "issue": "September 2026",
+  "code": "LEAN-4"
+ },
+ "beats": [
+  {
+   "id": "b10",
+   "kind": "divider",
+   "dur": 6.446,
+   "props": {
+    "n": 2,
+    "total": 3,
+    "title": "How You Use It",
+    "sub": "install, write, let the kernel talk"
+   }
+  },
+  {
+   "id": "b11",
+   "kind": "flow",
+   "dur": 22.86,
+   "props": {
+    "kicker": "Start here",
+    "title": "A first Lean project",
+    "steps": [
+     {
+      "h": "Elan",
+      "d": "install Lean"
+     },
+     {
+      "h": "Lake",
+      "d": "new project"
+     },
+     {
+      "h": "Editor",
+      "d": "Lean 4 plugin"
+     }
+    ],
+    "ats": [
+     0.001,
+     0.169,
+     0.369
+    ]
+   }
+  },
+  {
+   "id": "b12",
+   "kind": "statement",
+   "dur": 21.18,
+   "props": {
+    "kicker": "A first theorem",
+    "lines": [
+     "Addition commutes",
+     "on natural numbers."
+    ],
+    "accent": 0,
+    "tex": "a + b = b + a",
+    "sub": "one line to state, tactics to prove",
+    "ats": [
+     0.048,
+     0.095
+    ]
+   }
+  },
+  {
+   "id": "b13",
+   "kind": "list",
+   "dur": 22.664,
+   "props": {
+    "kicker": "The verbs you type",
+    "title": "Four tactics to start",
+    "items": [
+     {
+      "h": "rfl",
+      "d": "both sides are the same"
+     },
+     {
+      "h": "rewrite",
+      "d": "swap using a known fact"
+     },
+     {
+      "h": "simp",
+      "d": "unfold and simplify"
+     },
+     {
+      "h": "induction",
+      "d": "zero, then successor"
+     }
+    ],
+    "ats": [
+     0.209,
+     0.351,
+     0.509,
+     0.618
+    ]
+   }
+  },
+  {
+   "id": "b14",
+   "kind": "list",
+   "dur": 25.984,
+   "props": {
+    "kicker": "Three real jobs",
+    "title": "Where Lean earns its keep",
+    "items": [
+     {
+      "h": "Formal maths",
+      "d": "theorems in Mathlib"
+     },
+     {
+      "h": "Software proofs",
+      "d": "a small model of a system"
+     },
+     {
+      "h": "AI plus kernel",
+      "d": "the model writes, Lean checks"
+     }
+    ],
+    "ats": [
+     0.09,
+     0.293,
+     0.577
+    ]
+   }
+  }
+ ],
+ "captions": [],
+ "audio": "ln4/ch02.wav"
+}

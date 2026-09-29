@@ -1,0 +1,507 @@
+{
+ "cuts": [
+  {
+   "id": "ch10_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 17.885,
+   "props": {
+    "n": 10,
+    "total": 20,
+    "title": "Save Money",
+    "lines": [
+     "Building wealth has little to do with your income or investment return, and a lot to do with your savings rate.",
+     "You can build wealth without a high return. You cannot build it without a gap between ego and income."
+    ],
+    "color": "#34D399",
+    "dur": 18.385
+   }
+  },
+  {
+   "id": "ch10_save",
+   "type": "pm_list",
+   "in_seconds": 18.385,
+   "out_seconds": 51.03,
+   "props": {
+    "kicker": "THE SAVINGS RATE",
+    "title": "What the chapter actually argues",
+    "items": [
+     "Past a modest income, your savings rate matters more than your investment rate of return.",
+     "Wealth is the gap between your ego and your income. Hide the ego, the gap appears.",
+     "Saving is not only for a target purchase. It is flexibility, options, and waiting power.",
+     "You do not need a specific reason to save. The reason arrives later, as luck and risk do.",
+     "Everyone's savings is a function of their expectations more than their salary."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 33.145
+   }
+  },
+  {
+   "id": "ch10_save-more",
+   "type": "pm_sheet",
+   "in_seconds": 51.53,
+   "out_seconds": 86.833,
+   "props": {
+    "kicker": "WHY SAVING BEATS A CLEVER RETURN",
+    "title": "The gap is the strategy",
+    "rows": [
+     {
+      "k": "Math",
+      "v": "Past a modest income, cutting spending 10% can matter more than finding an extra 1% of return.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Ego",
+      "v": "Wealth is the gap between ego and income. Raise income or lower ego. Both widen the gap.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "No target",
+      "v": "You do not need a named purchase to justify saving. Flexibility is the purchase.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Luck later",
+      "v": "Savings is how you survive the unplanned: a job loss, a medical bill, a market you want to buy.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Everyone",
+      "v": "Two households with the same salary can have opposite wealth if expectations differ.",
+      "c": "#FBBF24"
+     }
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 35.803
+   }
+  },
+  {
+   "id": "ch10_save-do",
+   "type": "pm_list",
+   "in_seconds": 87.333,
+   "out_seconds": 103.529,
+   "props": {
+    "kicker": "SAVE MONEY \u00b7 RULES",
+    "title": "Build the gap on purpose",
+    "items": [
+     "Increase the savings rate before you hunt a fancier strategy.",
+     "Hidden lifestyle cuts are more reliable than promised alpha.",
+     "Save because your future self will need room, not because a spreadsheet named a yacht."
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 16.696
+   }
+  },
+  {
+   "id": "ch10_efficiency",
+   "type": "pm_sheet",
+   "in_seconds": 104.029,
+   "out_seconds": 154.781,
+   "props": {
+    "kicker": "SAVINGS IS THE M.P.G. OF MONEY",
+    "title": "Control versus hoped-for returns",
+    "rows": [
+     {
+      "k": "Energy",
+      "v": "U.S. energy per dollar of G.D.P. is 60% lower than 1950. Average MPG of vehicles on the road has doubled since 1975.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Taurus",
+      "v": "A 1989 Ford Taurus: 18.0 MPG. A 2019 Chevy Suburban: 18.1 MPG. Efficiency moved the world more than geology.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Oil since 1975",
+      "v": "U.S. oil and gas production up 65% since 1975, while conservation more than doubled what we can do with that energy.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "8% vs 12%",
+      "v": "Book: if you earn 8% and I earn 12%, but I need half as much to be happy, I can be better off as the worse investor.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "0.1%",
+      "v": "Professionals grind for 0.1% of extra return while two or three full points of lifestyle bloat sit unused.",
+      "c": "#F87171"
+     }
+    ],
+    "color": "#34D399",
+    "note": "Chapter 10, as printed. Not a live energy forecast.",
+    "dur": 51.252
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.756,
+   "Chapter 10."
+  ],
+  [
+   0.756,
+   1.511,
+   "Save Money."
+  ],
+  [
+   2.143,
+   5.165,
+   "Building wealth has little to do with your"
+  ],
+  [
+   5.165,
+   6.676,
+   "income or investment return,"
+  ],
+  [
+   6.676,
+   9.698,
+   "and a lot to do with your savings"
+  ],
+  [
+   9.698,
+   10.076,
+   "rate."
+  ],
+  [
+   10.707,
+   13.73,
+   "You can build wealth without a high\nreturn."
+  ],
+  [
+   13.73,
+   16.752,
+   "You cannot build it without a gap between"
+  ],
+  [
+   16.752,
+   17.885,
+   "ego and income."
+  ],
+  [
+   18.385,
+   19.97,
+   "Past a modest income,"
+  ],
+  [
+   19.97,
+   23.141,
+   "your savings rate matters more than your\ninvestment"
+  ],
+  [
+   23.141,
+   24.329,
+   "rate of return."
+  ],
+  [
+   24.961,
+   28.131,
+   "Wealth is the gap between your ego and"
+  ],
+  [
+   28.131,
+   28.924,
+   "your income."
+  ],
+  [
+   28.924,
+   30.113,
+   "Hide the ego,"
+  ],
+  [
+   30.113,
+   31.302,
+   "the gap appears."
+  ],
+  [
+   31.933,
+   35.104,
+   "Saving is not only for a target purchase."
+  ],
+  [
+   35.104,
+   36.293,
+   "It is flexibility,"
+  ],
+  [
+   36.293,
+   36.689,
+   "options,"
+  ],
+  [
+   36.689,
+   37.878,
+   "and waiting power."
+  ],
+  [
+   38.509,
+   41.68,
+   "You do not need a specific reason to"
+  ],
+  [
+   41.68,
+   42.076,
+   "save."
+  ],
+  [
+   42.076,
+   43.661,
+   "The reason arrives later,"
+  ],
+  [
+   43.661,
+   45.643,
+   "as luck and risk do."
+  ],
+  [
+   46.274,
+   49.445,
+   "Everyone's savings is a function of their\nexpectations"
+  ],
+  [
+   49.445,
+   51.03,
+   "more than their salary."
+  ],
+  [
+   51.53,
+   53.129,
+   "Past a modest income,"
+  ],
+  [
+   53.129,
+   56.327,
+   "cutting spending ten percent can matter\nmore than"
+  ],
+  [
+   56.327,
+   59.125,
+   "finding an extra one percent of return."
+  ],
+  [
+   59.756,
+   62.954,
+   "Wealth is the gap between ego and income."
+  ],
+  [
+   62.954,
+   64.952,
+   "Raise income or lower ego."
+  ],
+  [
+   64.952,
+   66.551,
+   "Both widen the gap."
+  ],
+  [
+   67.183,
+   70.381,
+   "You do not need a named purchase to"
+  ],
+  [
+   70.381,
+   71.18,
+   "justify saving."
+  ],
+  [
+   71.18,
+   72.779,
+   "Flexibility is the purchase."
+  ],
+  [
+   73.411,
+   76.209,
+   "Savings is how you survive the unplanned:"
+  ],
+  [
+   76.209,
+   77.408,
+   "a job loss,"
+  ],
+  [
+   77.408,
+   78.607,
+   "a medical bill,"
+  ],
+  [
+   78.607,
+   81.005,
+   "a market you want to buy."
+  ],
+  [
+   81.637,
+   84.834,
+   "Two households with the same salary can\nhave"
+  ],
+  [
+   84.834,
+   86.833,
+   "opposite wealth if expectations differ."
+  ],
+  [
+   87.333,
+   90.847,
+   "Increase the savings rate before you hunt\na"
+  ],
+  [
+   90.847,
+   91.725,
+   "fancier strategy."
+  ],
+  [
+   92.357,
+   95.87,
+   "Hidden lifestyle cuts are more reliable\nthan promised"
+  ],
+  [
+   95.87,
+   96.309,
+   "alpha."
+  ],
+  [
+   96.941,
+   100.455,
+   "Save because your future self will need\nroom,"
+  ],
+  [
+   100.455,
+   103.529,
+   "not because a spreadsheet named a yacht."
+  ],
+  [
+   104.029,
+   104.409,
+   "U.S."
+  ],
+  [
+   104.409,
+   106.307,
+   "energy per dollar of G.D.P."
+  ],
+  [
+   106.307,
+   108.965,
+   "is sixty percent lower than nineteen\nfifty."
+  ],
+  [
+   108.965,
+   112.003,
+   "Average miles per gallon of vehicles on\nthe"
+  ],
+  [
+   112.003,
+   114.282,
+   "road has doubled since nineteen\nseventy-five."
+  ],
+  [
+   114.913,
+   116.812,
+   "A nineteen eighty-nine Ford Taurus:"
+  ],
+  [
+   116.812,
+   119.09,
+   "eighteen point zero miles per gallon."
+  ],
+  [
+   119.09,
+   120.989,
+   "A twenty nineteen Chevy Suburban:"
+  ],
+  [
+   120.989,
+   122.128,
+   "eighteen point one."
+  ],
+  [
+   122.128,
+   124.786,
+   "Efficiency moved the world more than\ngeology."
+  ],
+  [
+   125.418,
+   125.798,
+   "U.S."
+  ],
+  [
+   125.798,
+   128.835,
+   "oil and gas production is up sixty-five\npercent"
+  ],
+  [
+   128.835,
+   129.975,
+   "since nineteen seventy-five,"
+  ],
+  [
+   129.975,
+   133.012,
+   "while conservation more than doubled what\nwe can"
+  ],
+  [
+   133.012,
+   134.531,
+   "do with that energy."
+  ],
+  [
+   135.163,
+   135.922,
+   "The book:"
+  ],
+  [
+   135.922,
+   138.96,
+   "if you earn eight percent and I earn"
+  ],
+  [
+   138.96,
+   139.34,
+   "twelve,"
+  ],
+  [
+   139.34,
+   142.378,
+   "but I need half as much to be"
+  ],
+  [
+   142.378,
+   142.758,
+   "happy,"
+  ],
+  [
+   142.758,
+   145.795,
+   "I can be better off as the worse"
+  ],
+  [
+   145.795,
+   146.175,
+   "investor."
+  ],
+  [
+   146.807,
+   149.845,
+   "Professionals grind for zero point one\npercent of"
+  ],
+  [
+   149.845,
+   152.882,
+   "extra return while two or three full\npoints"
+  ],
+  [
+   152.882,
+   154.781,
+   "of lifestyle bloat sit unused."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch10.wav",
+   "volume": 1.0
+  }
+ }
+}

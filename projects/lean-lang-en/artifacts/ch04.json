@@ -1,0 +1,38 @@
+{
+ "pack": "chalk",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Lean language",
+  "issue": "September 2026",
+  "code": "LEAN-4"
+ },
+ "beats": [
+  {
+   "id": "b21",
+   "kind": "recap",
+   "dur": 27.813,
+   "props": {
+    "title": "Lean in one breath",
+    "items": [
+     "Lean is a language and a proof checker",
+     "A proof is a program the kernel accepts",
+     "Tactics write the proof; the kernel judges",
+     "Model a system small, then state invariants",
+     "Every result matches a pending call",
+     "Claude may draft Lean; Lean still decides"
+    ],
+    "closer": "If it type-checks, you can trust the claim.",
+    "ats": [
+     0.019,
+     0.096,
+     0.271,
+     0.449,
+     0.601,
+     0.702
+    ]
+   }
+  }
+ ],
+ "captions": [],
+ "audio": "ln4/ch04.wav"
+}

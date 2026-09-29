@@ -1,0 +1,412 @@
+{
+  "cuts": [
+    {
+      "id": "s01_title",
+      "type": "mc5_title",
+      "in_seconds": 0.0,
+      "out_seconds": 18.092,
+      "props": {
+        "kick": "MID & SMALL CAP \u00b7 1-YEAR VIEW",
+        "big": "Five Stocks,",
+        "big2": "One Honest Question",
+        "sub": "Can \u20b915,000 become \u20b930,000 in a year? \u00b7 verified on live broker data",
+        "dur": 18.592
+      }
+    },
+    {
+      "id": "s02_reality",
+      "type": "mc5_statement",
+      "in_seconds": 18.592,
+      "out_seconds": 45.225,
+      "props": {
+        "kicker": "FIRST, THE TRUTH",
+        "color": "#FB7185",
+        "lines": [
+          "Doubling in a year",
+          "is a top-decile outcome,",
+          "not a base case."
+        ],
+        "sub": "Not one analyst target on this list implies a hundred percent.",
+        "dur": 27.133
+      }
+    },
+    {
+      "id": "s03_scorecard",
+      "type": "mc5_scorecard",
+      "in_seconds": 45.725,
+      "out_seconds": 72.491,
+      "props": {
+        "kicker": "HOW WE CHOSE \u00b7 THE FIVE TESTS",
+        "title": "Five tests every pick had to pass",
+        "items": [
+          {
+            "k": "Quality",
+            "d": "Real returns on capital \u2014 ROE and ROCE that actually earn",
+            "c": "#34D399"
+          },
+          {
+            "k": "Growth",
+            "d": "Rising sales and profit, backed by real orders or capacity",
+            "c": "#FBBF24"
+          },
+          {
+            "k": "Valuation",
+            "d": "A price that still leaves room to re-rate, not one stretched",
+            "c": "#38BDF8"
+          },
+          {
+            "k": "Catalyst",
+            "d": "A concrete trigger inside the next twelve months",
+            "c": "#A78BFA"
+          },
+          {
+            "k": "Honesty",
+            "d": "Every figure checked against live broker data \u2014 no story stocks",
+            "c": "#4ADE80"
+          }
+        ],
+        "dur": 27.266
+      }
+    },
+    {
+      "id": "s04_kpil",
+      "type": "mc5_stock",
+      "in_seconds": 72.991,
+      "out_seconds": 112.702,
+      "props": {
+        "idx": 1,
+        "total": 5,
+        "tier": "1",
+        "name": "Kalpataru Projects",
+        "ticker": "KPIL",
+        "sector": "EPC \u00b7 Power T&D",
+        "cap": "Small-cap",
+        "growth": 15,
+        "take": "Best risk-adjusted pick",
+        "metrics": [
+          {
+            "k": "Price (28 Aug)",
+            "v": "\u20b91,386"
+          },
+          {
+            "k": "Order book",
+            "v": "\u20b966,607 Cr",
+            "hero": true
+          },
+          {
+            "k": "Q1 PAT growth",
+            "v": "+46%",
+            "c": "#34D399"
+          },
+          {
+            "k": "P/E (sector 31)",
+            "v": "23x"
+          },
+          {
+            "k": "ROCE",
+            "v": "16.8%"
+          },
+          {
+            "k": "Kotak target",
+            "v": "\u20b91,710 \u00b7 +23%"
+          }
+        ],
+        "thesis": [
+          "Record \u20b966,607 crore order book \u2014 years of revenue already signed.",
+          "Q1 profit jumped 46 percent while net debt fell by two-thirds.",
+          "Trades at 23 times earnings, below the sector's 31 \u2014 room to re-rate."
+        ],
+        "dur": 40.211
+      }
+    },
+    {
+      "id": "s05_jubilant",
+      "type": "mc5_stock",
+      "in_seconds": 113.202,
+      "out_seconds": 152.271,
+      "props": {
+        "idx": 2,
+        "total": 5,
+        "tier": "3",
+        "name": "Jubilant Ingrevia",
+        "ticker": "JUBLINGREA",
+        "sector": "Specialty chemicals",
+        "cap": "Small-cap",
+        "growth": 25,
+        "take": "Highest upside, highest risk",
+        "metrics": [
+          {
+            "k": "Price (28 Aug)",
+            "v": "\u20b9684"
+          },
+          {
+            "k": "Q1 revenue",
+            "v": "+25%"
+          },
+          {
+            "k": "Q1 PAT growth",
+            "v": "+41%",
+            "c": "#34D399"
+          },
+          {
+            "k": "P/E (sector 25)",
+            "v": "40x",
+            "c": "#FB7185"
+          },
+          {
+            "k": "ROCE",
+            "v": "11.4%"
+          },
+          {
+            "k": "Anand Rathi target",
+            "v": "\u20b9980 \u00b7 +43%",
+            "hero": true
+          }
+        ],
+        "thesis": [
+          "Profit up 41 percent on a richer specialty-chemicals mix.",
+          "New multi-purpose plant, over 25 molecules, due by end-2026.",
+          "Highest target here \u2014 but priced at 40 times earnings."
+        ],
+        "dur": 39.569
+      }
+    },
+    {
+      "id": "s06_wabag",
+      "type": "mc5_stock",
+      "in_seconds": 152.771,
+      "out_seconds": 192.764,
+      "props": {
+        "idx": 3,
+        "total": 5,
+        "tier": "1",
+        "name": "VA Tech Wabag",
+        "ticker": "WABAG",
+        "sector": "Water \u00b7 Desalination",
+        "cap": "Small-cap",
+        "growth": 21,
+        "take": "Clean balance sheet",
+        "metrics": [
+          {
+            "k": "Price (28 Aug)",
+            "v": "\u20b92,086"
+          },
+          {
+            "k": "Order book",
+            "v": "\u20b919,400 Cr",
+            "hero": true
+          },
+          {
+            "k": "Q1 PAT growth",
+            "v": "+37%",
+            "c": "#34D399"
+          },
+          {
+            "k": "Debt / equity",
+            "v": "0.04x"
+          },
+          {
+            "k": "ROCE",
+            "v": "19.3%"
+          },
+          {
+            "k": "Motilal target",
+            "v": "\u20b92,529 \u00b7 +21%"
+          }
+        ],
+        "thesis": [
+          "\u20b919,400 crore order book \u2014 over five times annual revenue.",
+          "Almost no debt, and return on capital near 19 percent.",
+          "Global water and desalination demand is a multi-year runway."
+        ],
+        "dur": 40.493
+      }
+    },
+    {
+      "id": "s07_kfin",
+      "type": "mc5_stock",
+      "in_seconds": 193.264,
+      "out_seconds": 231.258,
+      "props": {
+        "idx": 4,
+        "total": 5,
+        "tier": "2",
+        "name": "KFin Technologies",
+        "ticker": "KFINTECH",
+        "sector": "Capital-market infra",
+        "cap": "Small-cap",
+        "growth": 20,
+        "take": "Quality, if margins heal",
+        "metrics": [
+          {
+            "k": "Price (28 Aug)",
+            "v": "\u20b9950"
+          },
+          {
+            "k": "Q1 revenue",
+            "v": "+30%",
+            "hero": true
+          },
+          {
+            "k": "ROE",
+            "v": "22.3%",
+            "c": "#34D399"
+          },
+          {
+            "k": "ROCE",
+            "v": "27.9%",
+            "c": "#34D399"
+          },
+          {
+            "k": "Q1 PAT growth",
+            "v": "-2.6%",
+            "c": "#FB7185"
+          },
+          {
+            "k": "Motilal target",
+            "v": "\u20b91,150 \u00b7 +21%"
+          }
+        ],
+        "thesis": [
+          "A picks-and-shovels bet on India's financialisation.",
+          "Revenue up 30 percent; overseas business nearly tripled.",
+          "Integration costs pushed profit down \u2014 a recovery bet."
+        ],
+        "dur": 38.494
+      }
+    },
+    {
+      "id": "s08_dalmia",
+      "type": "mc5_stock",
+      "in_seconds": 231.758,
+      "out_seconds": 268.849,
+      "props": {
+        "idx": 5,
+        "total": 5,
+        "tier": "2",
+        "name": "Dalmia Bharat",
+        "ticker": "DALBHARAT",
+        "sector": "Cement",
+        "cap": "Mid-cap",
+        "growth": 10,
+        "take": "Earnings-recovery bet",
+        "metrics": [
+          {
+            "k": "Price (28 Aug)",
+            "v": "\u20b91,845"
+          },
+          {
+            "k": "Q1 volume",
+            "v": "+9%"
+          },
+          {
+            "k": "Q1 PAT growth",
+            "v": "-51%",
+            "c": "#FB7185",
+            "hero": true
+          },
+          {
+            "k": "P/E (sector 49)",
+            "v": "31x"
+          },
+          {
+            "k": "Net debt / EBITDA",
+            "v": "1.47x",
+            "c": "#FB7185"
+          },
+          {
+            "k": "ICICI target",
+            "v": "\u20b92,300 \u00b7 +25%"
+          }
+        ],
+        "thesis": [
+          "New capacity at Chunar and Rewa is now coming online.",
+          "Targeting 67 million tonnes by financial year 28.",
+          "Profit fell 51 percent \u2014 an earnings-recovery bet, not a grower."
+        ],
+        "dur": 37.591
+      }
+    },
+    {
+      "id": "s09_bars",
+      "type": "mc5_bars",
+      "in_seconds": 269.349,
+      "out_seconds": 298.047,
+      "props": {
+        "kicker": "SIDE BY SIDE \u00b7 BEST-CASE UPSIDE",
+        "title": "The best analysts hope for \u2014 and the gap to a double",
+        "unit": "%",
+        "bars": [
+          {
+            "label": "KPIL",
+            "v": 23,
+            "c": "#34D399"
+          },
+          {
+            "label": "Jubilant",
+            "v": 43,
+            "c": "#FB7185"
+          },
+          {
+            "label": "Wabag",
+            "v": 21,
+            "c": "#34D399"
+          },
+          {
+            "label": "KFin",
+            "v": 21,
+            "c": "#FBBF24"
+          },
+          {
+            "label": "Dalmia",
+            "v": 25,
+            "c": "#FBBF24"
+          }
+        ],
+        "foot": "Targets: Kotak, Anand Rathi, Motilal Oswal, ICICI (Jul\u2013Aug 2026). A double = +100%. Not investment advice.",
+        "dur": 29.198
+      }
+    },
+    {
+      "id": "s10_play",
+      "type": "mc5_statement",
+      "in_seconds": 298.547,
+      "out_seconds": 324.325,
+      "props": {
+        "kicker": "SO HOW DO YOU PLAY IT?",
+        "color": "#FBBF24",
+        "lines": [
+          "Spread the bet.",
+          "Size it small.",
+          "Give it time."
+        ],
+        "sub": "One \u20b915,000 position in a single small-cap is concentrated risk.",
+        "dur": 26.278
+      }
+    },
+    {
+      "id": "s11_recap",
+      "type": "mc5_recap",
+      "in_seconds": 324.825,
+      "out_seconds": 357.207,
+      "props": {
+        "title": "Five small-caps, in one breath",
+        "items": [
+          "KPIL \u2014 record order book, cheapest, best risk-adjusted",
+          "Jubilant Ingrevia \u2014 highest upside, highest valuation risk",
+          "VA Tech Wabag \u2014 clean balance sheet, but slow cash",
+          "KFin \u2014 best returns, pricey, a margin-recovery bet",
+          "Dalmia Bharat \u2014 mid-cap cement, an earnings rebound bet"
+        ],
+        "closer": "High upside is real. A guaranteed double is not.",
+        "dur": 32.882
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "mc5/narration.wav",
+      "volume": 1.0
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch21_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 45.372,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "foundation",
+        "dur": 45.871
+      }
+    },
+    {
+      "id": "ch21_system",
+      "type": "aae_chapter",
+      "in_seconds": 45.872,
+      "out_seconds": 83.322,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "system",
+        "dur": 37.951
+      }
+    },
+    {
+      "id": "ch21_practice",
+      "type": "aae_chapter",
+      "in_seconds": 83.822,
+      "out_seconds": 130.018,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "practice",
+        "dur": 46.696
+      }
+    },
+    {
+      "id": "ch21_failure",
+      "type": "aae_chapter",
+      "in_seconds": 130.518,
+      "out_seconds": 169.995,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "failure",
+        "dur": 39.977
+      }
+    },
+    {
+      "id": "ch21_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 170.495,
+      "out_seconds": 213.472,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "evaluation",
+        "dur": 43.477
+      }
+    },
+    {
+      "id": "ch21_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 213.972,
+      "out_seconds": 250.528,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "handoff",
+        "dur": 37.056
+      }
+    },
+    {
+      "id": "ch21_application",
+      "type": "aae_chapter",
+      "in_seconds": 251.028,
+      "out_seconds": 299.283,
+      "props": {
+        "chapter": 21,
+        "title": "Agentic Product Management",
+        "focus": "choosing valuable jobs, autonomy levels, and success measures for people and business",
+        "concepts": [
+          "job to be done",
+          "autonomy ladder",
+          "outcome metrics"
+        ],
+        "example": "a service desk agent measured by resolved work and safe handoffs",
+        "trap": "optimizing engagement instead of task success",
+        "takeaway": "Choosing valuable jobs, autonomy levels, and success measures for people and business.",
+        "beat": "application",
+        "dur": 48.755
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch21.wav",
+      "volume": 1
+    }
+  }
+}

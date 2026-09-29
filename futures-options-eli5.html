@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Futures & Options, Simply</title>
+  <style>
+    :root { --ink:#15243a; --paper:#f7f4ed; --blue:#2563eb; --orange:#ea580c; --green:#15803d; --red:#b91c1c; --line:#d8d2c6; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:ui-rounded, "Avenir Next", system-ui, sans-serif; }
+    main { max-width:1040px; margin:auto; padding:48px 24px 72px; }
+    h1 { max-width:780px; margin:0 auto 12px; font-size:clamp(2.25rem,6vw,4.7rem); line-height:1; letter-spacing:-.06em; text-align:center; }
+    .intro { font-size:clamp(1.05rem,2vw,1.35rem); text-align:center; margin:0 auto 44px; max-width:620px; }
+    .cards { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
+    article { border:2px solid var(--line); border-radius:24px; padding:28px; background:#fffdf8; }
+    article.future { border-top:12px solid var(--blue); } article.option { border-top:12px solid var(--orange); }
+    h2 { margin:0; font-size:2rem; letter-spacing:-.04em; } p { font-size:1.15rem; line-height:1.45; }
+    .picture { height:190px; position:relative; display:grid; place-items:center; margin:16px 0; overflow:hidden; border-radius:16px; background:#eef4ff; }
+    .option .picture { background:#fff2e8; }
+    .deal { width:255px; height:128px; padding:19px; background:#fff; border:3px solid currentColor; border-radius:14px; color:var(--blue); transform:rotate(-3deg); font-weight:800; font-size:1.23rem; text-align:center; }
+    .option .deal { color:var(--orange); transform:rotate(3deg); }
+    .stamp { position:absolute; bottom:17px; right:19px; color:#fff; background:var(--blue); border-radius:99px; padding:8px 13px; font-weight:800; font-size:.82rem; }
+    .option .stamp { background:var(--orange); }
+    .arrow { display:inline-block; font-size:1.55rem; padding:0 5px; } .must { color:var(--blue); font-weight:800; } .may { color:var(--orange); font-weight:800; }
+    .story { margin-top:32px; border-radius:24px; background:var(--ink); color:#fff; padding:30px; }
+    .story h2 { color:#fff; } .story p { color:#dde9f8; max-width:760px; }
+    .steps { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:20px; }
+    .step { padding:18px; border-radius:15px; background:#223b5b; font-size:1.05rem; line-height:1.35; }
+    .step b { display:block; margin-bottom:8px; color:#9bc3ff; font-size:.82rem; text-transform:uppercase; letter-spacing:.08em; }
+    .switches { display:flex; gap:10px; flex-wrap:wrap; margin:34px 0 14px; }
+    button { appearance:none; border:2px solid var(--ink); color:var(--ink); background:transparent; font:inherit; font-weight:750; border-radius:999px; padding:10px 16px; cursor:pointer; }
+    button[aria-pressed="true"] { background:var(--ink); color:#fff; }
+    .result { min-height:145px; border:2px solid var(--line); border-radius:20px; padding:24px; background:#fffdf8; font-size:1.25rem; line-height:1.45; }
+    .result strong { font-size:1.55rem; } .good { color:var(--green); } .bad { color:var(--red); }
+    .warning { margin-top:30px; padding:18px 20px; border-left:7px solid var(--red); background:#fff0ee; font-size:1rem; line-height:1.45; }
+    footer { margin-top:34px; color:#5b6470; font-size:.87rem; line-height:1.4; }
+    @media (max-width:700px) { .cards,.steps { grid-template-columns:1fr; } main { padding-top:28px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Futures & options<br>are <em>price promises</em>.</h1>
+    <p class="intro">Imagine you want to buy mangoes next month. You worry their price might change.</p>
+
+    <section class="cards" aria-label="The two contracts">
+      <article class="future">
+        <h2>Future = a promise</h2>
+        <div class="picture"><div class="deal">Next month:<br>100 mangoes at ₹10 each</div><span class="stamp">BOTH MUST DO IT</span></div>
+        <p>You and the seller lock a price today. On the date, <span class="must">both sides must keep the deal</span>.</p>
+      </article>
+      <article class="option">
+        <h2>Option = a choice</h2>
+        <div class="picture"><div class="deal">Pay ₹1 today<br>for the choice to buy at ₹10</div><span class="stamp">BUYER CHOOSES</span></div>
+        <p>You pay a small <b>premium</b> for a choice. The buyer <span class="may">may use it—or walk away</span>.</p>
+      </article>
+    </section>
+
+    <section class="story">
+      <h2>What happens next month?</h2>
+      <p>Suppose the market price of a mango is now ₹16. Your locked price was ₹10.</p>
+      <div class="steps">
+        <div class="step"><b>Future</b>You buy at ₹10. Nice if you wanted to buy; painful if prices had fallen instead.</div>
+        <div class="step"><b>Call option</b>You use your right to buy at ₹10. The choice is valuable when the price rises.</div>
+        <div class="step"><b>If price falls to ₹7</b>With the option, you can skip the ₹10 deal. You lose the ₹1 premium.</div>
+      </div>
+    </section>
+
+    <section aria-label="Interactive examples">
+      <div class="switches">
+        <button data-price="16" aria-pressed="true">Market price: ₹16</button>
+        <button data-price="7" aria-pressed="false">Market price: ₹7</button>
+      </div>
+      <div class="result" id="result"></div>
+    </section>
+
+    <section class="warning">
+      <b>The grown-up warning:</b> Futures are often traded with borrowed-like collateral called margin, so losses can grow quickly and may exceed the money first put in. Buying an option limits the buyer’s loss to the premium, but <b>selling</b> some options can create very large losses. These are useful risk-management tools, not easy-money machines.
+    </section>
+    <footer>Educational simplification. Exact contract sizes, expiration rules, and risks depend on the market and broker. Sources: <a href="https://www.cftc.gov/LearnAndProtect/EducationCenter/FuturesMarketBasics/index2.htm">CFTC futures basics</a> and <a href="https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63">SEC Investor.gov options bulletin</a>.</footer>
+  </main>
+  <script>
+    const result = document.querySelector('#result');
+    const buttons = document.querySelectorAll('button');
+    function show(price) {
+      const rising = price > 10;
+      result.innerHTML = rising
+        ? `<strong class="good">Price rose to ₹${price}.</strong><br>A futures buyer is committed to ₹10. A call-option buyer can choose ₹10, saving ₹${price - 10} per mango before the ₹1 premium.`
+        : `<strong class="bad">Price fell to ₹${price}.</strong><br>A futures buyer is still committed to ₹10, even though mangoes cost ₹${price}. A call-option buyer can say “no thanks” and loses only the ₹1 premium.`;
+      buttons.forEach(b => b.setAttribute('aria-pressed', b.dataset.price === String(price)));
+    }
+    buttons.forEach(b => b.addEventListener('click', () => show(Number(b.dataset.price))));
+    show(16);
+  </script>
+</body>
+</html>

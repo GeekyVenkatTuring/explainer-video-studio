@@ -1,0 +1,82 @@
+{
+  "cuts": [
+    { "id": "title", "type": "mw_title", "in_seconds": 0, "out_seconds": 14, "props": { "dur": 14 } },
+    { "id": "macro", "type": "mw_macro", "in_seconds": 14, "out_seconds": 28,
+      "props": { "dur": 14, "peak": 26130, "low": 22182.55, "now": 24080, "lowDate": "2 Apr 2026", "nowLabel": "Aug 2026", "peakLabel": "Dec 2025", "dropPct": "-16%", "recoverPct": "+9%" } },
+    { "id": "inv_damani", "type": "mw_investor", "in_seconds": 28, "out_seconds": 42,
+      "props": { "dur": 14, "idx": 2, "total": 8, "color": "#FBBF24", "name": "Radhakishan Damani", "tag": "THE RETAIL KING",
+        "worth": 198328, "worthUnit": "cr", "stocks": 13, "asOf": "Apr 2026",
+        "holdings": [
+          { "nm": "Avenue Supermarts (DMart)", "pct": "67.2%" },
+          { "nm": "VST Industries", "pct": "29.1%" },
+          { "nm": "3M India", "pct": "1.5%" },
+          { "nm": "United Breweries", "pct": "1.2%" },
+          { "nm": "India Cements / others", "pct": "" }
+        ],
+        "strategy": "Extreme concentration in one quality compounder he controls — and near-total silence.",
+        "playbook": [
+          "~99% of the disclosed book is a single stock he built: DMart",
+          "Owns businesses, not tickers — decade-plus holding periods",
+          "No leverage, no noise, no predictions" ],
+        "move": "DMart parent Avenue Supermarts anchors a ~1.98 lakh-crore book", "steep": 1.7 } },
+    { "id": "inv_kedia", "type": "mw_investor", "in_seconds": 42, "out_seconds": 56,
+      "props": { "dur": 14, "idx": 4, "total": 8, "color": "#34D399", "name": "Vijay Kedia", "tag": "THE SMILE INVESTOR",
+        "worth": 1050, "worthUnit": "cr", "stocks": 21, "asOf": "Dec 2025",
+        "holdings": [
+          { "nm": "Tejas Networks", "pct": "" },
+          { "nm": "Atul Auto", "pct": "" },
+          { "nm": "Cera Sanitaryware", "pct": "" },
+          { "nm": "Heritage Foods", "pct": "" },
+          { "nm": "Precision Camshafts", "pct": "" }
+        ],
+        "strategy": "SMILE: Small in size, Medium in experience, Large aspiration, Extra-large market. Hold 5–10 years.",
+        "playbook": [
+          "Buys tiny companies with huge runways — then waits",
+          "His own story is real: arrived in Mumbai with little in 1990",
+          "Conviction over diversification; a few big bets held for years" ],
+        "move": "Added Eimco Elecon (1.45%) in Jun-2026; trimmed Innovators Facade", "steep": 1.9, "dip": true } },
+    { "id": "bars_ipo", "type": "mw_bars", "in_seconds": 56, "out_seconds": 70,
+      "props": { "dur": 14, "kicker": "IN-WINDOW WINNERS · 2026 IPOs", "title": "The listings that doubled (and the average that didn't)", "unit": "%", "color": "#FBBF24",
+        "bars": [
+          { "label": "Omnitech\nEngineering", "v": 158.4, "c": "#34D399", "tag": "since 5 Mar" },
+          { "label": "SEDEMAC\nMechatronics", "v": 126.3, "c": "#34D399", "tag": "since 11 Mar" },
+          { "label": "Shadowfax\nTech", "v": 100.2, "c": "#34D399", "tag": "since 28 Jan" },
+          { "label": "Avg 2026\nlisting gain", "v": 6.56, "c": "#FB7185", "tag": "across 32 IPOs" }
+        ],
+        "foot": "Gain from issue price to recent price · most 2026 IPOs were NOT multibaggers · allotment is a lottery" } },
+    { "id": "case_asmita", "type": "mw_case", "in_seconds": 70, "out_seconds": 84,
+      "props": { "dur": 14, "name": "Asmita Patel", "alias": "The She-Wolf of the stock market", "order": "6 Feb 2025",
+        "amount": "Rs 53.67 cr", "amountLabel": "Impounded", "charge": "Ran paid \"courses\" that were really unregistered buy/sell advisory — of ~Rs 104 cr earned, SEBI impounded Rs 53.67 cr and barred her and 5 entities.",
+        "lesson": "\"Options queen\" branding is marketing. A SEBI order is a fact." } },
+    { "id": "check_flags", "type": "mw_checklist", "in_seconds": 84, "out_seconds": 98,
+      "props": { "dur": 14, "kicker": "SPOT THE FAKE", "title": "Seven red flags in a viral profit claim", "color": "#FB7185", "mark": "!",
+        "items": [
+          { "k": "No SEBI reg number", "d": "A real advisor shows an RIA registration; a finfluencer shows a Lambo." },
+          { "k": "Screenshots, not statements", "d": "Cropped P&L pop-ups are trivially faked; audited broker statements aren't." },
+          { "k": "Survivorship only", "d": "You see the one win, never the ten blown accounts behind it." },
+          { "k": "\"Guaranteed / sure-shot\"", "d": "No one can guarantee a market return. The word itself is the tell." },
+          { "k": "The course upsell", "d": "The money is made selling you the dream, not trading it." },
+          { "k": "One trade, no track record", "d": "\"1 lakh to 44 lakh\" once proves luck, not skill." }
+        ] } },
+    { "id": "statement", "type": "mw_statement", "in_seconds": 98, "out_seconds": 112,
+      "props": { "dur": 14, "kicker": "THE UNCOMFORTABLE TRUTH", "color": "#FB7185",
+        "lines": ["The index fell 16% into April.", "It still hasn't reclaimed its peak.", "So anyone promising you", "easy money in this tape", "is selling something."],
+        "sub": "SEBI: ~9 in 10 individual F&O traders lose money." } },
+    { "id": "recap", "type": "mw_recap", "in_seconds": 112, "out_seconds": 126,
+      "props": { "dur": 14, "title": "What actually made money", "color": "#FBBF24",
+        "items": [
+          "The winners held quality businesses for years, not days",
+          "Some concentrated (Damani), some diversified (Kacholia) — all patient",
+          "They bought weakness — the April crash was an opportunity",
+          "No leverage-gambling, no tips, no \"sure-shot\" anything",
+          "The boring SIP investor quietly beat most \"experts\"",
+          "Every viral 44x claim you can't verify — assume it's marketing",
+          "Real edge is temperament, not a secret indicator" ],
+        "closer": "Wealth was built by patience — and protected by skepticism." } },
+    { "id": "divider", "type": "mw_divider", "in_seconds": 126, "out_seconds": 140,
+      "props": { "dur": 14, "n": 9, "title": "The 2026 IPO Winners", "sub": "Who really made money on listings — and who didn't", "color": "#FBBF24", "total": 15 } },
+    { "id": "quote", "type": "mw_quote", "in_seconds": 140, "out_seconds": 154,
+      "props": { "dur": 14, "color": "#34D399", "quote": "Everybody has the brainpower to make money in stocks. Not everyone has the stomach.", "who": "Peter Lynch (a maxim these winners live by)" } }
+  ],
+  "audio": {}
+}

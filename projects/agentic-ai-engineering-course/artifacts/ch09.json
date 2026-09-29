@@ -1,0 +1,169 @@
+{
+  "cuts": [
+    {
+      "id": "part3",
+      "type": "aae_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 6.198,
+      "props": {
+        "part": 3,
+        "title": "Cognitive Systems",
+        "focus": "Memory, reasoning, models, orchestration, and design.",
+        "dur": 6.698
+      }
+    },
+    {
+      "id": "ch09_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 6.698,
+      "out_seconds": 50.86,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "foundation",
+        "dur": 44.662
+      }
+    },
+    {
+      "id": "ch09_system",
+      "type": "aae_chapter",
+      "in_seconds": 51.36,
+      "out_seconds": 88.89,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "system",
+        "dur": 38.03
+      }
+    },
+    {
+      "id": "ch09_practice",
+      "type": "aae_chapter",
+      "in_seconds": 89.39,
+      "out_seconds": 135.957,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "practice",
+        "dur": 47.067
+      }
+    },
+    {
+      "id": "ch09_failure",
+      "type": "aae_chapter",
+      "in_seconds": 136.457,
+      "out_seconds": 175.407,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "failure",
+        "dur": 39.45
+      }
+    },
+    {
+      "id": "ch09_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 175.907,
+      "out_seconds": 219.2,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "evaluation",
+        "dur": 43.793
+      }
+    },
+    {
+      "id": "ch09_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 219.7,
+      "out_seconds": 256.493,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "handoff",
+        "dur": 37.293
+      }
+    },
+    {
+      "id": "ch09_application",
+      "type": "aae_chapter",
+      "in_seconds": 256.993,
+      "out_seconds": 304.535,
+      "props": {
+        "chapter": 9,
+        "title": "Agentic Memory Engineering",
+        "focus": "choosing what an agent remembers, for how long, and with what confidence",
+        "concepts": [
+          "working memory",
+          "long-term memory",
+          "memory hygiene"
+        ],
+        "example": "a concierge remembering preferences but expiring old travel plans",
+        "trap": "persisting unverified model claims",
+        "takeaway": "Choosing what an agent remembers, for how long, and with what confidence.",
+        "beat": "application",
+        "dur": 48.043
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch09.wav",
+      "volume": 1
+    }
+  }
+}

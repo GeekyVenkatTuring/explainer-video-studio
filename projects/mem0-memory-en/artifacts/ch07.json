@@ -1,0 +1,569 @@
+{
+ "pack": "blueprint",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Mem0 memory",
+  "issue": "September 2026",
+  "code": "MEM-0"
+ },
+ "beats": [
+  {
+   "id": "b33",
+   "kind": "divider",
+   "dur": 4.503,
+   "props": {
+    "n": 7,
+    "total": 9,
+    "title": "Benchmarks",
+    "sub": "what the 2025 paper measured"
+   }
+  },
+  {
+   "id": "b34",
+   "kind": "list",
+   "dur": 37.388,
+   "props": {
+    "kicker": "The LoCoMo benchmark",
+    "title": "How memory systems were tested",
+    "items": [
+     {
+      "h": "10 long conversations",
+      "d": "~600 turns and ~26,000 tokens each"
+     },
+     {
+      "h": "~200 questions each",
+      "d": "single-hop \u00b7 multi-hop \u00b7 temporal \u00b7 open-domain"
+     },
+     {
+      "h": "LLM-as-a-Judge",
+      "d": "a stronger model grades answers \u00b7 10 runs"
+     },
+     {
+      "h": "Latency and tokens",
+      "d": "p50 / p95 time, context size"
+     }
+    ],
+    "ats": [
+     0.08,
+     0.3,
+     0.52,
+     0.76
+    ]
+   }
+  },
+  {
+   "id": "b35",
+   "kind": "chart",
+   "dur": 30.477,
+   "props": {
+    "kicker": "LLM-as-a-Judge, overall (%)",
+    "title": "Accuracy on LoCoMo",
+    "type": "bar",
+    "bars": [
+     {
+      "label": "OpenAI",
+      "value": 52.9
+     },
+     {
+      "label": "LangMem",
+      "value": 58.1
+     },
+     {
+      "label": "Zep",
+      "value": 66.0
+     },
+     {
+      "label": "Mem0",
+      "value": 66.9
+     },
+     {
+      "label": "Mem0 graph",
+      "value": 68.4
+     },
+     {
+      "label": "Full context",
+      "value": 72.9
+     }
+    ],
+    "note": "J score, mean of 10 runs \u00b7 Chhikara et al. 2025, Table 2",
+    "ats": [
+     0.13,
+     0.24,
+     0.32,
+     0.38,
+     0.5,
+     0.6
+    ]
+   }
+  },
+  {
+   "id": "b36",
+   "kind": "chart",
+   "dur": 29.553,
+   "props": {
+    "kicker": "p95 total response time (s)",
+    "title": "Latency where users feel it",
+    "type": "bar",
+    "unit": " s",
+    "bars": [
+     {
+      "label": "Mem0",
+      "value": 1.44
+     },
+     {
+      "label": "Mem0 graph",
+      "value": 2.59
+     },
+     {
+      "label": "Zep",
+      "value": 2.93
+     },
+     {
+      "label": "Full context",
+      "value": 17.12
+     }
+    ],
+    "note": "95th-percentile search + answer latency \u00b7 Chhikara et al. 2025",
+    "ats": [
+     0.23,
+     0.35,
+     0.43,
+     0.51
+    ]
+   }
+  },
+  {
+   "id": "b37",
+   "kind": "chart",
+   "dur": 35.598,
+   "props": {
+    "kicker": "LLM-as-a-Judge by question type (%)",
+    "title": "Single-hop and multi-hop",
+    "type": "bar",
+    "bars": [
+     {
+      "label": "1-hop OpenAI",
+      "value": 63.8
+     },
+     {
+      "label": "1-hop Mem0",
+      "value": 67.1
+     },
+     {
+      "label": "Multi OpenAI",
+      "value": 42.9
+     },
+     {
+      "label": "Multi Zep",
+      "value": 41.4
+     },
+     {
+      "label": "Multi Mem0",
+      "value": 51.2
+     },
+     {
+      "label": "Multi graph",
+      "value": 47.2
+     }
+    ],
+    "note": "Chhikara et al. 2025, Table 1 \u00b7 J scores, mean of 10 runs",
+    "ats": [
+     0.17,
+     0.25,
+     0.44,
+     0.52,
+     0.63,
+     0.72
+    ]
+   }
+  },
+  {
+   "id": "b38",
+   "kind": "statement",
+   "dur": 29.599,
+   "props": {
+    "kicker": "The subtler story",
+    "lines": [
+     "Graphs help with time,",
+     "not always with hops."
+    ],
+    "accent": 0,
+    "big": "58.1 vs 55.5",
+    "sub": "temporal J: Mem0 graph 58.13 \u00b7 Mem0 55.51 \u00b7 Zep 49.31 \u00b7 OpenAI 21.71"
+   }
+  },
+  {
+   "id": "b39",
+   "kind": "chart",
+   "dur": 35.56,
+   "props": {
+    "kicker": "Memory footprint per conversation (tokens)",
+    "title": "How much each design stores",
+    "type": "bar",
+    "bars": [
+     {
+      "label": "Mem0",
+      "value": 7000
+     },
+     {
+      "label": "Mem0 graph",
+      "value": 14000
+     },
+     {
+      "label": "Full context",
+      "value": 26000
+     },
+     {
+      "label": "Zep",
+      "value": 600000
+     }
+    ],
+    "note": "approximate \u00b7 Chhikara et al. 2025, section 4.5 \u00b7 Zep: 'in excess of 600k'",
+    "ats": [
+     0.05,
+     0.15,
+     0.33,
+     0.46
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.463,
+   "Part seven. Does any of this work? Here's"
+  ],
+  [
+   2.463,
+   4.003,
+   "how the paper measured it."
+  ],
+  [
+   4.503,
+   6.312,
+   "The benchmark is LoCoMo."
+  ],
+  [
+   6.943,
+   10.56,
+   "Ten very long conversations, each around six hundred"
+  ],
+  [
+   10.56,
+   14.177,
+   "dialogue turns and twenty six thousand tokens, spread"
+  ],
+  [
+   14.177,
+   15.534,
+   "across many sessions."
+  ],
+  [
+   16.165,
+   19.782,
+   "Each comes with about two hundred questions: single-hop,"
+  ],
+  [
+   19.782,
+   21.591,
+   "multi-hop, temporal, and open-domain."
+  ],
+  [
+   22.222,
+   25.84,
+   "Word-overlap metrics can't tell, born in March, from,"
+  ],
+  [
+   25.84,
+   29.457,
+   "born in July. So the headline metric is"
+  ],
+  [
+   29.457,
+   32.622,
+   "an LLM judge, averaged over ten runs."
+  ],
+  [
+   33.253,
+   36.87,
+   "They also measured what production cares about: latency"
+  ],
+  [
+   36.87,
+   40.487,
+   "at the median and the ninety fifth percentile,"
+  ],
+  [
+   40.487,
+   41.392,
+   "and tokens."
+  ],
+  [
+   41.892,
+   45.434,
+   "Here's accuracy, as graded by the LLM judge."
+  ],
+  [
+   46.065,
+   49.607,
+   "OpenAI's built-in memory scores fifty two point nine."
+  ],
+  [
+   49.607,
+   53.149,
+   "LangMem, fifty eight point one. Zep, sixty six."
+  ],
+  [
+   53.781,
+   57.323,
+   "Mem0 scores sixty six point nine, and the"
+  ],
+  [
+   57.323,
+   59.979,
+   "graph variant, sixty eight point four."
+  ],
+  [
+   60.611,
+   64.153,
+   "Full context still wins, at seventy two point"
+  ],
+  [
+   64.153,
+   66.367,
+   "nine, because it sees everything."
+  ],
+  [
+   66.998,
+   70.54,
+   "Relative to OpenAI's memory, Mem0 is about twenty"
+  ],
+  [
+   70.54,
+   71.869,
+   "six percent better."
+  ],
+  [
+   72.369,
+   75.817,
+   "Now latency: the time until the user gets"
+  ],
+  [
+   75.817,
+   78.835,
+   "an answer, at the ninety fifth percentile."
+  ],
+  [
+   79.466,
+   82.915,
+   "Mem0: one point four four seconds. The graph"
+  ],
+  [
+   82.915,
+   86.364,
+   "variant: two point five nine. Zep: two point"
+  ],
+  [
+   86.364,
+   87.226,
+   "nine three."
+  ],
+  [
+   87.857,
+   89.582,
+   "Full context: seventeen seconds."
+  ],
+  [
+   90.213,
+   93.662,
+   "That's Mem0's real pitch. About ninety one percent"
+  ],
+  [
+   93.662,
+   97.111,
+   "lower tail latency than full context, and over"
+  ],
+  [
+   97.111,
+   100.559,
+   "ninety percent fewer tokens, for a few points"
+  ],
+  [
+   100.559,
+   101.421,
+   "of accuracy."
+  ],
+  [
+   101.921,
+   104.459,
+   "Break it down by question type."
+  ],
+  [
+   105.091,
+   108.475,
+   "Single-hop questions need one fact: OpenAI's memory scores"
+  ],
+  [
+   108.475,
+   111.859,
+   "sixty three point eight, and Mem0 sixty seven"
+  ],
+  [
+   111.859,
+   112.705,
+   "point one."
+  ],
+  [
+   113.337,
+   116.721,
+   "Multi-hop questions combine facts from different sessions, and"
+  ],
+  [
+   116.721,
+   120.105,
+   "they're much harder. OpenAI drops to forty two"
+  ],
+  [
+   120.105,
+   123.489,
+   "point nine, and Zep to forty one point"
+  ],
+  [
+   123.489,
+   123.912,
+   "four."
+  ],
+  [
+   124.543,
+   127.927,
+   "Mem0 holds fifty one point two, and the"
+  ],
+  [
+   127.927,
+   130.465,
+   "graph variant forty seven point two."
+  ],
+  [
+   131.097,
+   134.481,
+   "Atomic facts, retrieved together, turn out to be"
+  ],
+  [
+   134.481,
+   137.019,
+   "a strong baseline for combining information."
+  ],
+  [
+   137.519,
+   139.919,
+   "The categories tell a subtler story."
+  ],
+  [
+   140.551,
+   143.751,
+   "On temporal questions, the graph variant scores fifty"
+  ],
+  [
+   143.751,
+   146.952,
+   "eight point one, ahead of flat Mem0 at"
+  ],
+  [
+   146.952,
+   150.152,
+   "fifty five and a half, and far ahead"
+  ],
+  [
+   150.152,
+   153.353,
+   "of OpenAI at twenty one point seven. Invalidated"
+  ],
+  [
+   153.353,
+   154.953,
+   "edges keep the timeline."
+  ],
+  [
+   155.585,
+   158.785,
+   "But on multi-hop questions, flat Mem0 actually beat"
+  ],
+  [
+   158.785,
+   161.185,
+   "the graph, as we just saw."
+  ],
+  [
+   161.817,
+   165.017,
+   "Explicit relations help most when the question is"
+  ],
+  [
+   165.017,
+   166.618,
+   "about change over time."
+  ],
+  [
+   167.118,
+   168.369,
+   "Storage matters too."
+  ],
+  [
+   169.001,
+   172.337,
+   "Mem0 stored about seven thousand tokens of memory"
+  ],
+  [
+   172.337,
+   175.674,
+   "per conversation. The graph variant, about fourteen thousand,"
+  ],
+  [
+   175.674,
+   178.594,
+   "because of the extra nodes and edges."
+  ],
+  [
+   179.225,
+   182.562,
+   "The raw conversation itself is about twenty six"
+  ],
+  [
+   182.562,
+   182.979,
+   "thousand."
+  ],
+  [
+   183.611,
+   186.948,
+   "But Zep's graph exceeded six hundred thousand tokens,"
+  ],
+  [
+   186.948,
+   190.285,
+   "because it caches a summary at every node"
+  ],
+  [
+   190.285,
+   192.37,
+   "and facts on every edge."
+  ],
+  [
+   193.002,
+   196.338,
+   "The paper also found Zep's answers were often"
+  ],
+  [
+   196.338,
+   199.675,
+   "only correct hours after ingestion, while Mem0's graph"
+  ],
+  [
+   199.675,
+   202.178,
+   "was ready in under a minute."
+  ]
+ ],
+ "audio": "m0/ch07.wav"
+}

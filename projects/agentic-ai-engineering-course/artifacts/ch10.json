@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch10_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 46.004,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "foundation",
+        "dur": 46.503
+      }
+    },
+    {
+      "id": "ch10_system",
+      "type": "aae_chapter",
+      "in_seconds": 46.504,
+      "out_seconds": 84.586,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "system",
+        "dur": 38.583
+      }
+    },
+    {
+      "id": "ch10_practice",
+      "type": "aae_chapter",
+      "in_seconds": 85.086,
+      "out_seconds": 132.287,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "practice",
+        "dur": 47.701
+      }
+    },
+    {
+      "id": "ch10_failure",
+      "type": "aae_chapter",
+      "in_seconds": 132.787,
+      "out_seconds": 171.449,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "failure",
+        "dur": 39.161
+      }
+    },
+    {
+      "id": "ch10_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 171.949,
+      "out_seconds": 216.189,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "evaluation",
+        "dur": 44.74
+      }
+    },
+    {
+      "id": "ch10_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 216.689,
+      "out_seconds": 253.429,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "handoff",
+        "dur": 37.24
+      }
+    },
+    {
+      "id": "ch10_application",
+      "type": "aae_chapter",
+      "in_seconds": 253.929,
+      "out_seconds": 303.443,
+      "props": {
+        "chapter": 10,
+        "title": "Agentic Reasoning Engineering",
+        "focus": "designing plans, checks, and reflection without confusing verbosity for intelligence",
+        "concepts": [
+          "decompose goals",
+          "verify intermediate work",
+          "stop conditions"
+        ],
+        "example": "an analyst agent testing its calculation before presenting a recommendation",
+        "trap": "unbounded self-reflection loops",
+        "takeaway": "Designing plans, checks, and reflection without confusing verbosity for intelligence.",
+        "beat": "application",
+        "dur": 50.014
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch10.wav",
+      "volume": 1
+    }
+  }
+}

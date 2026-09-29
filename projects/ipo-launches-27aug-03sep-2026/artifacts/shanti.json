@@ -1,0 +1,168 @@
+{
+  "cuts": [
+    {
+      "id": "shanti_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 33.044,
+      "props": {
+        "title": "Shanti Inorganics IPO",
+        "sub": "SME · opens 31 Aug–2 Sep · public-source launch brief",
+        "kicker": "IPO LAUNCH BRIEF · NOT ADVICE",
+        "dur": 33.544
+      }
+    },
+    {
+      "id": "shanti_business",
+      "type": "sm_iconcards",
+      "in_seconds": 33.544,
+      "out_seconds": 67.402,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "The business before the buzz",
+        "color": "#22D3EE",
+        "items": [
+          {
+            "emoji": "⚗️",
+            "k": "Inorganic-chemicals business",
+            "v": "The issuer’s investor page hosts its offer documents and industry research material.",
+            "chip": "CHEMICALS"
+          },
+          {
+            "emoji": "📄",
+            "k": "Document-led review",
+            "v": "Check the RHP for capacity, input-price exposure, environmental compliance and customer concentration.",
+            "chip": "RHP"
+          },
+          {
+            "emoji": "⚠️",
+            "k": "SME ticket",
+            "v": "Confirm the broker’s minimum application multiple and the market-maker/liquidity details before bidding.",
+            "chip": "SME"
+          }
+        ],
+        "dur": 34.358
+      }
+    },
+    {
+      "id": "shanti_terms",
+      "type": "sm_iconcards",
+      "in_seconds": 67.902,
+      "out_seconds": 95.64,
+      "props": {
+        "kicker": "OFFER TERMS · CHECK FINAL RHP",
+        "title": "Price, lot and ticket",
+        "color": "#22D3EE",
+        "items": [
+          {
+            "emoji": "🏷️",
+            "k": "Upper price",
+            "v": "₹79–83 per share.",
+            "chip": "PRICE BAND"
+          },
+          {
+            "emoji": "🧮",
+            "k": "Stated lot",
+            "v": "1,600 shares for this sme offer.",
+            "chip": "LOT SIZE"
+          },
+          {
+            "emoji": "💳",
+            "k": "Stated ticket",
+            "v": "₹1.33L / stated lot at the upper price, before any broker-specific SME multiple.",
+            "chip": "UPPER BAND"
+          },
+          {
+            "emoji": "📊",
+            "k": "Issue size",
+            "v": "Stated size: Verify final RHP. Re-check the exchange notice for final terms.",
+            "chip": "VERIFY"
+          }
+        ],
+        "dur": 28.238
+      }
+    },
+    {
+      "id": "shanti_check",
+      "type": "sm_checklist",
+      "in_seconds": 96.14,
+      "out_seconds": 121.838,
+      "props": {
+        "kicker": "THE 5-MINUTE RHP CHECK",
+        "title": "What to verify before a bid",
+        "color": "#22D3EE",
+        "icon": "✓",
+        "items": [
+          "Fresh issue versus OFS: who receives the money?",
+          "Objects of the issue: debt, working capital, capex or general purposes?",
+          "Three-year revenue, profit and operating-cash-flow trend",
+          "Top customers, raw-material exposure and disclosed risk factors",
+          "Final price, lot, subscription and listing dates on NSE or BSE"
+        ],
+        "dur": 26.198
+      }
+    },
+    {
+      "id": "shanti_lane",
+      "type": "sm_iconcards",
+      "in_seconds": 122.338,
+      "out_seconds": 148.996,
+      "props": {
+        "kicker": "APPLICATION LANE",
+        "title": "Know the market you are entering",
+        "color": "#22D3EE",
+        "items": [
+          {
+            "emoji": "📌",
+            "k": "SME",
+            "v": "This is an SME issue. Confirm the application multiple and liquidity conditions with the exchange and your broker.",
+            "chip": "SME"
+          },
+          {
+            "emoji": "📄",
+            "k": "Source of truth",
+            "v": "The final RHP and NSE or BSE IPO page are the source for terms and live subscription.",
+            "chip": "VERIFY"
+          },
+          {
+            "emoji": "⚠️",
+            "k": "GMP is not used here",
+            "v": "Grey-market premium is unofficial, volatile and not a listing prediction.",
+            "chip": "UNOFFICIAL"
+          },
+          {
+            "emoji": "🧭",
+            "k": "Decision framework",
+            "v": "Match the filing evidence to your risk tolerance; this video does not say apply or avoid.",
+            "chip": "NOT ADVICE"
+          }
+        ],
+        "dur": 27.158
+      }
+    },
+    {
+      "id": "shanti_recap",
+      "type": "sm_recap",
+      "in_seconds": 149.496,
+      "out_seconds": 195.232,
+      "props": {
+        "title": "Shanti Inorganics IPO — launch recap",
+        "items": [
+          "Opens 31 Aug–2 Sep · SME",
+          "Price ₹79–83 · stated lot 1,600 shares",
+          "Stated ticket: ₹1.33L / stated lot · issue size: Verify final RHP",
+          "Read final RHP: structure, objects, financials and risks",
+          "Verify live exchange data; no GMP or recommendation here"
+        ],
+        "closer": "Public-source education. Verify the RHP; decide for yourself.",
+        "dur": 46.236
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/shanti.wav",
+      "volume": 1.0
+    }
+  }
+}

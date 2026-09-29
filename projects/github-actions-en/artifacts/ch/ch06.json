@@ -1,0 +1,461 @@
+{
+ "cuts": [
+  {
+   "id": "d06",
+   "type": "gha_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 9.537,
+   "props": {
+    "n": 6,
+    "title": "Data, Secrets & Caching",
+    "sub": "how information flows through a run",
+    "color": "#BC8CFF",
+    "total": 10,
+    "dur": 9.537
+   }
+  },
+  {
+   "id": "x06",
+   "type": "gha_expr",
+   "in_seconds": 9.537,
+   "out_seconds": 53.916,
+   "props": {
+    "dur": 44.379
+   }
+  },
+  {
+   "id": "x06b",
+   "type": "gha_secrets",
+   "in_seconds": 53.916,
+   "out_seconds": 94.815,
+   "props": {
+    "dur": 40.899
+   }
+  },
+  {
+   "id": "x06c",
+   "type": "gha_outputs",
+   "in_seconds": 94.815,
+   "out_seconds": 132.889,
+   "props": {
+    "dur": 38.074
+   }
+  },
+  {
+   "id": "x06d",
+   "type": "gha_cache",
+   "in_seconds": 132.889,
+   "out_seconds": 175.651,
+   "props": {
+    "dur": 42.762
+   }
+  },
+  {
+   "id": "x06e",
+   "type": "gha_yaml",
+   "in_seconds": 175.651,
+   "out_seconds": 213.995,
+   "props": {
+    "kicker": "TALKING TO THE RUNNER",
+    "title": "Special files and workflow commands",
+    "file": "steps (any workflow)",
+    "lines": [
+     "- run: echo \"API_URL=https://api.acme.dev\" >> $GITHUB_ENV",
+     "- run: echo \"$HOME/.local/bin\" >> $GITHUB_PATH",
+     "- run: echo \"::add-mask::$TEMP_TOKEN\"",
+     "- run: echo \"::warning file=app.js::Deprecated API\"",
+     "- run: echo \"::error::Coverage below 80%\"",
+     "- run: |",
+     "    echo \"### Tests: 128 passed\" >> $GITHUB_STEP_SUMMARY",
+     "    echo \"[Coverage report](\u2026)\" >> $GITHUB_STEP_SUMMARY"
+    ],
+    "notes": [
+     {
+      "a": 0,
+      "b": 0,
+      "at": 0.12,
+      "c": "#BC8CFF",
+      "t": "GITHUB_ENV \u2014 a variable for every later step"
+     },
+     {
+      "a": 1,
+      "b": 1,
+      "at": 0.24,
+      "c": "#58A6FF",
+      "t": "GITHUB_PATH \u2014 add a folder to PATH"
+     },
+     {
+      "a": 2,
+      "b": 2,
+      "at": 0.42,
+      "c": "#F85149",
+      "t": "::add-mask:: \u2014 hide a value created at runtime"
+     },
+     {
+      "a": 3,
+      "b": 4,
+      "at": 0.6,
+      "c": "#F2A93B",
+      "t": "::warning:: / ::error:: \u2014 annotations on the run and the PR"
+     },
+     {
+      "a": 5,
+      "b": 7,
+      "at": 0.78,
+      "c": "#3FB950",
+      "t": "GITHUB_STEP_SUMMARY \u2014 a markdown report on the run page"
+     }
+    ],
+    "dur": 38.344
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.401,
+   "Part six. Data."
+  ],
+  [
+   2.032,
+   6.235,
+   "Workflows need to make decisions, keep secrets, pass\nresults"
+  ],
+  [
+   6.235,
+   9.037,
+   "along, and remember things between runs."
+  ],
+  [
+   9.537,
+   13.202,
+   "Anything inside dollar, double braces is an\nexpression, evaluated"
+  ],
+  [
+   13.202,
+   14.016,
+   "by GitHub."
+  ],
+  [
+   14.648,
+   18.313,
+   "Expressions read from contexts. github holds the\nevent, the"
+  ],
+  [
+   18.313,
+   21.978,
+   "branch and the actor. env holds variables. secrets\nholds"
+  ],
+  [
+   21.978,
+   25.643,
+   "secrets. And matrix, needs, steps and inputs hold\nwhat"
+  ],
+  [
+   25.643,
+   26.457,
+   "you'd expect."
+  ],
+  [
+   27.089,
+   30.753,
+   "The most common use is if, on a job"
+  ],
+  [
+   30.753,
+   31.975,
+   "or a step."
+  ],
+  [
+   32.607,
+   36.272,
+   "This deploy step runs only on a push to"
+  ],
+  [
+   36.272,
+   39.529,
+   "main, and only if everything before it succeeded."
+  ],
+  [
+   40.161,
+   43.826,
+   "Watch it evaluate for four different runs. Only one"
+  ],
+  [
+   43.826,
+   44.233,
+   "passes."
+  ],
+  [
+   44.865,
+   48.529,
+   "There are status functions too: success, failure,\nalways and"
+  ],
+  [
+   48.529,
+   52.194,
+   "cancelled. always is handy for cleanup that must run"
+  ],
+  [
+   52.194,
+   53.416,
+   "no matter what."
+  ],
+  [
+   53.916,
+   55.962,
+   "Configuration comes in three kinds."
+  ],
+  [
+   56.594,
+   60.277,
+   "env sets plain environment variables, right in the\nworkflow"
+  ],
+  [
+   60.277,
+   60.686,
+   "file."
+  ],
+  [
+   61.318,
+   65.001,
+   "Variables, the vars context, live in settings \u2014\nnon-secret"
+  ],
+  [
+   65.001,
+   67.866,
+   "config like a region or a URL."
+  ],
+  [
+   68.497,
+   72.18,
+   "Secrets are encrypted. They're stored at the\norganization, repository"
+  ],
+  [
+   72.18,
+   75.454,
+   "or environment level, and the narrowest scope wins."
+  ],
+  [
+   76.086,
+   79.769,
+   "Secrets never appear in plain text. If one is"
+  ],
+  [
+   79.769,
+   82.634,
+   "printed, the log shows three stars instead."
+  ],
+  [
+   83.265,
+   86.949,
+   "But masking isn't magic. If you transform a secret"
+  ],
+  [
+   86.949,
+   90.632,
+   "\u2014 encode it, or split it \u2014 the log"
+  ],
+  [
+   90.632,
+   94.315,
+   "won't recognise it. So don't print secrets at all."
+  ],
+  [
+   94.815,
+   98.207,
+   "Steps and jobs often need to pass results along."
+  ],
+  [
+   98.838,
+   102.23,
+   "Inside a job, a step writes a key and"
+  ],
+  [
+   102.23,
+   105.622,
+   "a value to a special file, named GitHub output."
+  ],
+  [
+   105.622,
+   108.637,
+   "Later steps read it through the steps context."
+  ],
+  [
+   109.268,
+   112.66,
+   "Between jobs it's different \u2014 they run on different"
+  ],
+  [
+   112.66,
+   116.052,
+   "machines. A job declares outputs, and the next job"
+  ],
+  [
+   116.052,
+   117.559,
+   "reads them through needs."
+  ],
+  [
+   118.191,
+   121.582,
+   "For files, like a compiled app or a test"
+  ],
+  [
+   121.582,
+   124.974,
+   "report, use artifacts. Upload in one job, download\nin"
+  ],
+  [
+   124.974,
+   125.351,
+   "another."
+  ],
+  [
+   125.982,
+   129.374,
+   "Artifacts also appear on the run page for people"
+  ],
+  [
+   129.374,
+   132.389,
+   "to download, kept for ninety days by default."
+  ],
+  [
+   132.889,
+   136.17,
+   "Remember, every job starts on a clean machine. So"
+  ],
+  [
+   136.17,
+   139.451,
+   "without help, every run downloads all its\ndependencies again."
+  ],
+  [
+   140.082,
+   143.363,
+   "Caching fixes that. You save a folder under a"
+  ],
+  [
+   143.363,
+   145.551,
+   "key, and restore it next time."
+  ],
+  [
+   146.182,
+   149.463,
+   "The trick is the key. It includes a hash"
+  ],
+  [
+   149.463,
+   152.744,
+   "of your lock file. Same lock file, same key"
+  ],
+  [
+   152.744,
+   155.66,
+   "\u2014 a cache hit, and installing takes seconds."
+  ],
+  [
+   156.292,
+   159.573,
+   "Change one dependency, and the hash changes. New\nkey,"
+  ],
+  [
+   159.573,
+   162.854,
+   "a miss, a fresh install \u2014 and a new"
+  ],
+  [
+   162.854,
+   164.677,
+   "cache saved for next time."
+  ],
+  [
+   165.308,
+   168.589,
+   "Most setup actions do this for you with one"
+  ],
+  [
+   168.589,
+   171.87,
+   "cache option. Each repo gets ten gigabytes of cache"
+  ],
+  [
+   171.87,
+   175.151,
+   "free, and unused entries are evicted after seven\ndays."
+  ],
+  [
+   175.651,
+   178.594,
+   "Steps can also talk back to the runner."
+  ],
+  [
+   179.226,
+   182.537,
+   "Besides GitHub output, there are more special files.\nWrite"
+  ],
+  [
+   182.537,
+   185.848,
+   "to GitHub env, and a variable exists for every"
+  ],
+  [
+   185.848,
+   189.159,
+   "later step. Write to GitHub path, and a folder"
+  ],
+  [
+   189.159,
+   190.262,
+   "joins the path."
+  ],
+  [
+   190.894,
+   194.205,
+   "Then there are workflow commands \u2014 special lines you"
+  ],
+  [
+   194.205,
+   197.516,
+   "echo. add-mask hides a value you generated at\nruntime,"
+  ],
+  [
+   197.516,
+   198.988,
+   "like a temporary token."
+  ],
+  [
+   199.619,
+   202.93,
+   "warning and error create annotations, shown on the\nrun"
+  ],
+  [
+   202.93,
+   205.873,
+   "page and even on the pull request diff."
+  ],
+  [
+   206.505,
+   209.816,
+   "And the step summary file turns markdown into a"
+  ],
+  [
+   209.816,
+   213.127,
+   "report on the run page \u2014 tables, results and"
+  ],
+  [
+   213.127,
+   213.495,
+   "links."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch06.wav",
+   "volume": 1.0
+  }
+ }
+}

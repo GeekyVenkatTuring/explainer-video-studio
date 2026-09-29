@@ -1,0 +1,554 @@
+{
+ "pack": "blueprint",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Mem0 memory",
+  "issue": "September 2026",
+  "code": "MEM-0"
+ },
+ "beats": [
+  {
+   "id": "b17",
+   "kind": "divider",
+   "dur": 5.674,
+   "props": {
+    "n": 4,
+    "total": 9,
+    "title": "Phase Two: Update",
+    "sub": "ADD \u00b7 UPDATE \u00b7 DELETE \u00b7 NOOP"
+   }
+  },
+  {
+   "id": "b18",
+   "kind": "x_diagram",
+   "dur": 37.638,
+   "props": {
+    "kicker": "Update phase",
+    "title": "One decision per candidate fact",
+    "nodes": [
+     {
+      "id": "f",
+      "h": "Candidate fact",
+      "d": "\u03c9 from extraction",
+      "x": 110,
+      "y": 430,
+      "w": 300
+     },
+     {
+      "id": "emb",
+      "h": "Embed",
+      "d": "fact \u2192 vector",
+      "x": 470,
+      "y": 430,
+      "w": 240
+     },
+     {
+      "id": "top",
+      "h": "10 most similar",
+      "d": "existing memories, s = 10",
+      "x": 770,
+      "y": 430,
+      "w": 330
+     },
+     {
+      "id": "tool",
+      "h": "Tool call",
+      "d": "LLM chooses one operation",
+      "x": 1160,
+      "y": 430,
+      "w": 300
+     },
+     {
+      "id": "add",
+      "h": "ADD",
+      "d": "nothing equivalent",
+      "x": 1540,
+      "y": 220,
+      "w": 280
+     },
+     {
+      "id": "upd",
+      "h": "UPDATE",
+      "d": "enriches a memory",
+      "x": 1540,
+      "y": 380,
+      "w": 280
+     },
+     {
+      "id": "del",
+      "h": "DELETE",
+      "d": "contradicts a memory",
+      "x": 1540,
+      "y": 540,
+      "w": 280
+     },
+     {
+      "id": "noop",
+      "h": "NOOP",
+      "d": "known or irrelevant",
+      "x": 1540,
+      "y": 700,
+      "w": 280
+     }
+    ],
+    "edges": [
+     [
+      "f",
+      "emb"
+     ],
+     [
+      "emb",
+      "top"
+     ],
+     [
+      "top",
+      "tool"
+     ],
+     [
+      "tool",
+      "add"
+     ],
+     [
+      "tool",
+      "upd"
+     ],
+     [
+      "tool",
+      "del"
+     ],
+     [
+      "tool",
+      "noop"
+     ]
+    ],
+    "ats": [
+     0.0,
+     0.095,
+     0.182,
+     0.437,
+     0.552,
+     0.606,
+     0.693,
+     0.758
+    ]
+   }
+  },
+  {
+   "id": "b19",
+   "kind": "x_store",
+   "dur": 36.097,
+   "props": {
+    "kicker": "Worked example",
+    "title": "The memory store, turn by turn",
+    "mode": "v2",
+    "steps": [
+     {
+      "say": "I live in Pune and I love cricket.",
+      "ops": [
+       [
+        "ADD",
+        "m1",
+        "Lives in Pune"
+       ],
+       [
+        "ADD",
+        "m2",
+        "Loves cricket"
+       ]
+      ],
+      "at": 0.09
+     },
+     {
+      "say": "My name is Riya.",
+      "ops": [
+       [
+        "ADD",
+        "m3",
+        "Name is Riya"
+       ]
+      ],
+      "at": 0.21
+     },
+     {
+      "say": "I've just moved to Bengaluru.",
+      "ops": [
+       [
+        "DELETE",
+        "m1",
+        "Lives in Pune"
+       ],
+       [
+        "ADD",
+        "m4",
+        "Lives in Bengaluru"
+       ]
+      ],
+      "at": 0.29
+     },
+     {
+      "say": "I love cricket, especially Test matches.",
+      "ops": [
+       [
+        "UPDATE",
+        "m2",
+        "Loves cricket, especially Test matches"
+       ]
+      ],
+      "at": 0.51
+     },
+     {
+      "say": "Did I mention I love cricket?",
+      "ops": [
+       [
+        "NOOP",
+        "m2",
+        ""
+       ]
+      ],
+      "at": 0.69
+     }
+    ]
+   }
+  },
+  {
+   "id": "b20",
+   "kind": "x_code",
+   "dur": 41.549,
+   "props": {
+    "kicker": "Algorithm 1 + implementation",
+    "title": "The update loop, and one clever trick",
+    "file": "update_memory(F, M)",
+    "lines": [
+     "for f in F:                               # each candidate fact",
+     "    op = classify_operation(f, M)         # the LLM decides",
+     "    if op == ADD:    M.add(new_id(), f)",
+     "    if op == UPDATE: m = related(f, M)",
+     "        if info(f) > info(m): M.replace(m, f)",
+     "    if op == DELETE: M.remove(contradicted(f, M))",
+     "    if op == NOOP:   pass",
+     "# the LLM sees ids \"0\",\"1\",\"2\", never UUIDs",
+     "{\"id\": \"1\", \"text\": \"Loves cricket, esp. Tests\",",
+     " \"event\": \"UPDATE\", \"old_memory\": \"Loves cricket\"}"
+    ],
+    "notes": [
+     {
+      "a": 0,
+      "b": 1,
+      "at": 0.1,
+      "t": "classify each fact against its neighbours"
+     },
+     {
+      "a": 3,
+      "b": 4,
+      "at": 0.18,
+      "t": "UPDATE only if the new fact carries more information"
+     },
+     {
+      "a": 7,
+      "b": 7,
+      "at": 0.34,
+      "t": "UUIDs \u2192 short integers: fewer copying errors"
+     },
+     {
+      "a": 8,
+      "b": 9,
+      "at": 0.7,
+      "t": "JSON out: id, text, event, old memory"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b21",
+   "kind": "statement",
+   "dur": 34.987,
+   "props": {
+    "kicker": "A design risk",
+    "lines": [
+     "An LLM decides",
+     "what to forget."
+    ],
+    "accent": 1,
+    "sub": "DELETE is irreversible in the store \u00b7 the history table is the only undo"
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.45,
+   "Part four. Phase two: update. This is where"
+  ],
+  [
+   3.45,
+   5.174,
+   "the memory stays consistent."
+  ],
+  [
+   5.674,
+   8.894,
+   "Each candidate fact is handled on its own."
+  ],
+  [
+   9.526,
+   12.745,
+   "First it's embedded, and the vector store returns"
+  ],
+  [
+   12.745,
+   15.16,
+   "the ten most similar existing memories."
+  ],
+  [
+   15.792,
+   19.011,
+   "The fact and those neighbours go to the"
+  ],
+  [
+   19.011,
+   22.231,
+   "LLM through a function call. The paper calls"
+  ],
+  [
+   22.231,
+   23.841,
+   "it a tool call."
+  ],
+  [
+   24.473,
+   27.692,
+   "The LLM picks one of four operations. ADD,"
+  ],
+  [
+   27.692,
+   30.912,
+   "when nothing equivalent exists. UPDATE, when the fact"
+  ],
+  [
+   30.912,
+   34.132,
+   "enriches an existing memory. DELETE, when it contradicts"
+  ],
+  [
+   34.132,
+   37.352,
+   "one. And NOOP, when it's already known, or"
+  ],
+  [
+   37.352,
+   37.754,
+   "irrelevant."
+  ],
+  [
+   38.386,
+   41.605,
+   "There's no separate classifier. The LLM's own reasoning"
+  ],
+  [
+   41.605,
+   42.813,
+   "makes the decision."
+  ],
+  [
+   43.313,
+   45.787,
+   "Let's run it on a real sequence."
+  ],
+  [
+   46.418,
+   49.246,
+   "Riya says she lives in Pune and loves"
+  ],
+  [
+   49.246,
+   50.306,
+   "cricket. Two ADDs."
+  ],
+  [
+   50.937,
+   53.058,
+   "She gives her name. Another ADD."
+  ],
+  [
+   53.689,
+   56.517,
+   "Later she says she's moved to Bengaluru. That"
+  ],
+  [
+   56.517,
+   59.344,
+   "contradicts the Pune memory, so it's deleted, and"
+  ],
+  [
+   59.344,
+   61.111,
+   "the new city is added."
+  ],
+  [
+   61.743,
+   64.57,
+   "She adds that she especially loves Test matches."
+  ],
+  [
+   64.57,
+   67.397,
+   "That enriches an existing memory, so it's an"
+  ],
+  [
+   67.397,
+   67.751,
+   "UPDATE."
+  ],
+  [
+   68.382,
+   71.21,
+   "And when she repeats that she loves cricket,"
+  ],
+  [
+   71.21,
+   72.27,
+   "nothing changes. NOOP."
+  ],
+  [
+   72.901,
+   75.729,
+   "Every step is also written to a history"
+  ],
+  [
+   75.729,
+   78.556,
+   "table, so you can see how each memory"
+  ],
+  [
+   78.556,
+   78.909,
+   "evolved."
+  ],
+  [
+   79.409,
+   82.796,
+   "Here's the logic from the paper's Algorithm One."
+  ],
+  [
+   83.428,
+   86.814,
+   "For each fact, classify the operation. An UPDATE"
+  ],
+  [
+   86.814,
+   90.201,
+   "only replaces the old memory if the new"
+  ],
+  [
+   90.201,
+   91.894,
+   "one carries more information."
+  ],
+  [
+   92.526,
+   95.913,
+   "Now, one clever implementation detail. Memory ids are"
+  ],
+  [
+   95.913,
+   99.299,
+   "long UUIDs, and LLMs are bad at copying"
+  ],
+  [
+   99.299,
+   102.686,
+   "them exactly. So before the prompt, Mem0 maps"
+  ],
+  [
+   102.686,
+   106.072,
+   "them to short integers, zero, one, two, and"
+  ],
+  [
+   106.072,
+   107.766,
+   "maps them back afterwards."
+  ],
+  [
+   108.397,
+   111.784,
+   "The model returns JSON: an id, the new"
+  ],
+  [
+   111.784,
+   115.171,
+   "text, the event, and the old memory, for"
+  ],
+  [
+   115.171,
+   116.441,
+   "the audit trail."
+  ],
+  [
+   117.072,
+   120.459,
+   "A cheap trick, with a big reliability win."
+  ],
+  [
+   120.959,
+   123.721,
+   "There's a risk hiding in this design."
+  ],
+  [
+   124.352,
+   127.509,
+   "An LLM decides what to forget. If it"
+  ],
+  [
+   127.509,
+   130.666,
+   "misreads a sarcastic remark, or a hypothetical, it"
+  ],
+  [
+   130.666,
+   132.639,
+   "can delete a true memory."
+  ],
+  [
+   133.27,
+   136.427,
+   "LLM decisions also vary from run to run,"
+  ],
+  [
+   136.427,
+   139.584,
+   "so the same conversation can produce slightly different"
+  ],
+  [
+   139.584,
+   140.373,
+   "memory stores."
+  ],
+  [
+   141.004,
+   144.161,
+   "The history table is the safety net: every"
+  ],
+  [
+   144.161,
+   147.318,
+   "change is recorded, so a bad delete can"
+  ],
+  [
+   147.318,
+   148.896,
+   "be audited, and undone."
+  ],
+  [
+   149.528,
+   152.684,
+   "Keep this risk in mind. It's one reason"
+  ],
+  [
+   152.684,
+   155.446,
+   "the design changed in twenty twenty six."
+  ]
+ ],
+ "audio": "m0/ch04.wav"
+}

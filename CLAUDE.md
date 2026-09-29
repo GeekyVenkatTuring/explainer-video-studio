@@ -56,18 +56,30 @@ If you have not read a skill, do not perform its step.
    `rnd(i, j, seed)` from lib/primitives. Never CSS `filter`/`backdrop-filter`.
 5. **QA stills before final render.** Render a mid-animation still of EVERY scene,
    look at every one, fix what you see, verify the fixes. Never ship unseen scenes.
-6. **Calibrated length.** Narration budget = target-minutes × 212 words (Nova).
-   After TTS, compare the printed total to the target; iterate (delete changed WAVs
+6. **Calibrated length.** Narration budget = target-minutes × 212 words (Nova baseline;
+   af_bella runs slower — measure the printed total and iterate, see skills/05). After TTS, compare the printed total to the target; iterate (delete changed WAVs
    only) until within ~5%.
 7. **One visual identity per video**: theme + 2–4 semantic accent colors + a
    recurring motif. Colors mean things; don't decorate randomly.
-8. **Defaults**: 16:9 1080p 30fps, no music, no captions, Nova voice, 0.35s gaps —
-   unless the user says otherwise.
+8. **Defaults**: 16:9 1080p 30fps, no music, **captions ON**, 0.35s gaps — unless the
+   user says otherwise.
+9. **Style pack is chosen from the brief, per video.** Before designing, classify the video
+   (topic, audience, tone: finance/market, system-design, maths/ML, hooks/shorts, product,
+   storytelling, data workflows…) and pick the pack from the table in `skills/14-style-packs.md`
+   that best fits *that content*. State the pick + one-line reason in the beat list. Never
+   default to a habitual pack or the legacy dark look. Reusing a pack is fine only when it is
+   genuinely the best fit — say so in the reason.
+10. **Audio = Kokoro ONNX, voice `af_bella`, local, generated concurrently** (in-process
+    `kokoro_onnx`, not Voicebox/edge-tts/Nova; English). Copy `projects/_template_pack/build.py`.
+    See skills/05-tts.md. Use edge-tts only for Indic languages (skills/11).
+11. **A/V sync is a gate.** Reveals track the narration (rule 1, `props.ats` auto-sync);
+    captions come from the same measured timings. Verify sync in QA (skills/06 §4b) before
+    the final render.
 
 ## Workflow (detail in skills/01-pipeline.md)
 brief → beat list + identity → scene set (`composer/src/scenes/<X>Scenes.tsx`, built
 on `lib/primitives.tsx`, registered in `Explainer.tsx` REGISTRY) → screenplay + TTS
-(`projects/<slug>/build.py`, copied from `projects/_template/`) → QA stills → final
+(`projects/<slug>/build.py`, copied from `projects/_template_pack/`) → QA stills → final
 render → verify (ffprobe + extracted frames) → deliver to `~/Downloads/generated_videos/`.
 
 ## Where things are
@@ -75,7 +87,7 @@ render → verify (ffprobe + extracted frames) → deliver to `~/Downloads/gener
   Type, Card, Stage, Bg, PixGrid, Brackets, ScanBeam, rnd, makeTheme). Build on it;
   extend it rather than duplicating.
 - `composer/src/scenes/DemoScenes.tsx` — annotated starter; copy it for a new video.
-- `projects/_template/build.py` — screenplay/TTS/props template; copy per video.
+- `projects/_template_pack/build.py` — screenplay/Kokoro TTS/captions/props template (style-pack based); copy per video.
 - `reference/` — the gold implementations (FTScenes, CVShared/CVScenesA/CVScenes) and
   `REVIEW.md` at repo root explains exactly why earlier videos fell short. When
   unsure how rich a scene should be, open a gold file and match it.

@@ -192,7 +192,7 @@ const FunnelScene: React.FC<{ dur?: number }> = ({ dur }) => {
 
 // ============================================================ nb_scorecard
 // The transparent scoring dimensions.
-const ScorecardScene: React.FC<{ dur?: number; items?: { k: string; d: string; c: string }[] }> = ({ dur, items }) => {
+const ScorecardScene: React.FC<{ dur?: number; kicker?: string; title?: string; items?: { k: string; d: string; c: string }[] }> = ({ dur, kicker = "THE SCORECARD · WHAT 'BEATS NIFTY' MEANS", title = "Five tests every pick had to pass", items }) => {
   const p = useP(dur);
   const rows = items || [
     { k: "Quality", d: "High, durable ROE / ROCE — the business earns well on capital", c: A.quality },
@@ -205,7 +205,7 @@ const ScorecardScene: React.FC<{ dur?: number; items?: { k: string; d: string; c
   return (
     <Stage>
       <Bg theme={T} accent={A.growth} />
-      <Head theme={T} kicker="THE SCORECARD · WHAT 'BEATS NIFTY' MEANS" title="Five tests every pick had to pass" color={A.growth} o={p(0, 0.06)} />
+      <Head theme={T} kicker={kicker} title={title} color={A.growth} o={p(0, 0.06)} />
       {rows.map((r, i) => {
         const y = 250 + i * 128;
         const at = 0.08 + i * 0.12;
@@ -401,7 +401,7 @@ const PortfolioScene: React.FC<{ dur?: number; picks?: { t: string; nm: string }
 };
 
 // ============================================================ nb_recap
-const RecapScene: React.FC<{ dur?: number; items?: string[]; closer?: string }> = ({ dur, items = [], closer = "" }) => {
+const RecapScene: React.FC<{ dur?: number; title?: string; items?: string[]; closer?: string }> = ({ dur, title = "Beating the Nifty, in one breath", items = [], closer = "" }) => {
   const frame = useCurrentFrame();
   const p = useP(dur);
   return (
@@ -409,7 +409,7 @@ const RecapScene: React.FC<{ dur?: number; items?: string[]; closer?: string }> 
       <Bg theme={T} accent={A.quality} />
       <div style={{ position: "absolute", left: 0, right: 0, top: 70, textAlign: "center" }}>
         <div style={{ display: "flex", justifyContent: "center" }}><Kicker theme={T} text="RECAP · THE WHOLE THESIS" color={A.quality} cx o={p(0, 0.08)} /></div>
-        <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 60, color: T.text, marginTop: 16, opacity: p(0.04, 0.14) }}>Beating the Nifty, in one breath</div>
+        <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 60, color: T.text, marginTop: 16, opacity: p(0.04, 0.14) }}>{title}</div>
       </div>
       <div style={{ position: "absolute", left: 300, top: 250, width: 1340 }}>
         {items.map((it, i) => {

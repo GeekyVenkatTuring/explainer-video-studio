@@ -1,0 +1,531 @@
+{
+ "pack": "blueprint",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Mem0 memory",
+  "issue": "September 2026",
+  "code": "MEM-0"
+ },
+ "beats": [
+  {
+   "id": "b22",
+   "kind": "divider",
+   "dur": 7.582,
+   "props": {
+    "n": 5,
+    "total": 9,
+    "title": "Finding Memories",
+    "sub": "embeddings, cosine similarity, HNSW"
+   }
+  },
+  {
+   "id": "b23",
+   "kind": "x_cosine",
+   "dur": 42.287,
+   "props": {
+    "kicker": "Embeddings",
+    "title": "Similar meaning, similar direction",
+    "query": {
+     "label": "Where does Riya live?",
+     "v": [
+      0.93,
+      0.36
+     ]
+    },
+    "mems": [
+     {
+      "label": "Lives in Bengaluru",
+      "v": [
+       0.97,
+       0.22
+      ]
+     },
+     {
+      "label": "Name is Riya",
+      "v": [
+       0.62,
+       0.78
+      ]
+     },
+     {
+      "label": "Loves cricket",
+      "v": [
+       0.05,
+       0.99
+      ]
+     },
+     {
+      "label": "Is vegetarian",
+      "v": [
+       -0.45,
+       0.89
+      ]
+     }
+    ],
+    "k": 2
+   }
+  },
+  {
+   "id": "b24",
+   "kind": "statement",
+   "dur": 28.766,
+   "props": {
+    "kicker": "Why not brute force?",
+    "lines": [
+     "Compare the query",
+     "with every memory?"
+    ],
+    "accent": 1,
+    "big": "1.5 billion",
+    "sub": "1,000,000 memories \u00d7 1,536 dimensions \u2248 1.5 billion multiply-adds, per query"
+   }
+  },
+  {
+   "id": "b25",
+   "kind": "x_hnsw",
+   "dur": 46.273,
+   "props": {
+    "kicker": "HNSW \u00b7 computed",
+    "title": "Hierarchical Navigable Small World",
+    "n": 90,
+    "seed": 7
+   }
+  },
+  {
+   "id": "b26",
+   "kind": "chart",
+   "dur": 46.197,
+   "props": {
+    "kicker": "HNSW insertion \u00b7 computed for N = 1,000,000, M = 16",
+    "title": "Expected nodes per layer",
+    "type": "bar",
+    "bars": [
+     {
+      "label": "Layer 0",
+      "value": 1000000
+     },
+     {
+      "label": "Layer 1",
+      "value": 62500
+     },
+     {
+      "label": "Layer 2",
+      "value": 3906
+     },
+     {
+      "label": "Layer 3",
+      "value": 244
+     },
+     {
+      "label": "Layer 4",
+      "value": 15
+     }
+    ],
+    "note": "level = floor(\u2212ln(U) \u00b7 mL), mL = 1 / ln(M) \u2192 P(level \u2265 l) = M^\u2212l",
+    "ats": [
+     0.43,
+     0.53,
+     0.6,
+     0.66,
+     0.71
+    ]
+   }
+  },
+  {
+   "id": "b27",
+   "kind": "list",
+   "dur": 31.645,
+   "props": {
+    "kicker": "Qdrant's defaults",
+    "title": "The knobs that trade speed for recall",
+    "items": [
+     {
+      "h": "M = 16",
+      "d": "links per node \u00b7 more = better recall, more RAM"
+     },
+     {
+      "h": "ef_construct = 100",
+      "d": "candidates while building the graph"
+     },
+     {
+      "h": "ef at search",
+      "d": "candidates while searching \u00b7 defaults to ef_construct"
+     },
+     {
+      "h": "Payload filters",
+      "d": "user / agent scoping applied inside the search"
+     }
+    ],
+    "ats": [
+     0.12,
+     0.34,
+     0.52,
+     0.7
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.982,
+   "Part five. How does the system find the"
+  ],
+  [
+   2.982,
+   5.964,
+   "ten most similar memories, fast? Let's go inside"
+  ],
+  [
+   5.964,
+   7.082,
+   "the vector search."
+  ],
+  [
+   7.582,
+   10.82,
+   "An embedding model maps text to a point"
+  ],
+  [
+   10.82,
+   14.058,
+   "in space, fifteen hundred and thirty six numbers"
+  ],
+  [
+   14.058,
+   16.891,
+   "long, where similar meanings land close together."
+  ],
+  [
+   17.523,
+   20.761,
+   "Closeness is measured with cosine similarity: the cosine"
+  ],
+  [
+   20.761,
+   23.999,
+   "of the angle between two vectors. Same direction"
+  ],
+  [
+   23.999,
+   26.428,
+   "gives one. Unrelated gives nearly zero."
+  ],
+  [
+   27.059,
+   30.297,
+   "Here, in a two dimensional sketch, the question,"
+  ],
+  [
+   30.297,
+   33.535,
+   "where does Riya live, points almost the same"
+  ],
+  [
+   33.535,
+   35.559,
+   "way as, lives in Bengaluru."
+  ],
+  [
+   36.191,
+   38.214,
+   "Cricket and vegetarian point elsewhere."
+  ],
+  [
+   38.846,
+   42.084,
+   "Rank by cosine, keep the top k, and"
+  ],
+  [
+   42.084,
+   45.322,
+   "you have your candidates. The math is simple."
+  ],
+  [
+   45.322,
+   48.56,
+   "The hard part is doing it over millions"
+  ],
+  [
+   48.56,
+   49.369,
+   "of vectors."
+  ],
+  [
+   49.869,
+   53.272,
+   "The naive approach compares the query with every"
+  ],
+  [
+   53.272,
+   54.123,
+   "stored vector."
+  ],
+  [
+   54.754,
+   58.157,
+   "With a million memories of fifteen hundred and"
+  ],
+  [
+   58.157,
+   61.56,
+   "thirty six dimensions, that's about one and a"
+  ],
+  [
+   61.56,
+   64.537,
+   "half billion multiply-adds, for a single search."
+  ],
+  [
+   65.169,
+   68.572,
+   "Fine for a demo. Too slow for agents"
+  ],
+  [
+   68.572,
+   71.974,
+   "answering in real time, across thousands of users."
+  ],
+  [
+   72.606,
+   76.009,
+   "So vector databases use approximate nearest neighbour indexes."
+  ],
+  [
+   76.009,
+   78.135,
+   "The most popular is HNSW."
+  ],
+  [
+   78.635,
+   81.307,
+   "HNSW stands for Hierarchical Navigable Small World."
+  ],
+  [
+   81.939,
+   84.992,
+   "Picture several layers of graphs. The bottom layer"
+  ],
+  [
+   84.992,
+   88.045,
+   "contains every vector, each linked to its nearest"
+  ],
+  [
+   88.045,
+   88.427,
+   "neighbours."
+  ],
+  [
+   89.058,
+   92.112,
+   "Each layer above keeps a random, much smaller"
+  ],
+  [
+   92.112,
+   93.638,
+   "sample, like express lanes."
+  ],
+  [
+   94.27,
+   97.323,
+   "A search starts at the top, at a"
+  ],
+  [
+   97.323,
+   100.377,
+   "fixed entry point. It greedily hops to whichever"
+  ],
+  [
+   100.377,
+   103.43,
+   "neighbour is closer to the query, until no"
+  ],
+  [
+   103.43,
+   104.193,
+   "neighbour improves."
+  ],
+  [
+   104.825,
+   107.878,
+   "Then it drops a layer, and continues from"
+  ],
+  [
+   107.878,
+   108.26,
+   "there."
+  ],
+  [
+   108.891,
+   111.945,
+   "At the bottom, it keeps a candidate list"
+  ],
+  [
+   111.945,
+   114.998,
+   "of size e f, and returns the best"
+  ],
+  [
+   114.998,
+   115.38,
+   "k."
+  ],
+  [
+   116.011,
+   119.065,
+   "Instead of scanning every point, it visits only"
+  ],
+  [
+   119.065,
+   122.118,
+   "a few dozen. The cost grows roughly with"
+  ],
+  [
+   122.118,
+   124.408,
+   "the logarithm of the collection size."
+  ],
+  [
+   124.908,
+   127.649,
+   "How does a vector get into this structure?"
+  ],
+  [
+   128.281,
+   131.022,
+   "When a new vector is inserted, it draws"
+  ],
+  [
+   131.022,
+   133.763,
+   "a random top layer, using minus the log"
+  ],
+  [
+   133.763,
+   136.504,
+   "of a uniform random number, scaled by one"
+  ],
+  [
+   136.504,
+   138.217,
+   "over the log of M."
+  ],
+  [
+   138.848,
+   141.589,
+   "The result: the chance of reaching layer l"
+  ],
+  [
+   141.589,
+   143.988,
+   "falls as M to the minus l."
+  ],
+  [
+   144.619,
+   147.36,
+   "With a million vectors and M of sixteen,"
+  ],
+  [
+   147.36,
+   150.101,
+   "every vector is on layer zero. About sixty"
+  ],
+  [
+   150.101,
+   152.842,
+   "two thousand reach layer one. Around thirty nine"
+  ],
+  [
+   152.842,
+   155.583,
+   "hundred reach layer two. About two hundred and"
+  ],
+  [
+   155.583,
+   158.324,
+   "forty four reach layer three. And only about"
+  ],
+  [
+   158.324,
+   159.695,
+   "fifteen reach layer four."
+  ],
+  [
+   160.326,
+   163.067,
+   "At each layer, the new vector searches for"
+  ],
+  [
+   163.067,
+   165.808,
+   "its nearest neighbours, and links to up to"
+  ],
+  [
+   165.808,
+   168.549,
+   "M of them. That's why lookups take only"
+  ],
+  [
+   168.549,
+   170.605,
+   "a handful of hops per layer."
+  ],
+  [
+   171.105,
+   174.33,
+   "Qdrant, Mem0's default store, exposes a few knobs."
+  ],
+  [
+   174.961,
+   178.186,
+   "M, the number of links per node: sixteen"
+  ],
+  [
+   178.186,
+   181.411,
+   "by default. More links give better recall, but"
+  ],
+  [
+   181.411,
+   182.62,
+   "use more memory."
+  ],
+  [
+   183.252,
+   186.476,
+   "e f construct, a hundred by default: how"
+  ],
+  [
+   186.476,
+   188.895,
+   "many candidates to consider while building."
+  ],
+  [
+   189.526,
+   192.751,
+   "e f at search time, which by default"
+  ],
+  [
+   192.751,
+   194.363,
+   "matches e f construct."
+  ],
+  [
+   194.995,
+   198.219,
+   "And payload filters, which apply the user and"
+  ],
+  [
+   198.219,
+   201.444,
+   "agent scoping during the search itself, rather than"
+  ],
+  [
+   201.444,
+   202.25,
+   "after it."
+  ]
+ ],
+ "audio": "m0/ch05.wav"
+}

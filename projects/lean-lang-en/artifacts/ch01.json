@@ -1,0 +1,181 @@
+{
+ "pack": "chalk",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Lean language",
+  "issue": "September 2026",
+  "code": "LEAN-4"
+ },
+ "beats": [
+  {
+   "id": "b03",
+   "kind": "divider",
+   "dur": 5.885,
+   "props": {
+    "n": 1,
+    "total": 3,
+    "title": "What Lean Is",
+    "sub": "a language, and a proof checker"
+   }
+  },
+  {
+   "id": "b04",
+   "kind": "statement",
+   "dur": 18.078,
+   "props": {
+    "kicker": "Two things in one",
+    "lines": [
+     "A programming language.",
+     "A theorem prover."
+    ],
+    "accent": 1,
+    "sub": "programs and proofs share one language",
+    "ats": [
+     0.196,
+     0.459
+    ]
+   }
+  },
+  {
+   "id": "b05",
+   "kind": "versus",
+   "dur": 19.963,
+   "props": {
+    "kicker": "How certainty is made",
+    "title": "A test vs a proof",
+    "winner": "right",
+    "left": {
+     "h": "A test",
+     "items": [
+      "pick some inputs",
+      "check the output",
+      "miss one case, miss the bug"
+     ]
+    },
+    "right": {
+     "h": "A proof",
+     "items": [
+      "state a property",
+      "steps the kernel accepts",
+      "holds for every case"
+     ]
+    }
+   }
+  },
+  {
+   "id": "b06",
+   "kind": "list",
+   "dur": 25.854,
+   "props": {
+    "kicker": "The idea under the hood",
+    "title": "Propositions as types",
+    "items": [
+     {
+      "h": "A type",
+      "d": "a kind of thing, like Nat"
+     },
+     {
+      "h": "A claim",
+      "d": "is also a type"
+     },
+     {
+      "h": "A proof",
+      "d": "a program of that type"
+     },
+     {
+      "h": "The kernel",
+      "d": "accepts only a real construction"
+     }
+    ],
+    "ats": [
+     0.073,
+     0.329,
+     0.431,
+     0.687
+    ]
+   }
+  },
+  {
+   "id": "b07",
+   "kind": "statement",
+   "dur": 12.439,
+   "props": {
+    "kicker": "In one line of maths",
+    "lines": [
+     "A proof of P",
+     "is a value of type P."
+    ],
+    "accent": 1,
+    "tex": "P \\;\\;\\text{true} \\;\\iff\\; \\text{inhabit } P",
+    "sub": "if you cannot build it, you cannot claim it",
+    "ats": [
+     0.072,
+     0.2
+    ]
+   }
+  },
+  {
+   "id": "b08",
+   "kind": "flow",
+   "dur": 22.263,
+   "props": {
+    "kicker": "What happens when you hit check",
+    "title": "Theorem to kernel",
+    "steps": [
+     {
+      "h": "Theorem",
+      "d": "the claim"
+     },
+     {
+      "h": "Tactics",
+      "d": "steps you write"
+     },
+     {
+      "h": "Kernel",
+      "d": "yes or no"
+     }
+    ],
+    "ats": [
+     0.158,
+     0.318,
+     0.448
+    ]
+   }
+  },
+  {
+   "id": "b09",
+   "kind": "list",
+   "dur": 23.332,
+   "props": {
+    "kicker": "Lean four, today",
+    "title": "What you are looking at",
+    "items": [
+     {
+      "h": "Lean 4",
+      "d": "rewrite of Lean, in Lean"
+     },
+     {
+      "h": "Mathlib",
+      "d": "a huge library of maths"
+     },
+     {
+      "h": "Lake",
+      "d": "the project build tool"
+     },
+     {
+      "h": "Two jobs",
+      "d": "maths, and software proofs"
+     }
+    ],
+    "ats": [
+     0.049,
+     0.251,
+     0.452,
+     0.701
+    ]
+   }
+  }
+ ],
+ "captions": [],
+ "audio": "ln4/ch01.wav"
+}

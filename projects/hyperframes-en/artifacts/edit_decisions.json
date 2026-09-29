@@ -1,0 +1,1689 @@
+{
+ "cuts": [
+  {
+   "id": "s01_title",
+   "type": "hf_title",
+   "in_seconds": 0.0,
+   "out_seconds": 24.82,
+   "props": {
+    "dur": 25.32
+   }
+  },
+  {
+   "id": "s02_hook",
+   "type": "hf_hook",
+   "in_seconds": 25.32,
+   "out_seconds": 62.887,
+   "props": {
+    "dur": 38.067
+   }
+  },
+  {
+   "id": "s03_why",
+   "type": "hf_bullets",
+   "in_seconds": 63.387,
+   "out_seconds": 105.333,
+   "props": {
+    "kicker": "WHY WRITE VIDEO THIS WAY",
+    "title": "Video that behaves like code",
+    "color": "#38BDF8",
+    "foot": "If you can build a web page, you can already build a frame of video.",
+    "items": [
+     {
+      "h": "No footage, no assets needed",
+      "sub": "type, shapes and gradients are enough",
+      "icon": "\u270d\ufe0f",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "Reuse everything you know",
+      "sub": "HTML, CSS, SVG, the DOM, flexbox",
+      "icon": "\ud83e\uddf1",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "Plain text you can diff and review",
+      "sub": "a video in a pull request",
+      "icon": "\ud83d\udd00",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Deterministic \u2014 same input, same frames",
+      "sub": "re-render any time, byte for byte",
+      "icon": "\ud83c\udfaf",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 42.446
+   }
+  },
+  {
+   "id": "s04_roadmap",
+   "type": "hf_roadmap",
+   "in_seconds": 105.833,
+   "out_seconds": 141.194,
+   "props": {
+    "dur": 35.861
+   }
+  },
+  {
+   "id": "d1",
+   "type": "hf_divider",
+   "in_seconds": 141.694,
+   "out_seconds": 143.54,
+   "props": {
+    "n": 1,
+    "title": "The Workflows",
+    "sub": "one engine, many kinds of video",
+    "color": "#38BDF8",
+    "dur": 2.346
+   }
+  },
+  {
+   "id": "s05_workflows",
+   "type": "hf_bullets",
+   "in_seconds": 144.04,
+   "out_seconds": 186.151,
+   "props": {
+    "kicker": "ONE ENGINE, MANY VIDEOS",
+    "title": "What you can make",
+    "color": "#38BDF8",
+    "foot": "You describe the intent; a workflow scaffolds the right kind of project.",
+    "items": [
+     {
+      "h": "Product launch & website videos",
+      "sub": "promos and tours built from a URL",
+      "icon": "\ud83d\ude80",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "Faceless explainers & PR videos",
+      "sub": "explain a topic, or a code change",
+      "icon": "\ud83d\udca1",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Captions & talking-head recuts",
+      "sub": "subtitles or graphics over footage",
+      "icon": "\ud83e\uddfe",
+      "c": "#FBBF24"
+     },
+     {
+      "h": "Motion graphics, music & slideshows",
+      "sub": "logo stings, beat-synced, decks",
+      "icon": "\ud83c\udf9e\ufe0f",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 42.611
+   }
+  },
+  {
+   "id": "s06_routing",
+   "type": "hf_compare",
+   "in_seconds": 186.651,
+   "out_seconds": 222.609,
+   "props": {
+    "kicker": "PICKING A WORKFLOW",
+    "title": "Routing is about the input",
+    "foot": "One question settles most cases: is the site selling a product, or not?",
+    "left": {
+     "head": "Selling a product",
+     "bad": false,
+     "c": "#38BDF8",
+     "items": [
+      "A SaaS or app URL \u2192 a promo",
+      "The value is the subject",
+      "Product-launch workflow"
+     ]
+    },
+    "right": {
+     "head": "Just showing a site",
+     "bad": false,
+     "c": "#A78BFA",
+     "items": [
+      "Portfolio, blog, docs \u2192 a tour",
+      "The site itself is the subject",
+      "Website-to-video workflow"
+     ]
+    },
+    "dur": 36.458
+   }
+  },
+  {
+   "id": "s07_devloop",
+   "type": "hf_pipeline",
+   "in_seconds": 223.109,
+   "out_seconds": 256.775,
+   "props": {
+    "kicker": "THE DEV LOOP",
+    "title": "How you actually work",
+    "color": "#34D399",
+    "foot": "Write a little, check a lot, preview, then render. That rhythm is the job.",
+    "steps": [
+     {
+      "label": "init",
+      "sub": "scaffold a project",
+      "c": "#38BDF8"
+     },
+     {
+      "label": "write",
+      "sub": "author the HTML",
+      "c": "#38BDF8"
+     },
+     {
+      "label": "check",
+      "sub": "lint, validate, inspect",
+      "c": "#A78BFA"
+     },
+     {
+      "label": "preview",
+      "sub": "edit in Studio",
+      "c": "#FBBF24"
+     },
+     {
+      "label": "render",
+      "sub": "frames \u2192 MP4",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 34.166
+   }
+  },
+  {
+   "id": "d2",
+   "type": "hf_divider",
+   "in_seconds": 257.275,
+   "out_seconds": 260.768,
+   "props": {
+    "n": 2,
+    "title": "The Contract",
+    "sub": "the rules of the file",
+    "color": "#38BDF8",
+    "dur": 3.993
+   }
+  },
+  {
+   "id": "s08_onefile",
+   "type": "hf_code",
+   "in_seconds": 261.268,
+   "out_seconds": 302.281,
+   "props": {
+    "kicker": "THE COMPOSITION",
+    "title": "One file, one composition",
+    "color": "#38BDF8",
+    "codeTitle": "composition.html",
+    "foot": "The root's data-duration \u2014 not the animation length \u2014 sets how long it renders.",
+    "lines": [
+     [
+      [
+       "<div ",
+       "#8090AE"
+      ],
+      [
+       "data-composition-id",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"scene\"",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "     ",
+       "#8090AE"
+      ],
+      [
+       "data-duration",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"6\"",
+       "#34D399"
+      ],
+      [
+       ">",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "  ...",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "</div>",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "The root div IS the composition",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "data-composition-id names it \u2014 the timeline key",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "data-duration is the render length in seconds",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 41.513
+   }
+  },
+  {
+   "id": "s09_clips",
+   "type": "hf_code",
+   "in_seconds": 302.781,
+   "out_seconds": 335.665,
+   "props": {
+    "kicker": "CLIPS",
+    "title": "Elements declare their own timing",
+    "color": "#38BDF8",
+    "codeTitle": "composition.html",
+    "foot": "Timing lives in the markup \u2014 read the HTML, and you can read the schedule.",
+    "lines": [
+     [
+      [
+       "<h1 ",
+       "#8090AE"
+      ],
+      [
+       "class",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"clip\"",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "    ",
+       "#8090AE"
+      ],
+      [
+       "data-start",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"1\"",
+       "#34D399"
+      ],
+      [
+       " ",
+       "#8090AE"
+      ],
+      [
+       "data-duration",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"3\"",
+       "#34D399"
+      ],
+      [
+       ">",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "  Hello",
+       "#EAF1FC"
+      ]
+     ],
+     [
+      [
+       "</h1>",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "class=\"clip\" marks an animatable element",
+      "c": "#A78BFA"
+     },
+     {
+      "text": "data-start times it on the timeline",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "data-duration is how long it lives",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 33.384
+   }
+  },
+  {
+   "id": "s10_tracks",
+   "type": "hf_tracks",
+   "in_seconds": 336.165,
+   "out_seconds": 371.088,
+   "props": {
+    "dur": 35.423
+   }
+  },
+  {
+   "id": "s11_seek",
+   "type": "hf_seek",
+   "in_seconds": 371.588,
+   "out_seconds": 413.874,
+   "props": {
+    "dur": 42.786
+   }
+  },
+  {
+   "id": "s12_subcomp",
+   "type": "hf_subcomp",
+   "in_seconds": 414.374,
+   "out_seconds": 455.317,
+   "props": {
+    "dur": 41.443
+   }
+  },
+  {
+   "id": "s13_rootforms",
+   "type": "hf_compare",
+   "in_seconds": 455.817,
+   "out_seconds": 491.729,
+   "props": {
+    "kicker": "TWO ROOT FORMS",
+    "title": "They are not interchangeable",
+    "foot": "Wrapping a standalone hides everything; forgetting to wrap a sub-comp breaks the mount.",
+    "left": {
+     "head": "Standalone",
+     "bad": false,
+     "c": "#38BDF8",
+     "items": [
+      "Top-level index.html",
+      "Root sits directly in the body",
+      "No template wrapper"
+     ]
+    },
+    "right": {
+     "head": "Sub-composition",
+     "bad": false,
+     "c": "#A78BFA",
+     "items": [
+      "Loaded by another file",
+      "Root wrapped in <template>",
+      "Styles & scripts go inside"
+     ]
+    },
+    "dur": 36.412
+   }
+  },
+  {
+   "id": "s14_media",
+   "type": "hf_code",
+   "in_seconds": 492.229,
+   "out_seconds": 529.464,
+   "props": {
+    "kicker": "MEDIA & VARIABLES",
+    "title": "The framework owns playback",
+    "color": "#38BDF8",
+    "codeTitle": "composition.html",
+    "foot": "Let the framework drive video and audio \u2014 it keeps them in sync with the seek.",
+    "lines": [
+     [
+      [
+       "<video ",
+       "#8090AE"
+      ],
+      [
+       "src",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"clip.mp4\"",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "       ",
+       "#8090AE"
+      ],
+      [
+       "data-volume",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"0.8\"",
+       "#34D399"
+      ],
+      [
+       ">",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "<!-- a direct child of the root -->",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "video and audio go directly under the root",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "the framework owns playback, trim and volume",
+      "c": "#A78BFA"
+     },
+     {
+      "text": "never drive playback yourself",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 37.735
+   }
+  },
+  {
+   "id": "s15_variables",
+   "type": "hf_code",
+   "in_seconds": 529.964,
+   "out_seconds": 566.75,
+   "props": {
+    "kicker": "PARAMETRIZED RENDERS",
+    "title": "One file, many videos",
+    "color": "#38BDF8",
+    "codeTitle": "index.html",
+    "foot": "Declare variables once; pass values at render time to reskin the same composition.",
+    "lines": [
+     [
+      [
+       "<html ",
+       "#8090AE"
+      ],
+      [
+       "data-composition-variables",
+       "#38BDF8"
+      ]
+     ],
+     [
+      [
+       "  ",
+       "#8090AE"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "'{ \"name\": \"Ada\" }'",
+       "#34D399"
+      ],
+      [
+       ">",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "...",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "render --variables ",
+       "#8090AE"
+      ],
+      [
+       "name=Grace",
+       "#34D399"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "declare defaults on the html element",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "override them at render with --variables",
+      "c": "#A78BFA"
+     },
+     {
+      "text": "one composition, a whole batch of videos",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 37.286
+   }
+  },
+  {
+   "id": "s16_determinism",
+   "type": "hf_determinismgrid",
+   "in_seconds": 567.25,
+   "out_seconds": 611.88,
+   "props": {
+    "dur": 45.13
+   }
+  },
+  {
+   "id": "s17_bans",
+   "type": "hf_compare",
+   "in_seconds": 612.38,
+   "out_seconds": 656.16,
+   "props": {
+    "kicker": "WHAT YOU MAY ANIMATE",
+    "title": "Animate transforms, not layout",
+    "foot": "Transforms are cheap and stable; layout properties reflow and desync under a parallel seek.",
+    "left": {
+     "head": "Animate these",
+     "bad": false,
+     "c": "#34D399",
+     "items": [
+      "Transforms: x, y, scale, rotation",
+      "opacity and color",
+      "borderRadius"
+     ]
+    },
+    "right": {
+     "head": "Never these",
+     "bad": true,
+     "c": "#FB7185",
+     "items": [
+      "width / height / top / left",
+      "display / visibility",
+      "measuring layout mid-tween"
+     ]
+    },
+    "dur": 44.28
+   }
+  },
+  {
+   "id": "s18_silentbugs",
+   "type": "hf_bullets",
+   "in_seconds": 656.66,
+   "out_seconds": 704.447,
+   "props": {
+    "kicker": "THE SILENT BUGS",
+    "title": "What the checkers can't catch",
+    "color": "#FB7185",
+    "foot": "So: these pass every static check, then render wrong \u2014 learn them once, and move on.",
+    "items": [
+     {
+      "h": "An unsized root collapses",
+      "sub": "content piles into the top-left corner",
+      "icon": "\ud83d\udcd0",
+      "c": "#FB7185"
+     },
+     {
+      "h": "A background on the root renders black",
+      "sub": "put the fill on a full-bleed child",
+      "icon": "\u26ab",
+      "c": "#FB7185"
+     },
+     {
+      "h": "Duplicate ids render blank",
+      "sub": "ids must be unique across the whole page",
+      "icon": "\ud83c\udd94",
+      "c": "#FB7185"
+     }
+    ],
+    "dur": 48.287
+   }
+  },
+  {
+   "id": "d3",
+   "type": "hf_divider",
+   "in_seconds": 704.947,
+   "out_seconds": 707.92,
+   "props": {
+    "n": 3,
+    "title": "Motion",
+    "sub": "animation that stays seekable",
+    "color": "#A78BFA",
+    "dur": 3.473
+   }
+  },
+  {
+   "id": "s19_seeksafe",
+   "type": "hf_code",
+   "in_seconds": 708.42,
+   "out_seconds": 748.823,
+   "props": {
+    "kicker": "SEEK-SAFE MOTION",
+    "title": "Compute positions once, up front",
+    "color": "#A78BFA",
+    "codeTitle": "scene.js",
+    "foot": "The renderer samples in parallel \u2014 a mid-tween measurement is a different number each time.",
+    "lines": [
+     [
+      [
+       "// once, at setup:",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "const ",
+       "#8090AE"
+      ],
+      [
+       "x0",
+       "#A78BFA"
+      ],
+      [
+       " = ",
+       "#8090AE"
+      ],
+      [
+       "layout",
+       "#EAF1FC"
+      ],
+      [
+       ".",
+       "#8090AE"
+      ],
+      [
+       "cardX",
+       "#EAF1FC"
+      ],
+      [
+       ";",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "// then tween to a constant:",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "tl",
+       "#EAF1FC"
+      ],
+      [
+       ".to(",
+       "#8090AE"
+      ],
+      [
+       "el",
+       "#EAF1FC"
+      ],
+      [
+       ", { ",
+       "#8090AE"
+      ],
+      [
+       "x",
+       "#A78BFA"
+      ],
+      [
+       ": x0 })",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "pre-calculate layout constants at setup",
+      "c": "#A78BFA"
+     },
+     {
+      "text": "never measure the DOM mid-tween",
+      "c": "#FB7185"
+     },
+     {
+      "text": "parallel workers each read a different value",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 40.903
+   }
+  },
+  {
+   "id": "s20_atomic",
+   "type": "hf_bullets",
+   "in_seconds": 749.323,
+   "out_seconds": 789.392,
+   "props": {
+    "kicker": "HOW MOTION IS BUILT",
+    "title": "Compose small rules",
+    "color": "#A78BFA",
+    "foot": "Two to four atomic rules on one paused timeline is most scenes you'll ever build.",
+    "items": [
+     {
+      "h": "Pick two to four atomic rules",
+      "sub": "fade, rise, stagger, draw-on",
+      "icon": "\ud83e\udde9",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Glue them to one paused timeline",
+      "sub": "less code than a template",
+      "icon": "\ud83e\uddf5",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Reach for a blueprint only when complex",
+      "sub": "four-to-five phase choreography",
+      "icon": "\ud83d\udcd0",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 40.569
+   }
+  },
+  {
+   "id": "s21_blueprints",
+   "type": "hf_compare",
+   "in_seconds": 789.892,
+   "out_seconds": 827.719,
+   "props": {
+    "kicker": "RULES VS BLUEPRINTS",
+    "title": "Two ways to reach for motion",
+    "foot": "Start with rules; load a blueprint only when the choreography earns it.",
+    "left": {
+     "head": "Atomic rules",
+     "bad": false,
+     "c": "#A78BFA",
+     "items": [
+      "The default for most scenes",
+      "Compose two to four",
+      "Fastest, least code"
+     ]
+    },
+    "right": {
+     "head": "Blueprints",
+     "bad": false,
+     "c": "#38BDF8",
+     "items": [
+      "Pre-designed multi-phase scenes",
+      "Brand reveal, social proof",
+      "Runnable ground truth"
+     ]
+    },
+    "dur": 38.327
+   }
+  },
+  {
+   "id": "s22_gsap",
+   "type": "hf_code",
+   "in_seconds": 828.219,
+   "out_seconds": 867.204,
+   "props": {
+    "kicker": "THE DEFAULT RUNTIME",
+    "title": "GSAP drives the timeline",
+    "color": "#A78BFA",
+    "codeTitle": "scene.js",
+    "foot": "One paused timeline, registered where the renderer can find it and seek it.",
+    "lines": [
+     [
+      [
+       "const ",
+       "#8090AE"
+      ],
+      [
+       "tl",
+       "#A78BFA"
+      ],
+      [
+       " = ",
+       "#8090AE"
+      ],
+      [
+       "gsap",
+       "#EAF1FC"
+      ],
+      [
+       ".timeline({ ",
+       "#8090AE"
+      ],
+      [
+       "paused",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "true",
+       "#34D399"
+      ],
+      [
+       " })",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "tl",
+       "#A78BFA"
+      ],
+      [
+       ".from(",
+       "#8090AE"
+      ],
+      [
+       "\".clip\"",
+       "#34D399"
+      ],
+      [
+       ", { ",
+       "#8090AE"
+      ],
+      [
+       "y",
+       "#38BDF8"
+      ],
+      [
+       ": 40, ",
+       "#8090AE"
+      ],
+      [
+       "opacity",
+       "#38BDF8"
+      ],
+      [
+       ": 0 })",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "window",
+       "#EAF1FC"
+      ],
+      [
+       ".__timelines[",
+       "#8090AE"
+      ],
+      [
+       "\"scene\"",
+       "#34D399"
+      ],
+      [
+       "] = tl",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "one gsap.timeline, paused, built synchronously",
+      "c": "#A78BFA"
+     },
+     {
+      "text": "register it on window.__timelines",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "the renderer finds it there and seeks it",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 39.485
+   }
+  },
+  {
+   "id": "s23_adapters",
+   "type": "hf_adapters",
+   "in_seconds": 867.704,
+   "out_seconds": 913.05,
+   "props": {
+    "dur": 45.846
+   }
+  },
+  {
+   "id": "s24_transitions",
+   "type": "hf_bullets",
+   "in_seconds": 913.55,
+   "out_seconds": 957.221,
+   "props": {
+    "kicker": "BETWEEN & WITHIN SCENES",
+    "title": "Transitions and text effects",
+    "color": "#A78BFA",
+    "foot": "So: motion carries the eye \u2014 scene to scene, and word to word \u2014 and all of it seeks.",
+    "items": [
+     {
+      "h": "Scene-to-scene transitions",
+      "sub": "CSS-driven, layered between two clips",
+      "icon": "\ud83c\udf9e\ufe0f",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Named text-animation effects",
+      "sub": "reveal, decode, kinetic type",
+      "icon": "\ud83d\udd24",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "An audit tool checks the choreography",
+      "sub": "dead zones, stagger, liveness",
+      "icon": "\ud83d\udcca",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 44.171
+   }
+  },
+  {
+   "id": "d4",
+   "type": "hf_divider",
+   "in_seconds": 957.721,
+   "out_seconds": 961.129,
+   "props": {
+    "n": 4,
+    "title": "Creative Direction",
+    "sub": "make it look produced",
+    "color": "#FBBF24",
+    "dur": 3.908
+   }
+  },
+  {
+   "id": "s25_designspec",
+   "type": "hf_code",
+   "in_seconds": 961.629,
+   "out_seconds": 1000.302,
+   "props": {
+    "kicker": "THE DESIGN SPEC",
+    "title": "One source of brand truth",
+    "color": "#FBBF24",
+    "codeTitle": "frame.md",
+    "foot": "Set the palette, type and tone once; every scene reads from the same tokens.",
+    "lines": [
+     [
+      [
+       "---",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "palette",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "[ink, cyan, amber]",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "font",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "Space Grotesk",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "tone",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "confident, technical",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "---",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "frame.md holds colors, fonts, tone",
+      "c": "#FBBF24"
+     },
+     {
+      "text": "frontmatter tokens are brand truth",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "every scene reads from one place",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 39.173
+   }
+  },
+  {
+   "id": "s26_housestyle",
+   "type": "hf_compare",
+   "in_seconds": 1000.802,
+   "out_seconds": 1043.949,
+   "props": {
+    "kicker": "THE HOUSE STYLE",
+    "title": "A frame is not a web page",
+    "foot": "Video wants density and detail \u2014 interpret the prompt, don't just restyle the words.",
+    "left": {
+     "head": "Produced video",
+     "bad": false,
+     "c": "#34D399",
+     "items": [
+      "Eight to ten elements per scene",
+      "Data readouts, marks, mono detail",
+      "Something moving in every frame"
+     ]
+    },
+    "right": {
+     "head": "Looks generic",
+     "bad": true,
+     "c": "#FB7185",
+     "items": [
+      "One headline on empty space",
+      "A literal restyle of the text",
+      "A frozen, static frame"
+     ]
+    },
+    "dur": 43.647
+   }
+  },
+  {
+   "id": "s27_typography",
+   "type": "hf_bullets",
+   "in_seconds": 1044.449,
+   "out_seconds": 1082.585,
+   "props": {
+    "kicker": "TYPE FOR THE SCREEN",
+    "title": "Typography that survives motion",
+    "color": "#FBBF24",
+    "foot": "Big, few, and hierarchical \u2014 type is most of the design in a faceless video.",
+    "items": [
+     {
+      "h": "One clear hierarchy",
+      "sub": "one hero element per scene",
+      "icon": "\ud83c\udd70\ufe0f",
+      "c": "#FBBF24"
+     },
+     {
+      "h": "Big enough to read on a phone",
+      "sub": "video is watched small",
+      "icon": "\ud83d\udcf1",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "One pairing, used consistently",
+      "sub": "a display face and a mono",
+      "icon": "\ud83d\uddda\ufe0f",
+      "c": "#A78BFA"
+     }
+    ],
+    "dur": 38.636
+   }
+  },
+  {
+   "id": "s28_beats",
+   "type": "hf_pipeline",
+   "in_seconds": 1083.085,
+   "out_seconds": 1119.779,
+   "props": {
+    "kicker": "PLANNING A PIECE",
+    "title": "From palette to a plan",
+    "color": "#FBBF24",
+    "foot": "So: decide the look and the rhythm before you write a single line of HTML.",
+    "steps": [
+     {
+      "label": "palette",
+      "sub": "colors that mean things",
+      "c": "#FBBF24"
+     },
+     {
+      "label": "type",
+      "sub": "one pairing, clear hierarchy",
+      "c": "#38BDF8"
+     },
+     {
+      "label": "narration",
+      "sub": "the spine of the piece",
+      "c": "#A78BFA"
+     },
+     {
+      "label": "beats",
+      "sub": "plan the rhythm",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 37.194
+   }
+  },
+  {
+   "id": "d5",
+   "type": "hf_divider",
+   "in_seconds": 1120.279,
+   "out_seconds": 1123.654,
+   "props": {
+    "n": 5,
+    "title": "Media & Audio",
+    "sub": "voice, music, captions",
+    "color": "#FBBF24",
+    "dur": 3.875
+   }
+  },
+  {
+   "id": "s29_preflight",
+   "type": "hf_bullets",
+   "in_seconds": 1124.154,
+   "out_seconds": 1158.63,
+   "props": {
+    "kicker": "BEFORE ANY AUDIO",
+    "title": "Check sign-in first",
+    "color": "#FBBF24",
+    "foot": "No credential isn't a silent green light for local \u2014 recommend signing in, then let the user choose.",
+    "items": [
+     {
+      "h": "Run the auth status preflight",
+      "sub": "before generating voice or music",
+      "icon": "\ud83d\udd11",
+      "c": "#FBBF24"
+     },
+     {
+      "h": "Signed in \u2192 use the hosted providers",
+      "sub": "best quality, word timestamps",
+      "icon": "\u2601\ufe0f",
+      "c": "#34D399"
+     },
+     {
+      "h": "Not signed in \u2192 offer the choice",
+      "sub": "sign in, or continue offline",
+      "icon": "\ud83d\udd04",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 34.976
+   }
+  },
+  {
+   "id": "s30_audioengine",
+   "type": "hf_audioengine",
+   "in_seconds": 1159.13,
+   "out_seconds": 1201.088,
+   "props": {
+    "dur": 42.458
+   }
+  },
+  {
+   "id": "s31_ttschain",
+   "type": "hf_ttschain",
+   "in_seconds": 1201.588,
+   "out_seconds": 1240.225,
+   "props": {
+    "dur": 39.137
+   }
+  },
+  {
+   "id": "s32_bgmsfx",
+   "type": "hf_bullets",
+   "in_seconds": 1240.725,
+   "out_seconds": 1280.456,
+   "props": {
+    "kicker": "MUSIC & SOUND",
+    "title": "Background music and effects",
+    "color": "#FBBF24",
+    "foot": "Name sound effects concretely; a no-match skips, it never blocks the render.",
+    "items": [
+     {
+      "h": "Music: retrieve, or generate",
+      "sub": "a hosted library, or local generation",
+      "icon": "\ud83c\udfb5",
+      "c": "#FBBF24"
+     },
+     {
+      "h": "Sound effects: retrieve, or a bundled kit",
+      "sub": "ranked by a text query",
+      "icon": "\ud83d\udd0a",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Effects sit quietly under the voice",
+      "sub": "low volume, never competing",
+      "icon": "\ud83c\udf9a\ufe0f",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 40.231
+   }
+  },
+  {
+   "id": "s33_captions",
+   "type": "hf_pipeline",
+   "in_seconds": 1280.956,
+   "out_seconds": 1315.386,
+   "props": {
+    "kicker": "CAPTIONS",
+    "title": "From speech to synced words",
+    "color": "#FBBF24",
+    "foot": "Word timings in, styled captions out \u2014 karaoke, per-word, right on the beat.",
+    "steps": [
+     {
+      "label": "TTS",
+      "sub": "generate the voice",
+      "c": "#FBBF24"
+     },
+     {
+      "label": "transcribe",
+      "sub": "Whisper, word times",
+      "c": "#38BDF8"
+     },
+     {
+      "label": "words",
+      "sub": "id, text, start, end",
+      "c": "#A78BFA"
+     },
+     {
+      "label": "captions",
+      "sub": "styled, synced",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 34.93
+   }
+  },
+  {
+   "id": "s34_transcribe",
+   "type": "hf_code",
+   "in_seconds": 1315.886,
+   "out_seconds": 1353.882,
+   "props": {
+    "kicker": "THE WORD FORMAT",
+    "title": "Captions consume a flat word array",
+    "color": "#FBBF24",
+    "codeTitle": "narration.words.json",
+    "foot": "So: one small, boring format \u2014 id, text, start, end \u2014 powers every caption style.",
+    "lines": [
+     [
+      [
+       "[",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "  { ",
+       "#8090AE"
+      ],
+      [
+       "\"text\"",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "\"hello\"",
+       "#34D399"
+      ],
+      [
+       ", ",
+       "#8090AE"
+      ],
+      [
+       "\"start\"",
+       "#38BDF8"
+      ],
+      [
+       ": 0.0 },",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "  { ",
+       "#8090AE"
+      ],
+      [
+       "\"text\"",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "\"world\"",
+       "#34D399"
+      ],
+      [
+       ", ",
+       "#8090AE"
+      ],
+      [
+       "\"end\"",
+       "#38BDF8"
+      ],
+      [
+       ": 0.6 }",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "]",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "each word: id, text, start, end",
+      "c": "#FBBF24"
+     },
+     {
+      "text": "hosted TTS returns these natively",
+      "c": "#34D399"
+     },
+     {
+      "text": "the others chain a transcription pass",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 38.496
+   }
+  },
+  {
+   "id": "d6",
+   "type": "hf_divider",
+   "in_seconds": 1354.382,
+   "out_seconds": 1357.623,
+   "props": {
+    "n": 6,
+    "title": "Ship It",
+    "sub": "check, preview, render",
+    "color": "#34D399",
+    "dur": 3.741
+   }
+  },
+  {
+   "id": "s35_checks",
+   "type": "hf_pipeline",
+   "in_seconds": 1358.123,
+   "out_seconds": 1399.642,
+   "props": {
+    "kicker": "THREE CHECKERS",
+    "title": "Each catches what the last can't",
+    "color": "#34D399",
+    "foot": "Static, then runtime, then visual \u2014 run all three before you preview.",
+    "steps": [
+     {
+      "label": "lint",
+      "sub": "structure & attributes",
+      "c": "#38BDF8"
+     },
+     {
+      "label": "validate",
+      "sub": "runtime errors, contrast",
+      "c": "#A78BFA"
+     },
+     {
+      "label": "inspect",
+      "sub": "text spilling, off-canvas",
+      "c": "#FBBF24"
+     }
+    ],
+    "dur": 42.019
+   }
+  },
+  {
+   "id": "s36_conventions",
+   "type": "hf_bullets",
+   "in_seconds": 1400.142,
+   "out_seconds": 1434.636,
+   "props": {
+    "kicker": "FOR AGENTS & CI",
+    "title": "Conventions that keep it scriptable",
+    "color": "#34D399",
+    "foot": "Machine-readable output and clear exit codes make the whole loop automatable.",
+    "items": [
+     {
+      "h": "Ask for JSON output",
+      "sub": "structured results for scripts",
+      "icon": "\ud83d\udce6",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "Gate on doctor's ok field",
+      "sub": "it always exits zero on purpose",
+      "icon": "\ud83e\ude7a",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Strict flags fail the build",
+      "sub": "turn warnings into hard errors in CI",
+      "icon": "\ud83d\uded1",
+      "c": "#FB7185"
+     }
+    ],
+    "dur": 34.994
+   }
+  },
+  {
+   "id": "s37_snapshot",
+   "type": "hf_bullets",
+   "in_seconds": 1435.136,
+   "out_seconds": 1472.685,
+   "props": {
+    "kicker": "THE VISUAL SMOKE TEST",
+    "title": "When you nest, snapshot",
+    "color": "#34D399",
+    "foot": "The static checkers test files alone \u2014 only a real load catches a broken mount.",
+    "items": [
+     {
+      "h": "The checkers test files in isolation",
+      "sub": "they never mount sub-compositions",
+      "icon": "\ud83e\udde9",
+      "c": "#FB7185"
+     },
+     {
+      "h": "Snapshot loads it like a real render",
+      "sub": "one frame per sub-comp midpoint",
+      "icon": "\ud83d\udcf8",
+      "c": "#34D399"
+     },
+     {
+      "h": "Then eyeball every frame",
+      "sub": "missing hero, tiny text = a broken mount",
+      "icon": "\ud83d\udc40",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 38.049
+   }
+  },
+  {
+   "id": "s38_studio",
+   "type": "hf_studio",
+   "in_seconds": 1473.185,
+   "out_seconds": 1509.55,
+   "props": {
+    "dur": 36.865
+   }
+  },
+  {
+   "id": "s39_render",
+   "type": "hf_compare",
+   "in_seconds": 1510.05,
+   "out_seconds": 1547.888,
+   "props": {
+    "kicker": "THE RENDER",
+    "title": "Pick the render for the job",
+    "foot": "Draft while you iterate; high to deliver; strict and docker for CI.",
+    "left": {
+     "head": "Everyday",
+     "bad": false,
+     "c": "#34D399",
+     "items": [
+      "draft \u2014 fast, while iterating",
+      "high \u2014 the final delivery",
+      "verify the file exists after"
+     ]
+    },
+    "right": {
+     "head": "For CI",
+     "bad": false,
+     "c": "#38BDF8",
+     "items": [
+      "strict \u2014 fail on lint errors",
+      "docker \u2014 a reproducible host",
+      "then report feedback once"
+     ]
+    },
+    "dur": 38.338
+   }
+  },
+  {
+   "id": "s40_lambda",
+   "type": "hf_lambda",
+   "in_seconds": 1548.388,
+   "out_seconds": 1587.134,
+   "props": {
+    "dur": 39.246
+   }
+  },
+  {
+   "id": "s41_registry",
+   "type": "hf_compare",
+   "in_seconds": 1587.634,
+   "out_seconds": 1627.449,
+   "props": {
+    "kicker": "THE REGISTRY",
+    "title": "Install ready-made pieces",
+    "foot": "The add command pulls a piece in; blocks nest on a track, components paste in.",
+    "left": {
+     "head": "Blocks",
+     "bad": false,
+     "c": "#38BDF8",
+     "items": [
+      "Standalone sub-compositions",
+      "Own size, duration, timeline",
+      "Wired in by src, on a track"
+     ]
+    },
+    "right": {
+     "head": "Components",
+     "bad": false,
+     "c": "#A78BFA",
+     "items": [
+      "Effect snippets, no size",
+      "Pasted into your markup",
+      "A grain overlay, a shimmer"
+     ]
+    },
+    "dur": 40.315
+   }
+  },
+  {
+   "id": "s42_doctor",
+   "type": "hf_bullets",
+   "in_seconds": 1627.949,
+   "out_seconds": 1666.643,
+   "props": {
+    "kicker": "KEEP IT HEALTHY",
+    "title": "The housekeeping that saves you",
+    "color": "#34D399",
+    "foot": "So: a minute of housekeeping beats an hour lost to a stale environment.",
+    "items": [
+     {
+      "h": "doctor checks your environment",
+      "sub": "the right Node, FFmpeg, and more",
+      "icon": "\ud83e\ude7a",
+      "c": "#34D399"
+     },
+     {
+      "h": "Keep the tools and skills current",
+      "sub": "a quick check before a long build",
+      "icon": "\ud83d\udd04",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "Report feedback after a render",
+      "sub": "the project's main signal channel",
+      "icon": "\ud83d\udcac",
+      "c": "#FBBF24"
+     }
+    ],
+    "dur": 39.194
+   }
+  },
+  {
+   "id": "s43_recap",
+   "type": "hf_recap",
+   "in_seconds": 1667.143,
+   "out_seconds": 1720.065,
+   "props": {
+    "items": [
+     "HyperFrames renders video from a single HTML file",
+     "data-* attributes declare duration, timing and tracks",
+     "One paused timeline per composition \u2014 we seek it, never play it",
+     "Determinism: seed randomness, animate transforms, never the clock",
+     "GSAP by default, but seven runtimes all seek as one",
+     "Design for video: dense, hierarchical, always moving",
+     "One audio engine: voice, music, effects and captions \u2014 cloud or local",
+     "Lint, validate, inspect; preview in Studio; then render"
+    ],
+    "closer": "Video you can write, diff, review, and render \u2014 like any other code.",
+    "dur": 53.422
+   }
+  }
+ ],
+ "audio": {
+  "narration": {
+   "src": "hf/narration.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/assets/d1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/assets/s05_workflows.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/assets/s06_routing.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/hyperframes-en/assets/s07_devloop.wav'

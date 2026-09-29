@@ -1,0 +1,544 @@
+{
+  "cuts": [
+    {
+      "id": "augmont_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 18.86,
+      "props": {
+        "title": "Augmont Enterprises IPO",
+        "sub": "Gold & silver platform · ₹825 Cr · 21–25 Aug 2026",
+        "kicker": "IPO ANALYSIS · MAINBOARD",
+        "dur": 19.36
+      }
+    },
+    {
+      "id": "augmont_biz",
+      "type": "sm_iconcards",
+      "in_seconds": 19.36,
+      "out_seconds": 54.586,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "Business Model",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "🥇",
+            "k": "Integrated bullion platform",
+            "v": "Refining, trading, digital gold and jewellery: Augmont connects the precious-metals value chain.",
+            "chip": "GOLD + SILVER"
+          },
+          {
+            "emoji": "📱",
+            "k": "B2B and consumer rails",
+            "v": "Its platforms serve enterprise/international sales and consumers, online and offline.",
+            "chip": "PLATFORM"
+          },
+          {
+            "emoji": "⚠️",
+            "k": "Metal-price sensitivity",
+            "v": "Reported revenue moves mechanically with gold and silver prices; scale is not the same as margin.",
+            "chip": "KEY LENS"
+          }
+        ],
+        "dur": 35.726
+      }
+    },
+    {
+      "id": "augmont_fin",
+      "type": "sm_stats",
+      "in_seconds": 55.086,
+      "out_seconds": 81.244,
+      "props": {
+        "kicker": "FINANCIAL QUALITY",
+        "title": "FY Financials",
+        "stats": [
+          {
+            "label": "Revenue",
+            "to": 94186.21,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#34D399",
+            "sub": "filing evidence"
+          },
+          {
+            "label": "Profit after tax",
+            "to": 348.3,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#34D399",
+            "sub": "0.37% PAT margin"
+          },
+          {
+            "label": "PAT margin",
+            "to": 0.37,
+            "prefix": "",
+            "suffix": "%",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "reported FY26 margin"
+          }
+        ],
+        "note": "FY26 revenue rose with precious-metals throughput; the thin 0.37% PAT margin is the more useful quality check.",
+        "dur": 26.658
+      }
+    },
+    {
+      "id": "augmont_issue",
+      "type": "sm_stats",
+      "in_seconds": 81.744,
+      "out_seconds": 100.366,
+      "props": {
+        "kicker": "OFFER STRUCTURE",
+        "title": "Fresh Issue vs OFS",
+        "stats": [
+          {
+            "label": "Total offer",
+            "to": 825.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#FBBF24",
+            "sub": "offer terms"
+          },
+          {
+            "label": "Fresh — company receives",
+            "to": 620.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#34D399",
+            "sub": "new capital"
+          },
+          {
+            "label": "OFS — sellers receive",
+            "to": 205.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "color": "#FB7185",
+            "sub": "shareholder exit"
+          }
+        ],
+        "note": "Fresh funds enter the company. OFS proceeds go to selling shareholders.",
+        "dur": 19.122
+      }
+    },
+    {
+      "id": "augmont_proceeds",
+      "type": "sm_iconcards",
+      "in_seconds": 100.866,
+      "out_seconds": 135.684,
+      "props": {
+        "kicker": "USE OF PROCEEDS",
+        "title": "What Fresh Capital Funds",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "📦",
+            "k": "₹465 Cr working capital",
+            "v": "Funds inventory procurement, maintenance and advance margins — the core use of the fresh issue.",
+            "chip": "75% OF FRESH"
+          },
+          {
+            "emoji": "👥",
+            "k": "₹205 Cr to selling promoters",
+            "v": "The OFS proceeds do not go into Augmont.",
+            "chip": "OFS"
+          },
+          {
+            "emoji": "⚠️",
+            "k": "Gold-price and concentration risk",
+            "v": "The RHP flags revenue linkage to metal prices and reliance on key customers.",
+            "chip": "RHP RISKS"
+          }
+        ],
+        "dur": 35.318
+      }
+    },
+    {
+      "id": "augmont_peers",
+      "type": "sm_peers",
+      "in_seconds": 136.184,
+      "out_seconds": 147.87,
+      "props": {
+        "kicker": "COMPETITORS · VALUATION",
+        "title": "Peer Comparison",
+        "color": "#FBBF24",
+        "rows": [
+          {
+            "name": "Augmont IPO",
+            "pe": null,
+            "note": "RHP says no true listed peer",
+            "hi": true
+          },
+          {
+            "name": "No comparable listed peer",
+            "pe": null,
+            "note": "No P/E benchmark supplied",
+            "hi": false
+          }
+        ],
+        "verdict": "No clean listed peer: assess working-capital intensity and margin, not a borrowed peer multiple.",
+        "dur": 12.186
+      }
+    },
+    {
+      "id": "augmont_verdict",
+      "type": "sm_myths",
+      "in_seconds": 148.37,
+      "out_seconds": 187.1,
+      "props": {
+        "kicker": "CONSOLIDATED ANALYSIS",
+        "title": "Strengths vs Watch-outs",
+        "mythLabel": "⚠️ WATCH-OUTS",
+        "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+        "pairs": [
+          {
+            "m": "Revenue is mechanically linked to gold/silver prices",
+            "f": "Fresh capital supports inventory and working-capital scale"
+          },
+          {
+            "m": "Very thin FY26 PAT margin: 0.37%",
+            "f": "Integrated platform across bullion, digital and jewellery"
+          },
+          {
+            "m": "A quarter of the deal is promoter OFS",
+            "f": "RHP-backed disclosure, not a grey-market thesis"
+          }
+        ],
+        "dur": 39.23
+      }
+    },
+    {
+      "id": "augmont_retail",
+      "type": "sm_iconcards",
+      "in_seconds": 187.6,
+      "out_seconds": 212.556,
+      "props": {
+        "kicker": "HOW TO APPLY · RETAIL VS HNI",
+        "title": "Check Terms Before You Bid",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "🧑",
+            "k": "Retail cap",
+            "v": "Up to ₹2 lakh; allocation can be lottery-based when oversubscribed.",
+            "chip": "RII"
+          },
+          {
+            "emoji": "💼",
+            "k": "HNI",
+            "v": "Above ₹2 lakh; allocation is proportionate.",
+            "chip": "NII"
+          },
+          {
+            "emoji": "💰",
+            "k": "Minimum bid",
+            "v": "₹14,972 (19 shares × ₹788)",
+            "chip": "MIN BID"
+          },
+          {
+            "emoji": "🔎",
+            "k": "Verify live",
+            "v": "Read the final RHP and the NSE/BSE subscription data.",
+            "chip": "SOURCES"
+          }
+        ],
+        "dur": 25.456
+      }
+    },
+    {
+      "id": "augmont_recap",
+      "type": "sm_recap",
+      "in_seconds": 213.056,
+      "out_seconds": 279.142,
+      "props": {
+        "title": "Augmont Enterprises IPO — Evidence Recap",
+        "items": [
+          "FY data: revenue ₹94,186.21 Cr · PAT ₹348.30 Cr · 0.37% PAT margin",
+          "Offer: ₹825 Cr · fresh ₹620 Cr · OFS ₹205 Cr",
+          "Competitor lens: No clean listed peer: assess working-capital intensity and margin, not a borrowed peer multiple.",
+          "Evidence: Final RHP: Augmont Enterprises, FY26 financials / Objects of Offer / risk factors; price terms from offer announcement."
+        ],
+        "closer": "Read the final RHP. Decide for yourself.",
+        "dur": 66.586
+      }
+    }
+  ],
+  "captions": [
+    [
+      0.0,
+      3.048,
+      "This is Augmont Enterprises IPO."
+    ],
+    [
+      3.048,
+      9.049,
+      "We will use the IPOAgents filing evidence to test the business,"
+    ],
+    [
+      9.049,
+      12.859,
+      "financial quality, where the money goes,"
+    ],
+    [
+      12.859,
+      14.955,
+      "competitors and risks."
+    ],
+    [
+      14.955,
+      18.86,
+      "This is education, not investment advice."
+    ],
+    [
+      19.36,
+      21.259,
+      "First, the business."
+    ],
+    [
+      21.259,
+      23.918,
+      "Integrated bullion platform."
+    ],
+    [
+      23.918,
+      25.627,
+      "Refining, trading,"
+    ],
+    [
+      25.627,
+      32.938,
+      "digital gold and jewellery: Augmont connects the precious-metals value chain."
+    ],
+    [
+      32.938,
+      35.121,
+      "B2B and consumer rails."
+    ],
+    [
+      35.121,
+      41.293,
+      "Its platforms serve enterprise/international sales and consumers,"
+    ],
+    [
+      41.293,
+      43.097,
+      "online and offline."
+    ],
+    [
+      43.097,
+      45.376,
+      "Metal-price sensitivity."
+    ],
+    [
+      45.376,
+      54.586,
+      "Reported revenue moves mechanically with gold and silver prices; scale is not the same as margin."
+    ],
+    [
+      55.086,
+      61.314,
+      "The financial checkpoint is revenue ₹94,186.21 Cr,"
+    ],
+    [
+      61.314,
+      67.542,
+      "profit after tax ₹348.30 Cr, and 0.37% PAT margin."
+    ],
+    [
+      67.542,
+      81.244,
+      "FY26 revenue rose with precious-metals throughput; the thin 0.37% PAT margin is the more useful quality check."
+    ],
+    [
+      81.744,
+      90.697,
+      "The offer is ₹825 Cr: ₹620 Cr is fresh money and ₹205 Cr is offer for sale."
+    ],
+    [
+      90.697,
+      94.397,
+      "Fresh money enters the company."
+    ],
+    [
+      94.397,
+      100.366,
+      "Offer-for-sale money goes to selling shareholders."
+    ],
+    [
+      100.866,
+      103.677,
+      "Where does fresh money go?"
+    ],
+    [
+      103.677,
+      106.273,
+      "₹465 Cr working capital."
+    ],
+    [
+      106.273,
+      109.3,
+      "Funds inventory procurement,"
+    ],
+    [
+      109.3,
+      112.868,
+      "maintenance and advance margins —"
+    ],
+    [
+      112.868,
+      116.329,
+      "the core use of the fresh issue."
+    ],
+    [
+      116.329,
+      119.464,
+      "₹205 Cr to selling promoters."
+    ],
+    [
+      119.464,
+      123.79,
+      "The OFS proceeds do not go into Augmont."
+    ],
+    [
+      123.79,
+      127.466,
+      "Gold-price and concentration risk."
+    ],
+    [
+      127.466,
+      135.684,
+      "The RHP flags revenue linkage to metal prices and reliance on key customers."
+    ],
+    [
+      136.184,
+      138.989,
+      "Now competitors and valuation."
+    ],
+    [
+      138.989,
+      145.159,
+      "No clean listed peer: assess working-capital intensity and margin,"
+    ],
+    [
+      145.159,
+      147.87,
+      "not a borrowed peer multiple."
+    ],
+    [
+      148.37,
+      150.556,
+      "Balance the evidence."
+    ],
+    [
+      150.556,
+      157.22,
+      "Watch-out: Revenue is mechanically linked to gold/silver prices."
+    ],
+    [
+      157.22,
+      164.403,
+      "Strength: Fresh capital supports inventory and working-capital scale."
+    ],
+    [
+      164.403,
+      168.984,
+      "Watch-out: Very thin FY26 PAT margin: 0.37%."
+    ],
+    [
+      168.984,
+      173.669,
+      "Strength: Integrated platform across bullion,"
+    ],
+    [
+      173.669,
+      175.96,
+      "digital and jewellery."
+    ],
+    [
+      175.96,
+      181.061,
+      "Watch-out: A quarter of the deal is promoter OFS."
+    ],
+    [
+      181.061,
+      187.1,
+      "Strength: RHP-backed disclosure, not a grey-market thesis."
+    ],
+    [
+      187.6,
+      189.775,
+      "For retail investors,"
+    ],
+    [
+      189.775,
+      194.849,
+      "the stated minimum is ₹14,972 (19 shares × ₹788)."
+    ],
+    [
+      194.849,
+      205.722,
+      "Retail bids are capped at two lakh rupees and allotment can be a lottery when an offer is oversubscribed."
+    ],
+    [
+      205.722,
+      212.556,
+      "Check the exchange pages and final RHP before making any decision."
+    ],
+    [
+      213.056,
+      214.519,
+      "Let's recap."
+    ],
+    [
+      214.519,
+      238.295,
+      "FY data: revenue ₹94,186.21 Cr · PAT ₹348.30 Cr · 0.37% PAT margin Offer: ₹825 Cr · fresh ₹620 Cr · OFS ₹205 Cr Competitor lens: No clean listed peer: assess working-capital intensity and margin,"
+    ],
+    [
+      238.295,
+      241.831,
+      "not a borrowed peer multiple."
+    ],
+    [
+      241.831,
+      246.831,
+      "Evidence: Final RHP: Augmont Enterprises,"
+    ],
+    [
+      246.831,
+      257.438,
+      "FY26 financials / Objects of Offer / risk factors; price terms from offer announcement."
+    ],
+    [
+      257.438,
+      261.34,
+      "This is public-source education,"
+    ],
+    [
+      261.34,
+      266.705,
+      "not investment advice or a buy or sell call."
+    ],
+    [
+      266.705,
+      269.022,
+      "Read the final RHP,"
+    ],
+    [
+      269.022,
+      276.703,
+      "verify live subscription and consult a SEBI-registered advisor."
+    ],
+    [
+      276.703,
+      279.142,
+      "Thanks for watching."
+    ]
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/augmont.wav",
+      "volume": 1.0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/ch02_luck-close_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/ch02_luck-close_c1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/ch02_luck-close_c2.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/ch02_luck-close_c3.wav'

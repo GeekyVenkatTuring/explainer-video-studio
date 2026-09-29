@@ -1,0 +1,328 @@
+1
+00:00:00,000 --> 00:00:04,284
+This is the Orient Cables (India) I P O, a mainboard offer,
+
+2
+00:00:04,284 --> 00:00:08,640
+open from the twenty-fifth to the twenty-ninth of September.
+
+3
+00:00:09,140 --> 00:00:12,172
+The price band is ₹258 to ₹272.
+
+4
+00:00:12,172 --> 00:00:18,138
+Every figure here comes from the final red herring prospectus
+
+5
+00:00:18,138 --> 00:00:20,192
+and exchange notices;
+
+6
+00:00:20,192 --> 00:00:24,006
+the final price is fixed after bidding,
+
+7
+00:00:24,006 --> 00:00:28,212
+so valuations are computed at the ₹272 cap.
+
+8
+00:00:28,712 --> 00:00:29,949
+First, the business.
+
+9
+00:00:30,449 --> 00:00:33,351
+Orient Cables makes networking cables,
+
+10
+00:00:33,351 --> 00:00:36,786
+the LAN cables inside offices and data rooms,
+
+11
+00:00:36,786 --> 00:00:38,924
+plus specialty power cables,
+
+12
+00:00:38,924 --> 00:00:42,055
+optical-fibre cables and cable harnesses,
+
+13
+00:00:42,055 --> 00:00:44,956
+including E V charging-gun assemblies.
+
+14
+00:00:45,456 --> 00:00:50,977
+The RHP's industry report puts it among India's top four
+
+15
+00:00:50,977 --> 00:00:53,344
+networking-cable makers,
+
+16
+00:00:53,344 --> 00:00:56,400
+with about 22.9% share in FY26.
+
+17
+00:00:56,900 --> 00:01:00,456
+It runs two plants in Bhiwadi, Rajasthan,
+
+18
+00:01:00,456 --> 00:01:04,879
+and a new Bengaluru plant that started in May 2026.
+
+19
+00:01:05,379 --> 00:01:06,979
+The financial checkpoint.
+
+20
+00:01:07,479 --> 00:01:19,884
+FY26 revenue was ₹1,171.65 Cr, against ₹824.96 Cr in FY25,
+
+21
+00:01:19,884 --> 00:01:23,948
+a change of 42.03%.
+
+22
+00:01:24,448 --> 00:01:31,744
+Profit after tax was ₹53.81 Cr, a margin of 4.59%.
+
+23
+00:01:32,244 --> 00:01:33,247
+Here is the catch.
+
+24
+00:01:33,747 --> 00:01:40,792
+Revenue grew 42.03%, but profit barely moved,
+
+25
+00:01:40,792 --> 00:01:45,176
+from ₹53.32 Cr to ₹53.81 Cr,
+
+26
+00:01:45,176 --> 00:01:51,283
+so the margin fell from 6.46% to 4.59%.
+
+27
+00:01:51,783 --> 00:01:56,040
+The June 2026 quarter looked stronger:
+
+28
+00:01:56,040 --> 00:02:01,194
+₹489.16 Cr of revenue and ₹33.22 Cr of profit,
+
+29
+00:02:01,194 --> 00:02:06,012
+though a single quarter is not a full year.
+
+30
+00:02:06,512 --> 00:02:10,864
+The offer size at the cap is ₹552.00 Cr.
+
+31
+00:02:11,364 --> 00:02:16,190
+₹320.00 Cr is fresh issue that goes into the company,
+
+32
+00:02:16,190 --> 00:02:22,564
+and ₹232.00 Cr is an offer for sale that goes to selling shareholders.
+
+33
+00:02:23,064 --> 00:02:27,524
+So 57.97% of the deal is new capital,
+
+34
+00:02:27,524 --> 00:02:32,707
+and 42.03% is an exit for existing holders.
+
+35
+00:02:33,207 --> 00:02:34,529
+Where does the money go?
+
+36
+00:02:35,029 --> 00:02:43,349
+Of the ₹320.00 Cr fresh issue, ₹155.50 Cr repays debt.
+
+37
+00:02:43,849 --> 00:02:48,208
+₹91.50 Cr goes to machinery and civil works,
+
+38
+00:02:48,208 --> 00:02:52,468
+and the rest to general corporate purposes.
+
+39
+00:02:52,968 --> 00:03:00,037
+The ₹232.00 Cr offer for sale goes to the promoter family and its two trusts,
+
+40
+00:03:00,037 --> 00:03:07,197
+whose average acquisition cost the ad lists as between zero and ₹0.01 a share.
+
+41
+00:03:07,697 --> 00:03:09,063
+Now, valuation.
+
+42
+00:03:09,563 --> 00:03:12,105
+At the ₹272 cap,
+
+43
+00:03:12,105 --> 00:03:20,528
+the price is 51.61x FY26 earnings per share of ₹5.27.
+
+44
+00:03:21,028 --> 00:03:28,361
+That sits near the top of its listed cable peers:
+
+45
+00:03:28,361 --> 00:03:35,844
+Finolex at 26.29x, Havells 42.69x, Polycab 46.69x,
+
+46
+00:03:35,844 --> 00:03:40,633
+KEI 48.99x and R R Kabel 54.85x.
+
+47
+00:03:41,133 --> 00:03:47,658
+The RHP's 128.11x industry average is pulled up by Sterlite
+
+48
+00:03:47,658 --> 00:03:50,312
+Technologies at 708.38x,
+
+49
+00:03:50,312 --> 00:03:54,957
+so the peer range is the fairer yardstick.
+
+50
+00:03:55,457 --> 00:03:56,951
+Now balance the evidence.
+
+51
+00:03:57,451 --> 00:03:58,589
+Watch-out:
+
+52
+00:03:58,589 --> 00:04:02,574
+PAT flat while revenue grew 42.03%.
+
+53
+00:04:02,574 --> 00:04:03,598
+Strength:
+
+54
+00:04:03,598 --> 00:04:09,632
+About 22.9% share of India's networking-cable market.
+
+55
+00:04:10,132 --> 00:04:11,560
+Watch-out:
+
+56
+00:04:11,560 --> 00:04:17,413
+51.61x P/E, near the top of listed peers.
+
+57
+00:04:17,413 --> 00:04:18,698
+Strength:
+
+58
+00:04:18,698 --> 00:04:20,840
+Strong Q1 FY27:
+
+59
+00:04:20,840 --> 00:04:24,980
+₹33.22 Cr PAT in one quarter.
+
+60
+00:04:25,480 --> 00:04:26,884
+Watch-out:
+
+61
+00:04:26,884 --> 00:04:31,940
+42.03% of the offer is promoter OFS.
+
+62
+00:04:31,940 --> 00:04:33,203
+Strength:
+
+63
+00:04:33,203 --> 00:04:38,259
+₹155.50 Cr of fresh money cuts debt.
+
+64
+00:04:38,759 --> 00:04:39,889
+How to apply.
+
+65
+00:04:40,389 --> 00:04:44,832
+The minimum bid is one lot of 55 shares,
+
+66
+00:04:44,832 --> 00:04:47,941
+which is ₹14,960 at the cap.
+
+67
+00:04:48,441 --> 00:04:51,917
+Retail investors can bid up to two lakh rupees,
+
+68
+00:04:51,917 --> 00:04:56,057
+and allotment is by lottery if retail is oversubscribed.
+
+69
+00:04:56,557 --> 00:05:01,100
+Check live subscription on the N S E or B S E website,
+
+70
+00:05:01,100 --> 00:05:02,531
+not social media.
+
+71
+00:05:03,031 --> 00:05:03,991
+Let's recap.
+
+72
+00:05:04,491 --> 00:05:10,703
+FY26 revenue ₹1,171.65 Cr, profit ₹53.81 Cr.
+
+73
+00:05:10,703 --> 00:05:19,599
+The offer is ₹552.00 Cr, of which ₹232.00 Cr is offer for sale.
+
+74
+00:05:19,599 --> 00:05:25,247
+Valuation is 51.61x earnings at the cap.
+
+75
+00:05:25,247 --> 00:05:30,048
+The minimum investment is ₹14,960.
+
+76
+00:05:30,548 --> 00:05:34,722
+This video is public-source education from the red herring
+
+77
+00:05:34,722 --> 00:05:37,024
+prospectus and exchange notices.
+
+78
+00:05:37,024 --> 00:05:40,982
+It is not investment advice and not a buy or sell call.
+
+79
+00:05:40,982 --> 00:05:42,781
+Read the final documents,
+
+80
+00:05:42,781 --> 00:05:45,660
+check live subscription on the exchange,
+
+81
+00:05:45,660 --> 00:05:48,394
+and consult a SEBI-registered adviser.
+
+82
+00:05:48,394 --> 00:05:49,833
+Thanks for watching.
+

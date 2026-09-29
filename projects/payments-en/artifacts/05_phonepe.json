@@ -1,0 +1,629 @@
+{
+ "cuts": [
+  {
+   "id": "05_phonepe_title",
+   "type": "pg_title",
+   "in_seconds": 0.0,
+   "out_seconds": 21.697,
+   "props": {
+    "gateway": "PhonePe",
+    "tagline": "UPI-native scale, promo pricing \u2014 details on request",
+    "accent": "#5F259F",
+    "kicker": "PAYMENT GATEWAYS \u00b7 DEVELOPER GUIDE",
+    "dur": 22.197
+   }
+  },
+  {
+   "id": "05_phonepe_docs",
+   "type": "pg_docs",
+   "in_seconds": 22.197,
+   "out_seconds": 51.186,
+   "props": {
+    "gateway": "PhonePe",
+    "accent": "#5F259F",
+    "url": "business.phonepe.com/payment-gateway",
+    "docsUrl": "developer.phonepe.com",
+    "signupUrl": "business.phonepe.com/dashboard",
+    "sandbox": true,
+    "kyc": [
+     "Business & signatory PAN",
+     "Bank proof",
+     "Business-registration / GST",
+     "Address proof",
+     "Website/app"
+    ],
+    "methods": [
+     "UPI",
+     "Cards",
+     "Net banking",
+     "Hosted PG"
+    ],
+    "dur": 29.489
+   }
+  },
+  {
+   "id": "05_phonepe_support",
+   "type": "pg_support",
+   "in_seconds": 51.686,
+   "out_seconds": 73.369,
+   "props": {
+    "gateway": "PhonePe",
+    "accent": "#5F259F",
+    "channels": [
+     {
+      "icon": "\ud83d\udd50",
+      "label": "24/7 dashboard support",
+      "value": "Business Dashboard",
+      "live": true
+     },
+     {
+      "icon": "\u2709\ufe0f",
+      "label": "Contact",
+      "value": "phonepe.com/contact-us",
+      "live": true
+     },
+     {
+      "icon": "\ud83d\udcda",
+      "label": "Docs",
+      "value": "developer.phonepe.com",
+      "live": true
+     },
+     {
+      "icon": "\u260e",
+      "label": "Phone",
+      "value": "not published",
+      "live": false
+     }
+    ],
+    "dur": 22.183
+   }
+  },
+  {
+   "id": "05_phonepe_metrics",
+   "type": "pg_metrics",
+   "in_seconds": 73.869,
+   "out_seconds": 94.906,
+   "props": {
+    "gateway": "PhonePe",
+    "accent": "#5F259F",
+    "settleDay": 0,
+    "settleNote": "not disclosed on the PG page \u2014 verify",
+    "instant": false,
+    "settleUnknown": true,
+    "successNote": "No official figure (markets high UPI acceptance)",
+    "complexity": 2,
+    "complexityLabel": "Easy\u2013Medium",
+    "complexityWhy": "Order \u2192 redirect \u2192 status-check flow",
+    "dur": 21.537
+   }
+  },
+  {
+   "id": "05_phonepe_pricing",
+   "type": "pg_pricing",
+   "in_seconds": 95.406,
+   "out_seconds": 121.45,
+   "props": {
+    "gateway": "PhonePe",
+    "accent": "#5F259F",
+    "rows": [
+     {
+      "icon": "\ud83d\udcb3",
+      "label": "All methods (promo)",
+      "rate": "1.99%*",
+      "feePct": 1.99,
+      "note": "limited-period offer"
+     },
+     {
+      "icon": "\ud83d\udccb",
+      "label": "Per-method breakdown",
+      "rate": "contact sales"
+     }
+    ],
+    "foot": "Setup \u20b90 \u00b7 per-instrument card not public \u2014 contact sales",
+    "dur": 26.544
+   }
+  },
+  {
+   "id": "05_phonepe_flow",
+   "type": "pg_flow",
+   "in_seconds": 121.95,
+   "out_seconds": 144.403,
+   "props": {
+    "gateway": "PhonePe",
+    "accent": "#5F259F",
+    "steps": [
+     {
+      "emoji": "\ud83e\uddfe",
+      "label": "Create pay request",
+      "sub": "server \u00b7 X-VERIFY"
+     },
+     {
+      "emoji": "\u21aa\ufe0f",
+      "label": "Redirect",
+      "sub": "customer \u2192 PhonePe"
+     },
+     {
+      "emoji": "\ud83d\udcb3",
+      "label": "Customer pays",
+      "sub": "chosen method"
+     },
+     {
+      "emoji": "\ud83d\udd14",
+      "label": "Callback",
+      "sub": "server receives result"
+     },
+     {
+      "emoji": "\u2705",
+      "label": "Status check",
+      "sub": "server confirms"
+     }
+    ],
+    "dur": 22.953
+   }
+  },
+  {
+   "id": "05_phonepe_code",
+   "type": "pg_code",
+   "in_seconds": 144.903,
+   "out_seconds": 165.675,
+   "props": {
+    "gateway": "PhonePe",
+    "accent": "#5F259F",
+    "lang": "node",
+    "file": "pay.js",
+    "lines": [
+     "const payload = Buffer.from(JSON.stringify(body)).toString(\"base64\");",
+     "const xVerify = sha256(payload + \"/pg/v1/pay\" + SALT_KEY)",
+     "  + \"###\" + SALT_INDEX;",
+     "// POST { request: payload }",
+     "// with header X-VERIFY: xVerify",
+     "// Check final status server-side."
+    ],
+    "docUrl": "developer.phonepe.com",
+    "caption": "Sign the request and query final status from your server.",
+    "dur": 21.272
+   }
+  },
+  {
+   "id": "05_phonepe_recap",
+   "type": "pg_recap",
+   "in_seconds": 166.175,
+   "out_seconds": 189.106,
+   "props": {
+    "title": "PhonePe in one breath",
+    "items": [
+     "UPI-native positioning",
+     "1.99% limited promo; method breakdown not public",
+     "\u20b90 setup",
+     "Settlement timing not disclosed publicly",
+     "Dashboard support and X-VERIFY flow"
+    ],
+    "closer": "Strong UPI positioning, but obtain the commercial detail in writing.",
+    "dur": 23.431
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.363,
+   "Let's look at PhonePe from a developer's point"
+  ],
+  [
+   3.363,
+   4.203,
+   "of view."
+  ],
+  [
+   4.753,
+   5.594,
+   "UPI-native scale,"
+  ],
+  [
+   5.594,
+   8.116,
+   "promo pricing \u2014 details on request."
+  ],
+  [
+   8.666,
+   11.188,
+   "We'll walk its docs and KYC,"
+  ],
+  [
+   11.188,
+   12.449,
+   "its support channels,"
+  ],
+  [
+   12.449,
+   12.87,
+   "settlement,"
+  ],
+  [
+   12.87,
+   14.131,
+   "success and effort,"
+  ],
+  [
+   14.131,
+   16.653,
+   "exact pricing for every payment method,"
+  ],
+  [
+   16.653,
+   20.016,
+   "and a real integration call \u2014 everything you"
+  ],
+  [
+   20.016,
+   21.697,
+   "want before you commit."
+  ],
+  [
+   22.197,
+   24.02,
+   "Everything starts at developer.phonepe.com."
+  ],
+  [
+   24.57,
+   25.481,
+   "For access,"
+  ],
+  [
+   25.481,
+   29.126,
+   "you get test-mode keys the moment you sign"
+  ],
+  [
+   29.126,
+   29.582,
+   "up,"
+  ],
+  [
+   29.582,
+   31.404,
+   "before any paperwork clears."
+  ],
+  [
+   31.954,
+   35.6,
+   "To go live you complete KYC \u2014 Business"
+  ],
+  [
+   35.6,
+   36.967,
+   "& signatory PAN,"
+  ],
+  [
+   36.967,
+   37.878,
+   "Bank proof,"
+  ],
+  [
+   37.878,
+   39.245,
+   "Business-registration / GST,"
+  ],
+  [
+   39.245,
+   42.89,
+   "and more \u2014 and it's worth confirming the"
+  ],
+  [
+   42.89,
+   45.624,
+   "exact list in the live dashboard."
+  ],
+  [
+   46.174,
+   48.452,
+   "The methods you can accept:"
+  ],
+  [
+   48.452,
+   48.908,
+   "UPI,"
+  ],
+  [
+   48.908,
+   49.363,
+   "Cards,"
+  ],
+  [
+   49.363,
+   50.275,
+   "Net banking,"
+  ],
+  [
+   50.275,
+   51.186,
+   "Hosted PG."
+  ],
+  [
+   51.686,
+   52.576,
+   "Now support,"
+  ],
+  [
+   52.576,
+   54.802,
+   "shown honestly as published routes,"
+  ],
+  [
+   54.802,
+   56.583,
+   "not promised service levels."
+  ],
+  [
+   57.133,
+   60.249,
+   "Your live channels are 24/7 dashboard support,"
+  ],
+  [
+   60.249,
+   60.694,
+   "contact,"
+  ],
+  [
+   60.694,
+   61.14,
+   "docs."
+  ],
+  [
+   61.69,
+   65.251,
+   "There's no published phone number \u2014 this is"
+  ],
+  [
+   65.251,
+   66.141,
+   "a dashboard,"
+  ],
+  [
+   66.141,
+   67.922,
+   "ticket and docs-first setup."
+  ],
+  [
+   68.472,
+   72.033,
+   "A grey item means the provider simply doesn't"
+  ],
+  [
+   72.033,
+   73.369,
+   "publish that route."
+  ],
+  [
+   73.869,
+   75.222,
+   "Three operational checks."
+  ],
+  [
+   75.772,
+   79.378,
+   "On settlement \u2014 not disclosed on the PG"
+  ],
+  [
+   79.378,
+   80.731,
+   "page \u2014 verify."
+  ],
+  [
+   81.281,
+   84.888,
+   "On success rate \u2014 No official figure (markets"
+  ],
+  [
+   84.888,
+   86.241,
+   "high UPI acceptance);"
+  ],
+  [
+   86.241,
+   88.946,
+   "we won't quote a made-up percentage."
+  ],
+  [
+   89.496,
+   93.103,
+   "And integration effort is Easy\u2013Medium \u2014 Order \u2192"
+  ],
+  [
+   93.103,
+   94.906,
+   "redirect \u2192 status-check flow."
+  ],
+  [
+   95.406,
+   99.02,
+   "Now pricing \u2014 the part you actually budget"
+  ],
+  [
+   99.02,
+   99.472,
+   "for."
+  ],
+  [
+   100.022,
+   103.184,
+   "PhonePe lists all methods (promo) at 1.99%*;"
+  ],
+  [
+   103.184,
+   105.443,
+   "per-method breakdown at contact sales."
+  ],
+  [
+   105.993,
+   108.251,
+   "Where a row says custom,"
+  ],
+  [
+   108.251,
+   108.703,
+   "varies,"
+  ],
+  [
+   108.703,
+   110.058,
+   "or contact sales,"
+  ],
+  [
+   110.058,
+   113.672,
+   "keep it exactly that vague in your model"
+  ],
+  [
+   113.672,
+   116.383,
+   "\u2014 don't invent a precise number."
+  ],
+  [
+   116.933,
+   120.547,
+   "Setup \u20b90 \u00b7 per-instrument card not public \u2014"
+  ],
+  [
+   120.547,
+   121.45,
+   "contact sales."
+  ],
+  [
+   121.95,
+   123.343,
+   "The integration runs:"
+  ],
+  [
+   123.343,
+   127.056,
+   "Create pay request \u2192 Redirect \u2192 Customer pays"
+  ],
+  [
+   127.056,
+   129.377,
+   "\u2192 Callback \u2192 Status check."
+  ],
+  [
+   129.927,
+   132.712,
+   "Create the intent on your server,"
+  ],
+  [
+   132.712,
+   135.962,
+   "hand the client only what checkout needs,"
+  ],
+  [
+   135.962,
+   139.675,
+   "then confirm status and signatures server-side\nbefore you"
+  ],
+  [
+   139.675,
+   140.139,
+   "fulfil."
+  ],
+  [
+   140.689,
+   144.403,
+   "A browser redirect is never proof of payment."
+  ],
+  [
+   144.903,
+   147.648,
+   "Here's the representative call \u2014 pay.js."
+  ],
+  [
+   148.198,
+   151.858,
+   "Sign the request and query final status from"
+  ],
+  [
+   151.858,
+   152.773,
+   "your server."
+  ],
+  [
+   153.323,
+   155.61,
+   "Treat it as a shape,"
+  ],
+  [
+   155.61,
+   156.983,
+   "not copy-and-forget code:"
+  ],
+  [
+   156.983,
+   159.728,
+   "read the current reference at developer.phonepe.com,"
+  ],
+  [
+   159.728,
+   162.473,
+   "keep your secrets in server-side config,"
+  ],
+  [
+   162.473,
+   165.675,
+   "and validate the final callback or webhook."
+  ],
+  [
+   166.175,
+   166.72,
+   "So,"
+  ],
+  [
+   166.72,
+   168.902,
+   "PhonePe in one breath."
+  ],
+  [
+   169.452,
+   170.542,
+   "UPI-native positioning"
+  ],
+  [
+   171.092,
+   172.728,
+   "1.99% limited promo;"
+  ],
+  [
+   172.728,
+   174.909,
+   "method breakdown not public"
+  ],
+  [
+   175.459,
+   176.55,
+   "\u20b90 setup"
+  ],
+  [
+   177.1,
+   179.826,
+   "Settlement timing not disclosed publicly"
+  ],
+  [
+   180.376,
+   183.103,
+   "Dashboard support and X-VERIFY flow."
+  ],
+  [
+   183.653,
+   185.289,
+   "Strong UPI positioning,"
+  ],
+  [
+   185.289,
+   189.106,
+   "but obtain the commercial detail in writing."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pg/05_phonepe.wav",
+   "volume": 1.0
+  }
+ }
+}

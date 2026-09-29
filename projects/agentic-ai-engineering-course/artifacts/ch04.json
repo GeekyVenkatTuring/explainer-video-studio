@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch04_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 45.713,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "foundation",
+        "dur": 46.213
+      }
+    },
+    {
+      "id": "ch04_system",
+      "type": "aae_chapter",
+      "in_seconds": 46.213,
+      "out_seconds": 84.744,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "system",
+        "dur": 39.03
+      }
+    },
+    {
+      "id": "ch04_practice",
+      "type": "aae_chapter",
+      "in_seconds": 85.244,
+      "out_seconds": 131.443,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "practice",
+        "dur": 46.699
+      }
+    },
+    {
+      "id": "ch04_failure",
+      "type": "aae_chapter",
+      "in_seconds": 131.943,
+      "out_seconds": 170.815,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "failure",
+        "dur": 39.372
+      }
+    },
+    {
+      "id": "ch04_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 171.315,
+      "out_seconds": 214.292,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "evaluation",
+        "dur": 43.477
+      }
+    },
+    {
+      "id": "ch04_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 214.792,
+      "out_seconds": 252.111,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "handoff",
+        "dur": 37.819
+      }
+    },
+    {
+      "id": "ch04_application",
+      "type": "aae_chapter",
+      "in_seconds": 252.611,
+      "out_seconds": 301.021,
+      "props": {
+        "chapter": 4,
+        "title": "Agentic Observability Engineering",
+        "focus": "making uncertain decisions inspectable through traces, metrics, and evidence",
+        "concepts": [
+          "trace every decision",
+          "measure outcomes",
+          "retain evidence"
+        ],
+        "example": "an incident timeline that exposes a faulty tool call",
+        "trap": "only logging final answers",
+        "takeaway": "Making uncertain decisions inspectable through traces, metrics, and evidence.",
+        "beat": "application",
+        "dur": 48.91
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch04.wav",
+      "volume": 1
+    }
+  }
+}

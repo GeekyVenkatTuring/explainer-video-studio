@@ -1,0 +1,702 @@
+{
+ "cuts": [
+  {
+   "id": "moneyview_title",
+   "type": "sm_ptitle",
+   "in_seconds": 0.0,
+   "out_seconds": 25.78,
+   "props": {
+    "title": "Moneyview IPO",
+    "sub": "Digital personal-loan platform · ₹1,091.68 Cr · 24–28 Sep 2026",
+    "kicker": "IPO ANALYSIS · MAINBOARD · DIGITAL LENDING",
+    "dur": 26.28
+   }
+  },
+  {
+   "id": "moneyview_biz",
+   "type": "sm_iconcards",
+   "in_seconds": 26.28,
+   "out_seconds": 64.281,
+   "props": {
+    "kicker": "WHAT THE COMPANY DOES",
+    "title": "Business Model",
+    "color": "#A78BFA",
+    "items": [
+     {
+      "emoji": "📱",
+      "k": "Digital credit platform",
+      "v": "An app-led personal-loan platform: 134.14 million registered users by March 2026.",
+      "chip": "FINTECH"
+     },
+     {
+      "emoji": "🤝",
+      "k": "Partner-funded + own NBFC",
+      "v": "Loans come from 48 financial partners plus its own NBFC, Whizdm Finance.",
+      "chip": "MODEL"
+     },
+     {
+      "emoji": "📊",
+      "k": "₹21,380.14 Cr managed book",
+      "v": "Managed AUM of unsecured personal loans; annualised losses fell to 6.95% in FY26.",
+      "chip": "SCALE"
+     }
+    ],
+    "dur": 38.501
+   }
+  },
+  {
+   "id": "moneyview_fin",
+   "type": "sm_stats",
+   "in_seconds": 64.781,
+   "out_seconds": 127.079,
+   "props": {
+    "kicker": "FINANCIAL QUALITY · RESTATED (RHP)",
+    "title": "FY26 Financials",
+    "stats": [
+     {
+      "label": "Revenue from operations",
+      "to": 3351.158,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "FY25: ₹2,339.15 Cr · +43.26%"
+     },
+     {
+      "label": "Profit after tax",
+      "to": 242.705,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "FY25: ₹240.28 Cr"
+     },
+     {
+      "label": "PAT margin (computed)",
+      "to": 7.242421873274852,
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 2,
+      "color": "#FBBF24",
+      "sub": "FY25: 10.27%"
+     }
+    ],
+    "note": "FY26 PAT of ₹242.71 Cr is after a ₹206.65 Cr exceptional charge, including a ₹160 Cr one-time CEO incentive. Before it: ₹397.34 Cr.",
+    "dur": 62.797
+   }
+  },
+  {
+   "id": "moneyview_issue",
+   "type": "sm_stats",
+   "in_seconds": 127.579,
+   "out_seconds": 156.589,
+   "props": {
+    "kicker": "OFFER STRUCTURE · COMPUTED AT CAP",
+    "title": "Fresh Issue vs Offer for Sale",
+    "stats": [
+     {
+      "label": "Total offer (at cap)",
+      "to": 1091.68,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#A78BFA",
+      "sub": "band ₹32–₹34"
+     },
+     {
+      "label": "Fresh issue → company",
+      "to": 750.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "new capital"
+     },
+     {
+      "label": "Offer for sale → sellers",
+      "to": 341.68,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "shareholder exit"
+     }
+    ],
+    "note": "68.70% fresh capital · 31.30% offer for sale (computed at the cap)",
+    "dur": 29.511
+   }
+  },
+  {
+   "id": "moneyview_proceeds",
+   "type": "sm_iconcards",
+   "in_seconds": 157.089,
+   "out_seconds": 193.363,
+   "props": {
+    "kicker": "USE OF PROCEEDS · RHP OBJECTS",
+    "title": "Where The Money Goes",
+    "color": "#A78BFA",
+    "items": [
+     {
+      "emoji": "🛡️",
+      "k": "₹325.00 Cr for DLG-backed growth",
+      "v": "Default-loss-guarantee deposits that let partners disburse more loans.",
+      "chip": "GROWTH"
+     },
+     {
+      "emoji": "🏦",
+      "k": "₹250.00 Cr into Whizdm Finance",
+      "v": "Capital for its NBFC subsidiary's lending base.",
+      "chip": "CAPITAL"
+     },
+     {
+      "emoji": "👥",
+      "k": "₹341.68 Cr offer for sale",
+      "v": "Accel, Internet Fund III, Ribbit and the founders sell part of their stakes.",
+      "chip": "OFS"
+     }
+    ],
+    "dur": 36.773
+   }
+  },
+  {
+   "id": "moneyview_peers",
+   "type": "sm_peers",
+   "in_seconds": 193.863,
+   "out_seconds": 232.632,
+   "props": {
+    "kicker": "VALUATION · P/E AT CAP vs LISTED PEERS",
+    "title": "Peer Comparison",
+    "color": "#A78BFA",
+    "rows": [
+     {
+      "name": "Moneyview",
+      "pe": 21.66,
+      "note": "₹34 cap ÷ FY26 EPS ₹1.57",
+      "hi": true,
+      "display": "21.66x"
+     },
+     {
+      "name": "OnEMI Technology",
+      "pe": 16.62,
+      "note": "digital lending",
+      "hi": false,
+      "display": "16.62x"
+     },
+     {
+      "name": "SBI Cards",
+      "pe": 27.98,
+      "note": "consumer credit",
+      "hi": false,
+      "display": "27.98x"
+     },
+     {
+      "name": "Bajaj Finance",
+      "pe": 33.66,
+      "note": "consumer NBFC",
+      "hi": false,
+      "display": "33.66x"
+     },
+     {
+      "name": "PB Fintech",
+      "pe": 120.33,
+      "note": "fintech platform",
+      "hi": false,
+      "display": "120.33x"
+     }
+    ],
+    "verdict": "At 21.66x reported FY26 EPS, Moneyview is below Bajaj Finance and SBI Cards, above OnEMI.",
+    "dur": 39.269
+   }
+  },
+  {
+   "id": "moneyview_verdict",
+   "type": "sm_myths",
+   "in_seconds": 233.132,
+   "out_seconds": 278.6,
+   "props": {
+    "kicker": "BALANCED ANALYSIS",
+    "title": "Strengths vs Watch-outs",
+    "mythLabel": "⚠️ WATCH-OUTS",
+    "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+    "pairs": [
+     {
+      "m": "Unsecured loans: ₹983.53 Cr impairment in FY26",
+      "f": "Revenue up 43.26% to ₹3,351.16 Cr"
+     },
+     {
+      "m": "Default-loss guarantees keep credit risk on its books",
+      "f": "Profit before exceptional items up 65.37%"
+     },
+     {
+      "m": "31.30% of the offer is investor OFS",
+      "f": "21.66x P/E, below Bajaj Finance and SBI Cards"
+     }
+    ],
+    "dur": 45.968
+   }
+  },
+  {
+   "id": "moneyview_apply",
+   "type": "sm_iconcards",
+   "in_seconds": 279.1,
+   "out_seconds": 303.704,
+   "props": {
+    "kicker": "HOW TO APPLY",
+    "title": "Check Terms Before You Bid",
+    "color": "#A78BFA",
+    "items": [
+     {
+      "emoji": "🧑",
+      "k": "Retail: up to ₹2 lakh",
+      "v": "Individual bids up to ₹2,00,000; lottery allotment if oversubscribed.",
+      "chip": "RETAIL"
+     },
+     {
+      "emoji": "💰",
+      "k": "Minimum bid",
+      "v": "441 shares × ₹34 = ₹14,994",
+      "chip": "1 LOT"
+     },
+     {
+      "emoji": "📅",
+      "k": "Bidding window",
+      "v": "24–28 Sep 2026 · UPI mandate by 5 PM on the last day.",
+      "chip": "DATES"
+     },
+     {
+      "emoji": "🔎",
+      "k": "Verify live",
+      "v": "Live subscription on NSE/BSE; the final RHP for everything else.",
+      "chip": "SOURCES"
+     }
+    ],
+    "dur": 25.104
+   }
+  },
+  {
+   "id": "moneyview_recap",
+   "type": "sm_recap",
+   "in_seconds": 304.204,
+   "out_seconds": 352.735,
+   "props": {
+    "title": "Moneyview IPO — Recap",
+    "items": [
+     "FY26: revenue ₹3,351.16 Cr · PAT ₹242.71 Cr (7.24% margin)",
+     "Offer ₹1,091.68 Cr · fresh ₹750.00 Cr · OFS ₹341.68 Cr",
+     "Valuation: 21.66x FY26 EPS at the ₹34 cap",
+     "Minimum: ₹14,994 · 24–28 Sep 2026"
+    ],
+    "closer": "Education, not advice: read the RHP, decide for yourself.",
+    "dur": 49.031
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.261,
+   "This is the Moneyview I P O, a mainboard offer,"
+  ],
+  [
+   3.261,
+   7.562,
+   "open from the twenty-fourth to the twenty-eighth of September,"
+  ],
+  [
+   7.562,
+   8.533,
+   "closing today."
+  ],
+  [
+   9.033,
+   11.563,
+   "The price band is ₹32 to ₹34."
+  ],
+  [
+   11.563,
+   16.883,
+   "Every figure here comes from the final red herring prospectus"
+  ],
+  [
+   16.883,
+   18.715,
+   "and exchange notices;"
+  ],
+  [
+   18.715,
+   22.117,
+   "the final price is fixed after bidding,"
+  ],
+  [
+   22.117,
+   25.78,
+   "so valuations are computed at the ₹34 cap."
+  ],
+  [
+   26.28,
+   27.517,
+   "First, the business."
+  ],
+  [
+   28.017,
+   32.258,
+   "Moneyview is a digital lending platform."
+  ],
+  [
+   32.258,
+   38.407,
+   "Its app had 134.14 million registered users by March 2026."
+  ],
+  [
+   38.907,
+   43.881,
+   "Most personal loans are funded by 48 financial partners,"
+  ],
+  [
+   43.881,
+   48.144,
+   "with its own NBFC, Whizdm Finance, also lending."
+  ],
+  [
+   48.644,
+   56.653,
+   "The managed book of unsecured personal loans was ₹21,380.14 Cr,"
+  ],
+  [
+   56.653,
+   64.281,
+   "and annualised losses on those loans eased to 6.95% in FY26."
+  ],
+  [
+   64.781,
+   66.381,
+   "The financial checkpoint."
+  ],
+  [
+   66.881,
+   80.07,
+   "FY26 revenue was ₹3,351.16 Cr, against ₹2,339.15 Cr in FY25,"
+  ],
+  [
+   80.07,
+   84.247,
+   "a change of 43.26%."
+  ],
+  [
+   84.747,
+   92.768,
+   "Profit after tax was ₹242.71 Cr, a margin of 7.24%."
+  ],
+  [
+   93.268,
+   94.868,
+   "One detail matters here."
+  ],
+  [
+   95.368,
+   102.173,
+   "Reported profit includes a ₹206.65 Cr exceptional charge,"
+  ],
+  [
+   102.173,
+   110.053,
+   "mostly a one-time ₹160 Cr performance incentive to the MD and CEO."
+  ],
+  [
+   110.053,
+   116.381,
+   "Before exceptional items, FY26 profit was ₹397.34 Cr."
+  ],
+  [
+   116.881,
+   122.83,
+   "Also note loan impairments of ₹983.53 Cr in FY26,"
+  ],
+  [
+   122.83,
+   127.079,
+   "the core risk in unsecured lending."
+  ],
+  [
+   127.579,
+   132.891,
+   "The offer size at the cap is ₹1,091.68 Cr."
+  ],
+  [
+   133.391,
+   138.924,
+   "₹750.00 Cr is fresh issue that goes into the company,"
+  ],
+  [
+   138.924,
+   146.233,
+   "and ₹341.68 Cr is an offer for sale that goes to selling shareholders."
+  ],
+  [
+   146.733,
+   151.292,
+   "So 68.70% of the deal is new capital,"
+  ],
+  [
+   151.292,
+   156.589,
+   "and 31.30% is an exit for existing holders."
+  ],
+  [
+   157.089,
+   158.412,
+   "Where does the money go?"
+  ],
+  [
+   158.912,
+   161.6,
+   "Of the ₹750.00 Cr fresh issue,"
+  ],
+  [
+   161.6,
+   166.349,
+   "₹325.00 Cr funds default-loss-guarantee arrangements,"
+  ],
+  [
+   166.349,
+   173.248,
+   "the deposits that let lending partners disburse more loans through Moneyview."
+  ],
+  [
+   173.748,
+   180.212,
+   "₹250.00 Cr strengthens the capital of its NBFC, Whizdm Finance."
+  ],
+  [
+   180.712,
+   185.432,
+   "The offer for sale is about ₹341.68 Cr at the cap,"
+  ],
+  [
+   185.432,
+   191.475,
+   "sold by investors including Accel, Internet Fund III and Ribbit,"
+  ],
+  [
+   191.475,
+   193.363,
+   "and by the founders."
+  ],
+  [
+   193.863,
+   194.865,
+   "Valuation."
+  ],
+  [
+   195.365,
+   197.455,
+   "At the ₹34 cap,"
+  ],
+  [
+   197.455,
+   206.928,
+   "the price is 21.66x reported FY26 diluted earnings of ₹1.57 a share."
+  ],
+  [
+   207.428,
+   213.872,
+   "Listed peers range from OnEMI at 16.62x,"
+  ],
+  [
+   213.872,
+   220.638,
+   "SBI Cards 27.98x and Bajaj Finance 33.66x,"
+  ],
+  [
+   220.638,
+   224.665,
+   "to PB Fintech at 120.33x."
+  ],
+  [
+   225.165,
+   229.244,
+   "Remember the reported figure already carries the one-time charge;"
+  ],
+  [
+   229.244,
+   232.632,
+   "on pre-exceptional profit the multiple would be lower."
+  ],
+  [
+   233.132,
+   234.625,
+   "Now balance the evidence."
+  ],
+  [
+   235.125,
+   236.925,
+   "Watch-out:"
+  ],
+  [
+   236.925,
+   239.804,
+   "Unsecured loans:"
+  ],
+  [
+   239.804,
+   245.202,
+   "₹983.53 Cr impairment in FY26."
+  ],
+  [
+   245.202,
+   246.821,
+   "Strength:"
+  ],
+  [
+   246.821,
+   252.939,
+   "Revenue up 43.26% to ₹3,351.16 Cr."
+  ],
+  [
+   253.439,
+   254.396,
+   "Watch-out:"
+  ],
+  [
+   254.396,
+   259.565,
+   "Default-loss guarantees keep credit risk on its books."
+  ],
+  [
+   259.565,
+   260.426,
+   "Strength:"
+  ],
+  [
+   260.426,
+   264.447,
+   "Profit before exceptional items up 65.37%."
+  ],
+  [
+   264.947,
+   266.298,
+   "Watch-out:"
+  ],
+  [
+   266.298,
+   271.165,
+   "31.30% of the offer is investor OFS."
+  ],
+  [
+   271.165,
+   272.382,
+   "Strength:"
+  ],
+  [
+   272.382,
+   278.6,
+   "21.66x P/E, below Bajaj Finance and SBI Cards."
+  ],
+  [
+   279.1,
+   280.231,
+   "How to apply."
+  ],
+  [
+   280.731,
+   285.712,
+   "The minimum bid is one lot of 441 shares,"
+  ],
+  [
+   285.712,
+   289.115,
+   "which is ₹14,994 at the cap."
+  ],
+  [
+   289.615,
+   293.09,
+   "Retail investors can bid up to two lakh rupees,"
+  ],
+  [
+   293.09,
+   297.231,
+   "and allotment is by lottery if retail is oversubscribed."
+  ],
+  [
+   297.731,
+   302.274,
+   "Check live subscription on the N S E or B S E website,"
+  ],
+  [
+   302.274,
+   303.704,
+   "not social media."
+  ],
+  [
+   304.204,
+   305.164,
+   "Let's recap."
+  ],
+  [
+   305.664,
+   312.374,
+   "FY26 revenue ₹3,351.16 Cr, profit ₹242.71 Cr."
+  ],
+  [
+   312.374,
+   316.25,
+   "The offer is ₹1,091.68 Cr,"
+  ],
+  [
+   316.25,
+   321.916,
+   "of which ₹341.68 Cr is offer for sale."
+  ],
+  [
+   321.916,
+   327.88,
+   "Valuation is 21.66x earnings at the cap."
+  ],
+  [
+   327.88,
+   332.949,
+   "The minimum investment is ₹14,994."
+  ],
+  [
+   333.449,
+   337.623,
+   "This video is public-source education from the red herring"
+  ],
+  [
+   337.623,
+   339.926,
+   "prospectus and exchange notices."
+  ],
+  [
+   339.926,
+   343.884,
+   "It is not investment advice and not a buy or sell call."
+  ],
+  [
+   343.884,
+   345.683,
+   "Read the final documents,"
+  ],
+  [
+   345.683,
+   348.561,
+   "check live subscription on the exchange,"
+  ],
+  [
+   348.561,
+   351.295,
+   "and consult a SEBI-registered adviser."
+  ],
+  [
+   351.295,
+   352.735,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "ipo28/moneyview.wav",
+   "volume": 1.0
+  }
+ }
+}

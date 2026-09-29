@@ -1,0 +1,80 @@
+63 segments · 4765 words
+== TTS ==
+  ch00 t00    gha_title         16.36s
+  ch00 h00    gha_manual        38.56s
+  ch00 h01    gha_timeline      38.17s
+  ch00 r00    gha_roadmap       35.82s
+  ch01 d01    gha_divider        6.37s
+  ch01 c01    gha_cicd          39.43s
+  ch01 c01b   gha_compare       34.53s
+  ch01 c01c   gha_hierarchy     36.32s
+  ch02 d02    gha_divider        6.66s
+  ch02 a02    gha_yaml          39.55s
+  ch02 a02b   gha_steps         39.84s
+  ch02 a02c   gha_lifecycle     39.34s
+  ch02 a02d   gha_runlog        32.66s
+  ch03 d03    gha_divider        6.71s
+  ch03 e03    gha_events        34.69s
+  ch03 e03b   gha_filter        40.62s
+  ch03 e03c   gha_cron          40.62s
+  ch03 e03d   gha_dispatch      33.93s
+  ch04 d04    gha_divider        6.62s
+  ch04 j04    gha_hosted        38.24s
+  ch04 j04b   gha_selfhosted    41.86s
+  ch04 j04c   gha_dag           33.50s
+  ch04 j04d   gha_matrix        38.09s
+  ch04 j04e   gha_services      33.39s
+  ch04 j04f   gha_yaml          34.13s
+  ch05 d05    gha_divider        6.57s
+  ch05 m05    gha_marketplace   36.06s
+  ch05 m05b   gha_actiontypes   34.74s
+  ch05 m05c   gha_yaml          31.78s
+  ch05 m05d   gha_reuse         38.87s
+  ch06 d06    gha_divider        9.04s
+  ch06 x06    gha_expr          43.88s
+  ch06 x06b   gha_secrets       40.40s
+  ch06 x06c   gha_outputs       37.57s
+  ch06 x06d   gha_cache         42.26s
+  ch06 x06e   gha_yaml          37.84s
+  ch07 d07    gha_divider        7.72s
+  ch07 p07    gha_pipeline      36.56s
+  ch07 p07b   gha_concurrency   32.04s
+  ch07 p07c   gha_oidc          40.18s
+  ch07 p07e   gha_yaml          41.01s
+  ch07 p07d   gha_bullets       31.71s
+  ch08 d08    gha_divider        7.05s
+  ch08 s08    gha_permissions   39.63s
+  ch08 s08b   gha_supply        41.47s
+  ch08 s08c   gha_injection     41.50s
+  ch08 s08d   gha_bullets       32.14s
+  ch09 d09    gha_divider        6.39s
+  ch09 b09    gha_billing       33.35s
+  ch09 b09b   gha_speed         26.95s
+  ch09 b09c   gha_debug         33.80s
+  ch09 b09d   gha_beyond        33.12s
+  ch09 b09e   gha_yaml          34.63s
+  ch09 b09f   gha_yaml          32.99s
+  ch10 d10    gha_divider        9.78s
+  ch10 g10    gha_platform      33.31s
+  ch10 g10b   gha_pr            38.31s
+  ch10 g10c   gha_issues        38.09s
+  ch10 g10d   gha_codespaces    34.87s
+  ch10 g10e   gha_copilot       37.04s
+  ch10 g10f   gha_ghas          38.69s
+  ch10 g10g   gha_bullets       34.50s
+  ch10 r10    gha_recap         56.24s
+
+== per-chapter artifacts ==
+  ch00   130.41s   4 scenes  Intro
+  ch01   118.16s   4 scenes  The Big Picture
+  ch02   160.04s   5 scenes  Anatomy of a Workflow
+  ch03   158.57s   5 scenes  Triggers & Events
+  ch04   228.82s   7 scenes  Runners & Jobs
+  ch05   150.02s   5 scenes  Actions: Building Blocks
+  ch06   213.50s   6 scenes  Data, Secrets & Caching
+  ch07   191.71s   6 scenes  Deploying with Actions
+  ch08   163.80s   5 scenes  Security
+  ch09   204.23s   7 scenes  Cost, Speed & Debugging
+  ch10   324.83s   9 scenes  Beyond Actions: The Rest of GitHub
+
+TOTAL 2044.1s (34.07 min) · 63 scenes · 4765 words · 140 effective wpm · captions ON

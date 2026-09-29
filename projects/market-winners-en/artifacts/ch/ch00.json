@@ -1,0 +1,241 @@
+{
+ "cuts": [
+  {
+   "id": "t00",
+   "type": "mw_title",
+   "in_seconds": 0.0,
+   "out_seconds": 34.604,
+   "props": {
+    "dur": 35.104
+   }
+  },
+  {
+   "id": "t01",
+   "type": "mw_statement",
+   "in_seconds": 35.104,
+   "out_seconds": 56.455,
+   "props": {
+    "kicker": "START HERE",
+    "color": "#FB7185",
+    "lines": [
+     "Most of what went viral",
+     "was never true.",
+     "But some people",
+     "genuinely got richer.",
+     "This is how."
+    ],
+    "dur": 21.851
+   }
+  },
+  {
+   "id": "t02",
+   "type": "mw_macro",
+   "in_seconds": 56.955,
+   "out_seconds": 95.943,
+   "props": {
+    "peak": 26130,
+    "low": 22182.55,
+    "now": 24080,
+    "lowDate": "2 Apr 2026",
+    "nowLabel": "Aug 2026",
+    "peakLabel": "Dec 2025",
+    "dropPct": "-16%",
+    "recoverPct": "+9%",
+    "dur": 39.488
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.451,
+   "Over the last six months, your feed was full"
+  ],
+  [
+   3.451,
+   4.218,
+   "of it."
+  ],
+  [
+   4.85,
+   8.301,
+   "Screenshots of one lakh turning into forty-four.\nAnonymous traders"
+  ],
+  [
+   8.301,
+   9.452,
+   "posing with Lamborghinis."
+  ],
+  [
+   10.083,
+   11.617,
+   "Everyone, apparently, got rich."
+  ],
+  [
+   12.249,
+   15.7,
+   "So here's the honest question this video answers:\nwho"
+  ],
+  [
+   15.7,
+   19.152,
+   "actually made money in the Indian market since the"
+  ],
+  [
+   19.152,
+   22.603,
+   "spring \u2014 and how much of what you saw"
+  ],
+  [
+   22.603,
+   23.37,
+   "was real?"
+  ],
+  [
+   24.002,
+   27.453,
+   "We'll only use things we can verify \u2014 public"
+  ],
+  [
+   27.453,
+   30.905,
+   "shareholding disclosures, exchange filings, and SEBI\norders. No invented"
+  ],
+  [
+   30.905,
+   31.288,
+   "rags-to-riches."
+  ],
+  [
+   31.92,
+   34.604,
+   "Let's separate the winners from the fiction."
+  ],
+  [
+   35.104,
+   37.131,
+   "Here's the twist those viral posts hide."
+  ],
+  [
+   37.763,
+   40.369,
+   "The market didn't go up over these six months."
+  ],
+  [
+   41.001,
+   43.607,
+   "It fell \u2014 hard \u2014 and then clawed its"
+  ],
+  [
+   43.607,
+   44.187,
+   "way back."
+  ],
+  [
+   44.818,
+   47.425,
+   "So the people who genuinely made money did it"
+  ],
+  [
+   47.425,
+   49.162,
+   "against the tape, not with it."
+  ],
+  [
+   49.794,
+   52.4,
+   "That makes their methods worth studying \u2014 and it"
+  ],
+  [
+   52.4,
+   55.007,
+   "makes the fakes much easier to spot, once you"
+  ],
+  [
+   55.007,
+   56.455,
+   "know what you're looking at."
+  ],
+  [
+   56.955,
+   58.629,
+   "Look at the actual tape."
+  ],
+  [
+   59.261,
+   62.275,
+   "At the end of December, the Nifty fifty sat"
+  ],
+  [
+   62.275,
+   65.288,
+   "near twenty-six thousand one hundred and thirty \u2014 an"
+  ],
+  [
+   65.288,
+   65.958,
+   "all-time high."
+  ],
+  [
+   66.59,
+   69.603,
+   "Then it fell. By the second of April, it"
+  ],
+  [
+   69.603,
+   72.617,
+   "had crashed to twenty-two thousand one hundred and\neighty-two"
+  ],
+  [
+   72.617,
+   75.631,
+   "\u2014 down about sixteen percent in roughly three\nmonths."
+  ],
+  [
+   76.262,
+   79.276,
+   "From there it recovered, and today it trades near"
+  ],
+  [
+   79.276,
+   82.29,
+   "twenty-four thousand \u2014 still below where it began\nthe"
+  ],
+  [
+   82.29,
+   82.625,
+   "year."
+  ],
+  [
+   83.256,
+   86.27,
+   "Read that again. Six months, and the index is"
+  ],
+  [
+   86.27,
+   86.605,
+   "down."
+  ],
+  [
+   87.237,
+   90.25,
+   "So anyone who tells you this was an easy"
+  ],
+  [
+   90.25,
+   93.264,
+   "market to get rich quick in is, at best,"
+  ],
+  [
+   93.264,
+   95.943,
+   "forgetting \u2014 and at worst, selling you something."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch00.wav",
+   "volume": 1.0
+  }
+ }
+}

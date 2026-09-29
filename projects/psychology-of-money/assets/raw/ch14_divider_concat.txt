@@ -1,0 +1,5 @@
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/ch14_divider_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/ch14_divider_c1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/ch14_divider_c2.wav'

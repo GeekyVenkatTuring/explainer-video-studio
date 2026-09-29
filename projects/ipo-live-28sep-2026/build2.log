@@ -1,0 +1,64 @@
+  acevector_title         25.63s
+  acevector_biz           26.09s
+  acevector_fin           37.57s
+  acevector_issue         25.92s
+  acevector_proceeds      29.45s
+  acevector_peers         22.26s
+  acevector_verdict       39.03s
+  acevector_apply         24.56s
+  acevector_recap         45.42s
+acevector: 279.92s (4.67 min), 9 scenes, 76 cues, 470 words
+  runwal_title            26.97s
+  runwal_biz              34.96s
+  runwal_fin              46.37s
+  runwal_issue            12.23s
+  runwal_proceeds         25.65s
+  runwal_peers            37.15s
+  runwal_verdict          38.66s
+  runwal_apply            23.90s
+  runwal_recap            44.09s
+runwal: 294.00s (4.90 min), 9 scenes, 75 cues, 449 words
+  german_title            27.83s
+  german_biz              26.75s
+  german_fin              43.13s
+  german_issue            27.18s
+  german_proceeds         28.96s
+  german_peers            32.58s
+  german_verdict          38.51s
+  german_apply            24.37s
+  german_recap            47.46s
+german: 300.77s (5.01 min), 9 scenes, 73 cues, 486 words
+  shah_title              27.85s
+  shah_biz                23.17s
+  shah_fin                37.82s
+  shah_issue              13.07s
+  shah_proceeds           20.85s
+  shah_peers              33.07s
+  shah_verdict            30.58s
+  shah_apply              23.79s
+  shah_recap              41.73s
+shah: 255.92s (4.27 min), 9 scenes, 69 cues, 421 words
+  srit_title              26.36s
+  srit_biz                24.20s
+  srit_fin                38.89s
+  srit_issue              14.07s
+  srit_proceeds           29.98s
+  srit_peers              30.56s
+  srit_verdict            33.67s
+  srit_apply              24.18s
+  srit_recap              41.38s
+srit: 267.28s (4.45 min), 9 scenes, 71 cues, 441 words
+  benchmark_title         28.68s
+  benchmark_biz           24.15s
+  benchmark_fin           38.63s
+  benchmark_issue         26.90s
+  benchmark_proceeds      19.99s
+  benchmark_peers         31.05s
+  benchmark_verdict       36.57s
+  benchmark_apply         25.94s
+  benchmark_recap         46.01s
+benchmark: 281.91s (4.70 min), 9 scenes, 74 cues, 448 words
+  himalayan_title         28.06s
+  himalayan_biz           31.52s
+  himalayan_fin           42.38s
+  himalayan_issue         27.35s

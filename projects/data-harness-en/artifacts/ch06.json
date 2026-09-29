@@ -1,0 +1,540 @@
+{
+ "pack": "ledger",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "data-harness",
+  "issue": "part 6 · build plan",
+  "code": "DH · P6"
+ },
+ "beats": [
+  {
+   "id": "b34",
+   "kind": "divider",
+   "dur": 6.674,
+   "props": {
+    "n": 6,
+    "total": 6,
+    "title": "Your build plan",
+    "sub": "Python + uv, on your laptop, in seven phases"
+   }
+  },
+  {
+   "id": "b35",
+   "kind": "list",
+   "dur": 25.835,
+   "props": {
+    "kicker": "The stack",
+    "title": "Small, local, and boring on purpose",
+    "items": [
+     {
+      "h": "Python + uv",
+      "d": "one repo, pinned deps, uv run cli.py ask …"
+     },
+     {
+      "h": "Claude API",
+      "d": "Sonnet 5 for the loop, Haiku 4.5 for extraction"
+     },
+     {
+      "h": "DuckDB",
+      "d": "facts, Excel and attached databases in one engine"
+     },
+     {
+      "h": "Docling",
+      "d": "local PDF parsing, pdfplumber as fallback"
+     },
+     {
+      "h": "LanceDB + BM25",
+      "d": "hybrid search over commentary"
+     },
+     {
+      "h": "Mem0 OSS",
+      "d": "long-term memory with applies_when"
+     }
+    ],
+    "ats": [
+     0.142,
+     0.249,
+     0.486,
+     0.593,
+     0.7,
+     0.839
+    ]
+   }
+  },
+  {
+   "id": "b36",
+   "kind": "x_code",
+   "dur": 26.908,
+   "props": {
+    "kicker": "Repository layout",
+    "title": "Where everything lives",
+    "file": "data-harness/",
+    "lines": [
+     "data/raw/{pdf,excel,db}/        # your inputs",
+     "harness/loop.py                 # the agent loop + budgets",
+     "harness/context.py              # prefix, memory recall, compaction",
+     "harness/tools/                  # list_sources get_metrics query_sql ...",
+     "harness/ingest/                 # pdf.py excel.py sql.py reconcile.py",
+     "harness/semantic/metrics.yaml   # the semantic layer",
+     "harness/verify.py               # numbers-in-evidence gate + sanity rules",
+     "harness/memory.py               # Mem0 wrapper with applies_when",
+     "harness/trace.py                # JSONL trace of every step",
+     "evals/golden.yaml               # ~50 questions with answers",
+     "cli.py                          # uv run cli.py ask \"...\""
+    ],
+    "notes": [
+     {
+      "a": 1,
+      "b": 1,
+      "key": "inputs",
+      "t": "Start with three companies you actually follow.",
+      "at": 0.062
+     },
+     {
+      "a": 5,
+      "b": 7,
+      "key": "ingest",
+      "t": "Ingest, semantic layer and verifier are the value.",
+      "at": 0.562
+     },
+     {
+      "a": 10,
+      "b": 11,
+      "key": "golden",
+      "t": "Evals and a CLI from week one.",
+      "at": 0.847
+     }
+    ]
+   }
+  },
+  {
+   "id": "b37",
+   "kind": "x_table",
+   "dur": 39.647,
+   "props": {
+    "kicker": "Seven phases",
+    "title": "Build it in this order",
+    "cols": [
+     {
+      "h": "phase",
+      "w": 1.9
+     },
+     {
+      "h": "build",
+      "w": 3.4
+     },
+     {
+      "h": "done when",
+      "w": 3.0
+     }
+    ],
+    "rows": [
+     [
+      "0 · setup",
+      "uv init, API key, data for 3 companies",
+      "files in data/raw"
+     ],
+     [
+      "1 · minimal loop",
+      "150-line loop + query_sql over Excel",
+      "answers 'revenue, last 4Q'"
+     ],
+     [
+      "2 · ingestion",
+      "PDF → facts + chunks; catalog",
+      "totals tie out"
+     ],
+     [
+      "3 · semantic layer",
+      "metrics.yaml + get_metrics",
+      "margin, D/E, YoY exact"
+     ],
+     [
+      "4 · verify + cite",
+      "evidence log, gate, refusals",
+      "0 uncited numbers"
+     ],
+     [
+      "5 · memory",
+      "Mem0 + applies_when",
+      "a correction sticks"
+     ],
+     [
+      "6 · evals + traces",
+      "golden set, trace viewer",
+      "a score to beat"
+     ],
+     [
+      "7 · extend",
+      "MCP server, sub-agents, live prices",
+      "5-company compare"
+     ]
+    ],
+    "ats": [
+     0.038,
+     0.085,
+     0.309,
+     0.408,
+     0.476,
+     0.554,
+     0.601,
+     0.732
+    ]
+   }
+  },
+  {
+   "id": "b38",
+   "kind": "statement",
+   "dur": 18.574,
+   "props": {
+    "kicker": "Where to start this week",
+    "lines": [
+     "Day 1: one loop,",
+     "one tool, one Excel file.",
+     "Then earn every feature",
+     "with an eval."
+    ],
+    "accent": 3,
+    "sub": "The full plan, with every source, is in the Obsidian note: 'Data Harness for Financial Analysis'.",
+    "ats": [
+     0.13,
+     0.22,
+     0.541,
+     0.667
+    ]
+   }
+  },
+  {
+   "id": "b39",
+   "kind": "recap",
+   "dur": 39.005,
+   "props": {
+    "title": "A data harness in one breath",
+    "items": [
+     "The model is the engine; the harness is the car",
+     "Prepare data before the question: rows for numbers, chunks for prose",
+     "One facts table: value + unit + basis + source + locator",
+     "Metrics in a semantic layer: the model picks, code computes",
+     "Few sharp tools, instructive errors, compact results",
+     "Loop: context → model → tools → observe → verify → answer",
+     "Memory stores corrections, never numbers",
+     "Measure everything: golden evals from week one"
+    ],
+    "closer": "Every number traceable to a cell.",
+    "ats": [
+     0.015,
+     0.118,
+     0.202,
+     0.305,
+     0.465,
+     0.539,
+     0.623,
+     0.697
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.54,
+   "Part six. Your build plan."
+  ],
+  [
+   2.171,
+   4.635,
+   "What to install, what to build first, and"
+  ],
+  [
+   4.635,
+   6.174,
+   "how to know it works."
+  ],
+  [
+   6.674,
+   9.989,
+   "Here's the stack. Small, local, and boring on"
+  ],
+  [
+   9.989,
+   10.403,
+   "purpose."
+  ],
+  [
+   11.035,
+   12.692,
+   "Python with U V."
+  ],
+  [
+   13.324,
+   16.639,
+   "The Claude API, with Sonnet five running the"
+  ],
+  [
+   16.639,
+   19.125,
+   "loop and Haiku doing cheap extraction."
+  ],
+  [
+   19.756,
+   21.828,
+   "DuckDB as the single engine."
+  ],
+  [
+   22.459,
+   24.531,
+   "Docling to parse PDFs locally."
+  ],
+  [
+   25.163,
+   27.649,
+   "LanceDB plus keyword search for commentary."
+  ],
+  [
+   28.28,
+   31.595,
+   "And Mem0, the open source version, for long-term"
+  ],
+  [
+   31.595,
+   32.01,
+   "memory."
+  ],
+  [
+   32.51,
+   33.957,
+   "And here's the repository."
+  ],
+  [
+   34.588,
+   37.483,
+   "Raw inputs go in the data folder. Seed"
+  ],
+  [
+   37.483,
+   40.016,
+   "it with three companies you actually follow."
+  ],
+  [
+   40.648,
+   43.542,
+   "The harness folder holds the loop, the context"
+  ],
+  [
+   43.542,
+   44.99,
+   "builder, and the tools."
+  ],
+  [
+   45.621,
+   48.516,
+   "The real value sits in three folders: ingest,"
+  ],
+  [
+   48.516,
+   50.687,
+   "the semantic layer, and the verifier."
+  ],
+  [
+   51.318,
+   54.213,
+   "Traces go to a J S O N"
+  ],
+  [
+   54.213,
+   57.108,
+   "L file. And the golden eval set sits"
+  ],
+  [
+   57.108,
+   58.917,
+   "beside a simple command line."
+  ],
+  [
+   59.417,
+   61.446,
+   "Build it in this order."
+  ],
+  [
+   62.078,
+   63.296,
+   "Phase zero, setup."
+  ],
+  [
+   63.927,
+   67.174,
+   "Phase one, a minimal loop with one SQL"
+  ],
+  [
+   67.174,
+   70.421,
+   "tool over an Excel file. You'll have something"
+  ],
+  [
+   70.421,
+   72.045,
+   "working on day one."
+  ],
+  [
+   72.676,
+   75.923,
+   "Phase two, ingestion. PDFs become facts and chunks."
+  ],
+  [
+   76.555,
+   78.584,
+   "Phase three, the semantic layer."
+  ],
+  [
+   79.216,
+   81.651,
+   "Phase four, the verifier and citations."
+  ],
+  [
+   82.283,
+   83.501,
+   "Phase five, memory."
+  ],
+  [
+   84.132,
+   87.379,
+   "Phase six, evals and traces. That one never"
+  ],
+  [
+   87.379,
+   88.191,
+   "really ends."
+  ],
+  [
+   88.822,
+   92.07,
+   "And phase seven, extend. Expose your tools over"
+  ],
+  [
+   92.07,
+   95.317,
+   "M C P, so Claude Code can use"
+  ],
+  [
+   95.317,
+   98.564,
+   "your harness too. Add sub-agents, and live prices."
+  ],
+  [
+   99.064,
+   101.329,
+   "So where do you start this week?"
+  ],
+  [
+   101.96,
+   104.549,
+   "Day one: one loop, one tool, and one"
+  ],
+  [
+   104.549,
+   107.137,
+   "Excel file. Ask it for revenue over four"
+  ],
+  [
+   107.137,
+   108.755,
+   "quarters, and read the trace."
+  ],
+  [
+   109.387,
+   111.976,
+   "Then earn every new feature with an eval."
+  ],
+  [
+   112.607,
+   115.196,
+   "The full plan, with the research and every"
+  ],
+  [
+   115.196,
+   117.137,
+   "source, is in the companion note."
+  ],
+  [
+   117.637,
+   118.377,
+   "Let's recap."
+  ],
+  [
+   119.009,
+   121.969,
+   "The model is the engine. The harness is"
+  ],
+  [
+   121.969,
+   122.709,
+   "the car."
+  ],
+  [
+   123.34,
+   125.19,
+   "Prepare data before the question."
+  ],
+  [
+   125.822,
+   128.782,
+   "Keep one facts table, where every value carries"
+  ],
+  [
+   128.782,
+   129.522,
+   "its provenance."
+  ],
+  [
+   130.153,
+   133.113,
+   "Put metrics in a semantic layer, so code"
+  ],
+  [
+   133.113,
+   135.333,
+   "computes and the model only chooses."
+  ],
+  [
+   135.965,
+   137.814,
+   "Keep tools few and sharp."
+  ],
+  [
+   138.446,
+   141.406,
+   "Run a simple loop that verifies before it"
+  ],
+  [
+   141.406,
+   141.776,
+   "answers."
+  ],
+  [
+   142.407,
+   144.627,
+   "Let memory store corrections, not numbers."
+  ],
+  [
+   145.259,
+   146.369,
+   "And measure everything."
+  ],
+  [
+   147.001,
+   149.96,
+   "The goal: every number traceable to a cell."
+  ],
+  [
+   150.592,
+   153.552,
+   "The example numbers were illustrative, and none of"
+  ],
+  [
+   153.552,
+   156.142,
+   "this is investment advice. Thanks for watching."
+  ]
+ ],
+ "audio": "dh/ch06.wav"
+}

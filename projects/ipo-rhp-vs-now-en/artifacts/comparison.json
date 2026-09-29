@@ -1,0 +1,1646 @@
+{
+  "cuts": [
+    {
+      "id": "all_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 30.781,
+      "props": {
+        "title": "IPO Report Card",
+        "sub": "All 20 mainboard listings · 30 Jul–28 Aug 2026",
+        "kicker": "RHP FACTS · OFFICIAL NSE PRICES · TWO-QUARTER MODEL",
+        "dur": 31.281
+      }
+    },
+    {
+      "id": "all_method",
+      "type": "sm_iconcards",
+      "in_seconds": 31.281,
+      "out_seconds": 74.061,
+      "props": {
+        "kicker": "ONE MODEL · EVERY STOCK",
+        "title": "How the Two-Quarter Targets Are Built",
+        "color": "#A78BFA",
+        "items": [
+          {
+            "emoji": "📈",
+            "k": "1 · Normalize growth",
+            "v": "Use the lower of revenue and PAT growth; cap the input between −25% and +35%. Latest Q1 overrides FY26 when comparable",
+            "chip": "NO CHERRY-PICKING"
+          },
+          {
+            "emoji": "⚖️",
+            "k": "2 · Estimate a fair multiple",
+            "v": "Start from a base multiple, reward growth and margin, subtract a leverage penalty, and apply hard valuation bounds",
+            "chip": "QUALITY-ADJUSTED"
+          },
+          {
+            "emoji": "🧮",
+            "k": "3 · Project two quarters",
+            "v": "Compound earnings or sales, while closing 12% of the gap between current and fair valuation each quarter",
+            "chip": "PARTIAL REVERSION"
+          },
+          {
+            "emoji": "🛡️",
+            "k": "4 · Mark uncertainty",
+            "v": "P/E for profitable firms; P/S for loss-makers. Every output is low confidence because these stocks have under one month of history",
+            "chip": "BASE CASE ONLY"
+          }
+        ],
+        "dur": 43.28
+      }
+    },
+    {
+      "id": "returns_div",
+      "type": "sm_divider",
+      "in_seconds": 74.561,
+      "out_seconds": 78.411,
+      "props": {
+        "n": 1,
+        "title": "The Market Scoreboard",
+        "sub": "Official NSE close · 28 Aug 2026",
+        "color": "#38BDF8",
+        "dur": 4.349
+      }
+    },
+    {
+      "id": "returns_1",
+      "type": "sm_peers",
+      "in_seconds": 78.911,
+      "out_seconds": 115.345,
+      "props": {
+        "kicker": "RETURN vs ISSUE · PAGE 1",
+        "title": "Where the 20 Stocks Stand Now",
+        "color": "#34D399",
+        "unit": "%",
+        "dec": 2,
+        "peLabel": "absolute bar length; signed value shown at right",
+        "rows": [
+          {
+            "name": "Tempsens Instruments",
+            "pe": 95.55,
+            "display": "+95.55%",
+            "note": "₹300.00 → ₹586.65",
+            "hi": true
+          },
+          {
+            "name": "Indo-MIM",
+            "pe": 78.97938144329896,
+            "display": "+78.98%",
+            "note": "₹485.00 → ₹868.05",
+            "hi": false
+          },
+          {
+            "name": "Technocraft Ventures",
+            "pe": 76.33490566037734,
+            "display": "+76.33%",
+            "note": "₹212.00 → ₹373.83",
+            "hi": false
+          },
+          {
+            "name": "MV Electrosystems",
+            "pe": 69.30588235294117,
+            "display": "+69.31%",
+            "note": "₹425.00 → ₹719.55",
+            "hi": false
+          },
+          {
+            "name": "Dhoot Transmission",
+            "pe": 67.0378874856487,
+            "display": "+67.04%",
+            "note": "₹871.00 → ₹1,454.90",
+            "hi": false
+          },
+          {
+            "name": "Behari Lal Engineering",
+            "pe": 60.508771929824555,
+            "display": "+60.51%",
+            "note": "₹285.00 → ₹457.45",
+            "hi": false
+          },
+          {
+            "name": "Xtranet Technologies",
+            "pe": 55.204724409448836,
+            "display": "+55.20%",
+            "note": "₹127.00 → ₹197.11",
+            "hi": false
+          }
+        ],
+        "verdict": "A large listing gain is momentum, not proof of fair value; three names already trade below issue.",
+        "dur": 36.935
+      }
+    },
+    {
+      "id": "returns_2",
+      "type": "sm_peers",
+      "in_seconds": 115.845,
+      "out_seconds": 151.235,
+      "props": {
+        "kicker": "RETURN vs ISSUE · PAGE 2",
+        "title": "Where the 20 Stocks Stand Now",
+        "color": "#34D399",
+        "unit": "%",
+        "dec": 2,
+        "peLabel": "absolute bar length; signed value shown at right",
+        "rows": [
+          {
+            "name": "Milky Mist Dairy Food",
+            "pe": 53.07857142857142,
+            "display": "+53.08%",
+            "note": "₹140.00 → ₹214.31",
+            "hi": false
+          },
+          {
+            "name": "Molbio Diagnostics",
+            "pe": 35.65675340768277,
+            "display": "+35.66%",
+            "note": "₹807.00 → ₹1,094.75",
+            "hi": false
+          },
+          {
+            "name": "Lohia Corp",
+            "pe": 32.96470588235294,
+            "display": "+32.96%",
+            "note": "₹425.00 → ₹565.10",
+            "hi": false
+          },
+          {
+            "name": "Lalithaa Jewellery Mart",
+            "pe": 31.96019900497513,
+            "display": "+31.96%",
+            "note": "₹201.00 → ₹265.24",
+            "hi": false
+          },
+          {
+            "name": "Manipal Health",
+            "pe": 30.788135593220332,
+            "display": "+30.79%",
+            "note": "₹590.00 → ₹771.65",
+            "hi": false
+          },
+          {
+            "name": "Shiprocket",
+            "pe": 29.278350515463924,
+            "display": "+29.28%",
+            "note": "₹97.00 → ₹125.40",
+            "hi": false
+          },
+          {
+            "name": "Sunshine Pictures",
+            "pe": 19.375000000000007,
+            "display": "+19.38%",
+            "note": "₹360.00 → ₹429.75",
+            "hi": false
+          }
+        ],
+        "verdict": "A large listing gain is momentum, not proof of fair value; three names already trade below issue.",
+        "dur": 35.889
+      }
+    },
+    {
+      "id": "returns_3",
+      "type": "sm_peers",
+      "in_seconds": 151.735,
+      "out_seconds": 185.481,
+      "props": {
+        "kicker": "RETURN vs ISSUE · PAGE 3",
+        "title": "Where the 20 Stocks Stand Now",
+        "color": "#34D399",
+        "unit": "%",
+        "dec": 2,
+        "peLabel": "absolute bar length; signed value shown at right",
+        "rows": [
+          {
+            "name": "Ardee Industries",
+            "pe": 15.396226415094327,
+            "display": "+15.40%",
+            "note": "₹53.00 → ₹61.16",
+            "hi": false
+          },
+          {
+            "name": "Juniper Green Energy",
+            "pe": 14.768888888888899,
+            "display": "+14.77%",
+            "note": "₹225.00 → ₹258.23",
+            "hi": false
+          },
+          {
+            "name": "LEAP India",
+            "pe": 5.91194968553459,
+            "display": "+5.91%",
+            "note": "₹159.00 → ₹168.40",
+            "hi": false
+          },
+          {
+            "name": "Gaja Alternative Asset Management",
+            "pe": 0.8375000000000021,
+            "display": "-0.84%",
+            "note": "₹160.00 → ₹158.66",
+            "hi": false
+          },
+          {
+            "name": "Shankesh Jewellers",
+            "pe": 1.3655913978494527,
+            "display": "-1.37%",
+            "note": "₹93.00 → ₹91.73",
+            "hi": false
+          },
+          {
+            "name": "Horizon Industrial Parks",
+            "pe": 3.2500000000000084,
+            "display": "-3.25%",
+            "note": "₹60.00 → ₹58.05",
+            "hi": false
+          }
+        ],
+        "verdict": "A large listing gain is momentum, not proof of fair value; three names already trade below issue.",
+        "dur": 34.247
+      }
+    },
+    {
+      "id": "cards_div",
+      "type": "sm_divider",
+      "in_seconds": 185.981,
+      "out_seconds": 192.561,
+      "props": {
+        "n": 2,
+        "title": "Twenty Equal Report Cards",
+        "sub": "Return · growth · margin · valuation · leverage · targets",
+        "color": "#34D399",
+        "dur": 7.08
+      }
+    },
+    {
+      "id": "card_indomim",
+      "type": "sm_reportcard",
+      "in_seconds": 193.061,
+      "out_seconds": 252.576,
+      "props": {
+        "index": 1,
+        "total": 20,
+        "name": "Indo-MIM",
+        "ticker": "INDOMIM",
+        "listed": "30 JUL",
+        "issue": "₹485.00",
+        "listing": "₹700.00",
+        "current": "₹868.05",
+        "listGain": "listing +44.33%",
+        "returnPct": "vs issue +78.98%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+78.98%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+26.00%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+12.74%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "72.07× P/E",
+            "note": "model fair 22.89×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "MODERATE",
+            "note": "risk score 1 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹844.38",
+        "target2": "₹814.82",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 60.015
+      }
+    },
+    {
+      "id": "card_lohia",
+      "type": "sm_reportcard",
+      "in_seconds": 253.076,
+      "out_seconds": 312.356,
+      "props": {
+        "index": 2,
+        "total": 20,
+        "name": "Lohia Corp",
+        "ticker": "LCL",
+        "listed": "30 JUL",
+        "issue": "₹425.00",
+        "listing": "₹461.00",
+        "current": "₹565.10",
+        "listGain": "listing +8.47%",
+        "returnPct": "vs issue +32.96%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+32.96%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+25.00%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+11.24%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "24.61× P/E",
+            "note": "model fair 24.77×",
+            "tone": "#34D399"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "LOW",
+            "note": "risk score 0 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹598.00",
+        "target2": "₹632.81",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 59.78
+      }
+    },
+    {
+      "id": "card_xtranet",
+      "type": "sm_reportcard",
+      "in_seconds": 312.856,
+      "out_seconds": 373.8,
+      "props": {
+        "index": 3,
+        "total": 20,
+        "name": "Xtranet Technologies",
+        "ticker": "XTRANET",
+        "listed": "30 JUL",
+        "issue": "₹127.00",
+        "listing": "₹136.00",
+        "current": "₹197.11",
+        "listGain": "listing +7.09%",
+        "returnPct": "vs issue +55.20%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+55.20%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+32.00%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+11.20%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "18.07× P/E",
+            "note": "model fair 24.72×",
+            "tone": "#34D399"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "MODERATE",
+            "note": "risk score 1 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹220.60",
+        "target2": "₹246.45",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 61.444
+      }
+    },
+    {
+      "id": "card_manipal",
+      "type": "sm_reportcard",
+      "in_seconds": 374.3,
+      "out_seconds": 432.407,
+      "props": {
+        "index": 4,
+        "total": 20,
+        "name": "Manipal Health",
+        "ticker": "MANIPALHOS",
+        "listed": "05 AUG",
+        "issue": "₹590.00",
+        "listing": "₹652.00",
+        "current": "₹771.65",
+        "listGain": "listing +10.51%",
+        "returnPct": "vs issue +30.79%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+30.79%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "-7.48%",
+            "note": "normalized model input",
+            "tone": "#F87171"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+8.71%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "103.38× P/E",
+            "note": "model fair 10.00×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "SEVERE",
+            "note": "risk score 3 of 3",
+            "tone": "#F87171"
+          }
+        ],
+        "target1": "₹674.77",
+        "target2": "₹581.33",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 58.607
+      }
+    },
+    {
+      "id": "card_juniper",
+      "type": "sm_reportcard",
+      "in_seconds": 432.907,
+      "out_seconds": 493.509,
+      "props": {
+        "index": 5,
+        "total": 20,
+        "name": "Juniper Green Energy",
+        "ticker": "JNPR",
+        "listed": "06 AUG",
+        "issue": "₹225.00",
+        "listing": "₹245.00",
+        "current": "₹258.23",
+        "listGain": "listing +8.89%",
+        "returnPct": "vs issue +14.77%",
+        "status": "ABOVE ISSUE",
+        "statusTone": "#38BDF8",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+14.77%",
+            "note": "28 Aug close versus issue",
+            "tone": "#38BDF8"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+11.00%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+5.03%",
+            "note": "FY26; negative means loss",
+            "tone": "#FBBF24"
+          },
+          {
+            "label": "VALUATION",
+            "value": "241.65× P/E",
+            "note": "model fair 11.26×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "SEVERE",
+            "note": "risk score 3 of 3",
+            "tone": "#F87171"
+          }
+        ],
+        "target1": "₹234.73",
+        "target2": "₹209.81",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 61.103
+      }
+    },
+    {
+      "id": "card_mvelectro",
+      "type": "sm_reportcard",
+      "in_seconds": 494.009,
+      "out_seconds": 561.332,
+      "props": {
+        "index": 6,
+        "total": 20,
+        "name": "MV Electrosystems",
+        "ticker": "MVELECTRO",
+        "listed": "06 AUG",
+        "issue": "₹425.00",
+        "listing": "₹520.00",
+        "current": "₹719.55",
+        "listGain": "listing +22.35%",
+        "returnPct": "vs issue +69.31%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+69.31%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "-21.09%",
+            "note": "normalized model input",
+            "tone": "#F87171"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "-25.36%",
+            "note": "FY26; negative means loss",
+            "tone": "#F87171"
+          },
+          {
+            "label": "VALUATION",
+            "value": "39.70× P/S",
+            "note": "model fair 1.00×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "HIGH",
+            "note": "risk score 2 of 3",
+            "tone": "#FBBF24"
+          }
+        ],
+        "target1": "₹598.85",
+        "target2": "₹489.65",
+        "confidence": "VERY LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 67.823
+      }
+    },
+    {
+      "id": "card_ardee",
+      "type": "sm_reportcard",
+      "in_seconds": 561.832,
+      "out_seconds": 619.64,
+      "props": {
+        "index": 7,
+        "total": 20,
+        "name": "Ardee Industries",
+        "ticker": "ARDEE",
+        "listed": "12 AUG",
+        "issue": "₹53.00",
+        "listing": "₹72.00",
+        "current": "₹61.16",
+        "listGain": "listing +35.85%",
+        "returnPct": "vs issue +15.40%",
+        "status": "ABOVE ISSUE",
+        "statusTone": "#38BDF8",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+15.40%",
+            "note": "28 Aug close versus issue",
+            "tone": "#38BDF8"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+5.85%",
+            "note": "normalized model input",
+            "tone": "#FBBF24"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+7.25%",
+            "note": "FY26; negative means loss",
+            "tone": "#FBBF24"
+          },
+          {
+            "label": "VALUATION",
+            "value": "22.80× P/E",
+            "note": "model fair 10.00×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "SEVERE",
+            "note": "risk score 3 of 3",
+            "tone": "#F87171"
+          }
+        ],
+        "target1": "₹57.86",
+        "target2": "₹54.45",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 58.308
+      }
+    },
+    {
+      "id": "card_technocraft",
+      "type": "sm_reportcard",
+      "in_seconds": 620.14,
+      "out_seconds": 682.791,
+      "props": {
+        "index": 8,
+        "total": 20,
+        "name": "Technocraft Ventures",
+        "ticker": "TECHNOCRAF",
+        "listed": "14 AUG",
+        "issue": "₹212.00",
+        "listing": "₹284.00",
+        "current": "₹373.83",
+        "listGain": "listing +33.96%",
+        "returnPct": "vs issue +76.33%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+76.33%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+23.50%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+12.48%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "25.98× P/E",
+            "note": "model fair 24.47×",
+            "tone": "#34D399"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "LOW",
+            "note": "risk score 0 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹391.34",
+        "target2": "₹409.65",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 63.151
+      }
+    },
+    {
+      "id": "card_leap",
+      "type": "sm_reportcard",
+      "in_seconds": 683.291,
+      "out_seconds": 742.741,
+      "props": {
+        "index": 9,
+        "total": 20,
+        "name": "LEAP India",
+        "ticker": "LEAPIND",
+        "listed": "14 AUG",
+        "issue": "₹159.00",
+        "listing": "₹165.90",
+        "current": "₹168.40",
+        "listGain": "listing +4.34%",
+        "returnPct": "vs issue +5.91%",
+        "status": "ABOVE ISSUE",
+        "statusTone": "#FBBF24",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+5.91%",
+            "note": "28 Aug close versus issue",
+            "tone": "#FBBF24"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+35.00%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+8.34%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "112.27× P/E",
+            "note": "model fair 20.25×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "SEVERE",
+            "note": "risk score 3 of 3",
+            "tone": "#F87171"
+          }
+        ],
+        "target1": "₹163.67",
+        "target2": "₹157.17",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 59.951
+      }
+    },
+    {
+      "id": "card_dhoot",
+      "type": "sm_reportcard",
+      "in_seconds": 743.241,
+      "out_seconds": 805.423,
+      "props": {
+        "index": 10,
+        "total": 20,
+        "name": "Dhoot Transmission",
+        "ticker": "DHOOTTRANS",
+        "listed": "17 AUG",
+        "issue": "₹871.00",
+        "listing": "₹1,200.00",
+        "current": "₹1,454.90",
+        "listGain": "listing +37.77%",
+        "returnPct": "vs issue +67.04%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+67.04%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+12.14%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+8.70%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "59.63× P/E",
+            "note": "model fair 14.81×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "HIGH",
+            "note": "risk score 2 of 3",
+            "tone": "#FBBF24"
+          }
+        ],
+        "target1": "₹1,362.15",
+        "target2": "₹1,262.79",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 62.681
+      }
+    },
+    {
+      "id": "card_molbio",
+      "type": "sm_reportcard",
+      "in_seconds": 805.923,
+      "out_seconds": 866.205,
+      "props": {
+        "index": 11,
+        "total": 20,
+        "name": "Molbio Diagnostics",
+        "ticker": "MOLBIO",
+        "listed": "17 AUG",
+        "issue": "₹807.00",
+        "listing": "₹980.00",
+        "current": "₹1,094.75",
+        "listGain": "listing +21.44%",
+        "returnPct": "vs issue +35.66%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+35.66%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+14.80%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+11.52%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "74.12× P/E",
+            "note": "model fair 18.75×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "MODERATE",
+            "note": "risk score 1 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹1,031.61",
+        "target2": "₹962.68",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 60.783
+      }
+    },
+    {
+      "id": "card_milkymist",
+      "type": "sm_reportcard",
+      "in_seconds": 866.705,
+      "out_seconds": 927.927,
+      "props": {
+        "index": 12,
+        "total": 20,
+        "name": "Milky Mist Dairy Food",
+        "ticker": "MILKYMIST",
+        "listed": "18 AUG",
+        "issue": "₹140.00",
+        "listing": "₹165.00",
+        "current": "₹214.31",
+        "listGain": "listing +17.86%",
+        "returnPct": "vs issue +53.08%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+53.08%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+33.55%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+4.04%",
+            "note": "FY26; negative means loss",
+            "tone": "#FBBF24"
+          },
+          {
+            "label": "VALUATION",
+            "value": "108.79× P/E",
+            "note": "model fair 18.97×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "SEVERE",
+            "note": "risk score 3 of 3",
+            "tone": "#F87171"
+          }
+        ],
+        "target1": "₹207.56",
+        "target2": "₹198.59",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 61.721
+      }
+    },
+    {
+      "id": "card_beharilal",
+      "type": "sm_reportcard",
+      "in_seconds": 928.427,
+      "out_seconds": 990.139,
+      "props": {
+        "index": 13,
+        "total": 20,
+        "name": "Behari Lal Engineering",
+        "ticker": "BLEL",
+        "listed": "19 AUG",
+        "issue": "₹285.00",
+        "listing": "₹465.00",
+        "current": "₹457.45",
+        "listGain": "listing +63.16%",
+        "returnPct": "vs issue +60.51%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+60.51%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+5.90%",
+            "note": "normalized model input",
+            "tone": "#FBBF24"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+11.83%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "27.63× P/E",
+            "note": "model fair 15.69×",
+            "tone": "#FBBF24"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "MODERATE",
+            "note": "risk score 1 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹440.00",
+        "target2": "₹421.95",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 62.212
+      }
+    },
+    {
+      "id": "card_shiprocket",
+      "type": "sm_reportcard",
+      "in_seconds": 990.639,
+      "out_seconds": 1051.647,
+      "props": {
+        "index": 14,
+        "total": 20,
+        "name": "Shiprocket",
+        "ticker": "SHIPROCKET",
+        "listed": "19 AUG",
+        "issue": "₹97.00",
+        "listing": "₹131.00",
+        "current": "₹125.40",
+        "listGain": "listing +35.05%",
+        "returnPct": "vs issue +29.28%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+29.28%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+24.00%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "-3.91%",
+            "note": "FY26; negative means loss",
+            "tone": "#F87171"
+          },
+          {
+            "label": "VALUATION",
+            "value": "4.53× P/S",
+            "note": "model fair 2.45×",
+            "tone": "#FBBF24"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "MODERATE",
+            "note": "risk score 1 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹125.04",
+        "target2": "₹124.25",
+        "confidence": "VERY LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 61.508
+      }
+    },
+    {
+      "id": "card_horizon",
+      "type": "sm_reportcard",
+      "in_seconds": 1052.147,
+      "out_seconds": 1111.32,
+      "props": {
+        "index": 15,
+        "total": 20,
+        "name": "Horizon Industrial Parks",
+        "ticker": "HORIZONIND",
+        "listed": "24 AUG",
+        "issue": "₹60.00",
+        "listing": "₹60.25",
+        "current": "₹58.05",
+        "listGain": "listing +0.42%",
+        "returnPct": "vs issue -3.25%",
+        "status": "BELOW ISSUE",
+        "statusTone": "#F87171",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "-3.25%",
+            "note": "28 Aug close versus issue",
+            "tone": "#F87171"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+35.00%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "-29.45%",
+            "note": "FY26; negative means loss",
+            "tone": "#F87171"
+          },
+          {
+            "label": "VALUATION",
+            "value": "24.21× P/S",
+            "note": "model fair 2.50×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "SEVERE",
+            "note": "risk score 3 of 3",
+            "tone": "#F87171"
+          }
+        ],
+        "target1": "₹55.84",
+        "target2": "₹52.93",
+        "confidence": "VERY LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 59.673
+      }
+    },
+    {
+      "id": "card_lalithaa",
+      "type": "sm_reportcard",
+      "in_seconds": 1111.82,
+      "out_seconds": 1172.721,
+      "props": {
+        "index": 16,
+        "total": 20,
+        "name": "Lalithaa Jewellery Mart",
+        "ticker": "LALITHAA",
+        "listed": "24 AUG",
+        "issue": "₹201.00",
+        "listing": "₹265.00",
+        "current": "₹265.24",
+        "listGain": "listing +31.84%",
+        "returnPct": "vs issue +31.96%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+31.96%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+35.00%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+4.04%",
+            "note": "FY26; negative means loss",
+            "tone": "#FBBF24"
+          },
+          {
+            "label": "VALUATION",
+            "value": "13.13× P/E",
+            "note": "model fair 24.48×",
+            "tone": "#34D399"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "MODERATE",
+            "note": "risk score 1 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹315.56",
+        "target2": "₹372.10",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 61.401
+      }
+    },
+    {
+      "id": "card_shankesh",
+      "type": "sm_reportcard",
+      "in_seconds": 1173.221,
+      "out_seconds": 1231.051,
+      "props": {
+        "index": 17,
+        "total": 20,
+        "name": "Shankesh Jewellers",
+        "ticker": "SHANKESH",
+        "listed": "25 AUG",
+        "issue": "₹93.00",
+        "listing": "₹103.30",
+        "current": "₹91.73",
+        "listGain": "listing +11.08%",
+        "returnPct": "vs issue -1.37%",
+        "status": "BELOW ISSUE",
+        "statusTone": "#F87171",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "-1.37%",
+            "note": "28 Aug close versus issue",
+            "tone": "#F87171"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+16.17%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+6.54%",
+            "note": "FY26; negative means loss",
+            "tone": "#FBBF24"
+          },
+          {
+            "label": "VALUATION",
+            "value": "10.10× P/E",
+            "note": "model fair 18.34×",
+            "tone": "#34D399"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "MODERATE",
+            "note": "risk score 1 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹104.55",
+        "target2": "₹118.22",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 58.329
+      }
+    },
+    {
+      "id": "card_sunshine",
+      "type": "sm_reportcard",
+      "in_seconds": 1231.551,
+      "out_seconds": 1292.452,
+      "props": {
+        "index": 18,
+        "total": 20,
+        "name": "Sunshine Pictures",
+        "ticker": "SUNSHINE",
+        "listed": "25 AUG",
+        "issue": "₹360.00",
+        "listing": "₹395.90",
+        "current": "₹429.75",
+        "listGain": "listing +9.97%",
+        "returnPct": "vs issue +19.38%",
+        "status": "ABOVE ISSUE",
+        "statusTone": "#38BDF8",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+19.38%",
+            "note": "28 Aug close versus issue",
+            "tone": "#38BDF8"
+          },
+          {
+            "label": "GROWTH",
+            "value": "-25.00%",
+            "note": "normalized model input",
+            "tone": "#F87171"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+52.47%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "28.09× P/E",
+            "note": "model fair 23.44×",
+            "tone": "#34D399"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "LOW",
+            "note": "risk score 0 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹391.99",
+        "target2": "₹357.40",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 61.401
+      }
+    },
+    {
+      "id": "card_gaja",
+      "type": "sm_reportcard",
+      "in_seconds": 1292.952,
+      "out_seconds": 1352.936,
+      "props": {
+        "index": 19,
+        "total": 20,
+        "name": "Gaja Alternative Asset Management",
+        "ticker": "GAJA",
+        "listed": "26 AUG",
+        "issue": "₹160.00",
+        "listing": "₹185.00",
+        "current": "₹158.66",
+        "listGain": "listing +15.62%",
+        "returnPct": "vs issue -0.84%",
+        "status": "BELOW ISSUE",
+        "statusTone": "#F87171",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "-0.84%",
+            "note": "28 Aug close versus issue",
+            "tone": "#F87171"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+28.00%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+50.44%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "22.14× P/E",
+            "note": "model fair 32.88×",
+            "tone": "#34D399"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "LOW",
+            "note": "risk score 0 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹178.58",
+        "target2": "₹200.40",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 60.484
+      }
+    },
+    {
+      "id": "card_tempsens",
+      "type": "sm_reportcard",
+      "in_seconds": 1353.436,
+      "out_seconds": 1415.233,
+      "props": {
+        "index": 20,
+        "total": 20,
+        "name": "Tempsens Instruments",
+        "ticker": "TEMPSENS",
+        "listed": "28 AUG",
+        "issue": "₹300.00",
+        "listing": "₹634.00",
+        "current": "₹586.65",
+        "listGain": "listing +111.33%",
+        "returnPct": "vs issue +95.55%",
+        "status": "STRONG POST-LISTING GAIN",
+        "statusTone": "#34D399",
+        "factors": [
+          {
+            "label": "RETURN",
+            "value": "+95.55%",
+            "note": "28 Aug close versus issue",
+            "tone": "#34D399"
+          },
+          {
+            "label": "GROWTH",
+            "value": "+13.60%",
+            "note": "normalized model input",
+            "tone": "#34D399"
+          },
+          {
+            "label": "PAT MARGIN",
+            "value": "+15.97%",
+            "note": "FY26; negative means loss",
+            "tone": "#34D399"
+          },
+          {
+            "label": "VALUATION",
+            "value": "70.43× P/E",
+            "note": "model fair 21.63×",
+            "tone": "#F87171"
+          },
+          {
+            "label": "LEVERAGE",
+            "value": "LOW",
+            "note": "risk score 0 of 3",
+            "tone": "#34D399"
+          }
+        ],
+        "target1": "₹555.30",
+        "target2": "₹521.30",
+        "confidence": "LOW",
+        "modelNote": "Base case = forward earnings/sales × quality-adjusted fair multiple; 12% mean reversion per quarter · not broker consensus",
+        "dur": 62.297
+      }
+    },
+    {
+      "id": "targets_div",
+      "type": "sm_divider",
+      "in_seconds": 1415.733,
+      "out_seconds": 1422.313,
+      "props": {
+        "n": 3,
+        "title": "The Model's Ranking",
+        "sub": "Following-quarter upside/downside from the 28 Aug close",
+        "color": "#A78BFA",
+        "dur": 7.08
+      }
+    },
+    {
+      "id": "targets_1",
+      "type": "sm_peers",
+      "in_seconds": 1422.813,
+      "out_seconds": 1459.483,
+      "props": {
+        "kicker": "MODEL OUTPUT · Q+2 · PAGE 1",
+        "title": "Following-Quarter Scenario vs Current",
+        "color": "#A78BFA",
+        "unit": "%",
+        "dec": 2,
+        "peLabel": "absolute bar length; signed value shown at right",
+        "rows": [
+          {
+            "name": "Lalithaa Jewellery Mart",
+            "pe": 40.288671727259114,
+            "display": "+40.29%",
+            "note": "₹265.24 → ₹372.10 · P/E",
+            "hi": true
+          },
+          {
+            "name": "Shankesh Jewellers",
+            "pe": 28.877701731774664,
+            "display": "+28.88%",
+            "note": "₹91.73 → ₹118.22 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Gaja Alternative Asset Management",
+            "pe": 26.307836026410982,
+            "display": "+26.31%",
+            "note": "₹158.66 → ₹200.40 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Xtranet Technologies",
+            "pe": 25.03271082089229,
+            "display": "+25.03%",
+            "note": "₹197.11 → ₹246.45 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Lohia Corp",
+            "pe": 11.981339367762178,
+            "display": "+11.98%",
+            "note": "₹565.10 → ₹632.81 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Technocraft Ventures",
+            "pe": 9.581809710862977,
+            "display": "+9.58%",
+            "note": "₹373.83 → ₹409.65 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Shiprocket",
+            "pe": 0.9159179086302371,
+            "display": "-0.92%",
+            "note": "₹125.40 → ₹124.25 · P/S",
+            "hi": false
+          }
+        ],
+        "verdict": "This ranking is a sensitivity map, not a buy list; low confidence and valuation mean-reversion drive the result.",
+        "dur": 37.169
+      }
+    },
+    {
+      "id": "targets_2",
+      "type": "sm_peers",
+      "in_seconds": 1459.983,
+      "out_seconds": 1495.436,
+      "props": {
+        "kicker": "MODEL OUTPUT · Q+2 · PAGE 2",
+        "title": "Following-Quarter Scenario vs Current",
+        "color": "#A78BFA",
+        "unit": "%",
+        "dec": 2,
+        "peLabel": "absolute bar length; signed value shown at right",
+        "rows": [
+          {
+            "name": "Indo-MIM",
+            "pe": 6.132680314929583,
+            "display": "-6.13%",
+            "note": "₹868.05 → ₹814.82 · P/E",
+            "hi": false
+          },
+          {
+            "name": "LEAP India",
+            "pe": 6.666012355859396,
+            "display": "-6.67%",
+            "note": "₹168.40 → ₹157.17 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Milky Mist Dairy Food",
+            "pe": 7.3352805785655395,
+            "display": "-7.34%",
+            "note": "₹214.31 → ₹198.59 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Behari Lal Engineering",
+            "pe": 7.761246766884778,
+            "display": "-7.76%",
+            "note": "₹457.45 → ₹421.95 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Horizon Industrial Parks",
+            "pe": 8.816438185127096,
+            "display": "-8.82%",
+            "note": "₹58.05 → ₹52.93 · P/S",
+            "hi": false
+          },
+          {
+            "name": "Ardee Industries",
+            "pe": 10.978759171984365,
+            "display": "-10.98%",
+            "note": "₹61.16 → ₹54.45 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Tempsens Instruments",
+            "pe": 11.139061170769049,
+            "display": "-11.14%",
+            "note": "₹586.65 → ₹521.30 · P/E",
+            "hi": false
+          }
+        ],
+        "verdict": "This ranking is a sensitivity map, not a buy list; low confidence and valuation mean-reversion drive the result.",
+        "dur": 35.953
+      }
+    },
+    {
+      "id": "targets_3",
+      "type": "sm_peers",
+      "in_seconds": 1495.936,
+      "out_seconds": 1531.133,
+      "props": {
+        "kicker": "MODEL OUTPUT · Q+2 · PAGE 3",
+        "title": "Following-Quarter Scenario vs Current",
+        "color": "#A78BFA",
+        "unit": "%",
+        "dec": 2,
+        "peLabel": "absolute bar length; signed value shown at right",
+        "rows": [
+          {
+            "name": "Molbio Diagnostics",
+            "pe": 12.063720825346792,
+            "display": "-12.06%",
+            "note": "₹1,094.75 → ₹962.68 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Dhoot Transmission",
+            "pe": 13.204560737931947,
+            "display": "-13.20%",
+            "note": "₹1,454.90 → ₹1,262.79 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Sunshine Pictures",
+            "pe": 16.834726473025196,
+            "display": "-16.83%",
+            "note": "₹429.75 → ₹357.40 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Juniper Green Energy",
+            "pe": 18.751298420592466,
+            "display": "-18.75%",
+            "note": "₹258.23 → ₹209.81 · P/E",
+            "hi": false
+          },
+          {
+            "name": "Manipal Health",
+            "pe": 24.664619335885863,
+            "display": "-24.66%",
+            "note": "₹771.65 → ₹581.33 · P/E",
+            "hi": false
+          },
+          {
+            "name": "MV Electrosystems",
+            "pe": 31.95119597939442,
+            "display": "-31.95%",
+            "note": "₹719.55 → ₹489.65 · P/S",
+            "hi": false
+          }
+        ],
+        "verdict": "This ranking is a sensitivity map, not a buy list; low confidence and valuation mean-reversion drive the result.",
+        "dur": 35.697
+      }
+    },
+    {
+      "id": "all_recap",
+      "type": "sm_recap",
+      "in_seconds": 1531.633,
+      "out_seconds": 1602.537,
+      "props": {
+        "title": "20 IPOs — What the Uniform Model Says",
+        "items": [
+          "Top Q+2 scenarios: Lalithaa Jewellery Mart +40.29% · Shankesh Jewellers +28.88% · Gaja Alternative Asset Management +26.31%",
+          "Lowest Q+2 scenarios: Juniper Green Energy -18.75% · Manipal Health -24.66% · MV Electrosystems -31.95%",
+          "High growth does not rescue an extreme multiple immediately; valuation can overwhelm earnings growth",
+          "Loss-makers use P/S and carry VERY LOW confidence; profitable names still carry LOW confidence",
+          "Re-run after each quarterly result — targets are dated scenarios, never permanent truths"
+        ],
+        "closer": "One formula improves consistency, not certainty. Verify the filings and manage risk.",
+        "dur": 71.404
+      }
+    }
+  ],
+  "captions": [],
+  "audio": {
+    "narration": {
+      "src": "ir/comparison.wav",
+      "volume": 1.0
+    }
+  }
+}

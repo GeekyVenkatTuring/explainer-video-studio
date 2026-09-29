@@ -1,0 +1,899 @@
+{
+ "pack": "ledger",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "data-harness",
+  "issue": "part 2 · data plane",
+  "code": "DH · P2"
+ },
+ "beats": [
+  {
+   "id": "b08",
+   "kind": "divider",
+   "dur": 8.774,
+   "props": {
+    "n": 2,
+    "total": 6,
+    "title": "The data plane",
+    "sub": "PDFs, Excel and SQL → one clean store"
+   }
+  },
+  {
+   "id": "b09",
+   "kind": "x_ingest",
+   "dur": 45.391,
+   "props": {
+    "kicker": "Source 1 · PDFs",
+    "title": "A results PDF becomes rows",
+    "src": {
+     "kind": "pdf",
+     "name": "acme_q2fy26_results.pdf",
+     "unit": "(₹ in crore, consolidated)",
+     "head": [
+      "Particulars",
+      "Q2FY26",
+      "Q1FY26",
+      "Q2FY25"
+     ],
+     "rows": [
+      [
+       "Revenue from operations",
+       "1,248.60",
+       "1,261.20",
+       "1,094.60"
+      ],
+      [
+       "Total expenses",
+       "1,106.20",
+       "1,121.10",
+       "987.10"
+      ],
+      [
+       "Profit before tax",
+       "142.40",
+       "140.10",
+       "107.50"
+      ],
+      [
+       "Tax expense",
+       "36.30",
+       "35.40",
+       "27.40"
+      ],
+      [
+       "Net profit",
+       "106.10",
+       "104.70",
+       "80.10"
+      ]
+     ]
+    },
+    "steps": [
+     "Parse layout",
+     "Map row labels",
+     "Tag period + basis"
+    ],
+    "out": {
+     "cols": [
+      "metric",
+      "period",
+      "value",
+      "locator"
+     ],
+     "rows": [
+      [
+       "revenue",
+       "Q2FY26",
+       "1,248.60",
+       "p4:t1:r1"
+      ],
+      [
+       "pat",
+       "Q2FY26",
+       "106.10",
+       "p4:t1:r5"
+      ],
+      [
+       "revenue",
+       "Q1FY26",
+       "1,261.20",
+       "p4:t1:r1"
+      ],
+      [
+       "pat",
+       "Q1FY26",
+       "104.70",
+       "p4:t1:r5"
+      ],
+      [
+       "revenue",
+       "Q2FY25",
+       "1,094.60",
+       "p4:t1:r1"
+      ],
+      [
+       "pat",
+       "Q2FY25",
+       "80.10",
+       "p4:t1:r5"
+      ]
+     ],
+     "map": [
+      0,
+      4,
+      0,
+      4,
+      0,
+      4
+     ]
+    }
+   }
+  },
+  {
+   "id": "b10",
+   "kind": "x_table",
+   "dur": 32.345,
+   "props": {
+    "kicker": "The heart of the system",
+    "title": "One canonical facts table",
+    "cols": [
+     {
+      "h": "company"
+     },
+     {
+      "h": "metric"
+     },
+     {
+      "h": "period"
+     },
+     {
+      "h": "value",
+      "align": "right"
+     },
+     {
+      "h": "unit"
+     },
+     {
+      "h": "basis"
+     },
+     {
+      "h": "source",
+      "w": 1.7
+     },
+     {
+      "h": "locator",
+      "w": 1.1
+     }
+    ],
+    "rows": [
+     [
+      "acme",
+      "revenue",
+      "Q2FY26",
+      1248.6,
+      "INR_cr",
+      "consol",
+      "q2fy26_results.pdf",
+      "p4:t1:r1"
+     ],
+     [
+      "acme",
+      "pat",
+      "Q2FY26",
+      106.1,
+      "INR_cr",
+      "consol",
+      "q2fy26_results.pdf",
+      "p4:t1:r5"
+     ],
+     [
+      "acme",
+      "borrowings",
+      "H1FY26",
+      412.5,
+      "INR_cr",
+      "consol",
+      "balance_sheet.xlsx",
+      "BS!C14"
+     ],
+     [
+      "acme",
+      "equity",
+      "H1FY26",
+      1650.0,
+      "INR_cr",
+      "consol",
+      "balance_sheet.xlsx",
+      "BS!C22"
+     ],
+     [
+      "acme",
+      "close",
+      "2026-09-23",
+      842.35,
+      "INR",
+      "—",
+      "prices.db",
+      "prices#row"
+     ]
+    ],
+    "marks": [
+     {
+      "r": 1,
+      "c": 3,
+      "key": "value",
+      "tone": "hi",
+      "note": "a value is never alone: unit, basis, source and locator travel with it",
+      "at": 0.232
+     },
+     {
+      "r": 2,
+      "c": 6,
+      "key": "source",
+      "tone": "ok",
+      "note": "provenance: every number points back to a file and a cell",
+      "at": 0.422
+     }
+    ],
+    "note": "close price illustrative"
+   }
+  },
+  {
+   "id": "b11",
+   "kind": "x_ingest",
+   "dur": 37.733,
+   "props": {
+    "kicker": "Source 2 · Excel",
+    "title": "Excel: detect the unit, then convert it",
+    "src": {
+     "kind": "xls",
+     "name": "balance_sheet.xlsx",
+     "unit": "Rs. in Lakhs",
+     "head": [
+      "Item",
+      "FY24",
+      "FY25",
+      "H1FY26"
+     ],
+     "rows": [
+      [
+       "Borrowings",
+       "52,480.00",
+       "47,310.00",
+       "41,250.00"
+      ],
+      [
+       "Net worth",
+       "148,200.00",
+       "158,900.00",
+       "165,000.00"
+      ]
+     ]
+    },
+    "steps": [
+     "Read merged headers",
+     "Detect ₹ lakh",
+     "Divide by 100"
+    ],
+    "out": {
+     "cols": [
+      "metric",
+      "period",
+      "value ₹ cr",
+      "cell"
+     ],
+     "rows": [
+      [
+       "borrowings",
+       "FY24",
+       "524.80",
+       "BS!C14"
+      ],
+      [
+       "borrowings",
+       "FY25",
+       "473.10",
+       "BS!D14"
+      ],
+      [
+       "borrowings",
+       "H1FY26",
+       "412.50",
+       "BS!E14"
+      ],
+      [
+       "equity",
+       "FY24",
+       "1,482.00",
+       "BS!C22"
+      ],
+      [
+       "equity",
+       "FY25",
+       "1,589.00",
+       "BS!D22"
+      ],
+      [
+       "equity",
+       "H1FY26",
+       "1,650.00",
+       "BS!E22"
+      ]
+     ],
+     "map": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "id": "b12",
+   "kind": "flow",
+   "dur": 34.067,
+   "props": {
+    "kicker": "Source 3 · SQL databases",
+    "title": "Attach every database to one engine",
+    "steps": [
+     {
+      "h": "Attach",
+      "d": "SQLite, Postgres or MySQL, attached into DuckDB"
+     },
+     {
+      "h": "Introspect",
+      "d": "tables, columns, sample rows, value ranges"
+     },
+     {
+      "h": "Annotate",
+      "d": "human notes: 'close is split-adjusted'"
+     },
+     {
+      "h": "Lock down",
+      "d": "read-only, row limits, timeouts"
+     }
+    ],
+    "ats": [
+     0.067,
+     0.424,
+     0.626,
+     0.853
+    ]
+   }
+  },
+  {
+   "id": "b13",
+   "kind": "x_table",
+   "dur": 37.994,
+   "props": {
+    "kicker": "Validate before you trust",
+    "title": "Reconcile sources, don't pick one silently",
+    "cols": [
+     {
+      "h": "check",
+      "w": 2.1
+     },
+     {
+      "h": "PDF",
+      "c": "pdf",
+      "align": "right"
+     },
+     {
+      "h": "Excel (raw)",
+      "c": "xls",
+      "align": "right"
+     },
+     {
+      "h": "Excel → ₹ cr",
+      "computed": "raw / 100",
+      "align": "right"
+     },
+     {
+      "h": "status",
+      "w": 0.9
+     }
+    ],
+    "rows": [
+     [
+      "PAT Q2FY26",
+      "106.10",
+      "10,610.00",
+      "106.10",
+      "match"
+     ],
+     [
+      "Revenue Q2FY26",
+      "1,248.60",
+      "124,860.00",
+      "1,248.60",
+      "match"
+     ],
+     [
+      "PBT − tax = PAT",
+      "142.40 − 36.30",
+      "—",
+      "106.10",
+      "ties out"
+     ],
+     [
+      "PAT Q1FY26",
+      "104.70",
+      "10,420.00",
+      "104.20",
+      "conflict"
+     ]
+    ],
+    "marks": [
+     {
+      "r": 0,
+      "c": 2,
+      "key": "hundred",
+      "tone": "bad",
+      "note": "compare raw values and you'd see a 100× gap: that's a unit slip, not a disagreement",
+      "at": 0.277
+     },
+     {
+      "r": 2,
+      "c": 4,
+      "key": "tie",
+      "tone": "ok",
+      "note": "arithmetic identities catch parser misreads",
+      "at": 0.562
+     },
+     {
+      "r": 3,
+      "c": 4,
+      "key": "conflict",
+      "tone": "bad",
+      "note": "real conflict (restatement?): surface both values with sources",
+      "at": 0.735
+     }
+    ]
+   }
+  },
+  {
+   "id": "b14",
+   "kind": "flow",
+   "dur": 38.658,
+   "props": {
+    "kicker": "The text side",
+    "title": "Prose becomes searchable chunks",
+    "steps": [
+     {
+      "h": "Split by section",
+      "d": "MD&A, risks, notes, concall Q&A"
+     },
+     {
+      "h": "Add context prefix",
+      "d": "Company | Doc | Period | Section"
+     },
+     {
+      "h": "Index twice",
+      "d": "vectors for meaning, BM25 for exact terms"
+     },
+     {
+      "h": "Audit the corpus",
+      "d": "missing documents are the silent killer"
+     }
+    ],
+    "ats": [
+     0.161,
+     0.328,
+     0.582,
+     0.726
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.547,
+   "Part two. The data plane."
+  ],
+  [
+   3.179,
+   7.255,
+   "How PDFs, spreadsheets, and databases become one clean,"
+  ],
+  [
+   7.255,
+   8.274,
+   "trustworthy store."
+  ],
+  [
+   8.774,
+   11.29,
+   "Start with PDFs, the hardest source."
+  ],
+  [
+   11.922,
+   15.277,
+   "A parser like Docling runs locally and turns"
+  ],
+  [
+   15.277,
+   18.213,
+   "each page into text plus table objects."
+  ],
+  [
+   18.844,
+   22.2,
+   "Then we map row labels to canonical metrics."
+  ],
+  [
+   22.2,
+   25.555,
+   "Revenue from operations, net sales, and total income"
+  ],
+  [
+   25.555,
+   28.071,
+   "from operations can all mean revenue."
+  ],
+  [
+   28.703,
+   32.058,
+   "Next we tag the period and the basis,"
+  ],
+  [
+   32.058,
+   33.316,
+   "consolidated or standalone."
+  ],
+  [
+   33.948,
+   37.303,
+   "Each value lands as a row, with a"
+  ],
+  [
+   37.303,
+   40.239,
+   "locator: page four, table one, row five."
+  ],
+  [
+   40.87,
+   44.226,
+   "Later, any number can be traced back to"
+  ],
+  [
+   44.226,
+   45.484,
+   "that exact cell."
+  ],
+  [
+   46.115,
+   49.471,
+   "One warning from 2026 benchmarks. Local parsers can"
+  ],
+  [
+   49.471,
+   52.826,
+   "misread dense tables, so always check that totals"
+  ],
+  [
+   52.826,
+   53.665,
+   "tie out."
+  ],
+  [
+   54.165,
+   57.251,
+   "Everything numeric converges here, in one canonical facts"
+  ],
+  [
+   57.251,
+   57.637,
+   "table."
+  ],
+  [
+   58.268,
+   61.355,
+   "Each row says which company, which metric, which"
+  ],
+  [
+   61.355,
+   62.898,
+   "period, and the value."
+  ],
+  [
+   63.529,
+   66.615,
+   "But a value never travels alone. It carries"
+  ],
+  [
+   66.615,
+   69.702,
+   "its unit, its basis, its source file, and"
+  ],
+  [
+   69.702,
+   70.473,
+   "its locator."
+  ],
+  [
+   71.105,
+   74.191,
+   "That's provenance. It means every number can point"
+  ],
+  [
+   74.191,
+   76.891,
+   "back to a file and a cell."
+  ],
+  [
+   77.523,
+   80.609,
+   "Rows from PDFs, from Excel, and from databases"
+  ],
+  [
+   80.609,
+   83.695,
+   "all look the same here. So the agent"
+  ],
+  [
+   83.695,
+   86.01,
+   "answers from one place, not three."
+  ],
+  [
+   86.51,
+   89.38,
+   "Excel looks easier, and it hides different traps."
+  ],
+  [
+   90.011,
+   92.881,
+   "Merged header cells, notes in the margins, and"
+  ],
+  [
+   92.881,
+   95.033,
+   "units written once, at the top."
+  ],
+  [
+   95.664,
+   97.816,
+   "This sheet says: rupees in lakhs."
+  ],
+  [
+   98.448,
+   101.317,
+   "Our canonical unit is crore, and one crore"
+  ],
+  [
+   101.317,
+   104.187,
+   "is a hundred lakh. So the ingest step"
+  ],
+  [
+   104.187,
+   107.056,
+   "detects the unit and divides by a hundred."
+  ],
+  [
+   107.688,
+   110.557,
+   "Borrowings of forty one thousand, two hundred and"
+  ],
+  [
+   110.557,
+   113.427,
+   "fifty lakh become four hundred and twelve point"
+  ],
+  [
+   113.427,
+   114.144,
+   "five crore."
+  ],
+  [
+   114.776,
+   117.645,
+   "Miss this, and every ratio is off by"
+  ],
+  [
+   117.645,
+   120.515,
+   "a factor of a hundred. It's one of"
+  ],
+  [
+   120.515,
+   123.384,
+   "the most common real errors in Indian financial"
+  ],
+  [
+   123.384,
+   123.743,
+   "data."
+  ],
+  [
+   124.243,
+   126.429,
+   "Databases are the friendliest source."
+  ],
+  [
+   127.06,
+   130.558,
+   "We attach them all to one engine, DuckDB."
+  ],
+  [
+   130.558,
+   134.056,
+   "SQLite, Postgres, even Excel files can be queried"
+  ],
+  [
+   134.056,
+   137.553,
+   "through it, so the agent learns one SQL"
+  ],
+  [
+   137.553,
+   137.99,
+   "dialect."
+  ],
+  [
+   138.622,
+   142.12,
+   "Next we introspect: tables, columns, sample rows, and"
+  ],
+  [
+   142.12,
+   144.743,
+   "value ranges go into the catalog."
+  ],
+  [
+   145.374,
+   148.872,
+   "Then we annotate. A human adds what the"
+  ],
+  [
+   148.872,
+   152.37,
+   "schema can't say, like close prices are split-adjusted."
+  ],
+  [
+   153.001,
+   156.499,
+   "Finally, we lock it down. Read-only connections, row"
+  ],
+  [
+   156.499,
+   157.81,
+   "limits, and timeouts."
+  ],
+  [
+   158.31,
+   161.661,
+   "Before any number is trusted, we validate it."
+  ],
+  [
+   162.292,
+   165.643,
+   "First, compare sources. Compare raw PAT in the"
+  ],
+  [
+   165.643,
+   168.993,
+   "PDF with raw PAT in Excel, and you'd"
+  ],
+  [
+   168.993,
+   172.344,
+   "see a hundred times gap. That's not a"
+  ],
+  [
+   172.344,
+   175.694,
+   "disagreement. It's a unit slip, and conversion fixes"
+  ],
+  [
+   175.694,
+   176.113,
+   "it."
+  ],
+  [
+   176.745,
+   180.095,
+   "Second, check identities. Profit before tax minus tax"
+  ],
+  [
+   180.095,
+   183.446,
+   "must tie out to net profit. That catches"
+  ],
+  [
+   183.446,
+   184.284,
+   "parser misreads."
+  ],
+  [
+   184.915,
+   188.266,
+   "Third, when two sources truly conflict, perhaps from"
+  ],
+  [
+   188.266,
+   191.616,
+   "a restatement, don't silently pick one. Flag the"
+  ],
+  [
+   191.616,
+   194.967,
+   "row as a conflict, and show both values"
+  ],
+  [
+   194.967,
+   195.804,
+   "with sources."
+  ],
+  [
+   196.304,
+   199.849,
+   "Numbers aren't everything. Management commentary explains why margins"
+  ],
+  [
+   199.849,
+   200.292,
+   "moved."
+  ],
+  [
+   200.923,
+   204.467,
+   "So text is split by section: discussion and"
+  ],
+  [
+   204.467,
+   207.569,
+   "analysis, risks, notes, and the earnings call."
+  ],
+  [
+   208.2,
+   211.745,
+   "Each chunk gets a context prefix. Company, document,"
+  ],
+  [
+   211.745,
+   212.631,
+   "period, section."
+  ],
+  [
+   213.262,
+   216.807,
+   "A public FinanceBench write-up found this cut cross-company"
+  ],
+  [
+   216.807,
+   217.25,
+   "mix-ups."
+  ],
+  [
+   217.881,
+   221.425,
+   "Then we index twice: vectors for meaning, and"
+  ],
+  [
+   221.425,
+   223.641,
+   "keyword search for exact terms."
+  ],
+  [
+   224.272,
+   227.816,
+   "And we audit the corpus. In that same"
+  ],
+  [
+   227.816,
+   231.361,
+   "write-up, simply fixing missing documents lifted retrieval recall"
+  ],
+  [
+   231.361,
+   234.462,
+   "from eighty three to ninety four percent."
+  ]
+ ],
+ "audio": "dh/ch02.wav"
+}

@@ -1,0 +1,244 @@
+{
+ "cuts": [
+  {
+   "id": "d5",
+   "type": "hf_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 3.375,
+   "props": {
+    "n": 5,
+    "title": "Media & Audio",
+    "sub": "voice, music, captions",
+    "color": "#FBBF24",
+    "dur": 3.875
+   }
+  },
+  {
+   "id": "s29_preflight",
+   "type": "hf_bullets",
+   "in_seconds": 3.875,
+   "out_seconds": 38.351,
+   "props": {
+    "kicker": "BEFORE ANY AUDIO",
+    "title": "Check sign-in first",
+    "color": "#FBBF24",
+    "foot": "No credential isn't a silent green light for local \u2014 recommend signing in, then let the user choose.",
+    "items": [
+     {
+      "h": "Run the auth status preflight",
+      "sub": "before generating voice or music",
+      "icon": "\ud83d\udd11",
+      "c": "#FBBF24"
+     },
+     {
+      "h": "Signed in \u2192 use the hosted providers",
+      "sub": "best quality, word timestamps",
+      "icon": "\u2601\ufe0f",
+      "c": "#34D399"
+     },
+     {
+      "h": "Not signed in \u2192 offer the choice",
+      "sub": "sign in, or continue offline",
+      "icon": "\ud83d\udd04",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 34.976
+   }
+  },
+  {
+   "id": "s30_audioengine",
+   "type": "hf_audioengine",
+   "in_seconds": 38.851,
+   "out_seconds": 80.809,
+   "props": {
+    "dur": 42.458
+   }
+  },
+  {
+   "id": "s31_ttschain",
+   "type": "hf_ttschain",
+   "in_seconds": 81.309,
+   "out_seconds": 119.946,
+   "props": {
+    "dur": 39.137
+   }
+  },
+  {
+   "id": "s32_bgmsfx",
+   "type": "hf_bullets",
+   "in_seconds": 120.446,
+   "out_seconds": 160.177,
+   "props": {
+    "kicker": "MUSIC & SOUND",
+    "title": "Background music and effects",
+    "color": "#FBBF24",
+    "foot": "Name sound effects concretely; a no-match skips, it never blocks the render.",
+    "items": [
+     {
+      "h": "Music: retrieve, or generate",
+      "sub": "a hosted library, or local generation",
+      "icon": "\ud83c\udfb5",
+      "c": "#FBBF24"
+     },
+     {
+      "h": "Sound effects: retrieve, or a bundled kit",
+      "sub": "ranked by a text query",
+      "icon": "\ud83d\udd0a",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Effects sit quietly under the voice",
+      "sub": "low volume, never competing",
+      "icon": "\ud83c\udf9a\ufe0f",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 40.231
+   }
+  },
+  {
+   "id": "s33_captions",
+   "type": "hf_pipeline",
+   "in_seconds": 160.677,
+   "out_seconds": 195.107,
+   "props": {
+    "kicker": "CAPTIONS",
+    "title": "From speech to synced words",
+    "color": "#FBBF24",
+    "foot": "Word timings in, styled captions out \u2014 karaoke, per-word, right on the beat.",
+    "steps": [
+     {
+      "label": "TTS",
+      "sub": "generate the voice",
+      "c": "#FBBF24"
+     },
+     {
+      "label": "transcribe",
+      "sub": "Whisper, word times",
+      "c": "#38BDF8"
+     },
+     {
+      "label": "words",
+      "sub": "id, text, start, end",
+      "c": "#A78BFA"
+     },
+     {
+      "label": "captions",
+      "sub": "styled, synced",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 34.93
+   }
+  },
+  {
+   "id": "s34_transcribe",
+   "type": "hf_code",
+   "in_seconds": 195.607,
+   "out_seconds": 233.603,
+   "props": {
+    "kicker": "THE WORD FORMAT",
+    "title": "Captions consume a flat word array",
+    "color": "#FBBF24",
+    "codeTitle": "narration.words.json",
+    "foot": "So: one small, boring format \u2014 id, text, start, end \u2014 powers every caption style.",
+    "lines": [
+     [
+      [
+       "[",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "  { ",
+       "#8090AE"
+      ],
+      [
+       "\"text\"",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "\"hello\"",
+       "#34D399"
+      ],
+      [
+       ", ",
+       "#8090AE"
+      ],
+      [
+       "\"start\"",
+       "#38BDF8"
+      ],
+      [
+       ": 0.0 },",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "  { ",
+       "#8090AE"
+      ],
+      [
+       "\"text\"",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "\"world\"",
+       "#34D399"
+      ],
+      [
+       ", ",
+       "#8090AE"
+      ],
+      [
+       "\"end\"",
+       "#38BDF8"
+      ],
+      [
+       ": 0.6 }",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "]",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "each word: id, text, start, end",
+      "c": "#FBBF24"
+     },
+     {
+      "text": "hosted TTS returns these natively",
+      "c": "#34D399"
+     },
+     {
+      "text": "the others chain a transcription pass",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 38.496
+   }
+  }
+ ],
+ "audio": {
+  "narration": {
+   "src": "hf/narration_p5.wav",
+   "volume": 1.0
+  }
+ }
+}

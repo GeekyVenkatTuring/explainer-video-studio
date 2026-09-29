@@ -1,0 +1,486 @@
+{
+ "cuts": [
+  {
+   "id": "d2",
+   "type": "hf_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 3.493,
+   "props": {
+    "n": 2,
+    "title": "The Contract",
+    "sub": "the rules of the file",
+    "color": "#38BDF8",
+    "dur": 3.993
+   }
+  },
+  {
+   "id": "s08_onefile",
+   "type": "hf_code",
+   "in_seconds": 3.993,
+   "out_seconds": 45.006,
+   "props": {
+    "kicker": "THE COMPOSITION",
+    "title": "One file, one composition",
+    "color": "#38BDF8",
+    "codeTitle": "composition.html",
+    "foot": "The root's data-duration \u2014 not the animation length \u2014 sets how long it renders.",
+    "lines": [
+     [
+      [
+       "<div ",
+       "#8090AE"
+      ],
+      [
+       "data-composition-id",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"scene\"",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "     ",
+       "#8090AE"
+      ],
+      [
+       "data-duration",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"6\"",
+       "#34D399"
+      ],
+      [
+       ">",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "  ...",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "</div>",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "The root div IS the composition",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "data-composition-id names it \u2014 the timeline key",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "data-duration is the render length in seconds",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 41.513
+   }
+  },
+  {
+   "id": "s09_clips",
+   "type": "hf_code",
+   "in_seconds": 45.506,
+   "out_seconds": 78.39,
+   "props": {
+    "kicker": "CLIPS",
+    "title": "Elements declare their own timing",
+    "color": "#38BDF8",
+    "codeTitle": "composition.html",
+    "foot": "Timing lives in the markup \u2014 read the HTML, and you can read the schedule.",
+    "lines": [
+     [
+      [
+       "<h1 ",
+       "#8090AE"
+      ],
+      [
+       "class",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"clip\"",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "    ",
+       "#8090AE"
+      ],
+      [
+       "data-start",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"1\"",
+       "#34D399"
+      ],
+      [
+       " ",
+       "#8090AE"
+      ],
+      [
+       "data-duration",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"3\"",
+       "#34D399"
+      ],
+      [
+       ">",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "  Hello",
+       "#EAF1FC"
+      ]
+     ],
+     [
+      [
+       "</h1>",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "class=\"clip\" marks an animatable element",
+      "c": "#A78BFA"
+     },
+     {
+      "text": "data-start times it on the timeline",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "data-duration is how long it lives",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 33.384
+   }
+  },
+  {
+   "id": "s10_tracks",
+   "type": "hf_tracks",
+   "in_seconds": 78.89,
+   "out_seconds": 113.813,
+   "props": {
+    "dur": 35.423
+   }
+  },
+  {
+   "id": "s11_seek",
+   "type": "hf_seek",
+   "in_seconds": 114.313,
+   "out_seconds": 156.599,
+   "props": {
+    "dur": 42.786
+   }
+  },
+  {
+   "id": "s12_subcomp",
+   "type": "hf_subcomp",
+   "in_seconds": 157.099,
+   "out_seconds": 198.042,
+   "props": {
+    "dur": 41.443
+   }
+  },
+  {
+   "id": "s13_rootforms",
+   "type": "hf_compare",
+   "in_seconds": 198.542,
+   "out_seconds": 234.454,
+   "props": {
+    "kicker": "TWO ROOT FORMS",
+    "title": "They are not interchangeable",
+    "foot": "Wrapping a standalone hides everything; forgetting to wrap a sub-comp breaks the mount.",
+    "left": {
+     "head": "Standalone",
+     "bad": false,
+     "c": "#38BDF8",
+     "items": [
+      "Top-level index.html",
+      "Root sits directly in the body",
+      "No template wrapper"
+     ]
+    },
+    "right": {
+     "head": "Sub-composition",
+     "bad": false,
+     "c": "#A78BFA",
+     "items": [
+      "Loaded by another file",
+      "Root wrapped in <template>",
+      "Styles & scripts go inside"
+     ]
+    },
+    "dur": 36.412
+   }
+  },
+  {
+   "id": "s14_media",
+   "type": "hf_code",
+   "in_seconds": 234.954,
+   "out_seconds": 272.189,
+   "props": {
+    "kicker": "MEDIA & VARIABLES",
+    "title": "The framework owns playback",
+    "color": "#38BDF8",
+    "codeTitle": "composition.html",
+    "foot": "Let the framework drive video and audio \u2014 it keeps them in sync with the seek.",
+    "lines": [
+     [
+      [
+       "<video ",
+       "#8090AE"
+      ],
+      [
+       "src",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"clip.mp4\"",
+       "#34D399"
+      ]
+     ],
+     [
+      [
+       "       ",
+       "#8090AE"
+      ],
+      [
+       "data-volume",
+       "#38BDF8"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "\"0.8\"",
+       "#34D399"
+      ],
+      [
+       ">",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "<!-- a direct child of the root -->",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "video and audio go directly under the root",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "the framework owns playback, trim and volume",
+      "c": "#A78BFA"
+     },
+     {
+      "text": "never drive playback yourself",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 37.735
+   }
+  },
+  {
+   "id": "s15_variables",
+   "type": "hf_code",
+   "in_seconds": 272.689,
+   "out_seconds": 309.475,
+   "props": {
+    "kicker": "PARAMETRIZED RENDERS",
+    "title": "One file, many videos",
+    "color": "#38BDF8",
+    "codeTitle": "index.html",
+    "foot": "Declare variables once; pass values at render time to reskin the same composition.",
+    "lines": [
+     [
+      [
+       "<html ",
+       "#8090AE"
+      ],
+      [
+       "data-composition-variables",
+       "#38BDF8"
+      ]
+     ],
+     [
+      [
+       "  ",
+       "#8090AE"
+      ],
+      [
+       "=",
+       "#8090AE"
+      ],
+      [
+       "'{ \"name\": \"Ada\" }'",
+       "#34D399"
+      ],
+      [
+       ">",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "...",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "render --variables ",
+       "#8090AE"
+      ],
+      [
+       "name=Grace",
+       "#34D399"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "declare defaults on the html element",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "override them at render with --variables",
+      "c": "#A78BFA"
+     },
+     {
+      "text": "one composition, a whole batch of videos",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 37.286
+   }
+  },
+  {
+   "id": "s16_determinism",
+   "type": "hf_determinismgrid",
+   "in_seconds": 309.975,
+   "out_seconds": 354.605,
+   "props": {
+    "dur": 45.13
+   }
+  },
+  {
+   "id": "s17_bans",
+   "type": "hf_compare",
+   "in_seconds": 355.105,
+   "out_seconds": 398.885,
+   "props": {
+    "kicker": "WHAT YOU MAY ANIMATE",
+    "title": "Animate transforms, not layout",
+    "foot": "Transforms are cheap and stable; layout properties reflow and desync under a parallel seek.",
+    "left": {
+     "head": "Animate these",
+     "bad": false,
+     "c": "#34D399",
+     "items": [
+      "Transforms: x, y, scale, rotation",
+      "opacity and color",
+      "borderRadius"
+     ]
+    },
+    "right": {
+     "head": "Never these",
+     "bad": true,
+     "c": "#FB7185",
+     "items": [
+      "width / height / top / left",
+      "display / visibility",
+      "measuring layout mid-tween"
+     ]
+    },
+    "dur": 44.28
+   }
+  },
+  {
+   "id": "s18_silentbugs",
+   "type": "hf_bullets",
+   "in_seconds": 399.385,
+   "out_seconds": 447.172,
+   "props": {
+    "kicker": "THE SILENT BUGS",
+    "title": "What the checkers can't catch",
+    "color": "#FB7185",
+    "foot": "So: these pass every static check, then render wrong \u2014 learn them once, and move on.",
+    "items": [
+     {
+      "h": "An unsized root collapses",
+      "sub": "content piles into the top-left corner",
+      "icon": "\ud83d\udcd0",
+      "c": "#FB7185"
+     },
+     {
+      "h": "A background on the root renders black",
+      "sub": "put the fill on a full-bleed child",
+      "icon": "\u26ab",
+      "c": "#FB7185"
+     },
+     {
+      "h": "Duplicate ids render blank",
+      "sub": "ids must be unique across the whole page",
+      "icon": "\ud83c\udd94",
+      "c": "#FB7185"
+     }
+    ],
+    "dur": 48.287
+   }
+  }
+ ],
+ "audio": {
+  "narration": {
+   "src": "hf/narration_p2.wav",
+   "volume": 1.0
+  }
+ }
+}

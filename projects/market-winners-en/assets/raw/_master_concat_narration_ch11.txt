@@ -1,0 +1,5 @@
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/d11.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/i11.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/_sil.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/market-winners-en/assets/i11b.wav'

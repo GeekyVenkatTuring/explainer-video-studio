@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch07_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 44.319,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "foundation",
+        "dur": 44.819
+      }
+    },
+    {
+      "id": "ch07_system",
+      "type": "aae_chapter",
+      "in_seconds": 44.819,
+      "out_seconds": 81.874,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "system",
+        "dur": 37.555
+      }
+    },
+    {
+      "id": "ch07_practice",
+      "type": "aae_chapter",
+      "in_seconds": 82.374,
+      "out_seconds": 128.622,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "practice",
+        "dur": 46.748
+      }
+    },
+    {
+      "id": "ch07_failure",
+      "type": "aae_chapter",
+      "in_seconds": 129.122,
+      "out_seconds": 168.52,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "failure",
+        "dur": 39.898
+      }
+    },
+    {
+      "id": "ch07_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 169.02,
+      "out_seconds": 211.786,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "evaluation",
+        "dur": 43.266
+      }
+    },
+    {
+      "id": "ch07_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 212.286,
+      "out_seconds": 248.737,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "handoff",
+        "dur": 36.951
+      }
+    },
+    {
+      "id": "ch07_application",
+      "type": "aae_chapter",
+      "in_seconds": 249.237,
+      "out_seconds": 296.305,
+      "props": {
+        "chapter": 7,
+        "title": "Agentic Knowledge Engineering",
+        "focus": "turning enterprise knowledge into grounded, maintained, permissioned evidence",
+        "concepts": [
+          "source quality",
+          "knowledge freshness",
+          "provenance"
+        ],
+        "example": "a medical assistant retrieving only approved clinical guidance",
+        "trap": "indexing every document without curation",
+        "takeaway": "Turning enterprise knowledge into grounded, maintained, permissioned evidence.",
+        "beat": "application",
+        "dur": 47.568
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch07.wav",
+      "volume": 1
+    }
+  }
+}

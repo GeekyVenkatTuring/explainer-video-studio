@@ -1,0 +1,3 @@
+file '/Users/appuram/Developer/explainer-forge/projects/data-harness-en/assets/raw/b08_0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/data-harness-en/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/data-harness-en/assets/raw/b08_1.wav'

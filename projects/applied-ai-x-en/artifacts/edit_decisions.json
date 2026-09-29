@@ -1,0 +1,3057 @@
+{
+ "cuts": [
+  {
+   "id": "s000_title",
+   "type": "xa_title",
+   "in_seconds": 0.0,
+   "out_seconds": 20.25,
+   "props": {
+    "kicker": "X / APPLIED AI \u00b7 COMPILED 12 SEP 2026",
+    "dur": 20.75
+   }
+  },
+  {
+   "id": "s001_d1",
+   "type": "xa_divider",
+   "in_seconds": 20.75,
+   "out_seconds": 28.259,
+   "props": {
+    "n": 1,
+    "title": "Learning Paths\n& Skill Maps",
+    "sub": "Ten roadmaps for getting into applied AI",
+    "color": "#7DD3FC",
+    "pips": 8,
+    "dur": 8.009
+   }
+  },
+  {
+   "id": "s002_c1intro",
+   "type": "xa_chintro",
+   "in_seconds": 28.759,
+   "out_seconds": 61.539,
+   "props": {
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "headline": "Ten roadmaps, ranked by reach",
+    "color": "#7DD3FC",
+    "items": [
+     {
+      "n": 1,
+      "title": "Become an AI engineer in six months"
+     },
+     {
+      "n": 2,
+      "title": "Master AI in thirty days"
+     },
+     {
+      "n": 3,
+      "title": "Twenty AI concepts for 2026"
+     },
+     {
+      "n": 4,
+      "title": "Zero to hireable in four months"
+     },
+     {
+      "n": 5,
+      "title": "Agentic engineer in six weeks, part one"
+     },
+     {
+      "n": 6,
+      "title": "Graph architect from zero"
+     },
+     {
+      "n": 7,
+      "title": "The fourteen-step graph roadmap"
+     },
+     {
+      "n": 8,
+      "title": "AI agents: the complete course"
+     },
+     {
+      "n": 9,
+      "title": "Agentic engineer in six weeks, part two"
+     },
+     {
+      "n": 10,
+      "title": "The twenty-five concepts you need"
+     }
+    ],
+    "dur": 33.28
+   }
+  },
+  {
+   "id": "a001",
+   "type": "xa_roadmap",
+   "in_seconds": 62.039,
+   "out_seconds": 171.246,
+   "props": {
+    "rank": 1,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "How to become an AI Engineer in 6 months (RESOURCES)",
+    "handle": "@DeRonin_",
+    "likes": "7.7K",
+    "thesis": "Ronin proposes six months of building with existing models, from Python foundations to deployed applications. The goal is practical ability, not senior expertise.",
+    "take": "Build, test, deploy, and publish one project monthly; show working demonstrations.",
+    "phases": [
+     {
+      "label": "Month one",
+      "line": "Practice Python with CS50P, use Git, and build FastAPI endpoints."
+     },
+     {
+      "label": "Month two",
+      "line": "Use OpenAI, Anthropic, and Instructor; validate outputs and restrict tool permissions."
+     },
+     {
+      "label": "Month three",
+      "line": "Build retrieval with LlamaIndex and Chroma; test cited answers across ten to twenty files."
+     },
+     {
+      "label": "Month four",
+      "line": "Build controlled agents before LangGraph; test twenty to fifty cases with DeepEval."
+     },
+     {
+      "label": "Month five",
+      "line": "Deploy with Docker Compose; add authentication, Celery queues, and Langfuse tracking."
+     },
+     {
+      "label": "Month six",
+      "line": "Choose products, applied engineering, or automation; demonstrate usable work."
+     }
+    ],
+    "dur": 109.707
+   }
+  },
+  {
+   "id": "a002",
+   "type": "xa_roadmap",
+   "in_seconds": 171.746,
+   "out_seconds": 284.609,
+   "props": {
+    "rank": 2,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "how to master AI in 30 days (the exact roadmap)",
+    "handle": "@EXM7777",
+    "likes": "9.8K",
+    "thesis": "Machina proposes a month of practice, moving from fundamentals to connected workflows. Reusable knowledge environments matter more than collecting prompts.",
+    "take": "Build one task-specific Claude Project with relevant documents and clear instructions.",
+    "phases": [
+     {
+      "label": "Model basics",
+      "line": "Compare settings and verify claims before trusting fluent answers."
+     },
+     {
+      "label": "Tool choices",
+      "line": "Machina favors Claude, Gemini 3 Pro, and Grok for different tasks."
+     },
+     {
+      "label": "Context design",
+      "line": "Set instructions; write, select, compress, and isolate reference material."
+     },
+     {
+      "label": "Creative direction",
+      "line": "Specify scenes clearly; budget repeated attempts for short video shots."
+     },
+     {
+      "label": "Build and automate",
+      "line": "Connect Claude Code, n8n, and external tools."
+     },
+     {
+      "label": "Grounded answers",
+      "line": "Use NotebookLM or retrieve relevant passages; errors remain possible."
+     },
+     {
+      "label": "Careful integration",
+      "line": "Test models through OpenRouter; Clawdbot still needs technical setup."
+     }
+    ],
+    "dur": 113.363
+   }
+  },
+  {
+   "id": "a003",
+   "type": "xa_article",
+   "in_seconds": 285.109,
+   "out_seconds": 398.368,
+   "props": {
+    "rank": 3,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "20 AI Concepts You Must Understand in 2026",
+    "handle": "@sairahul1",
+    "likes": "2.4K",
+    "thesis": "Rahul connects twenty AI concepts to practical choices about instructions, model adaptation, retrieval, and tools.",
+    "take": "Choose the intervention your problem needs, and verify factual answers.",
+    "points": [
+     {
+      "label": "How models work",
+      "line": "Models learn connection strengths, then predict the next fragment of text."
+     },
+     {
+      "label": "Reliable instructions",
+      "line": "Supply context, examples, output formats, and manageable steps; verify answers."
+     },
+     {
+      "label": "Specialization",
+      "line": "Continue training on focused material, and use human rankings to guide responses."
+     },
+     {
+      "label": "Lower costs",
+      "line": "LoRA trains small additions. Quantization reduces precision and storage."
+     },
+     {
+      "label": "Retrieval and action",
+      "line": "Search documents before answering, or connect tools through repeated action and observation."
+     },
+     {
+      "label": "Beyond text",
+      "line": "Image generation removes noise progressively; Rahul also discusses Sora and Runway."
+     }
+    ],
+    "dur": 113.759
+   }
+  },
+  {
+   "id": "a004",
+   "type": "xa_roadmap",
+   "in_seconds": 398.868,
+   "out_seconds": 512.531,
+   "props": {
+    "rank": 4,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "You can go from zero to hireable AI engineer in 4 months. Here's the",
+    "handle": "@free_ai_guides",
+    "likes": "975",
+    "thesis": "AI Guides proposes four months of project-led preparation using existing models. The plan assumes fifteen to twenty hours weekly and does not guarantee employment.",
+    "take": "Publish a Python project, then advance through working milestones instead of tutorials.",
+    "phases": [
+     {
+      "label": "Practice first",
+      "line": "Build independently for thirty minutes per study hour; publish your work."
+     },
+     {
+      "label": "Foundations",
+      "line": "Learn Python and supporting skills; build a utility handling files and errors."
+     },
+     {
+      "label": "Integration",
+      "line": "Compare five prompts; build an invoice parser with enforced output structure."
+     },
+     {
+      "label": "Resilience",
+      "line": "Manage history, streamed responses, costs, retries, and tool permissions."
+     },
+     {
+      "label": "Retrieval",
+      "line": "Build cited answers from documents; inspect retrieved passages before changing models."
+     },
+     {
+      "label": "Agent judgment",
+      "line": "Build a three-tool loop before LangGraph; test twenty to thirty representative inputs."
+     },
+     {
+      "label": "Portfolio",
+      "line": "Deploy three projects with Docker, spending caps, and Langfuse traces."
+     }
+    ],
+    "dur": 114.163
+   }
+  },
+  {
+   "id": "a005",
+   "type": "xa_article",
+   "in_seconds": 513.031,
+   "out_seconds": 630.383,
+   "props": {
+    "rank": 5,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "Become AI Agentic Engineer in 6 Weeks (Full Course) - Part 1",
+    "handle": "@sairahul1",
+    "likes": "461",
+    "thesis": "Rahul argues that reliable agents need more than frameworks: model behavior must be surrounded by evidence, code-enforced rules, and stage-level measurement.",
+    "take": "Retrieve evidence, enforce rules in code, and measure each stage before changing models.",
+    "points": [
+     {
+      "label": "Six weeks",
+      "line": "Progress from foundations through prompting, tools, memory, production, evaluation, and security."
+     },
+     {
+      "label": "Probability",
+      "line": "Likely text is not necessarily true; less randomness cannot fix factual errors."
+     },
+     {
+      "label": "Validate and ground",
+      "line": "Backend code checks eligibility; retrieved policy meets live order details."
+     },
+     {
+      "label": "Context",
+      "line": "The example totals ninety-seven thousand two hundred tokens; select relevant information."
+     },
+     {
+      "label": "Latency",
+      "line": "Streaming reveals output sooner but does not accelerate input processing."
+     },
+     {
+      "label": "Measurement",
+      "line": "Illustrative perfect retrieval still ends at eighty-five percent final accuracy."
+     }
+    ],
+    "dur": 117.852
+   }
+  },
+  {
+   "id": "a006",
+   "type": "xa_roadmap",
+   "in_seconds": 630.883,
+   "out_seconds": 743.371,
+   "props": {
+    "rank": 6,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "How to Become a Graph Architect With Zero Experience (Full Course)",
+    "handle": "@cyrilXBT",
+    "likes": "392",
+    "thesis": "CyrilXBT argues that connected facts and explicit agent controls belong together. A documented, tested project demonstrates competence better than credentials.",
+    "take": "Deepen one domain project; document sources, failures, changes, and retest outcomes.",
+    "phases": [
+     {
+      "label": "Foundations",
+      "line": "Weeks one and two: map relationships manually across twenty support tickets."
+     },
+     {
+      "label": "Extraction",
+      "line": "Weeks three and four: Extract, Resolve, Assemble, Query; test matches and retain sources."
+     },
+     {
+      "label": "Agent control",
+      "line": "Weeks five and six: lock plans, separate execution and recovery, and bound retries."
+     },
+     {
+      "label": "Portfolio",
+      "line": "Weeks seven through ten: join documents and agents; publish design choices and failures."
+     },
+     {
+      "label": "Resources",
+      "line": "Claude Cookbook, Andreas Kollegger's DeepLearning.AI course, and an agent-design paper."
+     },
+     {
+      "label": "Learning evidence",
+      "line": "Keep dated failures, changes, and retests; deepen one domain project."
+     }
+    ],
+    "dur": 112.988
+   }
+  },
+  {
+   "id": "a007",
+   "type": "xa_roadmap",
+   "in_seconds": 743.871,
+   "out_seconds": 858.008,
+   "props": {
+    "rank": 7,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "From 0 to Graph Engineer: The 14-Step Roadmap Using Kimi K3 (Full",
+    "handle": "@eng_khairallah1",
+    "likes": "276",
+    "thesis": "Al-Awady argues that relationship-heavy questions need connected facts, not similarity alone. Engineers must control structure, identity, evidence, and maintenance.",
+    "take": "Prove your validation pipeline before scaling extraction.",
+    "phases": [
+     {
+      "label": "Foundations",
+      "line": "Practice Cypher in Neo4j until you can follow three connected relationships."
+     },
+     {
+      "label": "Design first",
+      "line": "Use ten to fifteen real questions; include source references and validity windows."
+     },
+     {
+      "label": "Resolve identities",
+      "line": "Compare surrounding sentences; send uncertain name matches for human review."
+     },
+     {
+      "label": "Construct carefully",
+      "line": "Extract explicit facts; carry canonical names; automate repairs and budget limits."
+     },
+     {
+      "label": "Validate first",
+      "line": "Check structure, exact quotations, domain rules, and human samples before writes."
+     },
+     {
+      "label": "Analyze and retrieve",
+      "line": "Consider lighter GraphRAG options; route questions to graphs, vectors, or SQL."
+     },
+     {
+      "label": "Operate responsibly",
+      "line": "Update sources, preserve conflicts, track staleness; save K3 for difficult work."
+     }
+    ],
+    "dur": 114.637
+   }
+  },
+  {
+   "id": "a008",
+   "type": "xa_article",
+   "in_seconds": 858.508,
+   "out_seconds": 975.023,
+   "props": {
+    "rank": 8,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "AI Agents: The Complete Course",
+    "handle": "@sairahul1",
+    "likes": "524",
+    "thesis": "Rahul argues that reliable agents need bounded workflows, measurable steps, and operational safeguards before greater autonomy.",
+    "take": "Build a bounded sequential workflow; expand autonomy only after failures become diagnosable.",
+    "points": [
+     {
+      "label": "Bounded iteration",
+      "line": "Limit tool choices within repeated reasoning, action, and observation."
+     },
+     {
+      "label": "Explicit context",
+      "line": "Provide background, tools, and references; separate checkable tasks and memory."
+     },
+     {
+      "label": "Completion checks",
+      "line": "Evaluate components and outputs; apply scoring, format checks, and human approval."
+     },
+     {
+      "label": "Sequential coordination",
+      "line": "Start with ordered specialists; reserve parallel work for independent tasks."
+     },
+     {
+      "label": "Quality before speed",
+      "line": "Fix retrieval, prompts and models first; then track spend, tokens and wins."
+     },
+     {
+      "label": "Contained execution",
+      "line": "Use disposable Docker containers, resource limits, and sensitive-output scanning."
+     }
+    ],
+    "dur": 117.015
+   }
+  },
+  {
+   "id": "a009",
+   "type": "xa_flow",
+   "in_seconds": 975.523,
+   "out_seconds": 1073.927,
+   "props": {
+    "rank": 9,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "Become AI Agentic Engineer in 6 Weeks (Full Course) - Part 2",
+    "handle": "@sairahul1",
+    "likes": "320",
+    "thesis": "Part two moves from prompting to security: the model proposes an action, and deterministic backend checks decide whether it may actually run.",
+    "take": "Assume the model can be fooled \u2014 enforce permissions in the backend, not the prompt.",
+    "nodes": [
+     {
+      "label": "Label the source",
+      "sub": "Mark retrieved pages, emails and issues as untrusted data",
+      "emoji": "\ud83c\udff7\ufe0f"
+     },
+     {
+      "label": "Authenticate",
+      "sub": "Identify the real requester before any tool is offered",
+      "emoji": "\ud83d\udd11"
+     },
+     {
+      "label": "Authorize",
+      "sub": "Derive allowed tools from that person's own permissions",
+      "emoji": "\ud83d\udee1\ufe0f"
+     },
+     {
+      "label": "Validate the call",
+      "sub": "Check ownership, eligibility, prior refunds and the limit",
+      "emoji": "\u2705"
+     },
+     {
+      "label": "Gate and log",
+      "sub": "Human approval for money and deletion, then audit",
+      "emoji": "\ud83d\udea6"
+     }
+    ],
+    "note": "Search the web, read internal documents and send email in one session, and you have built an exfiltration path.",
+    "dur": 98.904
+   }
+  },
+  {
+   "id": "a010",
+   "type": "xa_stack",
+   "in_seconds": 1074.427,
+   "out_seconds": 1172.605,
+   "props": {
+    "rank": 10,
+    "total": 10,
+    "ch": 1,
+    "chname": "LEARNING PATHS",
+    "title": "The 25 AI Concepts You Actually Need to Understand in 2026",
+    "handle": "@KanikaBK",
+    "likes": "342",
+    "thesis": "Kanika sorts twenty-five concepts into layers, and argues that real expertise comes from connecting the mechanisms rather than collecting the vocabulary.",
+    "take": "Build one small workflow on a real bottleneck, with retrieval, evals and cost limits.",
+    "topLabel": "where the value is",
+    "botLabel": "where you start",
+    "layers": [
+     {
+      "label": "Computational basics",
+      "line": "Tokens, context windows, embeddings, and training versus inference"
+     },
+     {
+      "label": "Model capabilities",
+      "line": "Match capability, latency and cost \u2014 bigger is not automatically better"
+     },
+     {
+      "label": "Beyond prompting",
+      "line": "Agents plan and act; function calling reaches APIs, code and databases"
+     },
+     {
+      "label": "Grounded workflows",
+      "line": "Retrieve, summarise, draft, review, publish \u2014 a process, not a chatbot"
+     },
+     {
+      "label": "Reliability and value",
+      "line": "Evals, guardrails, human review, and cost control as usage grows"
+     }
+    ],
+    "dur": 98.678
+   }
+  },
+  {
+   "id": "s013_c1recap",
+   "type": "xa_recap",
+   "in_seconds": 1173.105,
+   "out_seconds": 1212.041,
+   "props": {
+    "n": 1,
+    "chname": "LEARNING PATHS",
+    "heading": "What all ten roadmaps agree on",
+    "color": "#7DD3FC",
+    "items": [
+     "Build end-to-end apps on existing models \u2014 do not train from scratch",
+     "Python, APIs and backend basics come before any model theory",
+     "Prompting, structured outputs and tool calling are the core loop",
+     "Add retrieval only when the model needs facts it cannot hold",
+     "Agents are the frontier, and graphs are how the newest guides frame them",
+     "Ship and deploy publicly \u2014 every roadmap ends at a portfolio, not a certificate"
+    ],
+    "closer": "The timelines are marketing. The syllabus underneath is remarkably consistent.",
+    "ats": [
+     0.064,
+     0.155,
+     0.281,
+     0.355,
+     0.533,
+     0.78
+    ],
+    "dur": 39.436
+   }
+  },
+  {
+   "id": "s014_d2",
+   "type": "xa_divider",
+   "in_seconds": 1212.541,
+   "out_seconds": 1218.567,
+   "props": {
+    "n": 2,
+    "title": "Skills, Tools\n& MCP",
+    "sub": "Skill maps, Claude skills, and the tool layer",
+    "color": "#34D399",
+    "pips": 8,
+    "dur": 6.526
+   }
+  },
+  {
+   "id": "s015_c2intro",
+   "type": "xa_chintro",
+   "in_seconds": 1219.067,
+   "out_seconds": 1250.074,
+   "props": {
+    "ch": 2,
+    "chname": "SKILLS & MCP",
+    "headline": "The five most-shared, to start",
+    "color": "#34D399",
+    "items": [
+     {
+      "n": 1,
+      "title": "The AI engineering skills map"
+     },
+     {
+      "n": 2,
+      "title": "Top fifty Claude skills and repos"
+     },
+     {
+      "n": 3,
+      "title": "Skills map: building and deploying"
+     },
+     {
+      "n": 4,
+      "title": "Sixty-seven skills for one subscription"
+     },
+     {
+      "n": 5,
+      "title": "Skills map: using coding agents"
+     }
+    ],
+    "dur": 31.507
+   }
+  },
+  {
+   "id": "a011",
+   "type": "xa_article",
+   "in_seconds": 1250.574,
+   "out_seconds": 1338.99,
+   "props": {
+    "rank": 1,
+    "total": 5,
+    "ch": 2,
+    "chname": "SKILLS & MCP",
+    "title": "The AI Engineering Skills Map",
+    "handle": "@AndrewYNg",
+    "likes": "24.1K",
+    "thesis": "Ng argues AI engineering is becoming a capability every developer needs, resting on four connected areas rather than on one job title.",
+    "take": "Audit yourself across all four areas, not just prompting and code generation.",
+    "points": [
+     {
+      "label": "Built on evidence",
+      "line": "Drawn from over ten thousand job postings, plus interviews with experts and hiring managers."
+     },
+     {
+      "label": "Engineer the uncertainty",
+      "line": "You cannot know the output in advance, so measure it \u2014 evals and repeated error analysis."
+     },
+     {
+      "label": "Fundamentals still rule",
+      "line": "Cost, scalability, reliability, security: the tradeoffs an agent cannot weigh for you."
+     },
+     {
+      "label": "Steer the agent",
+      "line": "Manage context, judge when to step in, and give agents verifiers to check their own work."
+     },
+     {
+      "label": "Coordinate safely",
+      "line": "Know when a spec is needed, and stop agents from damaging a production database."
+     },
+     {
+      "label": "Decide what gets built",
+      "line": "As agents implement specs, engineers move upstream into product judgment."
+     }
+    ],
+    "dur": 88.916
+   }
+  },
+  {
+   "id": "a012",
+   "type": "xa_roster",
+   "in_seconds": 1339.49,
+   "out_seconds": 1439.273,
+   "props": {
+    "rank": 2,
+    "total": 5,
+    "ch": 2,
+    "chname": "SKILLS & MCP",
+    "title": "Top 50 Claude Skills & GitHub Repos for AI \u2014 The Only List You Need.",
+    "handle": "@zodchiii",
+    "likes": "10.1K",
+    "thesis": "A discovery catalogue in three layers: skills supply procedure, MCP supplies access, and repositories supply the execution engine.",
+    "take": "Pick by the layer you are missing \u2014 then run the security review yourself.",
+    "count": 50,
+    "countLabel": "skills and repos listed",
+    "items": [
+     {
+      "name": "Superpowers",
+      "note": "TDD, debugging and planning workflows in one bundle"
+     },
+     {
+      "name": "Systematic Debugging",
+      "note": "Find the cause before you change any code"
+     },
+     {
+      "name": "Skill Creator",
+      "note": "Turns a described workflow into a SKILL.md file"
+     },
+     {
+      "name": "File Search",
+      "note": "ripgrep and ast-grep, combined"
+     },
+     {
+      "name": "Context Optimization",
+      "note": "Token spend and KV-cache techniques"
+     },
+     {
+      "name": "Tavily",
+      "note": "Search, extract, crawl and map, over MCP"
+     },
+     {
+      "name": "Context7",
+      "note": "Current library documentation, pulled in on request"
+     },
+     {
+      "name": "Task Master AI",
+      "note": "Turns a PRD into dependency-linked tasks"
+     },
+     {
+      "name": "LangGraph",
+      "note": "Agents expressed as graphs"
+     },
+     {
+      "name": "CrewAI",
+      "note": "Agents organised by role and goal"
+     },
+     {
+      "name": "Ollama",
+      "note": "Local model runner, pairs with Open WebUI"
+     },
+     {
+      "name": "promptfoo",
+      "note": "Security and prompt testing before you ship"
+     }
+    ],
+    "dur": 100.283
+   }
+  },
+  {
+   "id": "a013",
+   "type": "xa_article",
+   "in_seconds": 1439.773,
+   "out_seconds": 1534.385,
+   "props": {
+    "rank": 3,
+    "total": 5,
+    "ch": 2,
+    "chname": "SKILLS & MCP",
+    "title": "AI Engineering Skills Map: Building and Deploying AI Applications",
+    "handle": "@AndrewYNg",
+    "likes": "12.0K",
+    "thesis": "The second map names six competencies for building reliable applications out of components whose output you cannot predict in advance.",
+    "take": "Let evaluation and error analysis pick your next move \u2014 Ng calls it the deciding skill.",
+    "points": [
+     {
+      "label": "Know the model",
+      "line": "Tokenisation, context, caching, cutoffs, sampling and tool calling all shape the design."
+     },
+     {
+      "label": "Ground it in data",
+      "line": "Vector indexes, knowledge graphs or a semantic layer \u2014 match retrieval to the data."
+     },
+     {
+      "label": "Design the execution",
+      "line": "A fixed sequence, or a harness that picks its next action; plus sandboxing and memory."
+     },
+     {
+      "label": "Let evals steer",
+      "line": "Inspect traces, analyse errors, then choose measures \u2014 and evaluate the evaluators."
+     },
+     {
+      "label": "Operate under drift",
+      "line": "Monitor real usage, watch for prompt injection, match testing to the consequences."
+     },
+     {
+      "label": "Keep the ML basics",
+      "line": "Supervised and reinforcement learning, bias and variance, still earn their place."
+     }
+    ],
+    "dur": 95.112
+   }
+  },
+  {
+   "id": "a014",
+   "type": "xa_roster",
+   "in_seconds": 1534.885,
+   "out_seconds": 1633.294,
+   "props": {
+    "rank": 4,
+    "total": 5,
+    "ch": 2,
+    "chname": "SKILLS & MCP",
+    "title": "Top 67 Claude Skills That Turn a $20 Subscription Into a Full Dev Team",
+    "handle": "@polydao",
+    "likes": "4.6K",
+    "thesis": "The full-team headline is marketing. The real mechanism is a folder of instructions and examples that keeps a workflow alive between sessions.",
+    "take": "Adopt in stages, and judge a skill on the tasks you actually fail.",
+    "count": 67,
+    "countLabel": "skills catalogued",
+    "items": [
+     {
+      "name": "Skill Creator",
+      "note": "Workflow bullets to a draft, then test and revise"
+     },
+     {
+      "name": "Grill Me",
+      "note": "Interrogates requirements, data models and failure cases"
+     },
+     {
+      "name": "Write a PRD",
+      "note": "Interview plus codebase exploration, saved to GitHub"
+     },
+     {
+      "name": "PRD to Plan",
+      "note": "Sequences tracer-bullet vertical slices"
+     },
+     {
+      "name": "PRD to Issues",
+      "note": "Independently assignable work, with blockers"
+     },
+     {
+      "name": "TDD",
+      "note": "Failing test, minimal code, refactor \u2014 one slice at a time"
+     },
+     {
+      "name": "Systematic Debugging",
+      "note": "Reproduce, isolate the cause, one fix, verify"
+     },
+     {
+      "name": "Git Guardrails",
+      "note": "Hooks that block push, reset --hard and clean"
+     },
+     {
+      "name": "Setup Pre-Commit",
+      "note": "Husky, lint-staged, Prettier, type checks and tests"
+     },
+     {
+      "name": "Dependency Auditor",
+      "note": "Ranks the packages actually worth worrying about"
+     },
+     {
+      "name": "Excel MCP Server",
+      "note": "Drives spreadsheets without desktop Excel"
+     },
+     {
+      "name": "Playwright CLI",
+      "note": "Browser regression checks and funnel walkthroughs"
+     }
+    ],
+    "dur": 98.909
+   }
+  },
+  {
+   "id": "a015",
+   "type": "xa_roadmap",
+   "in_seconds": 1633.794,
+   "out_seconds": 1736.021,
+   "props": {
+    "rank": 5,
+    "total": 5,
+    "ch": 2,
+    "chname": "SKILLS & MCP",
+    "title": "AI Engineering Skills Map: Using coding agents",
+    "handle": "@AndrewYNg",
+    "likes": "7.2K",
+    "thesis": "Ng's third map is about steering coding agents, and he is blunt that longer unattended runs are not the goal.",
+    "take": "Set verifiable goals, keep the context current, and intervene by risk \u2014 not by vibe.",
+    "phases": [
+     {
+      "label": "Plan",
+      "line": "Research, explore the codebase, then write a spec and an execution plan"
+     },
+     {
+      "label": "Execute",
+      "line": "Build and verify together, in steps whose results you can check"
+     },
+     {
+      "label": "Operate",
+      "line": "Release gates, log inspection, and a route back to earlier phases"
+     },
+     {
+      "label": "Calibrate autonomy",
+      "line": "Collaborate, delegate, or let it retry \u2014 decide by risk and cost"
+     },
+     {
+      "label": "Verify the verifier",
+      "line": "Automated checks stop agents, but their criteria need scrutiny too"
+     },
+     {
+      "label": "Hold the context",
+      "line": "AGENTS.md or CLAUDE.md, hooks, retrospectives, clearing agent debt"
+     }
+    ],
+    "dur": 102.727
+   }
+  },
+  {
+   "id": "s021_end",
+   "type": "xa_end",
+   "in_seconds": 1736.521,
+   "out_seconds": 1766.863,
+   "props": {
+    "items": [
+     "Fifteen of the hundred articles, covered end to end",
+     "Ten roadmaps that disagree on time and agree on content",
+     "Build on existing models; learn the plumbing first",
+     "Prompt, structure the output, call the tool \u2014 that is the loop",
+     "Retrieval when facts are missing; agents when steps are needed",
+     "Andrew Ng's skills map is about judgment, not tools",
+     "The big skill lists are inventory \u2014 useful, but not a curriculum"
+    ],
+    "closer": "The roadmaps get you started. The tool layer is where the work actually happens.",
+    "ats": [
+     0.04,
+     0.067,
+     0.407,
+     0.494,
+     0.673,
+     0.722,
+     0.78
+    ],
+    "dur": 30.842
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   4.177,
+   "Someone collected the hundred best applied A I\narticles on X."
+  ],
+  [
+   4.808,
+   9.634,
+   "Roadmaps, skill maps, agent harnesses, retrieval,\ninference, evals. Together"
+  ],
+  [
+   9.634,
+   13.387,
+   "they are over three hundred thousand words."
+  ],
+  [
+   14.018,
+   16.694,
+   "This series reads all of them, so you don't"
+  ],
+  [
+   16.694,
+   19.072,
+   "have to. We start where everybody starts \u2014"
+  ],
+  [
+   19.072,
+   20.261,
+   "with the learning paths."
+  ],
+  [
+   20.75,
+   23.535,
+   "Chapter one. Learning paths and skill maps."
+  ],
+  [
+   24.166,
+   28.276,
+   "Ten of the most-shared roadmaps for breaking into\napplied A I."
+  ],
+  [
+   28.759,
+   30.511,
+   "Here is what chapter one covers."
+  ],
+  [
+   31.142,
+   34.46,
+   "Two long-form roadmaps open it \u2014 six months"
+  ],
+  [
+   34.46,
+   37.363,
+   "to A I engineer, and thirty days"
+  ],
+  [
+   37.363,
+   41.095,
+   "to a working foundation. Then two concept maps, one"
+  ],
+  [
+   41.095,
+   43.583,
+   "with twenty ideas, one with twenty-five."
+  ],
+  [
+   44.214,
+   47.894,
+   "A four-month path to being hireable. A two-part\nagentic"
+  ],
+  [
+   47.894,
+   51.574,
+   "engineering course. And three guides to graph\nengineering, which"
+  ],
+  [
+   51.574,
+   54.028,
+   "is the newest of these tracks."
+  ],
+  [
+   54.659,
+   58.309,
+   "They disagree about timelines. They agree almost\ncompletely about"
+  ],
+  [
+   58.309,
+   61.553,
+   "content. Watch for that pattern as we go."
+  ],
+  [
+   62.039,
+   66.564,
+   "Ronin lays out a six-month route into practical AI"
+  ],
+  [
+   66.564,
+   71.088,
+   "engineering. He emphasizes building products with\nexisting models rather"
+  ],
+  [
+   71.088,
+   75.613,
+   "than training enormous models yourself. The goal is\nworking"
+  ],
+  [
+   75.613,
+   77.624,
+   "ability, not instant seniority."
+  ],
+  [
+   78.255,
+   82.835,
+   "Month one starts with Python practice through CS50P,\nalongside"
+  ],
+  [
+   82.835,
+   87.415,
+   "Git and basic web skills. Build a small script,"
+  ],
+  [
+   87.415,
+   91.994,
+   "then create FastAPI endpoints that check incoming\ndata. Month"
+  ],
+  [
+   91.994,
+   96.574,
+   "two introduces OpenAI and Anthropic, with Instructor\nhelping enforce"
+  ],
+  [
+   96.574,
+   101.154,
+   "predictable output formats. Tool calling means\nmodels request actions"
+  ],
+  [
+   101.154,
+   103.698,
+   "while your code executes them."
+  ],
+  [
+   104.33,
+   109.312,
+   "Validate results, limit permissions, and account for\nconversation history,"
+  ],
+  [
+   109.312,
+   114.294,
+   "retries, and costs. Month three covers retrieval,\nmeaning finding"
+  ],
+  [
+   114.294,
+   117.062,
+   "relevant source material before answering."
+  ],
+  [
+   117.694,
+   121.855,
+   "Use LlamaIndex and Chroma, then test cited answers\nacross"
+  ],
+  [
+   121.855,
+   126.016,
+   "ten to twenty files. Check missing context before\nblaming"
+  ],
+  [
+   126.016,
+   130.177,
+   "the model. Month four adds agents, systems that\nchoose"
+  ],
+  [
+   130.177,
+   134.338,
+   "actions as tasks unfold. Build one directly before\nadopting"
+  ],
+  [
+   134.338,
+   138.499,
+   "LangGraph, and limit its steps and retries. Test\ntwenty"
+  ],
+  [
+   138.499,
+   141.273,
+   "to fifty representative cases with DeepEval."
+  ],
+  [
+   141.904,
+   146.498,
+   "Month five makes deployment concrete through Docker\nCompose, authentication,"
+  ],
+  [
+   146.498,
+   151.093,
+   "and Celery background queues. Track prompts, delays,\nand costs"
+  ],
+  [
+   151.093,
+   155.687,
+   "with Langfuse. Month six branches into products,\napplied engineering,"
+  ],
+  [
+   155.687,
+   160.281,
+   "or automation. Ship usable projects, or build\nTemporal workflows"
+  ],
+  [
+   160.281,
+   162.833,
+   "with approvals and audit trails."
+  ],
+  [
+   163.465,
+   168.474,
+   "Build, test, deploy, and publish one project\nmonthly. Use"
+  ],
+  [
+   168.474,
+   171.257,
+   "working demonstrations when pursuing opportunities."
+  ],
+  [
+   171.746,
+   176.384,
+   "Can thirty days build practical AI skills? Machina\nproposes"
+  ],
+  [
+   176.384,
+   182.053,
+   "two to three hours daily, prioritizing reusable\nworkflows over prompt collections."
+  ],
+  [
+   182.685,
+   187.272,
+   "Model basics come first: compare settings and verify\nclaims"
+  ],
+  [
+   187.272,
+   191.349,
+   "rather than trusting confident language. Tool\nchoices follow"
+  ],
+  [
+   191.349,
+   195.936,
+   "the author's preferences, not independently\nestablished rankings. Claude handles"
+  ],
+  [
+   195.936,
+   200.523,
+   "coding, Gemini 3 Pro supports research, and Grok\ntracks"
+  ],
+  [
+   200.523,
+   206.129,
+   "X activity. Context design means arranging\ninformation the model can use."
+  ],
+  [
+   206.761,
+   211.465,
+   "Set behavioral instructions, then write references,\nselect relevant material,"
+  ],
+  [
+   211.465,
+   216.169,
+   "compress inputs, and isolate unrelated work. Keep\nClaude Projects"
+  ],
+  [
+   216.169,
+   220.874,
+   "focused on individual tasks rather than every\ndocument. Creative"
+  ],
+  [
+   220.874,
+   225.578,
+   "direction requires explicit scenes for Nano Banana\nPro, not"
+  ],
+  [
+   225.578,
+   230.283,
+   "decorative quality words. Machina favors VEO 3.1 for\naudio"
+  ],
+  [
+   230.283,
+   234.987,
+   "and Kling 2.6 for realism. Budget three to ten"
+  ],
+  [
+   234.987,
+   240.214,
+   "attempts per usable video, favoring five to ten\nsecond shots."
+  ],
+  [
+   240.846,
+   245.904,
+   "Build and automate connects Claude Code with n8n\nworkflows."
+  ],
+  [
+   245.904,
+   250.962,
+   "Model Context Protocol supplies connections to\nexternal tools. Grounded"
+  ],
+  [
+   250.962,
+   256.019,
+   "answers begin with NotebookLM and its source links.\nCustom"
+  ],
+  [
+   256.019,
+   262.201,
+   "retrieval supplies relevant document passages\nalongside questions, but cannot guarantee accuracy."
+  ],
+  [
+   262.833,
+   267.822,
+   "Careful integration starts by testing open models\nthrough OpenRouter."
+  ],
+  [
+   267.822,
+   273.365,
+   "Clawdbot illustrates connected agents with memory,\nbut setup remains technical."
+  ],
+  [
+   273.997,
+   278.342,
+   "Start with one recurring task in Claude Projects\nbefore"
+  ],
+  [
+   278.342,
+   282.204,
+   "expanding automation. Add relevant documents and\nexplicit instructions"
+  ],
+  [
+   282.204,
+   284.618,
+   "for how it should behave."
+  ],
+  [
+   285.109,
+   289.96,
+   "Rahul connects twenty AI concepts to everyday\nengineering decisions."
+  ],
+  [
+   289.96,
+   294.81,
+   "His argument is practical: understanding mechanisms\nhelps you choose"
+  ],
+  [
+   294.81,
+   296.427,
+   "the right intervention."
+  ],
+  [
+   297.058,
+   301.591,
+   "Foundations begin with models learning connection\nstrengths and interpreting"
+  ],
+  [
+   301.591,
+   305.62,
+   "text fragments through surrounding words. Model\nbehavior follows"
+  ],
+  [
+   305.62,
+   310.152,
+   "from predicting what text comes next across vast\ntraining"
+  ],
+  [
+   310.152,
+   314.684,
+   "collections. Available context is limited, and\nfluent answers can"
+  ],
+  [
+   314.684,
+   319.217,
+   "still contain invented facts. Reliable instructions\nsupply context, examples,"
+  ],
+  [
+   319.217,
+   323.749,
+   "output formats, and manageable steps for the model.\nRahul"
+  ],
+  [
+   323.749,
+   328.282,
+   "recommends intermediate calculations for complex\nproblems and checking factual"
+  ],
+  [
+   328.282,
+   332.814,
+   "answers rather than trusting confidence.\nSpecialization means continuing training"
+  ],
+  [
+   332.814,
+   337.346,
+   "on focused material, such as clinical notes or\ncontracts."
+  ],
+  [
+   337.346,
+   341.879,
+   "Human rankings can separately guide models toward\nmore helpful"
+  ],
+  [
+   341.879,
+   346.411,
+   "responses. Lower costs come through LoRA, which\ntrains small"
+  ],
+  [
+   346.411,
+   349.936,
+   "additions while leaving the original model\nunchanged."
+  ],
+  [
+   350.568,
+   355.398,
+   "Quantization means storing model weights with less\nnumerical precision."
+  ],
+  [
+   355.398,
+   361.302,
+   "Rahul illustrates thirty-two bits becoming four\nbits, an eightfold storage reduction."
+  ],
+  [
+   361.934,
+   366.809,
+   "Retrieval and action offer alternatives to changing\nthe model"
+  ],
+  [
+   366.809,
+   371.684,
+   "itself. Search relevant documents before answering\nusing Pinecone, Qdrant,"
+  ],
+  [
+   371.684,
+   376.559,
+   "Weaviate, or pgvector. Tool-using systems repeatedly\nplan, act, observe,"
+  ],
+  [
+   376.559,
+   381.435,
+   "and revise their work. Beyond text, image generation\nprogressively"
+  ],
+  [
+   381.435,
+   386.31,
+   "removes noise under written guidance. Rahul also\ndiscusses video"
+  ],
+  [
+   386.31,
+   388.477,
+   "tools Sora and Runway."
+  ],
+  [
+   389.108,
+   394.325,
+   "Improve instructions first where appropriate.\nRetrieve changing facts, adapt"
+  ],
+  [
+   394.325,
+   398.383,
+   "specialized behavior, connect tools, and verify\nanswers."
+  ],
+  [
+   398.868,
+   403.634,
+   "Four months to career readiness is AI Guides\u2019\nambitious"
+  ],
+  [
+   403.634,
+   408.4,
+   "proposal. The author prioritizes building\napplications with existing models"
+  ],
+  [
+   408.4,
+   413.165,
+   "over research mathematics. Expect fifteen to twenty\nhours weekly,"
+  ],
+  [
+   413.165,
+   415.283,
+   "without any hiring guarantee."
+  ],
+  [
+   415.915,
+   420.604,
+   "Practice first means thirty minutes building\nindependently per study"
+  ],
+  [
+   420.604,
+   425.293,
+   "hour, publishing immediately. Foundations starts\nwith CS50P, GitHub Skills,"
+  ],
+  [
+   425.293,
+   429.982,
+   "MDN, requests, and SQLBolt. Build a Python utility\nhandling"
+  ],
+  [
+   429.982,
+   434.67,
+   "files, JSON data, and errors. Integration compares\nfive prompts"
+  ],
+  [
+   434.67,
+   439.359,
+   "before building an invoice parser with Pydantic and\nInstructor."
+  ],
+  [
+   439.359,
+   444.569,
+   "Their schemas enforce output structure, rather than\nmerely requesting JSON."
+  ],
+  [
+   445.201,
+   449.971,
+   "For tool calling, the model requests functions; your\napplication"
+  ],
+  [
+   449.971,
+   454.742,
+   "executes them and returns results. Resilience means\nmanaging conversation"
+  ],
+  [
+   454.742,
+   459.512,
+   "history, assembling streamed responses, and\nestimating costs. Use Tenacity"
+  ],
+  [
+   459.512,
+   464.283,
+   "for retries with increasing waits, validate outputs,\nand restrict"
+  ],
+  [
+   464.283,
+   469.053,
+   "tool permissions. Retrieval finds relevant passages\nfor answers grounded"
+  ],
+  [
+   469.053,
+   470.643,
+   "in your documents."
+  ],
+  [
+   471.275,
+   476.261,
+   "Start with RecursiveCharacterTextSplitter, using\nfive hundred characters and fifty"
+  ],
+  [
+   476.261,
+   481.248,
+   "characters of overlap. Connect Chroma and\nLlamaIndex, require citations,"
+  ],
+  [
+   481.248,
+   486.234,
+   "and inspect retrieved passages before changing\nmodels. Agent judgment"
+  ],
+  [
+   486.234,
+   491.221,
+   "starts with a three-tool loop before adopting\nLangGraph. Prefer"
+  ],
+  [
+   491.221,
+   496.207,
+   "simpler workflows unless execution must adapt\ndynamically. Test twenty"
+  ],
+  [
+   496.207,
+   501.194,
+   "to thirty representative inputs with DeepEval or\nRagas. Portfolio"
+  ],
+  [
+   501.194,
+   505.626,
+   "means three deployed projects using Docker, spending\ncaps,"
+  ],
+  [
+   505.626,
+   507.288,
+   "and Langfuse traces."
+  ],
+  [
+   507.92,
+   512.546,
+   "Publish your Python project first, then advance\nthrough working milestones."
+  ],
+  [
+   513.031,
+   518.277,
+   "Behind Rahul's six-week agent course sits a warning\nabout"
+  ],
+  [
+   518.277,
+   523.522,
+   "framework-only learning. He argues reliable agents\nrequire dependable software"
+  ],
+  [
+   523.522,
+   525.853,
+   "around unpredictable text generation."
+  ],
+  [
+   526.485,
+   531.747,
+   "Six weeks span foundations, prompting, tools,\nmemory, production, evaluation,"
+  ],
+  [
+   531.747,
+   537.009,
+   "and security. Probability means likely continuation,\nnot truth. Reducing"
+  ],
+  [
+   537.009,
+   542.272,
+   "randomness can simply make the same wrong answer\nrepeatable."
+  ],
+  [
+   542.903,
+   548.032,
+   "Validation belongs in backend code before\nconsequential actions reach"
+  ],
+  [
+   548.032,
+   553.16,
+   "payment services. Check refund amounts, order\nownership, previous refunds,"
+  ],
+  [
+   553.16,
+   558.289,
+   "and policy eligibility independently. Grounding\nmeans supplying evidence before"
+  ],
+  [
+   558.289,
+   561.138,
+   "asking the model to answer."
+  ],
+  [
+   561.769,
+   566.622,
+   "SQL or Elasticsearch can provide information\nalongside live order"
+  ],
+  [
+   566.622,
+   571.475,
+   "details. An opened laptop bought five days earlier\nremains"
+  ],
+  [
+   571.475,
+   576.328,
+   "excluded despite a fourteen-day return window.\nPredictable dependencies need"
+  ],
+  [
+   576.328,
+   581.181,
+   "ordinary backend coordination, not model-directed\nplanning for every step."
+  ],
+  [
+   581.181,
+   586.034,
+   "Context is the information supplied with a request,\nincluding"
+  ],
+  [
+   586.034,
+   590.886,
+   "history and documents. Rahul's example reaches\nninety-seven thousand two"
+  ],
+  [
+   590.886,
+   595.2,
+   "hundred tokens, the small text units models process."
+  ],
+  [
+   595.832,
+   600.577,
+   "Select relevant material instead of filling every\navailable space"
+  ],
+  [
+   600.577,
+   605.323,
+   "with documents. Latency includes processing input\nbefore generating output,"
+  ],
+  [
+   605.323,
+   610.069,
+   "so streaming cannot accelerate that first stage.\nTrim history"
+  ],
+  [
+   610.069,
+   614.815,
+   "and tool definitions, and reuse cached prefixes\nwhere appropriate."
+  ],
+  [
+   614.815,
+   619.56,
+   "Measurement must separate retrieval, interpretation,\nand final answers. His"
+  ],
+  [
+   619.56,
+   624.306,
+   "illustrative perfect retrieval still yields\neighty-five percent final accuracy."
+  ],
+  [
+   624.938,
+   630.395,
+   "Retrieve evidence, enforce rules, and measure each\nstage before changing models."
+  ],
+  [
+   630.883,
+   636.372,
+   "CyrilXBT's ten-week course pairs connected facts\nwith accountable agents."
+  ],
+  [
+   636.372,
+   642.47,
+   "He argues that documented projects demonstrate\ncompetence better than credentials."
+  ],
+  [
+   643.102,
+   647.291,
+   "Foundations start with twenty support tickets during\nweeks one"
+  ],
+  [
+   647.291,
+   651.48,
+   "and two. Map a knowledge graph, meaning facts\nconnected"
+  ],
+  [
+   651.48,
+   653.342,
+   "by relationships, before automating."
+  ],
+  [
+   653.974,
+   658.558,
+   "Extraction occupies weeks three and four: Extract,\nResolve, Assemble,"
+  ],
+  [
+   658.558,
+   663.142,
+   "Query. Extract uses one inexpensive model call per\ndocument"
+  ],
+  [
+   663.142,
+   667.726,
+   "to produce structured facts. Resolve matches\nreferences using context,"
+  ],
+  [
+   667.726,
+   672.31,
+   "since Edwin Aldrin and Buzz Aldrin name one person."
+  ],
+  [
+   672.31,
+   676.895,
+   "Test mistaken merges and missed matches; Assemble\npreserves sources,"
+  ],
+  [
+   676.895,
+   681.479,
+   "while Query ties answers to connections. Agent\ncontrol follows"
+  ],
+  [
+   681.479,
+   686.063,
+   "during weeks five and six, using explicit states,\nmeaning"
+  ],
+  [
+   686.063,
+   688.101,
+   "defined steps with rules."
+  ],
+  [
+   688.732,
+   693.061,
+   "Lock plans and separate planning, execution, and\nrecovery"
+  ],
+  [
+   693.061,
+   697.93,
+   "to favor auditability over flexibility. The example\npermits two"
+  ],
+  [
+   697.93,
+   702.799,
+   "recovery retries before escalation. Portfolio work\nspans weeks seven"
+  ],
+  [
+   702.799,
+   707.669,
+   "through ten, combining messy documents with an agent\nquerying"
+  ],
+  [
+   707.669,
+   711.997,
+   "their graph. Handle ambiguity and missing evidence\nexplicitly,"
+  ],
+  [
+   711.997,
+   716.867,
+   "and publish prompts, schemas, matching logic, and\ntransition rules."
+  ],
+  [
+   716.867,
+   721.736,
+   "Explain failures, including confident answers caused\nby missing coverage."
+  ],
+  [
+   721.736,
+   726.606,
+   "Resources include Claude Cookbook and Andreas\nKollegger's DeepLearning.AI course."
+  ],
+  [
+   726.606,
+   731.475,
+   "An April twenty twenty-six arXiv paper explores\nagent design"
+  ],
+  [
+   731.475,
+   736.345,
+   "but leaves practical questions unresolved. Learning\nevidence means dated"
+  ],
+  [
+   736.345,
+   739.05,
+   "failure logs, changes, and retests."
+  ],
+  [
+   739.682,
+   743.387,
+   "Deepen one domain project instead of switching\ntopics."
+  ],
+  [
+   743.871,
+   748.636,
+   "Khairallah AL-Awady proposes fourteen steps toward\ngraph engineering"
+  ],
+  [
+   748.636,
+   753.996,
+   "with Kimi K3. His claim is straightforward:\nrelationship-heavy questions"
+  ],
+  [
+   753.996,
+   757.569,
+   "need connected facts, not similarity alone."
+  ],
+  [
+   758.201,
+   762.323,
+   "Foundations means learning graphs, networks of\nentities joined"
+  ],
+  [
+   762.323,
+   766.961,
+   "by relationships. Practice Cypher with Neo4j until\nyou can"
+  ],
+  [
+   766.961,
+   771.598,
+   "follow three connected relationships. Design first\nmeans deriving your"
+  ],
+  [
+   771.598,
+   777.266,
+   "schema, the allowed data structure, from ten to\nfifteen real questions."
+  ],
+  [
+   777.898,
+   782.418,
+   "Include source references and validity windows\nimmediately rather than"
+  ],
+  [
+   782.418,
+   786.939,
+   "adding them later. Resolve identities by comparing\nsurrounding sentences"
+  ],
+  [
+   786.939,
+   790.957,
+   "instead of trusting similar names. Apple, Apple\nInc.,"
+  ],
+  [
+   790.957,
+   795.477,
+   "and AAPL might identify one organization, but\nuncertain matches"
+  ],
+  [
+   795.477,
+   799.998,
+   "need human review. Construct carefully by extracting\nonly explicit"
+  ],
+  [
+   799.998,
+   804.518,
+   "facts and carrying canonical names between batches.\nAl-Awady promotes"
+  ],
+  [
+   804.518,
+   808.034,
+   "K3 for its claimed million-token context window."
+  ],
+  [
+   808.665,
+   813.725,
+   "Automate parsing, one repair retry, failure logging,\nand budget"
+  ],
+  [
+   813.725,
+   818.784,
+   "limits. Validate first through schema checks, exact\nsource quotations,"
+  ],
+  [
+   818.784,
+   823.844,
+   "domain rules, and human sampling. Reject unsupported\nfacts before"
+  ],
+  [
+   823.844,
+   828.903,
+   "writing them. Analyze and retrieve with GraphRAG,\nwhich combines"
+  ],
+  [
+   828.903,
+   833.963,
+   "graph construction and community summaries for\nanswering. Consider LazyGraphRAG"
+  ],
+  [
+   833.963,
+   839.022,
+   "or LightRAG before expensive full indexing. Route\nrelationship questions"
+  ],
+  [
+   839.022,
+   843.52,
+   "to graphs, meaning-based searches to vectors, and\naggregates"
+  ],
+  [
+   843.52,
+   848.579,
+   "to SQL. Operate responsibly by updating changed\nsources, preserving"
+  ],
+  [
+   848.579,
+   853.639,
+   "conflicts, and tracking staleness. Reserve K3 for\ndifficult work."
+  ],
+  [
+   854.27,
+   858.02,
+   "Prove your validation pipeline before scaling\nextraction."
+  ],
+  [
+   858.508,
+   862.863,
+   "Rahul makes controlled autonomy the centerpiece of\nhis agent"
+  ],
+  [
+   862.863,
+   868.187,
+   "course. He argues reliable agents need engineered\nworkflows, not more freedom."
+  ],
+  [
+   868.818,
+   873.689,
+   "Bounded iteration starts with ReAct, a cycle of\nreasoning,"
+  ],
+  [
+   873.689,
+   879.642,
+   "actions, and observations. Limit tool choices rather\nthan granting unrestricted control."
+  ],
+  [
+   880.274,
+   884.933,
+   "Explicit context supplies background, tool\ndefinitions, and reference material"
+  ],
+  [
+   884.933,
+   889.593,
+   "before work begins. Split outlining, research,\ndrafting, and revision"
+  ],
+  [
+   889.593,
+   894.253,
+   "into tasks with checkable inputs and outputs. Keep\nevolving"
+  ],
+  [
+   894.253,
+   898.913,
+   "working notes separate from reference documents.\nCompletion checks evaluate"
+  ],
+  [
+   898.913,
+   903.573,
+   "components and finished outputs, because successful\nparts can still"
+  ],
+  [
+   903.573,
+   908.232,
+   "fail together. Score complex work from one to five"
+  ],
+  [
+   908.232,
+   912.892,
+   "using fixed criteria. Add format checks and human\napproval"
+  ],
+  [
+   912.892,
+   914.446,
+   "for consequential decisions."
+  ],
+  [
+   915.077,
+   920.362,
+   "Sequential coordination starts with ordered\nspecialists, such as Researcher,"
+  ],
+  [
+   920.362,
+   925.647,
+   "Designer, then Writer. Parallel work suits\nindependent tasks; unrestricted"
+  ],
+  [
+   925.647,
+   930.932,
+   "messaging makes production behavior less\npredictable. Quality first means"
+  ],
+  [
+   930.932,
+   935.63,
+   "adjusting retrieval settings, then improving\nprompts, changing models,"
+  ],
+  [
+   935.63,
+   940.915,
+   "and shrinking subtasks. Establish adequate results\nbefore reducing delays"
+  ],
+  [
+   940.915,
+   946.201,
+   "or context size. Visible costs include Rahul's\nillustrative research"
+  ],
+  [
+   946.201,
+   949.137,
+   "run costing approximately eight cents."
+  ],
+  [
+   949.768,
+   954.737,
+   "Record prompts, tool calls, token usage, and success\nrates"
+  ],
+  [
+   954.737,
+   959.154,
+   "across runs. Contained execution uses disposable\nDocker containers"
+  ],
+  [
+   959.154,
+   964.123,
+   "with timeouts and resource caps. Scan outputs for\nsensitive"
+  ],
+  [
+   964.123,
+   965.78,
+   "information before release."
+  ],
+  [
+   966.411,
+   971.585,
+   "Build one bounded sequential workflow first. Expand\nautonomy only"
+  ],
+  [
+   971.585,
+   975.034,
+   "when failures become diagnosable and containable."
+  ],
+  [
+   975.523,
+   978.016,
+   "Rahul's second part is about security."
+  ],
+  [
+   978.647,
+   982.447,
+   "The idea is simple. A tool-using agent turns text"
+  ],
+  [
+   982.447,
+   986.248,
+   "into real actions. So the backend must decide what"
+  ],
+  [
+   986.248,
+   990.048,
+   "runs, not the prompt. Start by labelling the source."
+  ],
+  [
+   990.048,
+   993.848,
+   "Direct injection arrives in user input. Indirect\ninjection hides"
+  ],
+  [
+   993.848,
+   997.648,
+   "inside a retrieved page, an email, or a GitHub"
+  ],
+  [
+   997.648,
+   1001.449,
+   "issue. An issue asking your coding agent to delete"
+  ],
+  [
+   1001.449,
+   1004.404,
+   "authentication tests is data, not an instruction."
+  ],
+  [
+   1005.036,
+   1009.396,
+   "Then authenticate. Identify the real requester\nbefore offering any"
+  ],
+  [
+   1009.396,
+   1012.788,
+   "tool. Then authorize. Derive the allowed tools"
+  ],
+  [
+   1012.788,
+   1017.148,
+   "from that person's own permissions. Rahul calls the\nfailure"
+  ],
+  [
+   1017.148,
+   1021.024,
+   "a confused deputy. Alice reads Bob's salary because"
+  ],
+  [
+   1021.024,
+   1024.416,
+   "the agent's credentials were wider than hers."
+  ],
+  [
+   1025.047,
+   1029.089,
+   "Then validate the call itself. For a refund, check"
+  ],
+  [
+   1029.089,
+   1032.682,
+   "ownership, earlier refunds, eligibility and the\namount. Permission"
+  ],
+  [
+   1032.682,
+   1036.724,
+   "to refund an order does not justify five hundred"
+  ],
+  [
+   1036.724,
+   1039.868,
+   "thousand dollars on a forty-nine dollar purchase."
+  ],
+  [
+   1040.5,
+   1044.438,
+   "Finally, gate and log. Require human approval for\nmoney"
+  ],
+  [
+   1044.438,
+   1048.376,
+   "and deletion. And watch tool combinations, not\nsingle tools."
+  ],
+  [
+   1048.376,
+   1052.315,
+   "Search the web, read internal documents, and send\nemail"
+  ],
+  [
+   1052.315,
+   1056.691,
+   "in one session, and you have built an exfiltration\npath."
+  ],
+  [
+   1057.322,
+   1060.713,
+   "Design the permissions assuming the model can be\nfooled."
+  ],
+  [
+   1061.345,
+   1065.394,
+   "His closing exercises are worth doing. Design a\nconfirmed"
+  ],
+  [
+   1065.394,
+   1068.993,
+   "email send. Handle two policy documents that\ndisagree."
+  ],
+  [
+   1068.993,
+   1073.943,
+   "And validate a transfer whose amount does not match\nthe request."
+  ],
+  [
+   1074.427,
+   1078.873,
+   "Kanika's map covers twenty-five concepts, and it is\nbuilt in layers."
+  ],
+  [
+   1079.505,
+   1082.899,
+   "At the base are the computational basics. Tokens"
+  ],
+  [
+   1082.899,
+   1086.717,
+   "are the pieces a model processes. They set your"
+  ],
+  [
+   1086.717,
+   1089.686,
+   "cost, your latency, and how much fits"
+  ],
+  [
+   1089.686,
+   1093.504,
+   "in the context window. Embeddings turn meaning into\nnumbers,"
+  ],
+  [
+   1093.504,
+   1097.322,
+   "so you can search by similarity. Training adjusts\nparameters."
+  ],
+  [
+   1097.322,
+   1099.019,
+   "Inference just uses them."
+  ],
+  [
+   1099.651,
+   1103.989,
+   "Above that sit model capabilities. Seven billion,\nseventy billion,"
+  ],
+  [
+   1103.989,
+   1108.327,
+   "four hundred and five billion. Those numbers\ndescribe scale,"
+  ],
+  [
+   1108.327,
+   1111.701,
+   "not suitability. Match capability, speed and cost"
+  ],
+  [
+   1111.701,
+   1113.147,
+   "to the job."
+  ],
+  [
+   1113.779,
+   1118.391,
+   "The third layer goes beyond prompting. Agents plan,\nthen"
+  ],
+  [
+   1118.391,
+   1123.004,
+   "act. Function calling reaches APIs, code and\ndatabases. Orchestration"
+  ],
+  [
+   1123.004,
+   1126.592,
+   "coordinates models, people and approvals. Her point"
+  ],
+  [
+   1126.592,
+   1131.205,
+   "is that workflow structure matters more than clever\nwording."
+  ],
+  [
+   1131.836,
+   1135.621,
+   "The fourth layer is grounded workflows. Retrieval\npulls"
+  ],
+  [
+   1135.621,
+   1139.878,
+   "in real material before the model answers. Her\nexample"
+  ],
+  [
+   1139.878,
+   1143.19,
+   "runs retrieve, summarise, draft, review, publish.\nThat"
+  ],
+  [
+   1143.19,
+   1146.028,
+   "is a process, not a chatbot."
+  ],
+  [
+   1146.66,
+   1151.469,
+   "The top layer is reliability and value. A plausible"
+  ],
+  [
+   1151.469,
+   1156.278,
+   "falsehood still needs verifying. Evaluation measures\naccuracy, relevance, safety"
+  ],
+  [
+   1156.278,
+   1161.087,
+   "and usefulness. Guardrails limit sensitive data and\nunauthorized actions."
+  ],
+  [
+   1161.087,
+   1165.896,
+   "And compounding systems feed experience back into\nbetter prompts"
+  ],
+  [
+   1165.896,
+   1167.499,
+   "and better retrieval."
+  ],
+  [
+   1168.131,
+   1170.549,
+   "And her advice is to start small,"
+  ],
+  [
+   1170.549,
+   1172.622,
+   "on a bottleneck that actually matters."
+  ],
+  [
+   1173.105,
+   1175.755,
+   "So what did ten roadmaps actually agree on?"
+  ],
+  [
+   1176.386,
+   1179.903,
+   "Build on existing models instead of training your\nown."
+  ],
+  [
+   1179.903,
+   1184.201,
+   "Learn Python, A P Is and backend basics before model\ntheory."
+  ],
+  [
+   1184.833,
+   1187.691,
+   "Treat prompting, structured outputs and tool calling"
+  ],
+  [
+   1187.691,
+   1190.957,
+   "as the core loop. Add retrieval only when"
+  ],
+  [
+   1190.957,
+   1194.632,
+   "the model needs facts it cannot hold. Then move"
+  ],
+  [
+   1194.632,
+   1198.306,
+   "to agents, which the newest guides describe as\ngraphs."
+  ],
+  [
+   1198.938,
+   1201.767,
+   "And every single one ends the same way \u2014"
+  ],
+  [
+   1201.767,
+   1203.339,
+   "with something shipped and public."
+  ],
+  [
+   1203.971,
+   1208.251,
+   "The timelines are marketing. Thirty days, six weeks,\nfour"
+  ],
+  [
+   1208.251,
+   1212.055,
+   "months, six months. The syllabus underneath barely\nchanges."
+  ],
+  [
+   1212.541,
+   1215.505,
+   "Chapter two. Skills, tools, and M C P."
+  ],
+  [
+   1216.137,
+   1218.585,
+   "Where the roadmaps end, the tooling begins."
+  ],
+  [
+   1219.067,
+   1222.151,
+   "Chapter two runs to fifteen articles. We cover"
+  ],
+  [
+   1222.151,
+   1223.693,
+   "the first five here."
+  ],
+  [
+   1224.325,
+   1227.491,
+   "Three of them are Andrew Ng's skills map, published"
+  ],
+  [
+   1227.491,
+   1230.305,
+   "in parts \u2014 the single most shared item"
+  ],
+  [
+   1230.305,
+   1231.713,
+   "in the whole collection."
+  ],
+  [
+   1232.344,
+   1236.62,
+   "Between them sit two very large lists of Claude"
+  ],
+  [
+   1236.62,
+   1241.372,
+   "skills and repositories. One promises fifty. The\nother promises sixty-seven."
+  ],
+  [
+   1242.003,
+   1245.167,
+   "Ng's pieces are about judgment. The lists are about"
+  ],
+  [
+   1245.167,
+   1248.33,
+   "inventory. You need both, and it helps to know"
+  ],
+  [
+   1248.33,
+   1250.087,
+   "which one you are reading."
+  ],
+  [
+   1250.574,
+   1252.66,
+   "This is the single most shared article"
+  ],
+  [
+   1252.66,
+   1253.853,
+   "in the whole collection."
+  ],
+  [
+   1254.484,
+   1257.65,
+   "Andrew Ng's claim is that A I engineering"
+  ],
+  [
+   1257.65,
+   1261.213,
+   "is no longer a specialty. It is becoming something"
+  ],
+  [
+   1261.213,
+   1264.379,
+   "every developer needs. And he built the map"
+  ],
+  [
+   1264.379,
+   1267.941,
+   "from evidence \u2014 over ten thousand job postings, plus"
+  ],
+  [
+   1267.941,
+   1270.316,
+   "interviews with experts and hiring managers."
+  ],
+  [
+   1270.947,
+   1274.767,
+   "The first area is engineering around uncertainty.\nYou cannot"
+  ],
+  [
+   1274.767,
+   1278.587,
+   "know an A I output in advance. So you"
+  ],
+  [
+   1278.587,
+   1282.407,
+   "measure it instead. That means evaluations and\nrepeated error"
+  ],
+  [
+   1282.407,
+   1283.68,
+   "analysis, not hope."
+  ],
+  [
+   1284.312,
+   1288.715,
+   "The second is plain software fundamentals. Cost,\nscalability, reliability,"
+  ],
+  [
+   1288.715,
+   1293.118,
+   "security. Ng warns that an inexperienced developer\nwill accept"
+  ],
+  [
+   1293.118,
+   1297.033,
+   "a bad decision from an agent without noticing"
+  ],
+  [
+   1297.033,
+   1300.458,
+   "it. You need the vocabulary to steer."
+  ],
+  [
+   1301.089,
+   1304.384,
+   "The third is using coding agents well. Manage"
+  ],
+  [
+   1304.384,
+   1308.092,
+   "the context. Judge when to intervene. Give the agent"
+  ],
+  [
+   1308.092,
+   1311.799,
+   "a verifier so it can check its own work."
+  ],
+  [
+   1311.799,
+   1315.506,
+   "And coordinate several agents without damaging a\nproduction database."
+  ],
+  [
+   1316.138,
+   1319.91,
+   "The fourth is product judgment. As agents get better"
+  ],
+  [
+   1319.91,
+   1323.683,
+   "at implementing a specification, engineers move\nupstream into deciding"
+  ],
+  [
+   1323.683,
+   1326.198,
+   "what should be built at all."
+  ],
+  [
+   1326.829,
+   1330.535,
+   "Four areas. Most people only audit themselves on\none."
+  ],
+  [
+   1331.166,
+   1334.301,
+   "And underneath all four, Ng puts continuous\nlearning."
+  ],
+  [
+   1334.301,
+   1337.828,
+   "The practices are changing too fast to freeze what"
+  ],
+  [
+   1337.828,
+   1339.003,
+   "you know today."
+  ],
+  [
+   1339.49,
+   1342.553,
+   "This is a catalogue, not a comparison. Worth knowing"
+  ],
+  [
+   1342.553,
+   1343.914,
+   "before you read it."
+  ],
+  [
+   1344.545,
+   1348.86,
+   "The author sorts fifty tools into three layers.\nSkills"
+  ],
+  [
+   1348.86,
+   1353.174,
+   "supply procedure. M C P supplies access.\nRepositories supply"
+  ],
+  [
+   1353.174,
+   1355.571,
+   "the engine that runs things."
+  ],
+  [
+   1356.203,
+   1360.385,
+   "In the skills layer, Superpowers bundles test-driven\ndevelopment, debugging"
+  ],
+  [
+   1360.385,
+   1364.568,
+   "and planning. Systematic Debugging insists you find\nthe cause"
+  ],
+  [
+   1364.568,
+   1368.75,
+   "before changing code. Skill Creator turns a workflow\nyou"
+  ],
+  [
+   1368.75,
+   1372.932,
+   "describe into a skill file. File Search combines\nripgrep"
+  ],
+  [
+   1372.932,
+   1377.115,
+   "and a s t-grep. Context Optimization is about token"
+  ],
+  [
+   1377.115,
+   1378.974,
+   "spend and cache behaviour."
+  ],
+  [
+   1379.605,
+   1384.287,
+   "In the access layer, three picks. Tavily does\nsearch,"
+  ],
+  [
+   1384.287,
+   1388.969,
+   "extract, crawl and map. Context7 pulls in current\nlibrary"
+  ],
+  [
+   1388.969,
+   1393.651,
+   "documentation on request. Task Master turns a\nproduct document"
+  ],
+  [
+   1393.651,
+   1395.212,
+   "into dependency-linked tasks."
+  ],
+  [
+   1395.844,
+   1400.199,
+   "In the engine layer, LangGraph expresses agents as\ngraphs."
+  ],
+  [
+   1400.199,
+   1404.555,
+   "CrewAI organises them by role and goal. Ollama runs"
+  ],
+  [
+   1404.555,
+   1409.879,
+   "models locally. And promptfoo tests prompts and\nsecurity before you ship."
+  ],
+  [
+   1410.51,
+   1415.272,
+   "The repository watchlist goes further. Parallel\ncoding with cmux"
+  ],
+  [
+   1415.272,
+   1420.034,
+   "and claude-squad. Persistent memory. Test-first\nenforcement through T D"
+  ],
+  [
+   1420.034,
+   1423.737,
+   "D Guard. And tracing for agent runs."
+  ],
+  [
+   1424.369,
+   1428.18,
+   "Installing is just copying a skill folder into your"
+  ],
+  [
+   1428.18,
+   1430.297,
+   "Claude skills directory, then restarting."
+  ],
+  [
+   1430.929,
+   1433.966,
+   "One honest note. The author explicitly asks you"
+  ],
+  [
+   1433.966,
+   1436.624,
+   "to run your own security check. Treat"
+  ],
+  [
+   1436.624,
+   1439.282,
+   "this as a shortlist, not an endorsement."
+  ],
+  [
+   1439.773,
+   1443.526,
+   "Ng's second map is narrower. It is about building"
+  ],
+  [
+   1443.526,
+   1445.612,
+   "and deploying the application itself."
+  ],
+  [
+   1446.243,
+   1451.232,
+   "Six competencies. The first is knowing the model.\nTokenisation,"
+  ],
+  [
+   1451.232,
+   1456.221,
+   "context allocation, cache behaviour, knowledge\ncutoffs, sampling settings, tool"
+  ],
+  [
+   1456.221,
+   1460.656,
+   "calling. All of them change your design. Fine-tuning"
+  ],
+  [
+   1460.656,
+   1465.645,
+   "and self-hosting are specialist options, not\nsubstitutes for understanding."
+  ],
+  [
+   1466.277,
+   1469.81,
+   "The second is grounding in data. Decide what belongs"
+  ],
+  [
+   1469.81,
+   1473.343,
+   "in the prompt and what the model should go"
+  ],
+  [
+   1473.343,
+   1476.484,
+   "and fetch. Match the retrieval to the shape"
+  ],
+  [
+   1476.484,
+   1480.017,
+   "of your data. A vector index, a knowledge graph,"
+  ],
+  [
+   1480.017,
+   1483.55,
+   "or a semantic layer over structured records. Convert\nyour"
+  ],
+  [
+   1483.55,
+   1487.084,
+   "PDFs, HTML and images into usable inputs, and keep"
+  ],
+  [
+   1487.084,
+   1488.261,
+   "those pipelines fresh."
+  ],
+  [
+   1488.893,
+   1492.928,
+   "The third is designing execution. Either a fixed\nsequence"
+  ],
+  [
+   1492.928,
+   1496.962,
+   "of calls, or a harness where the model repeatedly"
+  ],
+  [
+   1496.962,
+   1500.997,
+   "picks its next action. Then sandboxing, memory, and\nguardrails."
+  ],
+  [
+   1501.628,
+   1505.525,
+   "The fourth is the one Ng singles out. Disciplined"
+  ],
+  [
+   1505.525,
+   1509.422,
+   "evaluation and error analysis. He calls it the\nstrongest"
+  ],
+  [
+   1509.422,
+   1513.319,
+   "skill separating A I builders. Inspect the traces.\nFind"
+  ],
+  [
+   1513.319,
+   1517.216,
+   "the errors. Then choose what to measure. And check"
+  ],
+  [
+   1517.216,
+   1518.515,
+   "your evaluators too."
+  ],
+  [
+   1519.147,
+   1521.42,
+   "He adds that the right approach shifts"
+  ],
+  [
+   1521.42,
+   1523.369,
+   "with the project and its maturity."
+  ],
+  [
+   1524.0,
+   1528.167,
+   "Fifth, operate under drift and prompt injection.\nSixth, keep"
+  ],
+  [
+   1528.167,
+   1530.019,
+   "the machine learning basics."
+  ],
+  [
+   1530.65,
+   1534.4,
+   "Prompting alone was never going to deliver\nreliability."
+  ],
+  [
+   1534.885,
+   1539.601,
+   "Sixty-seven skills, and a headline that promises a\nwhole development team."
+  ],
+  [
+   1540.232,
+   1544.407,
+   "Set the promise aside. The mechanism underneath is\ngenuinely"
+  ],
+  [
+   1544.407,
+   1548.582,
+   "useful. A skill is a folder. It holds instructions,"
+  ],
+  [
+   1548.582,
+   1552.757,
+   "examples, constraints, and sometimes scripts. That\nis what makes"
+  ],
+  [
+   1552.757,
+   1555.076,
+   "a workflow survive between sessions."
+  ],
+  [
+   1555.707,
+   1559.208,
+   "The author suggests a staged order. Start by making"
+  ],
+  [
+   1559.208,
+   1562.32,
+   "skills. Skill Creator turns your bullet points into"
+  ],
+  [
+   1562.32,
+   1565.821,
+   "a draft. You then run a handful of test"
+  ],
+  [
+   1565.821,
+   1567.766,
+   "prompts, and fix whatever fails."
+  ],
+  [
+   1568.398,
+   1572.393,
+   "Next, planning. Grill Me interrogates your\nrequirements, including data"
+  ],
+  [
+   1572.393,
+   1576.388,
+   "models and failure cases. Write a P R D"
+  ],
+  [
+   1576.388,
+   1580.383,
+   "combines an interview with codebase exploration. P R\nD"
+  ],
+  [
+   1580.383,
+   1584.378,
+   "to Plan sequences thin vertical slices. P R D"
+  ],
+  [
+   1584.378,
+   1587.486,
+   "to Issues turns them into assignable work."
+  ],
+  [
+   1588.117,
+   1594.149,
+   "Then engineering discipline. Test-driven\ndevelopment. Systematic debugging \u2014 reproduce,"
+  ],
+  [
+   1594.149,
+   1596.83,
+   "isolate, one fix, verify."
+  ],
+  [
+   1597.462,
+   1601.437,
+   "Then repository safety, which is the part people\nskip."
+  ],
+  [
+   1601.437,
+   1605.411,
+   "Git Guardrails adds hooks that block push, hard\nreset"
+  ],
+  [
+   1605.411,
+   1609.386,
+   "and clean before they run. Pre-commit assembles\nlinting, type"
+  ],
+  [
+   1609.386,
+   1610.711,
+   "checks and tests."
+  ],
+  [
+   1611.343,
+   1615.973,
+   "Beyond code, the list reaches further. A\ndocumentation generator"
+  ],
+  [
+   1615.973,
+   1620.603,
+   "derives OpenAPI material straight from your routes.\nTheme Factory"
+  ],
+  [
+   1620.603,
+   1625.233,
+   "turns a brand description into palette tokens. An\nExcel"
+  ],
+  [
+   1625.233,
+   1628.319,
+   "server drives spreadsheets without desktop Excel."
+  ],
+  [
+   1628.951,
+   1631.752,
+   "Judge any of these on the tasks you actually"
+  ],
+  [
+   1631.752,
+   1633.307,
+   "fail. Not on the headline."
+  ],
+  [
+   1633.794,
+   1636.435,
+   "The third map is the one most people need,"
+  ],
+  [
+   1636.435,
+   1638.195,
+   "and it ends on a warning."
+  ],
+  [
+   1638.827,
+   1643.581,
+   "Ng's process has three phases. Plan. Execute.\nOperate. Planning"
+  ],
+  [
+   1643.581,
+   1648.336,
+   "means research, codebase exploration, and a\nspecification covering requirements,"
+  ],
+  [
+   1648.336,
+   1653.09,
+   "design and architecture. Execution pairs building\nwith testing. Operating"
+  ],
+  [
+   1653.09,
+   1657.844,
+   "adds release gates and log inspection. And a failed"
+  ],
+  [
+   1657.844,
+   1661.014,
+   "check sends you back a phase."
+  ],
+  [
+   1661.645,
+   1666.13,
+   "How much planning? That depends. A throwaway\nprototype needs"
+  ],
+  [
+   1666.13,
+   1670.615,
+   "a sentence. An established product serving real\nusers deserves"
+  ],
+  [
+   1670.615,
+   1672.11,
+   "a checked specification."
+  ],
+  [
+   1672.741,
+   1676.037,
+   "Then calibrate autonomy. Work alongside the agent,\ndelegate"
+  ],
+  [
+   1676.037,
+   1679.745,
+   "a chunk, or let it retry toward a clear"
+  ],
+  [
+   1679.745,
+   1683.453,
+   "goal. Decide by risk and cost, not by habit."
+  ],
+  [
+   1684.085,
+   1687.831,
+   "Then verify the verifier. Automated checks tell an\nagent"
+  ],
+  [
+   1687.831,
+   1691.578,
+   "when to stop. But the criteria themselves need\nscrutiny,"
+  ],
+  [
+   1691.578,
+   1694.908,
+   "and sometimes a human still has to look."
+  ],
+  [
+   1695.54,
+   1699.978,
+   "Then hold the context. An agents file records\narchitecture"
+  ],
+  [
+   1699.978,
+   1703.923,
+   "and conventions. Hooks trigger reviews.\nRetrospectives capture lessons."
+  ],
+  [
+   1703.923,
+   1707.868,
+   "And you clear the debt the agents generate."
+  ],
+  [
+   1708.5,
+   1713.674,
+   "Ng names the warning signs too. Overengineering.\nMissing verification."
+  ],
+  [
+   1713.674,
+   1717.123,
+   "Stopping too early. And destructive actions."
+  ],
+  [
+   1717.755,
+   1721.233,
+   "He also says to learn how the harness itself"
+  ],
+  [
+   1721.233,
+   1724.324,
+   "works. How it retrieves code, how it manages"
+  ],
+  [
+   1724.324,
+   1727.029,
+   "the context window, how it spawns subagents."
+  ],
+  [
+   1727.661,
+   1732.372,
+   "His closing warning is direct. Social media\nexaggerates how"
+  ],
+  [
+   1732.372,
+   1736.037,
+   "useful those hours-long, million-token runs really\nare."
+  ],
+  [
+   1736.521,
+   1738.542,
+   "That is the first fifteen articles."
+  ],
+  [
+   1739.174,
+   1743.529,
+   "Ten roadmaps that argue about timelines and agree\nabout"
+  ],
+  [
+   1743.529,
+   1748.852,
+   "substance. Five tooling pieces that split cleanly\ninto judgment and inventory."
+  ],
+  [
+   1749.484,
+   1752.613,
+   "The through-line is simple. Learn the plumbing,\nbuild"
+  ],
+  [
+   1752.613,
+   1756.917,
+   "on models that already exist, and ship something\npeople can open."
+  ],
+  [
+   1757.548,
+   1761.555,
+   "Everything after this \u2014 context, memory, harnesses,\nretrieval, inference,"
+  ],
+  [
+   1761.555,
+   1765.116,
+   "evals \u2014 assumes you have done that part."
+  ],
+  [
+   1765.748,
+   1766.87,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "xa/narration.wav",
+   "volume": 1.0
+  }
+ }
+}

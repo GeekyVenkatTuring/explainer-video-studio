@@ -1,0 +1,260 @@
+{
+  "cuts": [
+    {
+      "id": "ch06_divider",
+      "type": "fa_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 9.884,
+      "props": {
+        "n": 6,
+        "total": 11,
+        "title": "Buy and sell discipline",
+        "sub": "Let changes in value and fundamentals drive decisions, not your average cost.",
+        "color": "#38BDF8",
+        "dur": 10.384
+      }
+    },
+    {
+      "id": "ch06_stagger",
+      "type": "fa_bars",
+      "in_seconds": 10.384,
+      "out_seconds": 39.467,
+      "props": {
+        "kicker": "BUILDING A POSITION",
+        "title": "Staggering can reduce timing dependence when a thesis is intact",
+        "bars": [
+          {
+            "label": "Research",
+            "val": 1,
+            "c": "#2DD4BF",
+            "note": "understand"
+          },
+          {
+            "label": "First buy",
+            "val": 2,
+            "c": "#38BDF8",
+            "note": "start"
+          },
+          {
+            "label": "Review",
+            "val": 3,
+            "c": "#FBBF24",
+            "note": "new facts"
+          },
+          {
+            "label": "Add or stop",
+            "val": 4,
+            "c": "#34D399",
+            "note": "thesis-led"
+          }
+        ],
+        "note": "Illustrative sequence only. Position size must fit personal risk capacity.",
+        "color": "#38BDF8",
+        "decimals": 0,
+        "dur": 29.583
+      }
+    },
+    {
+      "id": "ch06_sell",
+      "type": "fa_compare",
+      "in_seconds": 39.967,
+      "out_seconds": 67.737,
+      "props": {
+        "kicker": "SIX REASONS TO REVISIT",
+        "title": "A sell decision should have a business reason",
+        "cos": [
+          {
+            "name": "Thesis improved?",
+            "c": "#34D399",
+            "tag": "hold / add",
+            "stats": [
+              {
+                "k": "Fundamentals",
+                "v": "intact or stronger"
+              },
+              {
+                "k": "Valuation",
+                "v": "still reasonable"
+              },
+              {
+                "k": "Capital need",
+                "v": "covered elsewhere"
+              },
+              {
+                "k": "Action",
+                "v": "review calmly",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Thesis weakened?",
+            "c": "#F87171",
+            "tag": "reduce / exit",
+            "stats": [
+              {
+                "k": "Fundamentals",
+                "v": "material deterioration"
+              },
+              {
+                "k": "Management",
+                "v": "governance concern"
+              },
+              {
+                "k": "Valuation",
+                "v": "extreme vs facts"
+              },
+              {
+                "k": "Action",
+                "v": "reallocate rationally",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "The book also names better opportunities and predefined exit criteria as valid inputs.",
+        "color": "#38BDF8",
+        "dur": 28.27
+      }
+    },
+    {
+      "id": "ch06_exit_plan",
+      "type": "fa_keyidea",
+      "in_seconds": 68.237,
+      "out_seconds": 98.736,
+      "props": {
+        "kicker": "PREDEFINED EXIT PLAN",
+        "big": "Write what would invalidate the thesis before the position becomes emotionally important.",
+        "sub": "A plan makes it easier to distinguish new evidence from temporary noise.",
+        "color": "#34D399",
+        "dur": 30.999
+      }
+    },
+    {
+      "id": "ch06_detail_repeat_buy",
+      "type": "fa_bars",
+      "in_seconds": 99.236,
+      "out_seconds": 136.777,
+      "props": {
+        "kicker": "THE AJANTA REPEAT-BUY EXAMPLE",
+        "title": "Higher prices do not automatically end a valid thesis",
+        "bars": [
+          {
+            "label": "Initial",
+            "val": 250,
+            "c": "#2DD4BF",
+            "note": "historical \u20b9"
+          },
+          {
+            "label": "Later 1",
+            "val": 440,
+            "c": "#38BDF8",
+            "note": "historical \u20b9"
+          },
+          {
+            "label": "Later 2",
+            "val": 500,
+            "c": "#FBBF24",
+            "note": "historical \u20b9"
+          },
+          {
+            "label": "Later 3",
+            "val": 730,
+            "c": "#34D399",
+            "note": "historical \u20b9"
+          }
+        ],
+        "note": "The book's pre-split historical example illustrates absolute profit versus percentage return; it is not a current recommendation.",
+        "color": "#38BDF8",
+        "decimals": 0,
+        "dur": 38.041
+      }
+    },
+    {
+      "id": "ch06_detail_high",
+      "type": "fa_keyidea",
+      "in_seconds": 137.277,
+      "out_seconds": 173.371,
+      "props": {
+        "kicker": "THE 52-WEEK-HIGH BIAS",
+        "big": "A fresh high can reflect an improving business; price strength alone is neither a buy signal nor a danger signal.",
+        "sub": "Ask what is causing the strength and whether valuation still matches the business.",
+        "color": "#34D399",
+        "dur": 36.594
+      }
+    },
+    {
+      "id": "ch06_detail_low",
+      "type": "fa_keyidea",
+      "in_seconds": 173.871,
+      "out_seconds": 208.201,
+      "props": {
+        "kicker": "THE 52-WEEK-LOW TRAP",
+        "big": "A large decline does not create value automatically; it may be the market reacting to a damaged business, leverage, or governance failure.",
+        "sub": "The book's Educomp, Unitech, and similar examples are historical warnings, not a screening rule.",
+        "color": "#F87171",
+        "dur": 34.83
+      }
+    },
+    {
+      "id": "ch06_detail_sell_criteria",
+      "type": "fa_ledger",
+      "in_seconds": 208.701,
+      "out_seconds": 242.951,
+      "props": {
+        "kicker": "WHEN TO SELL",
+        "title": "Use pre-defined reasons rather than an attempt to call the exact top",
+        "rows": [
+          {
+            "label": "Better opportunity",
+            "val": "capital can earn more elsewhere",
+            "c": "#34D399",
+            "bold": true
+          },
+          {
+            "label": "Original error",
+            "val": "thesis was wrong",
+            "c": "#F87171"
+          },
+          {
+            "label": "Valuation",
+            "val": "expectations become extreme",
+            "c": "#A78BFA"
+          },
+          {
+            "label": "Fundamentals",
+            "val": "business deteriorates",
+            "c": "#FBBF24"
+          },
+          {
+            "label": "Management",
+            "val": "trust or incentives change",
+            "c": "#2DD4BF"
+          }
+        ],
+        "caption": "The book also recommends defining an exit strategy while calm.",
+        "color": "#38BDF8",
+        "dur": 34.75
+      }
+    },
+    {
+      "id": "ch06_detail_sell_mistakes",
+      "type": "fa_keyidea",
+      "in_seconds": 243.451,
+      "out_seconds": 277.624,
+      "props": {
+        "kicker": "DEADLY SELLING MISTAKES",
+        "big": "Do not sell merely because of a small gain, fear a higher average price, or mistake a temporary quote change for broken fundamentals.",
+        "sub": "Selling discipline is symmetric with buying discipline: thesis first, emotion second.",
+        "color": "#2DD4BF",
+        "dur": 34.673
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch06.wav",
+      "volume": 1.0
+    }
+  }
+}

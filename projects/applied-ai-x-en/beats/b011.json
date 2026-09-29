@@ -1,0 +1,42 @@
+{
+ "idx": 11,
+ "variant": "xa_article",
+ "props": {
+  "rank": 1,
+  "total": 5,
+  "ch": 2,
+  "chname": "SKILLS & MCP",
+  "title": "The AI Engineering Skills Map",
+  "handle": "@AndrewYNg",
+  "likes": "24.1K",
+  "thesis": "Ng argues AI engineering is becoming a capability every developer needs, resting on four connected areas rather than on one job title.",
+  "take": "Audit yourself across all four areas, not just prompting and code generation.",
+  "points": [
+   {
+    "label": "Built on evidence",
+    "line": "Drawn from over ten thousand job postings, plus interviews with experts and hiring managers."
+   },
+   {
+    "label": "Engineer the uncertainty",
+    "line": "You cannot know the output in advance, so measure it \u2014 evals and repeated error analysis."
+   },
+   {
+    "label": "Fundamentals still rule",
+    "line": "Cost, scalability, reliability, security: the tradeoffs an agent cannot weigh for you."
+   },
+   {
+    "label": "Steer the agent",
+    "line": "Manage context, judge when to step in, and give agents verifiers to check their own work."
+   },
+   {
+    "label": "Coordinate safely",
+    "line": "Know when a spec is needed, and stop agents from damaging a production database."
+   },
+   {
+    "label": "Decide what gets built",
+    "line": "As agents implement specs, engineers move upstream into product judgment."
+   }
+  ]
+ },
+ "narration": "This is the single most shared article in the whole collection. [pause] Andrew Ng's claim is that A I engineering is no longer a specialty. It is becoming something every developer needs. And he built the map from evidence \u2014 over ten thousand job postings, plus interviews with experts and hiring managers. [pause] The first area is engineering around uncertainty. You cannot know an A I output in advance. So you measure it instead. That means evaluations and repeated error analysis, not hope. [pause] The second is plain software fundamentals. Cost, scalability, reliability, security. Ng warns that an inexperienced developer will accept a bad decision from an agent without noticing it. You need the vocabulary to steer. [pause] The third is using coding agents well. Manage the context. Judge when to intervene. Give the agent a verifier so it can check its own work. And coordinate several agents without damaging a production database. [pause] The fourth is product judgment. As agents get better at implementing a specification, engineers move upstream into deciding what should be built at all. [pause] Four areas. Most people only audit themselves on one. [pause] And underneath all four, Ng puts continuous learning. The practices are changing too fast to freeze what you know today."
+}

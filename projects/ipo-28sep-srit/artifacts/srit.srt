@@ -1,0 +1,284 @@
+1
+00:00:00,000 --> 00:00:03,333
+This is the SRIT India I P O, a mainboard offer,
+
+2
+00:00:03,333 --> 00:00:07,360
+open from the twenty-eighth to the thirtieth of September.
+
+3
+00:00:07,860 --> 00:00:10,800
+The price band is ₹123 to ₹130.
+
+4
+00:00:10,800 --> 00:00:16,586
+Every figure here comes from the final red herring prospectus
+
+5
+00:00:16,586 --> 00:00:18,578
+and exchange notices;
+
+6
+00:00:18,578 --> 00:00:22,277
+the final price is fixed after bidding,
+
+7
+00:00:22,277 --> 00:00:26,356
+so valuations are computed at the ₹130 cap.
+
+8
+00:00:26,856 --> 00:00:28,093
+First, the business.
+
+9
+00:00:28,593 --> 00:00:34,007
+SRIT India builds and runs digital platforms for governments and enterprises,
+
+10
+00:00:34,007 --> 00:00:37,873
+in healthcare, e-governance, and telecom and broadband.
+
+11
+00:00:38,373 --> 00:00:42,790
+It combines its own software products with system integration
+
+12
+00:00:42,790 --> 00:00:44,311
+and managed services,
+
+13
+00:00:44,311 --> 00:00:48,293
+and has added AI video analytics and conversational AI.
+
+14
+00:00:48,793 --> 00:00:51,055
+It has a twenty-six-year track record.
+
+15
+00:00:51,555 --> 00:00:53,155
+The financial checkpoint.
+
+16
+00:00:53,655 --> 00:01:04,008
+FY26 revenue was ₹450.00 Cr, against ₹389.35 Cr in FY25,
+
+17
+00:01:04,008 --> 00:01:07,521
+a change of 15.58%.
+
+18
+00:01:08,021 --> 00:01:15,275
+Profit after tax was ₹43.29 Cr, a margin of 9.62%.
+
+19
+00:01:15,775 --> 00:01:20,086
+Profit grew faster than revenue:
+
+20
+00:01:20,086 --> 00:01:23,049
+28.82% against 15.58%.
+
+21
+00:01:23,549 --> 00:01:30,440
+Debt to equity fell to 0.23, and return on equity was 29.98%.
+
+22
+00:01:30,940 --> 00:01:35,907
+The offer size at the cap is ₹218.40 Cr,
+
+23
+00:01:35,907 --> 00:01:39,260
+and it is 100% fresh issue.
+
+24
+00:01:39,760 --> 00:01:42,145
+All of that money goes into the company;
+
+25
+00:01:42,145 --> 00:01:45,008
+no existing shareholder is selling in this deal.
+
+26
+00:01:45,508 --> 00:01:46,831
+Where does the money go?
+
+27
+00:01:47,331 --> 00:01:53,307
+It is a 100% fresh issue of 1,68,00,000 shares,
+
+28
+00:01:53,307 --> 00:01:56,867
+about ₹218.40 Cr at the cap.
+
+29
+00:01:57,367 --> 00:02:01,164
+₹124.00 Cr funds working capital,
+
+30
+00:02:01,164 --> 00:02:05,537
+and ₹12.86 Cr modernises its products.
+
+31
+00:02:06,037 --> 00:02:10,415
+The rest can go to acquisitions and general corporate purposes.
+
+32
+00:02:10,415 --> 00:02:15,488
+The working-capital need shows how much cash government contracts tie up.
+
+33
+00:02:15,988 --> 00:02:16,991
+Valuation.
+
+34
+00:02:17,491 --> 00:02:20,007
+At the ₹130 cap,
+
+35
+00:02:20,007 --> 00:02:28,029
+the price is 13.73x FY26 earnings of ₹9.47 a share.
+
+36
+00:02:28,529 --> 00:02:37,511
+Peers range from Mastek at 12.59x and Allied Digital at 15.52x
+
+37
+00:02:37,511 --> 00:02:43,740
+to Protean at 19.80x and RailTel at 24.03x.
+
+38
+00:02:44,240 --> 00:02:46,544
+So it is at the lower end of the range.
+
+39
+00:02:47,044 --> 00:02:48,537
+Now balance the evidence.
+
+40
+00:02:49,037 --> 00:02:50,301
+Watch-out:
+
+41
+00:02:50,301 --> 00:02:55,732
+Working-capital heavy government contracts.
+
+42
+00:02:55,732 --> 00:02:56,869
+Strength:
+
+43
+00:02:56,869 --> 00:03:00,280
+PAT up 28.82% to ₹43.29 Cr.
+
+44
+00:03:00,780 --> 00:03:02,008
+Watch-out:
+
+45
+00:03:02,008 --> 00:03:07,534
+₹124.00 Cr of proceeds go to working capital.
+
+46
+00:03:07,534 --> 00:03:08,639
+Strength:
+
+47
+00:03:08,639 --> 00:03:09,744
+Low debt:
+
+48
+00:03:09,744 --> 00:03:10,849
+D/E 0.23.
+
+49
+00:03:11,349 --> 00:03:12,426
+Watch-out:
+
+50
+00:03:12,426 --> 00:03:16,409
+Acquisition funds not yet identified.
+
+51
+00:03:16,409 --> 00:03:17,378
+Strength:
+
+52
+00:03:17,378 --> 00:03:20,715
+13.73x P/E, lower end of peers.
+
+53
+00:03:21,215 --> 00:03:22,345
+How to apply.
+
+54
+00:03:22,845 --> 00:03:27,574
+The minimum bid is one lot of 115 shares,
+
+55
+00:03:27,574 --> 00:03:30,803
+which is ₹14,950 at the cap.
+
+56
+00:03:31,303 --> 00:03:34,778
+Retail investors can bid up to two lakh rupees,
+
+57
+00:03:34,778 --> 00:03:38,919
+and allotment is by lottery if retail is oversubscribed.
+
+58
+00:03:39,419 --> 00:03:43,962
+Check live subscription on the N S E or B S E website,
+
+59
+00:03:43,962 --> 00:03:45,392
+not social media.
+
+60
+00:03:45,892 --> 00:03:46,852
+Let's recap.
+
+61
+00:03:47,352 --> 00:03:53,394
+FY26 revenue ₹450.00 Cr, profit ₹43.29 Cr.
+
+62
+00:03:53,394 --> 00:03:56,846
+The offer is 100% fresh.
+
+63
+00:03:56,846 --> 00:04:02,600
+Valuation is 13.73x earnings at the cap.
+
+64
+00:04:02,600 --> 00:04:07,491
+The minimum investment is ₹14,950.
+
+65
+00:04:07,991 --> 00:04:12,164
+This video is public-source education from the red herring
+
+66
+00:04:12,164 --> 00:04:14,467
+prospectus and exchange notices.
+
+67
+00:04:14,467 --> 00:04:18,425
+It is not investment advice and not a buy or sell call.
+
+68
+00:04:18,425 --> 00:04:20,224
+Read the final documents,
+
+69
+00:04:20,224 --> 00:04:23,102
+check live subscription on the exchange,
+
+70
+00:04:23,102 --> 00:04:25,837
+and consult a SEBI-registered adviser.
+
+71
+00:04:25,837 --> 00:04:27,276
+Thanks for watching.
+

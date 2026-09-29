@@ -1,0 +1,228 @@
+{
+  "cuts": [
+    {
+      "id": "ch07_divider",
+      "type": "fa_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 10.17,
+      "props": {
+        "n": 7,
+        "total": 11,
+        "title": "Avoid self-inflicted errors",
+        "sub": "Daily price fixation, anchoring, and forecasts can sabotage good analysis.",
+        "color": "#F87171",
+        "dur": 10.67
+      }
+    },
+    {
+      "id": "ch07_daily",
+      "type": "fa_keyidea",
+      "in_seconds": 10.67,
+      "out_seconds": 37.159,
+      "props": {
+        "kicker": "PRICE IS A SIGNAL, NOT A COMMAND",
+        "big": "Checking quotes constantly can turn normal volatility into needless action.",
+        "sub": "Match your review frequency to your investment horizon and the arrival of material facts.",
+        "color": "#F87171",
+        "dur": 26.989
+      }
+    },
+    {
+      "id": "ch07_anchor",
+      "type": "fa_compare",
+      "in_seconds": 37.659,
+      "out_seconds": 67.394,
+      "props": {
+        "kicker": "THE ANCHORING TRAP",
+        "title": "Your purchase price is history, not an investment thesis",
+        "cos": [
+          {
+            "name": "Anchored investor",
+            "c": "#F87171",
+            "tag": "backward-looking",
+            "stats": [
+              {
+                "k": "Question",
+                "v": "when do I break even?"
+              },
+              {
+                "k": "Focus",
+                "v": "my cost"
+              },
+              {
+                "k": "Risk",
+                "v": "holds weak thesis"
+              },
+              {
+                "k": "Decision",
+                "v": "emotional",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Rational investor",
+            "c": "#34D399",
+            "tag": "forward-looking",
+            "stats": [
+              {
+                "k": "Question",
+                "v": "what is it worth now?"
+              },
+              {
+                "k": "Focus",
+                "v": "future cash flows"
+              },
+              {
+                "k": "Risk",
+                "v": "tests thesis"
+              },
+              {
+                "k": "Decision",
+                "v": "evidence-led",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "The market does not know the price you paid.",
+        "color": "#F87171",
+        "dur": 30.235
+      }
+    },
+    {
+      "id": "ch07_bear",
+      "type": "fa_keyidea",
+      "in_seconds": 67.894,
+      "out_seconds": 98.833,
+      "props": {
+        "kicker": "BEAR MARKETS",
+        "big": "A broad decline is not a forecastable timetable; prepare with quality, liquidity, and patience.",
+        "sub": "Do not panic-sell everything or assume every falling stock is a bargain.",
+        "color": "#FBBF24",
+        "dur": 31.439
+      }
+    },
+    {
+      "id": "ch07_detail_quote",
+      "type": "fa_keyidea",
+      "in_seconds": 99.333,
+      "out_seconds": 133.587,
+      "props": {
+        "kicker": "DAILY QUOTES",
+        "big": "Frequent monitoring can make a long-term owner behave like a short-term trader.",
+        "sub": "Follow company-specific information and scheduled review points instead of reacting to every tick.",
+        "color": "#F87171",
+        "dur": 34.754
+      }
+    },
+    {
+      "id": "ch07_detail_cost_anchor",
+      "type": "fa_keyidea",
+      "in_seconds": 134.087,
+      "out_seconds": 165.022,
+      "props": {
+        "kicker": "PURCHASE PRICE ANCHOR",
+        "big": "Your entry price is personal history; it does not determine future value or the best use of capital today.",
+        "sub": "Evaluate hold, add, reduce, or exit from the current facts and alternatives.",
+        "color": "#F87171",
+        "dur": 31.435
+      }
+    },
+    {
+      "id": "ch07_detail_prediction",
+      "type": "fa_compare",
+      "in_seconds": 165.522,
+      "out_seconds": 200.881,
+      "props": {
+        "kicker": "PREDICTING THE INDEX",
+        "title": "A weak index can contain strong companies, and a strong index can contain weak companies",
+        "cos": [
+          {
+            "name": "Index forecast",
+            "c": "#FBBF24",
+            "tag": "hard to repeat",
+            "stats": [
+              {
+                "k": "Focus",
+                "v": "macro direction"
+              },
+              {
+                "k": "Problem",
+                "v": "timing uncertainty"
+              },
+              {
+                "k": "Risk",
+                "v": "missed opportunities"
+              },
+              {
+                "k": "Use",
+                "v": "context only",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Business analysis",
+            "c": "#34D399",
+            "tag": "more actionable",
+            "stats": [
+              {
+                "k": "Focus",
+                "v": "company facts"
+              },
+              {
+                "k": "Question",
+                "v": "quality and price"
+              },
+              {
+                "k": "Risk",
+                "v": "specific, reviewable"
+              },
+              {
+                "k": "Use",
+                "v": "portfolio decisions",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "The book uses historical periods when stock-level results diverged from the index.",
+        "color": "#2DD4BF",
+        "dur": 35.859
+      }
+    },
+    {
+      "id": "ch07_detail_bear",
+      "type": "fa_keyidea",
+      "in_seconds": 201.381,
+      "out_seconds": 231.132,
+      "props": {
+        "kicker": "LOVE THE BEAR MARKET?",
+        "big": "A downturn can improve prices, but only quality, liquidity, and emotional readiness turn it into opportunity.",
+        "sub": "Never treat a crash as a reason to buy indiscriminately.",
+        "color": "#FBBF24",
+        "dur": 30.251
+      }
+    },
+    {
+      "id": "ch07_detail_behaviour",
+      "type": "fa_keyidea",
+      "in_seconds": 231.632,
+      "out_seconds": 260.761,
+      "props": {
+        "kicker": "BEHAVIOURAL RULE",
+        "big": "Write the decision rule before emotion arrives: do not trade a headline; investigate a fact.",
+        "sub": "A predictable process is more valuable than an exciting one.",
+        "color": "#34D399",
+        "dur": 29.629
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch07.wav",
+      "volume": 1.0
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "cuts": [
+    {
+      "id": "priority_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 19.796,
+      "props": {
+        "title": "Priority Jewels IPO",
+        "sub": "Diamond & fine jewellery · ₹91.50 Cr · 28 Aug–1 Sep 2026",
+        "kicker": "IPO ANALYSIS · MAINBOARD · 100% FRESH",
+        "dur": 20.296
+      }
+    },
+    {
+      "id": "priority_biz",
+      "type": "sm_iconcards",
+      "in_seconds": 20.296,
+      "out_seconds": 60.274,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "Business Model",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "💎",
+            "k": "Diamond & fine jewellery",
+            "v": "Designs, manufactures and sells diamond-studded gold and platinum fine jewellery.",
+            "chip": "JEWELLERY"
+          },
+          {
+            "emoji": "🧾",
+            "k": "100% fresh capital",
+            "v": "The entire ₹91.50 Cr is a fresh issue; proceeds repay working-capital borrowings.",
+            "chip": "FRESH"
+          },
+          {
+            "emoji": "📉",
+            "k": "Thin margins",
+            "v": "FY26 profit of ₹17.65 Cr on ₹539 Cr revenue is about a 3.3% margin, at roughly 20 times earnings.",
+            "chip": "WATCH"
+          }
+        ],
+        "dur": 40.478
+      }
+    },
+    {
+      "id": "priority_fin",
+      "type": "sm_stats",
+      "in_seconds": 60.774,
+      "out_seconds": 101.546,
+      "props": {
+        "kicker": "FINANCIAL QUALITY",
+        "title": "FY26 Financials",
+        "stats": [
+          {
+            "label": "Revenue",
+            "to": 539.03,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "FY26 filing"
+          },
+          {
+            "label": "Profit after tax",
+            "to": 17.65,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "filing evidence"
+          },
+          {
+            "label": "PAT margin",
+            "to": 3.274400311670964,
+            "prefix": "",
+            "suffix": "%",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "reported FY26 margin"
+          }
+        ],
+        "note": "FY26 revenue ₹539.03 Cr (FY25 ₹435.87), PAT ₹17.65 Cr (FY25 ₹10.51); about a 3.3% margin and roughly 20 times FY26 earnings at the cap.",
+        "dur": 41.272
+      }
+    },
+    {
+      "id": "priority_issue",
+      "type": "sm_stats",
+      "in_seconds": 102.046,
+      "out_seconds": 117.068,
+      "props": {
+        "kicker": "OFFER STRUCTURE",
+        "title": "Fresh Issue vs OFS",
+        "stats": [
+          {
+            "label": "Total offer",
+            "to": 91.5,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "offer size"
+          },
+          {
+            "label": "Fresh — company receives",
+            "to": 91.5,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "new capital"
+          },
+          {
+            "label": "OFS — sellers receive",
+            "to": 0.0,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FB7185",
+            "sub": "none — 100% fresh"
+          }
+        ],
+        "note": "Fresh funds enter the company. Offer-for-sale proceeds go to selling shareholders.",
+        "dur": 15.522
+      }
+    },
+    {
+      "id": "priority_proceeds",
+      "type": "sm_iconcards",
+      "in_seconds": 117.568,
+      "out_seconds": 146.314,
+      "props": {
+        "kicker": "USE OF PROCEEDS",
+        "title": "What The Capital Funds",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "🏦",
+            "k": "Repay working-capital borrowings",
+            "v": "The primary stated use is prepaying working-capital debt.",
+            "chip": "RHP"
+          },
+          {
+            "emoji": "🧰",
+            "k": "General corporate purposes",
+            "v": "Remaining proceeds are for general corporate purposes.",
+            "chip": "GCP"
+          },
+          {
+            "emoji": "✅",
+            "k": "No promoter exit",
+            "v": "100% fresh — all ₹91.50 Cr enters the company.",
+            "chip": "FRESH"
+          }
+        ],
+        "dur": 29.246
+      }
+    },
+    {
+      "id": "priority_peers",
+      "type": "sm_peers",
+      "in_seconds": 146.814,
+      "out_seconds": 163.732,
+      "props": {
+        "kicker": "COMPETITORS · VALUATION",
+        "title": "Peer Comparison",
+        "color": "#FBBF24",
+        "rows": [
+          {
+            "name": "Priority Jewels IPO",
+            "pe": 20.5,
+            "note": "₹200 cap / FY26 earnings",
+            "hi": true
+          },
+          {
+            "name": "Khazanchi Jewellers",
+            "pe": null,
+            "note": "listed jewellery peer",
+            "hi": false
+          },
+          {
+            "name": "RBZ Jewellers",
+            "pe": null,
+            "note": "listed jewellery peer",
+            "hi": false
+          },
+          {
+            "name": "Ashapuri Gold",
+            "pe": null,
+            "note": "listed jewellery peer",
+            "hi": false
+          }
+        ],
+        "verdict": "At about 20 times FY26 earnings, Priority is not cheap for a small jeweller; the disclosed peers differ in scale and mix, so treat the comparison as directional.",
+        "dur": 17.418
+      }
+    },
+    {
+      "id": "priority_verdict",
+      "type": "sm_myths",
+      "in_seconds": 164.232,
+      "out_seconds": 201.33,
+      "props": {
+        "kicker": "CONSOLIDATED ANALYSIS",
+        "title": "Strengths vs Watch-outs",
+        "mythLabel": "⚠️ WATCH-OUTS",
+        "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+        "pairs": [
+          {
+            "m": "A thin, roughly 3.3% PAT margin",
+            "f": "100% fresh issue — no promoter exit"
+          },
+          {
+            "m": "About 20 times earnings for a small jeweller",
+            "f": "Profit grew to ₹17.65 Cr from ₹10.51 Cr"
+          },
+          {
+            "m": "Gold-price and inventory-cycle risk",
+            "f": "Fresh money repays working-capital debt"
+          }
+        ],
+        "dur": 37.598
+      }
+    },
+    {
+      "id": "priority_retail",
+      "type": "sm_iconcards",
+      "in_seconds": 201.83,
+      "out_seconds": 231.2,
+      "props": {
+        "kicker": "HOW TO APPLY",
+        "title": "Check Terms Before You Bid",
+        "color": "#FBBF24",
+        "items": [
+          {
+            "emoji": "🧑",
+            "k": "Retail cap",
+            "v": "Retail bids up to ₹2 lakh; allocation can be lottery-based when oversubscribed.",
+            "chip": "RII"
+          },
+          {
+            "emoji": "💰",
+            "k": "Minimum bid",
+            "v": "₹15,000 (75 shares × ₹200)",
+            "chip": "MIN BID"
+          },
+          {
+            "emoji": "📌",
+            "k": "MAINBOARD",
+            "v": "Mainboard retail bids run up to two lakh rupees; allotment can be a lottery when oversubscribed.",
+            "chip": "MAINBOARD"
+          },
+          {
+            "emoji": "🔎",
+            "k": "Verify live",
+            "v": "Read the final RHP and the NSE or BSE subscription data before bidding.",
+            "chip": "SOURCES"
+          }
+        ],
+        "dur": 29.87
+      }
+    },
+    {
+      "id": "priority_recap",
+      "type": "sm_recap",
+      "in_seconds": 231.7,
+      "out_seconds": 295.362,
+      "props": {
+        "title": "Priority Jewels IPO — Evidence Recap",
+        "items": [
+          "FY26: revenue ₹539.03 Cr · PAT ₹17.65 Cr",
+          "Offer: ₹91.50 Cr · 100% fresh",
+          "Competitor lens: At about 20 times FY26 earnings, Priority is not cheap for a small jeweller; the disclosed peers differ in scale and mix, so treat the comparison as directional.",
+          "Evidence: RHP-based reporting: Equentis, TradingView, IPOWatch, sahi, InvestorGain (FY26 financials, terms)."
+        ],
+        "closer": "Read the final RHP. Decide for yourself.",
+        "dur": 64.162
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/priority.wav",
+      "volume": 1.0
+    }
+  }
+}

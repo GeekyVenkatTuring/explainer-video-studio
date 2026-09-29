@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    {
+      "id": "ch11_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 0.0,
+      "out_seconds": 44.872,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "foundation",
+        "dur": 45.372
+      }
+    },
+    {
+      "id": "ch11_system",
+      "type": "aae_chapter",
+      "in_seconds": 45.372,
+      "out_seconds": 83.507,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "system",
+        "dur": 38.635
+      }
+    },
+    {
+      "id": "ch11_practice",
+      "type": "aae_chapter",
+      "in_seconds": 84.007,
+      "out_seconds": 130.888,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "practice",
+        "dur": 47.381
+      }
+    },
+    {
+      "id": "ch11_failure",
+      "type": "aae_chapter",
+      "in_seconds": 131.388,
+      "out_seconds": 170.549,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "failure",
+        "dur": 39.661
+      }
+    },
+    {
+      "id": "ch11_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 171.049,
+      "out_seconds": 214.341,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "evaluation",
+        "dur": 43.793
+      }
+    },
+    {
+      "id": "ch11_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 214.841,
+      "out_seconds": 252.266,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "handoff",
+        "dur": 37.925
+      }
+    },
+    {
+      "id": "ch11_application",
+      "type": "aae_chapter",
+      "in_seconds": 252.766,
+      "out_seconds": 301.229,
+      "props": {
+        "chapter": 11,
+        "title": "Agentic Model Engineering",
+        "focus": "matching models, prompts, and deterministic components to each task",
+        "concepts": [
+          "model routing",
+          "structured outputs",
+          "evaluation-driven selection"
+        ],
+        "example": "a pipeline using rules for validation and a model for ambiguous language",
+        "trap": "using one expensive model for everything",
+        "takeaway": "Matching models, prompts, and deterministic components to each task.",
+        "beat": "application",
+        "dur": 48.963
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch11.wav",
+      "volume": 1
+    }
+  }
+}

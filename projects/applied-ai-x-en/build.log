@@ -1,0 +1,29 @@
+
+Building 22 beats (Kokoro af_bella, atempo 0.95) …
+
+  s000_title     xa_title      20.25s    50w
+  s001_d1        xa_divider     7.51s    19w
+  s002_c1intro   xa_chintro    32.78s    80w
+  a001           xa_roadmap   109.21s   215w  ⚠ LONG >90s
+  a002           xa_roadmap   112.86s   214w  ⚠ LONG >90s
+  a003           xa_article   113.26s   215w  ⚠ LONG >90s
+  a004           xa_roadmap   113.66s   213w  ⚠ LONG >90s
+  a005           xa_article   117.35s   213w  ⚠ LONG >90s
+  a006           xa_roadmap   112.49s   213w  ⚠ LONG >90s
+  a007           xa_roadmap   114.14s   211w  ⚠ LONG >90s
+  a008           xa_article   116.52s   213w  ⚠ LONG >90s
+  a009           xa_flow       98.40s   220w  ⚠ LONG >90s
+  a010           xa_stack      98.18s   207w  ⚠ LONG >90s
+  s013_c1recap   xa_recap      38.94s    96w
+  s014_d2        xa_divider     6.03s    16w
+  s015_c2intro   xa_chintro    31.01s    78w
+  a011           xa_article    88.42s   209w
+  a012           xa_roster     99.78s   212w  ⚠ LONG >90s
+  a013           xa_article    94.61s   212w  ⚠ LONG >90s
+  a014           xa_roster     98.41s   214w  ⚠ LONG >90s
+  a015           xa_roadmap   102.23s   218w  ⚠ LONG >90s
+  s021_end       xa_end        30.34s    69w
+
+total 1766.86s (29.45 min), 22 scenes, 420 caption cues, 3607 words, captions ON
+  chapter 1 ch1-learning-paths     frames 0-36360 (20.20 min)
+  chapter 2 ch2-skills-mcp         frames 36376-53005 (9.24 min)

@@ -1,0 +1,348 @@
+{
+ "cuts": [
+  {
+   "id": "d3",
+   "type": "hf_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 2.973,
+   "props": {
+    "n": 3,
+    "title": "Motion",
+    "sub": "animation that stays seekable",
+    "color": "#A78BFA",
+    "dur": 3.473
+   }
+  },
+  {
+   "id": "s19_seeksafe",
+   "type": "hf_code",
+   "in_seconds": 3.473,
+   "out_seconds": 43.876,
+   "props": {
+    "kicker": "SEEK-SAFE MOTION",
+    "title": "Compute positions once, up front",
+    "color": "#A78BFA",
+    "codeTitle": "scene.js",
+    "foot": "The renderer samples in parallel \u2014 a mid-tween measurement is a different number each time.",
+    "lines": [
+     [
+      [
+       "// once, at setup:",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "const ",
+       "#8090AE"
+      ],
+      [
+       "x0",
+       "#A78BFA"
+      ],
+      [
+       " = ",
+       "#8090AE"
+      ],
+      [
+       "layout",
+       "#EAF1FC"
+      ],
+      [
+       ".",
+       "#8090AE"
+      ],
+      [
+       "cardX",
+       "#EAF1FC"
+      ],
+      [
+       ";",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "// then tween to a constant:",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "tl",
+       "#EAF1FC"
+      ],
+      [
+       ".to(",
+       "#8090AE"
+      ],
+      [
+       "el",
+       "#EAF1FC"
+      ],
+      [
+       ", { ",
+       "#8090AE"
+      ],
+      [
+       "x",
+       "#A78BFA"
+      ],
+      [
+       ": x0 })",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "pre-calculate layout constants at setup",
+      "c": "#A78BFA"
+     },
+     {
+      "text": "never measure the DOM mid-tween",
+      "c": "#FB7185"
+     },
+     {
+      "text": "parallel workers each read a different value",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 40.903
+   }
+  },
+  {
+   "id": "s20_atomic",
+   "type": "hf_bullets",
+   "in_seconds": 44.376,
+   "out_seconds": 84.445,
+   "props": {
+    "kicker": "HOW MOTION IS BUILT",
+    "title": "Compose small rules",
+    "color": "#A78BFA",
+    "foot": "Two to four atomic rules on one paused timeline is most scenes you'll ever build.",
+    "items": [
+     {
+      "h": "Pick two to four atomic rules",
+      "sub": "fade, rise, stagger, draw-on",
+      "icon": "\ud83e\udde9",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Glue them to one paused timeline",
+      "sub": "less code than a template",
+      "icon": "\ud83e\uddf5",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Reach for a blueprint only when complex",
+      "sub": "four-to-five phase choreography",
+      "icon": "\ud83d\udcd0",
+      "c": "#38BDF8"
+     }
+    ],
+    "dur": 40.569
+   }
+  },
+  {
+   "id": "s21_blueprints",
+   "type": "hf_compare",
+   "in_seconds": 84.945,
+   "out_seconds": 122.772,
+   "props": {
+    "kicker": "RULES VS BLUEPRINTS",
+    "title": "Two ways to reach for motion",
+    "foot": "Start with rules; load a blueprint only when the choreography earns it.",
+    "left": {
+     "head": "Atomic rules",
+     "bad": false,
+     "c": "#A78BFA",
+     "items": [
+      "The default for most scenes",
+      "Compose two to four",
+      "Fastest, least code"
+     ]
+    },
+    "right": {
+     "head": "Blueprints",
+     "bad": false,
+     "c": "#38BDF8",
+     "items": [
+      "Pre-designed multi-phase scenes",
+      "Brand reveal, social proof",
+      "Runnable ground truth"
+     ]
+    },
+    "dur": 38.327
+   }
+  },
+  {
+   "id": "s22_gsap",
+   "type": "hf_code",
+   "in_seconds": 123.272,
+   "out_seconds": 162.257,
+   "props": {
+    "kicker": "THE DEFAULT RUNTIME",
+    "title": "GSAP drives the timeline",
+    "color": "#A78BFA",
+    "codeTitle": "scene.js",
+    "foot": "One paused timeline, registered where the renderer can find it and seek it.",
+    "lines": [
+     [
+      [
+       "const ",
+       "#8090AE"
+      ],
+      [
+       "tl",
+       "#A78BFA"
+      ],
+      [
+       " = ",
+       "#8090AE"
+      ],
+      [
+       "gsap",
+       "#EAF1FC"
+      ],
+      [
+       ".timeline({ ",
+       "#8090AE"
+      ],
+      [
+       "paused",
+       "#38BDF8"
+      ],
+      [
+       ": ",
+       "#8090AE"
+      ],
+      [
+       "true",
+       "#34D399"
+      ],
+      [
+       " })",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "tl",
+       "#A78BFA"
+      ],
+      [
+       ".from(",
+       "#8090AE"
+      ],
+      [
+       "\".clip\"",
+       "#34D399"
+      ],
+      [
+       ", { ",
+       "#8090AE"
+      ],
+      [
+       "y",
+       "#38BDF8"
+      ],
+      [
+       ": 40, ",
+       "#8090AE"
+      ],
+      [
+       "opacity",
+       "#38BDF8"
+      ],
+      [
+       ": 0 })",
+       "#8090AE"
+      ]
+     ],
+     [
+      [
+       "window",
+       "#EAF1FC"
+      ],
+      [
+       ".__timelines[",
+       "#8090AE"
+      ],
+      [
+       "\"scene\"",
+       "#34D399"
+      ],
+      [
+       "] = tl",
+       "#8090AE"
+      ]
+     ]
+    ],
+    "notes": [
+     {
+      "text": "one gsap.timeline, paused, built synchronously",
+      "c": "#A78BFA"
+     },
+     {
+      "text": "register it on window.__timelines",
+      "c": "#38BDF8"
+     },
+     {
+      "text": "the renderer finds it there and seeks it",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 39.485
+   }
+  },
+  {
+   "id": "s23_adapters",
+   "type": "hf_adapters",
+   "in_seconds": 162.757,
+   "out_seconds": 208.103,
+   "props": {
+    "dur": 45.846
+   }
+  },
+  {
+   "id": "s24_transitions",
+   "type": "hf_bullets",
+   "in_seconds": 208.603,
+   "out_seconds": 252.274,
+   "props": {
+    "kicker": "BETWEEN & WITHIN SCENES",
+    "title": "Transitions and text effects",
+    "color": "#A78BFA",
+    "foot": "So: motion carries the eye \u2014 scene to scene, and word to word \u2014 and all of it seeks.",
+    "items": [
+     {
+      "h": "Scene-to-scene transitions",
+      "sub": "CSS-driven, layered between two clips",
+      "icon": "\ud83c\udf9e\ufe0f",
+      "c": "#A78BFA"
+     },
+     {
+      "h": "Named text-animation effects",
+      "sub": "reveal, decode, kinetic type",
+      "icon": "\ud83d\udd24",
+      "c": "#38BDF8"
+     },
+     {
+      "h": "An audit tool checks the choreography",
+      "sub": "dead zones, stagger, liveness",
+      "icon": "\ud83d\udcca",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 44.171
+   }
+  }
+ ],
+ "audio": {
+  "narration": {
+   "src": "hf/narration_p3.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,304 @@
+1
+00:00:00,000 --> 00:00:04,131
+This is the AceVector (Snapdeal) I P O, a mainboard offer,
+
+2
+00:00:04,131 --> 00:00:08,405
+open from the twenty-fifth to the twenty-ninth of September.
+
+3
+00:00:08,905 --> 00:00:11,432
+The price band is ₹30 to ₹32.
+
+4
+00:00:11,432 --> 00:00:16,745
+Every figure here comes from the final red herring prospectus
+
+5
+00:00:16,745 --> 00:00:18,575
+and exchange notices;
+
+6
+00:00:18,575 --> 00:00:21,972
+the final price is fixed after bidding,
+
+7
+00:00:21,972 --> 00:00:25,631
+so valuations are computed at the ₹32 cap.
+
+8
+00:00:26,131 --> 00:00:27,368
+First, the business.
+
+9
+00:00:27,868 --> 00:00:31,510
+AceVector is the parent of Snapdeal,
+
+10
+00:00:31,510 --> 00:00:37,883
+a value-focused lifestyle marketplace that served 12.16 million
+
+11
+00:00:37,883 --> 00:00:39,703
+customers in FY26,
+
+12
+00:00:39,703 --> 00:00:43,143
+with 69.65% of them repeat buyers.
+
+13
+00:00:43,643 --> 00:00:45,475
+It also owns Unicommerce,
+
+14
+00:00:45,475 --> 00:00:49,433
+which sells e-commerce software to sellers and brands,
+
+15
+00:00:49,433 --> 00:00:52,219
+and Stellaro, its consumer-brands arm.
+
+16
+00:00:52,719 --> 00:00:54,319
+The financial checkpoint.
+
+17
+00:00:54,819 --> 00:01:03,229
+FY26 revenue was ₹510.38 Cr, up from ₹395.02 Cr.
+
+18
+00:01:03,229 --> 00:01:10,413
+The company made a net loss of ₹45.51 Cr.
+
+19
+00:01:10,913 --> 00:01:12,535
+The trend is improving.
+
+20
+00:01:13,035 --> 00:01:21,089
+The loss narrowed from ₹126.31 Cr to ₹45.51 Cr as revenue grew 29.20%.
+
+21
+00:01:21,089 --> 00:01:24,540
+But until it reports a profit,
+
+22
+00:01:24,540 --> 00:01:30,293
+there is no earnings multiple to anchor the price.
+
+23
+00:01:30,793 --> 00:01:34,868
+The offer size at the cap is ₹420.00 Cr.
+
+24
+00:01:35,368 --> 00:01:40,405
+₹287.00 Cr is fresh issue that goes into the company,
+
+25
+00:01:40,405 --> 00:01:47,059
+and ₹133.00 Cr is an offer for sale that goes to selling shareholders.
+
+26
+00:01:47,559 --> 00:01:51,791
+So 68.33% of the deal is new capital,
+
+27
+00:01:51,791 --> 00:01:56,711
+and 31.67% is an exit for existing holders.
+
+28
+00:01:57,211 --> 00:01:58,533
+Where does the money go?
+
+29
+00:01:59,033 --> 00:02:02,042
+Of the ₹287.00 Cr fresh issue,
+
+30
+00:02:02,042 --> 00:02:07,659
+₹132.00 Cr goes to marketing and ₹50.00 Cr to technology
+
+31
+00:02:07,659 --> 00:02:10,468
+infrastructure for Snapdeal.
+
+32
+00:02:10,968 --> 00:02:14,936
+The rest can fund acquisitions and general corporate purposes.
+
+33
+00:02:15,436 --> 00:02:20,757
+Existing shareholders sell 4,15,62,500 shares,
+
+34
+00:02:20,757 --> 00:02:26,657
+worth ₹133.00 Cr at the cap, in the offer for sale.
+
+35
+00:02:27,157 --> 00:02:28,160
+Valuation.
+
+36
+00:02:28,660 --> 00:02:31,583
+AceVector made a loss, so it has no P E.
+
+37
+00:02:32,083 --> 00:02:33,784
+Of its RHP peers,
+
+38
+00:02:33,784 --> 00:02:38,787
+FirstCry's parent and Meesho are also loss-making,
+
+39
+00:02:38,787 --> 00:02:43,389
+and Nykaa's parent trades at 462.50x earnings.
+
+40
+00:02:43,889 --> 00:02:48,171
+So judge this one on the path to profit and on revenue growth,
+
+41
+00:02:48,171 --> 00:02:49,415
+not on a multiple.
+
+42
+00:02:49,915 --> 00:02:51,408
+Now balance the evidence.
+
+43
+00:02:51,908 --> 00:02:53,418
+Watch-out:
+
+44
+00:02:53,418 --> 00:02:56,137
+Still loss-making:
+
+45
+00:02:56,137 --> 00:02:59,158
+₹45.51 Cr FY26 loss.
+
+46
+00:02:59,158 --> 00:03:00,518
+Strength:
+
+47
+00:03:00,518 --> 00:03:05,049
+Loss narrowed from ₹126.31 Cr.
+
+48
+00:03:05,549 --> 00:03:06,900
+Watch-out:
+
+49
+00:03:06,900 --> 00:03:11,896
+Proceeds mostly fund marketing spend.
+
+50
+00:03:11,896 --> 00:03:13,111
+Strength:
+
+51
+00:03:13,111 --> 00:03:17,432
+Revenue up 29.20% to ₹510.38 Cr.
+
+52
+00:03:17,932 --> 00:03:19,067
+Watch-out:
+
+53
+00:03:19,067 --> 00:03:22,358
+Negative return on net worth:
+
+54
+00:03:22,358 --> 00:03:23,266
+-59.54%.
+
+55
+00:03:23,266 --> 00:03:24,287
+Strength:
+
+56
+00:03:24,287 --> 00:03:25,649
+Diversified:
+
+57
+00:03:25,649 --> 00:03:28,940
+marketplace, SaaS and brands.
+
+58
+00:03:29,440 --> 00:03:30,571
+How to apply.
+
+59
+00:03:31,071 --> 00:03:36,027
+The minimum bid is one lot of 468 shares,
+
+60
+00:03:36,027 --> 00:03:39,412
+which is ₹14,976 at the cap.
+
+61
+00:03:39,912 --> 00:03:43,387
+Retail investors can bid up to two lakh rupees,
+
+62
+00:03:43,387 --> 00:03:47,528
+and allotment is by lottery if retail is oversubscribed.
+
+63
+00:03:48,028 --> 00:03:52,571
+Check live subscription on the N S E or B S E website,
+
+64
+00:03:52,571 --> 00:03:54,001
+not social media.
+
+65
+00:03:54,501 --> 00:03:55,461
+Let's recap.
+
+66
+00:03:55,961 --> 00:04:03,017
+FY26 revenue ₹510.38 Cr, with a net loss of ₹45.51 Cr.
+
+67
+00:04:03,017 --> 00:04:11,248
+The offer is ₹420.00 Cr, of which ₹133.00 Cr is offer for sale.
+
+68
+00:04:11,248 --> 00:04:15,690
+There is no P/E because of losses.
+
+69
+00:04:15,690 --> 00:04:20,132
+The minimum investment is ₹14,976.
+
+70
+00:04:20,632 --> 00:04:24,806
+This video is public-source education from the red herring
+
+71
+00:04:24,806 --> 00:04:27,108
+prospectus and exchange notices.
+
+72
+00:04:27,108 --> 00:04:31,066
+It is not investment advice and not a buy or sell call.
+
+73
+00:04:31,066 --> 00:04:32,865
+Read the final documents,
+
+74
+00:04:32,865 --> 00:04:35,744
+check live subscription on the exchange,
+
+75
+00:04:35,744 --> 00:04:38,478
+and consult a SEBI-registered adviser.
+
+76
+00:04:38,478 --> 00:04:39,917
+Thanks for watching.
+

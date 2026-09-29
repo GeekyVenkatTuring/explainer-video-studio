@@ -1,0 +1,895 @@
+{
+ "cuts": [
+  {
+   "id": "ch21_ps1",
+   "type": "pm_sheet",
+   "in_seconds": 0.0,
+   "out_seconds": 40.144,
+   "props": {
+    "kicker": "POSTSCRIPT \u00b7 HOW THE U.S. CONSUMER WAS BUILT",
+    "title": "August 1945: the war ends",
+    "color": "#FBBF24",
+    "note": "Housel postscript. Book-dated history, not a forecast.",
+    "rows": [
+     {
+      "k": "People",
+      "v": "16 million Americans \u2014 11% of the population \u2014 served. About 8 million were overseas. Average age 23.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Home",
+      "v": "Within 18 months all but 1.5 million were home and out of uniform.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Housing",
+      "v": "Fewer than 12,000 homes a month built in 1943 \u2014 less than one new home per American city.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Fear",
+      "v": "1946 Council of Economic Advisors to Truman: risk of a full-scale depression in the next one to four years.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Jobs",
+      "v": "Ships, tanks, and planes stopped almost overnight. Marriage spiked. Soldiers wanted a home and a job immediately.",
+      "c": "#A78BFA"
+     }
+    ],
+    "dur": 40.644
+   }
+  },
+  {
+   "id": "ch21_ps2",
+   "type": "pm_sheet",
+   "in_seconds": 40.644,
+   "out_seconds": 85.884,
+   "props": {
+    "kicker": "LOW RATES AND THE CONSUMER",
+    "title": "Spending became policy",
+    "color": "#E8B86D",
+    "note": "Fed not independent until 1951, as the book states.",
+    "rows": [
+     {
+      "k": "0.38%",
+      "v": "In 1942 the Fed said it would keep short-term rates at 0.38% to finance the war. They did not budge for seven years.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Bills",
+      "v": "Three-month Treasury yields stayed below 2% until the mid-1950s.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "War cost",
+      "v": "The explicit aim: keep the cost of financing the equivalent of $6 trillion of war spending low.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "GI Bill",
+      "v": "16 million veterans: often no money down, no interest in year one, payments that could beat rent.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Credit",
+      "v": "First credit card 1950. Interest on debt, including cards, was tax deductible then. Household debt in the 1950s grew 1.5\u00d7 faster than in the 2000s splurge.",
+      "c": "#F87171"
+     }
+    ],
+    "dur": 45.74
+   }
+  },
+  {
+   "id": "ch21_ps3",
+   "type": "pm_sheet",
+   "in_seconds": 86.384,
+   "out_seconds": 135.48,
+   "props": {
+    "kicker": "WHAT THAT DID TO HOUSEHOLDS",
+    "title": "Debt, homes, and a new normal",
+    "color": "#A78BFA",
+    "rows": [
+     {
+      "k": "Debt now",
+      "v": "Household debt-to-income just over 100% when Housel wrote. Through the 1950s\u20131970s it stayed below 60%.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Own",
+      "v": "Homeownership 47% in 1900, about there for four decades, 53% by 1945, 62% by 1970.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Incomes",
+      "v": "Real income for the bottom 20% grew by a nearly identical amount as the top 5% from 1950 to 1980.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Lesson",
+      "v": "Today's consumer expectations were trained in a unique postwar machine \u2014 cheap credit, houses, and a culture that told people to spend.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Use",
+      "v": "Your grandparents' 'everyone had a house and a pension' is a specific era, not a human constant. Chapter 1 again.",
+      "c": "#FBBF24"
+     }
+    ],
+    "dur": 49.596
+   }
+  },
+  {
+   "id": "ch21_ps4",
+   "type": "pm_sheet",
+   "in_seconds": 135.98,
+   "out_seconds": 192.562,
+   "props": {
+    "kicker": "THE BUYING SPREE",
+    "title": "Cars, houses, and 40% more spending",
+    "color": "#E8B86D",
+    "note": "Postscript figures as printed.",
+    "rows": [
+     {
+      "k": "Cars",
+      "v": "Commercial car and truck making nearly ceased 1942\u20131945. Then 21 million cars sold 1945\u20131949, another 37 million by 1955.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Homes",
+      "v": "Just under 2 million homes built 1940\u20131945. Then 7 million from 1945\u20131950, another 8 million by 1955.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "1950 spend",
+      "v": "Fed to Truman, 1951: consumer spending plus residential construction about $203 billion \u2014 around 40% above 1944.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Wages",
+      "v": "Average wages doubled 1940\u20131948, then doubled again by 1963. The country got rich by making the poor less poor.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Top 1%",
+      "v": "Share of national income after tax for the roughly $16,000-and-over group: from 13% to 7% by 1945, as cited.",
+      "c": "#A78BFA"
+     }
+    ],
+    "dur": 57.082
+   }
+  },
+  {
+   "id": "ch21_ps5",
+   "type": "pm_sheet",
+   "in_seconds": 193.062,
+   "out_seconds": 249.442,
+   "props": {
+    "kicker": "EQUAL LIFESTYLES, THEN A CRACK",
+    "title": "1945\u20131980 versus 1973",
+    "color": "#F87171",
+    "rows": [
+     {
+      "k": "Women work",
+      "v": "Women's labor force participation: 31% after the war, 37% by 1955, 40% by 1965.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Chevys",
+      "v": "Normal people drove Chevys, rich people Cadillacs \u2014 similar engines. Three TV stations put tens of millions in sync each night.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Debt 5\u00d7",
+      "v": "Household debt increased fivefold 1947\u20131957, but incomes rose fast and starting debt was low, so the ratio stayed manageable \u2014 still below 60% even after the 1970s.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "1973",
+      "v": "Recession: unemployment highest since the 1930s. Inflation stayed high. Short-term rates 8% in 1973, up from 2.5% a decade earlier.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Expectation",
+      "v": "The crack: winds turned uneven, but expectations stayed in a 1945\u20131980 equality-of-lifestyle world. That gap still trains how people spend.",
+      "c": "#A78BFA"
+     }
+    ],
+    "dur": 56.88
+   }
+  },
+  {
+   "id": "ch21_ps6",
+   "type": "pm_sheet",
+   "in_seconds": 249.942,
+   "out_seconds": 289.511,
+   "props": {
+    "kicker": "WHY THE POSTSCRIPT EXISTS",
+    "title": "Expectations outlived the era that trained them",
+    "color": "#A78BFA",
+    "note": "Postscript close. Book-dated history, not a forecast.",
+    "rows": [
+     {
+      "k": "Machine",
+      "v": "Cheap credit, a housing boom, and a culture of spend built a specific American consumer after 1945.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Even years",
+      "v": "From about 1950 to 1980, the bottom and the top could feel they were in the same lifestyle movie.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "After",
+      "v": "Winds turned uneven. Incomes and luck diverged. The 1945\u20131980 script did not update as fast.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Chapter 1",
+      "v": "Your grandparents' 'normal' was a postwar policy accident, not a law of money. That is why no one is crazy.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Use",
+      "v": "Do not copy a 1955 household as if it were a template. Copy the behaviour: enough, slack, and time.",
+      "c": "#34D399"
+     }
+    ],
+    "dur": 40.069
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.254,
+   "Sixteen million Americans,"
+  ],
+  [
+   1.254,
+   3.344,
+   "eleven percent of the population,"
+  ],
+  [
+   3.344,
+   3.762,
+   "served."
+  ],
+  [
+   3.762,
+   5.852,
+   "About eight million were overseas."
+  ],
+  [
+   5.852,
+   7.106,
+   "Average age twenty-three."
+  ],
+  [
+   7.737,
+   11.081,
+   "Within eighteen months all but one point\nfive"
+  ],
+  [
+   11.081,
+   14.007,
+   "million were home and out of uniform."
+  ],
+  [
+   14.638,
+   17.982,
+   "Fewer than twelve thousand homes a month\nwere"
+  ],
+  [
+   17.982,
+   19.654,
+   "built in nineteen forty-three,"
+  ],
+  [
+   19.654,
+   22.998,
+   "less than one new home per American city."
+  ],
+  [
+   23.629,
+   26.973,
+   "In nineteen forty-six the Council of\nEconomic Advisors"
+  ],
+  [
+   26.973,
+   30.317,
+   "warned Truman of a full-scale depression\nin the"
+  ],
+  [
+   30.317,
+   32.407,
+   "next one to four years."
+  ],
+  [
+   33.038,
+   33.456,
+   "Ships,"
+  ],
+  [
+   33.456,
+   33.874,
+   "tanks,"
+  ],
+  [
+   33.874,
+   35.964,
+   "and planes stopped almost overnight."
+  ],
+  [
+   35.964,
+   36.8,
+   "Marriage spiked."
+  ],
+  [
+   36.8,
+   40.144,
+   "Soldiers wanted a home and a job\nimmediately."
+  ],
+  [
+   40.644,
+   43.668,
+   "In nineteen forty-two the Fed said it\nwould"
+  ],
+  [
+   43.668,
+   46.692,
+   "keep short-term rates at zero point three\neight"
+  ],
+  [
+   46.692,
+   48.582,
+   "percent to finance the war."
+  ],
+  [
+   48.582,
+   51.228,
+   "They did not budge for seven years."
+  ],
+  [
+   51.86,
+   54.883,
+   "Three-month Treasury yields stayed below\ntwo percent until"
+  ],
+  [
+   54.883,
+   56.395,
+   "the mid nineteen fifties."
+  ],
+  [
+   57.027,
+   58.161,
+   "The explicit aim:"
+  ],
+  [
+   58.161,
+   61.185,
+   "keep the cost of financing the equivalent\nof"
+  ],
+  [
+   61.185,
+   63.831,
+   "six trillion dollars of war spending low."
+  ],
+  [
+   64.463,
+   65.219,
+   "The G.I."
+  ],
+  [
+   65.219,
+   65.597,
+   "Bill:"
+  ],
+  [
+   65.597,
+   66.731,
+   "sixteen million veterans,"
+  ],
+  [
+   66.731,
+   68.243,
+   "often no money down,"
+  ],
+  [
+   68.243,
+   70.133,
+   "no interest in year one,"
+  ],
+  [
+   70.133,
+   72.023,
+   "payments that could beat rent."
+  ],
+  [
+   72.654,
+   75.678,
+   "The first credit card arrived in nineteen\nfifty."
+  ],
+  [
+   75.678,
+   76.812,
+   "Interest on debt,"
+  ],
+  [
+   76.812,
+   77.568,
+   "including cards,"
+  ],
+  [
+   77.568,
+   79.08,
+   "was tax deductible then."
+  ],
+  [
+   79.08,
+   82.104,
+   "Household debt in the nineteen fifties\ngrew one"
+  ],
+  [
+   82.104,
+   85.128,
+   "point five times faster than in the two"
+  ],
+  [
+   85.128,
+   85.884,
+   "thousands splurge."
+  ],
+  [
+   86.384,
+   89.681,
+   "Household debt-to-income was just over one\nhundred percent"
+  ],
+  [
+   89.681,
+   90.917,
+   "when Housel wrote."
+  ],
+  [
+   90.917,
+   94.214,
+   "Through the nineteen fifties to seventies\nit stayed"
+  ],
+  [
+   94.214,
+   95.451,
+   "below sixty percent."
+  ],
+  [
+   96.082,
+   98.967,
+   "Homeownership was forty-seven percent in\nnineteen hundred,"
+  ],
+  [
+   98.967,
+   101.028,
+   "about there for four decades,"
+  ],
+  [
+   101.028,
+   103.088,
+   "fifty-three percent by nineteen\nforty-five,"
+  ],
+  [
+   103.088,
+   105.149,
+   "sixty-two percent by nineteen seventy."
+  ],
+  [
+   105.78,
+   109.077,
+   "Real income for the bottom twenty percent\ngrew"
+  ],
+  [
+   109.077,
+   112.374,
+   "by a nearly identical amount as the top"
+  ],
+  [
+   112.374,
+   115.671,
+   "five percent from nineteen fifty to\nnineteen eighty."
+  ],
+  [
+   116.303,
+   119.6,
+   "Today's consumer expectations were trained\nin a unique"
+  ],
+  [
+   119.6,
+   120.424,
+   "postwar machine:"
+  ],
+  [
+   120.424,
+   121.248,
+   "cheap credit,"
+  ],
+  [
+   121.248,
+   121.661,
+   "houses,"
+  ],
+  [
+   121.661,
+   124.958,
+   "and a culture that told people to spend."
+  ],
+  [
+   125.589,
+   128.886,
+   "Your grandparents' story that everyone had\na house"
+  ],
+  [
+   128.886,
+   131.771,
+   "and a pension is a specific era,"
+  ],
+  [
+   131.771,
+   133.419,
+   "not a human constant."
+  ],
+  [
+   133.419,
+   135.48,
+   "That is chapter one again."
+  ],
+  [
+   135.98,
+   139.412,
+   "Commercial car and truck making nearly\nceased from"
+  ],
+  [
+   139.412,
+   141.128,
+   "nineteen forty-two to forty-five."
+  ],
+  [
+   141.128,
+   144.56,
+   "Then twenty-one million cars sold from\nforty-five to"
+  ],
+  [
+   144.56,
+   144.989,
+   "forty-nine,"
+  ],
+  [
+   144.989,
+   147.563,
+   "another thirty-seven million by nineteen\nfifty-five."
+  ],
+  [
+   148.195,
+   151.627,
+   "Just under two million homes were built\nfrom"
+  ],
+  [
+   151.627,
+   153.343,
+   "nineteen forty to forty-five."
+  ],
+  [
+   153.343,
+   156.346,
+   "Then seven million from forty-five to\nfifty,"
+  ],
+  [
+   156.346,
+   158.491,
+   "another eight million by fifty-five."
+  ],
+  [
+   159.123,
+   162.126,
+   "The Fed wrote Truman in nineteen\nfifty-one:"
+  ],
+  [
+   162.126,
+   165.558,
+   "consumer spending plus residential\nconstruction about two hundred"
+  ],
+  [
+   165.558,
+   166.845,
+   "three billion dollars,"
+  ],
+  [
+   166.845,
+   169.419,
+   "around forty percent above nineteen\nforty-four."
+  ],
+  [
+   170.051,
+   173.483,
+   "Average wages doubled from nineteen forty\nto forty-eight,"
+  ],
+  [
+   173.483,
+   176.057,
+   "then doubled again by nineteen\nsixty-three."
+  ],
+  [
+   176.057,
+   179.489,
+   "The country got rich by making the poor"
+  ],
+  [
+   179.489,
+   180.347,
+   "less poor."
+  ],
+  [
+   180.979,
+   184.411,
+   "The top group's share of national income\nafter"
+  ],
+  [
+   184.411,
+   184.84,
+   "tax,"
+  ],
+  [
+   184.84,
+   187.843,
+   "the roughly sixteen thousand and over\ngroup,"
+  ],
+  [
+   187.843,
+   191.275,
+   "came down from thirteen percent to seven\npercent"
+  ],
+  [
+   191.275,
+   192.562,
+   "by nineteen forty-five."
+  ],
+  [
+   193.062,
+   194.888,
+   "Women's labor force participation:"
+  ],
+  [
+   194.888,
+   197.169,
+   "thirty-one percent after the war,"
+  ],
+  [
+   197.169,
+   199.451,
+   "thirty-seven percent by nineteen\nfifty-five,"
+  ],
+  [
+   199.451,
+   201.733,
+   "forty percent by nineteen sixty-five."
+  ],
+  [
+   202.365,
+   204.19,
+   "Normal people drove Chevys,"
+  ],
+  [
+   204.19,
+   205.56,
+   "rich people Cadillacs,"
+  ],
+  [
+   205.56,
+   206.472,
+   "similar engines."
+  ],
+  [
+   206.472,
+   210.124,
+   "Three TV stations put tens of millions in"
+  ],
+  [
+   210.124,
+   211.493,
+   "sync each night."
+  ],
+  [
+   212.124,
+   215.775,
+   "Household debt increased fivefold from\nnineteen forty-seven to"
+  ],
+  [
+   215.775,
+   216.232,
+   "fifty-seven,"
+  ],
+  [
+   216.232,
+   219.883,
+   "but incomes rose fast and starting debt\nwas"
+  ],
+  [
+   219.883,
+   220.339,
+   "low,"
+  ],
+  [
+   220.339,
+   222.621,
+   "so the ratio stayed manageable,"
+  ],
+  [
+   222.621,
+   226.272,
+   "still below sixty percent even after the\nnineteen"
+  ],
+  [
+   226.272,
+   226.729,
+   "seventies."
+  ],
+  [
+   227.36,
+   228.273,
+   "Nineteen seventy-three:"
+  ],
+  [
+   228.273,
+   231.011,
+   "unemployment highest since the nineteen\nthirties."
+  ],
+  [
+   231.011,
+   232.38,
+   "Inflation stayed high."
+  ],
+  [
+   232.38,
+   234.206,
+   "Short-term rates eight percent,"
+  ],
+  [
+   234.206,
+   237.857,
+   "up from two point five percent a decade"
+  ],
+  [
+   237.857,
+   238.314,
+   "earlier."
+  ],
+  [
+   238.945,
+   239.858,
+   "The crack:"
+  ],
+  [
+   239.858,
+   241.227,
+   "winds turned uneven,"
+  ],
+  [
+   241.227,
+   244.878,
+   "but expectations stayed in a nineteen\nforty-five to"
+  ],
+  [
+   244.878,
+   246.247,
+   "eighty equality-of-lifestyle world."
+  ],
+  [
+   246.247,
+   249.442,
+   "That gap still trains how people spend."
+  ],
+  [
+   249.942,
+   250.714,
+   "Cheap credit,"
+  ],
+  [
+   250.714,
+   251.871,
+   "a housing boom,"
+  ],
+  [
+   251.871,
+   254.958,
+   "and a culture of spend built a specific"
+  ],
+  [
+   254.958,
+   256.888,
+   "American consumer after nineteen\nforty-five."
+  ],
+  [
+   257.519,
+   259.834,
+   "From about nineteen fifty to eighty,"
+  ],
+  [
+   259.834,
+   262.921,
+   "the bottom and the top could feel they"
+  ],
+  [
+   262.921,
+   265.236,
+   "were in the same lifestyle movie."
+  ],
+  [
+   265.868,
+   267.025,
+   "Winds turned uneven."
+  ],
+  [
+   267.025,
+   268.569,
+   "Incomes and luck diverged."
+  ],
+  [
+   268.569,
+   271.656,
+   "The nineteen forty-five to eighty script\ndid not"
+  ],
+  [
+   271.656,
+   272.813,
+   "update as fast."
+  ],
+  [
+   273.445,
+   276.532,
+   "Your grandparents' normal was a postwar\npolicy accident,"
+  ],
+  [
+   276.532,
+   278.461,
+   "not a law of money."
+  ],
+  [
+   278.461,
+   281.162,
+   "That is why no one is crazy."
+  ],
+  [
+   281.794,
+   284.881,
+   "Do not copy a nineteen fifty-five\nhousehold as"
+  ],
+  [
+   284.881,
+   286.81,
+   "if it were a template."
+  ],
+  [
+   286.81,
+   287.968,
+   "Copy the behaviour:"
+  ],
+  [
+   287.968,
+   288.353,
+   "enough,"
+  ],
+  [
+   288.353,
+   288.739,
+   "slack,"
+  ],
+  [
+   288.739,
+   289.511,
+   "and time."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch21.wav",
+   "volume": 1.0
+  }
+ }
+}

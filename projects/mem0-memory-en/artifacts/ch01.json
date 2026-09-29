@@ -1,0 +1,404 @@
+{
+ "pack": "blueprint",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Mem0 memory",
+  "issue": "September 2026",
+  "code": "MEM-0"
+ },
+ "beats": [
+  {
+   "id": "b03",
+   "kind": "divider",
+   "dur": 6.421,
+   "props": {
+    "n": 1,
+    "total": 9,
+    "title": "Why Agents Need Memory",
+    "sub": "a context window is not a memory"
+   }
+  },
+  {
+   "id": "b04",
+   "kind": "chart",
+   "dur": 38.744,
+   "props": {
+    "kicker": "Tokens in context per question",
+    "title": "Replaying history is expensive",
+    "type": "bar",
+    "bars": [
+     {
+      "label": "Full context",
+      "value": 26031
+     },
+     {
+      "label": "Mem0",
+      "value": 1764
+     },
+     {
+      "label": "Mem0 graph",
+      "value": 3616
+     }
+    ],
+    "note": "LoCoMo benchmark \u00b7 Chhikara et al., arXiv 2504.19413 (2025)",
+    "ats": [
+     0.42,
+     0.58,
+     0.67
+    ]
+   }
+  },
+  {
+   "id": "b05",
+   "kind": "versus",
+   "dur": 31.549,
+   "props": {
+    "kicker": "The trade-off",
+    "title": "Replay everything vs. a memory layer",
+    "winner": "right",
+    "left": {
+     "h": "Replay everything",
+     "items": [
+      "cost grows every turn",
+      "latency grows every turn",
+      "details lost in the middle",
+      "empty in a new session"
+     ]
+    },
+    "right": {
+     "h": "Memory layer",
+     "items": [
+      "distill facts once",
+      "retrieve only what's relevant",
+      "near-constant context size",
+      "persists across sessions"
+     ]
+    }
+   }
+  },
+  {
+   "id": "b06",
+   "kind": "list",
+   "dur": 37.242,
+   "props": {
+    "kicker": "Borrowed from cognitive science",
+    "title": "Kinds of memory an agent needs",
+    "items": [
+     {
+      "h": "Working memory",
+      "d": "the context window itself"
+     },
+     {
+      "h": "Episodic memory",
+      "d": "what happened, and when"
+     },
+     {
+      "h": "Semantic memory",
+      "d": "stable facts and preferences"
+     },
+     {
+      "h": "Procedural memory",
+      "d": "learned routines, know-how"
+     }
+    ],
+    "ats": [
+     0.07,
+     0.206,
+     0.39,
+     0.573
+    ]
+   }
+  },
+  {
+   "id": "b07",
+   "kind": "list",
+   "dur": 39.176,
+   "props": {
+    "kicker": "The landscape",
+    "title": "Other ways to give agents memory",
+    "items": [
+     {
+      "h": "MemGPT / Letta",
+      "d": "OS-style paging; the agent edits its own memory"
+     },
+     {
+      "h": "Zep",
+      "d": "a temporal knowledge graph of facts"
+     },
+     {
+      "h": "A-Mem",
+      "d": "linked, self-organizing notes"
+     },
+     {
+      "h": "LangMem",
+      "d": "LangChain's memory toolkit"
+     },
+     {
+      "h": "RAG over chat logs",
+      "d": "chunk, embed, retrieve raw text"
+     }
+    ],
+    "ats": [
+     0.043,
+     0.379,
+     0.464,
+     0.561,
+     0.657
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.645,
+   "Part one. Why agents need memory at all."
+  ],
+  [
+   3.276,
+   5.921,
+   "Couldn't we just use a bigger context window?"
+  ],
+  [
+   6.421,
+   9.906,
+   "The simplest memory is no memory system at"
+  ],
+  [
+   9.906,
+   13.39,
+   "all. Just replay the whole conversation, every time."
+  ],
+  [
+   14.022,
+   17.507,
+   "It works, and it's actually the accuracy ceiling"
+  ],
+  [
+   17.507,
+   19.249,
+   "in the Mem0 paper."
+  ],
+  [
+   19.881,
+   23.365,
+   "But look at the cost. On the LoCoMo"
+  ],
+  [
+   23.365,
+   26.85,
+   "benchmark, the full conversation averages about twenty six"
+  ],
+  [
+   26.85,
+   28.592,
+   "thousand tokens per question."
+  ],
+  [
+   29.224,
+   32.708,
+   "Mem0 puts about seventeen hundred tokens of memories"
+  ],
+  [
+   32.708,
+   36.193,
+   "into context instead. Its graph variant, about thirty"
+  ],
+  [
+   36.193,
+   37.064,
+   "six hundred."
+  ],
+  [
+   37.696,
+   41.181,
+   "And conversations only grow. Replay scales with everything"
+  ],
+  [
+   41.181,
+   44.665,
+   "ever said. Memory scales with what actually matters."
+  ],
+  [
+   45.165,
+   47.437,
+   "So the trade-off looks like this."
+  ],
+  [
+   48.069,
+   51.098,
+   "Replaying everything means cost and latency grow with"
+  ],
+  [
+   51.098,
+   54.126,
+   "every turn. Long contexts also bury details in"
+  ],
+  [
+   54.126,
+   57.155,
+   "the middle, where models pay less attention. And"
+  ],
+  [
+   57.155,
+   59.427,
+   "a new session starts empty anyway."
+  ],
+  [
+   60.059,
+   63.088,
+   "A memory layer distills facts once, stores them"
+  ],
+  [
+   63.088,
+   66.117,
+   "outside the model, and retrieves only what's relevant,"
+  ],
+  [
+   66.117,
+   69.146,
+   "so the context per question stays roughly constant."
+  ],
+  [
+   69.777,
+   72.806,
+   "That's the whole bet: pay a little at"
+  ],
+  [
+   72.806,
+   75.835,
+   "write time, to save a lot at read"
+  ],
+  [
+   75.835,
+   76.214,
+   "time."
+  ],
+  [
+   76.714,
+   79.767,
+   "It helps to borrow from cognitive science."
+  ],
+  [
+   80.398,
+   83.888,
+   "Working memory is the context window itself: small"
+  ],
+  [
+   83.888,
+   84.76,
+   "and fast."
+  ],
+  [
+   85.392,
+   88.881,
+   "Episodic memory records what happened, and when, like"
+  ],
+  [
+   88.881,
+   91.498,
+   "the trip to Goa last March."
+  ],
+  [
+   92.129,
+   95.619,
+   "Semantic memory holds stable facts and preferences: the"
+  ],
+  [
+   95.619,
+   98.235,
+   "user is vegetarian, and prefers Python."
+  ],
+  [
+   98.867,
+   102.356,
+   "Procedural memory is know-how: routines an agent has"
+  ],
+  [
+   102.356,
+   104.537,
+   "learned for doing a task."
+  ],
+  [
+   105.169,
+   108.658,
+   "Mem0 mostly manages the middle two, and it"
+  ],
+  [
+   108.658,
+   112.147,
+   "also offers a procedural mode that summarizes an"
+  ],
+  [
+   112.147,
+   113.456,
+   "agent's execution history."
+  ],
+  [
+   113.956,
+   116.164,
+   "Mem0 isn't the only design."
+  ],
+  [
+   116.795,
+   120.328,
+   "MemGPT, now called Letta, treats the context window"
+  ],
+  [
+   120.328,
+   123.861,
+   "like an operating system treats RAM, and lets"
+  ],
+  [
+   123.861,
+   127.394,
+   "the agent page memories in and out with"
+  ],
+  [
+   127.394,
+   129.16,
+   "its own function calls."
+  ],
+  [
+   129.792,
+   132.441,
+   "Zep builds a temporal knowledge graph."
+  ],
+  [
+   133.073,
+   136.164,
+   "A-Mem organizes memories as linked, self-evolving notes."
+  ],
+  [
+   136.796,
+   139.004,
+   "LangMem is LangChain's memory toolkit."
+  ],
+  [
+   139.635,
+   143.168,
+   "And plain RAG simply chunks old conversations and"
+  ],
+  [
+   143.168,
+   144.493,
+   "retrieves raw text."
+  ],
+  [
+   145.125,
+   148.658,
+   "The Mem0 paper benchmarks against all of these,"
+  ],
+  [
+   148.658,
+   152.19,
+   "and we'll see how they compare in part"
+  ],
+  [
+   152.19,
+   152.632,
+   "seven."
+  ]
+ ],
+ "audio": "m0/ch01.wav"
+}

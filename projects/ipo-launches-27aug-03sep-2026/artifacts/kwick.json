@@ -1,0 +1,277 @@
+{
+  "cuts": [
+    {
+      "id": "kwick_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 20.396,
+      "props": {
+        "title": "Kwick Forensic Solutions IPO",
+        "sub": "Forensic solutions · ₹50.77 Cr · 27–31 Aug 2026",
+        "kicker": "IPO ANALYSIS · SME",
+        "dur": 20.896
+      }
+    },
+    {
+      "id": "kwick_biz",
+      "type": "sm_iconcards",
+      "in_seconds": 20.896,
+      "out_seconds": 63.226,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "Business Model",
+        "color": "#38BDF8",
+        "items": [
+          {
+            "emoji": "🔎",
+            "k": "Forensic solutions",
+            "v": "Supplies crime-scene kits, mobile CSI units, cyber and digital forensics, and DNA-lab solutions.",
+            "chip": "FORENSICS"
+          },
+          {
+            "emoji": "📈",
+            "k": "Profitable SME",
+            "v": "FY26 revenue ₹105.8 Cr with ₹13.51 Cr profit — about a 12.8% margin.",
+            "chip": "QUALITY"
+          },
+          {
+            "emoji": "⚠️",
+            "k": "High SME ticket",
+            "v": "The stated lot is about ₹1.44 lakh and brokers often require two lots — near ₹2.88 lakh to apply.",
+            "chip": "SME RISK"
+          }
+        ],
+        "dur": 42.83
+      }
+    },
+    {
+      "id": "kwick_fin",
+      "type": "sm_stats",
+      "in_seconds": 63.726,
+      "out_seconds": 99.362,
+      "props": {
+        "kicker": "FINANCIAL QUALITY",
+        "title": "FY26 Financials",
+        "stats": [
+          {
+            "label": "Revenue",
+            "to": 105.8,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "FY26 filing"
+          },
+          {
+            "label": "Profit after tax",
+            "to": 13.51,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "filing evidence"
+          },
+          {
+            "label": "PAT margin",
+            "to": 12.769376181474481,
+            "prefix": "",
+            "suffix": "%",
+            "decimals": 2,
+            "color": "#FBBF24",
+            "sub": "reported FY26 margin"
+          }
+        ],
+        "note": "FY26 revenue ₹105.80 Cr (FY25 ₹65.08), PAT ₹13.51 Cr (FY25 ₹8.56); about a 12.8% margin.",
+        "dur": 36.136
+      }
+    },
+    {
+      "id": "kwick_issue",
+      "type": "sm_stats",
+      "in_seconds": 99.862,
+      "out_seconds": 122.828,
+      "props": {
+        "kicker": "OFFER STRUCTURE",
+        "title": "Fresh Issue vs OFS",
+        "stats": [
+          {
+            "label": "Total offer",
+            "to": 50.77,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#38BDF8",
+            "sub": "offer size"
+          },
+          {
+            "label": "Fresh — company receives",
+            "to": 41.05,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#34D399",
+            "sub": "new capital"
+          },
+          {
+            "label": "OFS — sellers receive",
+            "to": 9.72,
+            "prefix": "₹",
+            "suffix": " Cr",
+            "decimals": 2,
+            "color": "#FB7185",
+            "sub": "shareholder exit"
+          }
+        ],
+        "note": "Fresh funds enter the company. Offer-for-sale proceeds go to selling shareholders.",
+        "dur": 23.466
+      }
+    },
+    {
+      "id": "kwick_proceeds",
+      "type": "sm_iconcards",
+      "in_seconds": 123.328,
+      "out_seconds": 150.586,
+      "props": {
+        "kicker": "USE OF PROCEEDS",
+        "title": "What The Capital Funds",
+        "color": "#38BDF8",
+        "items": [
+          {
+            "emoji": "📦",
+            "k": "Working capital",
+            "v": "Fresh proceeds fund working capital for the forensics business.",
+            "chip": "RHP"
+          },
+          {
+            "emoji": "🧰",
+            "k": "General corporate purposes",
+            "v": "The balance is for general corporate purposes.",
+            "chip": "GCP"
+          },
+          {
+            "emoji": "👥",
+            "k": "₹9.72 Cr offer for sale",
+            "v": "Part of the deal is an offer for sale to existing holders.",
+            "chip": "OFS"
+          }
+        ],
+        "dur": 27.758
+      }
+    },
+    {
+      "id": "kwick_peers",
+      "type": "sm_peers",
+      "in_seconds": 151.086,
+      "out_seconds": 166.396,
+      "props": {
+        "kicker": "COMPETITORS · VALUATION",
+        "title": "Peer Comparison",
+        "color": "#38BDF8",
+        "rows": [
+          {
+            "name": "Kwick Forensic IPO",
+            "pe": null,
+            "note": "SME; no clean listed peer",
+            "hi": true
+          },
+          {
+            "name": "No comparable listed peer",
+            "pe": null,
+            "note": "thin SME disclosure",
+            "hi": false
+          }
+        ],
+        "verdict": "This is an SME with no clean listed peer: assess the roughly 12.8% margin and the thin post-listing liquidity rather than a borrowed multiple.",
+        "dur": 15.81
+      }
+    },
+    {
+      "id": "kwick_verdict",
+      "type": "sm_myths",
+      "in_seconds": 166.896,
+      "out_seconds": 208.53,
+      "props": {
+        "kicker": "CONSOLIDATED ANALYSIS",
+        "title": "Strengths vs Watch-outs",
+        "mythLabel": "⚠️ WATCH-OUTS",
+        "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+        "pairs": [
+          {
+            "m": "A high SME ticket, about ₹2.88 lakh for two lots",
+            "f": "FY26 revenue ₹105.8 Cr, PAT ₹13.51 Cr, about 12.8% margin"
+          },
+          {
+            "m": "Thin SME liquidity after listing",
+            "f": "Niche forensics demand from law-enforcement users"
+          },
+          {
+            "m": "No clean listed peer to benchmark",
+            "f": "Fresh capital funds working capital"
+          }
+        ],
+        "dur": 42.134
+      }
+    },
+    {
+      "id": "kwick_retail",
+      "type": "sm_iconcards",
+      "in_seconds": 209.03,
+      "out_seconds": 245.072,
+      "props": {
+        "kicker": "HOW TO APPLY",
+        "title": "Check Terms Before You Bid",
+        "color": "#38BDF8",
+        "items": [
+          {
+            "emoji": "🧑",
+            "k": "Retail cap",
+            "v": "Retail bids up to ₹2 lakh; allocation can be lottery-based when oversubscribed.",
+            "chip": "RII"
+          },
+          {
+            "emoji": "💰",
+            "k": "Minimum bid",
+            "v": "Stated lot ₹1,44,000 (1,600 × ₹90); SME two-lot minimum about ₹2,88,000",
+            "chip": "MIN BID"
+          },
+          {
+            "emoji": "📌",
+            "k": "SME",
+            "v": "This is an SME issue: confirm the application multiple and the thinner post-listing liquidity with your broker.",
+            "chip": "SME"
+          },
+          {
+            "emoji": "🔎",
+            "k": "Verify live",
+            "v": "Read the final RHP and the NSE or BSE subscription data before bidding.",
+            "chip": "SOURCES"
+          }
+        ],
+        "dur": 36.542
+      }
+    },
+    {
+      "id": "kwick_recap",
+      "type": "sm_recap",
+      "in_seconds": 245.572,
+      "out_seconds": 311.466,
+      "props": {
+        "title": "Kwick Forensic Solutions IPO — Evidence Recap",
+        "items": [
+          "FY26: revenue ₹105.80 Cr · PAT ₹13.51 Cr",
+          "Offer: ₹50.77 Cr · fresh ₹41.05 Cr · OFS ₹9.72 Cr",
+          "Competitor lens: This is an SME with no clean listed peer: assess the roughly 12.8% margin and the thin post-listing liquidity rather than a borrowed multiple.",
+          "Evidence: RHP-based reporting: Bajaj Broking, IPOWatch, InvestorGain, Chola Securities (FY26 financials, terms)."
+        ],
+        "closer": "Read the final RHP. Decide for yourself.",
+        "dur": 66.394
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/kwick.wav",
+      "volume": 1.0
+    }
+  }
+}

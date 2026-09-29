@@ -1,0 +1,399 @@
+{
+ "pack": "blueprint",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Mem0 memory",
+  "issue": "September 2026",
+  "code": "MEM-0"
+ },
+ "beats": [
+  {
+   "id": "b13",
+   "kind": "divider",
+   "dur": 7.337,
+   "props": {
+    "n": 3,
+    "total": 9,
+    "title": "Phase One: Extract",
+    "sub": "the 2025 paper architecture"
+   }
+  },
+  {
+   "id": "b14",
+   "kind": "x_diagram",
+   "dur": 41.352,
+   "props": {
+    "kicker": "Extraction phase",
+    "title": "Building the extraction prompt",
+    "nodes": [
+     {
+      "id": "pair",
+      "h": "New message pair",
+      "d": "user turn + assistant reply",
+      "x": 120,
+      "y": 250,
+      "w": 380
+     },
+     {
+      "id": "sum",
+      "h": "Summary S",
+      "d": "whole conversation \u00b7 async refresh",
+      "x": 120,
+      "y": 450,
+      "w": 380
+     },
+     {
+      "id": "last",
+      "h": "Last 10 messages",
+      "d": "recency window, m = 10",
+      "x": 120,
+      "y": 650,
+      "w": 380
+     },
+     {
+      "id": "prompt",
+      "h": "Prompt P",
+      "d": "(S, recent, m t\u22121, m t)",
+      "x": 680,
+      "y": 450,
+      "w": 360
+     },
+     {
+      "id": "llm",
+      "h": "LLM \u03c6",
+      "d": "GPT-4o-mini in the paper",
+      "x": 1150,
+      "y": 450,
+      "w": 300
+     },
+     {
+      "id": "facts",
+      "h": "Candidate facts \u03a9",
+      "d": "\u03c91, \u03c92, \u2026 \u03c9n",
+      "x": 1540,
+      "y": 450,
+      "w": 290
+     }
+    ],
+    "edges": [
+     [
+      "pair",
+      "prompt"
+     ],
+     [
+      "sum",
+      "prompt"
+     ],
+     [
+      "last",
+      "prompt"
+     ],
+     [
+      "prompt",
+      "llm"
+     ],
+     [
+      "llm",
+      "facts"
+     ]
+    ],
+    "ats": [
+     0.065,
+     0.322,
+     0.432,
+     0.737,
+     0.787,
+     0.794
+    ]
+   }
+  },
+  {
+   "id": "b15",
+   "kind": "x_code",
+   "dur": 29.665,
+   "props": {
+    "kicker": "Example",
+    "title": "From a conversation to atomic facts",
+    "file": "extract(pair)",
+    "lines": [
+     "user:      I moved to Bengaluru for a new job.",
+     "assistant: Congratulations! How is the new role?",
+     "user:      Busy! I'm vegetarian, so lunch nearby is easy.",
+     "",
+     "\u2192 LLM extraction returns:",
+     "{\"facts\": [",
+     "   \"Moved to Bengaluru for a new job\",",
+     "   \"Is vegetarian\"",
+     "]}"
+    ],
+    "notes": [
+     {
+      "a": 0,
+      "b": 2,
+      "at": 0.09,
+      "t": "the new turn, plus summary and recent context"
+     },
+     {
+      "a": 5,
+      "b": 8,
+      "at": 0.32,
+      "t": "short, self-contained facts, as JSON"
+     },
+     {
+      "a": 1,
+      "b": 1,
+      "at": 0.58,
+      "t": "greetings and small talk are dropped"
+     },
+     {
+      "a": 6,
+      "b": 7,
+      "at": 0.75,
+      "t": "atomic: one idea per fact"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b16",
+   "kind": "list",
+   "dur": 36.373,
+   "props": {
+    "kicker": "The extraction prompt",
+    "title": "What the extractor is told to look for",
+    "items": [
+     {
+      "h": "Preferences",
+      "d": "likes, dislikes, food, brands"
+     },
+     {
+      "h": "Personal details",
+      "d": "names, relationships, key dates"
+     },
+     {
+      "h": "Plans and intentions",
+      "d": "trips, goals, upcoming events"
+     },
+     {
+      "h": "Health and wellness",
+      "d": "diet, fitness, conditions"
+     },
+     {
+      "h": "Professional details",
+      "d": "job, skills, career goals"
+     },
+     {
+      "h": "Everything else",
+      "d": "hobbies, favourite books, services"
+     }
+    ],
+    "ats": [
+     0.109,
+     0.188,
+     0.303,
+     0.418,
+     0.533,
+     0.66
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.907,
+   "Part three. The twenty twenty five architecture, from"
+  ],
+  [
+   3.907,
+   6.837,
+   "the Mem0 paper. Phase one: extraction."
+  ],
+  [
+   7.337,
+   10.426,
+   "The pipeline is incremental. It runs every time"
+  ],
+  [
+   10.426,
+   13.515,
+   "a new message pair arrives, usually the user's"
+  ],
+  [
+   13.515,
+   15.445,
+   "message and the assistant's reply."
+  ],
+  [
+   16.077,
+   19.165,
+   "To understand that pair, it builds a prompt"
+  ],
+  [
+   19.165,
+   20.323,
+   "from three things."
+  ],
+  [
+   20.955,
+   24.044,
+   "A running summary of the whole conversation, which"
+  ],
+  [
+   24.044,
+   25.202,
+   "gives global context."
+  ],
+  [
+   25.833,
+   28.922,
+   "The last ten messages, which add local detail"
+  ],
+  [
+   28.922,
+   30.852,
+   "the summary may have dropped."
+  ],
+  [
+   31.484,
+   33.414,
+   "And the new pair itself."
+  ],
+  [
+   34.046,
+   37.134,
+   "Then an LLM, GPT four o mini in"
+  ],
+  [
+   37.134,
+   40.223,
+   "the paper, reads this prompt and returns a"
+  ],
+  [
+   40.223,
+   41.767,
+   "set of candidate facts."
+  ],
+  [
+   42.399,
+   45.487,
+   "The summary is refreshed by a separate asynchronous"
+  ],
+  [
+   45.487,
+   48.19,
+   "job, so it never slows extraction down."
+  ],
+  [
+   48.69,
+   50.739,
+   "Here's what that looks like."
+  ],
+  [
+   51.371,
+   54.649,
+   "The user says they moved to Bengaluru for"
+  ],
+  [
+   54.649,
+   57.518,
+   "a new job, and mentions they're vegetarian."
+  ],
+  [
+   58.15,
+   61.428,
+   "The extractor returns short, self-contained facts, as JSON."
+  ],
+  [
+   61.428,
+   64.707,
+   "Moved to Bengaluru for a new job. Is"
+  ],
+  [
+   64.707,
+   65.117,
+   "vegetarian."
+  ],
+  [
+   65.748,
+   69.027,
+   "Notice what it drops: greetings, filler, and the"
+  ],
+  [
+   69.027,
+   70.257,
+   "assistant's small talk."
+  ],
+  [
+   70.888,
+   74.167,
+   "Good facts are atomic, one idea each, so"
+  ],
+  [
+   74.167,
+   77.445,
+   "they can be matched, updated, and deleted independently"
+  ],
+  [
+   77.445,
+   77.855,
+   "later."
+  ],
+  [
+   78.355,
+   81.85,
+   "The extraction prompt is specific about what counts"
+  ],
+  [
+   81.85,
+   82.724,
+   "as memorable."
+  ],
+  [
+   83.355,
+   85.539,
+   "Preferences: likes, dislikes, and favourites."
+  ],
+  [
+   86.171,
+   89.666,
+   "Personal details, like names, relationships, and important dates."
+  ],
+  [
+   90.297,
+   93.792,
+   "Plans and intentions: upcoming trips, goals, and events."
+  ],
+  [
+   94.423,
+   97.918,
+   "Health and wellness, like diet and fitness routines."
+  ],
+  [
+   98.55,
+   102.044,
+   "Professional details: job titles, skills, and career goals."
+  ],
+  [
+   102.676,
+   106.171,
+   "And everything else worth keeping, like hobbies or"
+  ],
+  [
+   106.171,
+   107.044,
+   "favourite books."
+  ],
+  [
+   107.676,
+   111.171,
+   "You can also replace this prompt with your"
+  ],
+  [
+   111.171,
+   114.229,
+   "own instructions, to focus on your domain."
+  ]
+ ],
+ "audio": "m0/ch03.wav"
+}

@@ -1,0 +1,522 @@
+{
+ "pack": "blueprint",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Mem0 memory",
+  "issue": "September 2026",
+  "code": "MEM-0"
+ },
+ "beats": [
+  {
+   "id": "b08",
+   "kind": "divider",
+   "dur": 5.905,
+   "props": {
+    "n": 2,
+    "total": 9,
+    "title": "The Architecture",
+    "sub": "one API, several stores"
+   }
+  },
+  {
+   "id": "b09",
+   "kind": "x_diagram",
+   "dur": 46.087,
+   "props": {
+    "kicker": "Components",
+    "title": "What sits behind the Memory API",
+    "nodes": [
+     {
+      "id": "app",
+      "h": "Your agent",
+      "d": "chat, tools, workflows",
+      "x": 110,
+      "y": 460,
+      "w": 300
+     },
+     {
+      "id": "api",
+      "h": "Memory API",
+      "d": "add \u00b7 search \u00b7 get \u00b7 update \u00b7 delete \u00b7 history",
+      "x": 500,
+      "y": 440,
+      "w": 440,
+      "hh": 170
+     },
+     {
+      "id": "llm",
+      "h": "LLM",
+      "d": "reads turns, extracts facts",
+      "x": 1180,
+      "y": 220,
+      "w": 560,
+      "hh": 116
+     },
+     {
+      "id": "emb",
+      "h": "Embedder",
+      "d": "text \u2192 1,536-dim vector",
+      "x": 1180,
+      "y": 350,
+      "w": 560,
+      "hh": 116
+     },
+     {
+      "id": "vec",
+      "h": "Vector store",
+      "d": "the memories \u00b7 Qdrant by default",
+      "x": 1180,
+      "y": 480,
+      "w": 560,
+      "hh": 116
+     },
+     {
+      "id": "ent",
+      "h": "Entity store",
+      "d": "entities \u2192 linked memories (2026)",
+      "x": 1180,
+      "y": 610,
+      "w": 560,
+      "hh": 116
+     },
+     {
+      "id": "db",
+      "h": "SQLite",
+      "d": "history of changes + last messages",
+      "x": 1180,
+      "y": 740,
+      "w": 560,
+      "hh": 116
+     }
+    ],
+    "edges": [
+     [
+      "app",
+      "api"
+     ],
+     [
+      "api",
+      "llm"
+     ],
+     [
+      "api",
+      "emb"
+     ],
+     [
+      "api",
+      "vec"
+     ],
+     [
+      "api",
+      "ent"
+     ],
+     [
+      "api",
+      "db"
+     ]
+    ],
+    "ats": [
+     0.0,
+     0.037,
+     0.224,
+     0.314,
+     0.362,
+     0.755,
+     0.816
+    ]
+   }
+  },
+  {
+   "id": "b10",
+   "kind": "flow",
+   "dur": 30.747,
+   "props": {
+    "kicker": "Scoping",
+    "title": "Every memory has an owner",
+    "steps": [
+     {
+      "h": "User id",
+      "d": "whose memory it is"
+     },
+     {
+      "h": "Agent id",
+      "d": "which agent owns it"
+     },
+     {
+      "h": "Run id",
+      "d": "one session or task"
+     },
+     {
+      "h": "Metadata",
+      "d": "custom filters on top"
+     }
+    ],
+    "ats": [
+     0.053,
+     0.152,
+     0.263,
+     0.47
+    ]
+   }
+  },
+  {
+   "id": "b11",
+   "kind": "x_code",
+   "dur": 37.528,
+   "props": {
+    "kicker": "Data model",
+    "title": "What one stored memory looks like",
+    "file": "vector store point",
+    "lines": [
+     "id:        \"8f3c\u2026\"                 # UUID",
+     "vector:    [0.021, -0.113, \u2026]       # 1,536 floats",
+     "payload:",
+     "  data:            \"Lives in Bengaluru\"",
+     "  hash:            md5(data)",
+     "  text_lemmatized: \"live bengaluru\"",
+     "  user_id:         \"riya\"",
+     "  created_at / updated_at:  ISO-8601 UTC",
+     "  expiration_date: optional",
+     "history row: memory_id \u00b7 old \u00b7 new \u00b7 event \u00b7 time"
+    ],
+    "notes": [
+     {
+      "a": 0,
+      "b": 1,
+      "at": 0.09,
+      "t": "a UUID and the embedding vector"
+     },
+     {
+      "a": 3,
+      "b": 5,
+      "at": 0.24,
+      "t": "the text, its hash, and a lemmatized copy for keyword search"
+     },
+     {
+      "a": 6,
+      "b": 8,
+      "at": 0.48,
+      "t": "scope, timestamps, and an optional expiry"
+     },
+     {
+      "a": 9,
+      "b": 9,
+      "at": 0.77,
+      "t": "SQLite logs every change"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b12",
+   "kind": "flow",
+   "dur": 31.482,
+   "props": {
+    "kicker": "Runtime",
+    "title": "Two paths: write and read",
+    "steps": [
+     {
+      "h": "Conversation",
+      "d": "a new turn arrives"
+     },
+     {
+      "h": "Extract",
+      "d": "facts from the turn"
+     },
+     {
+      "h": "Store",
+      "d": "embed, save, link"
+     },
+     {
+      "h": "Question",
+      "d": "before the agent answers"
+     },
+     {
+      "h": "Rank",
+      "d": "score stored memories"
+     },
+     {
+      "h": "Return",
+      "d": "top few into the prompt"
+     }
+    ],
+    "ats": [
+     0.127,
+     0.164,
+     0.226,
+     0.371,
+     0.42,
+     0.458
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.591,
+   "Part two. The architecture."
+  ],
+  [
+   2.223,
+   5.405,
+   "Before any algorithm, let's see the moving parts."
+  ],
+  [
+   5.905,
+   9.405,
+   "Your agent talks to one object: the Memory"
+  ],
+  [
+   9.405,
+   12.904,
+   "API. It exposes add, search, get, update, delete,"
+  ],
+  [
+   12.904,
+   13.779,
+   "and history."
+  ],
+  [
+   14.41,
+   17.91,
+   "Behind it sit a few components. An LLM,"
+  ],
+  [
+   17.91,
+   20.534,
+   "which reads conversations and extracts facts."
+  ],
+  [
+   21.166,
+   24.665,
+   "An embedder, which turns text into vectors. By"
+  ],
+  [
+   24.665,
+   28.164,
+   "default, OpenAI's text embedding three small, with fifteen"
+  ],
+  [
+   28.164,
+   30.351,
+   "hundred and thirty six dimensions."
+  ],
+  [
+   30.983,
+   34.482,
+   "A vector store holding the memories themselves: Qdrant"
+  ],
+  [
+   34.482,
+   37.544,
+   "by default, with more than twenty alternatives."
+  ],
+  [
+   38.175,
+   41.675,
+   "Since twenty twenty six, a second collection holds"
+  ],
+  [
+   41.675,
+   42.55,
+   "entity records."
+  ],
+  [
+   43.181,
+   46.68,
+   "And a small SQLite database keeps the history"
+  ],
+  [
+   46.68,
+   50.18,
+   "of every change, plus the last few messages"
+  ],
+  [
+   50.18,
+   51.492,
+   "of each session."
+  ],
+  [
+   51.992,
+   53.49,
+   "Every memory is scoped."
+  ],
+  [
+   54.122,
+   57.119,
+   "A user id says whose memory it is."
+  ],
+  [
+   57.119,
+   60.115,
+   "An agent id says which agent it belongs"
+  ],
+  [
+   60.115,
+   63.112,
+   "to. A run id narrows it to one"
+  ],
+  [
+   63.112,
+   64.236,
+   "session or task."
+  ],
+  [
+   64.868,
+   67.864,
+   "You can combine them, and add metadata filters"
+  ],
+  [
+   67.864,
+   68.614,
+   "on top."
+  ],
+  [
+   69.245,
+   72.242,
+   "Scoping is enforced on every read and write,"
+  ],
+  [
+   72.242,
+   75.239,
+   "so one user's memories never leak into another"
+  ],
+  [
+   75.239,
+   75.988,
+   "user's search."
+  ],
+  [
+   76.62,
+   79.616,
+   "In the code, identity can only be set"
+  ],
+  [
+   79.616,
+   82.239,
+   "through these parameters, never through free-form metadata."
+  ],
+  [
+   82.739,
+   85.483,
+   "What does one memory actually look like?"
+  ],
+  [
+   86.115,
+   89.251,
+   "In the vector store, it's a point: a"
+  ],
+  [
+   89.251,
+   91.211,
+   "UUID, and the embedding vector."
+  ],
+  [
+   91.843,
+   94.979,
+   "Its payload holds the text itself, a hash"
+  ],
+  [
+   94.979,
+   98.116,
+   "of that text for deduplication, and a lemmatized"
+  ],
+  [
+   98.116,
+   100.076,
+   "copy used for keyword search."
+  ],
+  [
+   100.708,
+   103.844,
+   "It also stores the scope, like the user"
+  ],
+  [
+   103.844,
+   106.981,
+   "id, creation and update timestamps, and an optional"
+  ],
+  [
+   106.981,
+   110.117,
+   "expiration date, after which the memory is hidden"
+  ],
+  [
+   110.117,
+   110.901,
+   "from search."
+  ],
+  [
+   111.533,
+   114.669,
+   "Separately, SQLite logs every change as a history"
+  ],
+  [
+   114.669,
+   117.806,
+   "row: which memory, the old text, the new"
+  ],
+  [
+   117.806,
+   119.766,
+   "text, the event, and when."
+  ],
+  [
+   120.266,
+   122.573,
+   "At runtime there are two paths."
+  ],
+  [
+   123.205,
+   126.281,
+   "The write path: after each conversation turn, add"
+  ],
+  [
+   126.281,
+   128.973,
+   "extracts facts, embeds them, and stores them."
+  ],
+  [
+   129.605,
+   132.681,
+   "The read path: before the agent answers a"
+  ],
+  [
+   132.681,
+   135.757,
+   "question, search embeds it, ranks memories, and returns"
+  ],
+  [
+   135.757,
+   138.065,
+   "the top few into the prompt."
+  ],
+  [
+   138.696,
+   141.773,
+   "Writes can run in the background, off the"
+  ],
+  [
+   141.773,
+   144.849,
+   "user's critical path. Reads must be fast, because"
+  ],
+  [
+   144.849,
+   146.387,
+   "the user is waiting."
+  ],
+  [
+   147.019,
+   150.095,
+   "Keep that asymmetry in mind. It drives nearly"
+  ],
+  [
+   150.095,
+   151.249,
+   "every design choice."
+  ]
+ ],
+ "audio": "m0/ch02.wav"
+}

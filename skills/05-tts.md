@@ -1,5 +1,24 @@
-# Skill 05 — Narration TTS (Voicebox)
+# Skill 05 — Narration TTS
 
+## DEFAULT (English): Kokoro ONNX, `af_bella`, local, concurrent
+This is the standard for every English video. Everything below the next heading
+("Legacy: Voicebox") is the OLD path — don't use it unless the user asks.
+- In-process `kokoro_onnx`; load `Kokoro(...)` once at module scope (see `kokoro()` in
+  `projects/_template_pack/build.py`). Model: `~/.cache/hyperframes/tts/models/kokoro-v1.0.onnx`,
+  voices: `~/.cache/hyperframes/tts/voices/voices-v1.0.bin`.
+- `create(text, voice="af_bella", speed=..., lang="en-us")` → WAV 24kHz mono per segment.
+  The pack template uses `speed=1.0`; the audiobook used 0.90. Tune for pace; keep
+  per-segment WAVs, ffprobe-measured durations (they feed `dur`), `[pause]` handling and beat gaps.
+- **Concurrency**: synthesize segments in parallel (about 4 workers — a ThreadPool/ProcessPool
+  over segments; ONNX sessions are safe per worker; 4 was the proven level, more just contends
+  for CPU). Idempotent: skip segments whose WAV exists. Order the concat by beat index, not
+  completion order.
+- **Length**: af_bella is slower than Nova — measure the printed total and iterate to the target
+  (rule 6); don't trust 212 wpm.
+- **Captions ON** by default (`CAPTIONS = True` in the pack template); captions and reveal
+  timing (`props.ats`) derive from the same measured durations, so sync holds.
+
+## Legacy: Voicebox (Nova) — do not use by default
 Local, free TTS via **Voicebox.app** (`/Applications/Voicebox.app`, Kokoro engine).
 The HTTP server runs at `http://127.0.0.1:17493` **only while the app is open** —
 check first, and if down: `open -a Voicebox`, wait ~5s, re-check.

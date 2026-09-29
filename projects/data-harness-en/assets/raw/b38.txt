@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/data-harness-en/assets/raw/b38_0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/data-harness-en/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/data-harness-en/assets/raw/b38_1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/data-harness-en/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/data-harness-en/assets/raw/b38_2.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/data-harness-en/assets/raw/_p.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/data-harness-en/assets/raw/b38_3.wav'

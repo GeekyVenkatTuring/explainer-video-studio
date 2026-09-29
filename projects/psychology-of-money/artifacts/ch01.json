@@ -1,0 +1,750 @@
+{
+ "cuts": [
+  {
+   "id": "ch01_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 14.41,
+   "props": {
+    "n": 1,
+    "total": 20,
+    "title": "No One's Crazy",
+    "lines": [
+     "People are not dumb with money. They are consistent with their own history.",
+     "Your life is a tiny sample of the world, and a huge sample of your beliefs."
+    ],
+    "color": "#A78BFA",
+    "dur": 14.91
+   }
+  },
+  {
+   "id": "ch01_ratio",
+   "type": "pm_sheet",
+   "in_seconds": 14.91,
+   "out_seconds": 54.293,
+   "props": {
+    "kicker": "CHAPTER 1 \u00b7 THE RATIO",
+    "title": "Experience versus the world",
+    "rows": [
+     {
+      "k": "Experience",
+      "v": "Your personal money history may be 0.00000001% of what has happened in the world.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Beliefs",
+      "v": "That same sliver may be about 80% of how you think the world works.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Result",
+      "v": "Equally smart people disagree on recessions, investing, priorities, and how much risk to take.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Depression",
+      "v": "Frederick Lewis Allen: the Great Depression marked millions of Americans inwardly for life \u2014 with a range of experiences.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "J.F.K.",
+      "v": "Asked what he remembered of the Depression, Kennedy said he had no first-hand memory of hardship \u2014 different life, different model.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 39.883
+   }
+  },
+  {
+   "id": "ch01_unemp",
+   "type": "pm_dual",
+   "in_seconds": 54.793,
+   "out_seconds": 104.285,
+   "props": {
+    "kicker": "SAME MONTH, DIFFERENT COUNTRY",
+    "title": "November 2009 unemployment",
+    "left": {
+     "name": "The headline",
+     "tag": "one average",
+     "c": "#FBBF24",
+     "lines": [
+      "U.S. nationwide unemployment, November 2009: around 10%.",
+      "An average hides who actually lost work."
+     ]
+    },
+    "right": {
+     "name": "The split",
+     "tag": "same month",
+     "c": "#F87171",
+     "lines": [
+      "African American males age 16\u201319 without a high-school diploma: 49% unemployed.",
+      "Caucasian females over 45 with a college degree: 4% unemployed.",
+      "Local stock markets in Germany and Japan were wiped out in World War Two; German farms at war's end: about 1,000 calories a day.",
+      "The U.S. stock market more than doubled over the war years \u2014 not the same scar."
+     ]
+    },
+    "color": "#A78BFA",
+    "note": "Figures as printed in the book for those dates.",
+    "dur": 49.992
+   }
+  },
+  {
+   "id": "ch01_lotto",
+   "type": "pm_sheet",
+   "in_seconds": 104.785,
+   "out_seconds": 133.457,
+   "props": {
+    "kicker": "WHY LOTTERY TICKETS EXIST",
+    "title": "A terrible product that still sells",
+    "rows": [
+     {
+      "k": "Spend",
+      "v": "Lower-income households: about $412 a year on lottery tickets \u2014 four times higher-income households.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Emergency",
+      "v": "Those buyers are largely the same people who say they could not find $400 in an emergency.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Spreadsheet",
+      "v": "As an investment the ticket is awful. As a purchased dream of a gap, it can be the only option in the room.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Lesson",
+      "v": "Do not call the buyer crazy until you see the financial room they live in.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#FBBF24",
+    "note": "",
+    "dur": 29.172
+   }
+  },
+  {
+   "id": "ch01_retire",
+   "type": "pm_sheet",
+   "in_seconds": 133.957,
+   "out_seconds": 189.821,
+   "props": {
+    "kicker": "RETIREMENT IS NEW",
+    "title": "Pensions were never universal",
+    "rows": [
+     {
+      "k": "2018 stock",
+      "v": "End of 2018: about $27 trillion in U.S. retirement accounts.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Work after 65",
+      "v": "Participation rate of men age 65+ stayed above 50% until the mid-twentieth century.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "First check",
+      "v": "Ida May Fuller, 1940: first Social Security check $22.54 \u2014 about $416 in later dollars.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "1980s",
+      "v": "Average Social Security check for retirees did not exceed $1,000 a month, inflation-adjusted, until the 1980s.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Poverty",
+      "v": "More than a quarter of Americans over 65 were in Census poverty until the late 1960s.",
+      "c": "#F87171"
+     },
+     {
+      "k": "1975 pension",
+      "v": "Only a quarter of those 65+ had pension income in 1975; among them, ~15% of household income came from it.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "Employee Benefit Research Institute, as cited in the book.",
+    "dur": 56.364
+   }
+  },
+  {
+   "id": "ch01_crazy-rules",
+   "type": "pm_list",
+   "in_seconds": 190.321,
+   "out_seconds": 218.994,
+   "props": {
+    "kicker": "CHAPTER 1 \u00b7 TAKEAWAYS ON SCREEN",
+    "title": "No one is crazy \u2014 they are local",
+    "items": [
+     "People's money views are a product of when they were born, what they lived, and what they needed.",
+     "Do not expect a 1970s inflation scar and a 1990s bull-market childhood to produce the same investor.",
+     "A 'crazy' choice is often a rational answer to a room you have never stood in.",
+     "Your job is not to mock the lottery ticket. It is to notice that your own history is also a tiny sample."
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 29.173
+   }
+  },
+  {
+   "id": "ch01_crazy-close",
+   "type": "pm_list",
+   "in_seconds": 219.494,
+   "out_seconds": 243.509,
+   "props": {
+    "kicker": "CHAPTER 1 \u00b7 CLOSE",
+    "title": "Your sample is not the world",
+    "items": [
+     "A Depression childhood and a 1990s bull-market childhood are different operating systems.",
+     "People buy lottery tickets for a story of control, not because they failed a probability class.",
+     "Respect the other room. Then notice that your own room is also small.",
+     "The chapter's mercy: nobody is crazy. They are local."
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 24.515
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.773,
+   "Chapter 1."
+  ],
+  [
+   0.773,
+   1.933,
+   "No One's Crazy."
+  ],
+  [
+   2.565,
+   4.885,
+   "People are not dumb with money."
+  ],
+  [
+   4.885,
+   7.592,
+   "They are consistent with their own\nhistory."
+  ],
+  [
+   8.223,
+   11.317,
+   "Your life is a tiny sample of the"
+  ],
+  [
+   11.317,
+   11.703,
+   "world,"
+  ],
+  [
+   11.703,
+   14.41,
+   "and a huge sample of your beliefs."
+  ],
+  [
+   14.91,
+   17.95,
+   "Your personal money history may be zero\npoint"
+  ],
+  [
+   17.95,
+   20.989,
+   "zero zero zero zero zero zero zero one"
+  ],
+  [
+   20.989,
+   24.029,
+   "percent of what has happened in the world."
+  ],
+  [
+   24.661,
+   27.7,
+   "That same sliver may be about eighty\npercent"
+  ],
+  [
+   27.7,
+   30.36,
+   "of how you think the world works."
+  ],
+  [
+   30.992,
+   33.272,
+   "Equally smart people disagree on\nrecessions,"
+  ],
+  [
+   33.272,
+   33.652,
+   "investing,"
+  ],
+  [
+   33.652,
+   34.032,
+   "priorities,"
+  ],
+  [
+   34.032,
+   36.311,
+   "and how much risk to take."
+  ],
+  [
+   36.943,
+   39.983,
+   "Frederick Lewis Allen wrote that the Great\nDepression"
+  ],
+  [
+   39.983,
+   43.022,
+   "marked millions of Americans inwardly for\nthe rest"
+  ],
+  [
+   43.022,
+   44.162,
+   "of their lives,"
+  ],
+  [
+   44.162,
+   46.062,
+   "with a range of experiences."
+  ],
+  [
+   46.694,
+   49.353,
+   "Asked what he remembered of the\nDepression,"
+  ],
+  [
+   49.353,
+   52.393,
+   "Kennedy said he had no first-hand memory\nof"
+  ],
+  [
+   52.393,
+   52.773,
+   "hardship."
+  ],
+  [
+   52.773,
+   53.533,
+   "Different life,"
+  ],
+  [
+   53.533,
+   54.293,
+   "different model."
+  ],
+  [
+   54.793,
+   55.685,
+   "The headline."
+  ],
+  [
+   55.685,
+   56.578,
+   "one average"
+  ],
+  [
+   57.21,
+   57.656,
+   "U.S."
+  ],
+  [
+   57.656,
+   61.226,
+   "nationwide unemployment in November two\nthousand nine was"
+  ],
+  [
+   61.226,
+   62.565,
+   "around ten percent."
+  ],
+  [
+   63.196,
+   66.32,
+   "An average hides who actually lost work."
+  ],
+  [
+   66.951,
+   67.844,
+   "The split."
+  ],
+  [
+   67.844,
+   68.736,
+   "same month"
+  ],
+  [
+   69.368,
+   72.938,
+   "African American males age sixteen to\nnineteen without"
+  ],
+  [
+   72.938,
+   74.277,
+   "a high-school diploma:"
+  ],
+  [
+   74.277,
+   75.615,
+   "forty-nine percent unemployed."
+  ],
+  [
+   76.247,
+   79.817,
+   "Caucasian females over age forty-five with\na college"
+  ],
+  [
+   79.817,
+   80.263,
+   "degree:"
+  ],
+  [
+   80.263,
+   81.602,
+   "four percent unemployed."
+  ],
+  [
+   82.234,
+   85.804,
+   "Local stock markets in Germany and Japan\nwere"
+  ],
+  [
+   85.804,
+   88.481,
+   "wiped out in World War Two."
+  ],
+  [
+   88.481,
+   91.159,
+   "At the end of the war,"
+  ],
+  [
+   91.159,
+   94.728,
+   "German farms produced about one thousand\ncalories a"
+  ],
+  [
+   94.728,
+   96.067,
+   "day per person."
+  ],
+  [
+   96.699,
+   97.591,
+   "The U.S."
+  ],
+  [
+   97.591,
+   101.161,
+   "stock market more than doubled over the\nwar"
+  ],
+  [
+   101.161,
+   101.608,
+   "years."
+  ],
+  [
+   101.608,
+   104.285,
+   "That is not the same scar."
+  ],
+  [
+   104.785,
+   107.68,
+   "Lower-income households spent about four\nhundred twelve dollars"
+  ],
+  [
+   107.68,
+   109.489,
+   "a year on lottery tickets,"
+  ],
+  [
+   109.489,
+   110.937,
+   "four times higher-income households."
+  ],
+  [
+   111.568,
+   114.463,
+   "Those buyers are largely the same people\nwho"
+  ],
+  [
+   114.463,
+   117.358,
+   "say they could not find four hundred\ndollars"
+  ],
+  [
+   117.358,
+   118.443,
+   "in an emergency."
+  ],
+  [
+   119.075,
+   121.608,
+   "As an investment the ticket is awful."
+  ],
+  [
+   121.608,
+   124.141,
+   "As a purchased dream of a gap,"
+  ],
+  [
+   124.141,
+   127.036,
+   "it can be the only option in the"
+  ],
+  [
+   127.036,
+   127.398,
+   "room."
+  ],
+  [
+   128.029,
+   130.924,
+   "Do not call the buyer crazy until you"
+  ],
+  [
+   130.924,
+   133.457,
+   "see the financial room they live in."
+  ],
+  [
+   133.957,
+   137.277,
+   "At the end of two thousand eighteen there"
+  ],
+  [
+   137.277,
+   140.182,
+   "was about twenty-seven trillion dollars in\nU.S."
+  ],
+  [
+   140.182,
+   141.012,
+   "retirement accounts."
+  ],
+  [
+   141.644,
+   144.964,
+   "The participation rate of men age\nsixty-five and"
+  ],
+  [
+   144.964,
+   148.284,
+   "over stayed above fifty percent until the\nmid"
+  ],
+  [
+   148.284,
+   149.114,
+   "twentieth century."
+  ],
+  [
+   149.745,
+   153.066,
+   "Ida May Fuller cashed the first Social\nSecurity"
+  ],
+  [
+   153.066,
+   154.726,
+   "check in nineteen forty:"
+  ],
+  [
+   154.726,
+   156.801,
+   "twenty-two dollars and fifty-four cents,"
+  ],
+  [
+   156.801,
+   160.121,
+   "about four hundred sixteen dollars in\nlater dollars."
+  ],
+  [
+   160.752,
+   164.072,
+   "The average Social Security check for\nretirees did"
+  ],
+  [
+   164.072,
+   166.977,
+   "not exceed one thousand dollars a month,"
+  ],
+  [
+   166.977,
+   167.392,
+   "inflation-adjusted,"
+  ],
+  [
+   167.392,
+   169.052,
+   "until the nineteen eighties."
+  ],
+  [
+   169.684,
+   173.004,
+   "More than a quarter of Americans over age"
+  ],
+  [
+   173.004,
+   176.324,
+   "sixty-five were classified as living in\npoverty until"
+  ],
+  [
+   176.324,
+   177.984,
+   "the late nineteen sixties."
+  ],
+  [
+   178.616,
+   181.936,
+   "Only a quarter of those age sixty-five or"
+  ],
+  [
+   181.936,
+   184.841,
+   "older had pension income in nineteen\nseventy-five."
+  ],
+  [
+   184.841,
+   185.671,
+   "Among them,"
+  ],
+  [
+   185.671,
+   188.991,
+   "about fifteen percent of household income\ncame from"
+  ],
+  [
+   188.991,
+   189.821,
+   "a pension."
+  ],
+  [
+   190.321,
+   193.177,
+   "People's money views are a product of when"
+  ],
+  [
+   193.177,
+   194.248,
+   "they were born,"
+  ],
+  [
+   194.248,
+   195.32,
+   "what they lived,"
+  ],
+  [
+   195.32,
+   196.748,
+   "and what they needed."
+  ],
+  [
+   197.379,
+   200.236,
+   "Do not expect a nineteen seventies\ninflation scar"
+  ],
+  [
+   200.236,
+   203.092,
+   "and a nineteen nineties bull-market\nchildhood to produce"
+  ],
+  [
+   203.092,
+   204.163,
+   "the same investor."
+  ],
+  [
+   204.795,
+   207.651,
+   "A crazy choice is often a rational answer"
+  ],
+  [
+   207.651,
+   210.507,
+   "to a room you have never stood in."
+  ],
+  [
+   211.139,
+   213.995,
+   "Your job is not to mock the lottery"
+  ],
+  [
+   213.995,
+   214.352,
+   "ticket."
+  ],
+  [
+   214.352,
+   217.209,
+   "It is to notice that your own history"
+  ],
+  [
+   217.209,
+   218.994,
+   "is also a tiny sample."
+  ],
+  [
+   219.494,
+   222.964,
+   "A Depression childhood and a nineteen\nnineties bull-market"
+  ],
+  [
+   222.964,
+   225.132,
+   "childhood are different operating systems."
+  ],
+  [
+   225.764,
+   229.234,
+   "People buy lottery tickets for a story of"
+  ],
+  [
+   229.234,
+   229.668,
+   "control,"
+  ],
+  [
+   229.668,
+   232.704,
+   "not because they failed a probability\nclass."
+  ],
+  [
+   233.335,
+   235.07,
+   "Respect the other room."
+  ],
+  [
+   235.07,
+   238.54,
+   "Then notice that your own room is also"
+  ],
+  [
+   238.54,
+   238.974,
+   "small."
+  ],
+  [
+   239.605,
+   240.907,
+   "The chapter's mercy:"
+  ],
+  [
+   240.907,
+   242.208,
+   "nobody is crazy."
+  ],
+  [
+   242.208,
+   243.509,
+   "They are local."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch01.wav",
+   "volume": 1.0
+  }
+ }
+}

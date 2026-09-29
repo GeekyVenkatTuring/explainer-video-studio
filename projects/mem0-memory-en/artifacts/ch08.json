@@ -1,0 +1,1266 @@
+{
+ "pack": "blueprint",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "Mem0 memory",
+  "issue": "September 2026",
+  "code": "MEM-0"
+ },
+ "beats": [
+  {
+   "id": "b40",
+   "kind": "divider",
+   "dur": 8.055,
+   "props": {
+    "n": 8,
+    "total": 9,
+    "title": "The 2026 Redesign",
+    "sub": "add-only writes, hybrid reads"
+   }
+  },
+  {
+   "id": "b41",
+   "kind": "versus",
+   "dur": 35.327,
+   "props": {
+    "kicker": "Old vs new",
+    "title": "From diffing to appending",
+    "winner": "right",
+    "left": {
+     "h": "2025: extract \u2192 update",
+     "items": [
+      "two LLM calls per turn",
+      "ADD \u00b7 UPDATE \u00b7 DELETE \u00b7 NOOP",
+      "old facts overwritten or deleted",
+      "external graph database"
+     ]
+    },
+    "right": {
+     "h": "2026: single pass",
+     "items": [
+      "one LLM call per turn",
+      "ADD only, history kept",
+      "old and new facts coexist",
+      "built-in entity linking"
+     ]
+    }
+   }
+  },
+  {
+   "id": "b42",
+   "kind": "list",
+   "dur": 34.475,
+   "props": {
+    "kicker": "Why drop the graph from open source?",
+    "title": "The trade-off, as the evidence suggests",
+    "items": [
+     {
+      "h": "Cost",
+      "d": "extra LLM calls and a graph database per write"
+     },
+     {
+      "h": "Mixed results",
+      "d": "helped temporal, not multi-hop, in the paper"
+     },
+     {
+      "h": "Entity links",
+      "d": "keep the who-and-what index, cheaply"
+     },
+     {
+      "h": "Still hosted",
+      "d": "graph memory remains on the Mem0 platform"
+     }
+    ],
+    "ats": [
+     0.235,
+     0.417,
+     0.588,
+     0.9
+    ]
+   }
+  },
+  {
+   "id": "b43",
+   "kind": "x_diagram",
+   "dur": 43.615,
+   "props": {
+    "kicker": "The new write path (from the code)",
+    "title": "Single-pass, add-only extraction",
+    "nodes": [
+     {
+      "id": "a",
+      "h": "Last 10 messages",
+      "d": "session context",
+      "x": 110,
+      "y": 260,
+      "w": 330
+     },
+     {
+      "id": "b",
+      "h": "Top 10 memories",
+      "d": "related, for dedup + links",
+      "x": 110,
+      "y": 480,
+      "w": 330
+     },
+     {
+      "id": "c",
+      "h": "IDs \u2192 0, 1, 2",
+      "d": "anti-hallucination",
+      "x": 110,
+      "y": 700,
+      "w": 330
+     },
+     {
+      "id": "d",
+      "h": "One LLM call",
+      "d": "facts + linked memory ids",
+      "x": 560,
+      "y": 480,
+      "w": 330
+     },
+     {
+      "id": "e",
+      "h": "Batch embed",
+      "d": "all new facts at once",
+      "x": 1000,
+      "y": 260,
+      "w": 330
+     },
+     {
+      "id": "f",
+      "h": "MD5 dedup",
+      "d": "drop exact duplicates",
+      "x": 1000,
+      "y": 480,
+      "w": 330
+     },
+     {
+      "id": "g",
+      "h": "Store + history",
+      "d": "event = ADD",
+      "x": 1000,
+      "y": 700,
+      "w": 330
+     },
+     {
+      "id": "h",
+      "h": "Entity linking",
+      "d": "spaCy entities \u2192 entity store",
+      "x": 1450,
+      "y": 480,
+      "w": 360
+     }
+    ],
+    "edges": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "d"
+     ],
+     [
+      "c",
+      "d"
+     ],
+     [
+      "d",
+      "e"
+     ],
+     [
+      "e",
+      "f"
+     ],
+     [
+      "f",
+      "g"
+     ],
+     [
+      "g",
+      "h"
+     ]
+    ],
+    "ats": [
+     0.094,
+     0.182,
+     0.246,
+     0.315,
+     0.736,
+     0.809,
+     0.851,
+     0.943
+    ]
+   }
+  },
+  {
+   "id": "b44",
+   "kind": "statement",
+   "dur": 34.741,
+   "props": {
+    "kicker": "Grounding time",
+    "lines": [
+     "\u201clast week\u201d",
+     "is useless",
+     "six months later."
+    ],
+    "accent": 0,
+    "big": "week of 15 May",
+    "sub": "relative dates are resolved against the conversation's Observation Date"
+   }
+  },
+  {
+   "id": "b45",
+   "kind": "flow",
+   "dur": 37.484,
+   "props": {
+    "kicker": "Entity linking",
+    "title": "A lightweight index from things to memories",
+    "steps": [
+     {
+      "h": "spaCy",
+      "d": "proper nouns, quotes, noun phrases"
+     },
+     {
+      "h": "Normalize",
+      "d": "lowercase, dedupe, embed"
+     },
+     {
+      "h": "Match",
+      "d": "exact text, or cosine \u2265 0.95"
+     },
+     {
+      "h": "Link",
+      "d": "append this memory's id"
+     },
+     {
+      "h": "Create",
+      "d": "no match \u2192 new entity"
+     }
+    ],
+    "ats": [
+     0.043,
+     0.307,
+     0.352,
+     0.706,
+     0.785
+    ]
+   }
+  },
+  {
+   "id": "b46",
+   "kind": "flow",
+   "dur": 28.168,
+   "props": {
+    "kicker": "The new read path",
+    "title": "Three signals, one score",
+    "steps": [
+     {
+      "h": "Lemmatize",
+      "d": "attending \u2192 attend"
+     },
+     {
+      "h": "Embed",
+      "d": "semantic search, over-fetch \u00d74"
+     },
+     {
+      "h": "BM25",
+      "d": "keyword scores"
+     },
+     {
+      "h": "Entity boost",
+      "d": "memories linked to query entities"
+     },
+     {
+      "h": "Fuse",
+      "d": "normalize, combine, rank"
+     }
+    ],
+    "ats": [
+     0.094,
+     0.248,
+     0.518,
+     0.642,
+     0.912
+    ]
+   }
+  },
+  {
+   "id": "b47",
+   "kind": "x_code",
+   "dur": 46.401,
+   "props": {
+    "kicker": "BM25, then a sigmoid",
+    "title": "Turning keyword scores into 0 \u2026 1",
+    "file": "utils/scoring.py",
+    "lines": [
+     "BM25(q, d) = \u03a3  IDF(t) \u00b7 tf\u00b7(k1+1) / (tf + k1\u00b7(1 \u2212 b + b\u00b7|d|/avgdl))",
+     "",
+     "norm = 1 / (1 + exp(\u2212steepness \u00b7 (raw \u2212 midpoint)))",
+     "",
+     "query terms   \u22643: (5, 0.7)   \u22646: (7, 0.6)   \u22649: (9, 0.5)",
+     "              \u226415: (10, 0.5)   more: (12, 0.5)",
+     "",
+     "raw  3 \u2192 0.083    raw  7 \u2192 0.5",
+     "raw  9 \u2192 0.769    raw 12 \u2192 0.953     # 4\u20136 terms"
+    ],
+    "notes": [
+     {
+      "a": 0,
+      "b": 0,
+      "at": 0.06,
+      "t": "BM25: rare terms count more; repeats saturate; long docs are normalized"
+     },
+     {
+      "a": 2,
+      "b": 2,
+      "at": 0.44,
+      "t": "a logistic squashes unbounded raw scores"
+     },
+     {
+      "a": 4,
+      "b": 5,
+      "at": 0.57,
+      "t": "longer queries score higher, so the midpoint moves up"
+     },
+     {
+      "a": 7,
+      "b": 8,
+      "at": 0.72,
+      "t": "computed with the code's parameters"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b48",
+   "kind": "x_fusion",
+   "dur": 60.676,
+   "props": {
+    "kicker": "Hybrid scoring \u00b7 computed with the real formula",
+    "title": "How candidates are scored and ranked",
+    "query": "Which city did Riya move to for work?",
+    "terms": 4,
+    "threshold": 0.1,
+    "cands": [
+     {
+      "text": "Riya moved to Bengaluru for a fintech job",
+      "sem": 0.62,
+      "bm25": 9.1,
+      "esim": 0.98,
+      "en": 12
+     },
+     {
+      "text": "Riya lived in Pune before 2026",
+      "sem": 0.58,
+      "bm25": 3.8,
+      "esim": 0.98,
+      "en": 12
+     },
+     {
+      "text": "Bengaluru traffic peaks at 6 pm",
+      "sem": 0.6,
+      "bm25": 2.9,
+      "esim": 0,
+      "en": 0
+     },
+     {
+      "text": "Riya loves Test cricket",
+      "sem": 0.31,
+      "bm25": 0,
+      "esim": 0.98,
+      "en": 12
+     },
+     {
+      "text": "User prefers window seats",
+      "sem": 0.07,
+      "bm25": 0,
+      "esim": 0,
+      "en": 0
+     }
+    ],
+    "phases": [
+     0.17,
+     0.33,
+     0.54,
+     0.7,
+     0.8
+    ]
+   }
+  },
+  {
+   "id": "b49",
+   "kind": "chart",
+   "dur": 39.433,
+   "props": {
+    "kicker": "Entity boost penalty \u00b7 1 / (1 + 0.001\u00b7(n \u2212 1)\u00b2)",
+    "title": "Hub entities barely boost",
+    "type": "bar",
+    "bars": [
+     {
+      "label": "n = 1",
+      "value": 1.0
+     },
+     {
+      "label": "n = 10",
+      "value": 0.925
+     },
+     {
+      "label": "n = 30",
+      "value": 0.543
+     },
+     {
+      "label": "n = 60",
+      "value": 0.223
+     },
+     {
+      "label": "n = 100",
+      "value": 0.093
+     }
+    ],
+    "note": "n = memories linked to the matched entity \u00b7 weight multiplies sim \u00d7 0.5",
+    "ats": [
+     0.36,
+     0.44,
+     0.52,
+     0.56,
+     0.6
+    ]
+   }
+  },
+  {
+   "id": "b50",
+   "kind": "chart",
+   "dur": 46.425,
+   "props": {
+    "kicker": "Vendor-reported, April 2026",
+    "title": "What the redesign scored",
+    "type": "bar",
+    "bars": [
+     {
+      "label": "LoCoMo old",
+      "value": 71.4
+     },
+     {
+      "label": "LoCoMo new",
+      "value": 91.6
+     },
+     {
+      "label": "LongMemEval",
+      "value": 94.4
+     },
+     {
+      "label": "BEAM 1M",
+      "value": 64.1
+     },
+     {
+      "label": "BEAM 10M",
+      "value": 48.6
+     }
+    ],
+    "note": "LoCoMo: Mem0 OSS migration docs \u00b7 others: Mem0 blog (Platform) \u00b7 not comparable to the paper's J",
+    "ats": [
+     0.05,
+     0.11,
+     0.28,
+     0.4,
+     0.46
+    ]
+   }
+  },
+  {
+   "id": "b51",
+   "kind": "statement",
+   "dur": 31.706,
+   "props": {
+    "kicker": "What add-only costs",
+    "lines": [
+     "Both facts survive.",
+     "Reads must pick",
+     "the current one."
+    ],
+    "accent": 2,
+    "sub": "temporal & multi-session reasoning: still 'open problems', per Mem0"
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.555,
+   "Part eight. In April twenty twenty six, Mem0"
+  ],
+  [
+   3.555,
+   7.111,
+   "replaced this algorithm. Let's see what changed, and"
+  ],
+  [
+   7.111,
+   7.555,
+   "why."
+  ],
+  [
+   8.055,
+   11.285,
+   "The old pipeline spent two LLM calls per"
+  ],
+  [
+   11.285,
+   14.515,
+   "turn: one to extract, one to diff against"
+  ],
+  [
+   14.515,
+   15.323,
+   "existing memory."
+  ],
+  [
+   15.954,
+   19.184,
+   "The new one makes a single call, and"
+  ],
+  [
+   19.184,
+   20.799,
+   "it only ever adds."
+  ],
+  [
+   21.431,
+   24.661,
+   "Mem0's reasoning: the model spends its capacity on"
+  ],
+  [
+   24.661,
+   27.891,
+   "understanding the input, rather than diffing against existing"
+  ],
+  [
+   27.891,
+   28.295,
+   "state."
+  ],
+  [
+   28.927,
+   32.157,
+   "Nothing is overwritten. When a fact changes, the"
+  ],
+  [
+   32.157,
+   34.983,
+   "new one lives alongside the old one."
+  ],
+  [
+   35.615,
+   38.845,
+   "And the external graph database is gone from"
+  ],
+  [
+   38.845,
+   42.075,
+   "the open source version, replaced by lightweight, built-in"
+  ],
+  [
+   42.075,
+   42.882,
+   "entity linking."
+  ],
+  [
+   43.382,
+   46.567,
+   "Why drop the graph from the open source"
+  ],
+  [
+   46.567,
+   49.752,
+   "version? Mem0 hasn't published a full rationale, but"
+  ],
+  [
+   49.752,
+   51.742,
+   "the evidence points one way."
+  ],
+  [
+   52.374,
+   55.558,
+   "Cost: a graph means extra LLM calls and"
+  ],
+  [
+   55.558,
+   57.947,
+   "a graph database on every write."
+  ],
+  [
+   58.578,
+   61.763,
+   "Mixed results: in the paper, it helped temporal"
+  ],
+  [
+   61.763,
+   63.753,
+   "questions, but not multi-hop ones."
+  ],
+  [
+   64.385,
+   67.57,
+   "Entity links keep the most useful part, an"
+  ],
+  [
+   67.57,
+   70.754,
+   "index from who and what, to memories, at"
+  ],
+  [
+   70.754,
+   72.745,
+   "a fraction of the cost."
+  ],
+  [
+   73.376,
+   76.561,
+   "And graph memory is still available on Mem0's"
+  ],
+  [
+   76.561,
+   77.357,
+   "hosted platform."
+  ],
+  [
+   77.857,
+   81.003,
+   "Here's the new write path, straight from the"
+  ],
+  [
+   81.003,
+   81.396,
+   "code."
+  ],
+  [
+   82.028,
+   85.174,
+   "Gather context: the last ten messages from this"
+  ],
+  [
+   85.174,
+   85.567,
+   "session."
+  ],
+  [
+   86.199,
+   89.345,
+   "Retrieve the top ten related memories, and map"
+  ],
+  [
+   89.345,
+   91.311,
+   "their ids to small integers."
+  ],
+  [
+   91.943,
+   95.089,
+   "Then one LLM call extracts every new fact,"
+  ],
+  [
+   95.089,
+   98.235,
+   "from both the user and the assistant, and"
+  ],
+  [
+   98.235,
+   100.594,
+   "links each one to related memories."
+  ],
+  [
+   101.226,
+   104.372,
+   "Relative dates, like last week, are resolved against"
+  ],
+  [
+   104.372,
+   107.518,
+   "the conversation's date, so they stay meaningful forever."
+  ],
+  [
+   108.15,
+   111.296,
+   "The new facts are embedded in one batch,"
+  ],
+  [
+   111.296,
+   114.442,
+   "and exact duplicates are dropped with an MD5"
+  ],
+  [
+   114.442,
+   114.835,
+   "hash."
+  ],
+  [
+   115.466,
+   118.612,
+   "They're stored, and logged to history as ADD"
+  ],
+  [
+   118.612,
+   120.972,
+   "events. And finally, entity linking runs."
+  ],
+  [
+   121.472,
+   124.115,
+   "One prompt detail deserves its own moment."
+  ],
+  [
+   124.746,
+   127.767,
+   "A memory that says, went to Paris last"
+  ],
+  [
+   127.767,
+   130.032,
+   "week, is useless six months later."
+  ],
+  [
+   130.664,
+   133.684,
+   "So the extraction prompt receives an observation date,"
+  ],
+  [
+   133.684,
+   136.705,
+   "the day the conversation happened, and must rewrite"
+  ],
+  [
+   136.705,
+   139.725,
+   "every relative time against it. Yesterday, last week,"
+  ],
+  [
+   139.725,
+   140.48,
+   "next month."
+  ],
+  [
+   141.112,
+   144.132,
+   "Went to Paris last week becomes, went to"
+  ],
+  [
+   144.132,
+   147.153,
+   "Paris the week of the fifteenth of May."
+  ],
+  [
+   147.784,
+   150.805,
+   "It's told explicitly not to use today's date"
+  ],
+  [
+   150.805,
+   153.825,
+   "for this, because memories can be ingested long"
+  ],
+  [
+   153.825,
+   155.713,
+   "after the conversation took place."
+  ],
+  [
+   156.213,
+   158.289,
+   "Entity linking replaces the graph."
+  ],
+  [
+   158.921,
+   162.242,
+   "spaCy pulls entities out of each new memory:"
+  ],
+  [
+   162.242,
+   165.563,
+   "proper nouns, quoted titles, and multi-word noun phrases"
+  ],
+  [
+   165.563,
+   166.808,
+   "like machine learning."
+  ],
+  [
+   167.44,
+   170.761,
+   "Each entity is normalized and embedded, then matched"
+  ],
+  [
+   170.761,
+   174.082,
+   "against a separate entity collection, by exact text,"
+  ],
+  [
+   174.082,
+   177.404,
+   "or by a cosine similarity of at least"
+  ],
+  [
+   177.404,
+   179.064,
+   "zero point nine five."
+  ],
+  [
+   179.696,
+   183.017,
+   "A match gets this memory's id appended to"
+  ],
+  [
+   183.017,
+   186.338,
+   "its linked memories. Otherwise, a new entity is"
+  ],
+  [
+   186.338,
+   186.753,
+   "created."
+  ],
+  [
+   187.385,
+   190.706,
+   "The result is a lightweight index, from things,"
+  ],
+  [
+   190.706,
+   193.197,
+   "to the memories that mention them."
+  ],
+  [
+   193.697,
+   195.304,
+   "Now the read path."
+  ],
+  [
+   195.936,
+   199.15,
+   "The query is lemmatized with spaCy, so attending"
+  ],
+  [
+   199.15,
+   200.356,
+   "and attend match."
+  ],
+  [
+   200.987,
+   204.202,
+   "It's embedded, and semantic search over-fetches: four times"
+  ],
+  [
+   204.202,
+   207.416,
+   "the requested results, and at least sixty candidates."
+  ],
+  [
+   208.048,
+   211.262,
+   "In parallel, BM25 keyword search scores the same"
+  ],
+  [
+   211.262,
+   211.664,
+   "store."
+  ],
+  [
+   212.295,
+   215.51,
+   "Entity matching adds a boost to memories linked"
+  ],
+  [
+   215.51,
+   217.117,
+   "to the query's entities."
+  ],
+  [
+   217.749,
+   220.963,
+   "Then the three signals are fused into one"
+  ],
+  [
+   220.963,
+   221.365,
+   "score."
+  ],
+  [
+   221.865,
+   223.892,
+   "BM25 deserves a closer look."
+  ],
+  [
+   224.523,
+   227.766,
+   "For each query term, it multiplies how rare"
+  ],
+  [
+   227.766,
+   231.009,
+   "the term is across all memories by how"
+  ],
+  [
+   231.009,
+   234.252,
+   "often it appears in this one. Repeats saturate,"
+  ],
+  [
+   234.252,
+   237.495,
+   "so saying bengaluru five times doesn't win, and"
+  ],
+  [
+   237.495,
+   240.738,
+   "long memories are normalized against the average length."
+  ],
+  [
+   241.369,
+   244.612,
+   "The raw score has no upper bound, so"
+  ],
+  [
+   244.612,
+   247.45,
+   "Mem0 squashes it with a logistic sigmoid."
+  ],
+  [
+   248.082,
+   251.325,
+   "Longer queries naturally produce bigger raw scores, so"
+  ],
+  [
+   251.325,
+   254.567,
+   "the sigmoid's midpoint moves up with query length."
+  ],
+  [
+   255.199,
+   258.442,
+   "For a four to six term query, a"
+  ],
+  [
+   258.442,
+   261.685,
+   "raw score of three becomes point zero eight."
+  ],
+  [
+   261.685,
+   264.928,
+   "Seven becomes exactly one half. Nine becomes point"
+  ],
+  [
+   264.928,
+   267.765,
+   "seven seven, and twelve, point nine five."
+  ],
+  [
+   268.265,
+   271.488,
+   "Here's the fusion formula, exactly as it appears"
+  ],
+  [
+   271.488,
+   272.696,
+   "in the code."
+  ],
+  [
+   273.327,
+   276.549,
+   "Take a query: which city did Riya move"
+  ],
+  [
+   276.549,
+   277.758,
+   "to, for work?"
+  ],
+  [
+   278.389,
+   281.611,
+   "First, a gate. Any candidate whose semantic score"
+  ],
+  [
+   281.611,
+   284.833,
+   "is below the threshold, zero point one by"
+  ],
+  [
+   284.833,
+   287.653,
+   "default, is dropped, whatever its keywords say."
+  ],
+  [
+   288.284,
+   291.506,
+   "Raw BM25 scores are unbounded, so they're squashed"
+  ],
+  [
+   291.506,
+   294.729,
+   "with a sigmoid. Its midpoint and steepness depend"
+  ],
+  [
+   294.729,
+   297.951,
+   "on query length. For four to six terms:"
+  ],
+  [
+   297.951,
+   300.367,
+   "midpoint seven, steepness zero point six."
+  ],
+  [
+   300.999,
+   304.221,
+   "The entity boost is the entity similarity, times"
+  ],
+  [
+   304.221,
+   307.443,
+   "zero point five, times a small penalty for"
+  ],
+  [
+   307.443,
+   309.859,
+   "entities linked to very many memories."
+  ],
+  [
+   310.491,
+   313.713,
+   "Add the three, divide by the maximum possible,"
+  ],
+  [
+   313.713,
+   316.935,
+   "two and a half with every signal active,"
+  ],
+  [
+   316.935,
+   317.741,
+   "and sort."
+  ],
+  [
+   318.372,
+   321.594,
+   "Watch how keyword and entity signals lift the"
+  ],
+  [
+   321.594,
+   324.816,
+   "right memory to the top. And notice: BM25"
+  ],
+  [
+   324.816,
+   328.039,
+   "can reorder candidates, but it never adds new"
+  ],
+  [
+   328.039,
+   328.441,
+   "ones."
+  ],
+  [
+   328.941,
+   331.759,
+   "One more detail in that entity boost."
+  ],
+  [
+   332.391,
+   335.612,
+   "The boost is multiplied by one, over one"
+  ],
+  [
+   335.612,
+   338.832,
+   "plus a thousandth of n minus one, squared,"
+  ],
+  [
+   338.832,
+   342.053,
+   "where n is how many memories the entity"
+  ],
+  [
+   342.053,
+   342.858,
+   "links to."
+  ],
+  [
+   343.49,
+   346.711,
+   "An entity linked to one memory keeps its"
+  ],
+  [
+   346.711,
+   349.931,
+   "full weight. Ten memories: still point nine two"
+  ],
+  [
+   349.931,
+   353.152,
+   "five. Thirty: point five four. Sixty: point two"
+  ],
+  [
+   353.152,
+   355.568,
+   "two. A hundred: under point one."
+  ],
+  [
+   356.199,
+   359.42,
+   "Why? An entity that appears everywhere, like the"
+  ],
+  [
+   359.42,
+   362.641,
+   "user's own name, says almost nothing about which"
+  ],
+  [
+   362.641,
+   365.862,
+   "memory is relevant. It's the same idea as"
+  ],
+  [
+   365.862,
+   367.874,
+   "inverse document frequency in BM25."
+  ],
+  [
+   368.374,
+   369.988,
+   "Mem0 reports big gains."
+  ],
+  [
+   370.62,
+   373.848,
+   "On LoCoMo, the open-source score rose from seventy"
+  ],
+  [
+   373.848,
+   377.075,
+   "one point four to ninety one point six."
+  ],
+  [
+   377.075,
+   380.303,
+   "The platform blog reports ninety two and a"
+  ],
+  [
+   380.303,
+   380.706,
+   "half."
+  ],
+  [
+   381.338,
+   383.759,
+   "On LongMemEval, ninety four point four."
+  ],
+  [
+   384.39,
+   387.618,
+   "And on BEAM, a newer benchmark at one"
+  ],
+  [
+   387.618,
+   390.846,
+   "million and ten million tokens, sixty four point"
+  ],
+  [
+   390.846,
+   394.073,
+   "one, and forty eight point six, showing how"
+  ],
+  [
+   394.073,
+   396.091,
+   "hard truly huge histories remain."
+  ],
+  [
+   396.722,
+   399.95,
+   "All at roughly seven thousand tokens per query,"
+  ],
+  [
+   399.95,
+   403.178,
+   "versus twenty five thousand plus for full context."
+  ],
+  [
+   403.809,
+   407.037,
+   "Two caveats. These are vendor-reported numbers, and they"
+  ],
+  [
+   407.037,
+   410.265,
+   "use a different setup from the paper, so"
+  ],
+  [
+   410.265,
+   413.492,
+   "don't compare them directly to its sixty six"
+  ],
+  [
+   413.492,
+   414.299,
+   "point nine."
+  ],
+  [
+   414.799,
+   416.055,
+   "Add-only isn't free."
+  ],
+  [
+   416.687,
+   420.037,
+   "If Riya lived in Pune and now lives"
+  ],
+  [
+   420.037,
+   423.387,
+   "in Bengaluru, both facts are in the store."
+  ],
+  [
+   423.387,
+   426.737,
+   "Retrieval, and the answering model, must work out"
+  ],
+  [
+   426.737,
+   430.087,
+   "which one is current, using timestamps and linked"
+  ],
+  [
+   430.087,
+   430.505,
+   "memories."
+  ],
+  [
+   431.137,
+   434.487,
+   "Mem0 itself lists temporal reasoning and multi-session reasoning"
+  ],
+  [
+   434.487,
+   435.743,
+   "as open problems."
+  ],
+  [
+   436.374,
+   439.724,
+   "The design moved complexity from write time to"
+  ],
+  [
+   439.724,
+   443.074,
+   "read time. That's a deliberate bet: writes stay"
+  ],
+  [
+   443.074,
+   446.005,
+   "cheap and lossless, and reads get smarter."
+  ]
+ ],
+ "audio": "m0/ch08.wav"
+}

@@ -1,0 +1,2267 @@
+{
+ "cuts": [
+  {
+   "id": "t00",
+   "type": "gt_title",
+   "in_seconds": 0.0,
+   "out_seconds": 20.095,
+   "props": {
+    "dur": 20.595
+   }
+  },
+  {
+   "id": "t01",
+   "type": "gt_hook",
+   "in_seconds": 20.595,
+   "out_seconds": 53.296,
+   "props": {
+    "dur": 33.201
+   }
+  },
+  {
+   "id": "d1",
+   "type": "gt_divider",
+   "in_seconds": 53.796,
+   "out_seconds": 63.13,
+   "props": {
+    "n": 1,
+    "title": "Order Types",
+    "sub": "Market, limit, and the resting GTT",
+    "color": "#38BDF8",
+    "pips": 4,
+    "dur": 9.834
+   }
+  },
+  {
+   "id": "o01",
+   "type": "gt_ordertypes",
+   "in_seconds": 63.63,
+   "out_seconds": 98.346,
+   "props": {
+    "dur": 35.216
+   }
+  },
+  {
+   "id": "o02",
+   "type": "gt_gttmech",
+   "in_seconds": 98.846,
+   "out_seconds": 130.018,
+   "props": {
+    "dur": 31.672
+   }
+  },
+  {
+   "id": "o2b",
+   "type": "gt_orderbook",
+   "in_seconds": 130.518,
+   "out_seconds": 165.864,
+   "props": {
+    "dur": 35.846
+   }
+  },
+  {
+   "id": "o03",
+   "type": "gt_trigger",
+   "in_seconds": 166.364,
+   "out_seconds": 201.243,
+   "props": {
+    "dur": 35.379
+   }
+  },
+  {
+   "id": "o04",
+   "type": "gt_oco",
+   "in_seconds": 201.743,
+   "out_seconds": 235.923,
+   "props": {
+    "dur": 34.68
+   }
+  },
+  {
+   "id": "d2",
+   "type": "gt_divider",
+   "in_seconds": 236.423,
+   "out_seconds": 245.146,
+   "props": {
+    "n": 2,
+    "title": "The Staggered Entry",
+    "sub": "Why two legs beat one buy",
+    "color": "#34D399",
+    "pips": 4,
+    "dur": 9.223
+   }
+  },
+  {
+   "id": "s01",
+   "type": "gt_allatonce",
+   "in_seconds": 245.646,
+   "out_seconds": 281.808,
+   "props": {
+    "dur": 36.662
+   }
+  },
+  {
+   "id": "s02",
+   "type": "gt_twolegs",
+   "in_seconds": 282.308,
+   "out_seconds": 322.087,
+   "props": {
+    "dur": 40.279
+   }
+  },
+  {
+   "id": "d3",
+   "type": "gt_divider",
+   "in_seconds": 322.587,
+   "out_seconds": 332.639,
+   "props": {
+    "n": 3,
+    "title": "Anchor to the Chart",
+    "sub": "Where the numbers actually come from",
+    "color": "#FBBF24",
+    "pips": 4,
+    "dur": 10.552
+   }
+  },
+  {
+   "id": "a01",
+   "type": "gt_dma",
+   "in_seconds": 333.139,
+   "out_seconds": 373.702,
+   "props": {
+    "dur": 41.063
+   }
+  },
+  {
+   "id": "a02",
+   "type": "gt_rsi",
+   "in_seconds": 374.202,
+   "out_seconds": 424.733,
+   "props": {
+    "dur": 51.031
+   }
+  },
+  {
+   "id": "a2b",
+   "type": "gt_rsiread",
+   "in_seconds": 425.233,
+   "out_seconds": 459.841,
+   "props": {
+    "dur": 35.108
+   }
+  },
+  {
+   "id": "a03",
+   "type": "gt_legs",
+   "in_seconds": 460.341,
+   "out_seconds": 499.777,
+   "props": {
+    "dur": 39.936
+   }
+  },
+  {
+   "id": "a04",
+   "type": "gt_stoptarget",
+   "in_seconds": 500.277,
+   "out_seconds": 543.583,
+   "props": {
+    "dur": 43.806
+   }
+  },
+  {
+   "id": "a05",
+   "type": "gt_rr",
+   "in_seconds": 544.083,
+   "out_seconds": 584.89,
+   "props": {
+    "dur": 41.307
+   }
+  },
+  {
+   "id": "a5b",
+   "type": "gt_valuation",
+   "in_seconds": 585.39,
+   "out_seconds": 624.894,
+   "props": {
+    "dur": 40.004
+   }
+  },
+  {
+   "id": "a06",
+   "type": "gt_sizing",
+   "in_seconds": 625.394,
+   "out_seconds": 661.664,
+   "props": {
+    "dur": 36.77
+   }
+  },
+  {
+   "id": "d4",
+   "type": "gt_divider",
+   "in_seconds": 662.164,
+   "out_seconds": 671.99,
+   "props": {
+    "n": 4,
+    "title": "The Plan in Action",
+    "sub": "Two worked examples, then the schedule",
+    "color": "#38BDF8",
+    "pips": 4,
+    "dur": 10.326
+   }
+  },
+  {
+   "id": "w01",
+   "type": "gt_hal",
+   "in_seconds": 672.49,
+   "out_seconds": 711.054,
+   "props": {
+    "stock": {
+     "tk": "HAL",
+     "name": "Hindustan Aeronautics",
+     "sector": "Defence \u00b7 aircraft",
+     "cap": "Large-cap",
+     "ltp": 4861.1,
+     "d50": 4652.9,
+     "d200": 4383,
+     "hi52": 5099,
+     "rsi": 53,
+     "beta": 0.97,
+     "leg1": 4760,
+     "trig1": 4775,
+     "q1": 4,
+     "dip1": -1.8,
+     "leg2": 4560,
+     "trig2": 4575,
+     "q2": 4,
+     "dip2": -5.9,
+     "avg": 4675,
+     "sh": 8,
+     "outlay": 37400,
+     "stop": 4090,
+     "stopTrig": 4060,
+     "stopPct": -13.2,
+     "stopRs": 4920,
+     "stopDip": -16.5,
+     "tgt": 5099,
+     "tgtPct": 9.1,
+     "rr": 3.8,
+     "up50": 7012,
+     "up100": 9350,
+     "note": "Above the 50-DMA; both legs are ordinary pullbacks. High conviction."
+    },
+    "dur": 39.064
+   }
+  },
+  {
+   "id": "w02",
+   "type": "gt_syrma",
+   "in_seconds": 711.554,
+   "out_seconds": 750.817,
+   "props": {
+    "stock": {
+     "tk": "SYRMA",
+     "name": "Syrma SGS",
+     "sector": "Small-cap \u00b7 EMS",
+     "cap": "Small-cap",
+     "ltp": 1474.3,
+     "d50": 1411,
+     "d200": 1008,
+     "hi52": 1516.4,
+     "pos52": 95,
+     "rsi": 65,
+     "leg1": 1420,
+     "trig1": 1428,
+     "q1": 14,
+     "dip1": -3.1,
+     "leg2": 1320,
+     "trig2": 1328,
+     "q2": 15,
+     "dip2": -9.9,
+     "avg": 1376.3,
+     "sh": 29,
+     "outlay": 39912,
+     "stop": 1190,
+     "stopTrig": 1180,
+     "stopPct": -14.3,
+     "stopRs": 5692,
+     "stopDip": -20.0,
+     "tgt": 1516.4,
+     "tgtPct": 10.2,
+     "rr": 3.5,
+     "up50": 2064,
+     "up100": 2753,
+     "note": "Extended \u2014 sitting at its 52-week high. Be patient; do not chase."
+    },
+    "dur": 39.763
+   }
+  },
+  {
+   "id": "w2b",
+   "type": "gt_dixon",
+   "in_seconds": 751.317,
+   "out_seconds": 788.329,
+   "props": {
+    "stock": {
+     "tk": "DIXON",
+     "name": "Dixon Technologies",
+     "sector": "Electronics \u00b7 EMS",
+     "cap": "Mid-cap",
+     "ltp": 14650,
+     "d50": 13689,
+     "d200": 12230,
+     "hi52": 18177,
+     "beta": 1.53,
+     "leg1": 14300,
+     "trig1": 14360,
+     "q1": 1,
+     "dip1": -2.0,
+     "leg2": 13700,
+     "trig2": 13760,
+     "q2": 2,
+     "dip2": -6.1,
+     "avg": 13960,
+     "sh": 3,
+     "outlay": 41880,
+     "stop": 12100,
+     "stopTrig": 12000,
+     "stopPct": -14.0,
+     "stopRs": 5880,
+     "stopDip": -18.1,
+     "tgt": 18177,
+     "tgtPct": 30.2,
+     "rr": 3.6,
+     "up50": 20940,
+     "up100": 27920,
+     "note": "\u20b914.6k/share \u2014 only 2\u20133 shares fit. High beta (1.53): wider legs, roomier stop."
+    },
+    "dur": 37.512
+   }
+  },
+  {
+   "id": "w03",
+   "type": "gt_schedule",
+   "in_seconds": 788.829,
+   "out_seconds": 821.642,
+   "props": {
+    "rows": [
+     {
+      "tk": "HAL",
+      "m": 1,
+      "cap": "Large",
+      "sector": "Defence",
+      "color": "#38BDF8",
+      "leg1": 4760,
+      "leg2": 4560,
+      "avg": 4675,
+      "stop": 4090,
+      "tgt": 5099,
+      "rr": 3.8,
+      "outlay": 37400
+     },
+     {
+      "tk": "DIXON",
+      "m": 2,
+      "cap": "Mid",
+      "sector": "EMS",
+      "color": "#34D399",
+      "leg1": 14300,
+      "leg2": 13700,
+      "avg": 13960,
+      "stop": 12100,
+      "tgt": 18177,
+      "rr": 3.6,
+      "outlay": 41880
+     },
+     {
+      "tk": "KEI",
+      "m": 3,
+      "cap": "Mid",
+      "sector": "Cables",
+      "color": "#38BDF8",
+      "leg1": 5420,
+      "leg2": 5150,
+      "avg": 5310,
+      "stop": 4780,
+      "tgt": 5873,
+      "rr": 4.7,
+      "outlay": 42480
+     },
+     {
+      "tk": "SYRMA",
+      "m": 4,
+      "cap": "Small",
+      "sector": "EMS",
+      "color": "#FBBF24",
+      "leg1": 1420,
+      "leg2": 1320,
+      "avg": 1376,
+      "stop": 1190,
+      "tgt": 1516,
+      "rr": 3.5,
+      "outlay": 39912
+     },
+     {
+      "tk": "DATAPATTNS",
+      "m": 5,
+      "cap": "Small",
+      "sector": "Defence elec.",
+      "color": "#FBBF24",
+      "leg1": 4480,
+      "leg2": 4200,
+      "avg": 4349,
+      "stop": 3920,
+      "tgt": 4866,
+      "rr": 4.7,
+      "outlay": 39145
+     }
+    ],
+    "dur": 33.313
+   }
+  },
+  {
+   "id": "k01",
+   "type": "gt_kite",
+   "in_seconds": 822.142,
+   "out_seconds": 861.622,
+   "props": {
+    "dur": 39.98
+   }
+  },
+  {
+   "id": "k1b",
+   "type": "gt_mistakes",
+   "in_seconds": 862.122,
+   "out_seconds": 902.696,
+   "props": {
+    "dur": 41.074
+   }
+  },
+  {
+   "id": "r00",
+   "type": "gt_recap",
+   "in_seconds": 903.196,
+   "out_seconds": 945.663,
+   "props": {
+    "items": [
+     "GTT = Good Till Triggered: a resting order, alive up to a year",
+     "Single = one entry \u00b7 OCO = target + stop, one cancels the other",
+     "Stagger into two legs BELOW price \u2014 average down on dips",
+     "Anchor every price to the chart: 50/200-DMA and RSI",
+     "Bound the loss with a stop; aim at the 52-week high",
+     "Be honest: a double is a bull tail, not the base case",
+     "Size to the monthly budget \u2014 and never chase a runner"
+    ],
+    "closer": "Plan the entry and the exit \u2014 before emotion arrives.",
+    "dur": 42.967
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.655,
+   "You found a good stock."
+  ],
+  [
+   2.286,
+   5.264,
+   "Now comes the question nobody teaches \u2014 how do"
+  ],
+  [
+   5.264,
+   6.919,
+   "you actually buy it well?"
+  ],
+  [
+   7.551,
+   10.529,
+   "In the next half hour, we'll build one complete"
+  ],
+  [
+   10.529,
+   12.845,
+   "plan: a staggered G T T buy-schedule."
+  ],
+  [
+   13.477,
+   16.455,
+   "From what a G T T even is, to"
+  ],
+  [
+   16.455,
+   19.433,
+   "the exact price where every order rests. From the"
+  ],
+  [
+   19.433,
+   20.095,
+   "very beginning."
+  ],
+  [
+   20.595,
+   21.507,
+   "Here's the trap."
+  ],
+  [
+   22.139,
+   24.876,
+   "You like a stock, so you buy your whole"
+  ],
+  [
+   24.876,
+   26.396,
+   "position today, at today's price."
+  ],
+  [
+   27.028,
+   29.156,
+   "That's a bet on a single moment."
+  ],
+  [
+   29.788,
+   32.525,
+   "If it dips the next morning, you feel the"
+  ],
+  [
+   32.525,
+   35.261,
+   "whole fall \u2014 and you've got no cash left"
+  ],
+  [
+   35.261,
+   36.174,
+   "to buy cheaper."
+  ],
+  [
+   36.805,
+   38.326,
+   "A professional does the opposite."
+  ],
+  [
+   38.957,
+   41.694,
+   "They decide, in advance and in writing, exactly\nwhere"
+  ],
+  [
+   41.694,
+   44.431,
+   "to buy, how much, where to quit, and where"
+  ],
+  [
+   44.431,
+   45.039,
+   "they're aiming."
+  ],
+  [
+   45.67,
+   48.407,
+   "Then they let orders wait in the market, so"
+  ],
+  [
+   48.407,
+   49.928,
+   "emotion never gets a vote."
+  ],
+  [
+   50.559,
+   53.296,
+   "That written plan is what we're going to build."
+  ],
+  [
+   53.796,
+   54.992,
+   "Part one. Order types."
+  ],
+  [
+   55.623,
+   57.716,
+   "Before the plan, you need the tool."
+  ],
+  [
+   58.347,
+   61.038,
+   "Let's meet the three kinds of order \u2014 and"
+  ],
+  [
+   61.038,
+   63.13,
+   "the one that makes a schedule possible."
+  ],
+  [
+   63.63,
+   66.499,
+   "Every order answers two questions \u2014 what price, and"
+  ],
+  [
+   66.499,
+   67.455,
+   "for how long."
+  ],
+  [
+   68.087,
+   70.956,
+   "A market order says: buy right now, at whatever"
+  ],
+  [
+   70.956,
+   73.825,
+   "the price is. Fast, but you don't control the"
+  ],
+  [
+   73.825,
+   74.143,
+   "price."
+  ],
+  [
+   74.775,
+   77.644,
+   "A limit order says: buy only at my price"
+  ],
+  [
+   77.644,
+   80.513,
+   "or better \u2014 but it's only valid for today."
+  ],
+  [
+   80.513,
+   83.382,
+   "If it doesn't fill by the closing bell, it"
+  ],
+  [
+   83.382,
+   83.701,
+   "dies."
+  ],
+  [
+   84.332,
+   86.245,
+   "Then there's the G T T."
+  ],
+  [
+   86.876,
+   89.745,
+   "It says: buy at my price \u2014 and stay"
+  ],
+  [
+   89.745,
+   92.295,
+   "alive, waiting, for up to one whole year."
+  ],
+  [
+   92.927,
+   95.796,
+   "That single difference \u2014 patience \u2014 is what lets"
+  ],
+  [
+   95.796,
+   98.346,
+   "you plan an entry weeks before it happens."
+  ],
+  [
+   98.846,
+   101.517,
+   "G T T stands for Good Till Triggered."
+  ],
+  [
+   102.149,
+   104.487,
+   "Think of it as a resting instruction."
+  ],
+  [
+   105.118,
+   108.124,
+   "You set a trigger price. Then the order just"
+  ],
+  [
+   108.124,
+   109.793,
+   "sits there, dormant, doing nothing."
+  ],
+  [
+   110.425,
+   113.096,
+   "It watches the last-traded price, tick by tick."
+  ],
+  [
+   113.728,
+   116.733,
+   "The moment the price touches your trigger, it wakes"
+  ],
+  [
+   116.733,
+   119.071,
+   "up and places your order \u2014 automatically."
+  ],
+  [
+   119.702,
+   122.708,
+   "You don't have to be watching. You don't have"
+  ],
+  [
+   122.708,
+   123.71,
+   "to be awake."
+  ],
+  [
+   124.341,
+   127.347,
+   "Good till triggered \u2014 it waits, patiently, until\nyour"
+  ],
+  [
+   127.347,
+   130.018,
+   "condition is finally met. That's the whole idea."
+  ],
+  [
+   130.518,
+   133.148,
+   "So where does this resting order actually sit?"
+  ],
+  [
+   133.779,
+   136.409,
+   "Picture the market as a ladder of prices."
+  ],
+  [
+   137.041,
+   139.999,
+   "A normal limit order joins a public queue at"
+  ],
+  [
+   139.999,
+   142.957,
+   "the exchange \u2014 visible to everyone, and valid only"
+  ],
+  [
+   142.957,
+   143.615,
+   "for today."
+  ],
+  [
+   144.246,
+   147.205,
+   "A G T T is different. It waits quietly"
+  ],
+  [
+   147.205,
+   149.835,
+   "at your broker, not in the exchange book."
+  ],
+  [
+   150.466,
+   151.781,
+   "Nobody else sees it."
+  ],
+  [
+   152.413,
+   155.371,
+   "Only when the price ladder falls to your trigger"
+  ],
+  [
+   155.371,
+   158.329,
+   "does your broker send the real order down to"
+  ],
+  [
+   158.329,
+   158.987,
+   "the exchange."
+  ],
+  [
+   159.618,
+   162.577,
+   "Until then, it simply rests \u2014 one rung on"
+  ],
+  [
+   162.577,
+   165.535,
+   "the ladder, waiting for the market to come to"
+  ],
+  [
+   165.535,
+   165.864,
+   "it."
+  ],
+  [
+   166.364,
+   169.219,
+   "There are actually two prices in a G T"
+  ],
+  [
+   169.219,
+   169.536,
+   "T."
+  ],
+  [
+   170.168,
+   173.023,
+   "The trigger price \u2014 the level that wakes the"
+  ],
+  [
+   173.023,
+   173.658,
+   "order up."
+  ],
+  [
+   174.289,
+   177.144,
+   "And the limit price \u2014 the price the order"
+  ],
+  [
+   177.144,
+   178.413,
+   "is then placed at."
+  ],
+  [
+   179.045,
+   181.9,
+   "For a buy, you set the trigger a few"
+  ],
+  [
+   181.9,
+   183.169,
+   "rupees above your limit."
+  ],
+  [
+   183.801,
+   186.656,
+   "Why? So that when it fires, the price is"
+  ],
+  [
+   186.656,
+   189.511,
+   "already moving through your limit, and the order\nactually"
+  ],
+  [
+   189.511,
+   189.828,
+   "fills."
+  ],
+  [
+   190.46,
+   193.315,
+   "For our first stock, the trigger sits at forty-seven"
+  ],
+  [
+   193.315,
+   196.17,
+   "seventy-five, and the limit just below, at\nforty-seven sixty."
+  ],
+  [
+   196.802,
+   199.657,
+   "A small gap \u2014 but it's what makes the"
+  ],
+  [
+   199.657,
+   201.243,
+   "order marketable when it triggers."
+  ],
+  [
+   201.743,
+   203.959,
+   "G T T comes in two flavours."
+  ],
+  [
+   204.591,
+   207.44,
+   "The first is Single \u2014 one trigger, one order."
+  ],
+  [
+   207.44,
+   208.389,
+   "That's your entry."
+  ],
+  [
+   209.021,
+   211.87,
+   "The second is O C O: One Cancels the"
+  ],
+  [
+   211.87,
+   212.187,
+   "Other."
+  ],
+  [
+   212.818,
+   215.667,
+   "It holds two triggers on the same stock at"
+  ],
+  [
+   215.667,
+   218.516,
+   "once \u2014 a target above the price, and a"
+  ],
+  [
+   218.516,
+   219.466,
+   "stop-loss below it."
+  ],
+  [
+   220.098,
+   222.947,
+   "Whichever one fires first, the other is cancelled\nautomatically."
+  ],
+  [
+   223.578,
+   226.428,
+   "So you can bracket a position: if it runs"
+  ],
+  [
+   226.428,
+   229.277,
+   "up, you sell into strength; if it falls, the"
+  ],
+  [
+   229.277,
+   230.226,
+   "stop protects you."
+  ],
+  [
+   230.858,
+   233.707,
+   "One order, two exits, and you never have to"
+  ],
+  [
+   233.707,
+   235.923,
+   "choose in the heat of the moment."
+  ],
+  [
+   236.423,
+   237.979,
+   "Part two. The staggered entry."
+  ],
+  [
+   238.611,
+   241.411,
+   "Now that we have the tool, here's the core"
+  ],
+  [
+   241.411,
+   244.212,
+   "idea of the whole method \u2014 and the simple"
+  ],
+  [
+   244.212,
+   245.146,
+   "reason it works."
+  ],
+  [
+   245.646,
+   247.187,
+   "Let's see the problem clearly."
+  ],
+  [
+   247.818,
+   250.592,
+   "Buy everything at once, and your average cost is"
+  ],
+  [
+   250.592,
+   253.365,
+   "exactly today's price \u2014 one dot on the chart."
+  ],
+  [
+   253.997,
+   256.77,
+   "Markets don't move in straight lines. Good stocks\nstill"
+  ],
+  [
+   256.77,
+   259.236,
+   "dip five, eight, ten percent along the way."
+  ],
+  [
+   259.867,
+   262.641,
+   "If you're all-in at the top, that dip is"
+  ],
+  [
+   262.641,
+   265.414,
+   "pure pain, and you have no cash to answer"
+  ],
+  [
+   265.414,
+   265.722,
+   "it."
+  ],
+  [
+   266.354,
+   268.511,
+   "But what if you split the buy?"
+  ],
+  [
+   269.143,
+   271.916,
+   "Place part of it lower, and part of it"
+  ],
+  [
+   271.916,
+   272.533,
+   "lower still."
+  ],
+  [
+   273.164,
+   275.938,
+   "If the dip comes, you buy it \u2014 and"
+  ],
+  [
+   275.938,
+   278.711,
+   "your average cost falls. If it doesn't, you still"
+  ],
+  [
+   278.711,
+   279.944,
+   "own a starter position."
+  ],
+  [
+   280.575,
+   281.808,
+   "You win either way."
+  ],
+  [
+   282.308,
+   285.515,
+   "So we stagger the entry into two legs, both"
+  ],
+  [
+   285.515,
+   286.94,
+   "resting below today's price."
+  ],
+  [
+   287.572,
+   290.779,
+   "Leg one is a shallow dip \u2014 a normal"
+  ],
+  [
+   290.779,
+   292.917,
+   "pullback, one to three percent down."
+  ],
+  [
+   293.548,
+   296.755,
+   "Leg two is a deeper dip \u2014 a more"
+  ],
+  [
+   296.755,
+   299.25,
+   "serious correction, six to ten percent down."
+  ],
+  [
+   299.881,
+   303.088,
+   "Each leg is a G T T buy, waiting"
+  ],
+  [
+   303.088,
+   304.514,
+   "at its own price."
+  ],
+  [
+   305.145,
+   308.352,
+   "For H A L, trading near forty-eight sixty, leg"
+  ],
+  [
+   308.352,
+   311.559,
+   "one rests at forty-seven sixty, leg two down at"
+  ],
+  [
+   311.559,
+   312.272,
+   "forty-five sixty."
+  ],
+  [
+   312.903,
+   316.11,
+   "Buy some higher, more lower \u2014 and your average"
+  ],
+  [
+   316.11,
+   318.248,
+   "lands in between, at forty-six seventy-five."
+  ],
+  [
+   318.88,
+   322.087,
+   "Lower than where you started, without predicting a\nthing."
+  ],
+  [
+   322.587,
+   324.54,
+   "Part three. Anchoring to the chart."
+  ],
+  [
+   325.172,
+   326.799,
+   "Those leg prices weren't guesses."
+  ],
+  [
+   327.431,
+   330.36,
+   "Every number in the plan is pinned to something"
+  ],
+  [
+   330.36,
+   332.639,
+   "real on the chart. Let's see what."
+  ],
+  [
+   333.139,
+   335.054,
+   "The anchors are moving averages."
+  ],
+  [
+   335.686,
+   339.133,
+   "A moving average is just the average of the"
+  ],
+  [
+   339.133,
+   342.581,
+   "last N closing prices, drawn as a smooth line"
+  ],
+  [
+   342.581,
+   344.113,
+   "that follows the trend."
+  ],
+  [
+   344.745,
+   345.894,
+   "Two matter most."
+  ],
+  [
+   346.525,
+   349.973,
+   "The fifty-day average \u2014 the short-term trend. And\nthe"
+  ],
+  [
+   349.973,
+   352.271,
+   "two-hundred-day average \u2014 the long-term trend."
+  ],
+  [
+   352.903,
+   356.35,
+   "Price tends to fall back toward these lines and"
+  ],
+  [
+   356.35,
+   358.649,
+   "bounce. So they act as support."
+  ],
+  [
+   359.28,
+   362.728,
+   "For H A L, the fifty-day sits near forty-six"
+  ],
+  [
+   362.728,
+   365.026,
+   "fifty, the two-hundred-day near forty-three eighty."
+  ],
+  [
+   365.658,
+   369.105,
+   "Leg one hangs at the fifty-day. Leg two reaches"
+  ],
+  [
+   369.105,
+   372.553,
+   "toward the deeper support below. The chart chooses\nthe"
+  ],
+  [
+   372.553,
+   373.702,
+   "prices, not us."
+  ],
+  [
+   374.202,
+   377.444,
+   "Now momentum \u2014 and this is the R S"
+  ],
+  [
+   377.444,
+   379.245,
+   "I, the Relative Strength Index."
+  ],
+  [
+   379.877,
+   383.119,
+   "It's a single number from zero to a hundred."
+  ],
+  [
+   383.751,
+   386.993,
+   "It compares the size of recent gains to recent"
+  ],
+  [
+   386.993,
+   390.235,
+   "losses, over fourteen days. The formula: R S I"
+  ],
+  [
+   390.235,
+   393.477,
+   "equals one hundred, minus one hundred over one plus"
+  ],
+  [
+   393.477,
+   395.638,
+   "average gain divided by average loss."
+  ],
+  [
+   396.27,
+   399.512,
+   "Above seventy, the stock is overbought \u2014 it's run"
+  ],
+  [
+   399.512,
+   400.953,
+   "hot and may pause."
+  ],
+  [
+   401.584,
+   404.827,
+   "Below thirty, it's oversold \u2014 beaten down, and may"
+  ],
+  [
+   404.827,
+   405.187,
+   "bounce."
+  ],
+  [
+   405.818,
+   409.06,
+   "Between forty-five and sixty-five is a healthy,\nsustainable trend."
+  ],
+  [
+   409.692,
+   412.934,
+   "One crucial thing: R S I does not tell"
+  ],
+  [
+   412.934,
+   413.655,
+   "you direction."
+  ],
+  [
+   414.286,
+   417.528,
+   "It only tells you whether a move has gone"
+  ],
+  [
+   417.528,
+   420.77,
+   "too far \u2014 and that's exactly what helps you"
+  ],
+  [
+   420.77,
+   424.013,
+   "decide whether to chase, or to wait for a"
+  ],
+  [
+   424.013,
+   424.733,
+   "deeper leg."
+  ],
+  [
+   425.233,
+   428.122,
+   "Let's read R S I on our two names."
+  ],
+  [
+   428.754,
+   431.643,
+   "H A L sits around fifty-three \u2014 right in"
+  ],
+  [
+   431.643,
+   434.532,
+   "the calm, healthy middle. Momentum is fine; there's\nno"
+  ],
+  [
+   434.532,
+   435.816,
+   "rush, and no froth."
+  ],
+  [
+   436.448,
+   439.337,
+   "So buying the first leg near the price is"
+  ],
+  [
+   439.337,
+   439.658,
+   "reasonable."
+  ],
+  [
+   440.29,
+   443.179,
+   "Syrma is the opposite. Its R S I is"
+  ],
+  [
+   443.179,
+   445.426,
+   "hot, near the top of its range."
+  ],
+  [
+   446.058,
+   448.947,
+   "That's the market telling you the move is stretched."
+  ],
+  [
+   449.579,
+   452.468,
+   "Same tool, opposite message \u2014 one says you may"
+  ],
+  [
+   452.468,
+   455.357,
+   "step in; the other says wait for a deeper"
+  ],
+  [
+   455.357,
+   455.678,
+   "leg."
+  ],
+  [
+   456.31,
+   459.199,
+   "R S I doesn't pick the stock. It paces"
+  ],
+  [
+   459.199,
+   459.841,
+   "your entry."
+  ],
+  [
+   460.341,
+   463.574,
+   "Let's derive the two legs properly, for H A"
+  ],
+  [
+   463.574,
+   463.933,
+   "L."
+  ],
+  [
+   464.564,
+   466.72,
+   "Start from the price, forty-eight sixty-one."
+  ],
+  [
+   467.351,
+   470.584,
+   "Leg one: a shallow pullback of one-point-eight\npercent, down"
+  ],
+  [
+   470.584,
+   473.817,
+   "to forty-seven sixty \u2014 right at the fifty-day line."
+  ],
+  [
+   473.817,
+   476.331,
+   "That's a normal breather in an uptrend."
+  ],
+  [
+   476.962,
+   480.195,
+   "Leg two: a deeper dip of nearly six percent,"
+  ],
+  [
+   480.195,
+   483.428,
+   "down to forty-five sixty \u2014 the kind of correction"
+  ],
+  [
+   483.428,
+   485.942,
+   "that only comes on a bad week."
+  ],
+  [
+   486.574,
+   489.807,
+   "Notice: leg one you'll probably get; leg two only"
+  ],
+  [
+   489.807,
+   492.321,
+   "fills if the market really sells off."
+  ],
+  [
+   492.952,
+   496.185,
+   "That's the point. You're not predicting the dip \u2014"
+  ],
+  [
+   496.185,
+   499.418,
+   "you're ready for it, at a price you decided"
+  ],
+  [
+   499.418,
+   499.777,
+   "calmly."
+  ],
+  [
+   500.277,
+   503.708,
+   "Every entry needs an exit \u2014 two, in fact."
+  ],
+  [
+   504.34,
+   505.483,
+   "First, the stop-loss."
+  ],
+  [
+   506.115,
+   509.546,
+   "We place it below leg two, under the two-hundred-day"
+  ],
+  [
+   509.546,
+   511.071,
+   "line, at forty ninety."
+  ],
+  [
+   511.702,
+   515.133,
+   "It's sized so that from your average of forty-six"
+  ],
+  [
+   515.133,
+   518.564,
+   "seventy-five, the most you can lose is about\nthirteen"
+  ],
+  [
+   518.564,
+   521.995,
+   "percent \u2014 a bounded, known amount. If the thesis"
+  ],
+  [
+   521.995,
+   524.664,
+   "breaks, the O C O sells automatically."
+  ],
+  [
+   525.296,
+   526.439,
+   "Second, the target."
+  ],
+  [
+   527.071,
+   530.502,
+   "The first objective is the fifty-two-week high,\nfifty ninety-nine"
+  ],
+  [
+   530.502,
+   532.408,
+   "\u2014 about nine percent up."
+  ],
+  [
+   533.04,
+   536.471,
+   "And to be honest about the dream: a fifty-percent"
+  ],
+  [
+   536.471,
+   539.902,
+   "gain needs seventy twelve; a double needs\nninety-three fifty."
+  ],
+  [
+   540.533,
+   543.583,
+   "Worth knowing \u2014 so the goal stays real."
+  ],
+  [
+   544.083,
+   545.143,
+   "Now weigh it."
+  ],
+  [
+   545.774,
+   546.834,
+   "Reward to risk."
+  ],
+  [
+   547.466,
+   550.645,
+   "For H A L, you're risking about thirteen percent"
+  ],
+  [
+   550.645,
+   553.824,
+   "to your stop, to make about nine percent to"
+  ],
+  [
+   553.824,
+   557.004,
+   "the first target \u2014 but because the stop is"
+  ],
+  [
+   557.004,
+   560.183,
+   "far and sized in rupees, the plan's reward-to-risk\nworks"
+  ],
+  [
+   560.183,
+   561.949,
+   "out near three-point-eight to one."
+  ],
+  [
+   562.581,
+   563.641,
+   "Good on paper."
+  ],
+  [
+   564.272,
+   566.745,
+   "But here's the honesty most videos skip."
+  ],
+  [
+   567.377,
+   570.556,
+   "The valuation says H A L is roughly fairly"
+  ],
+  [
+   570.556,
+   571.263,
+   "priced already."
+  ],
+  [
+   571.894,
+   575.074,
+   "The bull case is up sixteen percent; the bear"
+  ],
+  [
+   575.074,
+   576.133,
+   "case, down twenty-four."
+  ],
+  [
+   576.765,
+   579.944,
+   "So that plus-fifty, plus-hundred? That's a bull tail\n\u2014"
+  ],
+  [
+   579.944,
+   583.124,
+   "a lovely maybe, not the base case. The growth"
+  ],
+  [
+   583.124,
+   584.89,
+   "is already in the price."
+  ],
+  [
+   585.39,
+   588.547,
+   "There's an even more honest way to check the"
+  ],
+  [
+   588.547,
+   590.302,
+   "target \u2014 imagine three futures."
+  ],
+  [
+   590.933,
+   594.091,
+   "A bear case, where things disappoint. A base case,"
+  ],
+  [
+   594.091,
+   597.248,
+   "the middle. And a bull case, where everything goes"
+  ],
+  [
+   597.248,
+   597.599,
+   "right."
+  ],
+  [
+   598.231,
+   601.388,
+   "For each, you multiply a fair price-to-earnings by\nthe"
+  ],
+  [
+   601.388,
+   602.44,
+   "profit you expect."
+  ],
+  [
+   603.072,
+   606.23,
+   "Then you weight them by how likely each one"
+  ],
+  [
+   606.23,
+   606.58,
+   "is."
+  ],
+  [
+   607.212,
+   610.369,
+   "For H A L, that weighted value lands right"
+  ],
+  [
+   610.369,
+   611.422,
+   "around today's price."
+  ],
+  [
+   612.053,
+   615.211,
+   "The bull case is up sixteen percent; the bear"
+  ],
+  [
+   615.211,
+   616.263,
+   "case, down twenty-four."
+  ],
+  [
+   616.895,
+   620.052,
+   "So the schedule's reward-to-risk looks great, but\nthe valuation"
+  ],
+  [
+   620.052,
+   622.157,
+   "says the name is roughly fair."
+  ],
+  [
+   622.789,
+   624.894,
+   "Both are true. Hold them together."
+  ],
+  [
+   625.394,
+   627.342,
+   "Last piece \u2014 how many shares."
+  ],
+  [
+   627.973,
+   630.895,
+   "The rule here is one stock a month, with"
+  ],
+  [
+   630.895,
+   633.492,
+   "a budget of thirty to fifty thousand rupees."
+  ],
+  [
+   634.124,
+   636.721,
+   "You split that budget across the two legs."
+  ],
+  [
+   637.352,
+   640.274,
+   "For H A L near forty-seven hundred a share,"
+  ],
+  [
+   640.274,
+   643.196,
+   "four shares at leg one and four at leg"
+  ],
+  [
+   643.196,
+   646.117,
+   "two \u2014 eight shares in total, an outlay of"
+  ],
+  [
+   646.117,
+   647.74,
+   "about thirty-seven thousand four hundred."
+  ],
+  [
+   648.372,
+   651.294,
+   "The math has to land on whole shares, so"
+  ],
+  [
+   651.294,
+   651.943,
+   "you round."
+  ],
+  [
+   652.574,
+   655.496,
+   "A pricey stock like Dixon, at fourteen thousand a"
+  ],
+  [
+   655.496,
+   658.418,
+   "share, might only fit two or three shares \u2014"
+  ],
+  [
+   658.418,
+   661.339,
+   "that's fine. Size to the budget, not to the"
+  ],
+  [
+   661.339,
+   661.664,
+   "ego."
+  ],
+  [
+   662.164,
+   664.207,
+   "Part four. The plan in action."
+  ],
+  [
+   664.839,
+   667.904,
+   "Enough theory. Let's run the whole thing end to"
+  ],
+  [
+   667.904,
+   670.968,
+   "end on real names \u2014 one clean, one that"
+  ],
+  [
+   670.968,
+   671.99,
+   "tests your discipline."
+  ],
+  [
+   672.49,
+   675.594,
+   "Watch the full plan fire, on H A L."
+  ],
+  [
+   676.225,
+   677.605,
+   "The price drifts down."
+  ],
+  [
+   678.237,
+   681.34,
+   "It touches forty-seven sixty \u2014 leg one triggers, and"
+  ],
+  [
+   681.34,
+   682.72,
+   "four shares are bought."
+  ],
+  [
+   683.352,
+   686.455,
+   "A rough week takes it lower, to forty-five sixty"
+  ],
+  [
+   686.455,
+   688.87,
+   "\u2014 leg two triggers, four more shares."
+  ],
+  [
+   689.501,
+   692.605,
+   "Eight shares now, at an average of forty-six\nseventy-five."
+  ],
+  [
+   693.237,
+   696.341,
+   "Two exits rest in the market: a stop at"
+  ],
+  [
+   696.341,
+   698.755,
+   "forty ninety, a target at fifty ninety-nine."
+  ],
+  [
+   699.386,
+   702.49,
+   "If it climbs, the target sells and the stop"
+  ],
+  [
+   702.49,
+   705.594,
+   "cancels. If it breaks, the stop sells and the"
+  ],
+  [
+   705.594,
+   706.284,
+   "target cancels."
+  ],
+  [
+   706.915,
+   710.019,
+   "One plan, placed once \u2014 and then you simply"
+  ],
+  [
+   710.019,
+   711.054,
+   "let it work."
+  ],
+  [
+   711.554,
+   713.526,
+   "Now the hard one \u2014 Syrma."
+  ],
+  [
+   714.158,
+   717.116,
+   "Great little company, but look where it's trading:\nright"
+  ],
+  [
+   717.116,
+   720.074,
+   "at its fifty-two-week high, ninety-five percent of\nthe way"
+  ],
+  [
+   720.074,
+   721.389,
+   "up its yearly range."
+  ],
+  [
+   722.021,
+   723.993,
+   "Its R S I is hot."
+  ],
+  [
+   724.624,
+   727.583,
+   "Chase it here, and you're buying the very top."
+  ],
+  [
+   728.214,
+   731.173,
+   "So the plan demands patience. Leg one waits three"
+  ],
+  [
+   731.173,
+   734.131,
+   "percent down; leg two waits almost ten percent down,"
+  ],
+  [
+   734.131,
+   735.446,
+   "on a real correction."
+  ],
+  [
+   736.077,
+   739.036,
+   "And here's the discipline: if only leg one fills"
+  ],
+  [
+   739.036,
+   741.994,
+   "and the stock just keeps running, you do not"
+  ],
+  [
+   741.994,
+   743.309,
+   "chase leg two higher."
+  ],
+  [
+   743.94,
+   746.898,
+   "You let it go, and roll that budget to"
+  ],
+  [
+   746.898,
+   747.556,
+   "next month."
+  ],
+  [
+   748.187,
+   750.817,
+   "The plan protects you from your own excitement."
+  ],
+  [
+   751.317,
+   754.368,
+   "A third example, at a very different scale \u2014"
+  ],
+  [
+   754.368,
+   755.724,
+   "Dixon, the electronics maker."
+  ],
+  [
+   756.356,
+   759.407,
+   "Here one share costs about fourteen thousand six\nhundred"
+  ],
+  [
+   759.407,
+   759.746,
+   "rupees."
+  ],
+  [
+   760.377,
+   763.428,
+   "At a monthly budget of forty thousand, you can"
+  ],
+  [
+   763.428,
+   766.479,
+   "only buy two or three shares \u2014 one at"
+  ],
+  [
+   766.479,
+   768.513,
+   "leg one, two at leg two."
+  ],
+  [
+   769.145,
+   769.823,
+   "That's fine."
+  ],
+  [
+   770.455,
+   773.506,
+   "And Dixon swings hard. Its beta is over\none-and-a-half,"
+  ],
+  [
+   773.506,
+   776.557,
+   "so it moves faster than the market, both ways."
+  ],
+  [
+   777.188,
+   780.239,
+   "So the legs sit a little wider, and the"
+  ],
+  [
+   780.239,
+   783.29,
+   "stop, at twelve thousand one hundred, gives it room"
+  ],
+  [
+   783.29,
+   783.968,
+   "to breathe."
+  ],
+  [
+   784.6,
+   787.651,
+   "Same method \u2014 sized and spaced for a wilder,"
+  ],
+  [
+   787.651,
+   788.329,
+   "pricier stock."
+  ],
+  [
+   788.829,
+   791.862,
+   "Put it together, and you get a schedule \u2014"
+  ],
+  [
+   791.862,
+   794.221,
+   "one pick a month, for five months."
+  ],
+  [
+   794.852,
+   797.885,
+   "H A L, then Dixon, K E I, Syrma,"
+  ],
+  [
+   797.885,
+   798.896,
+   "and Data Patterns."
+  ],
+  [
+   799.528,
+   802.561,
+   "A defence anchor, two electronics makers, a cables\ncompounder,"
+  ],
+  [
+   802.561,
+   803.909,
+   "and a radar specialist."
+  ],
+  [
+   804.54,
+   807.573,
+   "Each with the same four numbers: two legs, a"
+  ],
+  [
+   807.573,
+   810.606,
+   "stop, and a target \u2014 every one anchored to"
+  ],
+  [
+   810.606,
+   811.617,
+   "its own chart."
+  ],
+  [
+   812.249,
+   815.282,
+   "Spreading the buys across months is itself a stagger"
+  ],
+  [
+   815.282,
+   817.641,
+   "\u2014 in time, not just in price."
+  ],
+  [
+   818.272,
+   821.305,
+   "You're never forced to deploy everything into one\nweek's"
+  ],
+  [
+   821.305,
+   821.642,
+   "mood."
+  ],
+  [
+   822.142,
+   824.414,
+   "Finally, placing it \u2014 in Kite, conceptually."
+  ],
+  [
+   825.046,
+   827.967,
+   "You open the stock, choose G T T, and"
+  ],
+  [
+   827.967,
+   830.889,
+   "pick Single for each buy leg \u2014 trigger and"
+  ],
+  [
+   830.889,
+   831.863,
+   "limit, quantity, done."
+  ],
+  [
+   832.495,
+   835.416,
+   "For the exits, you choose O C O, and"
+  ],
+  [
+   835.416,
+   838.338,
+   "set the target above and the stop below in"
+  ],
+  [
+   838.338,
+   838.987,
+   "one order."
+  ],
+  [
+   839.618,
+   840.592,
+   "Three golden rules."
+  ],
+  [
+   841.224,
+   844.146,
+   "One \u2014 never buy blind; always know your stop"
+  ],
+  [
+   844.146,
+   845.119,
+   "before you enter."
+  ],
+  [
+   845.751,
+   848.673,
+   "Two \u2014 a G T T lasts up to"
+  ],
+  [
+   848.673,
+   851.594,
+   "a year, so review it; prices and stories change."
+  ],
+  [
+   852.226,
+   855.147,
+   "Three \u2014 this is a plan, not a promise."
+  ],
+  [
+   855.147,
+   857.744,
+   "The market can gap straight through a trigger."
+  ],
+  [
+   858.376,
+   861.297,
+   "Discipline is the edge \u2014 the orders just enforce"
+  ],
+  [
+   861.297,
+   861.622,
+   "it."
+  ],
+  [
+   862.122,
+   865.05,
+   "Before you go, four ways this plan goes wrong."
+  ],
+  [
+   865.682,
+   868.61,
+   "One \u2014 a gap. If bad news hits, the"
+  ],
+  [
+   868.61,
+   871.538,
+   "price can leap straight past your trigger, and you"
+  ],
+  [
+   871.538,
+   874.466,
+   "fill lower than planned. The plan bounds risk; it"
+  ],
+  [
+   874.466,
+   875.443,
+   "can't erase it."
+  ],
+  [
+   876.074,
+   879.002,
+   "Two \u2014 a stop set too tight. Put it"
+  ],
+  [
+   879.002,
+   881.931,
+   "just under the price, and normal noise will knock"
+  ],
+  [
+   881.931,
+   884.533,
+   "you out. Give it room, below real support."
+  ],
+  [
+   885.165,
+   888.093,
+   "Three \u2014 chasing. The whole point is patience; if"
+  ],
+  [
+   888.093,
+   891.021,
+   "you cancel the wait and buy the top, you've"
+  ],
+  [
+   891.021,
+   892.323,
+   "thrown the plan away."
+  ],
+  [
+   892.954,
+   895.883,
+   "Four \u2014 never reviewing. A G T T lives"
+  ],
+  [
+   895.883,
+   898.811,
+   "for a year; check it, because companies and prices"
+  ],
+  [
+   898.811,
+   899.136,
+   "change."
+  ],
+  [
+   899.768,
+   902.696,
+   "Avoid these four, and the method does its job."
+  ],
+  [
+   903.196,
+   906.277,
+   "So \u2014 that's the whole staggered G T T"
+  ],
+  [
+   906.277,
+   906.619,
+   "buy-schedule."
+  ],
+  [
+   907.25,
+   910.331,
+   "A G T T is a patient, resting order."
+  ],
+  [
+   910.331,
+   913.411,
+   "Single is your entry; O C O brackets the"
+  ],
+  [
+   913.411,
+   913.754,
+   "exit."
+  ],
+  [
+   914.385,
+   917.466,
+   "You stagger into two legs below the price, anchored"
+  ],
+  [
+   917.466,
+   920.546,
+   "to the fifty and two-hundred-day lines and read\nagainst"
+  ],
+  [
+   920.546,
+   921.573,
+   "R S I."
+  ],
+  [
+   922.205,
+   925.285,
+   "You bound the loss with a stop, aim at"
+  ],
+  [
+   925.285,
+   928.366,
+   "the fifty-two-week high, and stay honest that a\ndouble"
+  ],
+  [
+   928.366,
+   930.077,
+   "is only the bull case."
+  ],
+  [
+   930.709,
+   933.105,
+   "Size to your budget, and never chase."
+  ],
+  [
+   933.736,
+   936.817,
+   "None of this is investment advice \u2014 it's a"
+  ],
+  [
+   936.817,
+   939.897,
+   "way of thinking, and a way of removing emotion"
+  ],
+  [
+   939.897,
+   940.924,
+   "from the decision."
+  ],
+  [
+   941.556,
+   944.636,
+   "Plan the entry, and the exit, before emotion\narrives."
+  ],
+  [
+   944.636,
+   945.663,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gt/narration.wav",
+   "volume": 1.0
+  }
+ }
+}

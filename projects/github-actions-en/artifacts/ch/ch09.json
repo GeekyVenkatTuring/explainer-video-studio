@@ -1,0 +1,565 @@
+{
+ "cuts": [
+  {
+   "id": "d09",
+   "type": "gha_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 6.888,
+   "props": {
+    "n": 9,
+    "title": "Cost, Speed & Debugging",
+    "sub": "run it well, fix it fast, automate more",
+    "color": "#F2A93B",
+    "total": 10,
+    "dur": 6.888
+   }
+  },
+  {
+   "id": "b09",
+   "type": "gha_billing",
+   "in_seconds": 6.888,
+   "out_seconds": 40.735,
+   "props": {
+    "dur": 33.847
+   }
+  },
+  {
+   "id": "b09b",
+   "type": "gha_speed",
+   "in_seconds": 40.735,
+   "out_seconds": 68.187,
+   "props": {
+    "dur": 27.452
+   }
+  },
+  {
+   "id": "b09c",
+   "type": "gha_debug",
+   "in_seconds": 68.187,
+   "out_seconds": 102.483,
+   "props": {
+    "dur": 34.296
+   }
+  },
+  {
+   "id": "b09d",
+   "type": "gha_beyond",
+   "in_seconds": 102.483,
+   "out_seconds": 136.108,
+   "props": {
+    "dur": 33.625
+   }
+  },
+  {
+   "id": "b09e",
+   "type": "gha_yaml",
+   "in_seconds": 136.108,
+   "out_seconds": 171.235,
+   "props": {
+    "kicker": "AUTOMATION RECIPE 1",
+    "title": "Auto-triage every new issue",
+    "file": ".github/workflows/triage.yml",
+    "lines": [
+     "on:",
+     "  issues:",
+     "    types: [opened]",
+     "permissions:",
+     "  issues: write",
+     "jobs:",
+     "  triage:",
+     "    runs-on: ubuntu-latest",
+     "    env:",
+     "      NUM: ${{ github.event.issue.number }}",
+     "      GH_TOKEN: ${{ github.token }}",
+     "    steps:",
+     "      - if: contains(github.event.issue.title, 'bug')",
+     "        run: gh issue edit $NUM --add-label bug",
+     "      - run: gh issue comment $NUM --body \"Thanks!\""
+    ],
+    "notes": [
+     {
+      "a": 0,
+      "b": 2,
+      "at": 0.1,
+      "c": "#F2A93B",
+      "t": "runs when an issue is opened"
+     },
+     {
+      "a": 3,
+      "b": 4,
+      "at": 0.2,
+      "c": "#F85149",
+      "t": "just enough permission: write issues"
+     },
+     {
+      "a": 8,
+      "b": 10,
+      "at": 0.32,
+      "c": "#BC8CFF",
+      "t": "issue number via env (safe) \u00b7 token for the gh CLI"
+     },
+     {
+      "a": 12,
+      "b": 13,
+      "at": 0.56,
+      "c": "#58A6FF",
+      "t": "title mentions \u201cbug\u201d? \u2192 add the bug label"
+     },
+     {
+      "a": 14,
+      "b": 14,
+      "at": 0.7,
+      "c": "#3FB950",
+      "t": "always post a friendly first reply"
+     }
+    ],
+    "dur": 35.127
+   }
+  },
+  {
+   "id": "b09f",
+   "type": "gha_yaml",
+   "in_seconds": 171.235,
+   "out_seconds": 204.726,
+   "props": {
+    "kicker": "AUTOMATION RECIPE 2",
+    "title": "Ship a release on every version tag",
+    "file": ".github/workflows/release.yml",
+    "lines": [
+     "on:",
+     "  push:",
+     "    tags: ['v*']",
+     "permissions:",
+     "  contents: write",
+     "jobs:",
+     "  release:",
+     "    runs-on: ubuntu-latest",
+     "    steps:",
+     "      - uses: actions/checkout@v4",
+     "      - run: npm ci && npm run build",
+     "      - run: zip -r app.zip dist",
+     "      - run: gh release create \"$TAG\" app.zip --generate-notes",
+     "        env:",
+     "          TAG: ${{ github.ref_name }}",
+     "          GH_TOKEN: ${{ github.token }}"
+    ],
+    "notes": [
+     {
+      "a": 0,
+      "b": 2,
+      "at": 0.08,
+      "c": "#F2A93B",
+      "t": "any tag starting with v \u2014 like v1.4.0"
+     },
+     {
+      "a": 3,
+      "b": 4,
+      "at": 0.2,
+      "c": "#F85149",
+      "t": "contents: write \u2014 needed to create a release"
+     },
+     {
+      "a": 9,
+      "b": 11,
+      "at": 0.32,
+      "c": "#58A6FF",
+      "t": "check out, build, and zip the app"
+     },
+     {
+      "a": 12,
+      "b": 15,
+      "at": 0.41,
+      "c": "#3FB950",
+      "t": "create the release, attach the zip, auto-write notes"
+     },
+     {
+      "a": -1,
+      "b": -1,
+      "at": 0.66,
+      "c": "#BC8CFF",
+      "t": "ship = git tag v1.4.0 && git push --tags"
+     }
+    ],
+    "dur": 33.491
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.919,
+   "Part nine. Running Actions well."
+  ],
+  [
+   2.55,
+   6.004,
+   "Cost, speed, debugging \u2014 and what else you can"
+  ],
+  [
+   6.004,
+   6.388,
+   "automate."
+  ],
+  [
+   6.888,
+   10.271,
+   "First, cost. Public repositories on standard runners\nare free."
+  ],
+  [
+   10.902,
+   14.285,
+   "Private repos get a monthly allowance of free\nminutes"
+  ],
+  [
+   14.285,
+   17.668,
+   "\u2014 two thousand on the Free plan, more on"
+  ],
+  [
+   17.668,
+   18.42,
+   "paid plans."
+  ],
+  [
+   19.051,
+   22.434,
+   "Beyond that, you pay per minute. Linux is the"
+  ],
+  [
+   22.434,
+   25.817,
+   "cheapest, Windows costs more, and macOS costs the\nmost."
+  ],
+  [
+   26.448,
+   29.831,
+   "One detail: each job is rounded up to a"
+  ],
+  [
+   29.831,
+   33.214,
+   "whole minute. So twelve jobs of ten seconds bill"
+  ],
+  [
+   33.214,
+   35.093,
+   "as twelve minutes, not two."
+  ],
+  [
+   35.725,
+   39.107,
+   "A giant matrix of tiny jobs can cost more"
+  ],
+  [
+   39.107,
+   40.235,
+   "than you'd think."
+  ],
+  [
+   40.735,
+   44.044,
+   "Now speed. A slow pipeline is a tax on"
+  ],
+  [
+   44.044,
+   45.147,
+   "every single change."
+  ],
+  [
+   45.778,
+   47.249,
+   "Start by caching dependencies."
+  ],
+  [
+   47.881,
+   50.454,
+   "Then split the work into parallel jobs."
+  ],
+  [
+   51.086,
+   53.66,
+   "For big builds, try a larger runner."
+  ],
+  [
+   54.291,
+   57.6,
+   "Stack those three, and an eighteen minute pipeline\ncan"
+  ],
+  [
+   57.6,
+   59.071,
+   "drop to about five."
+  ],
+  [
+   59.702,
+   63.011,
+   "Path filters and cancel in progress go further \u2014"
+  ],
+  [
+   63.011,
+   64.482,
+   "they skip runs altogether."
+  ],
+  [
+   65.113,
+   67.687,
+   "Faster feedback means developers stay in flow."
+  ],
+  [
+   68.187,
+   71.356,
+   "Sooner or later, a run goes red. Here's how"
+  ],
+  [
+   71.356,
+   72.413,
+   "to debug it."
+  ],
+  [
+   73.045,
+   76.214,
+   "Open the failed step. The error is usually in"
+  ],
+  [
+   76.214,
+   79.383,
+   "the last few lines, and GitHub marks it with"
+  ],
+  [
+   79.383,
+   80.088,
+   "an annotation."
+  ],
+  [
+   80.719,
+   83.889,
+   "Re-run just the failed jobs, instead of the whole"
+  ],
+  [
+   83.889,
+   84.241,
+   "workflow."
+  ],
+  [
+   84.873,
+   88.042,
+   "Still stuck? Re-run with debug logging on, for much"
+  ],
+  [
+   88.042,
+   88.746,
+   "more detail."
+  ],
+  [
+   89.378,
+   92.547,
+   "To iterate faster, the open source tool act runs"
+  ],
+  [
+   92.547,
+   94.308,
+   "your workflows locally, in Docker."
+  ],
+  [
+   94.94,
+   98.109,
+   "And write to the job summary \u2014 a markdown"
+  ],
+  [
+   98.109,
+   101.279,
+   "report right on the run page, for test results"
+  ],
+  [
+   101.279,
+   101.983,
+   "and links."
+  ],
+  [
+   102.483,
+   106.392,
+   "Finally, remember: Actions is an automation\nplatform, not just"
+  ],
+  [
+   106.392,
+   106.826,
+   "CI."
+  ],
+  [
+   107.458,
+   111.366,
+   "Teams use it to label and triage new issues,"
+  ],
+  [
+   111.366,
+   114.407,
+   "close stale ones, and welcome first-time\ncontributors."
+  ],
+  [
+   115.038,
+   118.078,
+   "To generate release notes, and bump versions."
+  ],
+  [
+   118.71,
+   121.75,
+   "To run nightly scrapers, reports and backups."
+  ],
+  [
+   122.382,
+   126.29,
+   "And increasingly, to power AI. GitHub's own Copilot\ncoding"
+  ],
+  [
+   126.29,
+   130.199,
+   "agent does its work inside an environment powered by"
+  ],
+  [
+   130.199,
+   130.633,
+   "Actions."
+  ],
+  [
+   131.265,
+   135.174,
+   "If it happens on GitHub, you can probably automate"
+  ],
+  [
+   135.174,
+   135.608,
+   "it."
+  ],
+  [
+   136.108,
+   138.421,
+   "Let's build two automations. First: auto-triage."
+  ],
+  [
+   139.052,
+   141.751,
+   "The trigger is issues, of type opened."
+  ],
+  [
+   142.382,
+   145.466,
+   "The job only needs permission to write issues."
+  ],
+  [
+   146.098,
+   149.567,
+   "We pass the issue number through an environment\nvariable"
+  ],
+  [
+   149.567,
+   153.036,
+   "\u2014 the safe pattern from the security chapter \u2014"
+  ],
+  [
+   153.036,
+   156.505,
+   "along with the token that the gh command line"
+  ],
+  [
+   156.505,
+   157.276,
+   "tool needs."
+  ],
+  [
+   157.908,
+   161.377,
+   "If the title mentions bug, add the bug label."
+  ],
+  [
+   162.009,
+   165.478,
+   "Then post a friendly first reply, so nobody waits"
+  ],
+  [
+   165.478,
+   166.249,
+   "in silence."
+  ],
+  [
+   166.88,
+   170.35,
+   "Fifteen lines, and every new issue is triaged within"
+  ],
+  [
+   170.35,
+   170.735,
+   "seconds."
+  ],
+  [
+   171.235,
+   171.984,
+   "Second: releases."
+  ],
+  [
+   172.615,
+   175.985,
+   "This workflow triggers on any tag that starts with"
+  ],
+  [
+   175.985,
+   176.359,
+   "v."
+  ],
+  [
+   176.991,
+   179.611,
+   "Creating a release needs contents write permission."
+  ],
+  [
+   180.243,
+   183.612,
+   "It checks out the code, builds it, and zips"
+  ],
+  [
+   183.612,
+   184.361,
+   "the output."
+  ],
+  [
+   184.993,
+   188.362,
+   "Then a single gh command creates the release,\nattaches"
+  ],
+  [
+   188.362,
+   191.731,
+   "the zip, and writes release notes from the merged"
+  ],
+  [
+   191.731,
+   192.48,
+   "pull requests."
+  ],
+  [
+   193.112,
+   196.481,
+   "Now shipping a version is just: create a tag,"
+  ],
+  [
+   196.481,
+   197.604,
+   "push it, done."
+  ],
+  [
+   198.236,
+   201.605,
+   "Issues, releases, schedules, chat ops \u2014 once you see"
+  ],
+  [
+   201.605,
+   204.226,
+   "the pattern, you'll want to automate everything."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "gha/narration_ch09.wav",
+   "volume": 1.0
+  }
+ }
+}

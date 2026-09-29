@@ -1,0 +1,422 @@
+{
+ "cuts": [
+  {
+   "id": "ch19_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 13.226,
+   "props": {
+    "n": 19,
+    "total": 20,
+    "title": "All Together",
+    "lines": [
+     "The book compresses into a short list of behaviours, not a formula.",
+     "Go out of your way to find humility when things are going well."
+    ],
+    "color": "#E8B86D",
+    "dur": 13.726
+   }
+  },
+  {
+   "id": "ch19_together",
+   "type": "pm_list",
+   "in_seconds": 13.726,
+   "out_seconds": 56.952,
+   "props": {
+    "kicker": "CHAPTER 19 \u00b7 THE COMPRESSION",
+    "title": "What to actually do",
+    "items": [
+     "Go out of your way to find humility when things are going right, and forgiveness when they go wrong.",
+     "Less ego, more wealth: define enough; save; leave room for error.",
+     "Manage your money in a way that helps you sleep at night.",
+     "Increase your time horizon. Time is the most powerful force in investing, as Buffett's calendar showed.",
+     "Become OK with a lot of things going wrong. Tails drive the outcome.",
+     "Use money to gain control of your time. Avoid taking financial cues from people playing a different game.",
+     "Respect the fee: volatility. Pay it if you want the return. Be nicer and less extreme."
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 43.726
+   }
+  },
+  {
+   "id": "ch19_together-more",
+   "type": "pm_list",
+   "in_seconds": 57.452,
+   "out_seconds": 92.02,
+   "props": {
+    "kicker": "ALL TOGETHER \u00b7 SECOND PASS",
+    "title": "The behaviours again, slower",
+    "items": [
+     "Humility in good times, forgiveness in bad. Outcomes mix luck into skill.",
+     "Define enough. Save more than is fashionable. Leave slack.",
+     "Sleep is a constraint. If the plan wrecks sleep, it will wreck compounding.",
+     "Lengthen the horizon. Buffett's calendar is the exhibit.",
+     "Accept that many things will fail. Own a wide enough net for the 4% and the 7%.",
+     "Buy time. Ignore players on another clock. Pay volatility if you want the return."
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 35.068
+   }
+  },
+  {
+   "id": "ch19_nicer",
+   "type": "pm_sheet",
+   "in_seconds": 92.52,
+   "out_seconds": 125.326,
+   "props": {
+    "kicker": "BE NICER AND LESS EXTREME",
+    "title": "The last compression",
+    "rows": [
+     {
+      "k": "Humility",
+      "v": "When it is going well, hunt for the luck you are not crediting. That is how you stay kind.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Forgive",
+      "v": "When it is going badly, hunt for the risk that was always there. That is how you stay sane.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Sleep",
+      "v": "If the plan wrecks sleep, it will wreck compounding. Sleep is a financial constraint.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Tails",
+      "v": "Become OK with a lot going wrong. Own a net wide enough for the four percent and the seven percent.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Fee",
+      "v": "Volatility is the fee. Pay it if you want the return. Skip the product if you will not pay.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 33.306
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.825,
+   "Chapter 19."
+  ],
+  [
+   0.825,
+   1.65,
+   "All Together."
+  ],
+  [
+   2.282,
+   5.582,
+   "The book compresses into a short list of"
+  ],
+  [
+   5.582,
+   5.994,
+   "behaviours,"
+  ],
+  [
+   5.994,
+   7.232,
+   "not a formula."
+  ],
+  [
+   7.863,
+   11.163,
+   "Go out of your way to find humility"
+  ],
+  [
+   11.163,
+   13.226,
+   "when things are going well."
+  ],
+  [
+   13.726,
+   16.731,
+   "Go out of your way to find humility"
+  ],
+  [
+   16.731,
+   18.609,
+   "when things are going right,"
+  ],
+  [
+   18.609,
+   20.862,
+   "and forgiveness when they go wrong."
+  ],
+  [
+   21.494,
+   22.245,
+   "Less ego,"
+  ],
+  [
+   22.245,
+   22.996,
+   "more wealth:"
+  ],
+  [
+   22.996,
+   23.747,
+   "define enough,"
+  ],
+  [
+   23.747,
+   24.123,
+   "save,"
+  ],
+  [
+   24.123,
+   25.625,
+   "leave room for error."
+  ],
+  [
+   26.257,
+   29.261,
+   "Manage your money in a way that helps"
+  ],
+  [
+   29.261,
+   30.764,
+   "you sleep at night."
+  ],
+  [
+   31.395,
+   32.898,
+   "Increase your time horizon."
+  ],
+  [
+   32.898,
+   35.902,
+   "Time is the most powerful force in\ninvesting,"
+  ],
+  [
+   35.902,
+   37.405,
+   "as Buffett's calendar showed."
+  ],
+  [
+   38.036,
+   41.041,
+   "Become OK with a lot of things going"
+  ],
+  [
+   41.041,
+   41.417,
+   "wrong."
+  ],
+  [
+   41.417,
+   42.919,
+   "Tails drive the outcome."
+  ],
+  [
+   43.55,
+   46.555,
+   "Use money to gain control of your time."
+  ],
+  [
+   46.555,
+   49.56,
+   "Avoid taking financial cues from people\nplaying a"
+  ],
+  [
+   49.56,
+   50.311,
+   "different game."
+  ],
+  [
+   50.943,
+   52.069,
+   "Respect the fee:"
+  ],
+  [
+   52.069,
+   52.445,
+   "volatility."
+  ],
+  [
+   52.445,
+   55.074,
+   "Pay it if you want the return."
+  ],
+  [
+   55.074,
+   56.952,
+   "Be nicer and less extreme."
+  ],
+  [
+   57.452,
+   59.127,
+   "Humility in good times,"
+  ],
+  [
+   59.127,
+   60.384,
+   "forgiveness in bad."
+  ],
+  [
+   60.384,
+   62.478,
+   "Outcomes mix luck into skill."
+  ],
+  [
+   63.109,
+   63.947,
+   "Define enough."
+  ],
+  [
+   63.947,
+   66.041,
+   "Save more than is fashionable."
+  ],
+  [
+   66.041,
+   66.878,
+   "Leave slack."
+  ],
+  [
+   67.51,
+   69.185,
+   "Sleep is a constraint."
+  ],
+  [
+   69.185,
+   71.279,
+   "If the plan wrecks sleep,"
+  ],
+  [
+   71.279,
+   72.954,
+   "it will wreck compounding."
+  ],
+  [
+   73.586,
+   74.842,
+   "Lengthen the horizon."
+  ],
+  [
+   74.842,
+   76.936,
+   "Buffett's calendar is the exhibit."
+  ],
+  [
+   77.568,
+   80.081,
+   "Accept that many things will fail."
+  ],
+  [
+   80.081,
+   83.431,
+   "Own a wide enough net for the four"
+  ],
+  [
+   83.431,
+   85.525,
+   "percent and the seven percent."
+  ],
+  [
+   86.157,
+   86.994,
+   "Buy time."
+  ],
+  [
+   86.994,
+   89.088,
+   "Ignore players on another clock."
+  ],
+  [
+   89.088,
+   92.02,
+   "Pay volatility if you want the return."
+  ],
+  [
+   92.52,
+   94.184,
+   "When it is going well,"
+  ],
+  [
+   94.184,
+   96.846,
+   "hunt for the luck you are not crediting."
+  ],
+  [
+   96.846,
+   98.842,
+   "That is how you stay kind."
+  ],
+  [
+   99.474,
+   101.137,
+   "When it is going badly,"
+  ],
+  [
+   101.137,
+   103.799,
+   "hunt for the risk that was always there."
+  ],
+  [
+   103.799,
+   105.796,
+   "That is how you stay sane."
+  ],
+  [
+   106.427,
+   108.091,
+   "If the plan wrecks sleep,"
+  ],
+  [
+   108.091,
+   109.422,
+   "it will wreck compounding."
+  ],
+  [
+   109.422,
+   111.086,
+   "Sleep is a financial constraint."
+  ],
+  [
+   111.717,
+   114.047,
+   "Become OK with a lot going wrong."
+  ],
+  [
+   114.047,
+   116.709,
+   "Own a net wide enough for the four"
+  ],
+  [
+   116.709,
+   118.372,
+   "percent and the seven percent."
+  ],
+  [
+   119.004,
+   120.335,
+   "Volatility is the fee."
+  ],
+  [
+   120.335,
+   122.664,
+   "Pay it if you want the return."
+  ],
+  [
+   122.664,
+   125.326,
+   "Skip the product if you will not pay."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch19.wav",
+   "volume": 1.0
+  }
+ }
+}

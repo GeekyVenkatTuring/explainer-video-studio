@@ -1,0 +1,640 @@
+{
+ "cuts": [
+  {
+   "id": "shah_title",
+   "type": "sm_ptitle",
+   "in_seconds": 0.0,
+   "out_seconds": 27.849,
+   "props": {
+    "title": "Shah Investor's Home IPO",
+    "sub": "Stock broking, Gujarat · ₹90.17 Cr · 28–30 Sep 2026",
+    "kicker": "IPO ANALYSIS · MAINBOARD · 100% FRESH",
+    "dur": 28.349
+   }
+  },
+  {
+   "id": "shah_biz",
+   "type": "sm_iconcards",
+   "in_seconds": 28.349,
+   "out_seconds": 51.515,
+   "props": {
+    "kicker": "WHAT THE COMPANY DOES",
+    "title": "Business Model",
+    "color": "#F472B6",
+    "items": [
+     {
+      "emoji": "📈",
+      "k": "Stock broking",
+      "v": "A Gujarat-based broking house with a sizeable client base across the state.",
+      "chip": "BROKING"
+     },
+     {
+      "emoji": "💻",
+      "k": "Technology-led service",
+      "v": "Online platforms to serve and retain clients.",
+      "chip": "TECH"
+     },
+     {
+      "emoji": "📉",
+      "k": "A weaker FY26",
+      "v": "Revenue fell 24.18% and profit fell 44.03% in FY26.",
+      "chip": "WATCH"
+     }
+    ],
+    "dur": 23.665
+   }
+  },
+  {
+   "id": "shah_fin",
+   "type": "sm_stats",
+   "in_seconds": 52.015,
+   "out_seconds": 89.833,
+   "props": {
+    "kicker": "FINANCIAL QUALITY · RESTATED (RHP)",
+    "title": "FY26 Financials",
+    "stats": [
+     {
+      "label": "Revenue from operations",
+      "to": 71.4767,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "FY25: ₹94.27 Cr · −24.18%"
+     },
+     {
+      "label": "Profit after tax",
+      "to": 13.1064,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "FY25: ₹23.42 Cr"
+     },
+     {
+      "label": "PAT margin (computed)",
+      "to": 18.336604795688668,
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 2,
+      "color": "#FBBF24",
+      "sub": "FY25: 24.84%"
+     }
+    ],
+    "note": "FY26 revenue ₹71.48 Cr (FY25 ₹94.27 Cr); PAT ₹13.11 Cr (FY25 ₹23.42 Cr). Return on net worth 7.35%.",
+    "dur": 38.319
+   }
+  },
+  {
+   "id": "shah_issue",
+   "type": "sm_stats",
+   "in_seconds": 90.333,
+   "out_seconds": 103.399,
+   "props": {
+    "kicker": "OFFER STRUCTURE · COMPUTED AT CAP",
+    "title": "Fresh Issue vs Offer for Sale",
+    "stats": [
+     {
+      "label": "Total offer (at cap)",
+      "to": 90.17,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#F472B6",
+      "sub": "band ₹159–₹167"
+     },
+     {
+      "label": "Fresh issue → company",
+      "to": 90.17,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "new capital"
+     },
+     {
+      "label": "Offer for sale → sellers",
+      "to": 0.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "none: 100% fresh"
+     }
+    ],
+    "note": "100% fresh issue: every rupee raised goes to the company.",
+    "dur": 13.565
+   }
+  },
+  {
+   "id": "shah_proceeds",
+   "type": "sm_iconcards",
+   "in_seconds": 103.899,
+   "out_seconds": 124.748,
+   "props": {
+    "kicker": "USE OF PROCEEDS · RHP OBJECTS",
+    "title": "Where The Money Goes",
+    "color": "#F472B6",
+    "items": [
+     {
+      "emoji": "💼",
+      "k": "₹60.00 Cr working capital",
+      "v": "Most of the proceeds fund working capital for the broking business.",
+      "chip": "WC"
+     },
+     {
+      "emoji": "🧰",
+      "k": "General corporate purposes",
+      "v": "The balance, capped at 25% of gross proceeds.",
+      "chip": "GCP"
+     },
+     {
+      "emoji": "✅",
+      "k": "No offer for sale",
+      "v": "All 53,99,200 shares are new; the whole ₹90.17 Cr enters the company.",
+      "chip": "FRESH"
+     }
+    ],
+    "dur": 21.349
+   }
+  },
+  {
+   "id": "shah_peers",
+   "type": "sm_peers",
+   "in_seconds": 125.248,
+   "out_seconds": 158.321,
+   "props": {
+    "kicker": "VALUATION · P/E AT CAP vs LISTED PEERS",
+    "title": "Peer Comparison",
+    "color": "#F472B6",
+    "rows": [
+     {
+      "name": "Shah Investor's Home",
+      "pe": 19.93,
+      "note": "₹167 cap ÷ FY26 EPS ₹8.38",
+      "hi": true,
+      "display": "19.93x"
+     },
+     {
+      "name": "Share India Securities",
+      "pe": 11.7,
+      "note": "broking peer",
+      "hi": false,
+      "display": "11.70x"
+     },
+     {
+      "name": "SMC Global",
+      "pe": 16.28,
+      "note": "broking peer",
+      "hi": false,
+      "display": "16.28x"
+     },
+     {
+      "name": "Arihant Capital",
+      "pe": 27.09,
+      "note": "broking peer",
+      "hi": false,
+      "display": "27.09x"
+     }
+    ],
+    "verdict": "At 19.93x FY26 EPS, Shah sits in the middle of its broking peers, after a falling year.",
+    "dur": 33.573
+   }
+  },
+  {
+   "id": "shah_verdict",
+   "type": "sm_myths",
+   "in_seconds": 158.821,
+   "out_seconds": 189.399,
+   "props": {
+    "kicker": "BALANCED ANALYSIS",
+    "title": "Strengths vs Watch-outs",
+    "mythLabel": "⚠️ WATCH-OUTS",
+    "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+    "pairs": [
+     {
+      "m": "FY26 PAT fell 44.03%",
+      "f": "100% fresh, no promoter exit"
+     },
+     {
+      "m": "Low 7.35% return on net worth",
+      "f": "Established Gujarat client base"
+     },
+     {
+      "m": "Income tied to market activity",
+      "f": "19.93x P/E, mid-range of peers"
+     }
+    ],
+    "dur": 31.077
+   }
+  },
+  {
+   "id": "shah_apply",
+   "type": "sm_iconcards",
+   "in_seconds": 189.899,
+   "out_seconds": 213.692,
+   "props": {
+    "kicker": "HOW TO APPLY",
+    "title": "Check Terms Before You Bid",
+    "color": "#F472B6",
+    "items": [
+     {
+      "emoji": "🧑",
+      "k": "Retail: up to ₹2 lakh",
+      "v": "Individual bids up to ₹2,00,000; lottery allotment if oversubscribed.",
+      "chip": "RETAIL"
+     },
+     {
+      "emoji": "💰",
+      "k": "Minimum bid",
+      "v": "85 shares × ₹167 = ₹14,195",
+      "chip": "1 LOT"
+     },
+     {
+      "emoji": "📅",
+      "k": "Bidding window",
+      "v": "28–30 Sep 2026 · UPI mandate by 5 PM on the last day.",
+      "chip": "DATES"
+     },
+     {
+      "emoji": "🔎",
+      "k": "Verify live",
+      "v": "Live subscription on NSE/BSE; the final RHP for everything else.",
+      "chip": "SOURCES"
+     }
+    ],
+    "dur": 24.293
+   }
+  },
+  {
+   "id": "shah_recap",
+   "type": "sm_recap",
+   "in_seconds": 214.192,
+   "out_seconds": 255.917,
+   "props": {
+    "title": "Shah Investor's Home IPO — Recap",
+    "items": [
+     "FY26: revenue ₹71.48 Cr · PAT ₹13.11 Cr (18.34% margin)",
+     "Offer ₹90.17 Cr · 100% fresh",
+     "Valuation: 19.93x FY26 EPS at the ₹167 cap",
+     "Minimum: ₹14,195 · 28–30 Sep 2026"
+    ],
+    "closer": "Education, not advice: read the RHP, decide for yourself.",
+    "dur": 42.225
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   4.043,
+   "This is the Shah Investor's Home I P O, a mainboard offer,"
+  ],
+  [
+   4.043,
+   8.085,
+   "open from the twenty-eighth to the thirtieth of September."
+  ],
+  [
+   8.585,
+   11.648,
+   "The price band is ₹159 to ₹167."
+  ],
+  [
+   11.648,
+   17.674,
+   "Every figure here comes from the final red herring prospectus"
+  ],
+  [
+   17.674,
+   19.749,
+   "and exchange notices;"
+  ],
+  [
+   19.749,
+   23.601,
+   "the final price is fixed after bidding,"
+  ],
+  [
+   23.601,
+   27.849,
+   "so valuations are computed at the ₹167 cap."
+  ],
+  [
+   28.349,
+   29.587,
+   "First, the business."
+  ],
+  [
+   30.087,
+   34.378,
+   "Shah Investor's Home is a stock broker with a sizeable client"
+  ],
+  [
+   34.378,
+   35.785,
+   "base across Gujarat,"
+  ],
+  [
+   35.785,
+   38.599,
+   "using online platforms to serve clients."
+  ],
+  [
+   39.099,
+   46.478,
+   "Broking income moves with market activity, and FY26 was weaker:"
+  ],
+  [
+   46.478,
+   51.515,
+   "revenue fell 24.18% and profit fell 44.03%."
+  ],
+  [
+   52.015,
+   53.615,
+   "The financial checkpoint."
+  ],
+  [
+   54.115,
+   64.623,
+   "FY26 revenue was ₹71.48 Cr, against ₹94.27 Cr in FY25,"
+  ],
+  [
+   64.623,
+   68.515,
+   "a change of -24.18%."
+  ],
+  [
+   69.015,
+   76.247,
+   "Profit after tax was ₹13.11 Cr, a margin of 18.34%."
+  ],
+  [
+   76.747,
+   78.176,
+   "Both lines went down."
+  ],
+  [
+   78.676,
+   84.398,
+   "Profit fell to ₹13.11 Cr from ₹23.42 Cr,"
+  ],
+  [
+   84.398,
+   89.833,
+   "and the return on net worth was 7.35%."
+  ],
+  [
+   90.333,
+   94.657,
+   "The offer size at the cap is ₹90.17 Cr,"
+  ],
+  [
+   94.657,
+   97.651,
+   "and it is 100% fresh issue."
+  ],
+  [
+   98.151,
+   100.536,
+   "All of that money goes into the company;"
+  ],
+  [
+   100.536,
+   103.399,
+   "no existing shareholder is selling in this deal."
+  ],
+  [
+   103.899,
+   105.221,
+   "Where does the money go?"
+  ],
+  [
+   105.721,
+   111.975,
+   "It is a 100% fresh issue of 53,99,200 shares,"
+  ],
+  [
+   111.975,
+   115.727,
+   "about ₹90.17 Cr at the cap."
+  ],
+  [
+   116.227,
+   118.558,
+   "₹60.00 Cr funds working capital,"
+  ],
+  [
+   118.558,
+   122.2,
+   "and the balance is for general corporate purposes."
+  ],
+  [
+   122.7,
+   124.748,
+   "No existing shareholder is selling."
+  ],
+  [
+   125.248,
+   126.251,
+   "Valuation."
+  ],
+  [
+   126.751,
+   129.278,
+   "At the ₹167 cap,"
+  ],
+  [
+   129.278,
+   137.332,
+   "the price is 19.93x FY26 earnings of ₹8.38 a share."
+  ],
+  [
+   137.832,
+   146.225,
+   "Broking peers range from Share India at 11.70x and S M C Global"
+  ],
+  [
+   146.225,
+   151.421,
+   "at 16.28x to Arihant Capital at 27.09x."
+  ],
+  [
+   151.921,
+   153.591,
+   "That is mid-range,"
+  ],
+  [
+   153.591,
+   158.321,
+   "but it is priced on a year when profit fell 44.03%."
+  ],
+  [
+   158.821,
+   160.315,
+   "Now balance the evidence."
+  ],
+  [
+   160.815,
+   162.293,
+   "Watch-out:"
+  ],
+  [
+   162.293,
+   165.396,
+   "FY26 PAT fell 44.03%."
+  ],
+  [
+   165.396,
+   166.726,
+   "Strength:"
+  ],
+  [
+   166.726,
+   171.012,
+   "100% fresh, no promoter exit."
+  ],
+  [
+   171.512,
+   172.555,
+   "Watch-out:"
+  ],
+  [
+   172.555,
+   175.684,
+   "Low 7.35% return on net worth."
+  ],
+  [
+   175.684,
+   176.623,
+   "Strength:"
+  ],
+  [
+   176.623,
+   179.96,
+   "Established Gujarat client base."
+  ],
+  [
+   180.46,
+   181.564,
+   "Watch-out:"
+  ],
+  [
+   181.564,
+   184.985,
+   "Income tied to market activity."
+  ],
+  [
+   184.985,
+   185.978,
+   "Strength:"
+  ],
+  [
+   185.978,
+   189.399,
+   "19.93x P/E, mid-range of peers."
+  ],
+  [
+   189.899,
+   191.029,
+   "How to apply."
+  ],
+  [
+   191.529,
+   195.984,
+   "The minimum bid is one lot of 85 shares,"
+  ],
+  [
+   195.984,
+   199.103,
+   "which is ₹14,195 at the cap."
+  ],
+  [
+   199.603,
+   203.078,
+   "Retail investors can bid up to two lakh rupees,"
+  ],
+  [
+   203.078,
+   207.219,
+   "and allotment is by lottery if retail is oversubscribed."
+  ],
+  [
+   207.719,
+   212.262,
+   "Check live subscription on the N S E or B S E website,"
+  ],
+  [
+   212.262,
+   213.692,
+   "not social media."
+  ],
+  [
+   214.192,
+   215.152,
+   "Let's recap."
+  ],
+  [
+   215.652,
+   221.693,
+   "FY26 revenue ₹71.48 Cr, profit ₹13.11 Cr."
+  ],
+  [
+   221.693,
+   225.229,
+   "The offer is 100% fresh."
+  ],
+  [
+   225.229,
+   231.123,
+   "Valuation is 19.93x earnings at the cap."
+  ],
+  [
+   231.123,
+   236.132,
+   "The minimum investment is ₹14,195."
+  ],
+  [
+   236.632,
+   240.806,
+   "This video is public-source education from the red herring"
+  ],
+  [
+   240.806,
+   243.108,
+   "prospectus and exchange notices."
+  ],
+  [
+   243.108,
+   247.066,
+   "It is not investment advice and not a buy or sell call."
+  ],
+  [
+   247.066,
+   248.865,
+   "Read the final documents,"
+  ],
+  [
+   248.865,
+   251.744,
+   "check live subscription on the exchange,"
+  ],
+  [
+   251.744,
+   254.478,
+   "and consult a SEBI-registered adviser."
+  ],
+  [
+   254.478,
+   255.917,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "ipo28/shah.wav",
+   "volume": 1.0
+  }
+ }
+}

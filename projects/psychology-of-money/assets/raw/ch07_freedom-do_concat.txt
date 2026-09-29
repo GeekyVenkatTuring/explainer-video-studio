@@ -1,0 +1,5 @@
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/ch07_freedom-do_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/ch07_freedom-do_c1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/psychology-of-money/assets/raw/ch07_freedom-do_c2.wav'

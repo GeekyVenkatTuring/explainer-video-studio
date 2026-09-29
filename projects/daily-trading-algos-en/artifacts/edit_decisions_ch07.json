@@ -1,0 +1,254 @@
+{
+ "cuts": [
+  {
+   "id": "b18",
+   "type": "dta_divider",
+   "in_seconds": 0,
+   "out_seconds": 18.791,
+   "props": {
+    "n": 4,
+    "title": "Build & Run One",
+    "sub": "Test, control, monitor",
+    "color": "#A78BFA",
+    "pips": 4,
+    "dur": 19.291
+   }
+  },
+  {
+   "id": "b19",
+   "type": "dta_stack",
+   "in_seconds": 19.291,
+   "out_seconds": 72.376,
+   "props": {
+    "dur": 53.585
+   }
+  },
+  {
+   "id": "b20",
+   "type": "dta_backtest",
+   "in_seconds": 72.876,
+   "out_seconds": 125.014,
+   "props": {
+    "dur": 52.638
+   }
+  }
+ ],
+ "captions": [
+  [
+   0,
+   2.218,
+   "Part four. Build and run one."
+  ],
+  [
+   2.849,
+   5.067,
+   "The code is only one component."
+  ],
+  [
+   5.699,
+   7.917,
+   "Controls make it a trading system."
+  ],
+  [
+   8.548,
+   11.875,
+   "Now we turn the map into an operating checklist."
+  ],
+  [
+   12.507,
+   15.834,
+   "The right order is deliberate: test first, limit\nrisk,"
+  ],
+  [
+   15.834,
+   18.791,
+   "then observe what happens in the real environment."
+  ],
+  [
+   19.291,
+   22.915,
+   "The real stack starts with market data and\ninstrument"
+  ],
+  [
+   22.915,
+   23.318,
+   "information."
+  ],
+  [
+   23.95,
+   27.574,
+   "Validate stale feeds, timestamps, missing values,\nand market status."
+  ],
+  [
+   28.206,
+   29.414,
+   "Calculate the signal."
+  ],
+  [
+   30.045,
+   32.462,
+   "Convert it into a desired position."
+  ],
+  [
+   33.093,
+   36.718,
+   "Then risk checks cap cash, margin, exposure, order\nsize,"
+  ],
+  [
+   36.718,
+   37.926,
+   "and daily loss."
+  ],
+  [
+   38.557,
+   40.973,
+   "An order-management system creates child orders."
+  ],
+  [
+   41.605,
+   44.021,
+   "The broker API routes tagged orders."
+  ],
+  [
+   44.653,
+   47.069,
+   "The exchange sends acknowledgements and fills."
+  ],
+  [
+   47.701,
+   49.714,
+   "Monitoring compares intent with reality."
+  ],
+  [
+   50.346,
+   53.97,
+   "A kill switch is part of the design, not"
+  ],
+  [
+   53.97,
+   55.178,
+   "an emergency decoration."
+  ],
+  [
+   55.81,
+   57.823,
+   "Each hand-off should be observable."
+  ],
+  [
+   58.455,
+   62.079,
+   "You should be able to answer: what data arrived,"
+  ],
+  [
+   62.079,
+   65.704,
+   "what signal fired, which check approved it, which\norder"
+  ],
+  [
+   65.704,
+   67.717,
+   "left, and which fill returned."
+  ],
+  [
+   68.349,
+   71.973,
+   "If you cannot answer that, you cannot safely debug"
+  ],
+  [
+   71.973,
+   72.376,
+   "it."
+  ],
+  [
+   72.876,
+   75.947,
+   "A backtest replays historical data under\nassumptions."
+  ],
+  [
+   76.579,
+   80.089,
+   "It should separate train, validation, and test\nperiods."
+  ],
+  [
+   80.72,
+   83.792,
+   "It must avoid look-ahead and survivorship bias."
+  ],
+  [
+   84.423,
+   88.372,
+   "It must model charges, spread, slippage, partial\nfills, and"
+  ],
+  [
+   88.372,
+   89.249,
+   "changing liquidity."
+  ],
+  [
+   89.881,
+   93.83,
+   "An overfit curve can look perfect in sample, then"
+  ],
+  [
+   93.83,
+   96.462,
+   "flatten or fail in walk-forward trading."
+  ],
+  [
+   97.094,
+   99.726,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   100.358,
+   104.306,
+   "Live trading adds current queue position, outages,\nrejected orders,"
+  ],
+  [
+   104.306,
+   108.255,
+   "and market regimes that historical tests cannot\nfully recreate."
+  ],
+  [
+   108.887,
+   112.835,
+   "A good backtest is a challenge to the idea,"
+  ],
+  [
+   112.835,
+   114.59,
+   "not a sales brochure."
+  ],
+  [
+   115.222,
+   116.099,
+   "Change assumptions."
+  ],
+  [
+   116.731,
+   118.047,
+   "Reserve unseen data."
+  ],
+  [
+   118.679,
+   119.556,
+   "Stress costs."
+  ],
+  [
+   120.188,
+   124.137,
+   "If the result survives only one narrow setting, it"
+  ],
+  [
+   124.137,
+   125.014,
+   "is fragile."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "dta/ch07.wav",
+   "volume": 1.0
+  }
+ }
+}

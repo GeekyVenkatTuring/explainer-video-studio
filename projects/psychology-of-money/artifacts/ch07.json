@@ -1,0 +1,487 @@
+{
+ "cuts": [
+  {
+   "id": "ch07_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 12.333,
+   "props": {
+    "n": 7,
+    "total": 20,
+    "title": "Freedom",
+    "lines": [
+     "The highest dividend money pays is control over your time.",
+     "Saving is not only for stuff. It is for options."
+    ],
+    "color": "#E8B86D",
+    "dur": 12.833
+   }
+  },
+  {
+   "id": "ch07_time",
+   "type": "pm_sheet",
+   "in_seconds": 12.833,
+   "out_seconds": 59.441,
+   "props": {
+    "kicker": "THE HIGHEST DIVIDEND",
+    "title": "Richer, bigger homes \u2014 more worry",
+    "rows": [
+     {
+      "k": "Gallup 2019",
+      "v": "150,000 people in 140 countries: 45% of Americans felt 'a lot of worry' the previous day vs 39% globally.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Stress",
+      "v": "55% of Americans felt 'a lot of stress' the previous day. Rest of world: 35%.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Income then",
+      "v": "Median U.S. family income, inflation-adjusted: $29,000 in 1955, just over $62,000 in 2019.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Homes",
+      "v": "Median American home: 983 square feet in 1950, 2,436 square feet in 2018. New homes: more bathrooms than occupants.",
+      "c": "#FBBF24"
+     }
+    ],
+    "color": "#E8B86D",
+    "note": "Book-dated Gallup and housing figures, 2020 text.",
+    "dur": 47.108
+   }
+  },
+  {
+   "id": "ch07_time_save",
+   "type": "pm_sheet",
+   "in_seconds": 59.941,
+   "out_seconds": 85.139,
+   "props": {
+    "kicker": "THE $12,000 PERMISSION SLIP",
+    "title": "Housel at twenty-two",
+    "rows": [
+     {
+      "k": "Path",
+      "v": "A day-job path around $20,000 a year. He never took a taxi.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Gap",
+      "v": "Living cost about $1,000 a month, earning about $1,800. The gap was the strategy.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Pile",
+      "v": "He saved about $12,000 in two years, then quit to write.",
+      "c": "#34D399"
+     },
+     {
+      "k": "Lesson",
+      "v": "Using money to buy control of your time is the most valuable use of money the book names.",
+      "c": "#A78BFA"
+     }
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 25.698
+   }
+  },
+  {
+   "id": "ch07_jobs-flip",
+   "type": "pm_sheet",
+   "in_seconds": 85.639,
+   "out_seconds": 128.789,
+   "props": {
+    "kicker": "WORK FOLLOWED US HOME",
+    "title": "From hands to heads",
+    "rows": [
+     {
+      "k": "1870 mix",
+      "v": "Economist Robert Gordon: 46% agriculture, 35% crafts or manufacturing. Few jobs were 'think all day.'",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Today",
+      "v": "38% of jobs are managers, officials, and professionals. Another 41% are service jobs that live in your head.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Clock",
+      "v": "Factory work ended at the gate. Decision work does not. That is why extra income did not buy extra peace.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Cancel",
+      "v": "Bigger houses and faster cars, plus less control of time, can cancel. Happiness did not clearly rise with the $29k to $62k jump.",
+      "c": "#F87171"
+     },
+     {
+      "k": "Use of money",
+      "v": "The highest-return purchase in the chapter is control of your waking hours.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#E8B86D",
+    "note": "",
+    "dur": 43.65
+   }
+  },
+  {
+   "id": "ch07_freedom-do",
+   "type": "pm_list",
+   "in_seconds": 129.289,
+   "out_seconds": 149.144,
+   "props": {
+    "kicker": "FREEDOM \u00b7 WHAT TO DO",
+    "title": "Independence is the dividend",
+    "items": [
+     "Save for options, not only for a sofa. Options are how you refuse a bad boss or a forced sale.",
+     "A modest life you control can beat a larger life that owns your calendar.",
+     "Housel's $12,000 at 22 was not a fortune. It was a permission slip to quit."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 20.355
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.963,
+   "Chapter 7."
+  ],
+  [
+   0.963,
+   1.444,
+   "Freedom."
+  ],
+  [
+   2.075,
+   5.926,
+   "The highest dividend money pays is control\nover"
+  ],
+  [
+   5.926,
+   6.888,
+   "your time."
+  ],
+  [
+   7.52,
+   10.408,
+   "Saving is not only for stuff."
+  ],
+  [
+   10.408,
+   12.333,
+   "It is for options."
+  ],
+  [
+   12.833,
+   16.056,
+   "A two thousand nineteen Gallup poll of one"
+  ],
+  [
+   16.056,
+   19.278,
+   "hundred fifty thousand people in one\nhundred forty"
+  ],
+  [
+   19.278,
+   22.501,
+   "countries found about forty-five percent\nof Americans felt"
+  ],
+  [
+   22.501,
+   25.32,
+   "a lot of worry the previous day,"
+  ],
+  [
+   25.32,
+   26.932,
+   "versus thirty-nine percent globally."
+  ],
+  [
+   27.563,
+   30.786,
+   "Fifty-five percent of Americans felt a lot\nof"
+  ],
+  [
+   30.786,
+   32.397,
+   "stress the previous day."
+  ],
+  [
+   32.397,
+   34.814,
+   "For the rest of the world,"
+  ],
+  [
+   34.814,
+   36.828,
+   "thirty-five percent said the same."
+  ],
+  [
+   37.46,
+   38.265,
+   "Median U.S."
+  ],
+  [
+   38.265,
+   39.071,
+   "family income,"
+  ],
+  [
+   39.071,
+   39.474,
+   "inflation-adjusted,"
+  ],
+  [
+   39.474,
+   42.294,
+   "was twenty-nine thousand dollars in\nnineteen fifty-five,"
+  ],
+  [
+   42.294,
+   45.516,
+   "and just over sixty-two thousand in twenty\nnineteen."
+  ],
+  [
+   46.148,
+   49.37,
+   "The median American home increased from\nnine hundred"
+  ],
+  [
+   49.37,
+   52.593,
+   "eighty-three square feet in nineteen fifty\nto two"
+  ],
+  [
+   52.593,
+   55.413,
+   "thousand four hundred thirty-six in twenty\neighteen."
+  ],
+  [
+   55.413,
+   58.635,
+   "The average new home now has more\nbathrooms"
+  ],
+  [
+   58.635,
+   59.441,
+   "than occupants."
+  ],
+  [
+   59.941,
+   62.948,
+   "A day-job path around twenty thousand\ndollars a"
+  ],
+  [
+   62.948,
+   63.324,
+   "year."
+  ],
+  [
+   63.324,
+   65.203,
+   "He never took a taxi."
+  ],
+  [
+   65.835,
+   68.841,
+   "Living cost about one thousand dollars a\nmonth,"
+  ],
+  [
+   68.841,
+   70.345,
+   "earning about eighteen hundred."
+  ],
+  [
+   70.345,
+   72.224,
+   "The gap was the strategy."
+  ],
+  [
+   72.856,
+   75.863,
+   "He saved about twelve thousand dollars in\ntwo"
+  ],
+  [
+   75.863,
+   76.239,
+   "years,"
+  ],
+  [
+   76.239,
+   77.742,
+   "then quit to write."
+  ],
+  [
+   78.374,
+   81.38,
+   "Using money to buy control of your time"
+  ],
+  [
+   81.38,
+   84.387,
+   "is the most valuable use of money the"
+  ],
+  [
+   84.387,
+   85.139,
+   "book names."
+  ],
+  [
+   85.639,
+   86.922,
+   "Economist Robert Gordon:"
+  ],
+  [
+   86.922,
+   88.205,
+   "forty-six percent agriculture,"
+  ],
+  [
+   88.205,
+   90.343,
+   "thirty-five percent crafts or\nmanufacturing."
+  ],
+  [
+   90.343,
+   92.909,
+   "Few jobs were think all day."
+  ],
+  [
+   93.54,
+   96.533,
+   "Thirty-eight percent of jobs are now\nmanagers,"
+  ],
+  [
+   96.533,
+   96.961,
+   "officials,"
+  ],
+  [
+   96.961,
+   97.816,
+   "and professionals."
+  ],
+  [
+   97.816,
+   101.237,
+   "Another forty-one percent are service jobs\nthat live"
+  ],
+  [
+   101.237,
+   102.52,
+   "in your head."
+  ],
+  [
+   103.152,
+   105.717,
+   "Factory work ended at the gate."
+  ],
+  [
+   105.717,
+   107.428,
+   "Decision work does not."
+  ],
+  [
+   107.428,
+   110.849,
+   "That is why extra income did not buy"
+  ],
+  [
+   110.849,
+   111.704,
+   "extra peace."
+  ],
+  [
+   112.336,
+   114.474,
+   "Bigger houses and faster cars,"
+  ],
+  [
+   114.474,
+   116.612,
+   "plus less control of time,"
+  ],
+  [
+   116.612,
+   117.467,
+   "can cancel."
+  ],
+  [
+   117.467,
+   120.888,
+   "Happiness did not clearly rise with the\ntwenty-nine"
+  ],
+  [
+   120.888,
+   123.026,
+   "thousand to sixty-two thousand jump."
+  ],
+  [
+   123.658,
+   127.079,
+   "The highest-return purchase in the chapter\nis control"
+  ],
+  [
+   127.079,
+   128.789,
+   "of your waking hours."
+  ],
+  [
+   129.289,
+   130.383,
+   "Save for options,"
+  ],
+  [
+   130.383,
+   132.205,
+   "not only for a sofa."
+  ],
+  [
+   132.205,
+   135.122,
+   "Options are how you refuse a bad boss"
+  ],
+  [
+   135.122,
+   136.58,
+   "or a forced sale."
+  ],
+  [
+   137.211,
+   140.128,
+   "A modest life you control can beat a"
+  ],
+  [
+   140.128,
+   142.315,
+   "larger life that owns your calendar."
+  ],
+  [
+   142.947,
+   145.863,
+   "Housel's twelve thousand dollars at\ntwenty-two was not"
+  ],
+  [
+   145.863,
+   146.592,
+   "a fortune."
+  ],
+  [
+   146.592,
+   149.144,
+   "It was a permission slip to quit."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch07.wav",
+   "volume": 1.0
+  }
+ }
+}

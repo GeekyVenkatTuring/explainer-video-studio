@@ -1,0 +1,169 @@
+{
+  "cuts": [
+    {
+      "id": "part2",
+      "type": "aae_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 5.439,
+      "props": {
+        "part": 2,
+        "title": "Control Planes",
+        "focus": "Protocols, governance, knowledge, and context.",
+        "dur": 5.939
+      }
+    },
+    {
+      "id": "ch05_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 5.939,
+      "out_seconds": 51.547,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "foundation",
+        "dur": 46.108
+      }
+    },
+    {
+      "id": "ch05_system",
+      "type": "aae_chapter",
+      "in_seconds": 52.047,
+      "out_seconds": 90.235,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "system",
+        "dur": 38.688
+      }
+    },
+    {
+      "id": "ch05_practice",
+      "type": "aae_chapter",
+      "in_seconds": 90.735,
+      "out_seconds": 137.709,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "practice",
+        "dur": 47.474
+      }
+    },
+    {
+      "id": "ch05_failure",
+      "type": "aae_chapter",
+      "in_seconds": 138.209,
+      "out_seconds": 177.423,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "failure",
+        "dur": 39.714
+      }
+    },
+    {
+      "id": "ch05_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 177.923,
+      "out_seconds": 221.769,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "evaluation",
+        "dur": 44.346
+      }
+    },
+    {
+      "id": "ch05_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 222.269,
+      "out_seconds": 259.378,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "handoff",
+        "dur": 37.609
+      }
+    },
+    {
+      "id": "ch05_application",
+      "type": "aae_chapter",
+      "in_seconds": 259.878,
+      "out_seconds": 309.155,
+      "props": {
+        "chapter": 5,
+        "title": "Agentic Protocol Engineering",
+        "focus": "the contracts that let agents, tools, and services exchange intent safely",
+        "concepts": [
+          "typed messages",
+          "capability discovery",
+          "versioned contracts"
+        ],
+        "example": "a travel agent negotiating availability through explicit tool schemas",
+        "trap": "implicit assumptions between services",
+        "takeaway": "The contracts that let agents, tools, and services exchange intent safely.",
+        "beat": "application",
+        "dur": 49.777
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch05.wav",
+      "volume": 1
+    }
+  }
+}

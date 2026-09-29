@@ -1,0 +1,42 @@
+{
+ "idx": 5,
+ "variant": "xa_article",
+ "props": {
+  "rank": 5,
+  "total": 10,
+  "ch": 1,
+  "chname": "LEARNING PATHS",
+  "title": "Become AI Agentic Engineer in 6 Weeks (Full Course) - Part 1",
+  "handle": "@sairahul1",
+  "likes": "461",
+  "thesis": "Rahul argues that reliable agents need more than frameworks: model behavior must be surrounded by evidence, code-enforced rules, and stage-level measurement.",
+  "take": "Retrieve evidence, enforce rules in code, and measure each stage before changing models.",
+  "points": [
+   {
+    "label": "Six weeks",
+    "line": "Progress from foundations through prompting, tools, memory, production, evaluation, and security."
+   },
+   {
+    "label": "Probability",
+    "line": "Likely text is not necessarily true; less randomness cannot fix factual errors."
+   },
+   {
+    "label": "Validate and ground",
+    "line": "Backend code checks eligibility; retrieved policy meets live order details."
+   },
+   {
+    "label": "Context",
+    "line": "The example totals ninety-seven thousand two hundred tokens; select relevant information."
+   },
+   {
+    "label": "Latency",
+    "line": "Streaming reveals output sooner but does not accelerate input processing."
+   },
+   {
+    "label": "Measurement",
+    "line": "Illustrative perfect retrieval still ends at eighty-five percent final accuracy."
+   }
+  ]
+ },
+ "narration": "Behind Rahul's six-week agent course sits a warning about framework-only learning. He argues reliable agents require dependable software around unpredictable text generation. [pause] Six weeks span foundations, prompting, tools, memory, production, evaluation, and security. Probability means likely continuation, not truth. Reducing randomness can simply make the same wrong answer repeatable. [pause] Validation belongs in backend code before consequential actions reach payment services. Check refund amounts, order ownership, previous refunds, and policy eligibility independently. Grounding means supplying evidence before asking the model to answer. [pause] SQL or Elasticsearch can provide information alongside live order details. An opened laptop bought five days earlier remains excluded despite a fourteen-day return window. Predictable dependencies need ordinary backend coordination, not model-directed planning for every step. Context is the information supplied with a request, including history and documents. Rahul's example reaches ninety-seven thousand two hundred tokens, the small text units models process. [pause] Select relevant material instead of filling every available space with documents. Latency includes processing input before generating output, so streaming cannot accelerate that first stage. Trim history and tool definitions, and reuse cached prefixes where appropriate. Measurement must separate retrieval, interpretation, and final answers. His illustrative perfect retrieval still yields eighty-five percent final accuracy. [pause] Retrieve evidence, enforce rules, and measure each stage before changing models."
+}

@@ -1,0 +1,63 @@
+== TTS ==
+  p0 s01_title      hf_title          24.82s
+  p0 s02_hook       hf_hook           37.57s
+  p0 s03_why        hf_bullets        41.95s
+  p0 s04_roadmap    hf_roadmap        35.36s
+  p1 d1             hf_divider         1.85s
+  p1 s05_workflows  hf_bullets        42.11s
+  p1 s06_routing    hf_compare        35.96s
+  p1 s07_devloop    hf_pipeline       33.67s
+  p2 d2             hf_divider         3.49s
+  p2 s08_onefile    hf_code           41.01s
+  p2 s09_clips      hf_code           32.88s
+  p2 s10_tracks     hf_tracks         34.92s
+  p2 s11_seek       hf_seek           42.29s
+  p2 s12_subcomp    hf_subcomp        40.94s
+  p2 s13_rootforms  hf_compare        35.91s
+  p2 s14_media      hf_code           37.23s
+  p2 s15_variables  hf_code           36.79s
+  p2 s16_determinism hf_determinismgrid  44.63s
+  p2 s17_bans       hf_compare        43.78s
+  p2 s18_silentbugs hf_bullets        47.79s
+  p3 d3             hf_divider         2.97s
+  p3 s19_seeksafe   hf_code           40.40s
+  p3 s20_atomic     hf_bullets        40.07s
+  p3 s21_blueprints hf_compare        37.83s
+  p3 s22_gsap       hf_code           38.98s
+  p3 s23_adapters   hf_adapters       45.35s
+  p3 s24_transitions hf_bullets        43.67s
+  p4 d4             hf_divider         3.41s
+  p4 s25_designspec hf_code           38.67s
+  p4 s26_housestyle hf_compare        43.15s
+  p4 s27_typography hf_bullets        38.14s
+  p4 s28_beats      hf_pipeline       36.69s
+  p5 d5             hf_divider         3.38s
+  p5 s29_preflight  hf_bullets        34.48s
+  p5 s30_audioengine hf_audioengine    41.96s
+  p5 s31_ttschain   hf_ttschain       38.64s
+  p5 s32_bgmsfx     hf_bullets        39.73s
+  p5 s33_captions   hf_pipeline       34.43s
+  p5 s34_transcribe hf_code           38.00s
+  p6 d6             hf_divider         3.24s
+  p6 s35_checks     hf_pipeline       41.52s
+  p6 s36_conventions hf_bullets        34.49s
+  p6 s37_snapshot   hf_bullets        37.55s
+  p6 s38_studio     hf_studio         36.37s
+  p6 s39_render     hf_compare        37.84s
+  p6 s40_lambda     hf_lambda         38.75s
+  p6 s41_registry   hf_compare        39.81s
+  p6 s42_doctor     hf_bullets        38.69s
+  p7 s43_recap      hf_recap          52.92s
+
+== per-part artifacts ==
+  p0  141.19s  4 scenes  -> p0.json
+  p1  115.08s  4 scenes  -> p1.json
+  p2  447.17s  12 scenes  -> p2.json
+  p3  252.27s  7 scenes  -> p3.json
+  p4  162.06s  5 scenes  -> p4.json
+  p5  233.60s  7 scenes  -> p5.json
+  p6  312.26s  9 scenes  -> p6.json
+  p7   52.92s  1 scenes  -> p7.json
+
+MASTER total 1720.07s (28.67 min) · 49 scenes · ~4546 words · NO captions
+parts emitted: [0, 1, 2, 3, 4, 5, 6, 7]

@@ -1,0 +1,227 @@
+{
+  "cuts": [
+    {
+      "id": "ch10_divider",
+      "type": "fa_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 8.646,
+      "props": {
+        "n": 10,
+        "total": 11,
+        "title": "A quick screen",
+        "sub": "A screen narrows the research list; it never replaces full analysis.",
+        "color": "#34D399",
+        "dur": 9.146
+      }
+    },
+    {
+      "id": "ch10_screen",
+      "type": "fa_ledger",
+      "in_seconds": 9.146,
+      "out_seconds": 37.688,
+      "props": {
+        "kicker": "THE BOOK'S INITIAL SCREEN",
+        "title": "Use a multi-factor filter to find candidates for deeper work",
+        "rows": [
+          {
+            "label": "Average ROE and ROCE",
+            "val": "above 20%",
+            "c": "#34D399",
+            "bold": true
+          },
+          {
+            "label": "Debt to equity",
+            "val": "below 1 or improving",
+            "c": "#FBBF24"
+          },
+          {
+            "label": "Promoter pledge",
+            "val": "low / falling",
+            "c": "#F87171"
+          },
+          {
+            "label": "Sales growth",
+            "val": "3-year CAGR > 10%",
+            "c": "#38BDF8"
+          },
+          {
+            "label": "Profit growth",
+            "val": "3-year CAGR > 12%",
+            "c": "#34D399"
+          }
+        ],
+        "caption": "These are the book's 2017 screening thresholds, presented as a historical educational framework, not current advice.",
+        "color": "#34D399",
+        "dur": 29.042
+      }
+    },
+    {
+      "id": "ch10_red_flags",
+      "type": "fa_gauge",
+      "in_seconds": 38.188,
+      "out_seconds": 71.788,
+      "props": {
+        "kicker": "TWO-MINUTE RED FLAGS",
+        "title": "The book's fast rejection test looks for weak returns, high debt, and high pledging",
+        "value": 30,
+        "unit": "%",
+        "zones": [
+          {
+            "to": 10,
+            "c": "#34D399",
+            "label": "lower"
+          },
+          {
+            "to": 30,
+            "c": "#FBBF24",
+            "label": "inspect"
+          },
+          {
+            "to": 60,
+            "c": "#F87171",
+            "label": "risk"
+          }
+        ],
+        "caption": "Promoter pledge is one clue; combine it with cash flow, debt terms, and governance evidence.",
+        "note": "Banking and NBFCs need sector-specific analysis; the book flags this limitation.",
+        "color": "#F87171",
+        "dur": 34.1
+      }
+    },
+    {
+      "id": "ch10_screen_to_research",
+      "type": "fa_keyidea",
+      "in_seconds": 72.288,
+      "out_seconds": 102.675,
+      "props": {
+        "kicker": "SCREEN, THEN RESEARCH",
+        "big": "The correct workflow is screen \u2192 annual report \u2192 management \u2192 valuation \u2192 portfolio fit.",
+        "sub": "No formula can guarantee results in a changing market.",
+        "color": "#2DD4BF",
+        "dur": 30.887
+      }
+    },
+    {
+      "id": "ch10_detail_formula_caution",
+      "type": "fa_keyidea",
+      "in_seconds": 103.175,
+      "out_seconds": 135.978,
+      "props": {
+        "kicker": "WHAT THE FORMULA IS \u2014 AND ISN'T",
+        "big": "The quick formula is a filter for a research list, not a shortcut, guarantee, or substitute for the earlier chapters.",
+        "sub": "Passing every ratio still does not prove management quality or attractive valuation.",
+        "color": "#34D399",
+        "dur": 33.303
+      }
+    },
+    {
+      "id": "ch10_detail_formula_steps",
+      "type": "fa_ledger",
+      "in_seconds": 136.478,
+      "out_seconds": 169.349,
+      "props": {
+        "kicker": "THE FIVE SCREENING STEPS",
+        "title": "Candidate filter: return, debt, pledge, and growth",
+        "rows": [
+          {
+            "label": "Three-year ROE / ROCE",
+            "val": "both above 20%",
+            "c": "#34D399",
+            "bold": true
+          },
+          {
+            "label": "Debt / equity",
+            "val": "below 1 or declining",
+            "c": "#FBBF24"
+          },
+          {
+            "label": "Promoter pledge",
+            "val": "below 10% or declining",
+            "c": "#F87171"
+          },
+          {
+            "label": "Sales CAGR",
+            "val": "above 10%",
+            "c": "#38BDF8"
+          },
+          {
+            "label": "Profit CAGR",
+            "val": "above 12%",
+            "c": "#34D399"
+          }
+        ],
+        "caption": "These are the author's 2017 thresholds. They are historical educational content, not live screening advice.",
+        "color": "#34D399",
+        "dur": 33.371
+      }
+    },
+    {
+      "id": "ch10_detail_formula_exceptions",
+      "type": "fa_keyidea",
+      "in_seconds": 169.849,
+      "out_seconds": 202.089,
+      "props": {
+        "kicker": "EXCEPTIONS AND LIMITATIONS",
+        "big": "Banks, NBFCs, cyclicals, turnarounds, and loss-making businesses need sector-specific analysis; a generic debt or P/E rule can mislead.",
+        "sub": "A screen should identify questions, not remove the need to understand the business model.",
+        "color": "#FBBF24",
+        "dur": 32.74
+      }
+    },
+    {
+      "id": "ch10_detail_two_min",
+      "type": "fa_ledger",
+      "in_seconds": 202.589,
+      "out_seconds": 236.211,
+      "props": {
+        "kicker": "TWO-MINUTE REJECTION CHECK",
+        "title": "The book's fast warning signs combine low returns, high or rising debt, and heavy promoter pledge",
+        "rows": [
+          {
+            "label": "Average ROE",
+            "val": "below 10%",
+            "c": "#F87171",
+            "bold": true
+          },
+          {
+            "label": "Debt / equity",
+            "val": "above 1 and not improving",
+            "c": "#FBBF24"
+          },
+          {
+            "label": "Promoter pledge",
+            "val": "above 30% and rising",
+            "c": "#F87171"
+          },
+          {
+            "label": "All three",
+            "val": "avoid under the book's rule",
+            "c": "#F87171"
+          }
+        ],
+        "caption": "The numerical levels are historic book heuristics; investigate context and current disclosures.",
+        "color": "#F87171",
+        "dur": 34.122
+      }
+    },
+    {
+      "id": "ch10_detail_application",
+      "type": "fa_keyidea",
+      "in_seconds": 236.711,
+      "out_seconds": 265.803,
+      "props": {
+        "kicker": "FROM SCREEN TO DECISION",
+        "big": "After screening, read the annual report, test the moat, evaluate management, compare valuation history, and size the position conservatively.",
+        "sub": "A candidate is not a portfolio holding until it survives the full process.",
+        "color": "#2DD4BF",
+        "dur": 29.592
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch10.wav",
+      "volume": 1.0
+    }
+  }
+}

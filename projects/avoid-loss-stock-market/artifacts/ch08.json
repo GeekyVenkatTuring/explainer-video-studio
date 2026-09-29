@@ -1,0 +1,255 @@
+{
+  "cuts": [
+    {
+      "id": "ch08_divider",
+      "type": "fa_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 9.676,
+      "props": {
+        "n": 8,
+        "total": 11,
+        "title": "Build the portfolio",
+        "sub": "Diversification is about independent risks, not the largest possible stock count.",
+        "color": "#2DD4BF",
+        "dur": 10.176
+      }
+    },
+    {
+      "id": "ch08_diversify",
+      "type": "fa_compare",
+      "in_seconds": 10.176,
+      "out_seconds": 39.292,
+      "props": {
+        "kicker": "DIVERSIFIED OR JUST CROWDED?",
+        "title": "Count distinct economic exposures, not merely ticker symbols",
+        "cos": [
+          {
+            "name": "Diversified",
+            "c": "#34D399",
+            "tag": "intentional",
+            "stats": [
+              {
+                "k": "Businesses",
+                "v": "understood"
+              },
+              {
+                "k": "Drivers",
+                "v": "not all identical"
+              },
+              {
+                "k": "Weights",
+                "v": "deliberate"
+              },
+              {
+                "k": "Review",
+                "v": "manageable",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Over-diversified",
+            "c": "#F87171",
+            "tag": "crowded",
+            "stats": [
+              {
+                "k": "Businesses",
+                "v": "too many to follow"
+              },
+              {
+                "k": "Drivers",
+                "v": "hidden overlap"
+              },
+              {
+                "k": "Weights",
+                "v": "accidental"
+              },
+              {
+                "k": "Review",
+                "v": "impossible",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "The book's point: a large number of holdings can hide a weak portfolio.",
+        "color": "#2DD4BF",
+        "dur": 29.616
+      }
+    },
+    {
+      "id": "ch08_allocation",
+      "type": "fa_bars",
+      "in_seconds": 39.792,
+      "out_seconds": 68.647,
+      "props": {
+        "kicker": "POSITION SIZING",
+        "title": "Weights determine how much a correct or incorrect thesis matters",
+        "bars": [
+          {
+            "label": "Highest conviction",
+            "val": 10,
+            "c": "#34D399",
+            "note": "still capped"
+          },
+          {
+            "label": "Medium conviction",
+            "val": 7,
+            "c": "#2DD4BF",
+            "note": "evidence"
+          },
+          {
+            "label": "Early / uncertain",
+            "val": 4,
+            "c": "#FBBF24",
+            "note": "learn"
+          },
+          {
+            "label": "Speculative",
+            "val": 1,
+            "c": "#F87171",
+            "note": "avoid or tiny"
+          }
+        ],
+        "note": "Illustrative weights, not a personal allocation recommendation.",
+        "color": "#2DD4BF",
+        "decimals": 0,
+        "dur": 29.355
+      }
+    },
+    {
+      "id": "ch08_crash",
+      "type": "fa_keyidea",
+      "in_seconds": 69.147,
+      "out_seconds": 99.24,
+      "props": {
+        "kicker": "DURING A CRASH",
+        "big": "Separate a market-wide drawdown from a broken company; keep a cash plan for real-life needs.",
+        "sub": "Preparation before stress is more useful than predictions during stress.",
+        "color": "#FBBF24",
+        "dur": 30.593
+      }
+    },
+    {
+      "id": "ch08_detail_overlap",
+      "type": "fa_keyidea",
+      "in_seconds": 99.74,
+      "out_seconds": 135.755,
+      "props": {
+        "kicker": "DIVERSIFICATION: THE REAL TEST",
+        "big": "Diversification means exposures that do not all fail for the same reason \u2014 not simply owning many tickers.",
+        "sub": "Map sector, leverage, commodity, customer, and economic-cycle overlap.",
+        "color": "#2DD4BF",
+        "dur": 36.515
+      }
+    },
+    {
+      "id": "ch08_detail_many",
+      "type": "fa_keyidea",
+      "in_seconds": 136.255,
+      "out_seconds": 169.141,
+      "props": {
+        "kicker": "THE COST OF TOO MANY HOLDINGS",
+        "big": "A huge portfolio can dilute your best ideas, hide weak positions, increase overlap, and make proper monitoring impossible.",
+        "sub": "The right number is the number you can understand, not a universal target.",
+        "color": "#F87171",
+        "dur": 33.386
+      }
+    },
+    {
+      "id": "ch08_detail_crash_types",
+      "type": "fa_compare",
+      "in_seconds": 169.641,
+      "out_seconds": 205.472,
+      "props": {
+        "kicker": "CRASH PREPAREDNESS",
+        "title": "The book distinguishes ordinary corrections from deeper market crises, but exact timing and thresholds cannot be forecast reliably",
+        "cos": [
+          {
+            "name": "Correction",
+            "c": "#FBBF24",
+            "tag": "review",
+            "stats": [
+              {
+                "k": "First step",
+                "v": "check thesis"
+              },
+              {
+                "k": "Avoid",
+                "v": "panic liquidation"
+              },
+              {
+                "k": "Consider",
+                "v": "quality and price"
+              },
+              {
+                "k": "Need",
+                "v": "liquidity",
+                "hot": true
+              }
+            ]
+          },
+          {
+            "name": "Deep crisis",
+            "c": "#F87171",
+            "tag": "survive",
+            "stats": [
+              {
+                "k": "First step",
+                "v": "protect solvency"
+              },
+              {
+                "k": "Avoid",
+                "v": "leveraged exposure"
+              },
+              {
+                "k": "Consider",
+                "v": "real-life needs"
+              },
+              {
+                "k": "Need",
+                "v": "staying power",
+                "hot": true
+              }
+            ]
+          }
+        ],
+        "note": "The book's historic crash categories are teaching aids, not a forecast rule.",
+        "color": "#FBBF24",
+        "dur": 36.331
+      }
+    },
+    {
+      "id": "ch08_detail_cash_plan",
+      "type": "fa_keyidea",
+      "in_seconds": 205.972,
+      "out_seconds": 242.316,
+      "props": {
+        "kicker": "CASH AND ALLOCATION PLAN",
+        "big": "Set a periodic investment amount based on income and goals, not on today's market mood or portfolio colour.",
+        "sub": "Increase savings capacity with income; do not borrow or raid essential reserves to chase a decline.",
+        "color": "#34D399",
+        "dur": 36.844
+      }
+    },
+    {
+      "id": "ch08_detail_portfolio_review",
+      "type": "fa_keyidea",
+      "in_seconds": 242.816,
+      "out_seconds": 274.915,
+      "props": {
+        "kicker": "PORTFOLIO REVIEW",
+        "big": "Review weights, overlap, business quality, valuation, and cash needs together \u2014 a portfolio is a system, not a list.",
+        "sub": "A correct stock choice can still be a poor portfolio decision if the position is too large or too correlated.",
+        "color": "#2DD4BF",
+        "dur": 32.599
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "fa/avoid-loss-stock-market-ch08.wav",
+      "volume": 1.0
+    }
+  }
+}

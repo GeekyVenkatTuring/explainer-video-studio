@@ -1,0 +1,244 @@
+{
+ "cuts": [
+  {
+   "id": "b07",
+   "type": "dta_divider",
+   "in_seconds": 0,
+   "out_seconds": 20.504,
+   "props": {
+    "n": 2,
+    "title": "The Strategies",
+    "sub": "Illustrative rules on synthetic data",
+    "color": "#34D399",
+    "pips": 4,
+    "dur": 21.004
+   }
+  },
+  {
+   "id": "b08",
+   "type": "dta_momentum",
+   "in_seconds": 21.004,
+   "out_seconds": 69.594,
+   "props": {
+    "dur": 49.09
+   }
+  },
+  {
+   "id": "b09",
+   "type": "dta_meanrev",
+   "in_seconds": 70.094,
+   "out_seconds": 115.092,
+   "props": {
+    "dur": 45.498
+   }
+  }
+ ],
+ "captions": [
+  [
+   0,
+   1.735,
+   "Part two. The strategies."
+  ],
+  [
+   2.366,
+   4.968,
+   "These charts use illustrative synthetic data."
+  ],
+  [
+   5.6,
+   8.635,
+   "They are not backtests, history, or recommendations."
+  ],
+  [
+   9.267,
+   12.736,
+   "Synthetic examples let us see the rule clearly."
+  ],
+  [
+   13.368,
+   15.97,
+   "They do not show a return."
+  ],
+  [
+   16.601,
+   20.504,
+   "Real markets add noise, queues, spreads, gaps, and\ncompetition."
+  ],
+  [
+   21.004,
+   23.607,
+   "Momentum asks whether a move is persistent."
+  ],
+  [
+   24.238,
+   27.585,
+   "One common rule compares a fast moving average with"
+  ],
+  [
+   27.585,
+   29.072,
+   "a slow moving average."
+  ],
+  [
+   29.703,
+   33.05,
+   "When the fast line rises above the slow line,"
+  ],
+  [
+   33.05,
+   35.652,
+   "the rule can permit a long position."
+  ],
+  [
+   36.284,
+   39.63,
+   "When it falls back below, the rule exits or"
+  ],
+  [
+   39.63,
+   40.002,
+   "reverses."
+  ],
+  [
+   40.634,
+   42.864,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   43.496,
+   45.355,
+   "Its failure mode is chop."
+  ],
+  [
+   45.987,
+   48.961,
+   "In a sideways market, repeated crosses create\nwhipsaws."
+  ],
+  [
+   49.593,
+   52.939,
+   "The system pays spread, slippage, and charges while\nrepeatedly"
+  ],
+  [
+   52.939,
+   53.683,
+   "being wrong."
+  ],
+  [
+   54.314,
+   56.173,
+   "The important discipline is consistency."
+  ],
+  [
+   56.805,
+   60.151,
+   "A trend follower cannot celebrate one winner and\nskip"
+  ],
+  [
+   60.151,
+   61.638,
+   "the next valid signal."
+  ],
+  [
+   62.27,
+   64.873,
+   "That would replace a rule with hindsight."
+  ],
+  [
+   65.504,
+   68.85,
+   "The rule needs a position size and a loss"
+  ],
+  [
+   68.85,
+   69.594,
+   "limit too."
+  ],
+  [
+   70.094,
+   72.68,
+   "Mean reversion starts from a different belief."
+  ],
+  [
+   73.312,
+   76.636,
+   "A price far from its recent average may move"
+  ],
+  [
+   76.636,
+   77.745,
+   "back toward it."
+  ],
+  [
+   78.376,
+   81.701,
+   "Bollinger bands frame a moving average with\nvolatility bands."
+  ],
+  [
+   82.333,
+   85.657,
+   "R S I is an oscillator from zero to"
+  ],
+  [
+   85.657,
+   86.396,
+   "one hundred."
+  ],
+  [
+   87.028,
+   90.353,
+   "A low reading or lower-band poke can become an"
+  ],
+  [
+   90.353,
+   91.091,
+   "entry condition."
+  ],
+  [
+   91.723,
+   93.94,
+   "The chart is illustrative synthetic data."
+  ],
+  [
+   94.571,
+   97.157,
+   "But a strong trend can keep going."
+  ],
+  [
+   97.789,
+   99.266,
+   "Cheap can become cheaper."
+  ],
+  [
+   99.898,
+   102.853,
+   "A band is a measurement, not a floor."
+  ],
+  [
+   103.485,
+   106.071,
+   "Mean reversion needs a definition of normal."
+  ],
+  [
+   106.703,
+   109.288,
+   "That definition is always historical and imperfect."
+  ],
+  [
+   109.92,
+   113.245,
+   "Before trading it, ask what news or regime could"
+  ],
+  [
+   113.245,
+   115.092,
+   "make the old average irrelevant."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "dta/ch03.wav",
+   "volume": 1.0
+  }
+ }
+}

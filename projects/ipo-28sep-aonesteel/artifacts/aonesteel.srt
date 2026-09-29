@@ -1,0 +1,296 @@
+1
+00:00:00,000 --> 00:00:04,055
+This is the A-One Steels India I P O, a mainboard offer,
+
+2
+00:00:04,055 --> 00:00:08,544
+open from the twenty-fourth to the twenty-eighth of September,
+
+3
+00:00:08,544 --> 00:00:09,557
+closing today.
+
+4
+00:00:10,057 --> 00:00:13,011
+The price band is ₹385 to ₹405.
+
+5
+00:00:13,011 --> 00:00:18,824
+Every figure here comes from the final red herring prospectus
+
+6
+00:00:18,824 --> 00:00:20,825
+and exchange notices;
+
+7
+00:00:20,825 --> 00:00:24,541
+the final price is fixed after bidding,
+
+8
+00:00:24,541 --> 00:00:28,639
+so valuations are computed at the ₹405 cap.
+
+9
+00:00:29,139 --> 00:00:30,376
+First, the business.
+
+10
+00:00:30,876 --> 00:00:35,570
+A-One Steels is a backward-integrated steel maker based in Karnataka,
+
+11
+00:00:35,570 --> 00:00:39,175
+selling a range of steel products across south India.
+
+12
+00:00:39,675 --> 00:00:45,157
+The RHP highlights green-energy use and a certified green product portfolio.
+
+13
+00:00:45,657 --> 00:00:49,077
+FY26 was a recovery year:
+
+14
+00:00:49,077 --> 00:00:54,959
+the EBITDA margin rose to 7.29% from 4.91%.
+
+15
+00:00:55,459 --> 00:00:57,059
+The financial checkpoint.
+
+16
+00:00:57,559 --> 00:01:10,715
+FY26 revenue was ₹4,167.33 Cr, against ₹3,544.37 Cr in FY25,
+
+17
+00:01:10,715 --> 00:01:14,881
+a change of 17.58%.
+
+18
+00:01:15,381 --> 00:01:23,424
+Profit after tax was ₹127.41 Cr, a margin of 3.06%.
+
+19
+00:01:23,924 --> 00:01:25,183
+Context matters.
+
+20
+00:01:25,683 --> 00:01:29,638
+FY25 profit was only ₹7.71 Cr,
+
+21
+00:01:29,638 --> 00:01:38,077
+so the jump to ₹127.41 Cr shows how cyclical steel earnings are.
+
+22
+00:01:38,577 --> 00:01:44,301
+Net debt was ₹985.37 Cr at March 2026,
+
+23
+00:01:44,301 --> 00:01:48,519
+with debt to equity of 1.17.
+
+24
+00:01:49,019 --> 00:01:53,008
+The offer size at the cap is ₹405.00 Cr.
+
+25
+00:01:53,508 --> 00:01:58,123
+₹355.00 Cr is fresh issue that goes into the company,
+
+26
+00:01:58,123 --> 00:02:04,132
+and ₹50.00 Cr is an offer for sale that goes to selling shareholders.
+
+27
+00:02:04,632 --> 00:02:08,825
+So 87.65% of the deal is new capital,
+
+28
+00:02:08,825 --> 00:02:13,699
+and 12.35% is an exit for existing holders.
+
+29
+00:02:14,199 --> 00:02:15,521
+Where does the money go?
+
+30
+00:02:16,021 --> 00:02:21,462
+Of the ₹355.00 Cr fresh issue, ₹250.00 Cr prepays debt,
+
+31
+00:02:21,462 --> 00:02:26,112
+and the rest is for general corporate purposes.
+
+32
+00:02:26,612 --> 00:02:31,625
+The ₹50.00 Cr offer for sale goes to promoter selling shareholders.
+
+33
+00:02:32,125 --> 00:02:38,995
+Eligible employees get a ₹38 discount in a small ₹2 Cr reserved portion.
+
+34
+00:02:39,495 --> 00:02:40,497
+Valuation.
+
+35
+00:02:40,997 --> 00:02:43,577
+At the ₹405 cap,
+
+36
+00:02:43,577 --> 00:02:51,963
+the price is 21.93x FY26 earnings of ₹18.47 a share.
+
+37
+00:02:52,463 --> 00:02:56,761
+The RHP's peers trade higher:
+
+38
+00:02:56,761 --> 00:03:00,466
+Shyam Metalics at 28.31x,
+
+39
+00:03:00,466 --> 00:03:06,543
+Jai Balaji 45.76x and M S P Steel 61.52x.
+
+40
+00:03:07,043 --> 00:03:11,014
+But a single strong year after a weak one makes any P E on
+
+41
+00:03:11,014 --> 00:03:12,589
+steel earnings fragile.
+
+42
+00:03:13,089 --> 00:03:14,583
+Now balance the evidence.
+
+43
+00:03:15,083 --> 00:03:16,894
+Watch-out:
+
+44
+00:03:16,894 --> 00:03:21,785
+FY25 PAT was only ₹7.71 Cr:
+
+45
+00:03:21,785 --> 00:03:25,770
+earnings are cyclical.
+
+46
+00:03:25,770 --> 00:03:27,400
+Strength:
+
+47
+00:03:27,400 --> 00:03:35,371
+FY26 PAT ₹127.41 Cr on ₹4,167.33 Cr revenue.
+
+48
+00:03:35,871 --> 00:03:37,369
+Watch-out:
+
+49
+00:03:37,369 --> 00:03:41,863
+Net debt ₹985.37 Cr, D/E 1.17.
+
+50
+00:03:41,863 --> 00:03:43,212
+Strength:
+
+51
+00:03:43,212 --> 00:03:49,055
+₹250.00 Cr of fresh money prepays debt.
+
+52
+00:03:49,555 --> 00:03:50,974
+Watch-out:
+
+53
+00:03:50,974 --> 00:03:54,097
+Thin 3.06% PAT margin.
+
+54
+00:03:54,097 --> 00:03:55,375
+Strength:
+
+55
+00:03:55,375 --> 00:04:00,627
+21.93x P/E, below listed steel peers.
+
+56
+00:04:01,127 --> 00:04:02,257
+How to apply.
+
+57
+00:04:02,757 --> 00:04:07,388
+The minimum bid is one lot of 37 shares,
+
+58
+00:04:07,388 --> 00:04:10,629
+which is ₹14,985 at the cap.
+
+59
+00:04:11,129 --> 00:04:14,605
+Retail investors can bid up to two lakh rupees,
+
+60
+00:04:14,605 --> 00:04:18,745
+and allotment is by lottery if retail is oversubscribed.
+
+61
+00:04:19,245 --> 00:04:23,788
+Check live subscription on the N S E or B S E website,
+
+62
+00:04:23,788 --> 00:04:25,219
+not social media.
+
+63
+00:04:25,719 --> 00:04:26,679
+Let's recap.
+
+64
+00:04:27,179 --> 00:04:33,421
+FY26 revenue ₹4,167.33 Cr, profit ₹127.41 Cr.
+
+65
+00:04:33,421 --> 00:04:42,022
+The offer is ₹405.00 Cr, of which ₹50.00 Cr is offer for sale.
+
+66
+00:04:42,022 --> 00:04:47,571
+Valuation is 21.93x earnings at the cap.
+
+67
+00:04:47,571 --> 00:04:52,288
+The minimum investment is ₹14,985.
+
+68
+00:04:52,788 --> 00:04:56,962
+This video is public-source education from the red herring
+
+69
+00:04:56,962 --> 00:04:59,264
+prospectus and exchange notices.
+
+70
+00:04:59,264 --> 00:05:03,222
+It is not investment advice and not a buy or sell call.
+
+71
+00:05:03,222 --> 00:05:05,021
+Read the final documents,
+
+72
+00:05:05,021 --> 00:05:07,900
+check live subscription on the exchange,
+
+73
+00:05:07,900 --> 00:05:10,634
+and consult a SEBI-registered adviser.
+
+74
+00:05:10,634 --> 00:05:12,073
+Thanks for watching.
+

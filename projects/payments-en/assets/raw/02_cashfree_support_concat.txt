@@ -1,0 +1,7 @@
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/02_cashfree_support_c0.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/02_cashfree_support_c1.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/02_cashfree_support_c2.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/_pause.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/payments-en/assets/raw/02_cashfree_support_c3.wav'

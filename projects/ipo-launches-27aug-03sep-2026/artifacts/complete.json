@@ -1,0 +1,168 @@
+{
+  "cuts": [
+    {
+      "id": "complete_title",
+      "type": "sm_ptitle",
+      "in_seconds": 0.0,
+      "out_seconds": 34.028,
+      "props": {
+        "title": "Complete Sports & Management India IPO",
+        "sub": "SME · opens 28 Aug–1 Sep · public-source launch brief",
+        "kicker": "IPO LAUNCH BRIEF · NOT ADVICE",
+        "dur": 34.528
+      }
+    },
+    {
+      "id": "complete_business",
+      "type": "sm_iconcards",
+      "in_seconds": 34.528,
+      "out_seconds": 69.634,
+      "props": {
+        "kicker": "WHAT THE COMPANY DOES",
+        "title": "The business before the buzz",
+        "color": "#34D399",
+        "items": [
+          {
+            "emoji": "🏏",
+            "k": "Sports-management business",
+            "v": "Read the RHP for the exact revenue streams, client contracts and event-execution responsibilities.",
+            "chip": "SPORTS"
+          },
+          {
+            "emoji": "📅",
+            "k": "Execution risk",
+            "v": "Sports and events businesses can depend on contracts, scheduling, talent and collection cycles.",
+            "chip": "DUE DILIGENCE"
+          },
+          {
+            "emoji": "⚠️",
+            "k": "SME structure",
+            "v": "Confirm the bid multiple, minimum application and liquidity profile in your broker app before any bid.",
+            "chip": "SME"
+          }
+        ],
+        "dur": 35.606
+      }
+    },
+    {
+      "id": "complete_terms",
+      "type": "sm_iconcards",
+      "in_seconds": 70.134,
+      "out_seconds": 98.376,
+      "props": {
+        "kicker": "OFFER TERMS · CHECK FINAL RHP",
+        "title": "Price, lot and ticket",
+        "color": "#34D399",
+        "items": [
+          {
+            "emoji": "🏷️",
+            "k": "Upper price",
+            "v": "₹128–135 per share.",
+            "chip": "PRICE BAND"
+          },
+          {
+            "emoji": "🧮",
+            "k": "Stated lot",
+            "v": "1,000 shares for this sme offer.",
+            "chip": "LOT SIZE"
+          },
+          {
+            "emoji": "💳",
+            "k": "Stated ticket",
+            "v": "₹1.35L / stated lot at the upper price, before any broker-specific SME multiple.",
+            "chip": "UPPER BAND"
+          },
+          {
+            "emoji": "📊",
+            "k": "Issue size",
+            "v": "Stated size: ₹74.93 Cr. Re-check the exchange notice for final terms.",
+            "chip": "VERIFY"
+          }
+        ],
+        "dur": 28.742
+      }
+    },
+    {
+      "id": "complete_check",
+      "type": "sm_checklist",
+      "in_seconds": 98.876,
+      "out_seconds": 124.574,
+      "props": {
+        "kicker": "THE 5-MINUTE RHP CHECK",
+        "title": "What to verify before a bid",
+        "color": "#34D399",
+        "icon": "✓",
+        "items": [
+          "Fresh issue versus OFS: who receives the money?",
+          "Objects of the issue: debt, working capital, capex or general purposes?",
+          "Three-year revenue, profit and operating-cash-flow trend",
+          "Top customers, raw-material exposure and disclosed risk factors",
+          "Final price, lot, subscription and listing dates on NSE or BSE"
+        ],
+        "dur": 26.198
+      }
+    },
+    {
+      "id": "complete_lane",
+      "type": "sm_iconcards",
+      "in_seconds": 125.074,
+      "out_seconds": 151.732,
+      "props": {
+        "kicker": "APPLICATION LANE",
+        "title": "Know the market you are entering",
+        "color": "#34D399",
+        "items": [
+          {
+            "emoji": "📌",
+            "k": "SME",
+            "v": "This is an SME issue. Confirm the application multiple and liquidity conditions with the exchange and your broker.",
+            "chip": "SME"
+          },
+          {
+            "emoji": "📄",
+            "k": "Source of truth",
+            "v": "The final RHP and NSE or BSE IPO page are the source for terms and live subscription.",
+            "chip": "VERIFY"
+          },
+          {
+            "emoji": "⚠️",
+            "k": "GMP is not used here",
+            "v": "Grey-market premium is unofficial, volatile and not a listing prediction.",
+            "chip": "UNOFFICIAL"
+          },
+          {
+            "emoji": "🧭",
+            "k": "Decision framework",
+            "v": "Match the filing evidence to your risk tolerance; this video does not say apply or avoid.",
+            "chip": "NOT ADVICE"
+          }
+        ],
+        "dur": 27.158
+      }
+    },
+    {
+      "id": "complete_recap",
+      "type": "sm_recap",
+      "in_seconds": 152.232,
+      "out_seconds": 198.568,
+      "props": {
+        "title": "Complete Sports & Management India IPO — launch recap",
+        "items": [
+          "Opens 28 Aug–1 Sep · SME",
+          "Price ₹128–135 · stated lot 1,000 shares",
+          "Stated ticket: ₹1.35L / stated lot · issue size: ₹74.93 Cr",
+          "Read final RHP: structure, objects, financials and risks",
+          "Verify live exchange data; no GMP or recommendation here"
+        ],
+        "closer": "Public-source education. Verify the RHP; decide for yourself.",
+        "dur": 46.836
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "sm/complete.wav",
+      "volume": 1.0
+    }
+  }
+}

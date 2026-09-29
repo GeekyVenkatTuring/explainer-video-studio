@@ -1,0 +1,320 @@
+1
+00:00:00,000 --> 00:00:03,261
+This is the Moneyview I P O, a mainboard offer,
+
+2
+00:00:03,261 --> 00:00:07,562
+open from the twenty-fourth to the twenty-eighth of September,
+
+3
+00:00:07,562 --> 00:00:08,533
+closing today.
+
+4
+00:00:09,033 --> 00:00:11,563
+The price band is ₹32 to ₹34.
+
+5
+00:00:11,563 --> 00:00:16,883
+Every figure here comes from the final red herring prospectus
+
+6
+00:00:16,883 --> 00:00:18,715
+and exchange notices;
+
+7
+00:00:18,715 --> 00:00:22,117
+the final price is fixed after bidding,
+
+8
+00:00:22,117 --> 00:00:25,780
+so valuations are computed at the ₹34 cap.
+
+9
+00:00:26,280 --> 00:00:27,517
+First, the business.
+
+10
+00:00:28,017 --> 00:00:32,258
+Moneyview is a digital lending platform.
+
+11
+00:00:32,258 --> 00:00:38,407
+Its app had 134.14 million registered users by March 2026.
+
+12
+00:00:38,907 --> 00:00:43,881
+Most personal loans are funded by 48 financial partners,
+
+13
+00:00:43,881 --> 00:00:48,144
+with its own NBFC, Whizdm Finance, also lending.
+
+14
+00:00:48,644 --> 00:00:56,653
+The managed book of unsecured personal loans was ₹21,380.14 Cr,
+
+15
+00:00:56,653 --> 00:01:04,281
+and annualised losses on those loans eased to 6.95% in FY26.
+
+16
+00:01:04,781 --> 00:01:06,381
+The financial checkpoint.
+
+17
+00:01:06,881 --> 00:01:20,070
+FY26 revenue was ₹3,351.16 Cr, against ₹2,339.15 Cr in FY25,
+
+18
+00:01:20,070 --> 00:01:24,247
+a change of 43.26%.
+
+19
+00:01:24,747 --> 00:01:32,768
+Profit after tax was ₹242.71 Cr, a margin of 7.24%.
+
+20
+00:01:33,268 --> 00:01:34,868
+One detail matters here.
+
+21
+00:01:35,368 --> 00:01:42,173
+Reported profit includes a ₹206.65 Cr exceptional charge,
+
+22
+00:01:42,173 --> 00:01:50,053
+mostly a one-time ₹160 Cr performance incentive to the MD and CEO.
+
+23
+00:01:50,053 --> 00:01:56,381
+Before exceptional items, FY26 profit was ₹397.34 Cr.
+
+24
+00:01:56,881 --> 00:02:02,830
+Also note loan impairments of ₹983.53 Cr in FY26,
+
+25
+00:02:02,830 --> 00:02:07,079
+the core risk in unsecured lending.
+
+26
+00:02:07,579 --> 00:02:12,891
+The offer size at the cap is ₹1,091.68 Cr.
+
+27
+00:02:13,391 --> 00:02:18,924
+₹750.00 Cr is fresh issue that goes into the company,
+
+28
+00:02:18,924 --> 00:02:26,233
+and ₹341.68 Cr is an offer for sale that goes to selling shareholders.
+
+29
+00:02:26,733 --> 00:02:31,292
+So 68.70% of the deal is new capital,
+
+30
+00:02:31,292 --> 00:02:36,589
+and 31.30% is an exit for existing holders.
+
+31
+00:02:37,089 --> 00:02:38,412
+Where does the money go?
+
+32
+00:02:38,912 --> 00:02:41,600
+Of the ₹750.00 Cr fresh issue,
+
+33
+00:02:41,600 --> 00:02:46,349
+₹325.00 Cr funds default-loss-guarantee arrangements,
+
+34
+00:02:46,349 --> 00:02:53,248
+the deposits that let lending partners disburse more loans through Moneyview.
+
+35
+00:02:53,748 --> 00:03:00,212
+₹250.00 Cr strengthens the capital of its NBFC, Whizdm Finance.
+
+36
+00:03:00,712 --> 00:03:05,432
+The offer for sale is about ₹341.68 Cr at the cap,
+
+37
+00:03:05,432 --> 00:03:11,475
+sold by investors including Accel, Internet Fund III and Ribbit,
+
+38
+00:03:11,475 --> 00:03:13,363
+and by the founders.
+
+39
+00:03:13,863 --> 00:03:14,865
+Valuation.
+
+40
+00:03:15,365 --> 00:03:17,455
+At the ₹34 cap,
+
+41
+00:03:17,455 --> 00:03:26,928
+the price is 21.66x reported FY26 diluted earnings of ₹1.57 a share.
+
+42
+00:03:27,428 --> 00:03:33,872
+Listed peers range from OnEMI at 16.62x,
+
+43
+00:03:33,872 --> 00:03:40,638
+SBI Cards 27.98x and Bajaj Finance 33.66x,
+
+44
+00:03:40,638 --> 00:03:44,665
+to PB Fintech at 120.33x.
+
+45
+00:03:45,165 --> 00:03:49,244
+Remember the reported figure already carries the one-time charge;
+
+46
+00:03:49,244 --> 00:03:52,632
+on pre-exceptional profit the multiple would be lower.
+
+47
+00:03:53,132 --> 00:03:54,625
+Now balance the evidence.
+
+48
+00:03:55,125 --> 00:03:56,925
+Watch-out:
+
+49
+00:03:56,925 --> 00:03:59,804
+Unsecured loans:
+
+50
+00:03:59,804 --> 00:04:05,202
+₹983.53 Cr impairment in FY26.
+
+51
+00:04:05,202 --> 00:04:06,821
+Strength:
+
+52
+00:04:06,821 --> 00:04:12,939
+Revenue up 43.26% to ₹3,351.16 Cr.
+
+53
+00:04:13,439 --> 00:04:14,396
+Watch-out:
+
+54
+00:04:14,396 --> 00:04:19,565
+Default-loss guarantees keep credit risk on its books.
+
+55
+00:04:19,565 --> 00:04:20,426
+Strength:
+
+56
+00:04:20,426 --> 00:04:24,447
+Profit before exceptional items up 65.37%.
+
+57
+00:04:24,947 --> 00:04:26,298
+Watch-out:
+
+58
+00:04:26,298 --> 00:04:31,165
+31.30% of the offer is investor OFS.
+
+59
+00:04:31,165 --> 00:04:32,382
+Strength:
+
+60
+00:04:32,382 --> 00:04:38,600
+21.66x P/E, below Bajaj Finance and SBI Cards.
+
+61
+00:04:39,100 --> 00:04:40,231
+How to apply.
+
+62
+00:04:40,731 --> 00:04:45,712
+The minimum bid is one lot of 441 shares,
+
+63
+00:04:45,712 --> 00:04:49,115
+which is ₹14,994 at the cap.
+
+64
+00:04:49,615 --> 00:04:53,090
+Retail investors can bid up to two lakh rupees,
+
+65
+00:04:53,090 --> 00:04:57,231
+and allotment is by lottery if retail is oversubscribed.
+
+66
+00:04:57,731 --> 00:05:02,274
+Check live subscription on the N S E or B S E website,
+
+67
+00:05:02,274 --> 00:05:03,704
+not social media.
+
+68
+00:05:04,204 --> 00:05:05,164
+Let's recap.
+
+69
+00:05:05,664 --> 00:05:12,374
+FY26 revenue ₹3,351.16 Cr, profit ₹242.71 Cr.
+
+70
+00:05:12,374 --> 00:05:16,250
+The offer is ₹1,091.68 Cr,
+
+71
+00:05:16,250 --> 00:05:21,916
+of which ₹341.68 Cr is offer for sale.
+
+72
+00:05:21,916 --> 00:05:27,880
+Valuation is 21.66x earnings at the cap.
+
+73
+00:05:27,880 --> 00:05:32,949
+The minimum investment is ₹14,994.
+
+74
+00:05:33,449 --> 00:05:37,623
+This video is public-source education from the red herring
+
+75
+00:05:37,623 --> 00:05:39,926
+prospectus and exchange notices.
+
+76
+00:05:39,926 --> 00:05:43,884
+It is not investment advice and not a buy or sell call.
+
+77
+00:05:43,884 --> 00:05:45,683
+Read the final documents,
+
+78
+00:05:45,683 --> 00:05:48,561
+check live subscription on the exchange,
+
+79
+00:05:48,561 --> 00:05:51,295
+and consult a SEBI-registered adviser.
+
+80
+00:05:51,295 --> 00:05:52,735
+Thanks for watching.
+

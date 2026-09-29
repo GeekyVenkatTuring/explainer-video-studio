@@ -1,0 +1,42 @@
+{
+ "idx": 13,
+ "variant": "xa_article",
+ "props": {
+  "rank": 3,
+  "total": 5,
+  "ch": 2,
+  "chname": "SKILLS & MCP",
+  "title": "AI Engineering Skills Map: Building and Deploying AI Applications",
+  "handle": "@AndrewYNg",
+  "likes": "12.0K",
+  "thesis": "The second map names six competencies for building reliable applications out of components whose output you cannot predict in advance.",
+  "take": "Let evaluation and error analysis pick your next move \u2014 Ng calls it the deciding skill.",
+  "points": [
+   {
+    "label": "Know the model",
+    "line": "Tokenisation, context, caching, cutoffs, sampling and tool calling all shape the design."
+   },
+   {
+    "label": "Ground it in data",
+    "line": "Vector indexes, knowledge graphs or a semantic layer \u2014 match retrieval to the data."
+   },
+   {
+    "label": "Design the execution",
+    "line": "A fixed sequence, or a harness that picks its next action; plus sandboxing and memory."
+   },
+   {
+    "label": "Let evals steer",
+    "line": "Inspect traces, analyse errors, then choose measures \u2014 and evaluate the evaluators."
+   },
+   {
+    "label": "Operate under drift",
+    "line": "Monitor real usage, watch for prompt injection, match testing to the consequences."
+   },
+   {
+    "label": "Keep the ML basics",
+    "line": "Supervised and reinforcement learning, bias and variance, still earn their place."
+   }
+  ]
+ },
+ "narration": "Ng's second map is narrower. It is about building and deploying the application itself. [pause] Six competencies. The first is knowing the model. Tokenisation, context allocation, cache behaviour, knowledge cutoffs, sampling settings, tool calling. All of them change your design. Fine-tuning and self-hosting are specialist options, not substitutes for understanding. [pause] The second is grounding in data. Decide what belongs in the prompt and what the model should go and fetch. Match the retrieval to the shape of your data. A vector index, a knowledge graph, or a semantic layer over structured records. Convert your PDFs, HTML and images into usable inputs, and keep those pipelines fresh. [pause] The third is designing execution. Either a fixed sequence of calls, or a harness where the model repeatedly picks its next action. Then sandboxing, memory, and guardrails. [pause] The fourth is the one Ng singles out. Disciplined evaluation and error analysis. He calls it the strongest skill separating A I builders. Inspect the traces. Find the errors. Then choose what to measure. And check your evaluators too. [pause] He adds that the right approach shifts with the project and its maturity. [pause] Fifth, operate under drift and prompt injection. Sixth, keep the machine learning basics. [pause] Prompting alone was never going to deliver reliability."
+}

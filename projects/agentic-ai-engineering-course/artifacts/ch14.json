@@ -1,0 +1,169 @@
+{
+  "cuts": [
+    {
+      "id": "part4",
+      "type": "aae_divider",
+      "in_seconds": 0.0,
+      "out_seconds": 6.804,
+      "props": {
+        "part": 4,
+        "title": "Trust in Use",
+        "focus": "UX, integration, cognition, trust, operations, and quality.",
+        "dur": 7.304
+      }
+    },
+    {
+      "id": "ch14_foundation",
+      "type": "aae_chapter",
+      "in_seconds": 7.304,
+      "out_seconds": 52.675,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "foundation",
+        "dur": 45.871
+      }
+    },
+    {
+      "id": "ch14_system",
+      "type": "aae_chapter",
+      "in_seconds": 53.175,
+      "out_seconds": 91.126,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "system",
+        "dur": 38.45
+      }
+    },
+    {
+      "id": "ch14_practice",
+      "type": "aae_chapter",
+      "in_seconds": 91.626,
+      "out_seconds": 137.361,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "practice",
+        "dur": 46.235
+      }
+    },
+    {
+      "id": "ch14_failure",
+      "type": "aae_chapter",
+      "in_seconds": 137.861,
+      "out_seconds": 176.417,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "failure",
+        "dur": 39.056
+      }
+    },
+    {
+      "id": "ch14_evaluation",
+      "type": "aae_chapter",
+      "in_seconds": 176.917,
+      "out_seconds": 219.447,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "evaluation",
+        "dur": 43.03
+      }
+    },
+    {
+      "id": "ch14_handoff",
+      "type": "aae_chapter",
+      "in_seconds": 219.947,
+      "out_seconds": 256.924,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "handoff",
+        "dur": 37.477
+      }
+    },
+    {
+      "id": "ch14_application",
+      "type": "aae_chapter",
+      "in_seconds": 257.424,
+      "out_seconds": 305.387,
+      "props": {
+        "chapter": 14,
+        "title": "Agentic UX Engineering",
+        "focus": "showing intent, progress, uncertainty, and controls so people can collaborate",
+        "concepts": [
+          "transparent state",
+          "reversible actions",
+          "appropriate autonomy"
+        ],
+        "example": "a finance assistant previewing a transfer before approval",
+        "trap": "a chat box that hides side effects",
+        "takeaway": "Showing intent, progress, uncertainty, and controls so people can collaborate.",
+        "beat": "application",
+        "dur": 48.463
+      }
+    }
+  ],
+  "audio": {
+    "narration": {
+      "src": "aae/ch14.wav",
+      "volume": 1
+    }
+  }
+}

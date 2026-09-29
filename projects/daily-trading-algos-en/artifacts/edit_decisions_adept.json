@@ -1,0 +1,1672 @@
+{
+ "cuts": [
+  {
+   "id": "s01_title",
+   "type": "da_title",
+   "in_seconds": 0.0,
+   "out_seconds": 25.42,
+   "props": {
+    "dur": 26.02
+   }
+  },
+  {
+   "id": "s02_hook",
+   "type": "da_hook",
+   "in_seconds": 26.02,
+   "out_seconds": 56.111,
+   "props": {
+    "dur": 30.691
+   }
+  },
+  {
+   "id": "s03_div1",
+   "type": "da_div",
+   "in_seconds": 56.711,
+   "out_seconds": 63.246,
+   "props": {
+    "n": 1,
+    "title": "What a Rule Really Does",
+    "sub": "The loop behind every trading bot",
+    "color": "#38BDF8",
+    "dur": 7.135
+   }
+  },
+  {
+   "id": "s04_loop",
+   "type": "da_loop",
+   "in_seconds": 63.846,
+   "out_seconds": 120.464,
+   "props": {
+    "dur": 57.218
+   }
+  },
+  {
+   "id": "s05_market",
+   "type": "da_market",
+   "in_seconds": 121.064,
+   "out_seconds": 178.107,
+   "props": {
+    "dur": 57.643
+   }
+  },
+  {
+   "id": "s06_div2",
+   "type": "da_div",
+   "in_seconds": 178.707,
+   "out_seconds": 187.572,
+   "props": {
+    "n": 2,
+    "title": "The Strategies",
+    "sub": "Four everyday ideas, on synthetic charts",
+    "color": "#34D399",
+    "dur": 9.465
+   }
+  },
+  {
+   "id": "s07_momentum",
+   "type": "da_momentum",
+   "in_seconds": 188.172,
+   "out_seconds": 246.972,
+   "props": {
+    "dur": 59.4
+   }
+  },
+  {
+   "id": "s08_meanrev",
+   "type": "da_meanrev",
+   "in_seconds": 247.572,
+   "out_seconds": 297.356,
+   "props": {
+    "dur": 50.384
+   }
+  },
+  {
+   "id": "s09_breakout",
+   "type": "da_breakout",
+   "in_seconds": 297.956,
+   "out_seconds": 349.408,
+   "props": {
+    "dur": 52.052
+   }
+  },
+  {
+   "id": "s10_vwap",
+   "type": "da_vwap",
+   "in_seconds": 350.008,
+   "out_seconds": 407.069,
+   "props": {
+    "dur": 57.661
+   }
+  },
+  {
+   "id": "s11_pairs",
+   "type": "da_pairs",
+   "in_seconds": 407.669,
+   "out_seconds": 452.635,
+   "props": {
+    "dur": 45.566
+   }
+  },
+  {
+   "id": "s12_making",
+   "type": "da_making",
+   "in_seconds": 453.235,
+   "out_seconds": 496.38,
+   "props": {
+    "dur": 43.745
+   }
+  },
+  {
+   "id": "s13_arb",
+   "type": "da_arb",
+   "in_seconds": 496.98,
+   "out_seconds": 542.013,
+   "props": {
+    "dur": 45.633
+   }
+  },
+  {
+   "id": "s12_div3",
+   "type": "da_div",
+   "in_seconds": 542.613,
+   "out_seconds": 551.547,
+   "props": {
+    "n": 3,
+    "title": "The India Reality",
+    "sub": "The rulebook, and the honest numbers",
+    "color": "#FBBF24",
+    "dur": 9.534
+   }
+  },
+  {
+   "id": "s13_sebi",
+   "type": "da_sebi",
+   "in_seconds": 552.147,
+   "out_seconds": 604.103,
+   "props": {
+    "dur": 52.556
+   }
+  },
+  {
+   "id": "s14_costs",
+   "type": "da_costs",
+   "in_seconds": 604.703,
+   "out_seconds": 665.884,
+   "props": {
+    "dur": 61.781
+   }
+  },
+  {
+   "id": "s15_div4",
+   "type": "da_div",
+   "in_seconds": 666.484,
+   "out_seconds": 674.563,
+   "props": {
+    "n": 4,
+    "title": "Build & Run One",
+    "sub": "The stack, the test, the checklist",
+    "color": "#A78BFA",
+    "dur": 8.679
+   }
+  },
+  {
+   "id": "s16_stack",
+   "type": "da_stack",
+   "in_seconds": 675.163,
+   "out_seconds": 735.081,
+   "props": {
+    "dur": 60.518
+   }
+  },
+  {
+   "id": "s17_backtest",
+   "type": "da_backtest",
+   "in_seconds": 735.681,
+   "out_seconds": 791.001,
+   "props": {
+    "dur": 55.92
+   }
+  },
+  {
+   "id": "s18_live",
+   "type": "da_live",
+   "in_seconds": 791.601,
+   "out_seconds": 847.809,
+   "props": {
+    "dur": 56.808
+   }
+  },
+  {
+   "id": "s19_recap",
+   "type": "da_recap",
+   "in_seconds": 848.409,
+   "out_seconds": 885.096,
+   "props": {
+    "items": [
+     "A trading algorithm is a rule: data -> signal -> risk -> order -> fill",
+     "Not everything fast is an algo \u2014 HFT is a subset, not the whole",
+     "Momentum, mean reversion, breakout, VWAP \u2014 each a simple rule, each fails a way",
+     "India: your bot needs an Algo ID, static IP, and supervision (SEBI, 1 Apr 2026)",
+     "Costs decide survival \u2014 and 93% of individual F&O traders lost money",
+     "Backtest attacks the idea; controls and a kill switch make it a system",
+     "Automation is not an edge \u2014 synthetic charts here are not backtests"
+    ],
+    "closer": "Build systems that can say no.",
+    "dur": 37.287
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.054,
+   "A promise before we start."
+  ],
+  [
+   2.761,
+   6.458,
+   "Every idea here, I'll explain with something you\nalready"
+  ],
+  [
+   6.458,
+   6.868,
+   "know."
+  ],
+  [
+   7.575,
+   11.272,
+   "We'll use a method called ADEPT \u2014 analogy, diagram,"
+  ],
+  [
+   11.272,
+   14.148,
+   "example, plain words, then the technical term."
+  ],
+  [
+   14.854,
+   18.552,
+   "Today's topic: daily trading algorithms. How\nmachines actually trade,"
+  ],
+  [
+   18.552,
+   20.195,
+   "and the India reality."
+  ],
+  [
+   20.901,
+   24.598,
+   "None of this is investment advice. It's a way"
+  ],
+  [
+   24.598,
+   25.42,
+   "of thinking."
+  ],
+  [
+   26.02,
+   27.111,
+   "Here's a puzzle."
+  ],
+  [
+   27.818,
+   31.092,
+   "An order hits the exchange in the blink of"
+  ],
+  [
+   31.092,
+   31.82,
+   "an eye."
+  ],
+  [
+   32.526,
+   35.801,
+   "Nobody clicked a button. A rule did \u2014 a"
+  ],
+  [
+   35.801,
+   37.984,
+   "computer following instructions, with no emotion."
+  ],
+  [
+   38.69,
+   41.964,
+   "By financial year twenty twenty-four, twelve point\neight percent"
+  ],
+  [
+   41.964,
+   45.239,
+   "of N S E cash-market turnover was classified as"
+  ],
+  [
+   45.239,
+   45.603,
+   "algo."
+  ],
+  [
+   46.309,
+   49.583,
+   "That's one scoped number, not a claim about all"
+  ],
+  [
+   49.583,
+   49.947,
+   "trading."
+  ],
+  [
+   50.654,
+   53.928,
+   "So what is that rule really doing? Let's build"
+  ],
+  [
+   53.928,
+   56.111,
+   "it up, from the very beginning."
+  ],
+  [
+   56.711,
+   57.44,
+   "Part one."
+  ],
+  [
+   58.146,
+   61.425,
+   "What a trading rule actually does \u2014 the simple"
+  ],
+  [
+   61.425,
+   63.246,
+   "loop hiding inside every bot."
+  ],
+  [
+   63.846,
+   65.769,
+   "Think of a vending machine."
+  ],
+  [
+   66.476,
+   69.938,
+   "You meet its one condition \u2014 insert the coin"
+  ],
+  [
+   69.938,
+   73.4,
+   "\u2014 and it acts, the same way every single"
+  ],
+  [
+   73.4,
+   76.093,
+   "time, with no mood and no hesitation."
+  ],
+  [
+   76.799,
+   80.261,
+   "A trading algorithm has a loop just like that:"
+  ],
+  [
+   80.261,
+   83.724,
+   "it takes in data, forms a signal, checks risk,"
+  ],
+  [
+   83.724,
+   86.416,
+   "sends an order, and receives a fill."
+  ],
+  [
+   87.123,
+   90.585,
+   "Here's a real case. Suppose I decide: if the"
+  ],
+  [
+   90.585,
+   94.047,
+   "price crosses a line I chose, buy exactly one"
+  ],
+  [
+   94.047,
+   97.509,
+   "lot. The computer watches every tick, and the\ninstant"
+  ],
+  [
+   97.509,
+   100.971,
+   "that line is crossed, the order goes \u2014 just"
+  ],
+  [
+   100.971,
+   102.51,
+   "one, exactly as written."
+  ],
+  [
+   103.216,
+   106.678,
+   "In plain words, an algorithm turns incoming data\ninto"
+  ],
+  [
+   106.678,
+   109.371,
+   "controlled orders, and then keeps watching itself."
+  ],
+  [
+   110.078,
+   113.54,
+   "The technical name for all of this is algorithmic"
+  ],
+  [
+   113.54,
+   117.002,
+   "trading, and the authenticated pipe it sends orders\nthrough"
+  ],
+  [
+   117.002,
+   120.464,
+   "is called direct market access, or D M A."
+  ],
+  [
+   121.064,
+   123.907,
+   "Now, not everything fast is an algo."
+  ],
+  [
+   124.614,
+   128.269,
+   "Picture a highway: some cars drive themselves, some\nsit"
+  ],
+  [
+   128.269,
+   131.925,
+   "in a fast lane near the toll, and some"
+  ],
+  [
+   131.925,
+   133.144,
+   "rented the on-ramp."
+  ],
+  [
+   133.85,
+   137.506,
+   "Those are three different things. On N S E"
+  ],
+  [
+   137.506,
+   141.161,
+   "cash market in financial year twenty twenty-four,\nalgo was"
+  ],
+  [
+   141.161,
+   144.817,
+   "twelve point eight percent of turnover, while\nco-location was"
+  ],
+  [
+   144.817,
+   148.473,
+   "thirty-four point three percent \u2014 and co-location is\nnot"
+  ],
+  [
+   148.473,
+   149.691,
+   "an algo share."
+  ],
+  [
+   150.398,
+   154.054,
+   "In the United States, the I M F put"
+  ],
+  [
+   154.054,
+   157.709,
+   "algo near seventy percent of equity trading \u2014 a"
+  ],
+  [
+   157.709,
+   159.74,
+   "U S figure, not India."
+  ],
+  [
+   160.447,
+   164.102,
+   "Here's the example that matters: a co-located order\ncan"
+  ],
+  [
+   164.102,
+   166.539,
+   "still be placed by a human."
+  ],
+  [
+   167.246,
+   170.902,
+   "Plainly: automation, speed, and access are three\nseparate choices."
+  ],
+  [
+   171.608,
+   175.264,
+   "The technical point \u2014 high-frequency trading is just\na"
+  ],
+  [
+   175.264,
+   178.107,
+   "fast subset; the India-wide share stays unverified."
+  ],
+  [
+   178.707,
+   179.584,
+   "Part two."
+  ],
+  [
+   180.29,
+   181.167,
+   "The strategies."
+  ],
+  [
+   181.873,
+   185.819,
+   "These charts use illustrative, synthetic data \u2014\nnever a"
+  ],
+  [
+   185.819,
+   187.572,
+   "backtest, never a promise."
+  ],
+  [
+   188.172,
+   189.932,
+   "Our first strategy is momentum."
+  ],
+  [
+   190.639,
+   193.807,
+   "Think of pushing a child on a swing \u2014"
+  ],
+  [
+   193.807,
+   196.975,
+   "you don't fight it, you push while it's already"
+  ],
+  [
+   196.975,
+   198.031,
+   "moving your way."
+  ],
+  [
+   198.738,
+   201.906,
+   "To see the trend, we draw two moving averages"
+  ],
+  [
+   201.906,
+   205.074,
+   "on the price: a fast one that reacts quickly,"
+  ],
+  [
+   205.074,
+   207.538,
+   "and a slow one that reacts gently."
+  ],
+  [
+   208.245,
+   211.413,
+   "Here's the rule in action. When the fast line"
+  ],
+  [
+   211.413,
+   214.581,
+   "crosses above the slow line, the recent trend has"
+  ],
+  [
+   214.581,
+   217.749,
+   "turned up, so the algorithm can go long; when"
+  ],
+  [
+   217.749,
+   220.917,
+   "the fast line crosses back below, the trend has"
+  ],
+  [
+   220.917,
+   224.086,
+   "faded, and it exits. Notice it never tries to"
+  ],
+  [
+   224.086,
+   227.254,
+   "catch the exact bottom \u2014 it waits for the"
+  ],
+  [
+   227.254,
+   228.662,
+   "turn to be confirmed."
+  ],
+  [
+   229.368,
+   232.537,
+   "In plain words, you're riding a move that has"
+  ],
+  [
+   232.537,
+   235.001,
+   "already begun, and letting it carry you."
+  ],
+  [
+   235.707,
+   238.876,
+   "The technical name is trend, or momentum, trading \u2014"
+  ],
+  [
+   238.876,
+   242.044,
+   "and its failure mode is chop: a flat, sideways"
+  ],
+  [
+   242.044,
+   245.212,
+   "market that fakes you long and short, again and"
+  ],
+  [
+   245.212,
+   246.972,
+   "again, paying costs each time."
+  ],
+  [
+   247.572,
+   250.44,
+   "The next strategy believes the opposite of momentum."
+  ],
+  [
+   251.147,
+   254.374,
+   "Think of a rubber band \u2014 stretch it too"
+  ],
+  [
+   254.374,
+   256.883,
+   "far, and it wants to snap back."
+  ],
+  [
+   257.59,
+   260.817,
+   "To measure the stretch, we draw volatility bands\naround"
+  ],
+  [
+   260.817,
+   264.044,
+   "a moving average: an upper band and a lower"
+  ],
+  [
+   264.044,
+   266.912,
+   "band that widen when the market gets wild."
+  ],
+  [
+   267.618,
+   270.845,
+   "For example, when price pokes below the lower band,"
+  ],
+  [
+   270.845,
+   274.072,
+   "and a momentum gauge like R S I looks"
+  ],
+  [
+   274.072,
+   277.299,
+   "washed out, the rule may bet on a bounce"
+  ],
+  [
+   277.299,
+   278.733,
+   "back toward the middle."
+  ],
+  [
+   279.44,
+   282.666,
+   "In plain words, you're betting that an unusually\nlarge"
+  ],
+  [
+   282.666,
+   284.818,
+   "move returns toward its own average."
+  ],
+  [
+   285.524,
+   288.751,
+   "The technical name is mean reversion \u2014 and its"
+  ],
+  [
+   288.751,
+   291.978,
+   "danger is the one thing it can't handle: a"
+  ],
+  [
+   291.978,
+   295.205,
+   "genuine trend, where cheap simply keeps getting\ncheaper, and"
+  ],
+  [
+   295.205,
+   297.356,
+   "the band breaks instead of holding."
+  ],
+  [
+   297.956,
+   300.517,
+   "Our third strategy waits for a build-up."
+  ],
+  [
+   301.223,
+   304.515,
+   "Think of water behind a dam \u2014 pressure gathers"
+  ],
+  [
+   304.515,
+   307.442,
+   "quietly, and then it escapes all at once."
+  ],
+  [
+   308.148,
+   311.44,
+   "On the chart, we take the first stretch of"
+  ],
+  [
+   311.44,
+   314.733,
+   "the session and mark its highest high and lowest"
+  ],
+  [
+   314.733,
+   317.659,
+   "low. That box is called the opening range."
+  ],
+  [
+   318.365,
+   321.658,
+   "Here's the example. If price pushes above the top"
+  ],
+  [
+   321.658,
+   324.95,
+   "of the box, the rule buys the breakout, and"
+  ],
+  [
+   324.95,
+   328.242,
+   "immediately places a stop just below \u2014 the exit"
+  ],
+  [
+   328.242,
+   330.071,
+   "is decided before the entry."
+  ],
+  [
+   330.777,
+   334.07,
+   "In plain words, you're trading the exact moment\nprice"
+  ],
+  [
+   334.07,
+   336.996,
+   "escapes a quiet range and starts to run."
+  ],
+  [
+   337.702,
+   340.995,
+   "The technical name is the opening-range breakout \u2014\nand"
+  ],
+  [
+   340.995,
+   344.287,
+   "its classic failure is the false breakout, where\nprice"
+  ],
+  [
+   344.287,
+   347.579,
+   "pokes out, sucks everyone in, and snaps right back,"
+  ],
+  [
+   347.579,
+   349.408,
+   "often on a news gap."
+  ],
+  [
+   350.008,
+   353.241,
+   "This next one is different \u2014 it isn't about"
+  ],
+  [
+   353.241,
+   356.115,
+   "what to buy, but how to buy it."
+  ],
+  [
+   356.822,
+   360.055,
+   "Imagine you have to buy a huge quantity. Slam"
+  ],
+  [
+   360.055,
+   363.288,
+   "it in at once and you'll push the price"
+  ],
+  [
+   363.288,
+   366.522,
+   "against yourself; instead you take small sips, so\nyou"
+  ],
+  [
+   366.522,
+   367.959,
+   "don't spook the market."
+  ],
+  [
+   368.665,
+   371.898,
+   "On the chart, a V W A P line"
+  ],
+  [
+   371.898,
+   375.132,
+   "traces the volume-weighted average price \u2014 a fair\nbenchmark"
+  ],
+  [
+   375.132,
+   378.365,
+   "for the day \u2014 and your child orders try"
+  ],
+  [
+   378.365,
+   379.443,
+   "to track it."
+  ],
+  [
+   380.149,
+   383.382,
+   "For example, one big parent order of a thousand"
+  ],
+  [
+   383.382,
+   386.616,
+   "lots is chopped into twenty small slices, released\nthrough"
+  ],
+  [
+   386.616,
+   389.49,
+   "the day so each blends into normal volume."
+  ],
+  [
+   390.196,
+   393.429,
+   "In plain words, this is execution: quietly cutting\nyour"
+  ],
+  [
+   393.429,
+   395.944,
+   "own footprint, not predicting direction at all."
+  ],
+  [
+   396.651,
+   399.884,
+   "The technical names are V W A P and"
+  ],
+  [
+   399.884,
+   403.117,
+   "T W A P execution; the risks are market"
+  ],
+  [
+   403.117,
+   406.35,
+   "impact and information leakage \u2014 letting others see\nwhat"
+  ],
+  [
+   406.35,
+   407.069,
+   "you're doing."
+  ],
+  [
+   407.669,
+   410.33,
+   "Here's a cleverer cousin of mean reversion."
+  ],
+  [
+   411.036,
+   414.457,
+   "Think of two dancers who almost always move\ntogether;"
+  ],
+  [
+   414.457,
+   417.879,
+   "you stop watching each one, and just watch the"
+  ],
+  [
+   417.879,
+   419.019,
+   "gap between them."
+  ],
+  [
+   419.725,
+   423.147,
+   "On the chart, we track the spread between two"
+  ],
+  [
+   423.147,
+   426.568,
+   "related stocks, and turn it into a z-score \u2014"
+  ],
+  [
+   426.568,
+   429.989,
+   "a number that says how unusual today's gap is."
+  ],
+  [
+   430.695,
+   434.116,
+   "For example, when that z-score stretches past two,\nthe"
+  ],
+  [
+   434.116,
+   437.538,
+   "rule buys the cheap leg and shorts the expensive"
+  ],
+  [
+   437.538,
+   439.438,
+   "leg, betting the gap closes."
+  ],
+  [
+   440.145,
+   443.566,
+   "In plain words, you're trading the relationship, not\nthe"
+  ],
+  [
+   443.566,
+   444.326,
+   "market direction."
+  ],
+  [
+   445.033,
+   448.454,
+   "The technical name is statistical arbitrage, or\npairs trading"
+  ],
+  [
+   448.454,
+   451.875,
+   "\u2014 and its real danger is a relationship that"
+  ],
+  [
+   451.875,
+   452.635,
+   "simply breaks."
+  ],
+  [
+   453.235,
+   456.308,
+   "Now, who is on the other side of all"
+  ],
+  [
+   456.308,
+   456.991,
+   "these trades?"
+  ],
+  [
+   457.698,
+   460.771,
+   "Often a market maker \u2014 think of a shopkeeper"
+  ],
+  [
+   460.771,
+   463.845,
+   "who'll always buy from you at one price and"
+  ],
+  [
+   463.845,
+   465.894,
+   "sell at a slightly higher one."
+  ],
+  [
+   466.6,
+   469.673,
+   "The picture: the maker posts a bid and an"
+  ],
+  [
+   469.673,
+   472.747,
+   "ask around fair value, on both sides at once."
+  ],
+  [
+   473.453,
+   476.527,
+   "For example, if both a buyer and a seller"
+  ],
+  [
+   476.527,
+   479.6,
+   "trade with those quotes, the maker keeps the little"
+  ],
+  [
+   479.6,
+   482.673,
+   "gap between them \u2014 the spread \u2014 while carefully"
+  ],
+  [
+   482.673,
+   483.698,
+   "managing leftover inventory."
+  ],
+  [
+   484.404,
+   487.478,
+   "In plain words, they get paid to provide liquidity,"
+  ],
+  [
+   487.478,
+   488.844,
+   "not to predict direction."
+  ],
+  [
+   489.55,
+   492.624,
+   "The technical risk is adverse selection \u2014 being\npicked"
+  ],
+  [
+   492.624,
+   495.697,
+   "off by someone who knows the price is about"
+  ],
+  [
+   495.697,
+   496.38,
+   "to move."
+  ],
+  [
+   496.98,
+   500.407,
+   "The last strategy is the closest thing to a"
+  ],
+  [
+   500.407,
+   503.072,
+   "free lunch \u2014 and it usually isn't."
+  ],
+  [
+   503.778,
+   507.205,
+   "Arbitrage is like buying mangoes cheaper in one\nbazaar"
+  ],
+  [
+   507.205,
+   510.632,
+   "to sell them dearer in another, at the same"
+  ],
+  [
+   510.632,
+   511.012,
+   "moment."
+  ],
+  [
+   511.719,
+   515.145,
+   "The picture: compare two prices for the same\nunderlying"
+  ],
+  [
+   515.145,
+   518.572,
+   "value \u2014 say a stock's cash price against its"
+  ],
+  [
+   518.572,
+   519.334,
+   "futures price."
+  ],
+  [
+   520.04,
+   523.467,
+   "For example, buy the cheaper leg and sell the"
+  ],
+  [
+   523.467,
+   526.893,
+   "dearer leg, and lock the gap \u2014 but only"
+  ],
+  [
+   526.893,
+   529.939,
+   "if it beats funding, borrowing, taxes, and fees."
+  ],
+  [
+   530.646,
+   534.072,
+   "In plain words, these are tiny, locked gaps, chased"
+  ],
+  [
+   534.072,
+   535.976,
+   "instantly by very fast competitors."
+  ],
+  [
+   536.683,
+   540.109,
+   "The technical name is cash-futures arbitrage, and\nits risks"
+  ],
+  [
+   540.109,
+   542.013,
+   "are basis, legging, and funding."
+  ],
+  [
+   542.613,
+   543.297,
+   "Part three."
+  ],
+  [
+   544.003,
+   545.029,
+   "The India reality."
+  ],
+  [
+   545.735,
+   548.812,
+   "A bot doesn't run in a vacuum \u2014 it"
+  ],
+  [
+   548.812,
+   551.547,
+   "runs inside a broker and an exchange rulebook."
+  ],
+  [
+   552.147,
+   555.606,
+   "Think of a driving licence and a number plate"
+  ],
+  [
+   555.606,
+   557.143,
+   "\u2014 for your bot."
+  ],
+  [
+   557.85,
+   561.308,
+   "The rulebook has dates, a speed cap, an identity,"
+  ],
+  [
+   561.308,
+   562.077,
+   "and controls."
+  ],
+  [
+   562.784,
+   566.242,
+   "Here are the pieces. S E B I issued"
+  ],
+  [
+   566.242,
+   569.701,
+   "the framework on the fourth of February twenty\ntwenty-five,"
+  ],
+  [
+   569.701,
+   573.16,
+   "and it applies to all brokers from the first"
+  ],
+  [
+   573.16,
+   574.697,
+   "of April twenty twenty-six."
+  ],
+  [
+   575.404,
+   578.863,
+   "The example threshold: at or below ten orders per"
+  ],
+  [
+   578.863,
+   582.321,
+   "second, an A P I algo gets a generic"
+  ],
+  [
+   582.321,
+   585.78,
+   "Algo I D; above it, the algo must be"
+  ],
+  [
+   585.78,
+   589.239,
+   "registered. Access needs a static I P and two-factor"
+  ],
+  [
+   589.239,
+   589.623,
+   "login."
+  ],
+  [
+   590.33,
+   593.789,
+   "Plainly, every bot must be identified, rate-limited,\nand supervised"
+  ],
+  [
+   593.789,
+   596.095,
+   "\u2014 the broker is the principal."
+  ],
+  [
+   596.801,
+   600.26,
+   "Technically, that's the S E B I retail-algo\nframework,"
+  ],
+  [
+   600.26,
+   603.719,
+   "with an exchange kill switch and a five-year audit"
+  ],
+  [
+   603.719,
+   604.103,
+   "trail."
+  ],
+  [
+   604.703,
+   607.807,
+   "Now the part that decides everything: costs."
+  ],
+  [
+   608.514,
+   612.505,
+   "Every trade leaks a little, like a slightly leaky"
+  ],
+  [
+   612.505,
+   612.948,
+   "bucket."
+  ],
+  [
+   613.655,
+   617.646,
+   "On the chart, gross returns fall into smaller net"
+  ],
+  [
+   617.646,
+   619.863,
+   "returns as trading picks up."
+  ],
+  [
+   620.569,
+   624.561,
+   "For example: securities-transaction tax of zero\npoint zero five"
+  ],
+  [
+   624.561,
+   628.552,
+   "percent on futures, zero point one five percent on"
+  ],
+  [
+   628.552,
+   632.543,
+   "options, plus about twenty rupees a broker order and"
+  ],
+  [
+   632.543,
+   636.534,
+   "eighteen percent G S T \u2014 that's a Zerodha"
+  ],
+  [
+   636.534,
+   638.307,
+   "example, not every broker."
+  ],
+  [
+   639.014,
+   643.005,
+   "Plainly, automation is not an edge; costs decide\nwhether"
+  ],
+  [
+   643.005,
+   644.779,
+   "high turnover can survive."
+  ],
+  [
+   645.485,
+   649.476,
+   "The sobering technical fact: a S E B I"
+  ],
+  [
+   649.476,
+   653.467,
+   "study found ninety-three percent of over one crore\nindividual"
+  ],
+  [
+   653.467,
+   657.458,
+   "futures-and-options traders lost money across\nfinancial years twenty twenty-two"
+  ],
+  [
+   657.458,
+   661.45,
+   "to twenty-four \u2014 losses above one point eight lakh"
+  ],
+  [
+   661.45,
+   665.441,
+   "crore rupees. That's F and O traders, not algo"
+  ],
+  [
+   665.441,
+   665.884,
+   "users."
+  ],
+  [
+   666.484,
+   667.151,
+   "Part four."
+  ],
+  [
+   667.857,
+   669.19,
+   "Building and running one."
+  ],
+  [
+   669.897,
+   672.897,
+   "The code is the easy part; the controls are"
+  ],
+  [
+   672.897,
+   674.563,
+   "what make it a system."
+  ],
+  [
+   675.163,
+   677.83,
+   "So how do you actually build one?"
+  ],
+  [
+   678.536,
+   681.965,
+   "Picture a factory line \u2014 with a foreman watching,"
+  ],
+  [
+   681.965,
+   685.013,
+   "and a big red emergency stop within reach."
+  ],
+  [
+   685.72,
+   689.148,
+   "The line runs in order: market data comes in,"
+  ],
+  [
+   689.148,
+   692.577,
+   "it's validated, a signal forms, risk checks it, an"
+  ],
+  [
+   692.577,
+   696.006,
+   "order-and-risk system shapes it, the broker A P I"
+  ],
+  [
+   696.006,
+   699.435,
+   "sends it, the exchange fills it, and monitoring plus"
+  ],
+  [
+   699.435,
+   701.721,
+   "an end-of-day review close the loop."
+  ],
+  [
+   702.427,
+   705.856,
+   "For example, every hand-off should be observable \u2014\nat"
+  ],
+  [
+   705.856,
+   709.285,
+   "any moment you can answer what data arrived, which"
+  ],
+  [
+   709.285,
+   712.714,
+   "check approved it, and which order actually left. If"
+  ],
+  [
+   712.714,
+   716.143,
+   "you can't answer that, you can't safely debug it."
+  ],
+  [
+   716.849,
+   720.278,
+   "In plain words, the strategy code is just one"
+  ],
+  [
+   720.278,
+   723.707,
+   "part; the controls are what make it a real"
+  ],
+  [
+   723.707,
+   724.088,
+   "system."
+  ],
+  [
+   724.794,
+   728.223,
+   "The technical pieces are the O M S and"
+  ],
+  [
+   728.223,
+   731.652,
+   "R M S, reconciliation of intent against reality, and"
+  ],
+  [
+   731.652,
+   735.081,
+   "a kill switch that is tested \u2014 not decorative."
+  ],
+  [
+   735.681,
+   739.034,
+   "Before you risk real money, you test the rule"
+  ],
+  [
+   739.034,
+   742.387,
+   "on history \u2014 but a test will lie to"
+  ],
+  [
+   742.387,
+   744.25,
+   "you if you let it."
+  ],
+  [
+   744.957,
+   748.31,
+   "Think of a dress rehearsal versus opening night; a"
+  ],
+  [
+   748.31,
+   749.8,
+   "perfect rehearsal guarantees nothing."
+  ],
+  [
+   750.507,
+   753.86,
+   "On the chart, watch two curves. An overfit strategy"
+  ],
+  [
+   753.86,
+   757.213,
+   "looks absolutely brilliant on the data it was tuned"
+  ],
+  [
+   757.213,
+   760.566,
+   "on \u2014 that's in-sample \u2014 and then flattens or"
+  ],
+  [
+   760.566,
+   763.919,
+   "falls apart on fresh data it never saw, walked"
+  ],
+  [
+   763.919,
+   765.037,
+   "forward in time."
+  ],
+  [
+   765.743,
+   769.097,
+   "So, for example, you split your history into train,"
+  ],
+  [
+   769.097,
+   772.45,
+   "validation, and test; you model every cost and\nslippage;"
+  ],
+  [
+   772.45,
+   775.803,
+   "and you never let the strategy peek at the"
+  ],
+  [
+   775.803,
+   776.175,
+   "future."
+  ],
+  [
+   776.882,
+   780.235,
+   "In plain words, a good backtest attacks your idea"
+  ],
+  [
+   780.235,
+   783.588,
+   "\u2014 it doesn't sell it to you. If it"
+  ],
+  [
+   783.588,
+   786.569,
+   "only wins in one narrow setting, it's fragile."
+  ],
+  [
+   787.275,
+   790.628,
+   "The technical traps are overfitting, and\nsurvivorship and look-ahead"
+  ],
+  [
+   790.628,
+   791.001,
+   "bias."
+  ],
+  [
+   791.601,
+   794.916,
+   "Finally, going live \u2014 treat it like a pilot's"
+  ],
+  [
+   794.916,
+   796.021,
+   "checklist before takeoff."
+  ],
+  [
+   796.728,
+   800.043,
+   "The most important code doesn't come after the\nsignal;"
+  ],
+  [
+   800.043,
+   802.253,
+   "it sits right before the order."
+  ],
+  [
+   802.96,
+   806.275,
+   "Here it is, in order: the moment the rule"
+  ],
+  [
+   806.275,
+   809.59,
+   "wants to trade, check that there's enough cash and"
+  ],
+  [
+   809.59,
+   812.905,
+   "margin, that the order size is within limits, and"
+  ],
+  [
+   812.905,
+   816.221,
+   "that you haven't blown your daily-loss cap \u2014 and"
+  ],
+  [
+   816.221,
+   819.536,
+   "only then send the tagged order. If any check"
+  ],
+  [
+   819.536,
+   822.114,
+   "fails, reject it and raise an alert."
+  ],
+  [
+   822.821,
+   826.136,
+   "For example, you paper-trade first to prove the\nplumbing,"
+  ],
+  [
+   826.136,
+   829.451,
+   "then go live with tiny size, watching for stale"
+  ],
+  [
+   829.451,
+   831.293,
+   "feeds, rejected orders, and duplicates."
+  ],
+  [
+   832.0,
+   835.315,
+   "In plain words: size small, monitor everything, and\nbe"
+  ],
+  [
+   835.315,
+   838.63,
+   "as ready to stop as you are to trade."
+  ],
+  [
+   839.337,
+   842.652,
+   "Technically, that's pre-trade risk management \u2014 and\nvery often,"
+  ],
+  [
+   842.652,
+   845.967,
+   "the strongest line of code you write is the"
+  ],
+  [
+   845.967,
+   847.809,
+   "one that prevents a trade."
+  ],
+  [
+   848.409,
+   850.237,
+   "So, the whole map."
+  ],
+  [
+   850.944,
+   855.057,
+   "A trading algorithm is a rule connected to data,"
+  ],
+  [
+   855.057,
+   856.885,
+   "risk, routing, and monitoring."
+  ],
+  [
+   857.591,
+   861.704,
+   "The strategies differ \u2014 momentum, mean reversion,\nbreakout, execution"
+  ],
+  [
+   861.704,
+   865.817,
+   "\u2014 but each can fail through costs, bad assumptions,"
+  ],
+  [
+   865.817,
+   867.646,
+   "or a changing market."
+  ],
+  [
+   868.352,
+   872.008,
+   "India adds identity, rate limits, and audit trails."
+  ],
+  [
+   872.715,
+   875.0,
+   "Automation is not an edge."
+  ],
+  [
+   875.706,
+   879.819,
+   "Educational information from public sources, not\ninvestment advice. Please"
+  ],
+  [
+   879.819,
+   883.018,
+   "consult a S E B I-registered adviser."
+  ],
+  [
+   883.725,
+   885.096,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "da/narration.wav",
+   "volume": 1.0
+  }
+ }
+}

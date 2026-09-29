@@ -1,0 +1,6 @@
+file '/Users/appuram/Developer/explainer-forge/projects/lean-lang-en/assets/b00.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/lean-lang-en/assets/raw/_g.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/lean-lang-en/assets/b01.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/lean-lang-en/assets/raw/_g.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/lean-lang-en/assets/b02.wav'
+file '/Users/appuram/Developer/explainer-forge/projects/lean-lang-en/assets/raw/_g.wav'

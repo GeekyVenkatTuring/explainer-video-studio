@@ -42,6 +42,20 @@ import { FAScene } from "./scenes/FAScenes";
 import { NBScene } from "./scenes/NBScenes";
 import { SolScene } from "./scenes/SolarScenes";
 import { LagScene } from "./scenes/LagotScenes";
+import { LJScene } from "./scenes/LJScenes";
+import { PMScene } from "./scenes/PMScenes";
+import { AgenticEngineeringScene } from "./scenes/AgenticEngineeringScenes";
+import { TAWScene } from "./scenes/TAWScenes";
+import { MC5Scene } from "./scenes/MC5Scenes";
+import { FQScene } from "./scenes/FQScenes";
+import { GTScene } from "./scenes/GTScenes";
+import { PGScene } from "./scenes/PGScenes";
+import { MWScene } from "./scenes/MWScenes";
+import { DTAScene } from "./scenes/DTAScenes";
+import { DAScene } from "./scenes/DAScenes";
+import { HFScene } from "./scenes/HFScenes";
+import { XAScene } from "./scenes/XAScenes";
+import { GHAScene } from "./scenes/GHAScenes";
 import { Captions, Cue } from "./Captions";
 
 // ---- scene-set registry: prefix -> component taking { variant, ...props }
@@ -76,6 +90,20 @@ const REGISTRY: Record<string, React.FC<{ variant: string;[key: string]: unknown
   nb: NBScene,
   sol: SolScene,
   lag: LagScene,
+  lj: LJScene,
+  pm: PMScene,
+  aae: AgenticEngineeringScene,
+  taw: TAWScene,
+  mc5: MC5Scene,
+  fq: FQScene,
+  gt: GTScene,
+  pg: PGScene,
+  mw: MWScene,
+  dta: DTAScene,
+  da: DAScene,
+  hf: HFScene,
+  xa: XAScene,
+  gha: GHAScene,
   // e.g.  ft: FTScene,  — one line per video
 };
 

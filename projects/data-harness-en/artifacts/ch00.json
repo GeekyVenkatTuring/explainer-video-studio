@@ -1,0 +1,305 @@
+{
+ "pack": "ledger",
+ "meta": {
+  "brand": "Explainer Forge",
+  "project": "data-harness",
+  "issue": "intro",
+  "code": "DH · intro"
+ },
+ "beats": [
+  {
+   "id": "b00",
+   "kind": "title",
+   "dur": 16.885,
+   "props": {
+    "kicker": "Agent engineering · finance",
+    "title": "Build a\nData Harness",
+    "subtitle": "PDFs, Excel and SQL → one agent that answers with cited numbers"
+   }
+  },
+  {
+   "id": "b01",
+   "kind": "statement",
+   "dur": 31.266,
+   "props": {
+    "kicker": "The question",
+    "lines": [
+     "Is Acme's margin improving,",
+     "while its debt stays",
+     "under control?"
+    ],
+    "accent": 0,
+    "sub": "Results in PDFs · the balance sheet in Excel, in ₹ lakh · prices in a SQL database",
+    "ats": [
+     0.118,
+     0.156,
+     0.207
+    ]
+   }
+  },
+  {
+   "id": "b02",
+   "kind": "versus",
+   "dur": 28.814,
+   "props": {
+    "kicker": "Why not just a chatbot?",
+    "title": "An assistant fetches. A harness engineers.",
+    "left": {
+     "h": "Chat assistant",
+     "items": [
+      "Reads raw documents at question time",
+      "Does arithmetic in its head",
+      "Can't tell lakh from crore",
+      "Forgets every correction"
+     ]
+    },
+    "right": {
+     "h": "Data harness",
+     "items": [
+      "Data prepared before the question",
+      "Metrics defined once, in code",
+      "Every number comes from a tool",
+      "Verified, cited, and it learns"
+     ]
+    },
+    "winner": "right"
+   }
+  },
+  {
+   "id": "b03",
+   "kind": "list",
+   "dur": 21.341,
+   "props": {
+    "kicker": "Roadmap",
+    "title": "Six parts, from idea to laptop",
+    "items": [
+     {
+      "h": "The harness",
+      "d": "what surrounds the model, and why it matters"
+     },
+     {
+      "h": "The data plane",
+      "d": "PDFs, Excel and SQL turned into clean tables"
+     },
+     {
+      "h": "Metrics and tools",
+      "d": "a semantic layer and a handful of sharp tools"
+     },
+     {
+      "h": "The loop",
+      "d": "context, model, tools, observe, repeat"
+     },
+     {
+      "h": "Trust and memory",
+      "d": "verify every number, remember every correction"
+     },
+     {
+      "h": "Your build plan",
+      "d": "seven phases, Python, on your laptop"
+     }
+    ],
+    "ats": [
+     0.098,
+     0.264,
+     0.509,
+     0.637,
+     0.725,
+     0.873
+    ]
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.102,
+   "A question about a company is easy to"
+  ],
+  [
+   3.102,
+   3.49,
+   "ask."
+  ],
+  [
+   4.121,
+   6.06,
+   "Answering it correctly is hard."
+  ],
+  [
+   6.692,
+   9.794,
+   "In this video, we design a data harness."
+  ],
+  [
+   9.794,
+   12.896,
+   "It's an agent that reads your PDFs, spreadsheets,"
+  ],
+  [
+   12.896,
+   15.997,
+   "and databases, and answers with numbers you can"
+  ],
+  [
+   15.997,
+   16.385,
+   "check."
+  ],
+  [
+   16.885,
+   20.023,
+   "Here's the kind of question we want to"
+  ],
+  [
+   20.023,
+   20.415,
+   "handle."
+  ],
+  [
+   21.047,
+   24.184,
+   "Is Acme's margin improving, while its debt stays"
+  ],
+  [
+   24.184,
+   24.969,
+   "under control?"
+  ],
+  [
+   25.6,
+   28.738,
+   "Acme is a made-up company, and all its"
+  ],
+  [
+   28.738,
+   30.307,
+   "numbers here are illustrative."
+  ],
+  [
+   30.939,
+   34.076,
+   "But the mess is real. The quarterly results"
+  ],
+  [
+   34.076,
+   37.214,
+   "are PDFs. The balance sheet sits in an"
+  ],
+  [
+   37.214,
+   40.352,
+   "Excel file, in lakh, not crore. And prices"
+  ],
+  [
+   40.352,
+   42.313,
+   "live in a SQL database."
+  ],
+  [
+   42.944,
+   46.082,
+   "One sentence of question. Three formats of data."
+  ],
+  [
+   46.082,
+   47.651,
+   "Several transformations in between."
+  ],
+  [
+   48.151,
+   51.17,
+   "Tools like Claude Code and Codex already ship"
+  ],
+  [
+   51.17,
+   51.548,
+   "agents."
+  ],
+  [
+   52.179,
+   55.199,
+   "But used as plain assistants, they fetch text"
+  ],
+  [
+   55.199,
+   58.218,
+   "and summarize it. They read raw documents when"
+  ],
+  [
+   58.218,
+   61.237,
+   "you ask, do arithmetic in their head, and"
+  ],
+  [
+   61.237,
+   62.369,
+   "forget your corrections."
+  ],
+  [
+   63.001,
+   66.02,
+   "A harness is different. The data is prepared"
+  ],
+  [
+   66.02,
+   69.04,
+   "before the question. Metrics are defined once, in"
+  ],
+  [
+   69.04,
+   72.059,
+   "code. Every number comes from a tool, and"
+  ],
+  [
+   72.059,
+   74.324,
+   "the answer is verified and cited."
+  ],
+  [
+   74.955,
+   76.465,
+   "That's what we'll build."
+  ],
+  [
+   76.965,
+   78.183,
+   "Here's the map."
+  ],
+  [
+   78.814,
+   81.656,
+   "First, the harness: what surrounds the model."
+  ],
+  [
+   82.288,
+   85.536,
+   "Second, the data plane, where PDFs, Excel, and"
+  ],
+  [
+   85.536,
+   87.16,
+   "SQL become clean tables."
+  ],
+  [
+   87.791,
+   89.415,
+   "Third, metrics and tools."
+  ],
+  [
+   90.047,
+   91.671,
+   "Fourth, the loop itself."
+  ],
+  [
+   92.302,
+   93.926,
+   "Fifth, trust and memory."
+  ],
+  [
+   94.558,
+   97.806,
+   "And sixth, your build plan, phase by phase."
+  ]
+ ],
+ "audio": "dh/ch00.wav"
+}

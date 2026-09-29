@@ -1,0 +1,233 @@
+{
+ "cuts": [
+  {
+   "id": "d09",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 10.36,
+   "props": {
+    "n": 9,
+    "title": "The Sugar Baron",
+    "sub": "Anil Kumar Goel \u2014 getting rich on boring",
+    "color": "#FBBF24",
+    "total": 14,
+    "dur": 10.86
+   }
+  },
+  {
+   "id": "w09",
+   "type": "mw_investor",
+   "in_seconds": 10.86,
+   "out_seconds": 63.139,
+   "props": {
+    "idx": 8,
+    "total": 8,
+    "color": "#FBBF24",
+    "name": "Anil Kumar Goel",
+    "tag": "THE SUGAR BARON",
+    "worth": 1974,
+    "worthUnit": "cr",
+    "stocks": 36,
+    "asOf": "Jun 2026",
+    "holdings": [
+     {
+      "nm": "Triveni Engineering",
+      "pct": "4.6%"
+     },
+     {
+      "nm": "TCPL Packaging",
+      "pct": "9.1%"
+     },
+     {
+      "nm": "KRBL",
+      "pct": "4.4%"
+     },
+     {
+      "nm": "Dalmia Bharat Sugar",
+      "pct": "6.5%"
+     },
+     {
+      "nm": "Karnataka Bank",
+      "pct": "1.5%"
+     }
+    ],
+    "strategy": "Master of unglamorous cyclicals \u2014 sugar, rice, paper, textiles \u2014 bought cheap and held through the cycle.",
+    "playbook": [
+     "~36 disclosed stocks, ~\u20b91,900\u20132,000 cr \u2014 a whole book of 'boring' names",
+     "Understands operating leverage: cheap cyclicals, huge upside in an upcycle",
+     "Long holding periods; ignores short-term market noise"
+    ],
+    "move": "Concentrated in the sugar & agri cycle most retail investors overlook",
+    "steep": 1.5,
+    "foot": "Disclosed shareholding (BSE/NSE filings, aggregator) \u00b7 Jun-2026; vendor values vary \u00b7 not advice",
+    "dur": 52.779
+   }
+  },
+  {
+   "id": "c92",
+   "type": "mw_statement",
+   "in_seconds": 63.639,
+   "out_seconds": 85.482,
+   "props": {
+    "kicker": "NINE WINNERS \u00b7 ONE THREAD",
+    "color": "#FBBF24",
+    "lines": [
+     "Loud or quiet.",
+     "Big or small.",
+     "They all did",
+     "the boring thing."
+    ],
+    "sub": "Now \u2014 the ways ordinary investors made money too.",
+    "dur": 22.343
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   1.802,
+   "Chapter nine. The sugar baron."
+  ],
+  [
+   2.433,
+   5.676,
+   "Our last individual winner made a fortune in the"
+  ],
+  [
+   5.676,
+   8.919,
+   "least glamorous corner of the market \u2014 the one"
+  ],
+  [
+   8.919,
+   10.36,
+   "everybody else scrolls past."
+  ],
+  [
+   10.86,
+   14.558,
+   "Anil Kumar Goel is known as the sugar baron"
+  ],
+  [
+   14.558,
+   15.791,
+   "of Dalal Street."
+  ],
+  [
+   16.423,
+   20.121,
+   "His disclosed portfolio \u2014 around thirty-six stocks\nworth close"
+  ],
+  [
+   20.121,
+   23.819,
+   "to two thousand crore rupees \u2014 is a whole"
+  ],
+  [
+   23.819,
+   27.518,
+   "book of 'boring' names: sugar, rice, paper,\npackaging, textiles."
+  ],
+  [
+   28.149,
+   31.848,
+   "Triveni Engineering. Dalmia Bharat Sugar. K-R-B-L,\nthe basmati company."
+  ],
+  [
+   32.479,
+   35.356,
+   "Why boring? Because Goel understands operating\nleverage."
+  ],
+  [
+   35.987,
+   39.686,
+   "Buy a cheap, out-of-favour cyclical near the bottom\nof"
+  ],
+  [
+   39.686,
+   43.384,
+   "its cycle, and when the upturn comes, profits\nexplode"
+  ],
+  [
+   43.384,
+   45.85,
+   "\u2014 and so does the stock."
+  ],
+  [
+   46.481,
+   50.18,
+   "He holds for years and ignores the daily noise"
+  ],
+  [
+   50.18,
+   50.591,
+   "completely."
+  ],
+  [
+   51.222,
+   54.92,
+   "There is no hot sector here, no story stock,"
+  ],
+  [
+   54.92,
+   58.619,
+   "no hype. Just a deep understanding of unglamorous\nbusinesses"
+  ],
+  [
+   58.619,
+   62.317,
+   "\u2014 and the patience to wait for the cycle"
+  ],
+  [
+   62.317,
+   63.139,
+   "to turn."
+  ],
+  [
+   63.639,
+   66.964,
+   "Nine verified winners. Loud and quiet, giant and\ntiny,"
+  ],
+  [
+   66.964,
+   68.072,
+   "concentrated and diversified."
+  ],
+  [
+   68.704,
+   72.028,
+   "And underneath, the same boring thread: own good\nthings,"
+  ],
+  [
+   72.028,
+   72.767,
+   "and wait."
+  ],
+  [
+   73.399,
+   76.723,
+   "But you don't have to be a billionaire to"
+  ],
+  [
+   76.723,
+   78.94,
+   "have made money these six months."
+  ],
+  [
+   79.571,
+   82.896,
+   "Let's look at how ordinary investors did it \u2014"
+  ],
+  [
+   82.896,
+   85.482,
+   "starting with where the money actually flowed."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch09.wav",
+   "volume": 1.0
+  }
+ }
+}

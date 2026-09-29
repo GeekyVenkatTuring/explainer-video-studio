@@ -1,0 +1,235 @@
+{
+ "cuts": [
+  {
+   "id": "d10",
+   "type": "mw_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 9.804,
+   "props": {
+    "n": 10,
+    "title": "Where the Money Flowed",
+    "sub": "Defence & capex carried the recovery",
+    "color": "#38BDF8",
+    "total": 14,
+    "dur": 10.304
+   }
+  },
+  {
+   "id": "s10a",
+   "type": "mw_statement",
+   "in_seconds": 10.304,
+   "out_seconds": 33.312,
+   "props": {
+    "kicker": "THE ENGINE OF THE RECOVERY",
+    "color": "#38BDF8",
+    "lines": [
+     "When India rebuilt,",
+     "it rearmed.",
+     "Defence led the way."
+    ],
+    "sub": "Order books, indigenisation, and a record defence budget.",
+    "dur": 23.508
+   }
+  },
+  {
+   "id": "s10b",
+   "type": "mw_bars",
+   "in_seconds": 33.812,
+   "out_seconds": 60.711,
+   "props": {
+    "kicker": "THE RECOVERY, UNEVENLY SHARED",
+    "title": "One stock, one sector, one index \u2014 off the April low",
+    "unit": "%",
+    "color": "#38BDF8",
+    "bars": [
+     {
+      "label": "Bharat\nElectronics",
+      "v": 55,
+      "c": "#34D399",
+      "tag": "from Apr low"
+     },
+     {
+      "label": "Defence\nsector",
+      "v": 24,
+      "c": "#A78BFA",
+      "tag": "2026 YTD"
+     },
+     {
+      "label": "Nifty 50",
+      "v": 9,
+      "c": "#38BDF8",
+      "tag": "off Apr low"
+     }
+    ],
+    "foot": "BEL rebound per Business Standard (23-May-2026); defence sector YTD (late-Aug); Nifty off its 2-Apr low \u00b7 not advice",
+    "dur": 27.399
+   }
+  },
+  {
+   "id": "s10c",
+   "type": "mw_statement",
+   "in_seconds": 61.211,
+   "out_seconds": 85.206,
+   "props": {
+    "kicker": "THE HONEST FOOTNOTE",
+    "color": "#FB7185",
+    "lines": [
+     "A tailwind is not",
+     "a guarantee.",
+     "You are seeing this",
+     "after it happened."
+    ],
+    "sub": "Chasing last quarter's winner is how the next correction finds you.",
+    "dur": 24.495
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   2.568,
+   "Chapter ten. Where the money actually flowed."
+  ],
+  [
+   3.2,
+   6.502,
+   "In a market that fell and recovered, the gains"
+  ],
+  [
+   6.502,
+   9.804,
+   "weren't spread evenly. One theme did the heavy\nlifting."
+  ],
+  [
+   10.304,
+   13.9,
+   "As the market clawed back from its April low,"
+  ],
+  [
+   13.9,
+   17.496,
+   "one sector led the charge \u2014 defence, and the"
+  ],
+  [
+   17.496,
+   19.494,
+   "broader capital-expenditure story behind it."
+  ],
+  [
+   20.126,
+   23.722,
+   "Record government spending, a national push to build\nweapons"
+  ],
+  [
+   23.722,
+   27.318,
+   "at home instead of importing them, and multi-year\norder"
+  ],
+  [
+   27.318,
+   30.915,
+   "books turned companies like Bharat Electronics and\nHindustan Aeronautics"
+  ],
+  [
+   30.915,
+   33.312,
+   "into the engines of the recovery."
+  ],
+  [
+   33.812,
+   35.229,
+   "Look at the gap."
+  ],
+  [
+   35.861,
+   39.05,
+   "From the April bottom, Bharat Electronics rebounded\nabout fifty-five"
+  ],
+  [
+   39.05,
+   40.467,
+   "percent to record highs."
+  ],
+  [
+   41.099,
+   44.288,
+   "The defence sector as a whole was up roughly"
+  ],
+  [
+   44.288,
+   46.06,
+   "twenty-four percent for the year."
+  ],
+  [
+   46.691,
+   49.881,
+   "The Nifty? Up about nine percent off the low."
+  ],
+  [
+   50.512,
+   52.638,
+   "Same six months, wildly different outcomes."
+  ],
+  [
+   53.27,
+   56.459,
+   "The people who made real money weren't smarter than"
+  ],
+  [
+   56.459,
+   59.648,
+   "the index \u2014 they were simply standing where the"
+  ],
+  [
+   59.648,
+   60.711,
+   "tailwind was blowing."
+  ],
+  [
+   61.211,
+   63.706,
+   "But here's the honesty most videos skip."
+  ],
+  [
+   64.338,
+   67.189,
+   "You're seeing this rally after it already happened."
+  ],
+  [
+   67.821,
+   71.029,
+   "A structural tailwind is real, but it is not"
+  ],
+  [
+   71.029,
+   74.237,
+   "a promise \u2014 defence stocks have run hard, and"
+  ],
+  [
+   74.237,
+   77.445,
+   "hot sectors are exactly where the next correction\ntends"
+  ],
+  [
+   77.445,
+   78.158,
+   "to start."
+  ],
+  [
+   78.79,
+   81.998,
+   "Recognising a trend is useful. Chasing it blindly,\nat"
+  ],
+  [
+   81.998,
+   85.206,
+   "the top, is how the fakes get their screenshots."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "mw/narration_ch10.wav",
+   "volume": 1.0
+  }
+ }
+}

@@ -1,0 +1,667 @@
+{
+ "cuts": [
+  {
+   "id": "german_title",
+   "type": "sm_ptitle",
+   "in_seconds": 0.0,
+   "out_seconds": 27.828,
+   "props": {
+    "title": "German Green Steel and Power IPO",
+    "sub": "TMT bars, Gujarat · ₹303.90 Cr · 25–29 Sep 2026",
+    "kicker": "IPO ANALYSIS · MAINBOARD · TMT STEEL",
+    "dur": 28.328
+   }
+  },
+  {
+   "id": "german_biz",
+   "type": "sm_iconcards",
+   "in_seconds": 28.328,
+   "out_seconds": 55.077,
+   "props": {
+    "kicker": "WHAT THE COMPANY DOES",
+    "title": "Business Model",
+    "color": "#84CC16",
+    "items": [
+     {
+      "emoji": "🏗️",
+      "k": "TMT bars, Gujarat",
+      "v": "TMT bars were 78.74% of FY26 revenue; also billets and sponge iron.",
+      "chip": "STEEL"
+     },
+     {
+      "emoji": "⚡",
+      "k": "Integrated with captive power",
+      "v": "A vertically integrated set-up in Kutch, including a captive power plant.",
+      "chip": "INTEGRATED"
+     },
+     {
+      "emoji": "🛣️",
+      "k": "Gujarat distribution",
+      "v": "An extensive dealer network in Gujarat with long customer relationships.",
+      "chip": "REACH"
+     }
+    ],
+    "dur": 27.249
+   }
+  },
+  {
+   "id": "german_fin",
+   "type": "sm_stats",
+   "in_seconds": 55.577,
+   "out_seconds": 98.708,
+   "props": {
+    "kicker": "FINANCIAL QUALITY · RESTATED (RHP)",
+    "title": "FY26 Financials",
+    "stats": [
+     {
+      "label": "Revenue from operations",
+      "to": 1678.9817,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#38BDF8",
+      "sub": "FY25: ₹1,507.57 Cr · +11.37%"
+     },
+     {
+      "label": "Profit after tax",
+      "to": 79.8887,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "FY25: ₹59.94 Cr"
+     },
+     {
+      "label": "PAT margin (computed)",
+      "to": 4.758163832280006,
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 2,
+      "color": "#FBBF24",
+      "sub": "FY25: 3.98%"
+     }
+    ],
+    "note": "Revenue +11.37% to ₹1,678.98 Cr; PAT +33.27% to ₹79.89 Cr. EBITDA margin 9.94%; debt-to-equity 0.79.",
+    "dur": 43.631
+   }
+  },
+  {
+   "id": "german_issue",
+   "type": "sm_stats",
+   "in_seconds": 99.208,
+   "out_seconds": 126.384,
+   "props": {
+    "kicker": "OFFER STRUCTURE · COMPUTED AT CAP",
+    "title": "Fresh Issue vs Offer for Sale",
+    "stats": [
+     {
+      "label": "Total offer (at cap)",
+      "to": 303.9,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#84CC16",
+      "sub": "band ₹132–₹139"
+     },
+     {
+      "label": "Fresh issue → company",
+      "to": 290.0,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#34D399",
+      "sub": "new capital"
+     },
+     {
+      "label": "Offer for sale → sellers",
+      "to": 13.9,
+      "prefix": "₹",
+      "suffix": " Cr",
+      "decimals": 2,
+      "color": "#FB7185",
+      "sub": "shareholder exit"
+     }
+    ],
+    "note": "95.43% fresh capital · 4.57% offer for sale (computed at the cap)",
+    "dur": 27.676
+   }
+  },
+  {
+   "id": "german_proceeds",
+   "type": "sm_iconcards",
+   "in_seconds": 126.884,
+   "out_seconds": 155.84,
+   "props": {
+    "kicker": "USE OF PROCEEDS · RHP OBJECTS",
+    "title": "Where The Money Goes",
+    "color": "#84CC16",
+    "items": [
+     {
+      "emoji": "🏭",
+      "k": "₹226.33 Cr expansion",
+      "v": "Expanding the Samakhiyali, Kutch plant plus a hybrid wind-solar power plant.",
+      "chip": "CAPEX"
+     },
+     {
+      "emoji": "🏦",
+      "k": "₹7.70 Cr debt",
+      "v": "Prepaying part of its borrowings.",
+      "chip": "DEBT"
+     },
+     {
+      "emoji": "👥",
+      "k": "₹13.90 Cr offer for sale",
+      "v": "Two promoters sell 5,00,000 shares each.",
+      "chip": "OFS"
+     }
+    ],
+    "dur": 29.456
+   }
+  },
+  {
+   "id": "german_peers",
+   "type": "sm_peers",
+   "in_seconds": 156.34,
+   "out_seconds": 188.923,
+   "props": {
+    "kicker": "VALUATION · P/E AT CAP vs LISTED PEERS",
+    "title": "Peer Comparison",
+    "color": "#84CC16",
+    "rows": [
+     {
+      "name": "German Green Steel and Power",
+      "pe": 9.32,
+      "note": "₹139 cap ÷ FY26 EPS ₹14.91",
+      "hi": true,
+      "display": "9.32x"
+     },
+     {
+      "name": "VMS TMT",
+      "pe": 8.92,
+      "note": "TMT peer",
+      "hi": false,
+      "display": "8.92x"
+     },
+     {
+      "name": "Kamdhenu",
+      "pe": 14.57,
+      "note": "TMT brand",
+      "hi": false,
+      "display": "14.57x"
+     },
+     {
+      "name": "Beekay Steel",
+      "pe": 22.54,
+      "note": "steel peer",
+      "hi": false,
+      "display": "22.54x"
+     },
+     {
+      "name": "Gallant Ispat",
+      "pe": 27.8,
+      "note": "integrated steel",
+      "hi": false,
+      "display": "27.80x"
+     }
+    ],
+    "verdict": "At 9.32x FY26 EPS, German Green Steel sits at the low end of its listed peers.",
+    "dur": 33.083
+   }
+  },
+  {
+   "id": "german_verdict",
+   "type": "sm_myths",
+   "in_seconds": 189.423,
+   "out_seconds": 227.936,
+   "props": {
+    "kicker": "BALANCED ANALYSIS",
+    "title": "Strengths vs Watch-outs",
+    "mythLabel": "⚠️ WATCH-OUTS",
+    "factLabel": "✅ EVIDENCE-BACKED STRENGTHS",
+    "pairs": [
+     {
+      "m": "The 'German TMT' brand is licensed, not owned",
+      "f": "9.32x P/E, at the low end of peers"
+     },
+     {
+      "m": "Trademark notices from H&K over 'TMX' use",
+      "f": "PAT up 33.27% to ₹79.89 Cr"
+     },
+     {
+      "m": "₹226.33 Cr expansion must be executed",
+      "f": "95.43% of the offer is fresh capital"
+     }
+    ],
+    "dur": 39.013
+   }
+  },
+  {
+   "id": "german_apply",
+   "type": "sm_iconcards",
+   "in_seconds": 228.436,
+   "out_seconds": 252.805,
+   "props": {
+    "kicker": "HOW TO APPLY",
+    "title": "Check Terms Before You Bid",
+    "color": "#84CC16",
+    "items": [
+     {
+      "emoji": "🧑",
+      "k": "Retail: up to ₹2 lakh",
+      "v": "Individual bids up to ₹2,00,000; lottery allotment if oversubscribed.",
+      "chip": "RETAIL"
+     },
+     {
+      "emoji": "💰",
+      "k": "Minimum bid",
+      "v": "107 shares × ₹139 = ₹14,873",
+      "chip": "1 LOT"
+     },
+     {
+      "emoji": "📅",
+      "k": "Bidding window",
+      "v": "25–29 Sep 2026 · UPI mandate by 5 PM on the last day.",
+      "chip": "DATES"
+     },
+     {
+      "emoji": "🔎",
+      "k": "Verify live",
+      "v": "Live subscription on NSE/BSE; the final RHP for everything else.",
+      "chip": "SOURCES"
+     }
+    ],
+    "dur": 24.869
+   }
+  },
+  {
+   "id": "german_recap",
+   "type": "sm_recap",
+   "in_seconds": 253.305,
+   "out_seconds": 300.769,
+   "props": {
+    "title": "German Green Steel and Power IPO — Recap",
+    "items": [
+     "FY26: revenue ₹1,678.98 Cr · PAT ₹79.89 Cr (4.76% margin)",
+     "Offer ₹303.90 Cr · fresh ₹290.00 Cr · OFS ₹13.90 Cr",
+     "Valuation: 9.32x FY26 EPS at the ₹139 cap",
+     "Minimum: ₹14,873 · 25–29 Sep 2026"
+    ],
+    "closer": "Education, not advice: read the RHP, decide for yourself.",
+    "dur": 47.964
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   3.273,
+   "This is the German Green Steel and Power I P O,"
+  ],
+  [
+   3.273,
+   4.526,
+   "a mainboard offer,"
+  ],
+  [
+   4.526,
+   8.704,
+   "open from the twenty-fifth to the twenty-ninth of September."
+  ],
+  [
+   9.204,
+   12.165,
+   "The price band is ₹132 to ₹139."
+  ],
+  [
+   12.165,
+   17.991,
+   "Every figure here comes from the final red herring prospectus"
+  ],
+  [
+   17.991,
+   19.996,
+   "and exchange notices;"
+  ],
+  [
+   19.996,
+   23.721,
+   "the final price is fixed after bidding,"
+  ],
+  [
+   23.721,
+   27.828,
+   "so valuations are computed at the ₹139 cap."
+  ],
+  [
+   28.328,
+   29.565,
+   "First, the business."
+  ],
+  [
+   30.065,
+   34.281,
+   "German Green Steel and Power makes TMT bars,"
+  ],
+  [
+   34.281,
+   38.592,
+   "the reinforcement steel used in construction,"
+  ],
+  [
+   38.592,
+   41.849,
+   "which were 78.74% of FY26 revenue."
+  ],
+  [
+   41.849,
+   45.489,
+   "It also sells billets and sponge iron."
+  ],
+  [
+   45.989,
+   47.932,
+   "Its plant in Kutch, Gujarat,"
+  ],
+  [
+   47.932,
+   51.539,
+   "is vertically integrated with a captive power plant,"
+  ],
+  [
+   51.539,
+   55.077,
+   "and it sells through a wide Gujarat dealer network."
+  ],
+  [
+   55.577,
+   57.177,
+   "The financial checkpoint."
+  ],
+  [
+   57.677,
+   70.623,
+   "FY26 revenue was ₹1,678.98 Cr, against ₹1,507.57 Cr in FY25,"
+  ],
+  [
+   70.623,
+   74.723,
+   "a change of 11.37%."
+  ],
+  [
+   75.223,
+   82.881,
+   "Profit after tax was ₹79.89 Cr, a margin of 4.76%."
+  ],
+  [
+   83.381,
+   87.599,
+   "Profit grew faster than revenue:"
+  ],
+  [
+   87.599,
+   95.243,
+   "33.27% against 11.37%, with the EBITDA margin up to 9.94%."
+  ],
+  [
+   95.743,
+   98.708,
+   "Debt to equity eased to 0.79."
+  ],
+  [
+   99.208,
+   104.435,
+   "The offer size at the cap is ₹303.90 Cr."
+  ],
+  [
+   104.935,
+   110.088,
+   "₹290.00 Cr is fresh issue that goes into the company,"
+  ],
+  [
+   110.088,
+   116.796,
+   "and ₹13.90 Cr is an offer for sale that goes to selling shareholders."
+  ],
+  [
+   117.296,
+   121.552,
+   "So 95.43% of the deal is new capital,"
+  ],
+  [
+   121.552,
+   126.384,
+   "and 4.57% is an exit for existing holders."
+  ],
+  [
+   126.884,
+   128.207,
+   "Where does the money go?"
+  ],
+  [
+   128.707,
+   131.896,
+   "Of the ₹290.00 Cr fresh issue,"
+  ],
+  [
+   131.896,
+   138.594,
+   "₹226.33 Cr funds expansion at Samakhiyali in Kutch and a hybrid"
+  ],
+  [
+   138.594,
+   141.464,
+   "wind and solar power plant."
+  ],
+  [
+   141.964,
+   144.132,
+   "₹7.70 Cr repays debt,"
+  ],
+  [
+   144.132,
+   148.983,
+   "and the rest is for general corporate purposes."
+  ],
+  [
+   149.483,
+   155.84,
+   "Two promoters sell 10,00,000 shares, about ₹13.90 Cr at the cap."
+  ],
+  [
+   156.34,
+   157.343,
+   "Valuation."
+  ],
+  [
+   157.843,
+   160.344,
+   "At the ₹139 cap,"
+  ],
+  [
+   160.344,
+   168.317,
+   "the price is 9.32x FY26 earnings of ₹14.91 a share."
+  ],
+  [
+   168.817,
+   177.457,
+   "Listed peers range from V M S TMT at 8.92x and Kamdhenu at"
+  ],
+  [
+   177.457,
+   185.649,
+   "14.57x to Beekay at 22.54x and Gallant Ispat at 27.80x."
+  ],
+  [
+   186.149,
+   188.923,
+   "So the pricing is at the low end of the range."
+  ],
+  [
+   189.423,
+   190.916,
+   "Now balance the evidence."
+  ],
+  [
+   191.416,
+   192.438,
+   "Watch-out:"
+  ],
+  [
+   192.438,
+   197.138,
+   "The 'German TMT' brand is licensed, not owned."
+  ],
+  [
+   197.138,
+   198.058,
+   "Strength:"
+  ],
+  [
+   198.058,
+   201.635,
+   "9.32x P/E, at the low end of peers."
+  ],
+  [
+   202.135,
+   203.609,
+   "Watch-out:"
+  ],
+  [
+   203.609,
+   209.799,
+   "Trademark notices from H&K over 'TMX' use."
+  ],
+  [
+   209.799,
+   211.126,
+   "Strength:"
+  ],
+  [
+   211.126,
+   215.105,
+   "PAT up 33.27% to ₹79.89 Cr."
+  ],
+  [
+   215.605,
+   216.917,
+   "Watch-out:"
+  ],
+  [
+   216.917,
+   221.902,
+   "₹226.33 Cr expansion must be executed."
+  ],
+  [
+   221.902,
+   223.082,
+   "Strength:"
+  ],
+  [
+   223.082,
+   227.936,
+   "95.43% of the offer is fresh capital."
+  ],
+  [
+   228.436,
+   229.567,
+   "How to apply."
+  ],
+  [
+   230.067,
+   234.909,
+   "The minimum bid is one lot of 107 shares,"
+  ],
+  [
+   234.909,
+   238.216,
+   "which is ₹14,873 at the cap."
+  ],
+  [
+   238.716,
+   242.191,
+   "Retail investors can bid up to two lakh rupees,"
+  ],
+  [
+   242.191,
+   246.332,
+   "and allotment is by lottery if retail is oversubscribed."
+  ],
+  [
+   246.832,
+   251.375,
+   "Check live subscription on the N S E or B S E website,"
+  ],
+  [
+   251.375,
+   252.805,
+   "not social media."
+  ],
+  [
+   253.305,
+   254.265,
+   "Let's recap."
+  ],
+  [
+   254.765,
+   261.21,
+   "FY26 revenue ₹1,678.98 Cr, profit ₹79.89 Cr."
+  ],
+  [
+   261.21,
+   270.291,
+   "The offer is ₹303.90 Cr, of which ₹13.90 Cr is offer for sale."
+  ],
+  [
+   270.291,
+   276.004,
+   "Valuation is 9.32x earnings at the cap."
+  ],
+  [
+   276.004,
+   280.984,
+   "The minimum investment is ₹14,873."
+  ],
+  [
+   281.484,
+   285.658,
+   "This video is public-source education from the red herring"
+  ],
+  [
+   285.658,
+   287.96,
+   "prospectus and exchange notices."
+  ],
+  [
+   287.96,
+   291.918,
+   "It is not investment advice and not a buy or sell call."
+  ],
+  [
+   291.918,
+   293.717,
+   "Read the final documents,"
+  ],
+  [
+   293.717,
+   296.596,
+   "check live subscription on the exchange,"
+  ],
+  [
+   296.596,
+   299.33,
+   "and consult a SEBI-registered adviser."
+  ],
+  [
+   299.33,
+   300.769,
+   "Thanks for watching."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "ipo28/german.wav",
+   "volume": 1.0
+  }
+ }
+}

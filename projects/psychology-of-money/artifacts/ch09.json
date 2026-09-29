@@ -1,0 +1,463 @@
+{
+ "cuts": [
+  {
+   "id": "ch09_divider",
+   "type": "pm_divider",
+   "in_seconds": 0.0,
+   "out_seconds": 13.963,
+   "props": {
+    "n": 9,
+    "total": 20,
+    "title": "Hidden Wealth",
+    "lines": [
+     "Wealth is what you do not see: the cars not bought, the upgrades declined.",
+     "Spending is the visible part. The unseen pile is the whole point."
+    ],
+    "color": "#A78BFA",
+    "dur": 14.463
+   }
+  },
+  {
+   "id": "ch09_unseen",
+   "type": "pm_sheet",
+   "in_seconds": 14.463,
+   "out_seconds": 52.083,
+   "props": {
+    "kicker": "WEALTH IS THE UNSPENT",
+    "title": "The iceberg, not the boat",
+    "rows": [
+     {
+      "k": "Definition",
+      "v": "Wealth is financial assets that have not yet been converted into stuff.",
+      "c": "#E8B86D"
+     },
+     {
+      "k": "Rich vs wealth",
+      "v": "Rich is current income. Wealth is unspent income. A high salary with a high burn rate can be poor in options.",
+      "c": "#FBBF24"
+     },
+     {
+      "k": "Why we misread",
+      "v": "We study visible spending and copy it. We cannot study the neighbor's brokerage lot.",
+      "c": "#A78BFA"
+     },
+     {
+      "k": "Energy analogy",
+      "v": "The U.S. uses about 60% less energy per dollar of G.D.P. than it did decades ago \u2014 efficiency is invisible like savings.",
+      "c": "#38BDF8"
+     },
+     {
+      "k": "Rule",
+      "v": "The world is filled with people who look rich and are one paycheck from tight. Judge unseen reserves, not chrome.",
+      "c": "#34D399"
+     }
+    ],
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 38.12
+   }
+  },
+  {
+   "id": "ch09_iceberg",
+   "type": "pm_dual",
+   "in_seconds": 52.583,
+   "out_seconds": 92.156,
+   "props": {
+    "kicker": "VISIBLE VERSUS INVISIBLE",
+    "title": "Why we copy the wrong neighbor",
+    "left": {
+     "name": "What is visible",
+     "tag": "easy to copy",
+     "c": "#FBBF24",
+     "lines": [
+      "Cars, watches, additions, vacations posted online.",
+      "That spending is the opposite of wealth. It is wealth converted into stuff."
+     ]
+    },
+    "right": {
+     "name": "What is hidden",
+     "tag": "the actual pile",
+     "c": "#34D399",
+     "lines": [
+      "Brokerage lots, paid-off houses, unused credit lines, a job you can quit.",
+      "You cannot screenshot someone else's savings rate. So you copy their burn rate instead.",
+      "The 60% drop in energy per dollar of G.D.P. is the same shape: the win is the waste you do not see."
+     ]
+    },
+    "color": "#A78BFA",
+    "note": "",
+    "dur": 40.073
+   }
+  },
+  {
+   "id": "ch09_hidden-do",
+   "type": "pm_list",
+   "in_seconds": 92.656,
+   "out_seconds": 109.591,
+   "props": {
+    "kicker": "HIDDEN WEALTH \u00b7 RULES",
+    "title": "Judge reserves, not chrome",
+    "items": [
+     "When you see a nice lifestyle, remember you are seeing the expense, not the net worth.",
+     "The most valuable assets do not photograph well. That is the point.",
+     "Building wealth is often the art of looking poorer than you are, on purpose."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 17.435
+   }
+  },
+  {
+   "id": "ch09_hidden-close",
+   "type": "pm_list",
+   "in_seconds": 110.091,
+   "out_seconds": 132.21,
+   "props": {
+    "kicker": "CHAPTER 9 \u00b7 CLOSE",
+    "title": "Copy the reserve, not the burn",
+    "items": [
+     "What you can see is the expense. What you cannot see is the net worth.",
+     "Savings rates do not screenshot well. That is why people copy lifestyles instead.",
+     "Looking poorer than you are can be a strategy, not a failure of taste.",
+     "Judge the iceberg. The boat is just the part that photographs."
+    ],
+    "color": "#34D399",
+    "note": "",
+    "dur": 22.619
+   }
+  }
+ ],
+ "captions": [
+  [
+   0.0,
+   0.847,
+   "Chapter 9."
+  ],
+  [
+   0.847,
+   1.693,
+   "Hidden Wealth."
+  ],
+  [
+   2.325,
+   5.288,
+   "Wealth is what you do not see:"
+  ],
+  [
+   5.288,
+   6.981,
+   "the cars not bought,"
+  ],
+  [
+   6.981,
+   8.251,
+   "the upgrades declined."
+  ],
+  [
+   8.883,
+   11.0,
+   "Spending is the visible part."
+  ],
+  [
+   11.0,
+   13.963,
+   "The unseen pile is the whole point."
+  ],
+  [
+   14.463,
+   17.617,
+   "Wealth is financial assets that have not\nyet"
+  ],
+  [
+   17.617,
+   19.195,
+   "been converted into stuff."
+  ],
+  [
+   19.826,
+   21.404,
+   "Rich is current income."
+  ],
+  [
+   21.404,
+   22.981,
+   "Wealth is unspent income."
+  ],
+  [
+   22.981,
+   26.135,
+   "A high salary with a high burn rate"
+  ],
+  [
+   26.135,
+   28.107,
+   "can be poor in options."
+  ],
+  [
+   28.738,
+   31.499,
+   "We study visible spending and copy it."
+  ],
+  [
+   31.499,
+   34.259,
+   "We cannot study the neighbor's brokerage\nlot."
+  ],
+  [
+   34.89,
+   35.679,
+   "The U.S."
+  ],
+  [
+   35.679,
+   38.833,
+   "uses about sixty percent less energy per\ndollar"
+  ],
+  [
+   38.833,
+   39.622,
+   "of G.D.P."
+  ],
+  [
+   39.622,
+   41.594,
+   "than it did decades ago."
+  ],
+  [
+   41.594,
+   42.777,
+   "Efficiency is invisible,"
+  ],
+  [
+   42.777,
+   43.565,
+   "like savings."
+  ],
+  [
+   44.197,
+   47.351,
+   "The world is filled with people who look"
+  ],
+  [
+   47.351,
+   50.111,
+   "rich and are one paycheck from tight."
+  ],
+  [
+   50.111,
+   51.294,
+   "Judge unseen reserves,"
+  ],
+  [
+   51.294,
+   52.083,
+   "not chrome."
+  ],
+  [
+   52.583,
+   53.831,
+   "What is visible."
+  ],
+  [
+   53.831,
+   55.08,
+   "easy to copy"
+  ],
+  [
+   55.711,
+   56.959,
+   "What is visible:"
+  ],
+  [
+   56.959,
+   57.375,
+   "cars,"
+  ],
+  [
+   57.375,
+   57.792,
+   "watches,"
+  ],
+  [
+   57.792,
+   58.208,
+   "additions,"
+  ],
+  [
+   58.208,
+   59.456,
+   "vacations posted online."
+  ],
+  [
+   60.087,
+   63.0,
+   "That spending is the opposite of wealth."
+  ],
+  [
+   63.0,
+   65.497,
+   "It is wealth converted into stuff."
+  ],
+  [
+   66.128,
+   67.376,
+   "What is hidden."
+  ],
+  [
+   67.376,
+   68.625,
+   "the actual pile"
+  ],
+  [
+   69.256,
+   70.505,
+   "What is hidden:"
+  ],
+  [
+   70.505,
+   71.337,
+   "brokerage lots,"
+  ],
+  [
+   71.337,
+   72.169,
+   "paid-off houses,"
+  ],
+  [
+   72.169,
+   73.417,
+   "unused credit lines,"
+  ],
+  [
+   73.417,
+   75.498,
+   "a job you can quit."
+  ],
+  [
+   76.129,
+   79.042,
+   "You cannot screenshot someone else's\nsavings rate."
+  ],
+  [
+   79.042,
+   81.954,
+   "So you copy their burn rate instead."
+  ],
+  [
+   82.586,
+   85.915,
+   "The sixty percent drop in energy per\ndollar"
+  ],
+  [
+   85.915,
+   86.747,
+   "of G.D.P."
+  ],
+  [
+   86.747,
+   88.411,
+   "is the same shape:"
+  ],
+  [
+   88.411,
+   91.74,
+   "the win is the waste you do not"
+  ],
+  [
+   91.74,
+   92.156,
+   "see."
+  ],
+  [
+   92.656,
+   94.895,
+   "When you see a nice lifestyle,"
+  ],
+  [
+   94.895,
+   97.134,
+   "remember you are seeing the expense,"
+  ],
+  [
+   97.134,
+   98.626,
+   "not the net worth."
+  ],
+  [
+   99.258,
+   102.243,
+   "The most valuable assets do not photograph\nwell."
+  ],
+  [
+   102.243,
+   103.735,
+   "That is the point."
+  ],
+  [
+   104.367,
+   107.352,
+   "Building wealth is often the art of\nlooking"
+  ],
+  [
+   107.352,
+   108.845,
+   "poorer than you are,"
+  ],
+  [
+   108.845,
+   109.591,
+   "on purpose."
+  ],
+  [
+   110.091,
+   112.762,
+   "What you can see is the expense."
+  ],
+  [
+   112.762,
+   115.815,
+   "What you cannot see is the net worth."
+  ],
+  [
+   116.446,
+   118.736,
+   "Savings rates do not screenshot well."
+  ],
+  [
+   118.736,
+   121.407,
+   "That is why people copy lifestyles\ninstead."
+  ],
+  [
+   122.039,
+   125.091,
+   "Looking poorer than you are can be a"
+  ],
+  [
+   125.091,
+   125.473,
+   "strategy,"
+  ],
+  [
+   125.473,
+   127.381,
+   "not a failure of taste."
+  ],
+  [
+   128.013,
+   129.157,
+   "Judge the iceberg."
+  ],
+  [
+   129.157,
+   132.21,
+   "The boat is just the part that\nphotographs."
+  ]
+ ],
+ "audio": {
+  "narration": {
+   "src": "pm/ch09.wav",
+   "volume": 1.0
+  }
+ }
+}
