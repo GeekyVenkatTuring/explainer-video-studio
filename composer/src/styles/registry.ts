@@ -17,6 +17,7 @@ import { isoPack } from "./packs/iso";
 import { isoX } from "./packs/iso-x";
 import { ledger } from "./packs/ledger";
 import { ledgerX } from "./packs/ledger-x";
+import { terminal } from "./packs/terminal";
 
 const withGeneric = (p: StylePack, g: StylePack["scenes"]): StylePack => ({ ...p, scenes: { ...p.scenes, ...g } });
 
@@ -31,4 +32,5 @@ export const PACKS: Record<string, StylePack> = {
   brutal,  // neo-brutalist UI
   iso: withGeneric(isoPack, isoX), // isometric diagrams (2D SVG) + algorithm scenes
   ledger: withGeneric(ledger, ledgerX), // spreadsheet worksheet + agents-over-data scenes
+  terminal, // phosphor CRT console — implements the 8 generic archetypes natively
 };
